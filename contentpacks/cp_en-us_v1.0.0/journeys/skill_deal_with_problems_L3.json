@@ -1,0 +1,112 @@
+{
+  "journeyId": "skill_deal_with_problems_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_hotel_issue_b1",
+    "skin_cafe_order_b1",
+    "skin_device_repair_b1",
+    "skin_delivery_problem_b1",
+    "skin_landlord_maintenance_b1"
+  ],
+  "intelPacks": [
+    "intel_b1_hotel_prob",
+    "intel_b1_cafe_prob",
+    "intel_b1_device_prob",
+    "intel_b1_delivery_prob",
+    "intel_b1_landlord_prob"
+  ],
+  "noticeAssets": [
+    "n_b1_prob_hotel_01",
+    "n_b1_prob_hotel_02",
+    "n_b1_prob_cafe_01",
+    "n_b1_prob_cafe_02",
+    "n_b1_prob_device_01",
+    "n_b1_prob_device_02",
+    "n_b1_prob_delivery_01",
+    "n_b1_prob_delivery_02",
+    "n_b1_prob_landlord_01",
+    "n_b1_prob_landlord_02"
+  ],
+  "adaptAssets": [
+    "a_b1_prob_hotel",
+    "a_b1_prob_cafe",
+    "a_b1_prob_device",
+    "a_b1_prob_delivery",
+    "a_b1_prob_landlord"
+  ],
+  "reflectAssets": [
+    "r_b1_prob_hotel",
+    "r_b1_prob_cafe",
+    "r_b1_prob_device",
+    "r_b1_prob_delivery",
+    "r_b1_prob_landlord"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b1_problems",
+    "skillId": "skill_deal_with_problems",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "f_report",
+        "pattern": "I'm having a problem with the {item}.",
+        "slots": [
+          "item"
+        ],
+        "notes": "Report a problem."
+      },
+      {
+        "frameId": "f_detail",
+        "pattern": "It {issue} and it started {time}.",
+        "slots": [
+          "issue",
+          "time"
+        ],
+        "notes": "Add detail + time."
+      },
+      {
+        "frameId": "f_request",
+        "pattern": "Could you {action}, please?",
+        "slots": [
+          "action"
+        ],
+        "notes": "Request help politely."
+      },
+      {
+        "frameId": "f_option",
+        "pattern": "Is it possible to {option} instead?",
+        "slots": [
+          "option"
+        ],
+        "notes": "Offer an alternative."
+      },
+      {
+        "frameId": "f_confirm_time",
+        "pattern": "Just to confirm, someone will come at {time}, right?",
+        "slots": [
+          "time"
+        ],
+        "notes": "Confirm."
+      },
+      {
+        "frameId": "f_close",
+        "pattern": "Thanks for your help. I appreciate it.",
+        "slots": [],
+        "notes": "Close politely."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry, could you explain that again?",
+        "notes": "Clarify."
+      },
+      {
+        "text": "Could we try another option?",
+        "notes": "Negotiation starter."
+      }
+    ]
+  }
+}

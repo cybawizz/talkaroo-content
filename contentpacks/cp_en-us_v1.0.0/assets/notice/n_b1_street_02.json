@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_street_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Pick the next step.",
+  "script": "Go straight two blocks, then turn left at the bank.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Turn right at the bank",
+      "Turn left at the bank",
+      "Stop at the park",
+      "Go back home"
+    ],
+    "answerIndex": 1
+  }
+}

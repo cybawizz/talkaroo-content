@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_story_weekend",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_weekend_story",
+  "prompt": "Answer the interruption and continue the story smoothly.",
+  "setup": "You tell your weekend story, but your friend interrupts and asks for one missing detail.",
+  "aiMove": "Wait, sorry—who exactly did you go to the concert with? Was it your brother?",
+  "successCriteria": [
+    "Answer the interruption",
+    "Continue story smoothly"
+  ]
+}

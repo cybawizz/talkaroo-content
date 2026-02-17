@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_mall_L2",
+  "skinId": "skin_mall_info",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Where is the bank?",
+      "example": "Where is the bank?"
+    },
+    {
+      "text": "Which floor is it on?",
+      "example": "Which floor is it on?"
+    },
+    {
+      "text": "It’s on the top level.",
+      "example": "It’s on the top level."
+    },
+    {
+      "text": "Next to the stairs.",
+      "example": "It’s next to the stairs."
+    },
+    {
+      "text": "Near the entrance.",
+      "example": "It’s near the entrance."
+    },
+    {
+      "text": "Behind the café.",
+      "example": "The elevator is behind the café."
+    },
+    {
+      "text": "Could you show me?",
+      "example": "Could you show me on the map?"
+    },
+    {
+      "text": "So, top level near the stairs?",
+      "example": "So, top level near the stairs?"
+    }
+  ]
+}

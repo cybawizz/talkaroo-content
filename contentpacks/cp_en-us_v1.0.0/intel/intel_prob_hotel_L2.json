@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_prob_hotel_L2",
+  "skinId": "skin_hotel_problem",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Excuse me, I have a problem.",
+      "example": "Excuse me, I have a problem in my room."
+    },
+    {
+      "text": "The air conditioning is not working.",
+      "example": "The air conditioning is not working."
+    },
+    {
+      "text": "It does not turn on.",
+      "example": "It does not turn on."
+    },
+    {
+      "text": "My room number is ...",
+      "example": "My room number is 504."
+    },
+    {
+      "text": "Can you send someone?",
+      "example": "Can you send someone to my room?"
+    },
+    {
+      "text": "A technician will come.",
+      "example": "A technician will come soon."
+    },
+    {
+      "text": "It will take ... minutes.",
+      "example": "It will take ten minutes."
+    },
+    {
+      "text": "So they will come now, right?",
+      "example": "So they will come now, right?"
+    }
+  ]
+}

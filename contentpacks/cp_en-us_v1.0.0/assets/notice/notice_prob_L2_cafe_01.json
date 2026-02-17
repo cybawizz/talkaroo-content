@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_cafe_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_cafe_mistake",
+  "prompt": "Identify the issue.",
+  "script": "Excuse me, this coffee is cold.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Coffee is hot",
+      "Coffee is cold",
+      "Coffee is free",
+      "Coffee is empty"
+    ],
+    "answerIndex": 1
+  }
+}

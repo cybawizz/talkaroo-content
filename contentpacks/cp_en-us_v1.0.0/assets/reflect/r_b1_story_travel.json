@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_story_travel",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_travel_mishap",
+  "prompt": "Add the outcome.",
+  "items": [
+    {
+      "bad": "I missed train so taxi.",
+      "better": "I missed the last train, so I took a taxi. In the end, I arrived on time.",
+      "note": "Problem + solution + outcome."
+    }
+  ]
+}

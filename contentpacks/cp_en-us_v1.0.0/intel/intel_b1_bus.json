@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_b1_bus",
+  "skinId": "skin_bus_station_info",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Which bus goes to ...?",
+      "example": "Which bus goes to the airport?"
+    },
+    {
+      "text": "Which platform is it?",
+      "example": "Which platform is it today?"
+    },
+    {
+      "text": "When is the next one?",
+      "example": "When is the next one?"
+    },
+    {
+      "text": "Is it usually on time?",
+      "example": "Is it usually on time in the morning?"
+    },
+    {
+      "text": "How long is the ride?",
+      "example": "How long is the ride to the airport?"
+    },
+    {
+      "text": "Just to confirm, it’s bus ... from platform ...?",
+      "example": "Just to confirm, it’s bus 7 from platform 3?"
+    }
+  ]
+}

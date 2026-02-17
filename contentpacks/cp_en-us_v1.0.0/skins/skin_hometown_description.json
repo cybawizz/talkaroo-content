@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_hometown_description",
+  "name": "Talking About Your Hometown",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your hometown and recommend one place to visit with a reason.",
+    "aiGoal": "Ask when the best time to visit is."
+  },
+  "allowedIntents": [
+    "describe_place",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "hometown",
+    "recommendation"
+  ]
+}

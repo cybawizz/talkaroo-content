@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_manage_conv_L2_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Say it better (simple detail).",
+  "items": [
+    {
+      "bad": "I new here.",
+      "better": "I'm new here. I moved in last week.",
+      "note": "Add one time detail."
+    },
+    {
+      "bad": "See you.",
+      "better": "Nice to meet you. See you around.",
+      "note": "Friendly closing."
+    }
+  ]
+}

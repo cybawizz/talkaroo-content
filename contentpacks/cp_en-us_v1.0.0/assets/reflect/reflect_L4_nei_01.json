@@ -1,0 +1,17 @@
+{
+  "reflectId": "reflect_L4_nei_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "Say it gently but firmly.",
+  "items": [
+    {
+      "bad": "You’re too loud every night.",
+      "better": "I don’t want to blame you, but the noise late at night has been affecting sleep."
+    },
+    {
+      "bad": "Just be quiet.",
+      "better": "Would you mind keeping it a bit quieter after 10 on weekdays?"
+    }
+  ]
+}

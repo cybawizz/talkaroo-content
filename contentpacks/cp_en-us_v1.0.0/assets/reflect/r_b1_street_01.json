@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Say it more clearly.",
+  "items": [
+    {
+      "bad": "Where museum? How long?",
+      "better": "Could you tell me how to get to the museum, and how long it takes to walk?",
+      "note": "Use a polite opener + two-part question."
+    }
+  ]
+}

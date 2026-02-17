@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_neighborhood_compare_b2",
+  "name": "Comparing Neighborhoods",
+  "category": "neighborhood",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your area and compare it with another place using clear reasons.",
+    "aiGoal": "Ask for comparisons and specific examples."
+  },
+  "allowedIntents": [
+    "describe_place",
+    "give_reason",
+    "respond_follow_up",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "neutral"
+  },
+  "tags": [
+    "place",
+    "comparison",
+    "reasons"
+  ]
+}

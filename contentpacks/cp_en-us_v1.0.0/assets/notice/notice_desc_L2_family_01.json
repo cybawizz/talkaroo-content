@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_desc_L2_family_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_family_member",
+  "prompt": "Understand the routine.",
+  "script": "Every day, she walks to work.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "She drives to work",
+      "She walks to work daily",
+      "She never works",
+      "She works at night"
+    ],
+    "answerIndex": 1
+  }
+}

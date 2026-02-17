@@ -1,0 +1,53 @@
+{
+    "courseId": "course_a1_v1.0.0",
+    "cefrLevel": "A1",
+    "status": "locked",
+    "locale": "en-US",
+    "contentPackVersion": "cp_en-us_v1.0.0",
+    "engineVersion": "engine_a1_v1.0.0",
+    "a1RulesFrozen": true,
+    "rules": {
+        "nodeOrder": [
+            "VOCAB",
+            "NOTICE",
+            "BUILD",
+            "FLOW"
+        ],
+        "maxFollowUps": 0,
+        "allowOpinions": false,
+        "allowResistance": false,
+        "allowReasonsBecauseSo": false,
+        "maxNoticeWords": 10,
+        "reflectMode": "off"
+    },
+    "journeys": [
+        {
+            "journeyId": "skill_manage_conversations_L1",
+            "journeyName": "Starting & Managing Conversations",
+            "level": 1,
+            "status": "active",
+            "sourceFile": "skill_manage_conversations_L1.json"
+        },
+        {
+            "journeyId": "skill_ask_information_help_L1",
+            "journeyName": "Asking for Information & Help",
+            "level": 1,
+            "status": "active",
+            "sourceFile": "skill_ask_information_help_L1.json"
+        },
+        {
+            "journeyId": "skill_describe_basic_L1",
+            "journeyName": "Describing People, Places & Daily Life",
+            "level": 1,
+            "status": "active",
+            "sourceFile": "skill_describe_basic_L1.json"
+        },
+        {
+            "journeyId": "skill_deal_with_problems_L1",
+            "journeyName": "Dealing with Problems & Services",
+            "level": 1,
+            "status": "active",
+            "sourceFile": "skill_deal_with_problems_L1.json"
+        }
+    ]
+}

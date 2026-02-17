@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_b1_office_break",
+  "name": "Office Break Room",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Colleague"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Start a conversation about a small workplace policy change, give an opinion, and explain why.",
+    "aiGoal": "Respond cautiously, ask the user to clarify, and raise one concern."
+  },
+  "allowedIntents": [
+    "greet",
+    "express_opinion",
+    "give_reason",
+    "clarify_position",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "policy",
+    "professional"
+  ]
+}

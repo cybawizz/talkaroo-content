@@ -1,0 +1,127 @@
+{
+  "journeyId": "skill_ask_information_help_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_street_directions",
+    "skin_hotel_reception",
+    "skin_mall_info",
+    "skin_pharmacy_help",
+    "skin_bus_station_info"
+  ],
+  "intelPacks": [
+    "intel_b1_street",
+    "intel_b1_hotel",
+    "intel_b1_mall",
+    "intel_b1_pharmacy",
+    "intel_b1_bus"
+  ],
+  "noticeAssets": [
+    "n_b1_street_01",
+    "n_b1_street_02",
+    "n_b1_hotel_01",
+    "n_b1_hotel_02",
+    "n_b1_mall_01",
+    "n_b1_mall_02",
+    "n_b1_pharmacy_01",
+    "n_b1_pharmacy_02",
+    "n_b1_bus_01",
+    "n_b1_bus_02"
+  ],
+  "adaptAssets": [
+    "a_b1_street_01",
+    "a_b1_hotel_01",
+    "a_b1_mall_01",
+    "a_b1_pharmacy_01",
+    "a_b1_bus_01"
+  ],
+  "reflectAssets": [
+    "r_b1_street_01",
+    "r_b1_hotel_01",
+    "r_b1_mall_01",
+    "r_b1_pharmacy_01",
+    "r_b1_bus_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b1_info_help",
+    "skillId": "skill_ask_information_help",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "f_polite_ask",
+        "pattern": "Could you tell me {topic}?",
+        "slots": [
+          "topic"
+        ],
+        "notes": "Standard B1 polite inquiry."
+      },
+      {
+        "frameId": "f_follow_up_clarify",
+        "pattern": "Do you mean that {statement}?",
+        "slots": [
+          "statement"
+        ],
+        "notes": "Clarifying specific information heard."
+      },
+      {
+        "frameId": "f_resistance_handling",
+        "pattern": "Oh, I see. Since {constraint}, is there another way?",
+        "slots": [
+          "constraint"
+        ],
+        "notes": "Handling resistance like 'closed' or 'busy'."
+      },
+      {
+        "frameId": "f_alt_option",
+        "pattern": "What if I {action} instead?",
+        "slots": [
+          "action"
+        ],
+        "notes": "Proposing an alternative next step."
+      },
+      {
+        "frameId": "f_not_understood",
+        "pattern": "I'm not sure I understood {detail}. Could you explain again?",
+        "slots": [
+          "detail"
+        ],
+        "notes": "Requesting repetition of a detail."
+      },
+      {
+        "frameId": "f_confirm_detail",
+        "pattern": "Just to confirm, {information}, right?",
+        "slots": [
+          "information"
+        ],
+        "notes": "Confirming a specific fact."
+      },
+      {
+        "frameId": "f_time_check",
+        "pattern": "About how long does it take to {action}?",
+        "slots": [
+          "action"
+        ],
+        "notes": "Checking time."
+      },
+      {
+        "frameId": "f_closing_polite",
+        "pattern": "Thanks a lot for your help. Have a nice day.",
+        "slots": [],
+        "notes": "Polite closing."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry, one more time, please?",
+        "notes": "General repair phrase."
+      },
+      {
+        "text": "I'm sorry, I don't know the word for this in English.",
+        "notes": "Vocabulary gap handler."
+      }
+    ]
+  }
+}

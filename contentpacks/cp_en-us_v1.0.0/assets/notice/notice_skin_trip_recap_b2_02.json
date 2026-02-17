@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_trip_recap_b2_02",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_trip_recap_b2",
+  "prompt": "Identify the emphasis.",
+  "script": "Honestly, I didn’t expect the place to be that busy.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Giving a time",
+      "Expressing surprise",
+      "Asking a question",
+      "Ending the story"
+    ],
+    "answerIndex": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_food_preferences_b2",
+  "name": "Choosing Where to Eat",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Share a preference, give reasons, and respond to a different opinion.",
+    "aiGoal": "Offer a different view and ask the user to justify their choice."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "agree_disagree",
+    "respond_to_opinion",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "preferences",
+    "reasons",
+    "social"
+  ]
+}

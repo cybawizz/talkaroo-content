@@ -1,0 +1,98 @@
+{
+  "journeyId": "skill_deal_with_problems_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_hotel_complaint_b2",
+    "skin_delivery_issue_b2",
+    "skin_device_repair_b2",
+    "skin_restaurant_issue_b2"
+  ],
+  "intelPacks": [
+    "intel_skin_hotel_complaint_b2_B2",
+    "intel_skin_delivery_issue_b2_B2",
+    "intel_skin_device_repair_b2_B2",
+    "intel_skin_restaurant_issue_b2_B2"
+  ],
+  "noticeAssets": [
+    "notice_skin_hotel_complaint_b2_01",
+    "notice_skin_hotel_complaint_b2_02",
+    "notice_skin_delivery_issue_b2_01",
+    "notice_skin_delivery_issue_b2_02",
+    "notice_skin_device_repair_b2_01",
+    "notice_skin_device_repair_b2_02",
+    "notice_skin_restaurant_issue_b2_01",
+    "notice_skin_restaurant_issue_b2_02"
+  ],
+  "adaptAssets": [
+    "adapt_skin_hotel_complaint_b2_01",
+    "adapt_skin_delivery_issue_b2_01",
+    "adapt_skin_device_repair_b2_01",
+    "adapt_skin_restaurant_issue_b2_01"
+  ],
+  "reflectAssets": [
+    "reflect_skin_hotel_complaint_b2_01",
+    "reflect_skin_delivery_issue_b2_01",
+    "reflect_skin_device_repair_b2_01",
+    "reflect_skin_restaurant_issue_b2_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b2_problems",
+    "skillId": "skill_deal_with_problems",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_b2_issue",
+        "pattern": "I’m afraid there’s an issue with {item}.",
+        "slots": [
+          "item"
+        ],
+        "notes": "Polite problem statement."
+      },
+      {
+        "frameId": "f_b2_request",
+        "pattern": "Could we look at a couple of options to {goal}?",
+        "slots": [
+          "goal"
+        ],
+        "notes": "Collaborative request."
+      },
+      {
+        "frameId": "f_b2_resistance",
+        "pattern": "I understand. If that’s not possible, could we {alternative}?",
+        "slots": [
+          "alternative"
+        ],
+        "notes": "Handle resistance."
+      },
+      {
+        "frameId": "f_b2_confirm",
+        "pattern": "Just to confirm, you will {action} by {time}, right?",
+        "slots": [
+          "action",
+          "time"
+        ],
+        "notes": "Confirm outcome/time."
+      },
+      {
+        "frameId": "f_b2_thanks",
+        "pattern": "Thanks for sorting this out.",
+        "slots": [],
+        "notes": "Close politely."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Could you repeat the options once more?",
+        "notes": "Clarify options"
+      },
+      {
+        "text": "Let me check the details and get back to you.",
+        "notes": "Stall for info"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_daily_routine_b1",
+  "name": "Weekday Routine",
+  "category": "routine",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Student"
+    },
+    {
+      "roleId": "ai",
+      "label": "Tutor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your morning routine with sequence and times, and explain why you do one habit.",
+    "aiGoal": "Ask how you get to work/school and what you do if you’re late."
+  },
+  "allowedIntents": [
+    "describe_routine",
+    "describe_time",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "routine",
+    "time",
+    "habits"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_person_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_person_basic",
+  "prompt": "What does he do?",
+  "script": "I go to work at eight.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Goes to work",
+      "Goes to school",
+      "Stays home",
+      "Goes to bed"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "journeyId": "skill_ask_information_help_L1",
+  "skill": {
+    "cefrBand": "A1",
+    "level": 1
+  },
+  "skins": [
+    "skin_street_basic",
+    "skin_shop_basic",
+    "skin_station_basic"
+  ],
+  "intelPacks": [
+    "intel_skin_street_basic_L1",
+    "intel_skin_shop_basic_L1",
+    "intel_skin_station_basic_L1"
+  ],
+  "noticeAssets": [
+    "n_a1_j2_street_01",
+    "n_a1_j2_street_02",
+    "n_a1_j2_shop_01",
+    "n_a1_j2_shop_02",
+    "n_a1_j2_station_01",
+    "n_a1_j2_station_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_ask_information_help_L1",
+    "skillId": "skill_ask_information_help",
+    "level": 1,
+    "frames": [
+      {
+        "frameId": "f_ask_where",
+        "pattern": "Excuse me. Where is the {place}?",
+        "slots": [
+          "place"
+        ],
+        "notes": "Simple location question."
+      },
+      {
+        "frameId": "f_near",
+        "pattern": "Is it near here?",
+        "slots": [],
+        "notes": "Distance check."
+      },
+      {
+        "frameId": "f_price",
+        "pattern": "How much is this?",
+        "slots": [],
+        "notes": "Price question."
+      },
+      {
+        "frameId": "f_turn",
+        "pattern": "Turn {dir} at the corner.",
+        "slots": [
+          "dir"
+        ],
+        "notes": "Simple direction."
+      },
+      {
+        "frameId": "f_thanks_help",
+        "pattern": "Thank you for your help!",
+        "slots": [],
+        "notes": "Closing gratitude."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry. Again, please.",
+        "notes": "A1 repair phrase."
+      }
+    ]
+  }
+}

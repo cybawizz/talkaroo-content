@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_work_op",
+  "skinId": "skin_work_policy_opinion",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I think ... is helpful.",
+      "example": "I think the new schedule is helpful."
+    },
+    {
+      "text": "That's because ...",
+      "example": "That's because meetings are shorter."
+    },
+    {
+      "text": "I'm not sure about that.",
+      "example": "I'm not sure about working late every day."
+    },
+    {
+      "text": "Could you explain your view?",
+      "example": "Could you explain your view about this change?"
+    },
+    {
+      "text": "My concern is ...",
+      "example": "My concern is work-life balance."
+    },
+    {
+      "text": "Maybe we could ...",
+      "example": "Maybe we could try it for one month."
+    },
+    {
+      "text": "Let's see how it goes.",
+      "example": "Let's see how it goes."
+    }
+  ]
+}

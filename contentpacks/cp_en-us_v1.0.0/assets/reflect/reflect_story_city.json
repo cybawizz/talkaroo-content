@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_story_city",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_city_trip",
+  "mode": "light",
+  "prompt": "Say it better (sequence).",
+  "items": [
+    {
+      "bad": "I visit museum then station.",
+      "better": "I visited the museum. Then I walked to the station.",
+      "note": "Use past verbs."
+    },
+    {
+      "bad": "Come back six.",
+      "better": "I came back at six.",
+      "note": "Add 'at'."
+    }
+  ]
+}

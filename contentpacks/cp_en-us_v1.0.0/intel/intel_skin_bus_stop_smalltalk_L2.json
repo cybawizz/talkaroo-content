@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_bus_stop_smalltalk_L2",
+  "skinId": "skin_bus_stop_smalltalk",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, is this the bus to...?",
+      "example": "Hi, is this the bus to town?"
+    },
+    {
+      "text": "I think so.",
+      "example": "Yes, I think so."
+    },
+    {
+      "text": "I go to work.",
+      "example": "I go to work near the station."
+    },
+    {
+      "text": "I go to school.",
+      "example": "I go to school in the city."
+    },
+    {
+      "text": "It usually comes at...",
+      "example": "It usually comes at eight."
+    },
+    {
+      "text": "It's late today.",
+      "example": "It's late today."
+    },
+    {
+      "text": "Where are you going?",
+      "example": "Where are you going?"
+    },
+    {
+      "text": "Have a good day.",
+      "example": "Have a good day."
+    }
+  ]
+}

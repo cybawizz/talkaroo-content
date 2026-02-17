@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_public_opinion_topic",
+  "name": "Discussing a Complex Topic",
+  "category": "abstract_social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Conversation Partner"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Express a balanced opinion, consider an opposing view, and refine your stance.",
+    "aiGoal": "Offer a different angle and ask the user to justify their conclusion."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "qualify_opinion",
+    "compare_views",
+    "respond_to_opposition",
+    "summarize_position",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "thoughtful",
+    "register": "neutral"
+  },
+  "tags": [
+    "abstract",
+    "reasoning",
+    "nuance"
+  ]
+}

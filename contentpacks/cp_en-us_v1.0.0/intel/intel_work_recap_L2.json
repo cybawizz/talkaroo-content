@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_work_recap_L2",
+  "skinId": "skin_workday_recap",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "This morning, I ...",
+      "example": "This morning, I had a meeting."
+    },
+    {
+      "text": "I finished the ...",
+      "example": "I finished the report."
+    },
+    {
+      "text": "I sent an email.",
+      "example": "I sent an email to the client."
+    },
+    {
+      "text": "I worked in the ...",
+      "example": "I worked in the main office."
+    },
+    {
+      "text": "At {time}, I ...",
+      "example": "At nine, I started work."
+    },
+    {
+      "text": "Then I ...",
+      "example": "Then I called a customer."
+    },
+    {
+      "text": "It was busy.",
+      "example": "It was busy."
+    },
+    {
+      "text": "After that, I ...",
+      "example": "After that, I took a break."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_story_travel",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_travel_mishap",
+  "prompt": "Respond politely and explain why you chose it.",
+  "setup": "You describe a travel mishap, but the listener suggests your choice was risky.",
+  "aiMove": "That sounds stressful! But don't you think taking a taxi that late was a bit risky?",
+  "successCriteria": [
+    "Respond politely",
+    "Explain your choice"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_funny_misunderstanding_b2",
+  "name": "A Funny Misunderstanding",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Tell a funny misunderstanding story and end with what you learned.",
+    "aiGoal": "Ask for the lesson and a quick summary."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "humor",
+    "lesson",
+    "story"
+  ]
+}

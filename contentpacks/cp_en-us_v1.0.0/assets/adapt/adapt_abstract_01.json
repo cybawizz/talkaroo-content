@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_abstract_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "prompt": "Pressure change: partner disagrees and asks for evidence.",
+  "setup": "Pressure change: partner disagrees and asks for evidence.",
+  "aiMove": "I have to disagree with you there. I haven't seen any data that supports the idea that inequality actually increases in that scenario. What evidence are you looking at?",
+  "successCriteria": [
+    "Stay calm and respectful",
+    "Give a plausible example or reasoning chain",
+    "Refine your conclusion (nuance)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_device_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_device_issue",
+  "prompt": "Identify the time info.",
+  "script": "It will take two days.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Two days",
+      "Two hours",
+      "Two weeks",
+      "No time given"
+    ],
+    "answerIndex": 0
+  }
+}

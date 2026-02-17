@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_abstract_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "prompt": "Identify the challenge.",
+  "script": "What evidence supports that conclusion?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for evidence",
+      "Agreeing strongly",
+      "Changing the topic",
+      "Saying goodbye"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_cafe_opinion_clash_L4",
+  "skinId": "skin_cafe_opinion_clash",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To be fair, ...",
+      "example": "To be fair, I can see why some people like it."
+    },
+    {
+      "text": "I’m not entirely convinced that ...",
+      "example": "I’m not entirely convinced that it’s worth the price."
+    },
+    {
+      "text": "What I mean is ...",
+      "example": "What I mean is, the quality isn’t consistent."
+    },
+    {
+      "text": "I get your point, but ...",
+      "example": "I get your point, but I had a different experience."
+    },
+    {
+      "text": "That said, ...",
+      "example": "That said, the service is usually great."
+    },
+    {
+      "text": "We might be talking past each other.",
+      "example": "We might be talking past each other—let me rephrase."
+    },
+    {
+      "text": "Let’s agree to disagree.",
+      "example": "Let’s agree to disagree and move on."
+    },
+    {
+      "text": "Can we park this for now?",
+      "example": "Can we park this for now and enjoy our drinks?"
+    },
+    {
+      "text": "Just to clarify, ...",
+      "example": "Just to clarify, I wasn’t criticizing you."
+    },
+    {
+      "text": "I appreciate your perspective.",
+      "example": "I appreciate your perspective, even if I disagree."
+    }
+  ]
+}

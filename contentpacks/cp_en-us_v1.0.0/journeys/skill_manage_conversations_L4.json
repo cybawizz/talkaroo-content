@@ -1,0 +1,119 @@
+{
+  "journeyId": "skill_manage_conversations_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_cafe_opinion_clash",
+    "skin_networking_smalltalk_to_topic",
+    "skin_work_meeting_pushback",
+    "skin_neighbor_boundary_setting",
+    "skin_online_thread_misread"
+  ],
+  "intelPacks": [
+    "intel_cafe_opinion_clash_L4",
+    "intel_networking_smalltalk_to_topic_L4",
+    "intel_work_meeting_pushback_L4",
+    "intel_neighbor_boundary_setting_L4",
+    "intel_online_thread_misread_L4"
+  ],
+  "noticeAssets": [
+    "notice_L4_cafe_01",
+    "notice_L4_cafe_02",
+    "notice_L4_net_01",
+    "notice_L4_net_02",
+    "notice_L4_work_01",
+    "notice_L4_work_02",
+    "notice_L4_nei_01",
+    "notice_L4_nei_02",
+    "notice_L4_online_01",
+    "notice_L4_online_02"
+  ],
+  "adaptAssets": [
+    "adapt_L4_cafe_01",
+    "adapt_L4_net_01",
+    "adapt_L4_work_01",
+    "adapt_L4_nei_01",
+    "adapt_L4_online_01"
+  ],
+  "reflectAssets": [
+    "reflect_L4_cafe_01",
+    "reflect_L4_net_01",
+    "reflect_L4_work_01",
+    "reflect_L4_nei_01",
+    "reflect_L4_online_01"
+  ],
+  "transferAssets": [
+    "transfer_L4_cafe_01",
+    "transfer_L4_net_01",
+    "transfer_L4_nei_01",
+    "transfer_L4_online_01"
+  ],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_manage_conversations_L4",
+    "skillId": "skill_manage_conversations",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "b2_open_topic",
+        "pattern": "By the way, I wanted to ask you about {topic}.",
+        "slots": [
+          "topic"
+        ],
+        "notes": "Natural topic introduction."
+      },
+      {
+        "frameId": "b2_hedge_opinion",
+        "pattern": "I might be wrong, but I feel that {statement}.",
+        "slots": [
+          "statement"
+        ],
+        "notes": "Hedged opinion for softer delivery."
+      },
+      {
+        "frameId": "b2_disagree_polite",
+        "pattern": "I see where you’re coming from, but I’m not convinced that {claim}.",
+        "slots": [
+          "claim"
+        ],
+        "notes": "Polite disagreement with acknowledgment."
+      },
+      {
+        "frameId": "b2_clarify",
+        "pattern": "Just to clarify, are you saying that {paraphrase}?",
+        "slots": [
+          "paraphrase"
+        ],
+        "notes": "Clarifies and checks understanding."
+      },
+      {
+        "frameId": "b2_repair",
+        "pattern": "I think that came out wrong—what I meant was {meaning}.",
+        "slots": [
+          "meaning"
+        ],
+        "notes": "Self-repair and rephrase."
+      },
+      {
+        "frameId": "b2_summarize_close",
+        "pattern": "So we agree on {point}, and we’ll {nextStep}. Sound good?",
+        "slots": [
+          "point",
+          "nextStep"
+        ],
+        "notes": "Summarize and confirm next step."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Could you give me a second to think?",
+        "notes": "Buys time naturally."
+      },
+      {
+        "text": "I’m not sure I’m expressing this clearly—can I try again?",
+        "notes": "Repair + retry."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_desc_family",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_family_member",
+  "mode": "light",
+  "prompt": "Say it better (routine).",
+  "items": [
+    {
+      "bad": "She walk work.",
+      "better": "Every day, she walks to work.",
+      "note": "Add 'Every day' + -s."
+    },
+    {
+      "bad": "He get up six.",
+      "better": "He gets up at six.",
+      "note": "Add -s + 'at'."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_cafe_greeting_L2",
+  "skinId": "skin_cafe_greeting",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, how are you?",
+      "example": "Hi, how are you?"
+    },
+    {
+      "text": "I'm good, thanks.",
+      "example": "I'm good, thanks."
+    },
+    {
+      "text": "I work in...",
+      "example": "I work in an office nearby."
+    },
+    {
+      "text": "I study...",
+      "example": "I study marketing."
+    },
+    {
+      "text": "It's my first time here.",
+      "example": "It's my first time here."
+    },
+    {
+      "text": "See you later.",
+      "example": "See you later."
+    },
+    {
+      "text": "Have a nice day.",
+      "example": "Have a nice day."
+    },
+    {
+      "text": "How about you?",
+      "example": "I'm fine. How about you?"
+    }
+  ]
+}

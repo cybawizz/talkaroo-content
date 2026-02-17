@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Listen for the greeting.",
+  "script": "Good morning! Welcome to the cafe.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Morning greeting",
+      "Night greeting",
+      "Goodbye",
+      "Ordering food"
+    ],
+    "answerIndex": 0
+  }
+}

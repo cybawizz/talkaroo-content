@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_desc_routine_L2",
+  "skinId": "skin_morning_routine",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "I usually ... at ...",
+      "example": "I usually wake up at seven."
+    },
+    {
+      "text": "Then I ...",
+      "example": "Then I have breakfast."
+    },
+    {
+      "text": "After that, I ...",
+      "example": "After that, I take a shower."
+    },
+    {
+      "text": "I leave home at ...",
+      "example": "I leave home at eight."
+    },
+    {
+      "text": "I go to {place} by ...",
+      "example": "I go to school by bus."
+    },
+    {
+      "text": "It takes ... minutes.",
+      "example": "It takes 20 minutes."
+    },
+    {
+      "text": "I start at ...",
+      "example": "I start at eight thirty."
+    },
+    {
+      "text": "Before work/school, I ...",
+      "example": "Before school, I check my bag."
+    }
+  ]
+}

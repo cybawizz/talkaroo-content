@@ -1,0 +1,109 @@
+{
+  "journeyId": "skill_describe_basic_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_friend_profile_b2",
+    "skin_neighborhood_compare_b2",
+    "skin_daily_routine_b2",
+    "skin_workstyle_b2"
+  ],
+  "intelPacks": [
+    "intel_skin_friend_profile_b2_B2",
+    "intel_skin_neighborhood_compare_b2_B2",
+    "intel_skin_daily_routine_b2_B2",
+    "intel_skin_workstyle_b2_B2"
+  ],
+  "noticeAssets": [
+    "notice_skin_friend_profile_b2_01",
+    "notice_skin_friend_profile_b2_02",
+    "notice_skin_neighborhood_compare_b2_01",
+    "notice_skin_neighborhood_compare_b2_02",
+    "notice_skin_daily_routine_b2_01",
+    "notice_skin_daily_routine_b2_02",
+    "notice_skin_workstyle_b2_01",
+    "notice_skin_workstyle_b2_02"
+  ],
+  "adaptAssets": [
+    "adapt_skin_friend_profile_b2_01",
+    "adapt_skin_neighborhood_compare_b2_01",
+    "adapt_skin_daily_routine_b2_01",
+    "adapt_skin_workstyle_b2_01"
+  ],
+  "reflectAssets": [
+    "reflect_skin_friend_profile_b2_01",
+    "reflect_skin_neighborhood_compare_b2_01",
+    "reflect_skin_daily_routine_b2_01",
+    "reflect_skin_workstyle_b2_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b2_describe",
+    "skillId": "skill_describe_basic",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_b2_person",
+        "pattern": "What stands out most is that {person} is {trait}.",
+        "slots": [
+          "person",
+          "trait"
+        ],
+        "notes": "Structured person description."
+      },
+      {
+        "frameId": "f_b2_detail",
+        "pattern": "For example, {example}.",
+        "slots": [
+          "example"
+        ],
+        "notes": "Add concrete example."
+      },
+      {
+        "frameId": "f_b2_compare",
+        "pattern": "Compared to {place}, it feels {adj}.",
+        "slots": [
+          "place",
+          "adj"
+        ],
+        "notes": "Comparison frame."
+      },
+      {
+        "frameId": "f_b2_summary",
+        "pattern": "If I had to sum it up, I’d say it’s {adj1} but {adj2}.",
+        "slots": [
+          "adj1",
+          "adj2"
+        ],
+        "notes": "Balanced summary."
+      },
+      {
+        "frameId": "f_b2_routine",
+        "pattern": "A typical morning looks like {step1}, then {step2}.",
+        "slots": [
+          "step1",
+          "step2"
+        ],
+        "notes": "Sequencing."
+      },
+      {
+        "frameId": "f_b2_close",
+        "pattern": "Does that make sense?",
+        "slots": [],
+        "notes": "Check understanding."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Let me put it another way…",
+        "notes": "Rephrase"
+      },
+      {
+        "text": "I mean…",
+        "notes": "Self-repair"
+      }
+    ]
+  }
+}

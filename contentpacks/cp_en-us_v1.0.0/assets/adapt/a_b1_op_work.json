@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_op_work",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_work_policy_opinion",
+  "prompt": "Acknowledge the concern and suggest a trial period.",
+  "setup": "You give an opinion on a policy, but your colleague worries about productivity.",
+  "aiMove": "That change sounds interesting, but my main concern is that everyone might be less productive if we do that.",
+  "successCriteria": [
+    "Acknowledge concern",
+    "Suggest trial period"
+  ]
+}

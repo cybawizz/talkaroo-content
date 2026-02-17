@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_abstract_B2",
+  "skinId": "skin_public_opinion_topic",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "On the one hand… on the other hand…",
+      "example": "On the one hand it saves time, on the other hand it may reduce quality."
+    },
+    {
+      "text": "I partly agree, but…",
+      "example": "I partly agree, but the long-term effects worry me."
+    },
+    {
+      "text": "A key point is…",
+      "example": "A key point is how it affects fairness."
+    },
+    {
+      "text": "That said…",
+      "example": "That said, there are clear benefits."
+    },
+    {
+      "text": "It’s not that simple.",
+      "example": "It’s not that simple because outcomes vary."
+    },
+    {
+      "text": "In my view, the best approach is…",
+      "example": "In my view, the best approach is a balanced policy."
+    },
+    {
+      "text": "What evidence supports that?",
+      "example": "What evidence supports that conclusion?"
+    },
+    {
+      "text": "So my conclusion is…",
+      "example": "So my conclusion is that we need guardrails."
+    }
+  ]
+}

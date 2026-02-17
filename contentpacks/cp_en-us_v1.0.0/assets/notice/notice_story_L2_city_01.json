@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_city_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_city_trip",
+  "prompt": "Identify the sequence.",
+  "script": "I visited the museum. Then I walked to the station.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Station first",
+      "Museum then station",
+      "No station",
+      "Museum inside station"
+    ],
+    "answerIndex": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_prob_cafe_L2",
+  "skinId": "skin_cafe_mistake",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Excuse me, this is cold.",
+      "example": "Excuse me, this coffee is cold."
+    },
+    {
+      "text": "This is the wrong order.",
+      "example": "This is the wrong order."
+    },
+    {
+      "text": "Can you fix it, please?",
+      "example": "Can you fix it, please?"
+    },
+    {
+      "text": "Can I have a new one?",
+      "example": "Can I have a new one, please?"
+    },
+    {
+      "text": "With milk/sugar, please.",
+      "example": "With milk, please."
+    },
+    {
+      "text": "No sugar, please.",
+      "example": "No sugar, please."
+    },
+    {
+      "text": "I’m sorry about that.",
+      "example": "I’m sorry about that."
+    },
+    {
+      "text": "I’ll bring a new one.",
+      "example": "I’ll bring a new one."
+    }
+  ]
+}

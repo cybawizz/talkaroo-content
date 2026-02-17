@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_op_travel",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Confirm the plan.",
+  "items": [
+    {
+      "bad": "Simple hotel ok?",
+      "better": "So we’ll choose the simple hotel, right?",
+      "note": "Use confirmation."
+    }
+  ]
+}

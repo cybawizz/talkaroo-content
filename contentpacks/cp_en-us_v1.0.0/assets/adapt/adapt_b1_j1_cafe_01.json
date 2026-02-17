@@ -1,0 +1,15 @@
+{
+  "adaptId": "adapt_b1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_cafe_chat",
+  "prompt": "Adapt politely to a mild disagreement.",
+  "setup": "You say you like the coffee here. Your friend disagrees politely.",
+  "aiMove": "Actually, I’m not sure I agree. I think it tastes a bit burnt sometimes.",
+  "successCriteria": [
+    "Acknowledge politely",
+    "Restate your view",
+    "Give a reason",
+    "Keep it friendly"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_desc_L2_friend_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_friend_description",
+  "prompt": "Identify the appearance.",
+  "script": "She has long hair and wears glasses.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "She is short",
+      "She has long hair and glasses",
+      "She is a teacher",
+      "She is angry"
+    ],
+    "answerIndex": 1
+  }
+}

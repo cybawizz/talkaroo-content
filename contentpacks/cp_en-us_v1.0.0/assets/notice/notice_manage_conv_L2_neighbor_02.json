@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_neighbor_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Identify the intent.",
+  "script": "It's nice to meet you.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking a question",
+      "Showing politeness",
+      "Complaining",
+      "Ending a call"
+    ],
+    "answerIndex": 1
+  }
+}

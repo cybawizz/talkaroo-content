@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_hotel_basic_L1",
+  "skinId": "skin_hotel_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "It is broken.",
+      "usage": "Report a non-working item.",
+      "example": "The lamp is broken."
+    },
+    {
+      "text": "No hot water.",
+      "usage": "Specific hotel issue.",
+      "example": "Excuse me, no hot water."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Broken",
+      "definition": "Not working."
+    },
+    {
+      "term": "Shower",
+      "definition": "Where you wash your body."
+    }
+  ]
+}

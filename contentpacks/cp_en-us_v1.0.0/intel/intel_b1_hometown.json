@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_hometown",
+  "skinId": "skin_hometown_description",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "My hometown is known for...",
+      "example": "My hometown is known for its beaches."
+    },
+    {
+      "text": "It's located in...",
+      "example": "It's located on the coast."
+    },
+    {
+      "text": "I recommend visiting...",
+      "example": "I recommend visiting the old fort."
+    },
+    {
+      "text": "The reason is...",
+      "example": "The reason is the view is amazing."
+    },
+    {
+      "text": "The best time to visit is...",
+      "example": "The best time to visit is December."
+    },
+    {
+      "text": "It’s famous for...",
+      "example": "It’s famous for seafood."
+    },
+    {
+      "text": "It's a great place to...",
+      "example": "It's a great place to relax."
+    }
+  ]
+}

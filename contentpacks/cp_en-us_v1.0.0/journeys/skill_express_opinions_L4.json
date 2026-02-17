@@ -1,0 +1,106 @@
+{
+  "journeyId": "skill_express_opinions_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_food_preferences_b2",
+    "skin_work_decision_b2",
+    "skin_learning_method_b2",
+    "skin_city_lifestyle_b2"
+  ],
+  "intelPacks": [
+    "intel_skin_food_preferences_b2_B2",
+    "intel_skin_work_decision_b2_B2",
+    "intel_skin_learning_method_b2_B2",
+    "intel_skin_city_lifestyle_b2_B2"
+  ],
+  "noticeAssets": [
+    "notice_skin_food_preferences_b2_01",
+    "notice_skin_food_preferences_b2_02",
+    "notice_skin_work_decision_b2_01",
+    "notice_skin_learning_method_b2_01",
+    "notice_skin_learning_method_b2_02",
+    "notice_skin_city_lifestyle_b2_01",
+    "notice_skin_city_lifestyle_b2_02"
+  ],
+  "adaptAssets": [
+    "adapt_skin_food_preferences_b2_01",
+    "adapt_skin_work_decision_b2_01",
+    "adapt_skin_learning_method_b2_01",
+    "adapt_skin_city_lifestyle_b2_01"
+  ],
+  "reflectAssets": [
+    "reflect_skin_food_preferences_b2_01",
+    "reflect_skin_work_decision_b2_01",
+    "reflect_skin_learning_method_b2_01",
+    "reflect_skin_city_lifestyle_b2_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b2_opinions",
+    "skillId": "skill_express_opinions",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_b2_opinion",
+        "pattern": "From my perspective, {topic} is {adj}.",
+        "slots": [
+          "topic",
+          "adj"
+        ],
+        "notes": "Opinion with framing."
+      },
+      {
+        "frameId": "f_b2_reason",
+        "pattern": "The main advantage is {adv}, but the downside is {down}.",
+        "slots": [
+          "adv",
+          "down"
+        ],
+        "notes": "Pros/cons."
+      },
+      {
+        "frameId": "f_b2_ack",
+        "pattern": "I get your point, but {counter}.",
+        "slots": [
+          "counter"
+        ],
+        "notes": "Polite disagreement."
+      },
+      {
+        "frameId": "f_b2_compromise",
+        "pattern": "Could we meet in the middle and {plan}?",
+        "slots": [
+          "plan"
+        ],
+        "notes": "Compromise."
+      },
+      {
+        "frameId": "f_b2_confirm",
+        "pattern": "So we agree to {agreement}, right?",
+        "slots": [
+          "agreement"
+        ],
+        "notes": "Confirm agreement."
+      },
+      {
+        "frameId": "f_b2_close",
+        "pattern": "Sounds good. Let’s do that.",
+        "slots": [],
+        "notes": "Close."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Let me think about how to say this…",
+        "notes": "Planning time"
+      },
+      {
+        "text": "What I mean is…",
+        "notes": "Clarify meaning"
+      }
+    ]
+  }
+}

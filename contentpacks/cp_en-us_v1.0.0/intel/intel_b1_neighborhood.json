@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_neighborhood",
+  "skinId": "skin_neighborhood_tour",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "It's a quiet area.",
+      "example": "It's a quiet area in the evenings."
+    },
+    {
+      "text": "It's close to ...",
+      "example": "It's close to a small market."
+    },
+    {
+      "text": "The best thing is...",
+      "example": "The best thing is the park nearby."
+    },
+    {
+      "text": "One downside is...",
+      "example": "One downside is the traffic."
+    },
+    {
+      "text": "Compared to ..., it's...",
+      "example": "Compared to downtown, it's less crowded."
+    },
+    {
+      "text": "You can easily...",
+      "example": "You can easily walk to the bus stop."
+    },
+    {
+      "text": "There are plenty of...",
+      "example": "There are plenty of small cafés."
+    }
+  ]
+}

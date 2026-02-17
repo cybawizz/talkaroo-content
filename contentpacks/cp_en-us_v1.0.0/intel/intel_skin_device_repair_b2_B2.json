@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_skin_device_repair_b2_B2",
+  "skinId": "skin_device_repair_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m afraid there’s an issue with…",
+      "example": "I’m afraid there’s an issue with the air conditioning."
+    },
+    {
+      "text": "Could we look at a couple of options?",
+      "example": "Could we look at a couple of options to fix this?"
+    },
+    {
+      "text": "What would you be able to do on your side?",
+      "example": "What would you be able to do on your side today?"
+    },
+    {
+      "text": "To be clear, I’m asking for…",
+      "example": "To be clear, I’m asking for a replacement."
+    },
+    {
+      "text": "That doesn’t quite solve the problem because…",
+      "example": "That doesn’t quite solve the problem because I still can’t use it."
+    },
+    {
+      "text": "Is there any flexibility on the timeline?",
+      "example": "Is there any flexibility on the timeline?"
+    },
+    {
+      "text": "Could you confirm what happens next?",
+      "example": "Could you confirm what happens next after I leave it here?"
+    },
+    {
+      "text": "I’d appreciate it if we could…",
+      "example": "I’d appreciate it if we could resolve this today."
+    },
+    {
+      "text": "If that’s not possible, the next best thing is…",
+      "example": "If that’s not possible, the next best thing is a refund."
+    },
+    {
+      "text": "Thanks for sorting this out.",
+      "example": "Thanks for sorting this out."
+    }
+  ]
+}

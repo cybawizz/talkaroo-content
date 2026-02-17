@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_work_decision_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_work_decision_b2",
+  "prompt": "Identify the balance.",
+  "script": "That said, I can see why some people prefer the other option.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Strong disagreement",
+      "Balanced view",
+      "No opinion",
+      "Asking for help"
+    ],
+    "answerIndex": 1
+  }
+}

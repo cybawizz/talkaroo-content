@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_desc_apt_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_apartment_details",
+  "prompt": "Identify the location.",
+  "script": "The building is next to the elevator.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Near the elevator",
+      "Far from elevator",
+      "On the roof",
+      "Outside town"
+    ],
+    "answerIndex": 0
+  }
+}

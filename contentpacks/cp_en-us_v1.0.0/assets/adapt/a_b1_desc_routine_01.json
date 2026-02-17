@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_desc_routine_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_daily_routine_b1",
+  "prompt": "Answer and suggest an alternative plan.",
+  "setup": "You explain your routine and are asked what you do when the bus is late.",
+  "aiMove": "That sounds like a tight schedule. What do you do if the bus is ten minutes late?",
+  "successCriteria": [
+    "Answer the question",
+    "Suggest alternative plan"
+  ]
+}

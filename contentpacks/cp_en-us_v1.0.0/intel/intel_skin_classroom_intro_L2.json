@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_classroom_intro_L2",
+  "skinId": "skin_classroom_intro",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hello, I'm {name}.",
+      "example": "Hello, I'm Maya."
+    },
+    {
+      "text": "Nice to meet you.",
+      "example": "Nice to meet you."
+    },
+    {
+      "text": "I am studying English.",
+      "example": "I am studying English."
+    },
+    {
+      "text": "I want to speak better.",
+      "example": "I want to speak better."
+    },
+    {
+      "text": "For my job.",
+      "example": "For my job."
+    },
+    {
+      "text": "I learned English at school.",
+      "example": "I learned English at school."
+    },
+    {
+      "text": "I like this class.",
+      "example": "I like this class."
+    },
+    {
+      "text": "Thank you, teacher.",
+      "example": "Thank you, teacher."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_b1_office_break",
+  "skinId": "skin_b1_office_break",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Did you hear about...?",
+      "example": "Did you hear about the new break policy?"
+    },
+    {
+      "text": "Personally, I think ...",
+      "example": "Personally, I think it’s a good idea."
+    },
+    {
+      "text": "That’s because ...",
+      "example": "That’s because people need a real pause."
+    },
+    {
+      "text": "I’m not sure I agree.",
+      "example": "I’m not sure I agree—some teams are too busy."
+    },
+    {
+      "text": "Could you explain what you mean?",
+      "example": "Could you explain what you mean by flexible breaks?"
+    },
+    {
+      "text": "On the other hand, ...",
+      "example": "On the other hand, it might improve productivity."
+    },
+    {
+      "text": "From my experience, ...",
+      "example": "From my experience, short breaks help focus."
+    },
+    {
+      "text": "Let’s be realistic, ...",
+      "example": "Let’s be realistic, deadlines won’t disappear."
+    },
+    {
+      "text": "Fair point.",
+      "example": "Fair point, but we can try it for a month."
+    },
+    {
+      "text": "Sounds good.",
+      "example": "Sounds good—let’s see how it goes."
+    }
+  ]
+}

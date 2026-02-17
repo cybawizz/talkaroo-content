@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_noise_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Identify the compromise.",
+  "script": "How about headphones on weekdays, and we can be more flexible on weekends?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Refusing to change",
+      "Offering a compromise",
+      "Ending the conversation",
+      "Asking for directions"
+    ],
+    "answerIndex": 1
+  }
+}

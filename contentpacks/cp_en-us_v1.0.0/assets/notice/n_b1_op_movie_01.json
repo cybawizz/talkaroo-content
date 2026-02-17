@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_op_movie_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_movie_choice",
+  "prompt": "Identify the reason.",
+  "script": "I like comedies because they help me relax.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They are scary",
+      "They help relax",
+      "They are long",
+      "They are free"
+    ],
+    "answerIndex": 1
+  }
+}

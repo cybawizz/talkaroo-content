@@ -1,0 +1,38 @@
+{
+  "skinId": "skin_online_thread_misread",
+  "name": "Online Chat: Misread Tone and Repair",
+  "category": "digital",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Participant"
+    },
+    {
+      "roleId": "ai",
+      "label": "Participant"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Clarify tone, repair a misunderstanding, restate your point calmly, and close positively.",
+    "aiGoal": "Assume the user was rude, request clarification, and accept repair if done well."
+  },
+  "allowedIntents": [
+    "open_topic",
+    "clarify_position",
+    "repair_misunderstanding",
+    "express_opinion",
+    "hedge",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "neutral",
+    "register": "neutral"
+  },
+  "tags": [
+    "online",
+    "tone",
+    "repair",
+    "misunderstanding"
+  ]
+}

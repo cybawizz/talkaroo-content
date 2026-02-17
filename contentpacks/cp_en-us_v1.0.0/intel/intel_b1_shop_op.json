@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_shop_op",
+  "skinId": "skin_shopping_choice",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I prefer something cheaper.",
+      "example": "I prefer something cheaper."
+    },
+    {
+      "text": "Quality matters to me.",
+      "example": "Quality matters to me."
+    },
+    {
+      "text": "I think this one is better because...",
+      "example": "I think this one is better because it will last longer."
+    },
+    {
+      "text": "What matters most is ...",
+      "example": "What matters most is comfort."
+    },
+    {
+      "text": "Compared to this one, ...",
+      "example": "Compared to this one, it’s lighter."
+    },
+    {
+      "text": "Could you show me another option?",
+      "example": "Could you show me another option?"
+    },
+    {
+      "text": "Okay, I'll take this one.",
+      "example": "Okay, I'll take this one."
+    }
+  ]
+}

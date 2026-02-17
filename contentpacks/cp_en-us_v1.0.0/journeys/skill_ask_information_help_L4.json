@@ -1,0 +1,105 @@
+{
+  "journeyId": "skill_ask_information_help_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_city_directions_b2",
+    "skin_transit_info_b2",
+    "skin_hotel_concierge_b2",
+    "skin_online_support_b2"
+  ],
+  "intelPacks": [
+    "intel_skin_city_directions_b2_B2",
+    "intel_skin_transit_info_b2_B2",
+    "intel_skin_hotel_concierge_b2_B2",
+    "intel_skin_online_support_b2_B2"
+  ],
+  "noticeAssets": [
+    "notice_skin_city_directions_b2_01",
+    "notice_skin_city_directions_b2_02",
+    "notice_skin_transit_info_b2_01",
+    "notice_skin_transit_info_b2_02",
+    "notice_skin_hotel_concierge_b2_01",
+    "notice_skin_hotel_concierge_b2_02",
+    "notice_skin_online_support_b2_01",
+    "notice_skin_online_support_b2_02"
+  ],
+  "adaptAssets": [
+    "adapt_skin_city_directions_b2_01",
+    "adapt_skin_transit_info_b2_01",
+    "adapt_skin_hotel_concierge_b2_01",
+    "adapt_skin_online_support_b2_01"
+  ],
+  "reflectAssets": [
+    "reflect_skin_city_directions_b2_01",
+    "reflect_skin_transit_info_b2_01",
+    "reflect_skin_hotel_concierge_b2_01",
+    "reflect_skin_online_support_b2_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b2_info_help",
+    "skillId": "skill_ask_information_help",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_b2_polite_request",
+        "pattern": "Could you tell me {detail}?",
+        "slots": [
+          "detail"
+        ],
+        "notes": "Detailed polite request."
+      },
+      {
+        "frameId": "f_b2_clarify",
+        "pattern": "Just to clarify, you mean {statement}, right?",
+        "slots": [
+          "statement"
+        ],
+        "notes": "Check understanding."
+      },
+      {
+        "frameId": "f_b2_alternative",
+        "pattern": "If that route is {issue}, what’s the best alternative?",
+        "slots": [
+          "issue"
+        ],
+        "notes": "Handle resistance/constraint."
+      },
+      {
+        "frameId": "f_b2_time",
+        "pattern": "Roughly how long does it take to {action}?",
+        "slots": [
+          "action"
+        ],
+        "notes": "Ask about time."
+      },
+      {
+        "frameId": "f_b2_confirm_next",
+        "pattern": "So the next step is to {step}—is that correct?",
+        "slots": [
+          "step"
+        ],
+        "notes": "Confirm next step."
+      },
+      {
+        "frameId": "f_b2_close",
+        "pattern": "Thanks for your help. I really appreciate it.",
+        "slots": [],
+        "notes": "Polite closing."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry—could you repeat the last part a bit more slowly?",
+        "notes": "Repair with pacing"
+      },
+      {
+        "text": "Could you show me on the map for a second?",
+        "notes": "Fallback to visual support"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_cafe_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Identify the intent.",
+  "script": "How about you?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Closing the talk",
+      "Asking a follow-up",
+      "Asking for the bill",
+      "Introducing a friend"
+    ],
+    "answerIndex": 1
+  }
+}

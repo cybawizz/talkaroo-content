@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j2_shop_02",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_shop_basic",
+  "prompt": "What did the customer ask?",
+  "script": "Excuse me, how much is this postcard?",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Ask for water",
+      "Ask for the price",
+      "Ask for a bag",
+      "Ask for the time"
+    ],
+    "answerIndex": 1
+  }
+}

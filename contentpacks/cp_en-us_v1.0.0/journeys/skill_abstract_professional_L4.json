@@ -1,0 +1,109 @@
+{
+  "journeyId": "skill_abstract_professional_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_team_update_meeting",
+    "skin_job_interview_values",
+    "skin_public_opinion_topic"
+  ],
+  "intelPacks": [
+    "intel_update_B2",
+    "intel_interview_B2",
+    "intel_abstract_B2"
+  ],
+  "noticeAssets": [
+    "notice_update_01",
+    "notice_update_02",
+    "notice_interview_01",
+    "notice_interview_02",
+    "notice_abstract_01",
+    "notice_abstract_02"
+  ],
+  "adaptAssets": [
+    "adapt_update_01",
+    "adapt_interview_01",
+    "adapt_abstract_01"
+  ],
+  "reflectAssets": [
+    "reflect_update_01",
+    "reflect_interview_01",
+    "reflect_abstract_01"
+  ],
+  "transferAssets": [
+    "transfer_update_01",
+    "transfer_interview_01",
+    "transfer_abstract_01"
+  ],
+  "buildFrameSet": {
+    "frameSetId": "frames_abstract_professional_L4",
+    "skillId": "skill_abstract_professional",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_status_summary",
+        "pattern": "To summarize, we are {status} on {topic}.",
+        "slots": [
+          "status",
+          "topic"
+        ],
+        "notes": "Structured summary opener."
+      },
+      {
+        "frameId": "f_risk_statement",
+        "pattern": "The main risk is {risk}, which could {impact}.",
+        "slots": [
+          "risk",
+          "impact"
+        ],
+        "notes": "Clear risk articulation."
+      },
+      {
+        "frameId": "f_mitigation",
+        "pattern": "To mitigate this, we can {action}.",
+        "slots": [
+          "action"
+        ],
+        "notes": "Propose mitigation."
+      },
+      {
+        "frameId": "f_example",
+        "pattern": "A concrete example is when I {situation} and I {result}.",
+        "slots": [
+          "situation",
+          "result"
+        ],
+        "notes": "Interview example structure."
+      },
+      {
+        "frameId": "f_balance",
+        "pattern": "On the one hand {pro}, but on the other hand {con}.",
+        "slots": [
+          "pro",
+          "con"
+        ],
+        "notes": "Balanced argument."
+      },
+      {
+        "frameId": "f_conclusion",
+        "pattern": "So my conclusion is {conclusion}.",
+        "slots": [
+          "conclusion"
+        ],
+        "notes": "Wrap-up conclusion."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Can I take a moment to structure my answer?",
+        "notes": "Pause to organize ideas."
+      },
+      {
+        "text": "Could you clarify the goal of this question?",
+        "notes": "Clarify unclear prompts."
+      }
+    ]
+  }
+}

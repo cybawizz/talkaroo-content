@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_desc_L2_home_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_new_home",
+  "prompt": "Identify the floor.",
+  "script": "It is on the third floor next to the elevator.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Third floor",
+      "Second floor",
+      "Ground floor",
+      "No floor"
+    ],
+    "answerIndex": 0
+  }
+}

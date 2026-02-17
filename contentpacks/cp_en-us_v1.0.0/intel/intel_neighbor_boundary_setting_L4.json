@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_neighbor_boundary_setting_L4",
+  "skinId": "skin_neighbor_boundary_setting",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I don’t want to make a big deal out of this, but ...",
+      "example": "I don’t want to make a big deal out of this, but the noise is affecting sleep."
+    },
+    {
+      "text": "Would you mind ...?",
+      "example": "Would you mind lowering the volume after 10?"
+    },
+    {
+      "text": "I completely understand, however ...",
+      "example": "I completely understand, however it happens quite often."
+    },
+    {
+      "text": "Maybe we can find a middle ground.",
+      "example": "Maybe we can find a middle ground that works for both of us."
+    },
+    {
+      "text": "What I’m asking is ...",
+      "example": "What I’m asking is just a bit more quiet late at night."
+    },
+    {
+      "text": "I appreciate you hearing me out.",
+      "example": "I appreciate you hearing me out."
+    },
+    {
+      "text": "I’m not accusing you of anything.",
+      "example": "I’m not accusing you of anything—just sharing the impact."
+    },
+    {
+      "text": "Could we agree on ...?",
+      "example": "Could we agree on quiet hours during weekdays?"
+    },
+    {
+      "text": "If that’s difficult, we could ...",
+      "example": "If that’s difficult, we could message each other first."
+    },
+    {
+      "text": "Thanks, I really value good neighbor relations.",
+      "example": "Thanks, I really value good neighbor relations."
+    }
+  ]
+}

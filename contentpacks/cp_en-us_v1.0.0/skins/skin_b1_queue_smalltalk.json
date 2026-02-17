@@ -1,0 +1,37 @@
+{
+  "skinId": "skin_b1_queue_smalltalk",
+  "name": "Small Talk in a Queue",
+  "category": "public_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Stranger"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Make small talk, share an opinion about waiting or service, and handle a mild disagreement.",
+    "aiGoal": "Respond politely, disagree lightly, and ask one follow-up."
+  },
+  "allowedIntents": [
+    "greet",
+    "smalltalk",
+    "express_opinion",
+    "give_reason",
+    "agree_disagree",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "public",
+    "smalltalk",
+    "pressure"
+  ]
+}

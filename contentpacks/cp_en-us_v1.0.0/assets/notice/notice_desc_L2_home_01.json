@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_desc_L2_home_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_new_home",
+  "prompt": "Identify the location.",
+  "script": "It is near the station and behind the park.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Far from the station",
+      "Near the station and behind the park",
+      "Inside the park",
+      "Next to the school"
+    ],
+    "answerIndex": 1
+  }
+}

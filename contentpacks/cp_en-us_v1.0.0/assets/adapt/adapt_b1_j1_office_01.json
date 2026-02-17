@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_b1_j1_office_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_office_break",
+  "prompt": "Handle a small constraint and propose a reasonable option.",
+  "setup": "You support the new policy, but your colleague says it may not work for deadlines.",
+  "aiMove": "That sounds nice, but during deadlines we can’t really take breaks.",
+  "successCriteria": [
+    "Acknowledge concern",
+    "Offer a compromise",
+    "Use polite tone"
+  ]
+}

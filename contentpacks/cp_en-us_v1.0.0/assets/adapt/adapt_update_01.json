@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_update_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Pressure change: stakeholder questions your assumption.",
+  "setup": "Pressure change: stakeholder questions your assumption.",
+  "aiMove": "I noticed in your report you're assuming the vendor API will stay stable through Q3. Why are you so confident about that?",
+  "successCriteria": [
+    "Acknowledge the challenge",
+    "Explain the assumption briefly",
+    "Offer a contingency plan"
+  ]
+}

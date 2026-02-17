@@ -1,0 +1,107 @@
+{
+  "journeyId": "skill_describe_basic_L2",
+  "skill": {
+    "cefrBand": "A2",
+    "level": 2
+  },
+  "skins": [
+    "skin_friend_description",
+    "skin_family_member",
+    "skin_new_home",
+    "skin_morning_routine"
+  ],
+  "intelPacks": [
+    "intel_desc_friend_L2",
+    "intel_desc_family_L2",
+    "intel_desc_home_L2",
+    "intel_desc_routine_L2"
+  ],
+  "noticeAssets": [
+    "notice_desc_L2_friend_01",
+    "notice_desc_L2_friend_02",
+    "notice_desc_L2_family_01",
+    "notice_desc_L2_family_02",
+    "notice_desc_L2_home_01",
+    "notice_desc_L2_home_02",
+    "notice_desc_L2_routine_01",
+    "notice_desc_L2_routine_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [
+    "reflect_desc_friend",
+    "reflect_desc_family",
+    "reflect_desc_home",
+    "reflect_desc_routine"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_describe_basic_L2",
+    "skillId": "skill_describe_basic",
+    "level": 2,
+    "frames": [
+      {
+        "frameId": "f_desc_person",
+        "pattern": "My {person} is {adj} and {detail}.",
+        "slots": [
+          "person",
+          "adj",
+          "detail"
+        ],
+        "notes": "Two-part person description."
+      },
+      {
+        "frameId": "f_desc_hair",
+        "pattern": "He/She has {hair} hair.",
+        "slots": [
+          "hair"
+        ],
+        "notes": "Hair detail."
+      },
+      {
+        "frameId": "f_desc_home",
+        "pattern": "My apartment is {size} and it is {loc}.",
+        "slots": [
+          "size",
+          "loc"
+        ],
+        "notes": "Size + location."
+      },
+      {
+        "frameId": "f_desc_floor",
+        "pattern": "It is on the {floor} floor.",
+        "slots": [
+          "floor"
+        ],
+        "notes": "Floor detail."
+      },
+      {
+        "frameId": "f_routine_time",
+        "pattern": "I usually {action} at {time}.",
+        "slots": [
+          "action",
+          "time"
+        ],
+        "notes": "Routine with time."
+      },
+      {
+        "frameId": "f_transport",
+        "pattern": "I go to {place} by {transport}.",
+        "slots": [
+          "place",
+          "transport"
+        ],
+        "notes": "Transport detail."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Could you say that again?",
+        "notes": "Repetition request."
+      },
+      {
+        "text": "I'm not sure I understand.",
+        "notes": "Confusion signal."
+      }
+    ]
+  }
+}

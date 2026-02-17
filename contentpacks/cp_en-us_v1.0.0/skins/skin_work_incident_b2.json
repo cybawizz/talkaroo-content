@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_work_incident_b2",
+  "name": "A Work Incident",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Employee"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain a small work incident and how it was resolved.",
+    "aiGoal": "Ask for the cause and the solution."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "incident",
+    "resolution"
+  ]
+}

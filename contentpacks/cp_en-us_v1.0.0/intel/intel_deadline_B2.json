@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_deadline_B2",
+  "skinId": "skin_work_deadline",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m concerned this timeline is tight.",
+      "example": "I’m concerned this timeline is tight given testing."
+    },
+    {
+      "text": "The risk is that…",
+      "example": "The risk is that we ship without QA coverage."
+    },
+    {
+      "text": "If we prioritize X, we can deliver Y.",
+      "example": "If we prioritize onboarding, we can deliver the core flow."
+    },
+    {
+      "text": "Could we extend it by…?",
+      "example": "Could we extend it by one week?"
+    },
+    {
+      "text": "As a compromise…",
+      "example": "As a compromise, we can deliver a beta first."
+    },
+    {
+      "text": "What would success look like?",
+      "example": "What would success look like for this release?"
+    },
+    {
+      "text": "I can commit to…",
+      "example": "I can commit to the first milestone by Friday."
+    },
+    {
+      "text": "Let’s align on next steps.",
+      "example": "Let’s align on next steps and owners."
+    }
+  ]
+}

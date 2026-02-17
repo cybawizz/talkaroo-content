@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_city_lifestyle_b2",
+  "name": "City vs Suburbs",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Compare two lifestyles and give a balanced opinion.",
+    "aiGoal": "Agree partly and push for one clear conclusion."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "agree_disagree",
+    "respond_to_opinion",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "neutral"
+  },
+  "tags": [
+    "comparison",
+    "lifestyle",
+    "balance"
+  ]
+}

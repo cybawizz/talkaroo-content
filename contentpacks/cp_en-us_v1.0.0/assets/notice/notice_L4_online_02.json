@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_online_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "What is the implied meaning?",
+  "script": "I’m reacting to the idea, not the person.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker is insulting someone",
+      "The speaker is separating critique from personal attack",
+      "The speaker is leaving the chat",
+      "The speaker is changing jobs"
+    ],
+    "answerIndex": 1
+  }
+}

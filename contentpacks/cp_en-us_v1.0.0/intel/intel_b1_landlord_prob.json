@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_landlord_prob",
+  "skinId": "skin_landlord_maintenance_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "There's an issue with...",
+      "example": "There's an issue with the water heater."
+    },
+    {
+      "text": "It stopped working this morning.",
+      "example": "It stopped working this morning."
+    },
+    {
+      "text": "Could you arrange a repair?",
+      "example": "Could you arrange a repair this week?"
+    },
+    {
+      "text": "I'm available after...",
+      "example": "I'm available after 6 p.m."
+    },
+    {
+      "text": "Could we schedule a visit?",
+      "example": "Could we schedule a visit for tomorrow?"
+    },
+    {
+      "text": "Who covers the cost?",
+      "example": "Who covers the cost for this repair?"
+    },
+    {
+      "text": "Okay, that works for me.",
+      "example": "Okay, that works for me."
+    }
+  ]
+}

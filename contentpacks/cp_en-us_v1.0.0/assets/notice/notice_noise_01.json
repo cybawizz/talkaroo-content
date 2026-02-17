@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_noise_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Identify the speaker’s concern.",
+  "script": "I’m fine with music, but it’s too loud after 11, and I can’t sleep.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker dislikes music",
+      "The speaker can’t sleep because it’s loud late",
+      "The speaker wants to move out",
+      "The speaker is asking for money"
+    ],
+    "answerIndex": 1
+  }
+}

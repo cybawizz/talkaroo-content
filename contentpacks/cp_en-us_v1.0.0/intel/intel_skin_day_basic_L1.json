@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_day_basic_L1",
+  "skinId": "skin_day_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "I wake up at seven.",
+      "usage": "Common routine starter.",
+      "example": "I wake up at seven every day."
+    },
+    {
+      "text": "I go to work.",
+      "usage": "Daily movement.",
+      "example": "Then I go to work by bus."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Wake up",
+      "definition": "To stop sleeping."
+    },
+    {
+      "term": "Work",
+      "definition": "What you do for a job."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_problems_L1_skin_hotel_basic_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_hotel_basic",
+  "prompt": "What is the problem?",
+  "script": "Excuse me, no hot water in my room.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "No hot water",
+      "No towels",
+      "No key",
+      "No lights"
+    ],
+    "answerIndex": 0
+  }
+}

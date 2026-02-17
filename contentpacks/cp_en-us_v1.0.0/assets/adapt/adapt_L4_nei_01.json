@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_L4_nei_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "Pressure twist: the neighbor downplays the issue.",
+  "setup": "Pressure twist: the neighbor downplays the issue.",
+  "aiMove": "Come on, it’s not that loud. Everyone makes noise.",
+  "successCriteria": [
+    "User stays calm and respectful",
+    "User explains impact",
+    "User proposes a practical compromise"
+  ]
+}

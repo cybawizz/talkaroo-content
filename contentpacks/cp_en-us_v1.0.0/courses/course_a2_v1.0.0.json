@@ -1,0 +1,54 @@
+{
+    "courseId": "course_a2_v1.0.0",
+    "cefrLevel": "A2",
+    "status": "locked",
+    "locale": "en-US",
+    "contentPackVersion": "cp_en-us_v1.0.0",
+    "engineVersion": "engine_a2_v1.0.0",
+    "a2RulesFrozen": true,
+    "rules": {
+        "maxFollowUps": 1,
+        "allowOpinions": false,
+        "allowResistance": false,
+        "allowReasonsBecauseSo": false,
+        "maxNoticeWords": 12,
+        "reflectMode": "light"
+    },
+    "journeys": [
+        {
+            "journeyId": "skill_manage_conversations_L2",
+            "journeyName": "Starting & Managing Conversations",
+            "level": 2,
+            "status": "active",
+            "sourceFile": "skill_manage_conversations_L2.json"
+        },
+        {
+            "journeyId": "skill_ask_information_help_L2",
+            "journeyName": "Asking for Information & Help",
+            "level": 2,
+            "status": "active",
+            "sourceFile": "skill_ask_information_help_L2.json"
+        },
+        {
+            "journeyId": "skill_describe_basic_L2",
+            "journeyName": "Describing People, Places & Daily Life",
+            "level": 2,
+            "status": "active",
+            "sourceFile": "skill_describe_basic_L2.json"
+        },
+        {
+            "journeyId": "skill_share_experiences_L2",
+            "journeyName": "Sharing Experiences & Stories",
+            "level": 2,
+            "status": "active",
+            "sourceFile": "skill_share_experiences_L2.json"
+        },
+        {
+            "journeyId": "skill_deal_with_problems_L2",
+            "journeyName": "Dealing with Problems & Services",
+            "level": 2,
+            "status": "active",
+            "sourceFile": "skill_deal_with_problems_L2.json"
+        }
+    ]
+}

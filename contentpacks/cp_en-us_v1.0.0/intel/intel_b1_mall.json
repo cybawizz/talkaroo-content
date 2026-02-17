@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_b1_mall",
+  "skinId": "skin_mall_info",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me where ... is?",
+      "example": "Could you tell me where the electronics store is?"
+    },
+    {
+      "text": "Has it moved recently?",
+      "example": "Has it moved recently, or is it still here?"
+    },
+    {
+      "text": "Which floor is it on now?",
+      "example": "Which floor is it on now?"
+    },
+    {
+      "text": "What's the easiest way to get there?",
+      "example": "What's the easiest way to get there from here?"
+    },
+    {
+      "text": "Do you mean next to the food court?",
+      "example": "Do you mean it's next to the food court?"
+    },
+    {
+      "text": "Okay, thanks. I’ll head there now.",
+      "example": "Okay, thanks. I’ll head there now."
+    }
+  ]
+}

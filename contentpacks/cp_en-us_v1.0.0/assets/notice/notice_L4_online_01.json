@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_online_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "What is the speaker doing?",
+  "script": "I think my message came across the wrong way—let me rephrase that.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Doubling down",
+      "Repairing and clarifying",
+      "Changing the subject",
+      "Mocking the other person"
+    ],
+    "answerIndex": 1
+  }
+}

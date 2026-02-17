@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_work_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "What is the speaker trying to do?",
+  "script": "Let’s separate the issues: scope versus staffing.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Blame someone",
+      "Organize the discussion clearly",
+      "Reject the proposal",
+      "End the meeting"
+    ],
+    "answerIndex": 1
+  }
+}

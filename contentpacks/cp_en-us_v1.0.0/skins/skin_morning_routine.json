@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_morning_routine",
+  "name": "Morning Routine",
+  "category": "routine",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Learner"
+    },
+    {
+      "roleId": "ai",
+      "label": "Tutor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your morning with times and answer one follow-up about transport.",
+    "aiGoal": "Ask about sequence and transport."
+  },
+  "allowedIntents": [
+    "describe_routine",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "routine",
+    "time",
+    "transport"
+  ]
+}

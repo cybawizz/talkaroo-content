@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_friend_description",
+  "name": "Talking about a Friend",
+  "category": "social_casual",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Student"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your friend (2 details) and answer one follow-up about their job.",
+    "aiGoal": "Ask for appearance and job."
+  },
+  "allowedIntents": [
+    "describe_person",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "people",
+    "appearance",
+    "friends"
+  ]
+}

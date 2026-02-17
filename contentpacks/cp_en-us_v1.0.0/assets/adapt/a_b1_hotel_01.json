@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Ask how to reserve and request a second option just in case.",
+  "setup": "The receptionist recommends a bistro, but warns it may be busy.",
+  "aiMove": "There's a nice bistro called 'The Nook' around the corner, but it's Friday night so they might be full too.",
+  "successCriteria": [
+    "Ask how to reserve",
+    "Request second option"
+  ]
+}

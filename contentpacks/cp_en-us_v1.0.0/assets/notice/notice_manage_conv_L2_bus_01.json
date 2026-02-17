@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_bus_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_bus_stop_smalltalk",
+  "prompt": "Identify the question.",
+  "script": "Is this the bus to town?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for directions",
+      "Asking about the bus route",
+      "Ordering food",
+      "Saying goodbye"
+    ],
+    "answerIndex": 1
+  }
+}

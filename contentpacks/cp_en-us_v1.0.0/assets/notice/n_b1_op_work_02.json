@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_op_work_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_work_policy_opinion",
+  "prompt": "Identify the request.",
+  "script": "Could you explain your view about this change?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for reasons",
+      "Agreeing",
+      "Closing",
+      "Joking"
+    ],
+    "answerIndex": 0
+  }
+}

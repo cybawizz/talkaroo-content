@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j1_hotel_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_hotel_greeting",
+  "prompt": "Listen for the room.",
+  "script": "My room is five zero four.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Room 504",
+      "Room 405",
+      "50 years old",
+      "He is at the bus stop"
+    ],
+    "answerIndex": 0
+  }
+}

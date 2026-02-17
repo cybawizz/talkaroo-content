@@ -1,0 +1,40 @@
+{
+  "skinId": "skin_neighbor_boundary_setting",
+  "name": "Neighbor Talk: Setting a Boundary Politely",
+  "category": "neighborhood",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Start friendly, raise a sensitive issue, propose a compromise, and preserve rapport.",
+    "aiGoal": "Defend themselves, downplay the issue, then accept a practical compromise."
+  },
+  "allowedIntents": [
+    "greet",
+    "open_topic",
+    "raise_issue",
+    "hedge",
+    "give_reason",
+    "agree_disagree",
+    "repair_misunderstanding",
+    "negotiate",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "informal"
+  },
+  "tags": [
+    "neighbors",
+    "boundaries",
+    "sensitive_topic",
+    "compromise"
+  ]
+}

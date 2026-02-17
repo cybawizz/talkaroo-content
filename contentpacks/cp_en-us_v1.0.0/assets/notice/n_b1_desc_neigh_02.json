@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_desc_neigh_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_neighborhood_tour",
+  "prompt": "Identify the comparison.",
+  "script": "Compared to downtown, it’s much quieter.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Downtown is quieter",
+      "This area is quieter",
+      "Both are noisy",
+      "No one lives there"
+    ],
+    "answerIndex": 1
+  }
+}

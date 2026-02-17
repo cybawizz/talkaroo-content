@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_street_directions",
+  "name": "Street Corner Directions",
+  "category": "public_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Lost Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Kind Local"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for directions to the museum, ask an alternative route if it's blocked, and confirm travel time.",
+    "aiGoal": "Give directions, mention roadworks on the main street, and suggest a detour."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "directions",
+    "navigation"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_shop_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_shop_return",
+  "prompt": "Identify the follow-up.",
+  "script": "Do you have the receipt?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for receipt",
+      "Refusing",
+      "Offering discount",
+      "Saying goodbye"
+    ],
+    "answerIndex": 0
+  }
+}

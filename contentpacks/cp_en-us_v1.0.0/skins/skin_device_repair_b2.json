@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_device_repair_b2",
+  "name": "Device Repair Negotiation",
+  "category": "technical_help",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Repair Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe the device problem, ask about cost and time, and confirm the plan.",
+    "aiGoal": "Explain constraints and ask the user to decide."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "respond_follow_up",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "factual",
+    "register": "neutral"
+  },
+  "tags": [
+    "technology",
+    "repair",
+    "cost"
+  ]
+}

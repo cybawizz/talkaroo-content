@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_childhood_memory",
+  "name": "A Childhood Memory",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Share a simple memory from childhood and why you remember it.",
+    "aiGoal": "Ask how it is different now."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_time",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "neutral"
+  },
+  "tags": [
+    "memory",
+    "past"
+  ]
+}

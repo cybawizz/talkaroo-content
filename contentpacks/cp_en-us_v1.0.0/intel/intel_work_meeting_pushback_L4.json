@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_work_meeting_pushback_L4",
+  "skinId": "skin_work_meeting_pushback",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "From my perspective, ...",
+      "example": "From my perspective, this reduces risk."
+    },
+    {
+      "text": "The evidence suggests ...",
+      "example": "The evidence suggests the current process is slowing us down."
+    },
+    {
+      "text": "I’m open to alternatives, but ...",
+      "example": "I’m open to alternatives, but we need a clear timeline."
+    },
+    {
+      "text": "What’s your main concern?",
+      "example": "What’s your main concern—cost or effort?"
+    },
+    {
+      "text": "Let’s separate the issues.",
+      "example": "Let’s separate the issues: scope versus staffing."
+    },
+    {
+      "text": "If we don’t do this, ...",
+      "example": "If we don’t do this, we’ll keep missing deadlines."
+    },
+    {
+      "text": "A reasonable compromise would be ...",
+      "example": "A reasonable compromise would be a two-week pilot."
+    },
+    {
+      "text": "Can we align on next steps?",
+      "example": "Can we align on next steps and owners?"
+    },
+    {
+      "text": "To summarize, ...",
+      "example": "To summarize, we’ll test it and review results."
+    },
+    {
+      "text": "I may be mistaken, but ...",
+      "example": "I may be mistaken, but I think we’re underestimating effort."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_pharmacy_help",
+  "name": "Pharmacy Advice",
+  "category": "health_service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Pharmacist"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for something for a headache, ask about dosage, and confirm if it’s safe with food.",
+    "aiGoal": "Suggest a common option and ask about allergies."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "calm",
+    "register": "neutral"
+  },
+  "tags": [
+    "health",
+    "pharmacy",
+    "help"
+  ]
+}

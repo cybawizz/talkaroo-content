@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_interview_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Identify the follow-up request.",
+  "script": "Could you give a concrete example from your last role?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for an example",
+      "Offering a job",
+      "Ending the interview",
+      "Asking for directions"
+    ],
+    "answerIndex": 0
+  }
+}

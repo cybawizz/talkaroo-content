@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_neighbor_intro_L2",
+  "skinId": "skin_neighbor_intro",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, I'm your new neighbor.",
+      "example": "Hi, I'm your new neighbor."
+    },
+    {
+      "text": "I moved here last week.",
+      "example": "I moved here last week."
+    },
+    {
+      "text": "I'm from... originally.",
+      "example": "I'm from India originally."
+    },
+    {
+      "text": "I live in apartment...",
+      "example": "I live in apartment 3B."
+    },
+    {
+      "text": "It's nice to meet you.",
+      "example": "It's nice to meet you."
+    },
+    {
+      "text": "Do you like it here?",
+      "example": "Do you like it here?"
+    },
+    {
+      "text": "It's quiet and nice.",
+      "example": "It's quiet and nice."
+    },
+    {
+      "text": "See you around.",
+      "example": "See you around."
+    }
+  ]
+}

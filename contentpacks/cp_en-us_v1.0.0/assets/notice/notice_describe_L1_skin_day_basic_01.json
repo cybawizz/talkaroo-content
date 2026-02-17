@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_day_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_day_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "I eat lunch at twelve.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Lunch at 12",
+      "Dinner at 8",
+      "Breakfast at 7",
+      "No food"
+    ],
+    "answerIndex": 0
+  }
+}

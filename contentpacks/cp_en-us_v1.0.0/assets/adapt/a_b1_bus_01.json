@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_bus_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_bus_station_info",
+  "prompt": "Ask about another bus or taxi and decide what to do.",
+  "setup": "You plan for the next bus, but the delay becomes much longer.",
+  "aiMove": "I just got an update—the next bus is now delayed by 45 minutes instead of 10.",
+  "successCriteria": [
+    "Ask about other options",
+    "State a decision"
+  ]
+}

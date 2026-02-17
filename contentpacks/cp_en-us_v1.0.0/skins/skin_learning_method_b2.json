@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_learning_method_b2",
+  "name": "Learning Methods Debate",
+  "category": "learning",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Student"
+    },
+    {
+      "roleId": "ai",
+      "label": "Teacher"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain what method works for you and why, then respond to a counterpoint.",
+    "aiGoal": "Challenge gently and request evidence."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "agree_disagree",
+    "respond_to_opinion",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "learning",
+    "methods",
+    "opinions"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_bus_station_info",
+  "name": "Bus Station Information",
+  "category": "public_transport",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Passenger"
+    },
+    {
+      "roleId": "ai",
+      "label": "Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask which bus goes to the airport, ask about the platform, and confirm the next departure time.",
+    "aiGoal": "Give the correct bus number and mention a short delay."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "direct",
+    "register": "neutral"
+  },
+  "tags": [
+    "transport",
+    "bus",
+    "time"
+  ]
+}

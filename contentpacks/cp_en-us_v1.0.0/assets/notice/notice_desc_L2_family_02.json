@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_desc_L2_family_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_family_member",
+  "prompt": "Identify the time.",
+  "script": "He gets up at six and goes to bed at ten.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Up at 10",
+      "Up at 6, bed at 10",
+      "Up at 6, bed at 6",
+      "Bed at midnight"
+    ],
+    "answerIndex": 1
+  }
+}

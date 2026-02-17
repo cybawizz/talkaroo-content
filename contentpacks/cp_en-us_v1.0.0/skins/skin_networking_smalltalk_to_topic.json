@@ -1,0 +1,39 @@
+{
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "name": "Networking Event: From Small Talk to Substance",
+  "category": "professional_social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Attendee"
+    },
+    {
+      "roleId": "ai",
+      "label": "Attendee"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Start small talk, pivot to a shared professional topic, and exchange contact intent naturally.",
+    "aiGoal": "Ask for specifics and test if the user can explain their work clearly."
+  },
+  "allowedIntents": [
+    "greet",
+    "small_talk",
+    "pivot_topic",
+    "clarify_position",
+    "give_reason",
+    "respond_to_opinion",
+    "repair_misunderstanding",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polished",
+    "register": "neutral"
+  },
+  "tags": [
+    "networking",
+    "smalltalk",
+    "topic_shift",
+    "professional"
+  ]
+}

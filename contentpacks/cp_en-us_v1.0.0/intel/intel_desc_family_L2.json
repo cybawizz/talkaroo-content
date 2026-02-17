@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_desc_family_L2",
+  "skinId": "skin_family_member",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My {family} is ...",
+      "example": "My sister is friendly."
+    },
+    {
+      "text": "He/She is ... years old.",
+      "example": "He is 25 years old."
+    },
+    {
+      "text": "He/She works at ...",
+      "example": "She works at a hospital."
+    },
+    {
+      "text": "He/She usually ...",
+      "example": "He usually cooks dinner."
+    },
+    {
+      "text": "Every day, he/she ...",
+      "example": "Every day, she walks to work."
+    },
+    {
+      "text": "On weekends, he/she ...",
+      "example": "On weekends, he visits friends."
+    },
+    {
+      "text": "He/She gets up at ...",
+      "example": "He gets up at six."
+    },
+    {
+      "text": "He/She goes to bed at ...",
+      "example": "She goes to bed at ten."
+    }
+  ]
+}

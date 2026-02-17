@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_food_story_L2",
+  "skinId": "skin_food_story",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Yesterday, I ate at ...",
+      "example": "Yesterday, I ate at a small café."
+    },
+    {
+      "text": "I ordered ...",
+      "example": "I ordered fried rice."
+    },
+    {
+      "text": "It tasted good.",
+      "example": "It tasted good."
+    },
+    {
+      "text": "The service was fast.",
+      "example": "The service was fast."
+    },
+    {
+      "text": "It was not expensive.",
+      "example": "It was not expensive."
+    },
+    {
+      "text": "It cost {amount}.",
+      "example": "It cost ten dollars."
+    },
+    {
+      "text": "I went with ...",
+      "example": "I went with my friend."
+    },
+    {
+      "text": "Then we ...",
+      "example": "Then we had tea."
+    }
+  ]
+}

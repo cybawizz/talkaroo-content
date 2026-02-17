@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_problems_L1_skin_food_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_food_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "This soup is cold.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The soup is cold",
+      "The soup is hot",
+      "The soup is sweet",
+      "The soup is free"
+    ],
+    "answerIndex": 0
+  }
+}

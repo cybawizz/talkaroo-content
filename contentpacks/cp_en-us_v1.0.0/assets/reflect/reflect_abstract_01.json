@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_abstract_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "prompt": "Say it better (balanced + nuanced).",
+  "items": [
+    {
+      "bad": "It’s good and bad.",
+      "better": "On the one hand it improves access, but on the other hand it may create inequality.",
+      "note": "balance"
+    },
+    {
+      "bad": "That’s wrong.",
+      "better": "I partly agree, but I think the long-term effects deserve more attention.",
+      "note": "polite disagreement"
+    }
+  ]
+}

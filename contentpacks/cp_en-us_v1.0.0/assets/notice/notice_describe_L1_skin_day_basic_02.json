@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_day_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_day_basic",
+  "prompt": "How does he travel?",
+  "script": "I take the bus to work.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "By bus",
+      "By bike",
+      "Walk",
+      "Taxi"
+    ],
+    "answerIndex": 0
+  }
+}

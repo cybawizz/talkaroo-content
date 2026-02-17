@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Make it more polite.",
+  "items": [
+    {
+      "bad": "Restaurant full. Any place?",
+      "better": "I understand. Could you recommend a nearby restaurant, and how do I get there?",
+      "note": "Acknowledge + request + follow-up."
+    }
+  ]
+}

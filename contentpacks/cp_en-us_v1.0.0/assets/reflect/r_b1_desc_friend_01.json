@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_desc_friend_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_friend_profile",
+  "prompt": "Improve this sentence.",
+  "items": [
+    {
+      "bad": "My friend nice. Short hair.",
+      "better": "My friend is really kind, and he has short hair.",
+      "note": "Add 'is' + one connector."
+    }
+  ]
+}

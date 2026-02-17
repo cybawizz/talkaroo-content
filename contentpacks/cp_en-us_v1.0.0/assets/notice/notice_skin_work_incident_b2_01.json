@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_work_incident_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_work_incident_b2",
+  "prompt": "Identify the sequence marker.",
+  "script": "At first we got lost, and then we finally found the entrance.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They found it first",
+      "They got lost then found it",
+      "They never found it",
+      "They are lost now"
+    ],
+    "answerIndex": 1
+  }
+}

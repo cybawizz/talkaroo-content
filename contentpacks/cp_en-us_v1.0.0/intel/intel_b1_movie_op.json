@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_movie_op",
+  "skinId": "skin_movie_choice",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I really enjoy ...",
+      "example": "I really enjoy comedies."
+    },
+    {
+      "text": "The reason is...",
+      "example": "The reason is it helps me relax."
+    },
+    {
+      "text": "I'm not a big fan of ...",
+      "example": "I'm not a big fan of horror movies."
+    },
+    {
+      "text": "I see what you mean, but...",
+      "example": "I see what you mean, but I prefer something lighter."
+    },
+    {
+      "text": "How about ... instead?",
+      "example": "How about an action movie instead?"
+    },
+    {
+      "text": "We could compromise.",
+      "example": "We could compromise and watch a thriller."
+    },
+    {
+      "text": "That works for me.",
+      "example": "That works for me."
+    }
+  ]
+}

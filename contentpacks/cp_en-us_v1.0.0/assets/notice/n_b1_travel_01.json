@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_travel_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_travel_mishap",
+  "prompt": "Identify the problem.",
+  "script": "I missed the last train, so I took a taxi.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "He missed the train",
+      "He took a train",
+      "He stayed home",
+      "He bought a bike"
+    ],
+    "answerIndex": 0
+  }
+}

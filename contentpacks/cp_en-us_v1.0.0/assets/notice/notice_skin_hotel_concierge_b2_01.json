@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_hotel_concierge_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_hotel_concierge_b2",
+  "prompt": "Identify the constraint.",
+  "script": "The main route is blocked due to roadworks, so you’ll need a detour.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The route is open as usual",
+      "The route is blocked",
+      "The museum is closed",
+      "The detour is optional"
+    ],
+    "answerIndex": 1
+  }
+}

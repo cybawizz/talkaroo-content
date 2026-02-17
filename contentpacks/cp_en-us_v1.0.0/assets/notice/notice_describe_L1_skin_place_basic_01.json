@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_place_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_place_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "My home is big.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Small home",
+      "Big home",
+      "Old home",
+      "New home"
+    ],
+    "answerIndex": 1
+  }
+}

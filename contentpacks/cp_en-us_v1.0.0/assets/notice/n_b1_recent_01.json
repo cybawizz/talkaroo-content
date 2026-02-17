@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_recent_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_recent_event",
+  "prompt": "Identify the cause.",
+  "script": "Because of that, I went home early.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "He stayed out late",
+      "He went home early",
+      "He traveled abroad",
+      "He bought food"
+    ],
+    "answerIndex": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_device_basic_L1",
+  "skinId": "skin_device_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "It does not work.",
+      "usage": "General device failure.",
+      "example": "My phone does not work."
+    },
+    {
+      "text": "Can you help?",
+      "usage": "Ask for assistance.",
+      "example": "Please, can you help?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Device",
+      "definition": "A technical tool (phone, laptop)."
+    },
+    {
+      "term": "Screen",
+      "definition": "The part you look at."
+    }
+  ]
+}

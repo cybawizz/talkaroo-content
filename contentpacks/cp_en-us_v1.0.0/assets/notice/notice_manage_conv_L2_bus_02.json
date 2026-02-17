@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_bus_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_bus_stop_smalltalk",
+  "prompt": "Identify the meaning.",
+  "script": "It usually comes at eight.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The bus arrives at 8:00",
+      "The bus is cancelled",
+      "The bus is early",
+      "The stop is closed"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_place_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_place_basic",
+  "prompt": "Where is the home?",
+  "script": "It is near the station.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Near station",
+      "In the forest",
+      "On the moon",
+      "At the airport"
+    ],
+    "answerIndex": 0
+  }
+}

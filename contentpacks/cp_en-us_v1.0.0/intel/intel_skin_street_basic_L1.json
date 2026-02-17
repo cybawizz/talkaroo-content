@@ -1,0 +1,51 @@
+{
+  "intelId": "intel_skin_street_basic_L1",
+  "skinId": "skin_street_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Where is the {place}?",
+      "usage": "The most important phrase for any traveler.",
+      "example": "Excuse me, where is the station?"
+    },
+    {
+      "text": "Turn Left / Turn Right",
+      "usage": "Instructions for changing direction.",
+      "example": "Turn left at the next corner."
+    },
+    {
+      "text": "Straight ahead",
+      "usage": "Go in the same direction you are facing.",
+      "example": "The hotel is straight ahead, you can't miss it."
+    },
+    {
+      "text": "Is it near here?",
+      "usage": "Use this to check if you can walk.",
+      "example": "Is the museum near here?"
+    },
+    {
+      "text": "Thank you",
+      "usage": "Always thank people who help you.",
+      "example": "Thank you so much for your help!"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Station",
+      "definition": "Where trains or buses stop."
+    },
+    {
+      "term": "Corner",
+      "definition": "Where two streets meet."
+    },
+    {
+      "term": "Map",
+      "definition": "A picture of the streets."
+    },
+    {
+      "term": "Block",
+      "definition": "The distance between two streets."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adaptId": "adapt_skin_device_repair_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_device_repair_b2",
+  "prompt": "Handle mild resistance.",
+  "twist": "The staff says they can’t do exactly what you want. You must stay calm, propose one alternative, and confirm what will happen.",
+  "successCriteria": [
+    "Propose one alternative",
+    "Confirm next step",
+    "Keep polite tone"
+  ]
+}

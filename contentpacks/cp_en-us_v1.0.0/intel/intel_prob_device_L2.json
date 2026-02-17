@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_prob_device_L2",
+  "skinId": "skin_device_issue",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My screen is broken.",
+      "example": "My screen is broken."
+    },
+    {
+      "text": "It is black.",
+      "example": "It is black."
+    },
+    {
+      "text": "It is not turning on.",
+      "example": "It is not turning on."
+    },
+    {
+      "text": "The battery is low.",
+      "example": "The battery is low."
+    },
+    {
+      "text": "Can you fix it today?",
+      "example": "Can you fix it today?"
+    },
+    {
+      "text": "It will take two days.",
+      "example": "It will take two days."
+    },
+    {
+      "text": "Please leave it here.",
+      "example": "Please leave it here."
+    },
+    {
+      "text": "So it will be ready on {day}, right?",
+      "example": "So it will be ready on Friday, right?"
+    }
+  ]
+}

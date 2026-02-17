@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_city_trip_L2",
+  "skinId": "skin_city_trip",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Last week, I went to ...",
+      "example": "Last week, I went to the city."
+    },
+    {
+      "text": "I visited the ...",
+      "example": "I visited the museum."
+    },
+    {
+      "text": "Then I walked to ...",
+      "example": "Then I walked to the station."
+    },
+    {
+      "text": "I took the bus.",
+      "example": "I took the bus."
+    },
+    {
+      "text": "I came back at ...",
+      "example": "I came back at six."
+    },
+    {
+      "text": "I ate lunch at ...",
+      "example": "I ate lunch at one."
+    },
+    {
+      "text": "It was crowded.",
+      "example": "It was crowded."
+    },
+    {
+      "text": "After that, I ...",
+      "example": "After that, I went shopping."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "reflectId": "reflect_b1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_cafe_chat",
+  "prompt": "Say it better (B1).",
+  "items": [
+    {
+      "bad": "Coffee good. I like it.",
+      "better": "I think the coffee is really good because it tastes strong but not bitter.",
+      "note": "Opinion + reason in one sentence."
+    }
+  ]
+}

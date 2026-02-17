@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_skin_daily_routine_b2_B2",
+  "skinId": "skin_daily_routine_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What stands out most is…",
+      "example": "What stands out most is how calm he is."
+    },
+    {
+      "text": "He tends to…",
+      "example": "He tends to speak quietly, even when he's stressed."
+    },
+    {
+      "text": "If I had to sum it up…",
+      "example": "If I had to sum it up, it’s convenient but noisy."
+    },
+    {
+      "text": "Compared to…, it feels…",
+      "example": "Compared to my old area, it feels much greener."
+    },
+    {
+      "text": "It’s located right by…",
+      "example": "It’s located right by the station."
+    },
+    {
+      "text": "From what I’ve noticed…",
+      "example": "From what I’ve noticed, mornings are the busiest."
+    },
+    {
+      "text": "A typical day looks like…",
+      "example": "A typical day looks like classes, then study time."
+    },
+    {
+      "text": "The biggest drawback is…",
+      "example": "The biggest drawback is the traffic."
+    },
+    {
+      "text": "On the plus side…",
+      "example": "On the plus side, everything is within walking distance."
+    },
+    {
+      "text": "In general, I’d say…",
+      "example": "In general, I’d say it suits families."
+    }
+  ]
+}

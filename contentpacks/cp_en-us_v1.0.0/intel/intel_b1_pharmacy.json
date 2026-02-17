@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_b1_pharmacy",
+  "skinId": "skin_pharmacy_help",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you recommend something for ...?",
+      "example": "Could you recommend something for a headache?"
+    },
+    {
+      "text": "How often should I take it?",
+      "example": "How often should I take it?"
+    },
+    {
+      "text": "Should I take it with food?",
+      "example": "Should I take it with food?"
+    },
+    {
+      "text": "Is it okay if I’m allergic to ...?",
+      "example": "Is it okay if I’m allergic to aspirin?"
+    },
+    {
+      "text": "Are there any side effects?",
+      "example": "Are there any side effects I should know?"
+    },
+    {
+      "text": "So I take one now and one later, right?",
+      "example": "So I take one now and one later, right?"
+    }
+  ]
+}

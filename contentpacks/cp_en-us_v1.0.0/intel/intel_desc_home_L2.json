@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_desc_home_L2",
+  "skinId": "skin_new_home",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My apartment is ...",
+      "example": "My apartment is small."
+    },
+    {
+      "text": "It is on the ... floor.",
+      "example": "It is on the third floor."
+    },
+    {
+      "text": "It is near ...",
+      "example": "It is near the station."
+    },
+    {
+      "text": "It is next to ...",
+      "example": "It is next to the elevator."
+    },
+    {
+      "text": "The {room} is quite ...",
+      "example": "The kitchen is quite large."
+    },
+    {
+      "text": "There is a ...",
+      "example": "There is a balcony."
+    },
+    {
+      "text": "It’s behind ...",
+      "example": "It’s behind the park."
+    },
+    {
+      "text": "So it’s on the ... floor, right?",
+      "example": "So it’s on the third floor, right?"
+    }
+  ]
+}

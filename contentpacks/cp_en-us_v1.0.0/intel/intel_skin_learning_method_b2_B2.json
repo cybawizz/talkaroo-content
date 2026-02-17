@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_skin_learning_method_b2_B2",
+  "skinId": "skin_learning_method_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "If you ask me,…",
+      "example": "If you ask me, the quieter place is better."
+    },
+    {
+      "text": "What I like about it is…",
+      "example": "What I like about it is the relaxed atmosphere."
+    },
+    {
+      "text": "That said,…",
+      "example": "That said, it can be a bit expensive."
+    },
+    {
+      "text": "On balance, I’d choose…",
+      "example": "On balance, I’d choose the option that saves time."
+    },
+    {
+      "text": "From my perspective,…",
+      "example": "From my perspective, the plan is realistic."
+    },
+    {
+      "text": "I get your point, but…",
+      "example": "I get your point, but the risk is still there."
+    },
+    {
+      "text": "The main advantage is…",
+      "example": "The main advantage is flexibility."
+    },
+    {
+      "text": "The downside is…",
+      "example": "The downside is the extra cost."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "example": "Could we meet in the middle and try a smaller change first?"
+    },
+    {
+      "text": "So we agree to…",
+      "example": "So we agree to test it for two weeks, right?"
+    }
+  ]
+}

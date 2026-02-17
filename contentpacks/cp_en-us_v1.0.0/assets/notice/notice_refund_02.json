@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_refund_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Identify the alternative.",
+  "script": "We can’t do a refund, but we can offer an exchange or store credit.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "No options are available",
+      "Exchange or store credit is available",
+      "The store is closed",
+      "The customer must pay more"
+    ],
+    "answerIndex": 1
+  }
+}

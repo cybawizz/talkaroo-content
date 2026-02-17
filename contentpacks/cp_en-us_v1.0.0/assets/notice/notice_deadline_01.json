@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_deadline_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Identify the risk.",
+  "script": "If we rush, the risk is that we release with bugs and no time for testing.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "There is no risk",
+      "Testing might be skipped and bugs may ship",
+      "The team will hire more people",
+      "The release is canceled"
+    ],
+    "answerIndex": 1
+  }
+}

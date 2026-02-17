@@ -1,0 +1,13 @@
+{
+  "adaptId": "adapt_skin_trip_recap_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_trip_recap_b2",
+  "prompt": "Handle an interruption.",
+  "twist": "The listener interrupts with a question mid-story. You must answer briefly and then return to the story smoothly.",
+  "successCriteria": [
+    "Answer briefly",
+    "Use a transition to continue",
+    "Finish with a clear ending"
+  ]
+}

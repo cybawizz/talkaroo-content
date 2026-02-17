@@ -1,0 +1,44 @@
+{
+  "intelId": "intel_b1_queue_smalltalk",
+  "skinId": "skin_b1_queue_smalltalk",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "This line is moving slowly.",
+      "example": "This line is moving slowly today."
+    },
+    {
+      "text": "I think they should ...",
+      "example": "I think they should open another counter."
+    },
+    {
+      "text": "Probably because ...",
+      "example": "Probably because it’s a busy time."
+    },
+    {
+      "text": "I get what you mean, but ...",
+      "example": "I get what you mean, but staff might be limited."
+    },
+    {
+      "text": "To be honest, ...",
+      "example": "To be honest, I don’t mind waiting a little."
+    },
+    {
+      "text": "That’s a good point.",
+      "example": "That’s a good point—quality matters too."
+    },
+    {
+      "text": "What do you recommend?",
+      "example": "What do you recommend from the menu?"
+    },
+    {
+      "text": "I guess you’re right.",
+      "example": "I guess you’re right, it’s not that bad."
+    },
+    {
+      "text": "Anyway, have a nice day.",
+      "example": "Anyway, have a nice day."
+    }
+  ]
+}

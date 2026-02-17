@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_b1_j1_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_neighbor_park",
+  "prompt": "Adapt when the other person prefers another place.",
+  "setup": "You say this park is the best. Your neighbor prefers a different park.",
+  "aiMove": "I like this one, but I prefer the park near the river because it’s bigger.",
+  "successCriteria": [
+    "Agree on one point or acknowledge",
+    "Compare politely",
+    "Ask a follow-up question"
+  ]
+}

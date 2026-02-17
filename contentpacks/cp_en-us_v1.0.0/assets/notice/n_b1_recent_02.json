@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_recent_02",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_recent_event",
+  "prompt": "Identify the reaction.",
+  "script": "Honestly, I was a bit embarrassed.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "He was proud",
+      "He was embarrassed",
+      "He was asleep",
+      "He was excited"
+    ],
+    "answerIndex": 1
+  }
+}

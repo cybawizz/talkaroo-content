@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_b1_cafe_chat",
+  "name": "Café Catch-Up",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Greet your friend, give an opinion about the café drinks, and support it with a reason.",
+    "aiGoal": "Ask for the user's opinion and share a slightly different preference."
+  },
+  "allowedIntents": [
+    "greet",
+    "express_opinion",
+    "give_reason",
+    "respond_to_opinion",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "cafe",
+    "opinion",
+    "casual"
+  ]
+}

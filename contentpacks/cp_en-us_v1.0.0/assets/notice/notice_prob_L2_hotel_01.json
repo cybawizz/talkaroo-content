@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_hotel_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_hotel_problem",
+  "prompt": "Identify the problem.",
+  "script": "The air conditioning is not working. It does not turn on.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The AC works",
+      "The AC is broken",
+      "The AC is too cold",
+      "The room is clean"
+    ],
+    "answerIndex": 1
+  }
+}

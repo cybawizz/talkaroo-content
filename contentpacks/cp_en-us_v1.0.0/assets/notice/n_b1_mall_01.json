@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_mall_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the change.",
+  "script": "The electronics store moved to the third floor last week.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "It moved to floor 3",
+      "It closed last week",
+      "It is on floor 1",
+      "It moved outside"
+    ],
+    "answerIndex": 0
+  }
+}

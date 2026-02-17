@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_memory",
+  "skinId": "skin_childhood_memory",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "When I was a child, ...",
+      "example": "When I was a child, I played outside every day."
+    },
+    {
+      "text": "I remember it because...",
+      "example": "I remember it because it was exciting."
+    },
+    {
+      "text": "Back then, ...",
+      "example": "Back then, we didn’t have smartphones."
+    },
+    {
+      "text": "These days, ...",
+      "example": "These days, kids stay indoors more."
+    },
+    {
+      "text": "It makes me feel...",
+      "example": "It makes me feel nostalgic."
+    },
+    {
+      "text": "One thing I learned was...",
+      "example": "One thing I learned was to be patient."
+    },
+    {
+      "text": "It happened in...",
+      "example": "It happened in my old neighborhood."
+    }
+  ]
+}

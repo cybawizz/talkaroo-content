@@ -1,0 +1,115 @@
+{
+  "journeyId": "skill_manage_conversations_L2",
+  "skill": {
+    "cefrBand": "A2",
+    "level": 2
+  },
+  "skins": [
+    "skin_cafe_greeting",
+    "skin_neighbor_intro",
+    "skin_classroom_intro",
+    "skin_bus_stop_smalltalk"
+  ],
+  "intelPacks": [
+    "intel_skin_cafe_greeting_L2",
+    "intel_skin_neighbor_intro_L2",
+    "intel_skin_classroom_intro_L2",
+    "intel_skin_bus_stop_smalltalk_L2"
+  ],
+  "noticeAssets": [
+    "notice_manage_conv_L2_cafe_01",
+    "notice_manage_conv_L2_cafe_02",
+    "notice_manage_conv_L2_neighbor_01",
+    "notice_manage_conv_L2_neighbor_02",
+    "notice_manage_conv_L2_class_01",
+    "notice_manage_conv_L2_class_02",
+    "notice_manage_conv_L2_bus_01",
+    "notice_manage_conv_L2_bus_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [
+    "reflect_manage_conv_L2_cafe_01",
+    "reflect_manage_conv_L2_neighbor_01",
+    "reflect_manage_conv_L2_class_01",
+    "reflect_manage_conv_L2_bus_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_manage_conversations_L2",
+    "skillId": "skill_manage_conversations",
+    "level": 2,
+    "frames": [
+      {
+        "frameId": "frame_greet_simple",
+        "pattern": "Hi, how are you?",
+        "slots": [],
+        "notes": "Simple friendly greeting."
+      },
+      {
+        "frameId": "frame_reply_status",
+        "pattern": "I'm {feeling}, thanks.",
+        "slots": [
+          "feeling"
+        ],
+        "notes": "Simple status reply."
+      },
+      {
+        "frameId": "frame_add_job",
+        "pattern": "I work in {place}.",
+        "slots": [
+          "place"
+        ],
+        "notes": "Adds a simple work detail."
+      },
+      {
+        "frameId": "frame_add_study",
+        "pattern": "I study {subject}.",
+        "slots": [
+          "subject"
+        ],
+        "notes": "Adds a simple study detail."
+      },
+      {
+        "frameId": "frame_add_moved",
+        "pattern": "I moved here {time} ago.",
+        "slots": [
+          "time"
+        ],
+        "notes": "Adds a simple time reference."
+      },
+      {
+        "frameId": "frame_answer_followup",
+        "pattern": "Yes, I {verb} {place}.",
+        "slots": [
+          "verb",
+          "place"
+        ],
+        "notes": "Answers one follow-up with a simple statement."
+      },
+      {
+        "frameId": "frame_confirm",
+        "pattern": "So, you mean {info}, right?",
+        "slots": [
+          "info"
+        ],
+        "notes": "Simple confirmation check."
+      },
+      {
+        "frameId": "frame_close_polite",
+        "pattern": "Nice talking to you. Bye!",
+        "slots": [],
+        "notes": "Friendly closing."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Can you say that again, please?",
+        "notes": "Polite repetition request."
+      },
+      {
+        "text": "Sorry, I don't understand.",
+        "notes": "Clear confusion signal."
+      }
+    ]
+  }
+}

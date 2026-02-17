@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_net_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "What is the function of the question?",
+  "script": "Could you elaborate on how you measure success?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Ending the conversation",
+      "Asking for clarification and details",
+      "Making a joke",
+      "Refusing to answer"
+    ],
+    "answerIndex": 1
+  }
+}

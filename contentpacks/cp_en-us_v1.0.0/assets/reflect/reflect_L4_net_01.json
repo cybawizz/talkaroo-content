@@ -1,0 +1,17 @@
+{
+  "reflectId": "reflect_L4_net_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "Say it more clearly and professionally.",
+  "items": [
+    {
+      "bad": "We do stuff to make users happy.",
+      "better": "I work on onboarding to reduce drop-off and improve retention."
+    },
+    {
+      "bad": "It’s complicated.",
+      "better": "It’s complex, but the main issue is aligning incentives across teams."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_desc_friend_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_friend_profile",
+  "prompt": "Identify the job.",
+  "script": "She works as a nurse at a hospital.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "She is a nurse",
+      "She is a teacher",
+      "She is a driver",
+      "She is a student"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Understand the issue.",
+  "script": "Our restaurant is fully booked tonight, I'm afraid.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Dinner is available now",
+      "No tables tonight",
+      "Breakfast is canceled",
+      "The hotel is closing"
+    ],
+    "answerIndex": 1
+  }
+}

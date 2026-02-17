@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_prob_hotel",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_hotel_problem",
+  "mode": "light",
+  "prompt": "Say it better (problem + request).",
+  "items": [
+    {
+      "bad": "AC no work.",
+      "better": "The air conditioning is not working.",
+      "note": "Use full sentence."
+    },
+    {
+      "bad": "Send person?",
+      "better": "Can you send someone to my room?",
+      "note": "Add 'Can you' + 'to my room'."
+    }
+  ]
+}

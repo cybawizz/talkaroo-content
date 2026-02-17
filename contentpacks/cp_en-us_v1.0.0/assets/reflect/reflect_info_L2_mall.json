@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_info_L2_mall",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_mall_info",
+  "mode": "light",
+  "prompt": "Say it better (floor + location).",
+  "items": [
+    {
+      "bad": "Bank where?",
+      "better": "Excuse me, where is the bank?",
+      "note": "Add polite opener."
+    },
+    {
+      "bad": "Top level stairs?",
+      "better": "So, it’s on the top level next to the stairs, right?",
+      "note": "Combine details to confirm."
+    }
+  ]
+}

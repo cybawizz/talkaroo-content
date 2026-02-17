@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_neighborhood_compare_b2_02",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_neighborhood_compare_b2",
+  "prompt": "Identify the follow-up focus.",
+  "script": "When you say it's convenient, what do you mean exactly—transport, shops, or something else?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Changing the topic",
+      "Asking for clarification",
+      "Giving directions",
+      "Ending the chat"
+    ],
+    "answerIndex": 1
+  }
+}

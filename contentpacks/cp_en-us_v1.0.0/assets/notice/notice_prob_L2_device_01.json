@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_device_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_device_issue",
+  "prompt": "Identify the device problem.",
+  "script": "My screen is broken and it is black.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Screen is fine",
+      "Screen is broken",
+      "Battery is full",
+      "Phone is lost"
+    ],
+    "answerIndex": 1
+  }
+}

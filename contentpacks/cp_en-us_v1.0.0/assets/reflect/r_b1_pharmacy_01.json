@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_pharmacy_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_pharmacy_help",
+  "prompt": "Add a follow-up.",
+  "items": [
+    {
+      "bad": "How take it?",
+      "better": "How often should I take it, and should I take it with food?",
+      "note": "Combine two simple follow-ups."
+    }
+  ]
+}

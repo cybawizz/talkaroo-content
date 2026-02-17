@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_food_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_food_story",
+  "prompt": "Identify what was ordered.",
+  "script": "I ordered fried rice.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "He ordered noodles",
+      "He ordered fried rice",
+      "He ordered coffee",
+      "He ordered soup"
+    ],
+    "answerIndex": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_interview_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Pressure change: interviewer challenges your trade-off.",
+  "setup": "Pressure change: interviewer challenges your trade-off.",
+  "aiMove": "You said you prioritize clarity, but in a real crisis, we often don't have time for perfect communication. Wouldn't speed be more important then?",
+  "successCriteria": [
+    "Qualify your view (it depends)",
+    "Give a situational example",
+    "Provide a balanced conclusion"
+  ]
+}

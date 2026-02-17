@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_b1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_cafe_chat",
+  "prompt": "Identify the stance and the reason.",
+  "script": "I think the tea is better because it’s lighter and not too sweet.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker prefers tea because it is lighter",
+      "The speaker dislikes tea because it is sweet",
+      "The speaker wants to order coffee",
+      "The speaker says the café is closed"
+    ],
+    "answerIndex": 0
+  }
+}

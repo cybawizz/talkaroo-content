@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_mall_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the location.",
+  "script": "The bank is on the top level next to the stairs.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "First floor",
+      "Top level near the stairs",
+      "Outside the mall",
+      "Behind the cinema"
+    ],
+    "answerIndex": 1
+  }
+}

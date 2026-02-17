@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_work_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_workday_recap",
+  "prompt": "Identify the task.",
+  "script": "This morning, I finished the report.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Finished the report",
+      "Started the report",
+      "Lost the report",
+      "Didn't work"
+    ],
+    "answerIndex": 0
+  }
+}

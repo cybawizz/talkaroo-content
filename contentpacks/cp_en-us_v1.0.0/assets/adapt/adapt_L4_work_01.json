@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_L4_work_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "Pressure twist: challenge on feasibility and data.",
+  "setup": "Pressure twist: challenge on feasibility and data.",
+  "aiMove": "I don’t see evidence. This sounds risky—why should we do it?",
+  "successCriteria": [
+    "User provides a reason/evidence",
+    "User proposes a compromise (pilot/test)",
+    "User aligns on next steps"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intelId": "intel_skin_cafe_greeting_L1",
+  "skinId": "skin_cafe_greeting",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Hello",
+      "usage": "The standard way to start any talk.",
+      "example": "Hello! Can I get a coffee?"
+    },
+    {
+      "text": "Good morning",
+      "usage": "Use this from sunrise until noon.",
+      "example": "Good morning, how are you today?"
+    },
+    {
+      "text": "Excuse me",
+      "usage": "Use this to get the barista's attention.",
+      "example": "Excuse me, where do I pick up my drink?"
+    },
+    {
+      "text": "Thank you",
+      "usage": "Say this when you receive your drink.",
+      "example": "Thank you! Have a great day."
+    },
+    {
+      "text": "Goodbye",
+      "usage": "A clear way to end the talk.",
+      "example": "Goodbye, see you tomorrow!"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Coffee",
+      "definition": "A common morning drink."
+    },
+    {
+      "term": "Barista",
+      "definition": "The person who makes the coffee."
+    },
+    {
+      "term": "Menu",
+      "definition": "The list of drinks and food."
+    },
+    {
+      "term": "Order",
+      "definition": "To ask for food or drink."
+    }
+  ]
+}

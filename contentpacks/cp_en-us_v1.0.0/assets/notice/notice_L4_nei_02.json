@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_nei_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "What solution is suggested?",
+  "script": "Maybe we can find a middle ground that works for both of us.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Move out",
+      "Call the police",
+      "Find a compromise",
+      "Ignore the problem"
+    ],
+    "answerIndex": 2
+  }
+}

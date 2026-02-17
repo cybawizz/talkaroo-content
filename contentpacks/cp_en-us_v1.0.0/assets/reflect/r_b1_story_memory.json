@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_story_memory",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_childhood_memory",
+  "prompt": "Add a reason.",
+  "items": [
+    {
+      "bad": "I remember it. It was exciting.",
+      "better": "I remember it because it was exciting.",
+      "note": "Use 'because' once."
+    }
+  ]
+}

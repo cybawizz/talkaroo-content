@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_cafe_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_cafe_mistake",
+  "prompt": "Identify the solution.",
+  "script": "I’ll bring a new one.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "No new drink",
+      "New drink is coming",
+      "Pay more",
+      "Wait one hour"
+    ],
+    "answerIndex": 1
+  }
+}

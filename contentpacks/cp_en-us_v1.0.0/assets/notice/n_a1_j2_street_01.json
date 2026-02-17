@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j2_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_street_basic",
+  "prompt": "Listen for the direction.",
+  "script": "Turn left at the next corner.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Turn left",
+      "Turn right",
+      "Go straight",
+      "Stop here"
+    ],
+    "answerIndex": 0
+  }
+}

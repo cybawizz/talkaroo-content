@@ -1,0 +1,44 @@
+{
+  "intelId": "intel_b1_neighbor_park",
+  "skinId": "skin_b1_neighbor_park",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Have you been to...?",
+      "example": "Have you been to the park near the lake?"
+    },
+    {
+      "text": "I believe ...",
+      "example": "I believe it’s the best park in the area."
+    },
+    {
+      "text": "The main reason is ...",
+      "example": "The main reason is it’s quiet and clean."
+    },
+    {
+      "text": "Compared to ..., ...",
+      "example": "Compared to the city park, it’s much calmer."
+    },
+    {
+      "text": "I totally agree.",
+      "example": "I totally agree—it's great for families."
+    },
+    {
+      "text": "Actually, I’m not sure.",
+      "example": "Actually, I’m not sure—it feels too small."
+    },
+    {
+      "text": "It depends.",
+      "example": "It depends on what you want to do there."
+    },
+    {
+      "text": "What about you?",
+      "example": "What about you—what do you like?"
+    },
+    {
+      "text": "Good to know.",
+      "example": "Good to know—I'll try it this weekend."
+    }
+  ]
+}

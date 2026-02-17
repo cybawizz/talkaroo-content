@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_networking_smalltalk_to_topic_L4",
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What brings you here today?",
+      "example": "What brings you here today—work or curiosity?"
+    },
+    {
+      "text": "I’m currently focused on ...",
+      "example": "I’m currently focused on improving customer onboarding."
+    },
+    {
+      "text": "The main challenge is ...",
+      "example": "The main challenge is keeping users engaged."
+    },
+    {
+      "text": "How does that compare to your experience?",
+      "example": "How does that compare to your experience in your team?"
+    },
+    {
+      "text": "If I’m understanding you correctly, ...",
+      "example": "If I’m understanding you correctly, you’re prioritizing speed."
+    },
+    {
+      "text": "That resonates with me.",
+      "example": "That resonates with me—we’ve seen the same issue."
+    },
+    {
+      "text": "Could you elaborate on ...?",
+      "example": "Could you elaborate on how you measure success?"
+    },
+    {
+      "text": "I’d love to stay in touch.",
+      "example": "I’d love to stay in touch and compare notes."
+    },
+    {
+      "text": "What’s the best way to reach you?",
+      "example": "What’s the best way to reach you after the event?"
+    },
+    {
+      "text": "Before we wrap up, ...",
+      "example": "Before we wrap up, one quick question."
+    }
+  ]
+}

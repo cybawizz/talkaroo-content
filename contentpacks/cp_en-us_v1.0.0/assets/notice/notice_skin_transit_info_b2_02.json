@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_transit_info_b2_02",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_transit_info_b2",
+  "prompt": "Identify the clarification.",
+  "script": "Just to confirm, you want the quickest route, not the scenic one—right?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Giving directions",
+      "Clarifying the user's priority",
+      "Refusing to help",
+      "Changing the topic"
+    ],
+    "answerIndex": 1
+  }
+}

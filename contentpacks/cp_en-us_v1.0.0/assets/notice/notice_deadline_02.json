@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_deadline_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Identify the proposal.",
+  "script": "As a compromise, we can ship a beta next week and the full version the week after.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Ship nothing",
+      "Ship in two stages",
+      "Ship later this year",
+      "Ship only the design"
+    ],
+    "answerIndex": 1
+  }
+}

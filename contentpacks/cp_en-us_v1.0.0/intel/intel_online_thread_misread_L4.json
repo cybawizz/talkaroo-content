@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_online_thread_misread_L4",
+  "skinId": "skin_online_thread_misread",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I think my message came across the wrong way.",
+      "example": "I think my message came across the wrong way—sorry about that."
+    },
+    {
+      "text": "That wasn’t my intention.",
+      "example": "That wasn’t my intention at all."
+    },
+    {
+      "text": "Let me rephrase that.",
+      "example": "Let me rephrase that more clearly."
+    },
+    {
+      "text": "I’m reacting to the idea, not the person.",
+      "example": "I’m reacting to the idea, not the person."
+    },
+    {
+      "text": "I can see why you’d read it that way.",
+      "example": "I can see why you’d read it that way."
+    },
+    {
+      "text": "To clarify my point, ...",
+      "example": "To clarify my point, I’m worried about the timeline."
+    },
+    {
+      "text": "Can we reset for a second?",
+      "example": "Can we reset for a second and start over?"
+    },
+    {
+      "text": "I respect your view.",
+      "example": "I respect your view even if we disagree."
+    },
+    {
+      "text": "What would you suggest instead?",
+      "example": "What would you suggest instead?"
+    },
+    {
+      "text": "Thanks for calling that out.",
+      "example": "Thanks for calling that out—I’ll be more careful."
+    }
+  ]
+}

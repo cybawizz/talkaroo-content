@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_skin_funny_misunderstanding_b2_B2",
+  "skinId": "skin_funny_misunderstanding_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To give you some context…",
+      "example": "To give you some context, we were already late."
+    },
+    {
+      "text": "At first,…",
+      "example": "At first, everything seemed normal."
+    },
+    {
+      "text": "All of a sudden,…",
+      "example": "All of a sudden, the lights went out."
+    },
+    {
+      "text": "What happened was…",
+      "example": "What happened was the system crashed."
+    },
+    {
+      "text": "In the end,…",
+      "example": "In the end, we found a simple fix."
+    },
+    {
+      "text": "The best part was…",
+      "example": "The best part was meeting new people."
+    },
+    {
+      "text": "Honestly, I didn’t expect…",
+      "example": "Honestly, I didn’t expect it to be so crowded."
+    },
+    {
+      "text": "Looking back,…",
+      "example": "Looking back, it was a good lesson."
+    },
+    {
+      "text": "If I’m honest,…",
+      "example": "If I’m honest, I was a bit nervous."
+    },
+    {
+      "text": "The main takeaway was…",
+      "example": "The main takeaway was to double-check details."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_mall_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the confirmation.",
+  "script": "So, top level near the stairs?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Confirming information",
+      "Asking to repeat",
+      "Changing topic",
+      "Ending the talk"
+    ],
+    "answerIndex": 0
+  }
+}

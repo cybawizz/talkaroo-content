@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_pharmacy_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_pharmacy_help",
+  "prompt": "Understand the instruction.",
+  "script": "Take one tablet with food every six hours.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Take two now",
+      "Take one with food",
+      "Take it once a day",
+      "Do not eat today"
+    ],
+    "answerIndex": 1
+  }
+}

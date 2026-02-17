@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_street_basic",
+  "name": "On the Street",
+  "category": "public",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Local"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask where a place is.",
+    "aiGoal": "Give a short direction."
+  },
+  "allowedIntents": [
+    "ask",
+    "confirm",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "directions",
+    "basic"
+  ]
+}

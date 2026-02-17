@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_desc_apt_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_apartment_details",
+  "prompt": "Confirm politely.",
+  "items": [
+    {
+      "bad": "Kitchen share?",
+      "better": "Just to confirm, the kitchen is shared, right?",
+      "note": "Use a confirmation frame."
+    }
+  ]
+}

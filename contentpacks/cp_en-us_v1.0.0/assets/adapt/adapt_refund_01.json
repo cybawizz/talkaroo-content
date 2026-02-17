@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_refund_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Pressure change: the manager says exceptions are rare and needs proof.",
+  "setup": "Pressure change: the manager says exceptions are rare and needs proof.",
+  "aiMove": "I understand your frustration, but company policy is very strict. We can only make an exception if you can provide the original receipt and clearly show me the defect right now.",
+  "successCriteria": [
+    "Ask what proof is needed",
+    "Offer a reasonable alternative (exchange/credit)",
+    "Confirm the final outcome politely"
+  ]
+}

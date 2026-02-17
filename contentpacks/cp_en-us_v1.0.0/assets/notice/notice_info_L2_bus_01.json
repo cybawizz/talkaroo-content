@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_bus_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_bus_station_help",
+  "prompt": "Understand the platform.",
+  "script": "It’s on platform four, over there.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Platform 4",
+      "Platform 14",
+      "No platform number",
+      "The bus is cancelled"
+    ],
+    "answerIndex": 0
+  }
+}

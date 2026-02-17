@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_hotel_issue_b1",
+  "name": "Hotel Room Problem",
+  "category": "service_problem",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Receptionist"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Report a room problem, ask for a solution, and confirm the time.",
+    "aiGoal": "Ask for room number and offer a technician with a time window."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "describe_problem",
+    "ask_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "formal"
+  },
+  "tags": [
+    "hotel",
+    "maintenance"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_friend",
+  "skinId": "skin_friend_profile",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "He's/She's kind and outgoing.",
+      "example": "She's kind and outgoing."
+    },
+    {
+      "text": "He/She has ... hair.",
+      "example": "He has short curly hair."
+    },
+    {
+      "text": "He/She wears glasses.",
+      "example": "She wears glasses at work."
+    },
+    {
+      "text": "He/She works as a ...",
+      "example": "He works as a graphic designer."
+    },
+    {
+      "text": "Most of the time, he/she...",
+      "example": "Most of the time, she works from home."
+    },
+    {
+      "text": "What I like most is...",
+      "example": "What I like most is his sense of humor."
+    },
+    {
+      "text": "Compared to me, ...",
+      "example": "Compared to me, she is more organized."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_device_repair_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_device_repair_b2",
+  "prompt": "Identify the tone.",
+  "script": "I’m afraid there’s an issue with my order—could you help me, please?",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Rude and angry",
+      "Polite complaint",
+      "Joking",
+      "Not a complaint"
+    ],
+    "answerIndex": 1
+  }
+}

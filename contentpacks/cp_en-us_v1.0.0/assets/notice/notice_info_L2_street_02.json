@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_street_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the follow-up.",
+  "script": "Is it near here?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking about distance",
+      "Ordering food",
+      "Saying goodbye",
+      "Giving directions"
+    ],
+    "answerIndex": 0
+  }
+}

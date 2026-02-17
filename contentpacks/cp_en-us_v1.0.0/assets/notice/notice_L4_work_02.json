@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_work_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "What is the tone?",
+  "script": "I’m open to alternatives, but we need a clear timeline.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Aggressive and insulting",
+      "Flexible but firm",
+      "Confused",
+      "Uninterested"
+    ],
+    "answerIndex": 1
+  }
+}

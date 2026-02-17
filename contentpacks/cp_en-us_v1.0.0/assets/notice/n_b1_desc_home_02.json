@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_desc_home_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_hometown_description",
+  "prompt": "Pick the follow-up intent.",
+  "script": "When is the best time to visit?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Giving directions",
+      "Asking about time",
+      "Ordering food",
+      "Closing"
+    ],
+    "answerIndex": 1
+  }
+}

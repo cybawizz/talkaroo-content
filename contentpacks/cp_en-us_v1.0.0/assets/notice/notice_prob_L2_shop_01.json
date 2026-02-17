@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_shop_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_shop_return",
+  "prompt": "Identify the request.",
+  "script": "Can I get a refund?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for a refund",
+      "Buying",
+      "Greeting",
+      "Giving thanks"
+    ],
+    "answerIndex": 0
+  }
+}

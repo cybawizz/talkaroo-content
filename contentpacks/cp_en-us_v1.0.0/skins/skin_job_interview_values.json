@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_job_interview_values",
+  "name": "Interview: Values & Trade-offs",
+  "category": "professional",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Candidate"
+    },
+    {
+      "roleId": "ai",
+      "label": "Interviewer"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your preference, support it with examples, and handle a tough follow-up.",
+    "aiGoal": "Ask a probing question, push for a concrete example, and evaluate clarity."
+  },
+  "allowedIntents": [
+    "state_preference",
+    "give_reason",
+    "give_example",
+    "handle_follow_up",
+    "clarify",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "formal"
+  },
+  "tags": [
+    "interview",
+    "values",
+    "tradeoffs"
+  ]
+}

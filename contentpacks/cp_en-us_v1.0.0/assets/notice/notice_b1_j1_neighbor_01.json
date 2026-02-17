@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_b1_j1_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_neighbor_park",
+  "prompt": "Identify the comparison.",
+  "script": "Compared to the city park, this one is quieter and feels safer.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The city park is quieter",
+      "This park is quieter than the city park",
+      "Both parks are noisy",
+      "The speaker is lost"
+    ],
+    "answerIndex": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j1_neigh_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Listen for the name.",
+  "script": "Hi, I am Alex. I live next door.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Name is Alex",
+      "Name is Sam",
+      "He is leaving",
+      "He is lost"
+    ],
+    "answerIndex": 0
+  }
+}

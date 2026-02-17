@@ -1,0 +1,31 @@
+{
+  "skinId": "skin_device_basic",
+  "name": "Device Issue",
+  "category": "tech",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "User"
+    },
+    {
+      "roleId": "ai",
+      "label": "Helper"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say the device does not work.",
+    "aiGoal": "Respond simply."
+  },
+  "allowedIntents": [
+    "report",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "neutral",
+    "register": "neutral"
+  },
+  "tags": [
+    "device",
+    "problem"
+  ]
+}

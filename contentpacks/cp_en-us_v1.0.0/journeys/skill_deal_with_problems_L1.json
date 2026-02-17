@@ -1,0 +1,49 @@
+{
+  "journeyId": "skill_deal_with_problems_L1",
+  "skill": {
+    "cefrBand": "A1",
+    "level": 1
+  },
+  "skins": [
+    "skin_hotel_basic",
+    "skin_food_basic",
+    "skin_device_basic"
+  ],
+  "intelPacks": [
+    "intel_skin_hotel_basic_L1",
+    "intel_skin_food_basic_L1",
+    "intel_skin_device_basic_L1"
+  ],
+  "noticeAssets": [
+    "notice_problems_L1_skin_hotel_basic_01",
+    "notice_problems_L1_skin_hotel_basic_02",
+    "notice_problems_L1_skin_food_basic_01",
+    "notice_problems_L1_skin_food_basic_02",
+    "notice_problems_L1_skin_device_basic_01",
+    "notice_problems_L1_skin_device_basic_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_deal_with_problems_L1",
+    "skillId": "skill_deal_with_problems",
+    "level": 1,
+    "frames": [
+      {
+        "frameId": "f_problem_simple",
+        "pattern": "My {item} is broken.",
+        "slots": [
+          "item"
+        ],
+        "notes": "Simple problem statement."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry. Can you help me?",
+        "notes": "Polite help request."
+      }
+    ]
+  }
+}

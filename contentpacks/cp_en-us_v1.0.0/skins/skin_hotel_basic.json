@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_hotel_basic",
+  "name": "Hotel Problem",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say something is not OK.",
+    "aiGoal": "Offer help."
+  },
+  "allowedIntents": [
+    "report",
+    "ask",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "hotel",
+    "problem"
+  ]
+}

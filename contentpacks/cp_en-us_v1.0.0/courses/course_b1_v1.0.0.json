@@ -1,0 +1,77 @@
+{
+    "courseId": "course_b1_v1.0.0",
+    "cefrLevel": "B1",
+    "status": "locked",
+    "locale": "en-US",
+    "contentPackVersion": "cp_en-us_v1.0.0",
+    "engineVersion": "engine_b1_v1.0.0",
+    "b1RulesFrozen": true,
+    "rules": {
+        "nodeOrder": [
+            "VOCAB",
+            "NOTICE",
+            "BUILD",
+            "FLOW",
+            "ADAPT",
+            "REFLECT"
+        ],
+        "maxFollowUps": 3,
+        "allowOpinions": true,
+        "allowResistance": true,
+        "allowReasonsBecauseSo": true,
+        "maxNoticeWords": 18,
+        "reflectMode": "full",
+        "adaptDifficulty": "light",
+        "allowTransfer": false,
+        "aiBehavior": {
+            "challengeUser": true,
+            "softDisagreement": true,
+            "clarificationRequests": true,
+            "noGrammarLectures": true
+        }
+    },
+    "journeys": [
+        {
+            "journeyId": "skill_manage_conversations_L3",
+            "journeyName": "Starting & Managing Conversations",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_manage_conversations_L3.json"
+        },
+        {
+            "journeyId": "skill_ask_information_help_L3",
+            "journeyName": "Asking for Information & Help",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_ask_information_help_L3.json"
+        },
+        {
+            "journeyId": "skill_describe_basic_L3",
+            "journeyName": "Describing People, Places & Daily Life",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_describe_basic_L3.json"
+        },
+        {
+            "journeyId": "skill_share_experiences_L3",
+            "journeyName": "Sharing Experiences & Stories",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_share_experiences_L3.json"
+        },
+        {
+            "journeyId": "skill_deal_with_problems_L3",
+            "journeyName": "Dealing with Problems & Services",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_deal_with_problems_L3.json"
+        },
+        {
+            "journeyId": "skill_express_opinions_L3",
+            "journeyName": "Expressing Opinions & Preferences",
+            "level": 3,
+            "status": "active",
+            "sourceFile": "skill_express_opinions_L3.json"
+        }
+    ]
+}

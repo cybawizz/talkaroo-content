@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_weekend_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_recent_weekend",
+  "prompt": "Identify the time.",
+  "script": "Last Saturday, I met a friend at two.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "It happened last Saturday",
+      "It happens every Saturday",
+      "It will happen tomorrow",
+      "He met at midnight"
+    ],
+    "answerIndex": 0
+  }
+}

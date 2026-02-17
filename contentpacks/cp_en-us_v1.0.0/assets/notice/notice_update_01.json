@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_update_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Identify the risk.",
+  "script": "We’re progressing well, but the main risk is the vendor integration, which could delay testing.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The project is cancelled",
+      "Vendor integration may delay testing",
+      "The team has no work",
+      "Testing is already finished"
+    ],
+    "answerIndex": 1
+  }
+}

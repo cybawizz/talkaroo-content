@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_op_travel",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Adjust your plan and confirm the new choice.",
+  "setup": "You plan a trip style, but prices increase suddenly.",
+  "aiMove": "I just checked the flights and the prices have doubled since yesterday! What should we do now?",
+  "successCriteria": [
+    "Adjust plan",
+    "Confirm new choice"
+  ]
+}

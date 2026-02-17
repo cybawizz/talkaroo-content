@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_desc_apt_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_apartment_details",
+  "prompt": "Answer honestly and offer one solution (e.g., curtains/earplugs).",
+  "setup": "You describe the apartment, but the roommate asks if the room is noisy.",
+  "aiMove": "The room looks great, but is it noisy with the elevator right next to it?",
+  "successCriteria": [
+    "Answer honestly",
+    "Offer one solution"
+  ]
+}

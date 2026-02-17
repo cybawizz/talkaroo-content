@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_problems_L1_skin_hotel_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_hotel_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "The shower is broken.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The shower is broken",
+      "The shower is new",
+      "The shower is clean",
+      "The shower is big"
+    ],
+    "answerIndex": 0
+  }
+}

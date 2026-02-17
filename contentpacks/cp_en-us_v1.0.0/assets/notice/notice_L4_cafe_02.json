@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_cafe_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "What is the implied goal?",
+  "script": "Can we park this for now and just enjoy our drinks?",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker wants to argue more",
+      "The speaker wants to end the discussion politely",
+      "The speaker wants to leave immediately",
+      "The speaker wants to order food"
+    ],
+    "answerIndex": 1
+  }
+}

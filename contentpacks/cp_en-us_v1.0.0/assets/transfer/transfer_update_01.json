@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_update_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Give the same structured update in a new domain (healthcare).",
+  "newContext": "Clinic admin meeting — update on appointment system rollout.",
+  "transferSkin": {
+    "skinId": "skin_update_transfer",
+    "name": "Clinic Admin Update",
+    "category": "professional",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Admin"
+      },
+      {
+        "roleId": "ai",
+        "label": "Director"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Present system status.",
+      "aiGoal": "Check for delays."
+    },
+    "allowedIntents": [
+      "present_update",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "formal",
+      "register": "formal"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

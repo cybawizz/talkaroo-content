@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_update_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Identify the mitigation.",
+  "script": "To mitigate this, we can prepare a fallback flow and run a smaller rollout first.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Complaining about workload",
+      "Suggesting a mitigation plan",
+      "Ending the meeting",
+      "Asking for a vacation"
+    ],
+    "answerIndex": 1
+  }
+}

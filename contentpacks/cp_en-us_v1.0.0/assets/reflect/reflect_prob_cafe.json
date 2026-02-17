@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_prob_cafe",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_cafe_mistake",
+  "mode": "light",
+  "prompt": "Say it better (order issue).",
+  "items": [
+    {
+      "bad": "Coffee cold.",
+      "better": "Excuse me, this coffee is cold.",
+      "note": "Add 'Excuse me'."
+    },
+    {
+      "bad": "New one.",
+      "better": "Can I have a new one, please?",
+      "note": "Use a polite request."
+    }
+  ]
+}

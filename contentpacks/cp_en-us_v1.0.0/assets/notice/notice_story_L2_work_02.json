@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_work_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_workday_recap",
+  "prompt": "Identify the place.",
+  "script": "I worked in the main office.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Main office",
+      "Kitchen",
+      "Bus stop",
+      "Library"
+    ],
+    "answerIndex": 0
+  }
+}

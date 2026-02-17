@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_prob_L2_hotel_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_hotel_problem",
+  "prompt": "Identify the follow-up.",
+  "script": "What is your room number?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for information",
+      "Giving directions",
+      "Closing",
+      "Complaining"
+    ],
+    "answerIndex": 0
+  }
+}

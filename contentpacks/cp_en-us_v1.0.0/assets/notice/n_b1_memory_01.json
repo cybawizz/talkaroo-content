@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_memory_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_childhood_memory",
+  "prompt": "Identify the time.",
+  "script": "When I was a child, I played outside every day.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Now",
+      "In childhood",
+      "Tomorrow",
+      "Next year"
+    ],
+    "answerIndex": 1
+  }
+}

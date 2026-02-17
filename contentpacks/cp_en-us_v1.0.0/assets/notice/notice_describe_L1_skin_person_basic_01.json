@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_describe_L1_skin_person_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_person_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "I wake up at seven.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "He wakes up at 7",
+      "He wakes up at 9",
+      "He sleeps all day",
+      "He goes home at 7"
+    ],
+    "answerIndex": 0
+  }
+}

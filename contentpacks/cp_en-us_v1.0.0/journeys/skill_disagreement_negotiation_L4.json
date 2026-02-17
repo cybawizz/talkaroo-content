@@ -1,0 +1,106 @@
+{
+  "journeyId": "skill_disagreement_negotiation_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_roommate_noise",
+    "skin_work_deadline",
+    "skin_store_refund_policy"
+  ],
+  "intelPacks": [
+    "intel_noise_B2",
+    "intel_deadline_B2",
+    "intel_refund_B2"
+  ],
+  "noticeAssets": [
+    "notice_noise_01",
+    "notice_noise_02",
+    "notice_deadline_01",
+    "notice_deadline_02",
+    "notice_refund_01",
+    "notice_refund_02"
+  ],
+  "adaptAssets": [
+    "adapt_noise_01",
+    "adapt_deadline_01",
+    "adapt_refund_01"
+  ],
+  "reflectAssets": [
+    "reflect_noise_01",
+    "reflect_deadline_01",
+    "reflect_refund_01"
+  ],
+  "transferAssets": [
+    "transfer_noise_01",
+    "transfer_deadline_01",
+    "transfer_refund_01"
+  ],
+  "buildFrameSet": {
+    "frameSetId": "frames_disagreement_negotiation_L4",
+    "skillId": "skill_disagreement_negotiation",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_soft_disagree",
+        "pattern": "I understand, but {issue}.",
+        "slots": [
+          "issue"
+        ],
+        "notes": "Polite disagreement with a clear issue."
+      },
+      {
+        "frameId": "f_reason",
+        "pattern": "The main reason is {reason}.",
+        "slots": [
+          "reason"
+        ],
+        "notes": "Give a structured reason."
+      },
+      {
+        "frameId": "f_compromise",
+        "pattern": "Could we meet halfway and {proposal}?",
+        "slots": [
+          "proposal"
+        ],
+        "notes": "Offer a compromise."
+      },
+      {
+        "frameId": "f_options",
+        "pattern": "What are my options if {constraint}?",
+        "slots": [
+          "constraint"
+        ],
+        "notes": "Ask for alternatives."
+      },
+      {
+        "frameId": "f_confirm_agreement",
+        "pattern": "Just to confirm, we will {agreement}, right?",
+        "slots": [
+          "agreement"
+        ],
+        "notes": "Confirm the negotiated outcome."
+      },
+      {
+        "frameId": "f_tradeoff",
+        "pattern": "If we prioritize {x}, we can deliver {y}.",
+        "slots": [
+          "x",
+          "y"
+        ],
+        "notes": "Negotiate via trade-off (work context)."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Can we pause and clarify what we agree on so far?",
+        "notes": "Regain structure and confirm."
+      },
+      {
+        "text": "Sorry—can you rephrase that more simply?",
+        "notes": "Repair for complex phrasing."
+      }
+    ]
+  }
+}

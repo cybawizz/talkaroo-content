@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j2_shop_01",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_shop_basic",
+  "prompt": "Listen for the price.",
+  "script": "That is ten dollars, please.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "$10",
+      "$5",
+      "$20",
+      "Free"
+    ],
+    "answerIndex": 0
+  }
+}

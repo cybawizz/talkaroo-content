@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_op_travel_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Identify compromise.",
+  "script": "Could we meet in the middle and book a simple hotel?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Complaining",
+      "Compromising",
+      "Canceling",
+      "Greeting"
+    ],
+    "answerIndex": 1
+  }
+}

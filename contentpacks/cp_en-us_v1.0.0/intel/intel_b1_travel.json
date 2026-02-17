@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_travel",
+  "skinId": "skin_travel_mishap",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I missed the bus/train.",
+      "example": "I missed the last train."
+    },
+    {
+      "text": "At first, I...",
+      "example": "At first, I panicked a little."
+    },
+    {
+      "text": "So I decided to...",
+      "example": "So I decided to take a taxi."
+    },
+    {
+      "text": "Luckily, ...",
+      "example": "Luckily, a driver helped me."
+    },
+    {
+      "text": "Next time, I will...",
+      "example": "Next time, I will leave earlier."
+    },
+    {
+      "text": "It took about...",
+      "example": "It took about thirty minutes."
+    },
+    {
+      "text": "In the end, ...",
+      "example": "In the end, I arrived on time."
+    }
+  ]
+}

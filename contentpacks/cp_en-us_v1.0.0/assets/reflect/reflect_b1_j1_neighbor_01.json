@@ -1,0 +1,14 @@
+{
+  "reflectId": "reflect_b1_j1_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_neighbor_park",
+  "prompt": "Say it better (B1).",
+  "items": [
+    {
+      "bad": "This park better than city park.",
+      "better": "Compared to the city park, this one feels quieter, so I enjoy coming here more.",
+      "note": "Comparison + personal preference."
+    }
+  ]
+}

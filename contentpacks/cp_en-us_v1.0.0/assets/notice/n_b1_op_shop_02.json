@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_op_shop_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_shopping_choice",
+  "prompt": "Identify decision.",
+  "script": "Okay, I'll take this one.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Making a choice",
+      "Asking for refund",
+      "Disagreeing",
+      "Leaving"
+    ],
+    "answerIndex": 0
+  }
+}

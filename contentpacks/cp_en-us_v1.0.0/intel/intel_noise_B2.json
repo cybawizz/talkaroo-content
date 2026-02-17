@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_noise_B2",
+  "skinId": "skin_roommate_noise",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I get your point, but…",
+      "example": "I get your point, but it’s still hard for me to sleep."
+    },
+    {
+      "text": "From my perspective…",
+      "example": "From my perspective, the timing is the main issue."
+    },
+    {
+      "text": "Could we meet halfway?",
+      "example": "Could we meet halfway and keep it down after 11?"
+    },
+    {
+      "text": "What I’m asking for is…",
+      "example": "What I’m asking for is a quieter hour at night."
+    },
+    {
+      "text": "That works for me if…",
+      "example": "That works for me if we stick to it on weekdays."
+    },
+    {
+      "text": "Let’s agree on…",
+      "example": "Let’s agree on no loud music after 11."
+    },
+    {
+      "text": "To be fair…",
+      "example": "To be fair, weekends are different."
+    },
+    {
+      "text": "I’d appreciate it if…",
+      "example": "I’d appreciate it if you used headphones late."
+    }
+  ]
+}

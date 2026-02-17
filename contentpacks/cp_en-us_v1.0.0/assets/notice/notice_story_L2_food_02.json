@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_food_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_food_story",
+  "prompt": "Identify the price idea.",
+  "script": "It was not expensive.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "It was expensive",
+      "It was not expensive",
+      "It was free",
+      "It was broken"
+    ],
+    "answerIndex": 1
+  }
+}

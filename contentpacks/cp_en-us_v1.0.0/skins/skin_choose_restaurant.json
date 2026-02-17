@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_choose_restaurant",
+  "name": "Choosing a Restaurant",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say what you prefer for dinner, give reasons, and agree on a place.",
+    "aiGoal": "Offer another option and ask the user to explain their choice."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "compare",
+    "agree_disagree",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "food",
+    "preference",
+    "decision"
+  ]
+}

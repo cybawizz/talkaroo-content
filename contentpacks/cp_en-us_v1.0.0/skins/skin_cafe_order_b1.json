@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_cafe_order_b1",
+  "name": "Café Order Issue",
+  "category": "food_service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Barista"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain what’s wrong with the drink, request a fix, and confirm what you want.",
+    "aiGoal": "Apologize, clarify details, and offer replacement/refund."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "describe_problem",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "cafe",
+    "order"
+  ]
+}

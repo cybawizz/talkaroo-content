@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_bus_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_bus_station_info",
+  "prompt": "Close politely.",
+  "items": [
+    {
+      "bad": "Ok thanks.",
+      "better": "Thanks a lot for your help. Have a nice day.",
+      "note": "Finish with a friendly closing."
+    }
+  ]
+}

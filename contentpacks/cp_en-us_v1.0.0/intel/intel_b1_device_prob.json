@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_device_prob",
+  "skinId": "skin_device_repair_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "The screen keeps flickering.",
+      "example": "The screen keeps flickering."
+    },
+    {
+      "text": "It started yesterday.",
+      "example": "It started yesterday."
+    },
+    {
+      "text": "The battery drains quickly.",
+      "example": "The battery drains quickly too."
+    },
+    {
+      "text": "It turns on, but...",
+      "example": "It turns on, but it’s very slow."
+    },
+    {
+      "text": "Can you estimate the cost?",
+      "example": "Can you estimate the cost?"
+    },
+    {
+      "text": "How long will the repair take?",
+      "example": "How long will the repair take?"
+    },
+    {
+      "text": "So I can pick it up on...",
+      "example": "So I can pick it up on Friday, right?"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_recent_event",
+  "name": "Something That Happened Recently",
+  "category": "daily_life",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain a recent event, what you did, and the outcome.",
+    "aiGoal": "Ask one follow-up and react with a short opinion."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "respond_follow_up",
+    "respond_to_opinion",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "recent",
+    "outcome"
+  ]
+}

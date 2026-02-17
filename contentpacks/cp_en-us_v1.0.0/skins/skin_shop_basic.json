@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_shop_basic",
+  "name": "At the Gift Shop",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Clerk"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for the price of an item.",
+    "aiGoal": "State the price."
+  },
+  "allowedIntents": [
+    "ask",
+    "confirm",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "shopping",
+    "price"
+  ]
+}

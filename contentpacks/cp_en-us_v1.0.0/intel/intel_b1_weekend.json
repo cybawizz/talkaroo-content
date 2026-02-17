@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_weekend",
+  "skinId": "skin_weekend_story",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Last weekend, I...",
+      "example": "Last weekend, I visited my cousin."
+    },
+    {
+      "text": "First..., then..., after that...",
+      "example": "First we ate, then we walked, and after that we watched a movie."
+    },
+    {
+      "text": "In the end, ...",
+      "example": "In the end, I got home late."
+    },
+    {
+      "text": "I felt...",
+      "example": "I felt really relaxed."
+    },
+    {
+      "text": "It was fun because...",
+      "example": "It was fun because we laughed a lot."
+    },
+    {
+      "text": "What happened next was...",
+      "example": "What happened next was unexpected."
+    },
+    {
+      "text": "Around {time}",
+      "example": "Around 7 p.m., we left."
+    }
+  ]
+}

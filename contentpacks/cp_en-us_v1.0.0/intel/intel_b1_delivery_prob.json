@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_delivery_prob",
+  "skinId": "skin_delivery_problem_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "My order arrived, but...",
+      "example": "My order arrived, but one item is missing."
+    },
+    {
+      "text": "The order number is...",
+      "example": "The order number is A12345."
+    },
+    {
+      "text": "Could you send a replacement?",
+      "example": "Could you send a replacement, please?"
+    },
+    {
+      "text": "Is a refund possible?",
+      "example": "Is a refund possible instead?"
+    },
+    {
+      "text": "When will it arrive?",
+      "example": "When will it arrive?"
+    },
+    {
+      "text": "What do you need from me?",
+      "example": "What do you need from me to process it?"
+    },
+    {
+      "text": "Just to confirm, the next step is...",
+      "example": "Just to confirm, you'll email me the update?"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_food_basic_L1",
+  "skinId": "skin_food_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "This is cold.",
+      "usage": "Report temperature issue.",
+      "example": "This soup is cold."
+    },
+    {
+      "text": "Wrong order.",
+      "usage": "Report incorrect item.",
+      "example": "Sorry, wrong order."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Cold",
+      "definition": "Opposite of hot."
+    },
+    {
+      "term": "Order",
+      "definition": "What you asked for."
+    }
+  ]
+}

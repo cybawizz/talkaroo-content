@@ -1,0 +1,31 @@
+{
+  "skinId": "skin_person_basic",
+  "name": "A Friend",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a person.",
+    "aiGoal": "Ask a simple follow-up."
+  },
+  "allowedIntents": [
+    "describe",
+    "confirm",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "people"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_city_directions_b2",
+  "name": "Navigating a City Disruption",
+  "category": "public_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Visitor"
+    },
+    {
+      "roleId": "ai",
+      "label": "Local"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for directions to the museum, handle a closure, and confirm the fastest alternative.",
+    "aiGoal": "Give directions, mention a disruption, and challenge the user to pick a clear route."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "directions",
+    "detour"
+  ]
+}

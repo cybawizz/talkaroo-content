@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_city_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_city_trip",
+  "prompt": "Identify the return time.",
+  "script": "I came back at six.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Returned at 6:00",
+      "Left at 6:00",
+      "Came back at 16:00",
+      "Returned at 9:00"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_travel_op",
+  "skinId": "skin_travel_preference",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I prefer to ...",
+      "example": "I prefer to travel on a budget."
+    },
+    {
+      "text": "The main reason is ...",
+      "example": "The main reason is I want to save money."
+    },
+    {
+      "text": "I would rather ...",
+      "example": "I would rather stay in a comfortable hotel."
+    },
+    {
+      "text": "On the other hand, ...",
+      "example": "On the other hand, hostels can be noisy."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "example": "Could we meet in the middle and book a simple hotel?"
+    },
+    {
+      "text": "I'm flexible if ...",
+      "example": "I'm flexible if it’s near the city center."
+    },
+    {
+      "text": "So we’ll choose ..., right?",
+      "example": "So we’ll choose the simple hotel, right?"
+    }
+  ]
+}

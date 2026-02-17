@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_op_travel_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Identify preference.",
+  "script": "I prefer to travel on a budget.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Luxury travel",
+      "Budget travel",
+      "No travel",
+      "Business travel"
+    ],
+    "answerIndex": 1
+  }
+}

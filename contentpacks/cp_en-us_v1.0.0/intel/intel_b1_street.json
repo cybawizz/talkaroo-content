@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_b1_street",
+  "skinId": "skin_street_directions",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me how long it takes?",
+      "example": "Could you tell me how long it takes to walk there?"
+    },
+    {
+      "text": "Do you mean past the bank?",
+      "example": "Do you mean I should turn left past the bank?"
+    },
+    {
+      "text": "Is there another option?",
+      "example": "Is there another option if that road is busy?"
+    },
+    {
+      "text": "I'm not sure I understood the turn.",
+      "example": "I'm not sure I understood the second turn you mentioned."
+    },
+    {
+      "text": "What if I take the bus instead?",
+      "example": "What if I take the bus instead of walking?"
+    },
+    {
+      "text": "Just to confirm, ... right?",
+      "example": "Just to confirm, I turn left at the bank, right?"
+    }
+  ]
+}

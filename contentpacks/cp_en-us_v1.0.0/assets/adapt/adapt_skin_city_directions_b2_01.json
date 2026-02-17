@@ -1,0 +1,13 @@
+{
+  "adaptId": "adapt_skin_city_directions_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_city_directions_b2",
+  "prompt": "Handle a complication politely.",
+  "twist": "The person you’re asking is in a hurry and gives only partial directions. You must ask one precise follow-up and confirm the final step.",
+  "successCriteria": [
+    "Ask one targeted follow-up",
+    "Repeat the final instruction in your own words",
+    "Close politely"
+  ]
+}

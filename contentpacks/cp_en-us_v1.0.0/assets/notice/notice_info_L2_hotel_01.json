@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Understand the hours.",
+  "script": "It opens at seven and it’s open until midnight.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Closes at 7 PM",
+      "Opens at 7 and closes at midnight",
+      "Open 24 hours",
+      "Closed today"
+    ],
+    "answerIndex": 1
+  }
+}

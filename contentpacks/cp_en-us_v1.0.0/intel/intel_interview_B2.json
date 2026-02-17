@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_interview_B2",
+  "skinId": "skin_job_interview_values",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I tend to prioritize…",
+      "example": "I tend to prioritize clarity over speed in communication."
+    },
+    {
+      "text": "In practice, that means…",
+      "example": "In practice, that means I write short weekly summaries."
+    },
+    {
+      "text": "A concrete example is…",
+      "example": "A concrete example is when I resolved a conflict between teams."
+    },
+    {
+      "text": "One challenge was…",
+      "example": "One challenge was managing expectations."
+    },
+    {
+      "text": "Looking back, I would…",
+      "example": "Looking back, I would align earlier on success criteria."
+    },
+    {
+      "text": "It depends on the context.",
+      "example": "It depends on the context—deadlines and risk matter."
+    },
+    {
+      "text": "My reasoning is…",
+      "example": "My reasoning is that quality builds trust."
+    },
+    {
+      "text": "If I had to choose, I would…",
+      "example": "If I had to choose, I would prioritize impact."
+    }
+  ]
+}

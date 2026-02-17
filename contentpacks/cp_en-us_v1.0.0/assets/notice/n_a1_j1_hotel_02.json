@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j1_hotel_02",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_hotel_greeting",
+  "prompt": "What does he need?",
+  "script": "Excuse me, I need my key, please.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "A map",
+      "His key",
+      "A taxi",
+      "Water"
+    ],
+    "answerIndex": 1
+  }
+}

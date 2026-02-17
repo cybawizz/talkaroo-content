@@ -1,0 +1,13 @@
+{
+  "adaptId": "adapt_skin_neighborhood_compare_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_neighborhood_compare_b2",
+  "prompt": "Handle a challenge to your description.",
+  "twist": "The listener says your description is too general. You must add two concrete details and one comparison.",
+  "successCriteria": [
+    "Add two concrete details",
+    "Make one comparison",
+    "Keep the structure clear"
+  ]
+}

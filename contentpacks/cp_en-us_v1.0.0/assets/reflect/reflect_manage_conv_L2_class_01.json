@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_manage_conv_L2_class_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_classroom_intro",
+  "prompt": "Say it better (reason).",
+  "items": [
+    {
+      "bad": "I study English. Job.",
+      "better": "I study English for my job.",
+      "note": "Use 'for' to give the reason."
+    },
+    {
+      "bad": "Thank you teacher.",
+      "better": "Thank you, teacher. See you next class.",
+      "note": "Clear closing."
+    }
+  ]
+}

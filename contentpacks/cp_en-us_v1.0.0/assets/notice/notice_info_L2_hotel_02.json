@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_hotel_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Identify the follow-up.",
+  "script": "Do you have towels at the pool?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for an item",
+      "Asking for a refund",
+      "Checking out",
+      "Booking a room"
+    ],
+    "answerIndex": 0
+  }
+}

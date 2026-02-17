@@ -1,0 +1,12 @@
+{
+  "transferId": "transfer_L4_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "Transfer: same skill, new context (no prep phrases shown).",
+  "newContext": "A friend disagrees with your opinion about a movie. Keep rapport, clarify meaning, and close warmly.",
+  "constraints": {
+    "noVisibleIntel": true,
+    "shortTurns": true
+  }
+}

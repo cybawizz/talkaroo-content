@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_recent_weekend",
+  "name": "A Recent Weekend",
+  "category": "social_casual",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Tell one thing you did last weekend and when, then answer one follow-up.",
+    "aiGoal": "Ask one follow-up about time or place."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_time",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "weekend",
+    "past"
+  ]
+}

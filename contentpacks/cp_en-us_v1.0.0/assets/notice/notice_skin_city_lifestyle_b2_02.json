@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_city_lifestyle_b2_02",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_city_lifestyle_b2",
+  "prompt": "Identify the compromise move.",
+  "script": "Could we meet in the middle and try it for a week?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Making a compromise",
+      "Refusing",
+      "Changing topic",
+      "Giving directions"
+    ],
+    "answerIndex": 0
+  }
+}

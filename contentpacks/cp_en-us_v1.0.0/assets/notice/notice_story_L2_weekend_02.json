@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_story_L2_weekend_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_recent_weekend",
+  "prompt": "Identify the follow-up.",
+  "script": "What time did you finish?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking about finishing time",
+      "Inviting someone",
+      "Refusing",
+      "Asking for directions"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_apartment",
+  "skinId": "skin_apartment_details",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "It's on the ... floor.",
+      "example": "It's on the third floor."
+    },
+    {
+      "text": "The living room is...",
+      "example": "The living room is quite bright."
+    },
+    {
+      "text": "It's next to...",
+      "example": "It's next to the elevator."
+    },
+    {
+      "text": "It's about ... minutes from...",
+      "example": "It's about ten minutes from the station."
+    },
+    {
+      "text": "The room is larger/smaller.",
+      "example": "The room is smaller but quieter."
+    },
+    {
+      "text": "It's included in the rent.",
+      "example": "Wi‑Fi is included in the rent."
+    },
+    {
+      "text": "Just to confirm, ... right?",
+      "example": "Just to confirm, the kitchen is shared, right?"
+    }
+  ]
+}

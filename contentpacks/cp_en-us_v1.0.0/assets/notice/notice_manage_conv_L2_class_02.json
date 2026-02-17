@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_class_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_classroom_intro",
+  "prompt": "Identify the intent.",
+  "script": "Nice to meet you.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Giving homework",
+      "Greeting politely",
+      "Asking for help",
+      "Correcting grammar"
+    ],
+    "answerIndex": 1
+  }
+}

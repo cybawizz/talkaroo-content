@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_delivery_issue_b2",
+  "name": "Delivery Problem",
+  "category": "service_problem",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Agent"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Report a late delivery, ask for compensation options, and confirm next steps.",
+    "aiGoal": "Ask for order details and offer a resolution."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "delivery",
+    "support",
+    "resolution"
+  ]
+}

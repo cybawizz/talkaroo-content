@@ -1,0 +1,24 @@
+{
+  "reflectId": "reflect_skin_work_decision_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_work_decision_b2",
+  "prompt": "Make it more nuanced.",
+  "items": [
+    {
+      "bad": "I don't like it.",
+      "better": "From my perspective, it’s not ideal because the downside is the cost.",
+      "note": "reasoning"
+    },
+    {
+      "bad": "You're wrong.",
+      "better": "I get your point, but I’m still concerned about the risk.",
+      "note": "polite disagreement"
+    },
+    {
+      "bad": "Okay, fine.",
+      "better": "Could we meet in the middle and test it for a week first?",
+      "note": "compromise"
+    }
+  ]
+}

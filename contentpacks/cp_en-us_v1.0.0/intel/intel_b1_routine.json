@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_routine",
+  "skinId": "skin_daily_routine_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "First, I...",
+      "example": "First, I get up at 6:30."
+    },
+    {
+      "text": "Then I...",
+      "example": "Then I have breakfast."
+    },
+    {
+      "text": "After that, I...",
+      "example": "After that, I check my messages."
+    },
+    {
+      "text": "I usually...",
+      "example": "I usually leave at 8:00."
+    },
+    {
+      "text": "I take the bus/train.",
+      "example": "I take the bus to school."
+    },
+    {
+      "text": "If I'm late, I...",
+      "example": "If I'm late, I call my teacher."
+    },
+    {
+      "text": "I do this because...",
+      "example": "I do this because it helps me focus."
+    }
+  ]
+}

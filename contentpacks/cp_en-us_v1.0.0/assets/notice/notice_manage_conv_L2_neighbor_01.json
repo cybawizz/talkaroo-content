@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Identify the time detail.",
+  "script": "I moved here last week.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker moved recently",
+      "The speaker will move soon",
+      "The speaker is visiting",
+      "The speaker is leaving"
+    ],
+    "answerIndex": 0
+  }
+}

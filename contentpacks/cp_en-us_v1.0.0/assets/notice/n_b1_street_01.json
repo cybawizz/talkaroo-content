@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the constraint.",
+  "script": "The main road is closed today, so take a side street.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The road is open",
+      "The road is closed",
+      "The museum is closed",
+      "The bus is free"
+    ],
+    "answerIndex": 1
+  }
+}

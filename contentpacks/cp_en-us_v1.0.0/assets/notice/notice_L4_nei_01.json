@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_nei_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "What is the speaker doing?",
+  "script": "I don’t want to make a big deal out of this, but the noise is affecting sleep.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Starting a fight",
+      "Raising an issue gently",
+      "Apologizing for noise",
+      "Inviting someone over"
+    ],
+    "answerIndex": 1
+  }
+}

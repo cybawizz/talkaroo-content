@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_neighborhood_tour",
+  "name": "My Neighborhood",
+  "category": "neighborhood",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your area, mention one good thing and one downside, and compare it to another area.",
+    "aiGoal": "Ask what places are nearby and what the user likes most."
+  },
+  "allowedIntents": [
+    "describe_place",
+    "compare",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "informal"
+  },
+  "tags": [
+    "neighborhood",
+    "comparison"
+  ]
+}

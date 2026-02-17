@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_workstyle_b2",
+  "name": "Describing How You Work",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Employee"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe how you usually work and what helps you focus.",
+    "aiGoal": "Ask for examples and alternatives."
+  },
+  "allowedIntents": [
+    "describe_routine",
+    "express_opinion",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "habits",
+    "productivity"
+  ]
+}

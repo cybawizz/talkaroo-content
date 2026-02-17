@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_bus_station_L2",
+  "skinId": "skin_bus_station_help",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Which bus goes to ...?",
+      "example": "Which bus goes to the city center?"
+    },
+    {
+      "text": "What platform is it on?",
+      "example": "What platform is it on?"
+    },
+    {
+      "text": "It leaves at ...",
+      "example": "It leaves at 3:30."
+    },
+    {
+      "text": "It stops at ...",
+      "example": "It stops at the main station."
+    },
+    {
+      "text": "You can pay on the bus.",
+      "example": "You can pay on the bus."
+    },
+    {
+      "text": "It’s over there.",
+      "example": "The platform is over there."
+    },
+    {
+      "text": "Is this the right bus?",
+      "example": "Is this the right bus for downtown?"
+    },
+    {
+      "text": "So, platform {number}?",
+      "example": "So, platform 4?"
+    }
+  ]
+}

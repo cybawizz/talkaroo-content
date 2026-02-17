@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_b1_j1_queue_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_queue_smalltalk",
+  "prompt": "Identify the polite disagreement.",
+  "script": "I get what you mean, but they might be short-staffed today.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Complaining rudely",
+      "Offering a polite alternative explanation",
+      "Ordering food",
+      "Closing the store"
+    ],
+    "answerIndex": 1
+  }
+}

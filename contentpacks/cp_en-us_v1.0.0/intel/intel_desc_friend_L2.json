@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_desc_friend_L2",
+  "skinId": "skin_friend_description",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My friend is ...",
+      "example": "My friend is very kind."
+    },
+    {
+      "text": "He/She has ... hair.",
+      "example": "She has long hair."
+    },
+    {
+      "text": "He/She wears glasses.",
+      "example": "He wears glasses."
+    },
+    {
+      "text": "He/She is tall/short.",
+      "example": "She is tall."
+    },
+    {
+      "text": "He/She works as a ...",
+      "example": "He works as a teacher."
+    },
+    {
+      "text": "He/She works in ...",
+      "example": "She works in an office."
+    },
+    {
+      "text": "He/She lives nearby.",
+      "example": "He lives nearby."
+    },
+    {
+      "text": "He/She likes ...",
+      "example": "She likes music."
+    }
+  ]
+}

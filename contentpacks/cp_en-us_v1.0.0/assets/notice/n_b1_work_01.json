@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_b1_work_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_work_update",
+  "prompt": "Identify the result.",
+  "script": "The result was that the client was happy.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Client was unhappy",
+      "Client was happy",
+      "No client",
+      "Meeting canceled"
+    ],
+    "answerIndex": 1
+  }
+}

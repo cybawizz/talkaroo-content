@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_b1_j1_queue_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_queue_smalltalk",
+  "prompt": "Keep small talk polite under light pressure.",
+  "setup": "You complain a little about waiting. The stranger pushes back politely.",
+  "aiMove": "Maybe, but it’s not too bad. At least the service is usually good.",
+  "successCriteria": [
+    "Soften your complaint",
+    "Give a reason",
+    "Close politely if needed"
+  ]
+}

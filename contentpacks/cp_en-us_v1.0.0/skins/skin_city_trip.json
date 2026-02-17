@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_city_trip",
+  "name": "A Day Trip",
+  "category": "travel",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Local Acquaintance"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a day trip and when you came back, then answer one follow-up.",
+    "aiGoal": "Ask what you did next."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "past_event"
+  ]
+}

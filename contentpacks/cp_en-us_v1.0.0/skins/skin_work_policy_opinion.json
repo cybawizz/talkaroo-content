@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_work_policy_opinion",
+  "name": "Work Policy Opinion",
+  "category": "work",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Colleague"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Share an opinion about a work policy and give a reason.",
+    "aiGoal": "Ask for clarification and mention a concern."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "clarify_position",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "policy",
+    "reason"
+  ]
+}

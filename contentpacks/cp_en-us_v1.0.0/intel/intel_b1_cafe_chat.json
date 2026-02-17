@@ -1,0 +1,44 @@
+{
+  "intelId": "intel_b1_cafe_chat",
+  "skinId": "skin_b1_cafe_chat",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "What do you think about...?",
+      "example": "What do you think about their coffee?"
+    },
+    {
+      "text": "In my opinion, ...",
+      "example": "In my opinion, the cappuccino is the best."
+    },
+    {
+      "text": "I think ... because ...",
+      "example": "I think it's better because it's not too bitter."
+    },
+    {
+      "text": "The reason is ...",
+      "example": "The reason is the milk tastes fresher."
+    },
+    {
+      "text": "I see your point, but ...",
+      "example": "I see your point, but I prefer tea."
+    },
+    {
+      "text": "That makes sense.",
+      "example": "That makes sense, especially in the afternoon."
+    },
+    {
+      "text": "Honestly, ...",
+      "example": "Honestly, it's a bit expensive."
+    },
+    {
+      "text": "Maybe, but ...",
+      "example": "Maybe, but the quality is good."
+    },
+    {
+      "text": "Anyway, ...",
+      "example": "Anyway, do you want to sit inside or outside?"
+    }
+  ]
+}

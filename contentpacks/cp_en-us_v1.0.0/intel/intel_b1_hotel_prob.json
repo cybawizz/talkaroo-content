@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_hotel_prob",
+  "skinId": "skin_hotel_issue_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I'm having a problem with...",
+      "example": "I'm having a problem with the air conditioner."
+    },
+    {
+      "text": "It doesn't seem to work.",
+      "example": "It doesn't seem to work at all."
+    },
+    {
+      "text": "Could you send someone to check it?",
+      "example": "Could you send someone to check it, please?"
+    },
+    {
+      "text": "My room number is...",
+      "example": "My room number is 504."
+    },
+    {
+      "text": "How long will it take?",
+      "example": "How long will it take for someone to come?"
+    },
+    {
+      "text": "Just to confirm, they'll come at...",
+      "example": "Just to confirm, they'll come at 3 p.m., right?"
+    },
+    {
+      "text": "Thank you, I appreciate it.",
+      "example": "Thank you, I appreciate it."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "reflectId": "reflect_L4_online_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "Repair tone and clarify intent.",
+  "items": [
+    {
+      "bad": "That’s a stupid idea.",
+      "better": "I’m not sure that approach will work—can I explain my concern?"
+    },
+    {
+      "bad": "Relax, it’s not that serious.",
+      "better": "I can see why that sounded harsh—sorry. Let me rephrase."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_b1_neighbor_park",
+  "name": "Chatting with a Neighbor",
+  "category": "neighborhood",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Talk about the local park, give an opinion, and compare it with another place.",
+    "aiGoal": "Agree on one point but disagree on another politely."
+  },
+  "allowedIntents": [
+    "greet",
+    "express_opinion",
+    "give_reason",
+    "compare",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "informal"
+  },
+  "tags": [
+    "neighborhood",
+    "comparison",
+    "opinion"
+  ]
+}

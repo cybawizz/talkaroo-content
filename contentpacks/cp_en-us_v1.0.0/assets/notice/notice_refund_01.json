@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_refund_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Identify the request.",
+  "script": "I understand the policy, however this item is defective. Could you make an exception?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Requesting an exception",
+      "Ordering food",
+      "Asking for the time",
+      "Giving directions"
+    ],
+    "answerIndex": 0
+  }
+}

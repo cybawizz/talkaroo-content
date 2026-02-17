@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_interview_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Identify the structure.",
+  "script": "I prioritize clarity. In practice, that means short updates and clear owners for tasks.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Preference + practical example",
+      "A joke + complaint",
+      "A refusal to answer",
+      "A request for money"
+    ],
+    "answerIndex": 0
+  }
+}

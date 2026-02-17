@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_b1_hotel",
+  "skinId": "skin_hotel_reception",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me the opening hours?",
+      "example": "Could you tell me the opening hours for the restaurant?"
+    },
+    {
+      "text": "Do you mean it's fully booked?",
+      "example": "Do you mean the restaurant is fully booked tonight?"
+    },
+    {
+      "text": "Is there another way to get a table?",
+      "example": "Is there another way to get a table for two?"
+    },
+    {
+      "text": "Could you recommend somewhere nearby?",
+      "example": "Could you recommend somewhere nearby for dinner?"
+    },
+    {
+      "text": "How do I get there from here?",
+      "example": "How do I get there from the lobby?"
+    },
+    {
+      "text": "That sounds good. I'll do that.",
+      "example": "That sounds good. I'll go there instead."
+    }
+  ]
+}

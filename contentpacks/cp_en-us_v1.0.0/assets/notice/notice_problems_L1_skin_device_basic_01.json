@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_problems_L1_skin_device_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_device_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "My phone does not work.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The phone does not work",
+      "The phone is new",
+      "The phone is cheap",
+      "The phone is lost"
+    ],
+    "answerIndex": 0
+  }
+}

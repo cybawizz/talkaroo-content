@@ -1,0 +1,49 @@
+{
+  "journeyId": "skill_describe_basic_L1",
+  "skill": {
+    "cefrBand": "A1",
+    "level": 1
+  },
+  "skins": [
+    "skin_person_basic",
+    "skin_place_basic",
+    "skin_day_basic"
+  ],
+  "intelPacks": [
+    "intel_skin_person_basic_L1",
+    "intel_skin_place_basic_L1",
+    "intel_skin_day_basic_L1"
+  ],
+  "noticeAssets": [
+    "notice_describe_L1_skin_person_basic_01",
+    "notice_describe_L1_skin_person_basic_02",
+    "notice_describe_L1_skin_place_basic_01",
+    "notice_describe_L1_skin_place_basic_02",
+    "notice_describe_L1_skin_day_basic_01",
+    "notice_describe_L1_skin_day_basic_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_describe_basic_L1",
+    "skillId": "skill_describe_basic",
+    "level": 1,
+    "frames": [
+      {
+        "frameId": "f_person_is",
+        "pattern": "He/She is {adj}.",
+        "slots": [
+          "adj"
+        ],
+        "notes": "Simple adjective."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry. Again, please.",
+        "notes": "A1 repair phrase."
+      }
+    ]
+  }
+}

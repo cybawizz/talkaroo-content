@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_refund_B2",
+  "skinId": "skin_store_refund_policy",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I understand the policy, however…",
+      "example": "I understand the policy, however the item is defective."
+    },
+    {
+      "text": "Is there any flexibility?",
+      "example": "Is there any flexibility in this case?"
+    },
+    {
+      "text": "What are my options?",
+      "example": "What are my options if a refund isn’t possible?"
+    },
+    {
+      "text": "Could you make an exception?",
+      "example": "Could you make an exception this one time?"
+    },
+    {
+      "text": "I’d be satisfied with…",
+      "example": "I’d be satisfied with a store credit."
+    },
+    {
+      "text": "That seems reasonable.",
+      "example": "That seems reasonable—store credit works."
+    },
+    {
+      "text": "I’d like to escalate this.",
+      "example": "I’d like to escalate this to a manager, please."
+    },
+    {
+      "text": "Just to confirm…",
+      "example": "Just to confirm, the exchange is available today?"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_L4_net_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "Pressure twist: the other person is rushed and skeptical.",
+  "setup": "Pressure twist: the other person is rushed and skeptical.",
+  "aiMove": "Sorry, I have to run—what’s the point in one sentence?",
+  "successCriteria": [
+    "User summarizes clearly",
+    "User remains polite",
+    "User proposes a simple follow-up action"
+  ]
+}

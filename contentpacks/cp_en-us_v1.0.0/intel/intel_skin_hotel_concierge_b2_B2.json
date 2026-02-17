@@ -1,0 +1,48 @@
+{
+  "intelId": "intel_skin_hotel_concierge_b2_B2",
+  "skinId": "skin_hotel_concierge_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "Could you walk me through the best option?",
+      "example": "Could you walk me through the best option to get there?"
+    },
+    {
+      "text": "Just to clarify, you mean…",
+      "example": "Just to clarify, you mean I should avoid the main street?"
+    },
+    {
+      "text": "If that's the case, what would you recommend?",
+      "example": "If that's the case, what would you recommend instead?"
+    },
+    {
+      "text": "Is there a quicker alternative?",
+      "example": "Is there a quicker alternative if I’m in a hurry?"
+    },
+    {
+      "text": "Roughly how long should I allow?",
+      "example": "Roughly how long should I allow for the trip?"
+    },
+    {
+      "text": "What are the key steps I should follow?",
+      "example": "What are the key steps I should follow from here?"
+    },
+    {
+      "text": "Could you point out a landmark I can’t miss?",
+      "example": "Could you point out a landmark I can’t miss?"
+    },
+    {
+      "text": "Does that route avoid the crowded area?",
+      "example": "Does that route avoid the crowded area?"
+    },
+    {
+      "text": "So the next step is to…",
+      "example": "So the next step is to take the elevator to level three, right?"
+    },
+    {
+      "text": "Thanks—I'll do that now.",
+      "example": "Thanks—I'll do that now."
+    }
+  ]
+}

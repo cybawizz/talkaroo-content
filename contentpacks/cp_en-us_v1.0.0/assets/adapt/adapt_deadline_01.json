@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_deadline_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Pressure change: management insists the date cannot move.",
+  "setup": "Pressure change: management insists the date cannot move.",
+  "aiMove": "I've just come from a management meeting and they were very clear: the date is fixed and we absolutely cannot extend the deadline.",
+  "successCriteria": [
+    "Stay calm and professional",
+    "Propose scope reduction or staged release",
+    "Confirm next steps and responsibilities"
+  ]
+}

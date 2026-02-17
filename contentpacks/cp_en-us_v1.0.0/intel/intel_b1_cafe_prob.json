@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_cafe_prob",
+  "skinId": "skin_cafe_order_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Excuse me, I think this is wrong.",
+      "example": "Excuse me, I think this is wrong."
+    },
+    {
+      "text": "I ordered ..., but I got ...",
+      "example": "I ordered a latte, but I got a black coffee."
+    },
+    {
+      "text": "It's cold / too sweet.",
+      "example": "It's cold, actually."
+    },
+    {
+      "text": "Could you remake it, please?",
+      "example": "Could you remake it, please?"
+    },
+    {
+      "text": "No sugar, please.",
+      "example": "No sugar, please."
+    },
+    {
+      "text": "Can I get it to go?",
+      "example": "Can I get it to go?"
+    },
+    {
+      "text": "Thanks for fixing it.",
+      "example": "Thanks for fixing it."
+    }
+  ]
+}

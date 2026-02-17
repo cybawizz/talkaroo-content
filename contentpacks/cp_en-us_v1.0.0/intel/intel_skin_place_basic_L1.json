@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_place_basic_L1",
+  "skinId": "skin_place_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "It is big.",
+      "usage": "Describe size.",
+      "example": "My home is quite big."
+    },
+    {
+      "text": "It has two rooms.",
+      "usage": "Describe layout.",
+      "example": "It has two small rooms."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Home",
+      "definition": "Where you live."
+    },
+    {
+      "term": "Room",
+      "definition": "A space in a building."
+    }
+  ]
+}

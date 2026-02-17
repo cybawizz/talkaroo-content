@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_work",
+  "skinId": "skin_work_update",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "This morning, I...",
+      "example": "This morning, I joined a quick meeting."
+    },
+    {
+      "text": "After that, I...",
+      "example": "After that, I finished the report."
+    },
+    {
+      "text": "The result was...",
+      "example": "The result was that the client was happy."
+    },
+    {
+      "text": "I had to...",
+      "example": "I had to fix one small issue."
+    },
+    {
+      "text": "Now I need to...",
+      "example": "Now I need to prepare the next step."
+    },
+    {
+      "text": "It went well because...",
+      "example": "It went well because everyone helped."
+    },
+    {
+      "text": "By {time}, ...",
+      "example": "By noon, it was done."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_manage_conv_L2_class_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_classroom_intro",
+  "prompt": "Identify the reason.",
+  "script": "I study English for my job.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker studies English for work",
+      "The speaker dislikes English",
+      "The speaker is a teacher",
+      "The speaker is on holiday"
+    ],
+    "answerIndex": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "intelId": "intel_b1_recent",
+  "skinId": "skin_recent_event",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Recently, I...",
+      "example": "Recently, I had a small accident."
+    },
+    {
+      "text": "Because of that, ...",
+      "example": "Because of that, I went home early."
+    },
+    {
+      "text": "So I...",
+      "example": "So I called my friend."
+    },
+    {
+      "text": "In the end, ...",
+      "example": "In the end, everything was fine."
+    },
+    {
+      "text": "I was surprised because...",
+      "example": "I was surprised because it happened so fast."
+    },
+    {
+      "text": "What would you do?",
+      "example": "What would you do in that situation?"
+    },
+    {
+      "text": "Honestly, ...",
+      "example": "Honestly, I was a bit embarrassed."
+    }
+  ]
+}

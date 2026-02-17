@@ -1,0 +1,28 @@
+{
+  "intelId": "intel_skin_person_basic_L1",
+  "skinId": "skin_person_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "He/She is friendly.",
+      "usage": "Simple personality description.",
+      "example": "My friend is very friendly."
+    },
+    {
+      "text": "He/She is tall.",
+      "usage": "Describe height.",
+      "example": "He is very tall."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Friend",
+      "definition": "Someone you know and like."
+    },
+    {
+      "term": "Tall",
+      "definition": "A high physical height."
+    }
+  ]
+}

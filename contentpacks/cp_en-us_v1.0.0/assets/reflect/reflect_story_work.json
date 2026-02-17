@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_story_work",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_workday_recap",
+  "mode": "light",
+  "prompt": "Say it better (work recap).",
+  "items": [
+    {
+      "bad": "Morning meeting.",
+      "better": "This morning, I had a meeting.",
+      "note": "Add 'I had'."
+    },
+    {
+      "bad": "Finish report.",
+      "better": "I finished the report.",
+      "note": "Add 'the' + past verb."
+    }
+  ]
+}

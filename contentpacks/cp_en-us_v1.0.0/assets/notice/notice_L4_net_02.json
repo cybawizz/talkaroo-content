@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_net_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "What does the speaker signal?",
+  "script": "That resonates with me—we’ve seen the same issue.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They disagree strongly",
+      "They relate and build rapport",
+      "They want to change jobs",
+      "They did not understand"
+    ],
+    "answerIndex": 1
+  }
+}

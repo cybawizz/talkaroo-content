@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_weekend_L2",
+  "skinId": "skin_recent_weekend",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Last Saturday, I ...",
+      "example": "Last Saturday, I visited my cousin."
+    },
+    {
+      "text": "Yesterday, I ...",
+      "example": "Yesterday, I stayed at home."
+    },
+    {
+      "text": "I went to the ...",
+      "example": "I went to the park."
+    },
+    {
+      "text": "I watched a movie.",
+      "example": "I watched a movie at night."
+    },
+    {
+      "text": "I met a friend.",
+      "example": "I met a friend for lunch."
+    },
+    {
+      "text": "It was fun.",
+      "example": "It was fun."
+    },
+    {
+      "text": "I finished at ...",
+      "example": "I finished at ten."
+    },
+    {
+      "text": "Then I ...",
+      "example": "Then I went home."
+    }
+  ]
+}

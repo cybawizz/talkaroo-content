@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_neighborhood_compare_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_neighborhood_compare_b2",
+  "prompt": "Identify the comparison.",
+  "script": "Compared to the city center, this neighborhood is quieter and greener.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "It is louder than the city center",
+      "It is quieter than the city center",
+      "It is in the city center",
+      "It has no parks"
+    ],
+    "answerIndex": 1
+  }
+}

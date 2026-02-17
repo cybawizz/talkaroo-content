@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_street_L2",
+  "skinId": "skin_street_directions",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Excuse me, could you help me?",
+      "example": "Excuse me, could you help me find the library?"
+    },
+    {
+      "text": "Where is the ...?",
+      "example": "Where is the library?"
+    },
+    {
+      "text": "Is it near here?",
+      "example": "Is it near here?"
+    },
+    {
+      "text": "Go straight ahead.",
+      "example": "Go straight ahead for two blocks."
+    },
+    {
+      "text": "Turn left at ...",
+      "example": "Turn left at the bank."
+    },
+    {
+      "text": "Around the corner.",
+      "example": "It's around the corner."
+    },
+    {
+      "text": "How long does it take?",
+      "example": "How long does it take to walk there?"
+    },
+    {
+      "text": "So I turn left, right?",
+      "example": "So I turn left at the bank, right?"
+    }
+  ]
+}

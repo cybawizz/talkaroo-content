@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_skin_hotel_complaint_b2_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_hotel_complaint_b2",
+  "prompt": "Identify the negotiation move.",
+  "script": "If that’s not possible today, could we schedule it for tomorrow morning instead?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Demanding a refund",
+      "Offering an alternative solution",
+      "Ending the conversation",
+      "Changing topic"
+    ],
+    "answerIndex": 1
+  }
+}

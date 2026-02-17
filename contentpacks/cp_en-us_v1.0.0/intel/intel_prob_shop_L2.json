@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_prob_shop_L2",
+  "skinId": "skin_shop_return",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, I need help with this.",
+      "example": "Hi, I need help with this item."
+    },
+    {
+      "text": "It is broken.",
+      "example": "It is broken."
+    },
+    {
+      "text": "It does not work.",
+      "example": "It does not work."
+    },
+    {
+      "text": "Can I change it?",
+      "example": "Can I change it?"
+    },
+    {
+      "text": "Can I get a refund?",
+      "example": "Can I get a refund?"
+    },
+    {
+      "text": "Do you have the receipt?",
+      "example": "Do you have the receipt?"
+    },
+    {
+      "text": "Here is the receipt.",
+      "example": "Here is the receipt."
+    },
+    {
+      "text": "So I can exchange it, right?",
+      "example": "So I can exchange it, right?"
+    }
+  ]
+}

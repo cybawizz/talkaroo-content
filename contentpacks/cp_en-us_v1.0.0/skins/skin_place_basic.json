@@ -1,0 +1,30 @@
+{
+  "skinId": "skin_place_basic",
+  "name": "My Home",
+  "category": "home",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your home.",
+    "aiGoal": "Respond politely."
+  },
+  "allowedIntents": [
+    "describe",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "home"
+  ]
+}

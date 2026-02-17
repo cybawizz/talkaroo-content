@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the direction.",
+  "script": "Go straight ahead and turn left at the bank.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Turn right at the bank",
+      "Go straight and turn left at the bank",
+      "Go back to the park",
+      "Take the bus now"
+    ],
+    "answerIndex": 1
+  }
+}

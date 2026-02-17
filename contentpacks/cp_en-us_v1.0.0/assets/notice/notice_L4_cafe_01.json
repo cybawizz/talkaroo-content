@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_L4_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "What is the speaker doing?",
+  "script": "I get your point, but I’m not entirely convinced it’s worth the price.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Agreeing completely",
+      "Acknowledging and disagreeing politely",
+      "Changing the topic abruptly",
+      "Asking for a refund"
+    ],
+    "answerIndex": 1
+  }
+}

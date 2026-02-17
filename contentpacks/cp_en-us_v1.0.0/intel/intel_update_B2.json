@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_update_B2",
+  "skinId": "skin_team_update_meeting",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To summarize the current status…",
+      "example": "To summarize the current status, we’re on track for the core features."
+    },
+    {
+      "text": "The main risk is…",
+      "example": "The main risk is integration delays with the vendor."
+    },
+    {
+      "text": "To mitigate this, we can…",
+      "example": "To mitigate this, we can ship a fallback option."
+    },
+    {
+      "text": "Our assumption is that…",
+      "example": "Our assumption is that the API remains stable."
+    },
+    {
+      "text": "If that changes, we will…",
+      "example": "If that changes, we will adjust the scope."
+    },
+    {
+      "text": "The trade-off is…",
+      "example": "The trade-off is speed versus coverage."
+    },
+    {
+      "text": "Could you clarify what you mean by…?",
+      "example": "Could you clarify what you mean by ‘ready’?"
+    },
+    {
+      "text": "Next steps are…",
+      "example": "Next steps are QA, then a limited rollout."
+    }
+  ]
+}

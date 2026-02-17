@@ -1,0 +1,18 @@
+{
+  "noticeId": "n_a1_j1_neigh_02",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Where does he live?",
+  "script": "I live in apartment four B.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Apartment 4B",
+      "Apartment 2A",
+      "Next street",
+      "At the park"
+    ],
+    "answerIndex": 0
+  }
+}

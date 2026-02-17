@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_desc_home_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_hometown_description",
+  "prompt": "Add a reason.",
+  "items": [
+    {
+      "bad": "Visit the fort.",
+      "better": "I recommend visiting the old fort because the view is great.",
+      "note": "Recommendation + because."
+    }
+  ]
+}

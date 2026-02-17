@@ -1,0 +1,18 @@
+{
+  "noticeId": "notice_info_L2_bus_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_bus_station_help",
+  "prompt": "Identify the intent.",
+  "script": "Which bus goes to the city center?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Asking for information",
+      "Complaining",
+      "Refusing help",
+      "Asking for the price"
+    ],
+    "answerIndex": 0
+  }
+}

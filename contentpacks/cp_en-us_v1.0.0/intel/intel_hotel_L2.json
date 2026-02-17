@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_hotel_L2",
+  "skinId": "skin_hotel_reception",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "What time does the pool open?",
+      "example": "What time does the pool open?"
+    },
+    {
+      "text": "What time does it close?",
+      "example": "What time does it close?"
+    },
+    {
+      "text": "It’s open until ...",
+      "example": "It’s open until midnight."
+    },
+    {
+      "text": "It opens at ...",
+      "example": "It opens at seven."
+    },
+    {
+      "text": "Do you have towels?",
+      "example": "Do you have towels at the pool?"
+    },
+    {
+      "text": "You can get them at the desk.",
+      "example": "You can get them at the desk."
+    },
+    {
+      "text": "Is breakfast included?",
+      "example": "Is breakfast included?"
+    },
+    {
+      "text": "So it closes at {time}, right?",
+      "example": "So it closes at midnight, right?"
+    }
+  ]
+}
