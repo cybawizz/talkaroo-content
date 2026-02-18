@@ -6,46 +6,46 @@
   "phrases": [
     {
       "text": "Hello",
-      "usage": "The standard way to start any talk.",
-      "example": "Hello! Can I get a coffee?"
+      "usage": "Use this to start a talk.",
+      "example": "Hello. I study here."
     },
     {
       "text": "Good morning",
-      "usage": "Use this from sunrise until noon.",
-      "example": "Good morning, how are you today?"
+      "usage": "Use this in the morning.",
+      "example": "Good morning. I work nearby."
     },
     {
       "text": "Excuse me",
-      "usage": "Use this to get the barista's attention.",
-      "example": "Excuse me, where do I pick up my drink?"
+      "usage": "Use this to get attention.",
+      "example": "Excuse me. I like coffee."
     },
     {
       "text": "Thank you",
-      "usage": "Say this when you receive your drink.",
-      "example": "Thank you! Have a great day."
+      "usage": "Use this to be polite.",
+      "example": "Thank you. Yes, please."
     },
     {
       "text": "Goodbye",
-      "usage": "A clear way to end the talk.",
-      "example": "Goodbye, see you tomorrow!"
+      "usage": "Use this when you leave.",
+      "example": "Goodbye. Have a nice day."
     }
   ],
   "keyVocabulary": [
     {
       "term": "Coffee",
-      "definition": "A common morning drink."
+      "definition": "A hot dark drink."
     },
     {
-      "term": "Barista",
-      "definition": "The person who makes the coffee."
+      "term": "Work",
+      "definition": "A job you do."
     },
     {
-      "term": "Menu",
-      "definition": "The list of drinks and food."
+      "term": "Study",
+      "definition": "To learn at a school."
     },
     {
-      "term": "Order",
-      "definition": "To ask for food or drink."
+      "term": "Milk",
+      "definition": "A white drink from cows."
     }
   ]
 }

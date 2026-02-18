@@ -6,23 +6,35 @@
   "phrases": [
     {
       "text": "It does not work.",
-      "usage": "General device failure.",
+      "usage": "Use this when a machine is broken.",
       "example": "My phone does not work."
     },
     {
       "text": "Can you help?",
-      "usage": "Ask for assistance.",
-      "example": "Please, can you help?"
+      "usage": "Ask someone for assistance now.",
+      "example": "Please, can you help me?"
     }
   ],
   "keyVocabulary": [
     {
-      "term": "Device",
-      "definition": "A technical tool (phone, laptop)."
+      "term": "Phone",
+      "definition": "A small tool for calls."
     },
     {
-      "term": "Screen",
-      "definition": "The part you look at."
+      "term": "Laptop",
+      "definition": "A computer you carry."
+    },
+    {
+      "term": "Button",
+      "definition": "Press this to start it."
+    },
+    {
+      "term": "Battery",
+      "definition": "It gives power to things."
+    },
+    {
+      "term": "Broken",
+      "definition": "It does not work now."
     }
   ]
 }

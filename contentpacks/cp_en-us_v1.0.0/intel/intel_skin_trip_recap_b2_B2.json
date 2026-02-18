@@ -6,43 +6,75 @@
   "phrases": [
     {
       "text": "To give you some context…",
-      "example": "To give you some context, we were already late."
+      "usage": "Use this discourse marker to provide necessary background information that helps the listener understand the nuances of the situation you are about to describe.",
+      "example": "To give you some context, we had spent months meticulously planning this excursion, so the last-minute change in the itinerary was quite a shock."
     },
     {
       "text": "At first,…",
-      "example": "At first, everything seemed normal."
+      "usage": "Use this to establish an initial perspective or expectation, which is typically contrasted later in the story with a more complex reality.",
+      "example": "At first, the weather appeared rather ominous, casting a shadow of doubt over our hiking plans, though it eventually cleared up beautifully."
     },
     {
       "text": "All of a sudden,…",
-      "example": "All of a sudden, the lights went out."
+      "usage": "This phrase introduces a sudden, dramatic shift in the narrative, effectively creating a sense of urgency or surprise within the story.",
+      "example": "All of a sudden, we stumbled upon a hidden waterfall that wasn't marked on any of the local maps, which turned out to be a delightful surprise."
     },
     {
       "text": "What happened was…",
-      "example": "What happened was the system crashed."
+      "usage": "This acts as a narrative bridge to explain a specific complication or an unexpected turn of events in a more detailed and structured manner.",
+      "example": "What happened was that the local festival had completely blocked off the main thoroughfare, forcing us to take a scenic but unexpectedly long detour."
     },
     {
       "text": "In the end,…",
-      "example": "In the end, we found a simple fix."
+      "usage": "Use this to summarize the final outcome or the ultimate conclusion of an experience after various complications have been navigated.",
+      "example": "In the end, despite the minor logistical hiccups we encountered, the sense of accomplishment we felt at the summit was absolutely unparalleled."
     },
     {
       "text": "The best part was…",
-      "example": "The best part was meeting new people."
+      "usage": "This highlights the most rewarding or memorable aspect of the trip, focusing the listener’s attention on a specific positive peak of the experience.",
+      "example": "The best part was the spontaneous conversation we had with a local artisan who shared fascinating insights into the region's cultural heritage."
     },
     {
       "text": "Honestly, I didn’t expect…",
-      "example": "Honestly, I didn’t expect it to be so crowded."
+      "usage": "A common hedging phrase used to express vulnerability or surprise, signaling that the speaker's prior assumptions were challenged by the reality.",
+      "example": "Honestly, I didn't expect the architectural preservation in such a remote village to be so incredibly well-maintained and historically significant."
     },
     {
       "text": "Looking back,…",
-      "example": "Looking back, it was a good lesson."
+      "usage": "A retrospective marker used to offer a reflective viewpoint or a more mature assessment of the events after they have occurred.",
+      "example": "Looking back, the minor delays we encountered actually allowed us to appreciate the rural landscape with a much deeper level of detail than planned."
     },
     {
       "text": "If I’m honest,…",
-      "example": "If I’m honest, I was a bit nervous."
+      "usage": "This is a conversational hedge used to soften a subjective opinion or to introduce a realization that might otherwise seem slightly critical or surprising.",
+      "example": "If I'm honest, the initial hike was significantly more strenuous than the guidebook suggested, making the final view feel even more rewarding."
     },
     {
       "text": "The main takeaway was…",
-      "example": "The main takeaway was to double-check details."
+      "usage": "Use this to articulate the primary lesson learned or the most significant abstract impression left by the overall experience.",
+      "example": "The main takeaway was that sometimes the most memorable moments are those that occur when you finally decide to deviate from the original plan."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Itinerary",
+      "definition": "A detailed plan or route for a journey, often including specific timings and locations."
+    },
+    {
+      "term": "Spontaneous",
+      "definition": "Occurring as a result of a sudden inner impulse or inclination and without premeditation."
+    },
+    {
+      "term": "Unforeseen",
+      "definition": "Not anticipated or predicted; describing an event that was not expected to happen."
+    },
+    {
+      "term": "Retrospective",
+      "definition": "Looking back on or dealing with past events or situations with the benefit of hindsight."
+    },
+    {
+      "term": "Logistical",
+      "definition": "Relating to the detailed coordination of a complex operation involving many people, facilities, or supplies."
     }
   ]
 }

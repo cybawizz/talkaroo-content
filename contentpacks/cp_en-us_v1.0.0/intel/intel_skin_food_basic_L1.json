@@ -6,23 +6,35 @@
   "phrases": [
     {
       "text": "This is cold.",
-      "usage": "Report temperature issue.",
-      "example": "This soup is cold."
+      "usage": "Use when food is not hot.",
+      "example": "This pizza is cold."
     },
     {
       "text": "Wrong order.",
-      "usage": "Report incorrect item.",
-      "example": "Sorry, wrong order."
+      "usage": "Use when the food is wrong.",
+      "example": "Sorry, this is a wrong order."
     }
   ],
   "keyVocabulary": [
     {
-      "term": "Cold",
-      "definition": "Opposite of hot."
+      "term": "Food",
+      "definition": "Things we eat."
     },
     {
-      "term": "Order",
-      "definition": "What you asked for."
+      "term": "Wrong",
+      "definition": "Not correct."
+    },
+    {
+      "term": "Hot",
+      "definition": "High temperature."
+    },
+    {
+      "term": "Waiter",
+      "definition": "Person who brings food."
+    },
+    {
+      "term": "Problem",
+      "definition": "Something is not right."
     }
   ]
 }

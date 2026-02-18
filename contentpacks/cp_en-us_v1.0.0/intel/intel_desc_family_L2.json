@@ -6,35 +6,65 @@
   "phrases": [
     {
       "text": "My {family} is ...",
-      "example": "My sister is friendly."
+      "usage": "Use this to introduce a family member and their personality.",
+      "example": "My sister is very friendly and helps everyone she meets."
     },
     {
       "text": "He/She is ... years old.",
-      "example": "He is 25 years old."
+      "usage": "Use this to tell someone the age of your relative.",
+      "example": "She is twenty-five years old and lives in a flat."
     },
     {
       "text": "He/She works at ...",
-      "example": "She works at a hospital."
+      "usage": "Use this to talk about your family member's job location.",
+      "example": "He works at a small hospital near the city center."
     },
     {
       "text": "He/She usually ...",
-      "example": "He usually cooks dinner."
+      "usage": "Use this to describe a common habit your relative has.",
+      "example": "She usually cooks a healthy dinner for the whole family."
     },
     {
       "text": "Every day, he/she ...",
-      "example": "Every day, she walks to work."
+      "usage": "Use this to describe a routine activity done every day.",
+      "example": "Every day, he walks to the park with his dog."
     },
     {
       "text": "On weekends, he/she ...",
-      "example": "On weekends, he visits friends."
+      "usage": "Use this to talk about what they do for fun.",
+      "example": "On weekends, he visits his old friends in the countryside."
     },
     {
       "text": "He/She gets up at ...",
-      "example": "He gets up at six."
+      "usage": "Use this to explain the start of their daily schedule.",
+      "example": "He gets up at six o'clock to go jogging outside."
     },
     {
       "text": "He/She goes to bed at ...",
-      "example": "She goes to bed at ten."
+      "usage": "Use this to explain when their day usually ends.",
+      "example": "She goes to bed at ten after reading a book."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Friendly",
+      "definition": "Someone who is kind and pleasant to other people."
+    },
+    {
+      "term": "Busy",
+      "definition": "Having a lot of things to do every day."
+    },
+    {
+      "term": "Helpful",
+      "definition": "Willing to give help and be useful to others."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Making very little noise or not talking a lot."
+    },
+    {
+      "term": "Active",
+      "definition": "Doing many activities and moving around a lot."
     }
   ]
 }

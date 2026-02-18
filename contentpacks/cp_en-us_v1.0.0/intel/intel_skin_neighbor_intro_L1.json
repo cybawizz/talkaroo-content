@@ -6,23 +6,23 @@
   "phrases": [
     {
       "text": "Hi, I'm {name}",
-      "usage": "A simple way to introduce yourself.",
-      "example": "Hi, I'm Alex. I live in 4B."
+      "usage": "Start a talk with your neighbor.",
+      "example": "Hi, I am Alex."
     },
     {
       "text": "Nice to meet you",
-      "usage": "The most common response to an intro.",
-      "example": "It's nice to meet you, I'm your neighbor."
+      "usage": "Say this when you meet someone.",
+      "example": "Nice to meet you too."
     },
     {
       "text": "I'm new here",
-      "usage": "Say this if you just moved in.",
-      "example": "I'm new here, I moved in yesterday."
+      "usage": "Explain that you are a new resident.",
+      "example": "Hello, I am new here."
     },
     {
       "text": "Have a nice day",
-      "usage": "A friendly closing for neighbors.",
-      "example": "Okay, have a nice day!"
+      "usage": "End the talk in a friendly way.",
+      "example": "Bye. Have a nice day."
     }
   ],
   "keyVocabulary": [
@@ -31,12 +31,20 @@
       "definition": "A person living near you."
     },
     {
-      "term": "Apartment",
-      "definition": "A home inside a building."
+      "term": "Street",
+      "definition": "The road by your home."
+    },
+    {
+      "term": "Building",
+      "definition": "A place where people live."
     },
     {
       "term": "Floor",
       "definition": "The level of the building."
+    },
+    {
+      "term": "Name",
+      "definition": "What people call you."
     }
   ]
 }

@@ -6,35 +6,65 @@
   "phrases": [
     {
       "text": "Excuse me, could you help me?",
-      "example": "Excuse me, could you help me find the library?"
+      "usage": "Use this polite phrase to start a conversation with someone.",
+      "example": "Excuse me, could you help me find the city museum?"
     },
     {
       "text": "Where is the ...?",
-      "example": "Where is the library?"
+      "usage": "Say this when you need to know a specific location.",
+      "example": "Where is the famous art museum on this busy street?"
     },
     {
       "text": "Is it near here?",
-      "example": "Is it near here?"
+      "usage": "Use this to check if the place is close to you.",
+      "example": "Is it near here or do I need a bus?"
     },
     {
       "text": "Go straight ahead.",
-      "example": "Go straight ahead for two blocks."
+      "usage": "This instruction tells someone to keep moving in one direction.",
+      "example": "Go straight ahead past the tall building to the park."
     },
     {
       "text": "Turn left at ...",
-      "example": "Turn left at the bank."
+      "usage": "Give this direction when the person needs to change direction.",
+      "example": "Turn left at the next light to see the museum."
     },
     {
       "text": "Around the corner.",
-      "example": "It's around the corner."
+      "usage": "Use this to describe a place just past the turn.",
+      "example": "The main museum entrance is just around the quiet corner."
     },
     {
       "text": "How long does it take?",
-      "example": "How long does it take to walk there?"
+      "usage": "Ask this to find out the travel time by walking.",
+      "example": "How long does it take to walk to the museum?"
     },
     {
       "text": "So I turn left, right?",
-      "example": "So I turn left at the bank, right?"
+      "usage": "Use this to double-check the directions you just heard.",
+      "example": "So I turn left at the large museum gate, right?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Busy",
+      "definition": "Used to describe a place with many people or cars."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Used to describe a place with very little noise."
+    },
+    {
+      "term": "Large",
+      "definition": "Used to describe something that is very big in size."
+    },
+    {
+      "term": "Close",
+      "definition": "Used to describe a place that is not far away."
+    },
+    {
+      "term": "Famous",
+      "definition": "Used to describe a place that many people know well."
     }
   ]
 }
