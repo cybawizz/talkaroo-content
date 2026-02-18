@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_place_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "My home is big.",
+  "script": "Well, actually... my home's pretty big, you know? There's plenty of space for everyone, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about their living space?",
     "options": [
-      "Small home",
-      "Big home",
-      "Old home",
-      "New home"
+      "Satisfied and proud of the ample room available for their family.",
+      "Complaining that their home is far too small and old for anyone.",
+      "Actually asking if the listener wants to buy a new home for them.",
+      "Warning that having plenty of space is actually a very bad thing."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'home's' and the filler 'actually' help the speaker express a positive personal assessment."
 }

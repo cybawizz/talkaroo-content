@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_hotel_reception",
   "prompt": "Understand the issue.",
-  "script": "Our restaurant is fully booked tonight, I'm afraid.",
+  "script": "Um, well... I'm afraid our restaurant's fully booked tonight, you know? It's been incredibly busy lately.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's tone while delivering this news?",
     "options": [
-      "Dinner is available now",
-      "No tables tonight",
-      "Breakfast is canceled",
-      "The hotel is closing"
+      "Apologetic and politely explaining why no tables are available.",
+      "Annoyed that the restaurant is so popular and busy.",
+      "Excited to tell the listener that they don't have to eat here.",
+      "Actually asking the listener if they want to book for next week."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the phrase 'I'm afraid' soften the negative impact of the information being shared."
 }

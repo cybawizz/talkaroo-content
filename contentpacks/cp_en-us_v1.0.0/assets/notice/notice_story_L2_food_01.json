@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_food_story",
   "prompt": "Identify what was ordered.",
-  "script": "I ordered fried rice.",
+  "script": "So, I actually ordered the fried rice, you know? It looked really good on the menu.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What did the speaker choose for their meal?",
     "options": [
-      "He ordered noodles",
-      "He ordered fried rice",
-      "He ordered coffee",
-      "He ordered soup"
+      "The fried rice was their specific choice.",
+      "They chose noodles and a cup of coffee.",
+      "They actually only ordered a bowl of soup.",
+      "They didn't order anything from the menu."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'So' and 'actually' highlight the speaker's specific decision when ordering food."
 }

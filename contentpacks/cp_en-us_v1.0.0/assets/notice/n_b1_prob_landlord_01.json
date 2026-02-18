@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_landlord_maintenance_b1",
   "prompt": "Identify the issue.",
-  "script": "The water heater stopped working this morning.",
+  "script": "Um, well... the water heater's just stopped working this morning, actually. It's quite a problem since I need a hot shower, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary motivation for reporting the heater issue?",
     "options": [
-      "Heater works",
-      "Heater stopped",
-      "Water is too hot",
-      "No electricity"
+      "Expressing an immediate need for a functional utility for personal hygiene.",
+      "Complaining that the water is too hot and causing a safety concern.",
+      "Actually asking the landlord if they have any spare heaters for sale.",
+      "Stating that they are happy to have a cold shower in the morning rush."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'heater's' and the tag 'you know?' create a natural, polite way to communicate a household problem."
 }

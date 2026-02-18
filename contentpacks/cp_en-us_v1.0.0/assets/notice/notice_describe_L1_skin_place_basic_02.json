@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_place_basic",
   "prompt": "Where is the home?",
-  "script": "It is near the station.",
+  "script": "Um, well... it's just near the station, actually. It's a very convenient location, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the station?",
     "options": [
-      "Near station",
-      "In the forest",
-      "On the moon",
-      "At the airport"
+      "Highlighting the practical benefit of living near public transport.",
+      "Stating that they live in a forest far away from any airport or station.",
+      "Actually asking if there are any trains going to the moon today.",
+      "Warning that living near the station is too loud and very inconvenient."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the tag 'you know?' create a helpful, informative tone for describing a location."
 }

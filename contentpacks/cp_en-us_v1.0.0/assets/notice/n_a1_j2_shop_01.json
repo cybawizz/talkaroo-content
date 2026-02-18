@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_shop_basic",
   "prompt": "Listen for the price.",
-  "script": "That is ten dollars, please.",
+  "script": "Um, let me see... that'll be ten dollars, please. Actually, I think it's on sale today.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's tone while giving the price?",
     "options": [
-      "$10",
-      "$5",
-      "$20",
-      "Free"
+      "Helpful and informative while checking for a discount.",
+      "Angry that the customer is only paying ten dollars.",
+      "Confused about whether they are even at a shop.",
+      "Saying that everything in the shop is free today."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um' and the word 'Actually' show the speaker is actively thinking and providing extra, helpful information beyond just the price."
 }

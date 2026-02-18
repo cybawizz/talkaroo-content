@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_street_directions",
   "prompt": "Identify the follow-up.",
-  "script": "Is it near here?",
+  "script": "Um, well... is it actually near here? I'm hoping I won't have to walk too far, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking if it's 'near here'?",
     "options": [
-      "Asking about distance",
-      "Ordering food",
-      "Saying goodbye",
-      "Giving directions"
+      "Assessing the physical effort required to reach the destination.",
+      "Ordering food from a nearby restaurant because they are very hungry.",
+      "Saying goodbye to the person giving directions and walking away fast.",
+      "Stating that they are giving directions to a place that is very far."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'won't' frame the question as a practical concern about distance."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_family_member",
   "prompt": "Understand the routine.",
-  "script": "Every day, she walks to work.",
+  "script": "Well, you know... she actually walks to work every single day. She's really disciplined about it, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real sentiment toward the person's routine?",
     "options": [
-      "She drives to work",
-      "She walks to work daily",
-      "She never works",
-      "She works at night"
+      "Admiring the consistency and dedication of the person's daily habits.",
+      "Angry that she drives to work instead of walking like she promised.",
+      "Actually asking if the listener has a job they can walk to every day.",
+      "Stating that she never works and just walks around the neighborhood."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'She's' and the filler 'actually' show the speaker is adding a personal, positive assessment to a simple fact."
 }

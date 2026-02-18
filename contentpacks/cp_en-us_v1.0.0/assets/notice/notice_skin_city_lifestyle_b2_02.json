@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_city_lifestyle_b2",
   "prompt": "Identify the compromise move.",
-  "script": "Could we meet in the middle and try it for a week?",
+  "script": "Um, well... so could we maybe meet in the middle and just try it for a week? I think it's worth a shot, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in suggesting a 'one-week trial'?",
     "options": [
-      "Making a compromise",
-      "Refusing",
-      "Changing topic",
-      "Giving directions"
+      "Proposing a low-risk compromise to bridge a difference in opinion.",
+      "Refusing to change their mind and demanding the listener agrees now.",
+      "Changing the topic to talk about why weeks are better than months.",
+      "Actually asking for directions to the middle of the city for a week."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'it's' soften the proposal of a trial period, making it sound more reasonable."
 }

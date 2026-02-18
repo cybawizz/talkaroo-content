@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_movie_choice",
   "prompt": "Identify the reason.",
-  "script": "I like comedies because they help me relax.",
+  "script": "Well, you know... I really like comedies because they actually help me relax after a long day. They're just so much fun!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker choose to watch comedies?",
     "options": [
-      "They are scary",
-      "They help relax",
-      "They are long",
-      "They are free"
+      "Using them as a tool for stress relief and emotional relaxation.",
+      "Angry that action movies are always so long and expensive.",
+      "Actually asking the listener if they have any funny movies locally.",
+      "Stating that they only like movies that are free to watch."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'They're' and the enthusiastic 'just so much fun!' reveal the speaker's emotional connection to the genre."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_device_issue",
   "prompt": "Identify the time info.",
-  "script": "It will take two days.",
+  "script": "Um, well... it'll actually take two days, you know? We're a bit busy at the moment, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the repair duration?",
     "options": [
-      "Two days",
-      "Two hours",
-      "Two weeks",
-      "No time given"
+      "Setting realistic expectations for the customer based on workload.",
+      "Stating that the repair will take two hours because they have no work.",
+      "Actually asking the customer to wait two weeks for a simple screen fix.",
+      "Warning that no time info can be given because the shop is moving."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'it'll' soften the delivery of an inconvenient timeline."
 }

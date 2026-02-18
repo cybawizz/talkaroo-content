@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_networking_smalltalk_to_topic",
   "prompt": "What is the function of the question?",
-  "script": "Could you elaborate on how you measure success?",
+  "script": "Um, well... could you elaborate on how you actually measure success? I’m really interested in your specific approach, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking for 'elaboration'?",
     "options": [
-      "Ending the conversation",
-      "Asking for clarification and details",
-      "Making a joke",
-      "Refusing to answer"
+      "Deepening the professional connection by requesting high-level insights.",
+      "Ending the conversation because the previous answer was too long and boring.",
+      "Making a joke about the listener's failures in measuring their own success.",
+      "Actually asking if they have any measurement tools they can borrow for free."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the word 'honestly' frame the inquiry as a sincere professional curiosity rather than an interrogation."
 }

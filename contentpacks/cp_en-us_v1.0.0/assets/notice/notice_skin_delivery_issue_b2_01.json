@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_delivery_issue_b2",
   "prompt": "Identify the tone.",
-  "script": "I’m afraid there’s an issue with my order—could you help me, please?",
+  "script": "Um, well... I’m actually afraid there’s an issue with my order. Could you help me look into it, please? It's kind of urgent, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in using the phrase 'kind of urgent'?",
     "options": [
-      "Rude and angry",
-      "Polite complaint",
-      "Joking",
-      "Not a complaint"
+      "Politely elevating the priority of their request through subtle emphasis.",
+      "Being rude and angry to the customer service agent for no reason.",
+      "Making a joke about the order because they don't actually care.",
+      "Actually stating that the order is not a complaint and is very late."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'there's' create a polite, measured tone for a customer service interaction."
 }

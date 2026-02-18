@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_cafe_order_b1",
   "prompt": "Identify what is wrong.",
-  "script": "I ordered a latte, but I got a black coffee.",
+  "script": "Um, excuse me... I ordered a latte, but I actually got a black coffee instead. Could you check that for me, please?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's tone while reporting the wrong drink?",
     "options": [
-      "Correct drink",
-      "Wrong drink",
-      "Free drink",
-      "No drink"
+      "Polite but clear about the mistake while seeking a resolution.",
+      "Angry and demanding that the black coffee be free forever.",
+      "Uncertain if they even ordered anything at all today.",
+      "Actually asking the waiter if they like black coffee themselves."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "Starting with 'Um, excuse me...' and using 'actually' creates a soft, polite way to highlight a service error."
 }

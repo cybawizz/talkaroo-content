@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_b1_office_break",
   "prompt": "Identify the opinion and the reason.",
-  "script": "Personally, I think the new break policy helps because people focus better afterward.",
+  "script": "Well, actually... I think the new break policy really helps, you know? People seem to focus much better afterward, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in supporting the policy?",
     "options": [
-      "The speaker dislikes the break policy",
-      "The speaker supports the policy and gives a reason",
-      "The speaker is asking for a break now",
-      "The speaker is ending the conversation"
+      "Observing a positive correlation between employee well-being and productivity.",
+      "Complaining that they have to take too many breaks and can't finish work.",
+      "Actually asking for a break right now because they are losing focus.",
+      "Stating that the policy is ending the conversation between all staff members."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The inclusion of 'honestly' and the 'Well, actually...' filler create a supportive, observational tone for workplace dynamics."
 }

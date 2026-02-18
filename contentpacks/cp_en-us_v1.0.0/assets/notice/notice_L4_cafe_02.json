@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_cafe_opinion_clash",
   "prompt": "What is the implied goal?",
-  "script": "Can we park this for now and just enjoy our drinks?",
+  "script": "So, anyway... can we park this for now and just enjoy our drinks, actually? I don't want to spend the whole afternoon arguing, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true objective in suggesting they 'park' the topic?",
     "options": [
-      "The speaker wants to argue more",
-      "The speaker wants to end the discussion politely",
-      "The speaker wants to leave immediately",
-      "The speaker wants to order food"
+      "Prioritizing the social atmosphere and mutual enjoyment over winning a debate.",
+      "Stating that they want to go to the parking lot and leave immediately.",
+      "Actually asking the waiter if they have any more drinks to order now.",
+      "Warning the listener that if they don't stop, they will get very angry."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The idiom 'park this' and the 'So, anyway...' transition reveal the speaker's desire to steer the social interaction back to a pleasant state."
 }

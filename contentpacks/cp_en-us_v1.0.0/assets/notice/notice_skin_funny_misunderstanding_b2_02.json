@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_funny_misunderstanding_b2",
   "prompt": "Identify the emphasis.",
-  "script": "Honestly, I didn’t expect the place to be that busy.",
+  "script": "Um, well... honestly, I didn’t actually expect the place to be that busy. It's really caught me off guard, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in using the word 'honestly'?",
     "options": [
-      "Giving a time",
-      "Expressing surprise",
-      "Asking a question",
-      "Ending the story"
+      "Sharing a sincere emotional reaction to an unexpected situation.",
+      "Giving a specific time for when the place became busy today.",
+      "Actually asking a question about why the place is so popular now.",
+      "Ending the story because they are too surprised to continue anyway."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'didn't' create a more personal, reactive tone for an anecdote."
 }

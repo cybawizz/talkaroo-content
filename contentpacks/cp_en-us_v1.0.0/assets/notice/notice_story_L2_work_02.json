@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_workday_recap",
   "prompt": "Identify the place.",
-  "script": "I worked in the main office.",
+  "script": "So, anyway... I actually worked in the main office today. It was quite busy, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Where was the speaker working today?",
     "options": [
-      "Main office",
-      "Kitchen",
-      "Bus stop",
-      "Library"
+      "They spent the day in the main office.",
+      "They were working in the building's kitchen.",
+      "They were waiting at the city bus stop.",
+      "They went to the local library to work."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and 'actually' help the speaker describe their location in a conversation."
 }

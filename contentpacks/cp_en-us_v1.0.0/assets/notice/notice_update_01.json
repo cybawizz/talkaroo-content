@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_team_update_meeting",
   "prompt": "Identify the risk.",
-  "script": "We’re progressing well, but the main risk is the vendor integration, which could delay testing.",
+  "script": "Actually, you know... we’re progressing well, but the main risk's the vendor integration. It could definitely delay testing, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the primary concern mentioned by the speaker?",
     "options": [
-      "The project is cancelled",
-      "Vendor integration may delay testing",
-      "The team has no work",
-      "Testing is already finished"
+      "The integration with the vendor may cause a delay in the testing phase.",
+      "The whole project is being cancelled immediately due to integration.",
+      "The team has no more work to do and testing is already finished.",
+      "Testing is finished and the vendor has already signed off on it."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'risk's' and the filler 'Actually' create a realistic, professional update on project status."
 }

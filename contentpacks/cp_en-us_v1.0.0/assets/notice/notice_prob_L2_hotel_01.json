@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_hotel_problem",
   "prompt": "Identify the problem.",
-  "script": "The air conditioning is not working. It does not turn on.",
+  "script": "Actually, you know... the air conditioning's not working. It just won't turn on, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real objective in reporting the AC issue?",
     "options": [
-      "The AC works",
-      "The AC is broken",
-      "The AC is too cold",
-      "The room is clean"
+      "Requesting a technical resolution to improve their room's comfort.",
+      "Stating that the AC works perfectly and the room is very clean and cold.",
+      "Actually asking if they can have a free room for their next five visits.",
+      "Warning that they broke the AC on purpose because they hate the heat."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'air conditioning's' and the filler 'actually' help the speaker deliver a factual report of a problem."
 }

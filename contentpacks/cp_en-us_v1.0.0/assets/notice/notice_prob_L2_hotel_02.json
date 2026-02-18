@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_hotel_problem",
   "prompt": "Identify the follow-up.",
-  "script": "What is your room number?",
+  "script": "Um, well... so may I ask what your room number's exactly? I'll send someone up to help, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the staff member's real intent in asking for the room number?",
     "options": [
-      "Asking for information",
-      "Giving directions",
-      "Closing",
-      "Complaining"
+      "Gathering necessary logistics to provide immediate on-site technical assistance.",
+      "Giving directions to the customer because they are lost in the hotel lobby.",
+      "Closing the conversation because they don't want to fix the problem today.",
+      "Complaining that the customer found a problem in their room number's AC."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'number's' help a standard procedural question sound more empathetic."
 }

@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_daily_routine_b2",
   "prompt": "Identify the comparison.",
-  "script": "Compared to the city center, this neighborhood is quieter and greener.",
+  "script": "Actually, you know... compared to the city center, this neighborhood's much quieter and greener. It's quite a contrast, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in comparing the two locations?",
     "options": [
-      "It is louder than the city center",
-      "It is quieter than the city center",
-      "It is in the city center",
-      "It has no parks"
+      "Highlighting the specific environmental benefits of their current location.",
+      "Stating that the city center is much quieter and greener than it looks.",
+      "Actually asking if the listener can help them find a city center park.",
+      "Warning that the neighborhood has no parks because it is in the center."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'neighborhood's' help the speaker make a vivid, personal comparison."
 }

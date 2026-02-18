@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_team_update_meeting",
   "prompt": "Identify the mitigation.",
-  "script": "To mitigate this, we can prepare a fallback flow and run a smaller rollout first.",
+  "script": "So, anyway... to mitigate this, we'd better prepare a fallback flow. We'll run a smaller rollout first, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in suggesting the 'fallback flow'?",
     "options": [
-      "Complaining about workload",
-      "Suggesting a mitigation plan",
-      "Ending the meeting",
-      "Asking for a vacation"
+      "Proposing a specific strategic plan to reduce a identified project risk.",
+      "Complaining about the heavy workload and asking for more staff now.",
+      "Ending the meeting immediately because they don't have any ideas.",
+      "Actually asking for a vacation because the rollout is too stressful."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'we'd' signal a proactive shift to problem-mitigation."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_city_trip",
   "prompt": "Identify the return time.",
-  "script": "I came back at six.",
+  "script": "Well, so I finally came back at six, actually. It was a long day, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What time did the speaker return home?",
     "options": [
-      "Returned at 6:00",
-      "Left at 6:00",
-      "Came back at 16:00",
-      "Returned at 9:00"
+      "Exactly at 6:00 in the evening.",
+      "At 4:00 in the afternoon.",
+      "At 9:00 in the morning.",
+      "They left their house at 6:00."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The speaker confirms the time using 'finally... at six', with 'actually' adding emphasis to the end of the trip."
 }

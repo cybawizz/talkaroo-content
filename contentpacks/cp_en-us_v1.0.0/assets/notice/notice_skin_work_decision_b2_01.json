@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_decision_b2",
   "prompt": "Identify the balance.",
-  "script": "That said, I can see why some people prefer the other option.",
+  "script": "Um, well... that said, I can definitely see why some people'd prefer the remote option. It's a complicated decision, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in using 'that said'?",
     "options": [
-      "Strong disagreement",
-      "Balanced view",
-      "No opinion",
-      "Asking for help"
+      "Expressing professional objectivity by acknowledging a different workplace preference.",
+      "Expressing strong disagreement with anyone who wants to work remotely today.",
+      "Stating that they have no opinion on work and wish to quit their job now.",
+      "Actually asking for help because a work decision is far too hard for them."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'people'd' help the speaker sound thoughtful and balanced in a professional context."
 }

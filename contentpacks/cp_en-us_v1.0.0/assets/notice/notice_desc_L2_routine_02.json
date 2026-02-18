@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_morning_routine",
   "prompt": "Identify the transport.",
-  "script": "I go to school by bus.",
+  "script": "Um, well... I actually go to school by bus every morning, you know? It's a good time to just listen to music, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real feeling about their bus commute?",
     "options": [
-      "By bus",
-      "By train",
-      "On foot",
-      "By car"
+      "Finding a personal benefit in a routine part of their day.",
+      "Stating that they go by train because the bus is always too slow.",
+      "Actually asking if the listener has any good music to recommend.",
+      "Warning the listener that the bus to school is always dangerous."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the word 'honestly' help the speaker share a positive side-effect of their daily travel."
 }

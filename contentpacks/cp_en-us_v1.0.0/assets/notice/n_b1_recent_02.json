@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_recent_event",
   "prompt": "Identify the reaction.",
-  "script": "Honestly, I was a bit embarrassed.",
+  "script": "Um, well... honestly, I was a bit embarrassed by what happened, actually. You know how it's when everyone's looking at you!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker mention 'everyone's looking'?",
     "options": [
-      "He was proud",
-      "He was embarrassed",
-      "He was asleep",
-      "He was excited"
+      "To explain the social context that led to their feeling of embarrassment.",
+      "To boast about how much attention they were getting from the crowd.",
+      "Actually asking if the listener was one of the people looking at them.",
+      "Stating that they are very proud of the reaction they received from everyone."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the tag 'You know how...' invite the listener to empathize with the speaker's social discomfort."
 }

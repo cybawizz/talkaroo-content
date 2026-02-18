@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_device_repair_b2",
   "prompt": "Identify the negotiation move.",
-  "script": "If that’s not possible today, could we schedule it for tomorrow morning instead?",
+  "script": "Actually, you know... if that’s not possible today, could we maybe schedule it for tomorrow morning instead? I'm' just trying to find a realistic window, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true objective in suggesting a 'new schedule'?",
     "options": [
-      "Demanding a refund",
-      "Offering an alternative solution",
-      "Ending the conversation",
-      "Changing topic"
+      "Demonstrating logistical flexibility to resolve a technical blockage.",
+      "Demanding a full refund because the repair is taking too long.",
+      "Ending the conversation because they have already found a new shop.",
+      "Changing the topic to talk about why mornings are better for tech."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'that's' signal a proactive, solution-oriented approach to a service delay."
 }

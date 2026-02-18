@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_friend_profile_b2",
   "prompt": "Identify the comparison.",
-  "script": "Compared to the city center, this neighborhood is quieter and greener.",
+  "script": "Actually, you know... compared to his old flat, this new place's much more spacious and bright. It's a huge improvement, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in comparing the flats?",
     "options": [
-      "It is louder than the city center",
-      "It is quieter than the city center",
-      "It is in the city center",
-      "It has no parks"
+      "Detailing the specific aesthetic and functional upgrades of the new home.",
+      "Stating that the old flat was much brighter and larger than this one.",
+      "Actually asking if the listener can help them move back to the city.",
+      "Warning that the new neighborhood has no bright lights at night."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'place's' and the filler 'Actually' help the speaker convey a vivid, comparative description."
 }

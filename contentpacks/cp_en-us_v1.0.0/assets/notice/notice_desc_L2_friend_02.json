@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_friend_description",
   "prompt": "Identify the job info.",
-  "script": "He works as a teacher in a school.",
+  "script": "Actually, you know... he works as a teacher in a local school. He's really passionate about it, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real sentiment toward the person's job?",
     "options": [
-      "He is a student",
-      "He is a teacher",
-      "He works at a hotel",
-      "He has no job"
+      "Highlighting the person's emotional commitment to their profession.",
+      "Stating that he is a student and has no job at any school today.",
+      "Actually asking if the listener wants to work at a hotel instead.",
+      "Warning the listener that being a teacher is a very boring career."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the word 'honestly' add a layer of personal insight beyond the basic job title."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_city_trip",
   "prompt": "Identify the sequence.",
-  "script": "I visited the museum. Then I walked to the station.",
+  "script": "So, first I visited the museum, you know? Then, actually, I just walked to the station to catch my train.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What did the speaker do after visiting the museum?",
     "options": [
-      "Station first",
-      "Museum then station",
-      "No station",
-      "Museum inside station"
+      "They went straight to the station to leave.",
+      "They stayed at the museum and then ate food.",
+      "They found a hidden cafe inside the station.",
+      "They never visited the museum at all today."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The order of events is marked by 'first' and 'Then', with 'actually' used to show the next step in the story."
 }

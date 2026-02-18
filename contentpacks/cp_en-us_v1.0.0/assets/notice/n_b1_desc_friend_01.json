@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_friend_profile",
   "prompt": "Pick the meaning.",
-  "script": "He's friendly and very outgoing.",
+  "script": "Um, well... he's incredibly friendly and very outgoing, actually. He's the type who can talk to anyone.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's main goal in this description?",
     "options": [
-      "He is shy",
-      "He likes people",
-      "He is angry",
-      "He is sick"
+      "Conveying a positive and enthusiastic character reference.",
+      "Complaining that he talks too much to random people.",
+      "Actually asking the listener if they are outgoing as well.",
+      "Warning that he might be too loud in a quiet setting."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fillers 'Um, well...' suggest the speaker is thoughtfully summarizing the person's best social traits."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_mall_info",
   "prompt": "Identify the location.",
-  "script": "The bank is on the top level next to the stairs.",
+  "script": "Well, actually... the bank's on the top level, just next to the stairs, you know? It's pretty quick to get there, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the stairs?",
     "options": [
-      "First floor",
-      "Top level near the stairs",
-      "Outside the mall",
-      "Behind the cinema"
+      "Providing a specific, easy-to-find landmark for the listener's journey.",
+      "Stating that the bank is outside the mall and behind the cinema.",
+      "Actually asking if there are any elevators on the first floor instead.",
+      "Warning the listener that the stairs are broken and they should go home."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'bank's' and the filler 'actually' create a helpful, informative tone for navigating a complex space."
 }

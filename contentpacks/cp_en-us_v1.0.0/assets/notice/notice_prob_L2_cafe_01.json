@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_cafe_mistake",
   "prompt": "Identify the issue.",
-  "script": "Excuse me, this coffee is cold.",
+  "script": "Um, well... excuse me, but this coffee's actually cold, you know? I'm not sure what happened, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in saying 'not sure what happened'?",
     "options": [
-      "Coffee is hot",
-      "Coffee is cold",
-      "Coffee is free",
-      "Coffee is empty"
+      "Politely raising a product defect while avoiding a direct accusation of fault.",
+      "Stating that the coffee is free and they want a hot one immediately.",
+      "Actually asking if the waiter has any empty cups they can have instead.",
+      "Warning the café that the coffee is hot and they are very happy with it."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'coffee's' and the filler 'actually' help the speaker deliver a complaint with social grace."
 }

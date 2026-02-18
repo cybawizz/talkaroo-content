@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_device_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "My phone does not work.",
+  "script": "Um, well... my phone doesn't actually work, you know? It's just stopped working, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in reporting this problem?",
     "options": [
-      "The phone does not work",
-      "The phone is new",
-      "The phone is cheap",
-      "The phone is lost"
+      "Stating a clear functional failure to initiate a repair or support request.",
+      "Complaining that the phone is too new and they don't know how to use it.",
+      "Actually asking if the listener has a cheap phone they can buy for a dollar.",
+      "Warning that their phone is currently lost and they are very happy about it."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'doesn't' and the filler 'actually' help an A1-level problem sound like a natural human frustration."
 }

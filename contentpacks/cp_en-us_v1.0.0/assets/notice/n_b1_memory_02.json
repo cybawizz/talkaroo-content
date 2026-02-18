@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_childhood_memory",
   "prompt": "Identify the contrast.",
-  "script": "Back then, we didn’t have smartphones.",
+  "script": "Um, well... back then, we didn't have smartphones, you know? It's actually quite hard to imagine life without them now.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in comparing the past to the present?",
     "options": [
-      "They had many phones",
-      "No smartphones then",
-      "Phones were free",
-      "Smartphones were broken"
+      "Reflecting on the massive impact of technology on daily life.",
+      "Complaining that smartphones were too expensive back then.",
+      "Actually asking the listener if they can fix their broken phone.",
+      "Warning the listener that life was better when nothing worked."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contrast 'back then' vs. 'now' and the filler 'actually' signal a reflective and somewhat surprised tone."
 }

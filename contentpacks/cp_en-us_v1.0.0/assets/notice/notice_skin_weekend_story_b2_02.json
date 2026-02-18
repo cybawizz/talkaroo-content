@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_weekend_story_b2",
   "prompt": "Identify the emphasis.",
-  "script": "Honestly, I didn’t expect the place to be that busy.",
+  "script": "Well, actually... honestly, I didn’t actually expect the concert to be that loud. It's' still ringing in my ears, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in using the word 'honestly'?",
     "options": [
-      "Giving a time",
-      "Expressing surprise",
-      "Asking a question",
-      "Ending the story"
+      "Communicating a sincere personal reaction to an intense sensory experience.",
+      "Giving a specific time for when the concert became far too loud today.",
+      "Actually asking a question about why concerts use so many loud speakers.",
+      "Ending the story because they can't hear the listener's response anyway."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually...' and the contraction 'didn't' create a more authentic, anecdotal tone."
 }

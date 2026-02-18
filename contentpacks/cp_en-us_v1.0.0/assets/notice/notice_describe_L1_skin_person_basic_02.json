@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_person_basic",
   "prompt": "What does he do?",
-  "script": "I go to work at eight.",
+  "script": "So, anyway... I go to work at eight, you know? It's a bit of a rush in the morning, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the 'rush'?",
     "options": [
-      "Goes to work",
-      "Goes to school",
-      "Stays home",
-      "Goes to bed"
+      "Adding a personal context to the logistics of their daily work start.",
+      "Stating that they go to bed at eight and never go to work at all.",
+      "Actually asking the listener if they can drive them to school today.",
+      "Warning that being in a rush is the only way to enjoy a morning."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'It's' make the time commitment sound like a natural part of a conversation."
 }

@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_daily_routine_b1",
   "prompt": "Identify the sequence.",
-  "script": "First I get up, then I eat breakfast.",
+  "script": "So, anyway... first I get up, well, then I eat breakfast. Actually, I can't start my day without a coffee.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real priority in the morning?",
     "options": [
-      "Breakfast first",
-      "Get up first",
-      "No breakfast",
-      "Sleep all day"
+      "Having a coffee is essential for them to function.",
+      "Avoiding breakfast so they can sleep longer.",
+      "Getting up as quickly as possible without pausing.",
+      "Actually asking the listener to make them a coffee."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The 'Actually' at the start of the third sentence reveals the speaker's true morning necessity, beyond just the routine steps."
 }

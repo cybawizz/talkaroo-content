@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_transit_info_b2",
   "prompt": "Identify the clarification.",
-  "script": "Just to confirm, you want the quickest route, not the scenic one—right?",
+  "script": "So, anyway... just to confirm, you want the quickest route to the airport, not the cheapest one—right? I'll check the express bus times for you, actually.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the staff member's real intent in asking for the preferred route?",
     "options": [
-      "Giving directions",
-      "Clarifying the user's priority",
-      "Refusing to help",
-      "Changing the topic"
+      "Confirming the passenger's priority to provide the most time-sensitive transit advice.",
+      "Refusing to help the passenger because they think the cheapest route is boring.",
+      "Changing the topic to talk about why airports are so far from the city center.",
+      "Actually asking if the passenger knows how to drive the express bus themselves."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I'll' create a helpful, realistic transit service tone."
 }

@@ -1,18 +1,20 @@
 {
   "noticeId": "n_b1_prob_device_01",
   "skillId": "skill_deal_with_problems",
-  "level": 3,
+  "level": 1,
   "skinId": "skin_device_repair_b1",
   "prompt": "Identify the issue.",
-  "script": "The screen keeps flickering.",
+  "script": "Um, well... the screen keeps flickering, actually. It's really making it hard for me to get any work done.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's main frustration with the device?",
     "options": [
-      "Screen is fine",
-      "Screen flickers",
-      "Battery is full",
-      "Keyboard is missing"
+      "The technical flaw is preventing them from being productive.",
+      "They are angry that the screen is too bright and quiet.",
+      "Actually asking the listener if they can do their work for them.",
+      "Stating that the battery is currently full but useless."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the word 'actually' signal that the speaker is reporting a frustrating problem."
 }

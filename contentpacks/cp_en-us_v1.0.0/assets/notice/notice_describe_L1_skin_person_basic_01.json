@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_person_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "I wake up at seven.",
+  "script": "Well, you know... I usually wake up at seven, actually. I like to start my day early, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real attitude toward their early wake-up time?",
     "options": [
-      "He wakes up at 7",
-      "He wakes up at 9",
-      "He sleeps all day",
-      "He goes home at 7"
+      "Appreciative of an early start to maximize their daily productivity.",
+      "Angry and complaining that they have to sleep all day until 9 PM.",
+      "Actually asking the listener what time they go home every evening.",
+      "Warning that waking up at 7 is far too late for a successful person."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'usually' and the word 'honestly' add a layer of personal conviction to a basic routine description."
 }

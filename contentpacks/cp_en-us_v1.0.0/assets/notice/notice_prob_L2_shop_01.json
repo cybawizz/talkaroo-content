@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_shop_return",
   "prompt": "Identify the request.",
-  "script": "Can I get a refund?",
+  "script": "Well, actually... can I actually get a refund for this item? It's not quite what I expected, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the customer's true intent in asking for a refund?",
     "options": [
-      "Asking for a refund",
-      "Buying",
-      "Greeting",
-      "Giving thanks"
+      "Seeking a financial resolution for a product that failed to meet their expectations.",
+      "Buying more items because they are happy with the quality of the shop.",
+      "Greeting the shopkeeper and giving thanks for the wonderful item they bought.",
+      "Actually asking for directions to a different shop that is much cheaper."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'actually' and the contraction 'It's' help the customer express a preference-based request naturally."
 }

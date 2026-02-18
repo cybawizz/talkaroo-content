@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_hotel_complaint_b2",
   "prompt": "Identify the tone.",
-  "script": "I’m afraid there’s an issue with my order—could you help me, please?",
+  "script": "Actually, you know... I’m afraid there’s an issue with the heating in my room. Could you look into it, please? It's really cold, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the guest express their problem to the staff?",
     "options": [
-      "Rude and angry",
-      "Polite complaint",
-      "Joking",
-      "Not a complaint"
+      "By using polite softening language to deliver a firm request for assistance.",
+      "By being rude and angry because the room is too hot for them.",
+      "By making a joke about the heating being a secret feature of the hotel.",
+      "By stating that it's not a complaint and they are very happy with the cold."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'there's' create a polite but urgent tone for a guest complaint."
 }

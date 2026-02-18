@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_mall_info",
   "prompt": "Identify the change.",
-  "script": "The electronics store moved to the third floor last week.",
+  "script": "So, anyway... the electronics store's moved to the third floor, you know? It's just next to the escalators now.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary goal in sharing this update?",
     "options": [
-      "It moved to floor 3",
-      "It closed last week",
-      "It is on floor 1",
-      "It moved outside"
+      "Helping the listener find the new location with clear landmarks.",
+      "Complaining that the third floor is too hard to reach.",
+      "Actually asking if the listener has been to the third floor before.",
+      "Warning that the electronics store is currently closed for moving."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'store's' and the additional detail 'just next to...' create a more helpful, natural response."
 }

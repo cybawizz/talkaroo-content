@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_job_interview_values",
   "prompt": "Identify the structure.",
-  "script": "I prioritize clarity. In practice, that means short updates and clear owners for tasks.",
+  "script": "Well, actually... I prioritize clarity. In practice, that's short updates and clear owners for tasks, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker substantiate their professional value?",
     "options": [
-      "Preference + practical example",
-      "A joke + complaint",
-      "A refusal to answer",
-      "A request for money"
+      "By following an abstract preference with a specific, practical implementation.",
+      "By making a joke about task owners and complaining about short updates.",
+      "Actually asking for a hire-on bonus before answering the question.",
+      "Stating that they refuse to answer because task ownership is too private."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'that's' and the 'In practice' transition signal a move toward professional credibility and concrete detail."
 }

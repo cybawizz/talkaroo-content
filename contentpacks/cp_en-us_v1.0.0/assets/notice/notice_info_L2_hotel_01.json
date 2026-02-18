@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_hotel_reception",
   "prompt": "Understand the hours.",
-  "script": "It opens at seven and it’s open until midnight.",
+  "script": "Actually, you know... it opens at seven and it's open until midnight. It's got quite long hours, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the hours are 'long'?",
     "options": [
-      "Closes at 7 PM",
-      "Opens at 7 and closes at midnight",
-      "Open 24 hours",
-      "Closed today"
+      "Highlighting the convenience and accessibility of the facility for guests.",
+      "Complaining that 7 PM is far too early to close a hotel reception.",
+      "Actually asking if there are any 24-hour hotels in the city instead.",
+      "Warning that the facility is currently closed today for maintenance."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'it's' help the speaker deliver factual information with a positive perspective."
 }

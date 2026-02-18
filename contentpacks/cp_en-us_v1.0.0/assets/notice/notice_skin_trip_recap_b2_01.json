@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_trip_recap_b2",
   "prompt": "Identify the sequence marker.",
-  "script": "At first we got lost, and then we finally found the entrance.",
+  "script": "Well, actually... at first we'd got completely turned around, but then we finally found that hidden cafe. It was worth the effort, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in emphasizing 'at first'?",
     "options": [
-      "They found it first",
-      "They got lost then found it",
-      "They never found it",
-      "They are lost now"
+      "Structuring a travel anecdote by contrasting an initial struggle with a positive outcome.",
+      "Stating that they found the cafe first and then got lost in the city after.",
+      "Actually asking if the listener can help them find a different hidden cafe now.",
+      "Warning that getting turned around is the best part of any trip to the city."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'we'd' and the filler 'actually' help the speaker build a natural narrative flow for a trip recap."
 }

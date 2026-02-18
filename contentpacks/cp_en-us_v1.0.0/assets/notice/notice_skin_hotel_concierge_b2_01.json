@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_hotel_concierge_b2",
   "prompt": "Identify the constraint.",
-  "script": "The main route is blocked due to roadworks, so you’ll need a detour.",
+  "script": "Well, actually... the main road's currently blocked due to a parade, so you’ll definitely need a detour. It's quite a lively event, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the concierge's real intent in mentioning the parade?",
     "options": [
-      "The route is open as usual",
-      "The route is blocked",
-      "The museum is closed",
-      "The detour is optional"
+      "Providing timely navigational advice to help the guest avoid a delay.",
+      "Stating that the route is open as usual and the parade is boring.",
+      "Actually asking if the guest can help them march in the parade today.",
+      "Warning that the hotel is closed because the parade is passing through."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually' and the contraction 'road's' create a professional, well-informed, and helpful persona."
 }

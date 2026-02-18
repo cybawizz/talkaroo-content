@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_hotel_greeting",
   "prompt": "What does he need?",
-  "script": "Excuse me, I need my key, please.",
+  "script": "Um, excuse me... I've lost my key, well, I think it's still in the room.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real reason for speaking?",
     "options": [
-      "A map",
-      "His key",
-      "A taxi",
-      "Water"
+      "Admitting a mistake and seeking assistance.",
+      "Demanding a new map of the hotel rooms.",
+      "Well-informed advice about where to find keys.",
+      "Complaining about the price of the key."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um' and the self-correction 'well, I think...' signal hesitation and the polite admission of a personal problem."
 }

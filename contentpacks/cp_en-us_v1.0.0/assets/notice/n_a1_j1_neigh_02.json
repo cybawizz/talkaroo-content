@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_neighbor_intro",
   "prompt": "Where does he live?",
-  "script": "I live in apartment four B.",
+  "script": "Well, I actually live in apartment four B, you know, just down the hall. I've been there for about a year now.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker mention their apartment?",
     "options": [
-      "Apartment 4B",
-      "Apartment 2A",
-      "Next street",
-      "At the park"
+      "To clarify their location and establish proximity.",
+      "To complain that room 4B is too small.",
+      "To ask the listener for the key to apartment 4B.",
+      "To say they are moving out in a year."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The use of 'actually' and the detail 'just down the hall' help define the speaker’s relationship as a close neighbor."
 }

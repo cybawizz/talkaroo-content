@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_recent_weekend",
   "prompt": "Identify the follow-up.",
-  "script": "What time did you finish?",
+  "script": "So, anyway... what time did you actually finish? I'm just curious, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in asking the question?",
     "options": [
-      "Asking about finishing time",
-      "Inviting someone",
-      "Refusing",
-      "Asking for directions"
+      "Asking about the specific end time of the event.",
+      "Inviting the person to a new event now.",
+      "Refusing to talk about the weekend anymore.",
+      "Asking for directions to where it finished."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and 'actually' show a natural shift to a specific detail in the conversation."
 }

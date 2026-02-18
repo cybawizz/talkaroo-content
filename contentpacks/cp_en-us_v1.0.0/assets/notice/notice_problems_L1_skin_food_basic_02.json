@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_food_basic",
   "prompt": "What did the waiter say?",
-  "script": "I am sorry. A new one, please.",
+  "script": "Oh, so sorry... I'll just bring a new one, actually. It'll be right out, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the waiter's primary goal in this response?",
     "options": [
-      "Waiter is happy",
-      "Waiter is sorry",
-      "Waiter is leaving",
-      "Waiter is eating"
+      "Providing immediate customer recovery and expressing genuine apology.",
+      "Stating that they are happy and leaving the customer to eat the soup.",
+      "Actually asking the customer if they can eat the soup for them now.",
+      "Warning that a new one is not coming and the waiter is closing early."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Oh' and the contraction 'It'll' create a natural, reactive, and helpful service tone."
 }

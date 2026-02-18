@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_networking_smalltalk_to_topic",
   "prompt": "What does the speaker signal?",
-  "script": "That resonates with me—we’ve seen the same issue.",
+  "script": "So, anyway... that really resonates with me, actually. We’ve seen the same issue in our department, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in saying 'that resonates'?",
     "options": [
-      "They disagree strongly",
-      "They relate and build rapport",
-      "They want to change jobs",
-      "They did not understand"
+      "Building professional rapport through shared experience and validation.",
+      "Stating that they disagree strongly and saw a completely different issue.",
+      "Actually asking to change jobs and move to the listener's department.",
+      "Complaining that the listener did not understand the same issue at all."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'We’ve' signal a transition toward social alignment and professional empathy."
 }

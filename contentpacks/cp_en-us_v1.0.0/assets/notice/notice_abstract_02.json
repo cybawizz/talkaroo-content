@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_public_opinion_topic",
   "prompt": "Identify the challenge.",
-  "script": "What evidence supports that conclusion?",
+  "script": "So, anyway... what evidence actually supports that conclusion? I'm curious to see the data behind it, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking for evidence?",
     "options": [
-      "Asking for evidence",
-      "Agreeing strongly",
-      "Changing the topic",
-      "Saying goodbye"
+      "Testing the validity of a claim through critical inquiry and scrutiny.",
+      "Agreeing strongly and stating that no evidence is even needed.",
+      "Changing the topic to avoid talking about any specific conclusions.",
+      "Actually asking if they can have a copy of the data to sell it."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I'm' frame the challenge as a natural part of a professional dialogue."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_bus_stop_smalltalk",
   "prompt": "Identify the meaning.",
-  "script": "It usually comes at eight.",
+  "script": "Well, actually... it usually comes at eight. It's almost always on time, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real message about the bus schedule?",
     "options": [
-      "The bus arrives at 8:00",
-      "The bus is cancelled",
-      "The bus is early",
-      "The stop is closed"
+      "Providing reassurance based on observed consistent performance.",
+      "Stating that the bus is cancelled today because it is too early.",
+      "Warning the listener that the bus stop is closed during the eight o'clock hour.",
+      "Actually asking if the listener has an eight-cent coin for the fare."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'It's' and the word 'honestly' add a helpful, social layer to simple scheduling information."
 }

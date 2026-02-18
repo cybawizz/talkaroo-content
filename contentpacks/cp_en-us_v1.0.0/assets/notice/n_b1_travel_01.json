@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_travel_mishap",
   "prompt": "Identify the problem.",
-  "script": "I missed the last train, so I took a taxi.",
+  "script": "Well, actually... I missed the last train, you know? So I'm thinking I'll just have to take a taxi home tonight.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary feeling about having to take a taxi?",
     "options": [
-      "He missed the train",
-      "He took a train",
-      "He stayed home",
-      "He bought a bike"
+      "A pragmatic acceptance of a necessary, if costly, alternative after a mishap.",
+      "Excitement because they really wanted to take a taxi instead of the train.",
+      "Actually asking the listener if they can drive them home in their car.",
+      "Stating that the last train was actually on time but they were late."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'I'm' and the filler 'actually' signal a realistic problem-solving mindset following an inconvenience."
 }

@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_day_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "I eat lunch at twelve.",
+  "script": "So, anyway... I usually eat lunch at twelve, you know? It's my favorite time of the day, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about their lunch break?",
     "options": [
-      "Lunch at 12",
-      "Dinner at 8",
-      "Breakfast at 7",
-      "No food"
+      "Appreciative of the midday pause as a highlight of their routine.",
+      "Stating that dinner at eight is much better than lunch at twelve.",
+      "Actually asking for breakfast at seven instead of lunch now.",
+      "Warning that there is no food available at twelve in this shop."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'It's' and the filler 'actually' help a simple A1-level fact sound like a natural human sentiment."
 }

@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_roommate_noise",
   "prompt": "Identify the speaker’s concern.",
-  "script": "I’m fine with music, but it’s too loud after 11, and I can’t sleep.",
+  "script": "Um, well... I’m fine with music usually, but it’s actually too loud after 11, you know? I just can’t sleep with that volume, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary social objective in this complaint?",
     "options": [
-      "The speaker dislikes music",
-      "The speaker can’t sleep because it’s loud late",
-      "The speaker wants to move out",
-      "The speaker is asking for money"
+      "Establishing a reasonable boundary for shared living while remaining flexible.",
+      "Stating that they dislike music and want the roommate to move out today.",
+      "Actually asking the roommate for money because they can't sleep anymore.",
+      "Warning that if the music isn't turned off, they will start a loud fight."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'can't' soften the delivery of a firm boundary about sleep hygiene."
 }

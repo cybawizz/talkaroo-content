@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_learning_method_b2",
   "prompt": "Identify the compromise move.",
-  "script": "Could we meet in the middle and try it for a week?",
+  "script": "Um, well... so could we maybe meet in the middle and just try the one-on-one sessions for a week? I think it's a good middle ground, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in suggesting the 'trial sessions'?",
     "options": [
-      "Making a compromise",
-      "Refusing",
-      "Changing topic",
-      "Giving directions"
+      "Proposing a practical compromise to resolve a disagreement on study methods.",
+      "Refusing to study at all and demanding the listener does the work for them.",
+      "Changing the topic to talk about why one-on-one sessions are expensive.",
+      "Actually asking for directions to the nearest learning center in the middle."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'it's' signal a desire to find a mutually agreeable solution."
 }

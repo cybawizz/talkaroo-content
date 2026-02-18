@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_cafe_greeting",
   "prompt": "How does the speaker feel?",
-  "script": "Hello! I am very happy today.",
+  "script": "Oh, hello there! Actually, I'm feeling really happy today, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker use 'Actually' at the start?",
     "options": [
-      "Sad",
-      "Tired",
-      "Happy",
-      "Angry"
+      "To correct a previous assumption about their mood.",
+      "To state that they are currently at the cafe.",
+      "To ask the listener how they are feeling.",
+      "To complain about a problem they're having."
     ],
-    "answerIndex": 2
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The use of 'Actually' suggests the speaker is sharing an update or clarifying their state of mind, even in a simple greeting."
 }

@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_day_basic",
   "prompt": "How does he travel?",
-  "script": "I take the bus to work.",
+  "script": "Um, well... I actually take the bus to work, you know? It's much easier than driving, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real reason for taking the bus?",
     "options": [
-      "By bus",
-      "By bike",
-      "Walk",
-      "Taxi"
+      "Prioritizing convenience and a stress-free commute over driving.",
+      "Stating that they take the bike because the bus is too slow for them.",
+      "Actually asking if the listener can buy them a taxi for their commute.",
+      "Warning that the bus to work is currently broken and unsafe to use."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'actually' and the contraction 'It's' help a simple A1-level fact sound like a natural human preference."
 }

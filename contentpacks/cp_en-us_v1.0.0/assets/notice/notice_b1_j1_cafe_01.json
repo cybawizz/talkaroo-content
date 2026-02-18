@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_b1_cafe_chat",
   "prompt": "Identify the stance and the reason.",
-  "script": "I think the tea is better because it’s lighter and not too sweet.",
+  "script": "Um, well... I actually think the tea is better, you know? It’s just lighter and not too sweet, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real motivation for choosing tea?",
     "options": [
-      "The speaker prefers tea because it is lighter",
-      "The speaker dislikes tea because it is sweet",
-      "The speaker wants to order coffee",
-      "The speaker says the café is closed"
+      "Seeking a specific sensory experience that is less intense and more balanced.",
+      "Disliking the café because they serve too much sweet food for free.",
+      "Actually asking the waiter for a free coffee because the tea is too light.",
+      "Stating that the café is closed and they should go somewhere else."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fillers 'Um, well...' and 'actually' help the speaker express a personal preference as a soft recommendation."
 }

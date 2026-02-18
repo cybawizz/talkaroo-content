@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_device_repair_b1",
   "prompt": "Identify the question.",
-  "script": "How long will the repair take?",
+  "script": "So, anyway... how long's the repair going to take? I'm hoping I won't be without it for too long, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's primary concern while asking about the time?",
     "options": [
-      "Asking time",
-      "Asking price",
-      "Closing",
-      "Greeting"
+      "Managing their expectations for the period they will be without the device.",
+      "Demanding that the repair be finished in under five minutes.",
+      "Actually asking if they can buy a new device while waiting.",
+      "Warning the listener that the repair is too expensive for them."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'long's' and the tag 'you know?' reveal the speaker's anxiety about losing their tool for an extended time."
 }

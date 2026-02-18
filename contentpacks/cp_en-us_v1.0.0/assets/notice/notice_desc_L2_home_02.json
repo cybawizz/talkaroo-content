@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_new_home",
   "prompt": "Identify the floor.",
-  "script": "It is on the third floor next to the elevator.",
+  "script": "So, anyway... it's on the third floor, right next to the elevator, actually. It's quite easy to find, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the elevator?",
     "options": [
-      "Third floor",
-      "Second floor",
-      "Ground floor",
-      "No floor"
+      "Providing a specific landmark to make the location easier to reach.",
+      "Stating that the elevator is broken and they must use the stairs.",
+      "Actually asking if there is a fourth floor in the building as well.",
+      "Warning that being next to the elevator will be far too noisy at night."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the tag 'you know?' create a helpful, informative tone for directions."
 }

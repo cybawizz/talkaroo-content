@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_neighbor_intro",
   "prompt": "Identify the intent.",
-  "script": "It's nice to meet you.",
+  "script": "So, anyway... it's really nice to meet you, actually. I've heard good things about this building, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in saying 'I've heard good things'?",
     "options": [
-      "Asking a question",
-      "Showing politeness",
-      "Complaining",
-      "Ending a call"
+      "Building social rapport and demonstrating a positive outlook on the community.",
+      "Asking a question about why the building is so bad and noisy at night.",
+      "Complaining that they have not heard anything about the building at all.",
+      "Ending a phone call because they are bored of the neighbor's intro."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I've' create a friendly, conversational bridge to the neighbor."
 }

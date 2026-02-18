@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_meeting_pushback",
   "prompt": "What is the tone?",
-  "script": "I’m open to alternatives, but we need a clear timeline.",
+  "script": "Um, well... I’m open to alternatives, but we actually need a clear timeline. It won't work without one, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How would you describe the speaker's professional stance?",
     "options": [
-      "Aggressive and insulting",
-      "Flexible but firm",
-      "Confused",
-      "Uninterested"
+      "Collaborative but maintaining a non-negotiable requirement for structure.",
+      "Aggressive and insulting toward anyone who suggests a different plan.",
+      "Completely confused and unsure if they even want to see a timeline.",
+      "Uninterested in the project and hoping to cancel the entire meeting."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' softens the introduction, while the contraction 'won't' and 'honestly' add firm professional weight."
 }

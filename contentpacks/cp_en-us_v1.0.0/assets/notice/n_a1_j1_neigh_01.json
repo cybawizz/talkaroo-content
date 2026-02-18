@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_neighbor_intro",
   "prompt": "Listen for the name.",
-  "script": "Hi, I am Alex. I live next door.",
+  "script": "Hi, I'm Alex... actually, I live just next door, so I wanted to say hello.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's social intent here?",
     "options": [
-      "Name is Alex",
-      "Name is Sam",
-      "He is leaving",
-      "He is lost"
+      "Establishing a friendly connection with a neighbor.",
+      "Complaining that the door is currently locked.",
+      "Asking Alex if he lives next door.",
+      "Actually telling a story about a lost key."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The use of 'actually' and the contraction 'I'm' helps the speaker sound natural and approachable during a spontaneous introduction."
 }

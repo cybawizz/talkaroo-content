@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_neighbor_boundary_setting",
   "prompt": "What is the speaker doing?",
-  "script": "I don’t want to make a big deal out of this, but the noise is affecting sleep.",
+  "script": "Um, well... I don’t want to make a big deal out of this, but the noise's really affecting my sleep, actually. It's becoming quite a problem, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's strategy in saying they 'don't want to make a big deal'?",
     "options": [
-      "Starting a fight",
-      "Raising an issue gently",
-      "Apologizing for noise",
-      "Inviting someone over"
+      "Minimizing confrontation while still clearly identifying a serious grievance.",
+      "Starting a noisy fight to ensure the neighbor understands their anger.",
+      "Apologizing for their own noise and inviting the neighbor for coffee.",
+      "Actually asking if the neighbor has any tips for sleeping better at night."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'noise's' help the speaker deliver a boundary request with a less aggressive, more personal tone."
 }

@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_daily_routine_b2",
   "prompt": "Identify the follow-up focus.",
-  "script": "When you say it's convenient, what do you mean exactly—transport, shops, or something else?",
+  "script": "So, anyway... when you say it's convenient, what're you actually getting at—transport, shops, or something else?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking for specifics?",
     "options": [
-      "Changing the topic",
-      "Asking for clarification",
-      "Giving directions",
-      "Ending the chat"
+      "Clarifying an abstract term to better understand the other person's perspective.",
+      "Changing the topic to talk about why shops are better than transport.",
+      "Actually asking for directions to the nearest convenient shop right now.",
+      "Ending the chat because they don't think convenience is important anyway."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'what're' signal a natural, probing move in a descriptive dialogue."
 }

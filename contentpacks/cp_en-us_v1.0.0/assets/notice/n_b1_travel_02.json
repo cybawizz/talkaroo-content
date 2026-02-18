@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_travel_mishap",
   "prompt": "Identify the plan.",
-  "script": "Next time, I will leave earlier.",
+  "script": "So, anyway... next time, I'll actually leave earlier. I think I've learned my lesson about the traffic, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in sharing their future plan?",
     "options": [
-      "He will leave later",
-      "He will leave earlier",
-      "He won't travel",
-      "He will cancel work"
+      "Reflecting on a personal mistake to ensure better results next time.",
+      "Complaining that the traffic is always perfect and they were just unlucky.",
+      "Actually asking the listener if they can drive them home next time.",
+      "Stating that they will never travel again because of the mishap."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'I've' and the filler 'honestly' help the speaker express a sincere personal growth moment from a travel mistake."
 }

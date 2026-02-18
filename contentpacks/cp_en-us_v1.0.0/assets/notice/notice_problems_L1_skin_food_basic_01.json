@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_food_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "This soup is cold.",
+  "script": "Um, well... this soup's actually cold, you know? It's just not quite right, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in making this observation?",
     "options": [
-      "The soup is cold",
-      "The soup is hot",
-      "The soup is sweet",
-      "The soup is free"
+      "Politely signaling a quality issue with their meal to get it fixed.",
+      "Stating that the soup is far too hot and they need a cold drink instead.",
+      "Actually asking if the soup is free because it is too sweet for them.",
+      "Warning the waiter that they did not order soup and want a steak now."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'soup's' and the filler 'honestly' create a polite but clear signal of a problem."
 }

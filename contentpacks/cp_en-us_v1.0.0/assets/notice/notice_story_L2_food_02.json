@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_food_story",
   "prompt": "Identify the price idea.",
-  "script": "It was not expensive.",
+  "script": "Well, actually... it wasn't expensive at all, you know? It was quite a bargain.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What does the speaker think about the price?",
     "options": [
-      "It was expensive",
-      "It was not expensive",
-      "It was free",
-      "It was broken"
+      "It was a good price and not very high.",
+      "It was a very expensive and luxury meal.",
+      "The meal was completely free for them.",
+      "The food was bad because it was free."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'wasn't' and the filler 'Well, actually' emphasize that the cost was lower than expected."
 }

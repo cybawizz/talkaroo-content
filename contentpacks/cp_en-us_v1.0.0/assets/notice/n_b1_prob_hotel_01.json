@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_hotel_issue_b1",
   "prompt": "Identify the problem.",
-  "script": "The air conditioner isn't working in my room.",
+  "script": "Um, actually... the air conditioner's not working in my room, you know? It's getting pretty warm in here tonight.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about their room condition?",
     "options": [
-      "The AC works",
-      "The AC is broken",
-      "The room is clean",
-      "The TV is loud"
+      "Uncomfortable and seeking assistance for a technical comfort issue.",
+      "Angry that the room is too clean and quiet for them.",
+      "Actually asking if they can have a free meal in the restaurant.",
+      "Stating that the TV is too loud and the AC is too cold."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the detail 'getting pretty warm' help the speaker justify their request for help."
 }

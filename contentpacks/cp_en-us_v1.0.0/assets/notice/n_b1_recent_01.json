@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_recent_event",
   "prompt": "Identify the cause.",
-  "script": "Because of that, I went home early.",
+  "script": "Well, you know... because of that whole situation, I actually went home early. It was just too much to deal with, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's emotional state regarding the event?",
     "options": [
-      "He stayed out late",
-      "He went home early",
-      "He traveled abroad",
-      "He bought food"
+      "Feeling overwhelmed and choosing to withdraw from the situation.",
+      "Excited and heading home early to celebrate their own success.",
+      "Actually asking for advice on how to handle the whole situation better.",
+      "Stating that they stayed out late to avoid dealing with anything at home."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The phrase 'whole situation' and the word 'honestly' signal that the speaker is sharing a personal, stressful experience."
 }

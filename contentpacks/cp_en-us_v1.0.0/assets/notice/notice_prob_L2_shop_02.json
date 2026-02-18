@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_shop_return",
   "prompt": "Identify the follow-up.",
-  "script": "Do you have the receipt?",
+  "script": "So, anyway... do you actually have the receipt for that? I'll need it to process the request, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the shop assistant's real objective in asking for the receipt?",
     "options": [
-      "Asking for receipt",
-      "Refusing",
-      "Offering discount",
-      "Saying goodbye"
+      "Following standard store protocol to validate a return transaction.",
+      "Refusing to help the customer because they don't like the item being returned.",
+      "Offering a special discount instead of giving a refund for the item today.",
+      "Saying goodbye to the customer and asking them to leave the shop now."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I'll' create a professional but realistic service tone."
 }

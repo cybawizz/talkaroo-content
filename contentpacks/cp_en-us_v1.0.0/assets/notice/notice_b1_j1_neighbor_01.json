@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_b1_neighbor_park",
   "prompt": "Identify the comparison.",
-  "script": "Compared to the city park, this one is quieter and feels safer.",
+  "script": "So, anyway... compared to the city park, this one's actually much quieter, you know? It feels safer too, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's underlying message about their environment?",
     "options": [
-      "The city park is quieter",
-      "This park is quieter than the city park",
-      "Both parks are noisy",
-      "The speaker is lost"
+      "Finding peace of mind and security in their local surroundings.",
+      "Stating that the city park is the only place they ever go at night.",
+      "Actually asking if they are lost and need directions to the city park.",
+      "Warning that both parks are currently closed for a safe neighborhood meeting."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'one's' and the filler 'actually' signal a personal, appreciative reflection on their neighborhood."
 }

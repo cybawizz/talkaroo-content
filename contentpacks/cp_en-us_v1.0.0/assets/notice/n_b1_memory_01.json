@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_childhood_memory",
   "prompt": "Identify the time.",
-  "script": "When I was a child, I played outside every day.",
+  "script": "Well, you know... when I was a child, I actually played outside every single day. We didn't have all these gadgets back then!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real sentiment toward their childhood?",
     "options": [
-      "Now",
-      "In childhood",
-      "Tomorrow",
-      "Next year"
+      "Nostalgic for a simpler time spent outdoors without modern technology.",
+      "Angry that they didn't have any gadgets to play with as a child.",
+      "Unsure if they actually played outside every day or not.",
+      "Actually asking the listener if they want to go outside now."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contrast 'back then' vs. 'all these gadgets' highlights the speaker's nostalgic mood and pragmatic comparison of generations."
 }

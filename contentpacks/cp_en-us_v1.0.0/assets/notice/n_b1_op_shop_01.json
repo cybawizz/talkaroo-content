@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_shopping_choice",
   "prompt": "Identify priority.",
-  "script": "Quality matters to me.",
+  "script": "So, anyway... quality really matters to me, actually. I'd rather pay more for something that'll last, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real attitude toward price versus quality?",
     "options": [
-      "Price matters",
-      "Quality matters",
-      "Color matters",
-      "Nothing matters"
+      "Prioritizing long-term value over initial cost savings.",
+      "Complaining that everything in the shop is currently too expensive.",
+      "Actually asking the listener if they can find something cheaper.",
+      "Stating that the color of the item is the only thing that matters."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'that'll' and the filler 'actually' help the speaker express a personal value system as a natural thought."
 }

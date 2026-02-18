@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_new_home",
   "prompt": "Identify the location.",
-  "script": "It is near the station and behind the park.",
+  "script": "Well, actually... it's just near the station and behind the park, you know? It's a really convenient spot, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the station and the park?",
     "options": [
-      "Far from the station",
-      "Near the station and behind the park",
-      "Inside the park",
-      "Next to the school"
+      "Justifying the quality of the location based on its proximity to amenities.",
+      "Stating that they are currently lost inside the park and can't find home.",
+      "Actually asking if the station is far away from the local school.",
+      "Warning that being behind the park makes the home very dangerous."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'it's' and the filler 'actually' help the speaker promote the benefits of the home's location."
 }

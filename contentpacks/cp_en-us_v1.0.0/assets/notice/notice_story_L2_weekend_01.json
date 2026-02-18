@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_recent_weekend",
   "prompt": "Identify the time.",
-  "script": "Last Saturday, I met a friend at two.",
+  "script": "So, last Saturday, I met a friend at two, actually. We had a great time, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "When did the speaker meet their friend?",
     "options": [
-      "It happened last Saturday",
-      "It happens every Saturday",
-      "It will happen tomorrow",
-      "He met at midnight"
+      "On the most recent Saturday afternoon.",
+      "Every Saturday at two in the morning.",
+      "They are going to meet them tomorrow.",
+      "They met their friend at midnight instead."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The specific time 'last Saturday... at two' is confirmed with the filler 'actually' to share a past event."
 }

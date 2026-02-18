@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_trip_recap_b2",
   "prompt": "Identify the emphasis.",
-  "script": "Honestly, I didn’t expect the place to be that busy.",
+  "script": "Um, well... honestly, I didn’t actually expect the museum to be that crowded. It's really changed my plans for the afternoon, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in using the word 'honestly'?",
     "options": [
-      "Giving a time",
-      "Expressing surprise",
-      "Asking a question",
-      "Ending the story"
+      "Expressing authentic surprise and explaining a subsequent change in schedule.",
+      "Giving a specific time for when the museum became crowded this morning.",
+      "Actually asking a question about why museums are so popular in the city.",
+      "Ending the trip recap because they are too tired of crowds to talk anyway."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'didn't' create a more personal, reactive tone for a travel story."
 }

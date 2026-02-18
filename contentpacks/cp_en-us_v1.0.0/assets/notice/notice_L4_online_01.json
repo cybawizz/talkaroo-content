@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_online_thread_misread",
   "prompt": "What is the speaker doing?",
-  "script": "I think my message came across the wrong way—let me rephrase that.",
+  "script": "Well, actually... I think my message probably came across the wrong way, you know? Let me rephrase that, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's strategy in 'rephrasing' their message?",
     "options": [
-      "Doubling down",
-      "Repairing and clarifying",
-      "Changing the subject",
-      "Mocking the other person"
+      "Actively managing a misunderstanding to prevent further social friction.",
+      "Doubling down on their original statement to make it sound even more aggressive.",
+      "Changing the subject completely because they are embarrassed of their words.",
+      "Mocking the other person for not being able to read English well enough."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually...' and the word 'honestly' show the speaker is taking responsibility for the clarity of the interaction."
 }

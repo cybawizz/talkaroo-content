@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_apartment_details",
   "prompt": "Identify the location.",
-  "script": "The building is next to the elevator.",
+  "script": "So, anyway... the building's just next to the elevator, you know? It's really convenient for moving furniture.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker mention the elevator?",
     "options": [
-      "Near the elevator",
-      "Far from elevator",
-      "On the roof",
-      "Outside town"
+      "To emphasize a practical advantage of the apartment's location.",
+      "To complain that the elevator is too close and noisy.",
+      "To explain why they need help moving their own furniture.",
+      "Actually stating that the elevator is currently broken."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' transitions the conversation to a practical detail, while 'you know?' seeks agreement on the convenience mentioned."
 }

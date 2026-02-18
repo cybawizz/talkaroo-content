@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_roommate_noise",
   "prompt": "Identify the compromise.",
-  "script": "How about headphones on weekdays, and we can be more flexible on weekends?",
+  "script": "Actually, you know... how about headphones on weekdays? Then we can be much more flexible on weekends, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in suggesting 'flexible weekends'?",
     "options": [
-      "Refusing to change",
-      "Offering a compromise",
-      "Ending the conversation",
-      "Asking for directions"
+      "Negotiating a mutually acceptable living arrangement through trade-offs.",
+      "Refusing to change their own behavior and demanding total silence now.",
+      "Ending the conversation because they are bored of headphones anyway.",
+      "Actually asking for directions to the nearest shop that sells headphones."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the word 'honestly' signal a sincere effort to find a win-win solution for roommates."
 }

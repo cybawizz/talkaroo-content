@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_public_opinion_topic",
   "prompt": "Identify the balanced view.",
-  "script": "On the one hand, it improves access, but on the other hand it may create inequality.",
+  "script": "Well, actually... on the one hand, it improves access, but on the other hand it may create inequality, you know? It's a complex trade-off, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in presenting both sides?",
     "options": [
-      "Only positive effects",
-      "Only negative effects",
-      "Balanced view with pros and cons",
-      "No opinion"
+      "Acknowledging the nuanced complexity of a systemic issue.",
+      "Arguing that the positive effects are the only ones that matter.",
+      "Actually asking the listener to choose which side they prefer now.",
+      "Stating that they have no opinion because both sides are equal."
     ],
-    "answerIndex": 2
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The 'Well, actually...' transition and the tag 'you know?' invite the listener to consider the intellectual weight of the trade-off."
 }

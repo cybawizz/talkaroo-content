@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_mall_info",
   "prompt": "Identify the confirmation.",
-  "script": "So, top level near the stairs?",
+  "script": "So, anyway... top level near the stairs, right? I just want to make sure I'm heading the right way, actually.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in repeating the directions?",
     "options": [
-      "Confirming information",
-      "Asking to repeat",
-      "Changing topic",
-      "Ending the talk"
+      "Verifying information to ensure accuracy before committing to the walk.",
+      "Asking the person to repeat the same joke they just told about life.",
+      "Changing the topic to talk about the quality of the mall's stairs.",
+      "Ending the conversation immediately because they are already at the top."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the tag 'right?' signal a natural verification move in a navigational dialogue."
 }

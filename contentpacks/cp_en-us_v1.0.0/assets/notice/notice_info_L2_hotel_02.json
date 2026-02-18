@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_hotel_reception",
   "prompt": "Identify the follow-up.",
-  "script": "Do you have towels at the pool?",
+  "script": "So, anyway... do you actually have towels at the pool? I'm hoping I won't have to bring my own, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking about pool towels?",
     "options": [
-      "Asking for an item",
-      "Asking for a refund",
-      "Checking out",
-      "Booking a room"
+      "Seeking a specific guest amenity to avoid an inconvenience later.",
+      "Asking for a refund because the pool is too cold for swimming.",
+      "Checking out of the hotel because they forgot their own towels.",
+      "Booking a room with the sole intent of stealing all the pool towels."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'won't' frame the question as a practical, real-world travel inquiry."
 }

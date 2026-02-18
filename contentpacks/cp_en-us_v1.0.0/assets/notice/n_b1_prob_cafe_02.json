@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_cafe_order_b1",
   "prompt": "Identify the preference.",
-  "script": "No sugar, please.",
+  "script": "Well, you know... no sugar, please. I'm trying to be a bit healthier these days, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker mention their health goals?",
     "options": [
-      "Extra sugar",
-      "No sugar",
-      "No milk",
-      "No cup"
+      "Providing a personal context to explain their specific preference.",
+      "Complaining that the cafe only has sugar and no real food.",
+      "Actually asking if the waiter has any healthy recipes to share.",
+      "Warning that the sugar will make them incredibly sick today."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The phrase 'I'm trying to be...' and the filler 'actually' help the speaker connect a simple request to a broader life goal."
 }

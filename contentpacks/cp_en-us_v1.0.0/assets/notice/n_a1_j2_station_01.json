@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_station_basic",
   "prompt": "Listen for the platform.",
-  "script": "The train is on platform two.",
+  "script": "Well, actually... the train's on platform two, you know, just past the ticket office. It's leaving in five minutes!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker doing in this passage?",
     "options": [
-      "Platform 2",
-      "Platform 5",
-      "No platform",
-      "Exit 2"
+      "Providing specific directions and adding a sense of urgency.",
+      "Complaining that platform two is too far away.",
+      "Asking the listener to buy a ticket for them.",
+      "Saying that the train has already left the station."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'train's' and the additional detail 'leaving in five minutes' shift the focus from a simple fact to a time-sensitive update."
 }

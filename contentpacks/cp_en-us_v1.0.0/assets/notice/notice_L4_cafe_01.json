@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_cafe_opinion_clash",
   "prompt": "What is the speaker doing?",
-  "script": "I get your point, but I’m not entirely convinced it’s worth the price.",
+  "script": "Well, actually... I get your point, but I’m not entirely convinced it’s worth the price, you know? It's just a bit steep for a latte, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in using 'I get your point'?",
     "options": [
-      "Agreeing completely",
-      "Acknowledging and disagreeing politely",
-      "Changing the topic abruptly",
-      "Asking for a refund"
+      "Softening a disagreement to maintain a positive social rapport with the friend.",
+      "Agreeing completely and offering to pay the steep price for everyone.",
+      "Changing the topic abruptly to talk about the weather instead.",
+      "Actually asking the waiter for a refund because the price is too steep."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The use of 'but' after an acknowledgment and the filler 'honestly' signal a polite but firm disagreement on value."
 }

@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_shop_basic",
   "prompt": "What did the customer ask?",
-  "script": "Excuse me, how much is this postcard?",
+  "script": "So, anyway... excuse me, I was wondering how much this postcard is? I'm thinking of sending it to my mom.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary intent?",
     "options": [
-      "Ask for water",
-      "Ask for the price",
-      "Ask for a bag",
-      "Ask for the time"
+      "Politely initiating a price inquiry for a potential purchase.",
+      "Complaining that the postcard is for their mom.",
+      "Asking for a map to the nearest post office.",
+      "Wondering why the shop doesn't have any water."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "Starting with 'So, anyway' and 'Excuse me' is a natural way to transition into a request for help in a public setting."
 }

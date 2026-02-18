@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_delivery_issue_b2",
   "prompt": "Identify the negotiation move.",
-  "script": "If that’s not possible today, could we schedule it for tomorrow morning instead?",
+  "script": "Actually, you know... if that’s not possible today, could we schedule it for tomorrow morning instead? I'm' just trying to find a solution, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true objective in suggesting 'tomorrow morning'?",
     "options": [
-      "Demanding a refund",
-      "Offering an alternative solution",
-      "Ending the conversation",
-      "Changing topic"
+      "Demonstrating flexibility by proposing a specific alternative timeline.",
+      "Demanding a full refund because the delivery cannot happen today.",
+      "Ending the conversation immediately as they have found a solution.",
+      "Changing the topic to talk about why mornings are better for delivery."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'that's' signal a natural transition to problem-solving mode."
 }

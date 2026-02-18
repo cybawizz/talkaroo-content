@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_friend_profile_b2",
   "prompt": "Identify the follow-up focus.",
-  "script": "When you say it's convenient, what do you mean exactly—transport, shops, or something else?",
+  "script": "So, anyway... when you say he's outgoing, what're you actually implying—is he a party person, or just friendly?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in asking for examples of 'outgoing'?",
     "options": [
-      "Changing the topic",
-      "Asking for clarification",
-      "Giving directions",
-      "Ending the chat"
+      "Seeking a clearer definition of a personality trait through behavioral context.",
+      "Changing the topic to talk about why parties are better than being friendly.",
+      "Actually asking for directions to the friend's next party right now.",
+      "Ending the chat because they don't think character traits are important."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'what're' signal a natural desire for descriptive precision."
 }

@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_bus_station_info",
   "prompt": "Understand the delay.",
-  "script": "It is about ten minutes late because of traffic.",
+  "script": "Um, actually... it's looking like it's about ten minutes late because of traffic. You know how the morning rush is.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's attitude toward the delay?",
     "options": [
-      "It is early",
-      "It is late by 10 minutes",
-      "It is canceled",
-      "It is free today"
+      "Patient and assuming the listener understands common traffic problems.",
+      "Furiously complaining about the ten-minute rush.",
+      "Delighted that they have extra time to wait at the station.",
+      "Uncertain about whether there is any traffic at all."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The phrase 'You know how...' is a linguistic bonding cue that presumes shared experience, softening the negative news of a delay."
 }

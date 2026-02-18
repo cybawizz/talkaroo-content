@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_classroom_intro",
   "prompt": "Identify the reason.",
-  "script": "I study English for my job.",
+  "script": "Well, you know... I actually study English for my job. I'm hoping to work abroad one day, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real motivation for learning English?",
     "options": [
-      "The speaker studies English for work",
-      "The speaker dislikes English",
-      "The speaker is a teacher",
-      "The speaker is on holiday"
+      "Connecting language acquisition to a specific career ambition.",
+      "Stating that they dislike English but have to study it while on holiday.",
+      "Warning the teacher that they are a student and should not have to work.",
+      "Actually asking if they can have a job as an English teacher today."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'I'm' and the filler 'actually' give the speaker's motivation a more personal, aspirational feel."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_bus_station_help",
   "prompt": "Identify the intent.",
-  "script": "Which bus goes to the city center?",
+  "script": "Um, well... which bus actually goes to the city center, you know? I'm trying to find the quickest route, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's primary goal in asking this question?",
     "options": [
-      "Asking for information",
-      "Complaining",
-      "Refusing help",
-      "Asking for the price"
+      "Seeking a specific travel outcome based on speed and accuracy.",
+      "Complaining that the city center is too far and too expensive to visit.",
+      "Refusing help and stating that they already know the price of the bus.",
+      "Actually asking if the bus station has any free food for travelers."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the word 'honestly' frame the inquiry as a sincere need for travel information."
 }

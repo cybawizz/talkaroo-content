@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_store_refund_policy",
   "prompt": "Identify the request.",
-  "script": "I understand the policy, however this item is defective. Could you make an exception?",
+  "script": "Well, actually... I understand the policy, however this item's actually defective. Could you maybe make an exception, honestly?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in seeking an 'exception'?",
     "options": [
-      "Requesting an exception",
-      "Ordering food",
-      "Asking for the time",
-      "Giving directions"
+      "Persuading the shopkeeper to prioritize consumer rights over rigid policy.",
+      "Ordering food from the shop because the item they bought is edible.",
+      "Asking for the time because the defective item was a broken watch.",
+      "Giving directions to a different store that has a much better refund policy."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Well, actually...' and the word 'maybe' signal a polite but determined negotiation for a fair outcome."
 }

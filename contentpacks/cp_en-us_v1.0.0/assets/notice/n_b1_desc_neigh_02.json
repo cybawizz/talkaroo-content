@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_neighborhood_tour",
   "prompt": "Identify the comparison.",
-  "script": "Compared to downtown, it’s much quieter.",
+  "script": "Um, well... compared to downtown, it's much quieter around here, actually. It's a nice change of pace, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's attitude toward their neighborhood?",
     "options": [
-      "Downtown is quieter",
-      "This area is quieter",
-      "Both are noisy",
-      "No one lives there"
+      "Appreciative of the relative peace and calm compared to the city center.",
+      "Angry that the neighborhood is too quiet and boring.",
+      "Wishing they lived in the louder downtown area instead.",
+      "Actually asking the listener if they want to move to downtown."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the tag 'you know?' suggest the speaker is reflecting on and inviting the listener to agree with their positive assessment."
 }

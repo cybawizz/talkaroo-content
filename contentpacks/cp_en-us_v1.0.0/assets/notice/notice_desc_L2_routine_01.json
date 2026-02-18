@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_morning_routine",
   "prompt": "Identify the sequence.",
-  "script": "I wake up at seven. Then I have breakfast.",
+  "script": "Well, you know... I usually wake up at seven and then I have breakfast. I can't really function without it, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real attitude toward their morning breakfast?",
     "options": [
-      "Breakfast first",
-      "Wake up then breakfast",
-      "No breakfast",
-      "Breakfast at 10"
+      "Stressing the personal importance of the meal for their daily energy.",
+      "Stating that they have breakfast first and then wake up at ten.",
+      "Actually asking if the listener can make them breakfast right now.",
+      "Warning that breakfast at seven is far too early for any human."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the confession 'can't really function' show the speaker's personal dependence on the routine."
 }

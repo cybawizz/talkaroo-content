@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_weekend_story_b2",
   "prompt": "Identify the sequence marker.",
-  "script": "At first we got lost, and then we finally found the entrance.",
+  "script": "Actually, you know... at first we'd planned to stay in, but then we finally decided to go to the beach. It's a good thing we did, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in emphasizing 'at first'?",
     "options": [
-      "They found it first",
-      "They got lost then found it",
-      "They never found it",
-      "They are lost now"
+      "Detailing a change in weekend plans by highlighting an initial intention.",
+      "Stating that they went to the beach first and then stayed in all day after.",
+      "Actually asking if the listener has any plans for the beach next weekend.",
+      "Warning that staying in is a dangerous choice for anyone's health and safety."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'we'd' and the filler 'Actually' help the speaker convey a natural decision-making process."
 }

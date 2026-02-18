@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_deadline",
   "prompt": "Identify the proposal.",
-  "script": "As a compromise, we can ship a beta next week and the full version the week after.",
+  "script": "Um, well... as a compromise, we could actually ship a beta next week and the full version the week after, you know? It's just more realistic, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in proposing a two-stage release?",
     "options": [
-      "Ship nothing",
-      "Ship in two stages",
-      "Ship later this year",
-      "Ship only the design"
+      "Managing project constraints while ensuring some tangible progress is delivered.",
+      "Stating that they want to cancel the full version and only ship the beta.",
+      "Actually asking the team if they can all go on holiday for two weeks.",
+      "Warning that the full version is currently full of unfixable design bugs."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'It's' help the speaker frame a potentially difficult compromise as a reasonable next step."
 }

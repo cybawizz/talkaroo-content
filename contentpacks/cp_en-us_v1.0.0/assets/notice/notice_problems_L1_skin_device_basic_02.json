@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_device_basic",
   "prompt": "What is broken?",
-  "script": "The screen is broken.",
+  "script": "Actually, look... the screen's broken, you know? It's really hard to see anything, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary concern about their device?",
     "options": [
-      "Battery",
-      "Screen",
-      "Sound",
-      "Buttons"
+      "Identifying the specific physical damage that is affecting usability.",
+      "Stating that the battery is dead and the sound is far too loud to hear.",
+      "Actually asking if the listener has any buttons they can use to fix it.",
+      "Warning that a broken screen is the latest fashion for phones today."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'screen's' and the filler 'Actually' add a sense of immediate, visual problem-sharing."
 }

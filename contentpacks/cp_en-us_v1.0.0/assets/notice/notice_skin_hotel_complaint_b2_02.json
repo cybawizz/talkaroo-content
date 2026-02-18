@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_hotel_complaint_b2",
   "prompt": "Identify the negotiation move.",
-  "script": "If that’s not possible today, could we schedule it for tomorrow morning instead?",
+  "script": "So, anyway... if that’s not possible today, could we maybe move me to a different room instead? I'm just looking for a warm place, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the guest's true objective in suggesting a 'different room'?",
     "options": [
-      "Demanding a refund",
-      "Offering an alternative solution",
-      "Ending the conversation",
-      "Changing topic"
+      "Proposing an alternative solution to resolve an immediate comfort issue.",
+      "Demanding a refund for the whole trip because they hate the hotel.",
+      "Ending the conversation because they have already found a new hotel.",
+      "Changing the topic to talk about why different rooms have better views."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'that's' signal a practical, solution-oriented negotiation."
 }

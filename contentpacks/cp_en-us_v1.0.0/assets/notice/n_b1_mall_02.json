@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_mall_info",
   "prompt": "Identify the location.",
-  "script": "It is next to the food court, near the escalators.",
+  "script": "Well, actually... it's just next to the food court, you know? You'll see it right near the escalators.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's tone while giving directions?",
     "options": [
-      "Near the elevators",
-      "Next to the food court",
-      "Behind the cinema",
-      "Outside the mall"
+      "Helpful and encouraging while providing easy-to-follow landmarks.",
+      "Angry that the listener is still lost in the mall.",
+      "Uncertain if the food court is actually on this floor.",
+      "Actually asking for directions to the food court themselves."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The tag 'you know?' and the reassurance 'You'll see it...' suggest a collaborative and helpful interaction."
 }

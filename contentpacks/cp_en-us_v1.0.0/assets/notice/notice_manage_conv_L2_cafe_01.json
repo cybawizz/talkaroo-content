@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_cafe_greeting",
   "prompt": "Identify the extra detail.",
-  "script": "Hi. I work in an office nearby.",
+  "script": "Hi! You know... I actually work in an office nearby. It's my first time in this cafe, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in sharing where they work?",
     "options": [
-      "The speaker is ordering food",
-      "The speaker is tired",
-      "The speaker works nearby",
-      "The speaker is late"
+      "Building social rapport and establishing themselves as a local regular.",
+      "Complaining that they are too tired to work in their nearby office.",
+      "Actually asking for a free meal because it's their first time here.",
+      "Warning the waiter that they will be late for work if they don't eat soon."
     ],
-    "answerIndex": 2
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The tag 'you know...' and the contraction 'It's' turn a greeting into an invitation for small talk."
 }

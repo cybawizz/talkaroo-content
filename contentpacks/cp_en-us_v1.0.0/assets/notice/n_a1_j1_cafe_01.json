@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_cafe_greeting",
   "prompt": "Listen for the greeting.",
-  "script": "Good morning! Welcome to the cafe.",
+  "script": "Um, well, good morning! Welcome to the cafe, you know, we're just opening up.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What's the speaker's main intent in this opening?",
     "options": [
-      "Morning greeting",
-      "Night greeting",
-      "Goodbye",
-      "Ordering food"
+      "Establishing a welcoming atmosphere for a new customer.",
+      "Complaining about the early opening time.",
+      "Asking the listener if they know the cafe's history.",
+      "Warning the customer that they aren't ready yet."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The speaker uses the filler 'Um' and the fragment 'Welcome to the cafe' to create a natural, inviting spoken tone while initiating a service encounter."
 }

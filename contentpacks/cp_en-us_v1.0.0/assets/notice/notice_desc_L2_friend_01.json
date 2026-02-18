@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_friend_description",
   "prompt": "Identify the appearance.",
-  "script": "She has long hair and wears glasses.",
+  "script": "Um, well... she's got long hair and wears glasses, actually. She's quite easy to find in a crowd, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in describing the person's appearance?",
     "options": [
-      "She is short",
-      "She has long hair and glasses",
-      "She is a teacher",
-      "She is angry"
+      "Providing identifiable features to help the listener locate the person.",
+      "Complaining that she is too short to be seen even with glasses on.",
+      "Actually asking if the listener also wears glasses and has long hair.",
+      "Stating that she is as angry as she is easy to find in a crowd."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'she's' and the tag 'you know?' make the description sound like a helpful, real-world instruction."
 }

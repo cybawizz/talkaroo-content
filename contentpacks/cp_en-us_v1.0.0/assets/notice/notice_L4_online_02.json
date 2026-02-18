@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_online_thread_misread",
   "prompt": "What is the implied meaning?",
-  "script": "I’m reacting to the idea, not the person.",
+  "script": "Well, actually... I’m reacting to the idea, not the person, you know? It's important to keep the debate objective, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in making this distinction?",
     "options": [
-      "The speaker is insulting someone",
-      "The speaker is separating critique from personal attack",
-      "The speaker is leaving the chat",
-      "The speaker is changing jobs"
+      "De-escalating a potential personal conflict by refocusing on the topic.",
+      "Insulting the other person while pretending to be objective.",
+      "Actually asking if the other person wants to leave the chat thread.",
+      "Stating that they have no ideas of their own to share today."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually...' and the word 'honestly' help frame the speaker's correction as a constructive social move."
 }

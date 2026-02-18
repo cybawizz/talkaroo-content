@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_workstyle_b2",
   "prompt": "Identify the comparison.",
-  "script": "Compared to the city center, this neighborhood is quieter and greener.",
+  "script": "Well, actually... compared to her old role, this new job's much more structured and focused. It's a great fit for her, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in comparing the two jobs?",
     "options": [
-      "It is louder than the city center",
-      "It is quieter than the city center",
-      "It is in the city center",
-      "It has no parks"
+      "Analyzing a positive career transition by contrasting different professional styles.",
+      "Stating that the old role was much more focused and structured than this one.",
+      "Actually asking if the listener can help them find a less focused job now.",
+      "Warning that being a great fit is only possible in a structured environment."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'job's' and the filler 'actually' help the speaker deliver a clear, comparative professional profile."
 }

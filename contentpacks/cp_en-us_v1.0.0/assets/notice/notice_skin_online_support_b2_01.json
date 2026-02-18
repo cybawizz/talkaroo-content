@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_online_support_b2",
   "prompt": "Identify the constraint.",
-  "script": "The main route is blocked due to roadworks, so you’ll need a detour.",
+  "script": "Actually, you know... our server's currently down for maintenance, so you’ll definitely need to wait an hour. It's a bit of a nuisance, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the support agent's real intent in mentioning the server status?",
     "options": [
-      "The route is open as usual",
-      "The route is blocked",
-      "The museum is closed",
-      "The detour is optional"
+      "Providing a technical explanation for a temporary service disruption.",
+      "Stating that the server is up and the user does not need to wait today.",
+      "Actually asking if the user can help them fix the server this hour.",
+      "Warning that the whole company is closed because of the server maintenance."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'server's' and the filler 'Actually' help the agent deliver technical news with a helpful, realistic tone."
 }

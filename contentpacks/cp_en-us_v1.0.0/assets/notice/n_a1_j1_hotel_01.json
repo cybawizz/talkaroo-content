@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_hotel_greeting",
   "prompt": "Listen for the room.",
-  "script": "My room is five zero four.",
+  "script": "So, anyway... my room's five-zero-four, right? I'll be upstairs if you need me.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's attitude while giving the room number?",
     "options": [
-      "Room 504",
-      "Room 405",
-      "50 years old",
-      "He is at the bus stop"
+      "Providing information while signaling the end of the conversation.",
+      "Asking the listener to help them find room 504.",
+      "Complaining that the room is too far upstairs.",
+      "Confirming that they are 50 years old today."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The fragment 'So, anyway' and the tag 'right?' show the speaker is wrapping up the interaction and confirming shared information."
 }

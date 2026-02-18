@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_apartment_details",
   "prompt": "Identify what's included.",
-  "script": "Wi‑Fi is included in the rent.",
+  "script": "Well, actually... Wi-Fi is included in the rent, you know? It's one less thing for you to worry about.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's primary intent in mentioning the Wi-Fi?",
     "options": [
-      "Wi‑Fi costs extra",
-      "Wi‑Fi is free",
-      "No internet",
-      "Rent is unpaid"
+      "Highlighting a convenience to make the offer more attractive.",
+      "Expressing frustration that Wi-Fi costs extra every month.",
+      "Actually asking if the listener knows how to set up Wi-Fi.",
+      "Warning the listener that the internet is unreliable."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The use of 'Actually' and the phrase 'one less thing' signals that the speaker is presenting a benefit to the listener."
 }

@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_friend_profile",
   "prompt": "Identify the job.",
-  "script": "She works as a nurse at a hospital.",
+  "script": "Actually, you know... she works as a nurse at the local hospital. It's a pretty demanding job, but she loves it.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about the person's job?",
     "options": [
-      "She is a nurse",
-      "She is a teacher",
-      "She is a driver",
-      "She is a student"
+      "Respectful of the person's dedication to a difficult profession.",
+      "Angry that she spends so much time at the local hospital.",
+      "Uncertain if she actually likes being a nurse or not.",
+      "Actually asking the listener to apply for a job at the hospital."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contrastive 'but' and the filler 'actually' help the speaker convey both the difficulty and the person's passion for their work."
 }

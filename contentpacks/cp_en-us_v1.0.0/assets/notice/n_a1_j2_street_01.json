@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_street_basic",
   "prompt": "Listen for the direction.",
-  "script": "Turn left at the next corner.",
+  "script": "Well, you know... I'm pretty sure you'll turn left at the next corner. It's just past the big blue building.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about the directions they're giving?",
     "options": [
-      "Turn left",
-      "Turn right",
-      "Go straight",
-      "Stop here"
+      "Confident and helpful while providing a clear landmark.",
+      "Uncertain and asking the listener to turn right instead.",
+      "Angry that the listener doesn't know where the blue building is.",
+      "Giving a lecture about the history of the next corner."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'I'm' and the filler 'you know' create a natural, conversational flow that sounds like a person giving directions in real-time."
 }

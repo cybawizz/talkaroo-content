@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_online_support_b2",
   "prompt": "Identify the clarification.",
-  "script": "Just to confirm, you want the quickest route, not the scenic one—right?",
+  "script": "So, anyway... just to confirm, you'd prefer a callback, not a live chat—right? I'm' happy to arrange that for you, actually.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the agent's true intent in asking 'right'?",
     "options": [
-      "Giving directions",
-      "Clarifying the user's priority",
-      "Refusing to help",
-      "Changing the topic"
+      "Verifying the user's preferred communication channel to optimize support.",
+      "Refusing to help the user via live chat because it's too slow today.",
+      "Changing the topic to talk about why callbacks are better than chats.",
+      "Actually asking if the user knows how to call the support team themselves."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'you'd' create a natural, empathetic transition to a support solution."
 }

@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_neighborhood_tour",
   "prompt": "Identify the downside.",
-  "script": "One downside is the traffic in the evening.",
+  "script": "Well, you know... one downside's the traffic in the evening. It's really quite a nightmare during rush hour.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about the local traffic?",
     "options": [
-      "Traffic is a problem",
-      "No buses",
-      "Too many parks",
-      "Too quiet"
+      "Finds it extremely frustrating and describes it as a major problem.",
+      "Enjoys the busy atmosphere of the neighborhood in the evening.",
+      "Is happy that the traffic is finally starting to decrease.",
+      "Actually asking if the listener has a car to drive to the nightmare."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'downside's' and the strong emotive word 'nightmare' signal the speaker's true frustration."
 }

@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_neighbor_boundary_setting",
   "prompt": "What solution is suggested?",
-  "script": "Maybe we can find a middle ground that works for both of us.",
+  "script": "Well, you know... maybe we can find a middle ground that works for both of us, actually. It'd be great if we could just resolve this, Honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in seeking a 'middle ground'?",
     "options": [
-      "Move out",
-      "Call the police",
-      "Find a compromise",
-      "Ignore the problem"
+      "Proposing a mutually beneficial compromise to maintain a peaceful relationship.",
+      "Demanding that they move out immediately so the problem goes away.",
+      "Actually asking the police to come and find a middle ground for them.",
+      "Stating that the middle ground is physically located between their houses."
     ],
-    "answerIndex": 2
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The inclusion of 'actually' and the contraction 'It'd' signal a proactive, solution-oriented mindset for communal living."
 }

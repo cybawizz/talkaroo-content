@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_store_refund_policy",
   "prompt": "Identify the alternative.",
-  "script": "We can’t do a refund, but we can offer an exchange or store credit.",
+  "script": "Um, well... so we can’t actually do a refund, but we can offer an exchange or store credit, you know? It's the best we can do under the circumstances, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in offering an 'exchange or store credit'?",
     "options": [
-      "No options are available",
-      "Exchange or store credit is available",
-      "The store is closed",
-      "The customer must pay more"
+      "Providing valid non-monetary alternatives to maintain customer goodwill.",
+      "Stating that no options are available and the customer must pay more now.",
+      "Actually asking if the customer wants to buy the whole store with credit.",
+      "Warning that the store is closed and no transactions can be processed."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'can't' soften the rejection of a cash refund while still following store policy."
 }

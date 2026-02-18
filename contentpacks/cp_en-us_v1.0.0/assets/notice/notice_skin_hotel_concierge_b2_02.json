@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_hotel_concierge_b2",
   "prompt": "Identify the clarification.",
-  "script": "Just to confirm, you want the quickest route, not the scenic one—right?",
+  "script": "So, anyway... just to confirm, you want the quickest route to the theater, not the scenic one—right? I'm' happy to mark both on your map, actually.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the concierge's real intent in asking for the preferred route?",
     "options": [
-      "Giving directions",
-      "Clarifying the user's priority",
-      "Refusing to help",
-      "Changing the topic"
+      "Confirming the guest's priority to provide the most time-efficient navigation.",
+      "Refusing to help the guest because they think the scenic route is better anyway.",
+      "Changing the topic to talk about the quality of the city's theaters today.",
+      "Actually asking if the guest wants to buy a map of the quickest routes."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I'm' create a natural, service-oriented tone for a concierge."
 }

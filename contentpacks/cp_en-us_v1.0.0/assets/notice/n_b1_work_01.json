@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_work_update",
   "prompt": "Identify the result.",
-  "script": "The result was that the client was happy.",
+  "script": "Well, you know... the main result was that the client's really happy, actually. It's a huge relief for the whole team, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's emotional state while giving this update?",
     "options": [
-      "Client was unhappy",
-      "Client was happy",
-      "No client",
-      "Meeting canceled"
+      "Relieved and satisfied that a major work goal was successfully achieved.",
+      "Angry that the client is happy and the team has no more work to do.",
+      "Actually asking if the listener wants to join the team for the relief.",
+      "Stating that the meeting was canceled and no one knows the result."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The abbreviation 'client's' and the word 'honestly' convey the speaker's genuine emotional reaction to the work outcome."
 }

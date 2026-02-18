@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_restaurant_issue_b2",
   "prompt": "Identify the negotiation move.",
-  "script": "If that’s not possible today, could we schedule it for tomorrow morning instead?",
+  "script": "Actually, you know... if you can't fix it right now, could we just settle it at the bar instead? I'm just trying to save some time, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the customer's true objective in suggesting the 'bar'?",
     "options": [
-      "Demanding a refund",
-      "Offering an alternative solution",
-      "Ending the conversation",
-      "Changing topic"
+      "Proposing an alternative payment location to expedite their departure.",
+      "Demanding a full refund because the bill has a single small mistake.",
+      "Ending the conversation because they have already paid at the table.",
+      "Changing the topic to talk about why the bar has a better atmosphere."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'can't' signal a natural, pragmatic search for a solution."
 }

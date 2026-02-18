@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_travel_preference",
   "prompt": "Identify preference.",
-  "script": "I prefer to travel on a budget.",
+  "script": "Well, you know... I actually prefer to travel on a budget. I'd rather spend more on experiences than fancy rooms, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real priority when planning a trip?",
     "options": [
-      "Luxury travel",
-      "Budget travel",
-      "No travel",
-      "Business travel"
+      "Valuing activities and memories over luxury accommodation.",
+      "Angry that fancy rooms are always so expensive and quiet.",
+      "Actually asking the listener if they can book a budget hotel tonight.",
+      "Warning the listener that budget travel is always dangerous."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'I'd' and the filler 'actually' help the speaker articulate a clear personal philosophy on travel."
 }

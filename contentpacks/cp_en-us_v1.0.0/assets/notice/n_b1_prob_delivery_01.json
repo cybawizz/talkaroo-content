@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_delivery_problem_b1",
   "prompt": "Identify the problem.",
-  "script": "My order arrived, but one item is missing.",
+  "script": "So, anyway... my order's arrived, but well... one item's missing, actually. I've been waiting for it all morning!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's emotional state regarding the delivery?",
     "options": [
-      "Everything arrived",
-      "One item missing",
-      "Wrong address",
-      "Late payment"
+      "Frustrated and disappointed that the service was incomplete.",
+      "Delighted that they don't have to pay for the missing item.",
+      "Actually asking if they can return all the items that did arrive.",
+      "Stating that they are planning to move to a new address soon."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'well...' and the contraction 'order's' convey the speaker’s disappointment after a long wait."
 }

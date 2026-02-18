@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_bus_station_help",
   "prompt": "Understand the platform.",
-  "script": "It’s on platform four, over there.",
+  "script": "Well, actually... it's on platform four, just over there, you know? You can't miss it, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's tone while providing the platform number?",
     "options": [
-      "Platform 4",
-      "Platform 14",
-      "No platform number",
-      "The bus is cancelled"
+      "Directional and reassuring while guiding the listener to the right spot.",
+      "Angry and stating that the platform number is actually fourteen.",
+      "Uncertain and claiming that the bus has been cancelled forever.",
+      "Actually asking the listener if they have any money for the bus fare."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The reassuring idiom 'can't miss it' and the filler 'actually' help the speaker sound like a helpful guide."
 }

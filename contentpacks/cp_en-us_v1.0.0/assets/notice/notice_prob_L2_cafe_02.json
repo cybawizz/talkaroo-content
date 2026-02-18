@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_cafe_mistake",
   "prompt": "Identify the solution.",
-  "script": "I’ll bring a new one.",
+  "script": "So, anyway... I'll just bring a new one for you, actually. It'll only take a moment, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real objective in offering a 'new one'?",
     "options": [
-      "No new drink",
-      "New drink is coming",
-      "Pay more",
-      "Wait one hour"
+      "Providing immediate customer service recovery to ensure satisfaction.",
+      "Stating that they want the customer to pay more for the new drink.",
+      "Actually asking the customer to wait one hour for the new coffee.",
+      "Warning that no new drinks are coming and the café is now closed."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'It'll' create a proactive, service-oriented tone."
 }

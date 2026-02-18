@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_neighbor_intro",
   "prompt": "Identify the time detail.",
-  "script": "I moved here last week.",
+  "script": "Well, actually... I only just moved here last week, you know? I'm still getting settled in, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in mentioning when they moved?",
     "options": [
-      "The speaker moved recently",
-      "The speaker will move soon",
-      "The speaker is visiting",
-      "The speaker is leaving"
+      "Providing a social context for their 'newness' to the neighborhood.",
+      "Stating that they will move out soon because they dislike the area.",
+      "Actually asking if the neighbor can leave because they hate visitors.",
+      "Warning that they are leaving the neighborhood forever tomorrow morning."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'I'm' and the filler 'actually' help the speaker establish their social status as a newcomer."
 }

@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_hometown_description",
   "prompt": "Identify the recommendation.",
-  "script": "I recommend the old fort because the view is great.",
+  "script": "Well, you know... I'd really recommend visiting the old fort. Honestly, the view from the top is just incredible.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real attitude toward the old fort?",
     "options": [
-      "Visit the old fort",
-      "Avoid the fort",
-      "The view is bad",
-      "The fort is closed"
+      "Strongly endorsing it as a must-see location for the view.",
+      "Warning the listener that the climb to the top is too hard.",
+      "Actually asking if the listener has their own recommendation.",
+      "Expressing doubt about whether the fort is even worth visiting."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The intensifiers 'really' and 'incredible' combined with the 'Well...' filler convey sincere personal enthusiasm."
 }

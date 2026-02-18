@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_daily_routine_b1",
   "prompt": "Identify the reason.",
-  "script": "I do this because it helps me focus.",
+  "script": "Well, you know... I do this because it actually helps me focus throughout the day. It's a game-changer, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker feel about this part of their routine?",
     "options": [
-      "It helps focus",
-      "It is a rule",
-      "It is expensive",
-      "It is dangerous"
+      "Sees it as a highly effective and necessary habit for productivity.",
+      "Complains that they have to focus too much during the day.",
+      "Is unsure if the habit is actually helping them at all.",
+      "Actually asking for advice on how to change their focus."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The use of 'honestly' and the idiom 'game-changer' highlights the speaker's strong personal conviction."
 }

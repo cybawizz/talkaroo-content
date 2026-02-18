@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_street_directions",
   "prompt": "Pick the next step.",
-  "script": "Go straight two blocks, then turn left at the bank.",
+  "script": "So, anyway... you'll just go straight for two blocks, actually, and then turn left at the bank. You really won't miss it!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's attitude toward the destination's ease of locations?",
     "options": [
-      "Turn right at the bank",
-      "Turn left at the bank",
-      "Stop at the park",
-      "Go back home"
+      "Confident and encouraging the listener with clear, simple instructions.",
+      "Angry that the bank is two blocks away and too hard to find.",
+      "Actually asking if the listener knows where the bank is currently located.",
+      "Stating that the listener should probably go back home instead."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The reassuring idiom 'won't miss it' and the filler 'actually' help the speaker sound like a confident, helpful guide."
 }

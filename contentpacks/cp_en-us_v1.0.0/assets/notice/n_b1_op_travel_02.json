@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_travel_preference",
   "prompt": "Identify compromise.",
-  "script": "Could we meet in the middle and book a simple hotel?",
+  "script": "Um, well... could we meet in the middle, actually? Maybe we'll book a simple hotel but go for a great dinner!",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in suggesting a 'middle' ground?",
     "options": [
-      "Complaining",
-      "Compromising",
-      "Canceling",
-      "Greeting"
+      "Offering a balanced alternative to resolve a disagreement between partners.",
+      "Complaining that both options are too expensive and not worth it.",
+      "Actually asking if there are any simple hotels open near the dinner place.",
+      "Ending the trip planning because they can't agree on anything."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The proactive suggesting 'Maybe we'll...' shows the speaker is trying to find a solution that satisfies everyone."
 }

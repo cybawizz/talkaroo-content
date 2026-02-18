@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_station_basic",
   "prompt": "Is the train coming?",
-  "script": "The train is arriving now.",
+  "script": "Um, look... actually, the train's arriving now, you know? We've only got a minute to get on!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What does the speaker's tone of voice and use of 'actually' signal?",
     "options": [
-      "Train is late",
-      "Train is leaving",
-      "Train is arriving now",
-      "No train today"
+      "A sense of immediate urgency and a call for action.",
+      "A casual observation that they have plenty of time.",
+      "A complaint that the train is arriving at the wrong platform.",
+      "Actually asking where the train is currently located."
     ],
-    "answerIndex": 2
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The speaker uses the filler 'actually' to correct the listener's expectations and the fragment 'Um, look...' to grab immediate attention."
 }

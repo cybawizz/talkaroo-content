@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_weekend_story",
   "prompt": "Identify the sequence.",
-  "script": "First we ate, then we walked, and after that we watched a movie.",
+  "script": "So, anyway... first we ate, then we walked for ages, and actually, after that we watched a movie. It was a really full day, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's overall feeling about their weekend activities?",
     "options": [
-      "Movie first",
-      "Walk after eating",
-      "Eat after movie",
-      "No walking"
+      "Satisfied with a diverse and active day spent with others.",
+      "Complaining that the walk was too long and the movie was boring.",
+      "Actually asking the listener what they did over the same weekend.",
+      "Stating that they only had time for one activity because of the movie."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the summarizing tag 'you know?' help the speaker recount their experience in a natural, storytelling way."
 }

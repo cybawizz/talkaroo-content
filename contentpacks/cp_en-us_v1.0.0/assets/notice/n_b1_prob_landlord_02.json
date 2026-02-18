@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_landlord_maintenance_b1",
   "prompt": "Identify availability.",
-  "script": "I'm available after six p.m.",
+  "script": "So, anyway... I'm thinking I'll be available after six p.m. for the repair, actually. I've got work until then, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker doing while mentioning their work schedule?",
     "options": [
-      "Before 6",
-      "After 6",
-      "All day",
-      "Never"
+      "Setting a specific boundary for when they can receive maintenance help.",
+      "Complaining that their job is preventing them from getting the heater fixed.",
+      "Actually asking if the repairman can come to their workplace instead.",
+      "Stating that they are planning to stay at work until very late tonight."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'I'm' help the speaker transition to coordinating a practical next step."
 }

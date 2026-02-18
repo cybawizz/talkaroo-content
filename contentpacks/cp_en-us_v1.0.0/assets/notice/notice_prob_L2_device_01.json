@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_device_issue",
   "prompt": "Identify the device problem.",
-  "script": "My screen is broken and it is black.",
+  "script": "Well, actually... my screen's broken and it's just completely black, you know? I can't see anything, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in describing the screen as 'completely black'?",
     "options": [
-      "Screen is fine",
-      "Screen is broken",
-      "Battery is full",
-      "Phone is lost"
+      "Emphasizing the total failure of the device to facilitate a repair request.",
+      "Stating that the screen is fine and the battery is just full of power.",
+      "Actually asking if the listener has a lost phone they can borrow now.",
+      "Warning that the black screen is a secret design feature they enjoy."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'screen's' and the filler 'actually' help the speaker communicate frustration clearly but naturally."
 }

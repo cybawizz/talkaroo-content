@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_hotel_basic",
   "prompt": "What is the problem?",
-  "script": "Excuse me, no hot water in my room.",
+  "script": "So, anyway... excuse me, but there's actually no hot water in my room. It's quite frustrating, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the guest's real objective in mentioning the hot water?",
     "options": [
-      "No hot water",
-      "No towels",
-      "No key",
-      "No lights"
+      "Clearly identifying a utility failure to get it fixed by the staff.",
+      "Stating that they have no towels or keys and they need new lights.",
+      "Actually asking if the hot water is located in a different room now.",
+      "Warning the staff that they only wanted cold water in the first place."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'there's' and the fragment 'So, anyway...' frame a basic complaint as a natural human interaction."
 }

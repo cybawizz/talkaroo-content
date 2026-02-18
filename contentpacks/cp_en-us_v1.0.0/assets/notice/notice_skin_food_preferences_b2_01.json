@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_food_preferences_b2",
   "prompt": "Identify the balance.",
-  "script": "That said, I can see why some people prefer the other option.",
+  "script": "Well, actually... that said, I can definitely see why some people'd prefer the spicy option. It's just not quite my thing, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in using 'that said'?",
     "options": [
-      "Strong disagreement",
-      "Balanced view",
-      "No opinion",
-      "Asking for help"
+      "Acknowledging a valid alternative taste preference while maintaining their own.",
+      "Expressing strong disagreement with anyone who likes spicy food today.",
+      "Stating that they have no opinion on spice and wish to stop talking.",
+      "Actually asking for help because the food is far too spicy for them."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the contraction 'people'd' create a nuanced, socially respectful expression of personal taste."
 }

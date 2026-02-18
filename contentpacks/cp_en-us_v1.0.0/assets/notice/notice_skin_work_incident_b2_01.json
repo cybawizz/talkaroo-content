@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_incident_b2",
   "prompt": "Identify the sequence marker.",
-  "script": "At first we got lost, and then we finally found the entrance.",
+  "script": "Actually, you know... at first we'd thought it was a small bug, but then we finally realized the whole system was down. It's been a long day, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in emphasizing 'at first'?",
     "options": [
-      "They found it first",
-      "They got lost then found it",
-      "They never found it",
-      "They are lost now"
+      "Narrating the escalation of a workplace problem from a minor to a major issue.",
+      "Stating that they found the system failure first and then a small bug after.",
+      "Actually asking if the listener can help them fix the system bugs today.",
+      "Warning that long days are the only reason why systems ever fail at work."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'we'd' and the filler 'Actually' help the speaker convey a natural narrative of discovery."
 }

@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_food_preferences_b2",
   "prompt": "Identify the compromise move.",
-  "script": "Could we meet in the middle and try it for a week?",
+  "script": "Um, well... so could we maybe meet in the middle and just try the mild version first? I think it's a safer bet, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in suggesting the 'mild version'?",
     "options": [
-      "Making a compromise",
-      "Refusing",
-      "Changing topic",
-      "Giving directions"
+      "Proposing a compromise to accommodate differing culinary comfort levels.",
+      "Refusing to eat anything and demanding a different restaurant now.",
+      "Changing the topic to talk about why mild food is safer for health.",
+      "Actually asking for directions to a shop that sells mild spices."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'it's' soften the suggestion of a compromise in a group setting."
 }

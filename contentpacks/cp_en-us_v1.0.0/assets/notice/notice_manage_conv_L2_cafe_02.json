@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_cafe_greeting",
   "prompt": "Identify the intent.",
-  "script": "How about you?",
+  "script": "So, anyway... how about you? What brings you actually into the city today, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in saying 'how about you'?",
     "options": [
-      "Closing the talk",
-      "Asking a follow-up",
-      "Asking for the bill",
-      "Introducing a friend"
+      "Actively facilitating social reciprocity and showing curiosity.",
+      "Closing the talk because they are disinterested in the city today.",
+      "Actually asking for the bill so they can leave the city immediately.",
+      "Introducing a friend who is hiding behind the speaker right now."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the filler 'actually' help the speaker transition to a more engaging conversational phase."
 }

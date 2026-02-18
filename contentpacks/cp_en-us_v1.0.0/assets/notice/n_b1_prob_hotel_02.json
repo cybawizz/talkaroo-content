@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_hotel_issue_b1",
   "prompt": "Identify the request.",
-  "script": "Could you send someone to check it, please?",
+  "script": "Well, actually... could you send someone to check the air conditioner, please? It's really making it quite hard to sleep, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in describing their difficulty sleeping?",
     "options": [
-      "Ordering food",
-      "Requesting help",
-      "Checking out",
-      "Giving directions"
+      "Adding a personal justification to emphasize the urgency of the repair.",
+      "Complaining that other guests are making too much noise tonight.",
+      "Actually asking if there are any other rooms with better beds available.",
+      "Stating that they are planning to check out immediately because of the heat."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually...' and the emotive word 'honestly' help frame the request as a sincere plea for comfort."
 }

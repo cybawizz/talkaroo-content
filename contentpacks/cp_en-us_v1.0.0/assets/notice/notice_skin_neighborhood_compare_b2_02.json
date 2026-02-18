@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_neighborhood_compare_b2",
   "prompt": "Identify the follow-up focus.",
-  "script": "When you say it's convenient, what do you mean exactly—transport, shops, or something else?",
+  "script": "So, anyway... when you say it's expensive, what're you actually referring to—the rent, the food, or something else?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in asking for specifics on 'expensive'?",
     "options": [
-      "Changing the topic",
-      "Asking for clarification",
-      "Giving directions",
-      "Ending the chat"
+      "Seeking a precise understanding of the financial burden mentioned.",
+      "Changing the topic to talk about why food is more important than rent.",
+      "Actually asking for directions to a cheaper shop in the neighborhood.",
+      "Ending the chat because they don't think cost of living is important."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'what're' signal a natural, clarifying move in a conversation about local life."
 }

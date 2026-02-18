@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_street_directions",
   "prompt": "Identify the constraint.",
-  "script": "The main road is closed today, so take a side street.",
+  "script": "Um, well... the main road's actually closed today, you know? It's probably better to take a side street instead.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent while giving this advice?",
     "options": [
-      "The road is open",
-      "The road is closed",
-      "The museum is closed",
-      "The bus is free"
+      "Warning the listener about a blockage and suggesting a practical detour.",
+      "Complaining that the main road is always closed for no reason at all.",
+      "Actually asking the listener if they know which side street is best.",
+      "Stating that the side street is also closed and they are both stuck."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the contraction 'road's' create a helpful, informative tone while delivering unexpected news."
 }

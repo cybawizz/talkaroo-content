@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_deadline",
   "prompt": "Identify the risk.",
-  "script": "If we rush, the risk is that we release with bugs and no time for testing.",
+  "script": "So, anyway... if we rush, the risk's that we actually release with bugs and no time for testing, you know? It's just not ideal, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real concern about the project timeline?",
     "options": [
-      "There is no risk",
-      "Testing might be skipped and bugs may ship",
-      "The team will hire more people",
-      "The release is canceled"
+      "Prioritizing the quality and stability of the product over a fast release.",
+      "Hiring more people to fix the bugs that don't exist yet for the team.",
+      "Actually asking if they can cancel the release and go home for the day.",
+      "Stating that the bugs are the most important part of the testing phase."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'risk's' and the filler 'actually' deliver a professional warning with a realistic, grounded tone."
 }

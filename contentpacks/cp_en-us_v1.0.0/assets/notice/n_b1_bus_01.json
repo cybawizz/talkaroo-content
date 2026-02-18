@@ -2,17 +2,20 @@
   "noticeId": "n_b1_bus_01",
   "skillId": "skill_ask_information_help",
   "level": 3,
+  "skill_bus_station_info": null,
   "skinId": "skin_bus_station_info",
   "prompt": "Identify the bus.",
-  "script": "Take bus 7 to the airport from platform 3.",
+  "script": "Actually, you'll need bus seven from platform three, well... if you're trying to reach the airport on time. It's the fastest route.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "Why does the speaker use 'well...' in the middle of the sentence?",
     "options": [
-      "Bus 3 from platform 7",
-      "Bus 7 from platform 3",
-      "Bus 7 from platform 1",
-      "Taxi only"
+      "To pause and think while offering specific, helpful advice.",
+      "To show they are angry that the airport is so far away.",
+      "To signal that they've forgotten which bus goes to platform three.",
+      "To well-informedly suggest taking a taxi instead."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The mid-sentence filler 'well...' indicates the speaker is tailored their advice to match the listener's specific goal of reaching the airport."
 }

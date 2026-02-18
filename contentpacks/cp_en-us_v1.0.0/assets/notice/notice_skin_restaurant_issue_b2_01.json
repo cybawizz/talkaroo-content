@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_restaurant_issue_b2",
   "prompt": "Identify the tone.",
-  "script": "I’m afraid there’s an issue with my order—could you help me, please?",
+  "script": "Um, well... I’m actually afraid there’s a small mistake on the bill. Could you double-check it for me, please? It's just a bit confusing, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the customer approach the error on the bill?",
     "options": [
-      "Rude and angry",
-      "Polite complaint",
-      "Joking",
-      "Not a complaint"
+      "By using polite and soft language to address a financial discrepancy.",
+      "By being rude and angry because the bill was completely free anyway.",
+      "By making a joke about how the billing error is a tip for the waiter.",
+      "By stating that it's not a complaint and they are very happy with the bill."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'there's' create a respectful, non-confrontational tone for the customer."
 }

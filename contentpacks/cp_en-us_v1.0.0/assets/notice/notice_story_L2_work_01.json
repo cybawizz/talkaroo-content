@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_workday_recap",
   "prompt": "Identify the task.",
-  "script": "This morning, I finished the report.",
+  "script": "Well, so this morning, I actually finished the report. It's' done now, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What did the speaker complete this morning?",
     "options": [
-      "Finished the report",
-      "Started the report",
-      "Lost the report",
-      "Didn't work"
+      "They successfully finished writing the report.",
+      "They started writing a brand new report.",
+      "They lost the report and couldn't find it.",
+      "They didn't do any work at all this morning."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The filler 'actually' and the contraction 'It's' signal the completion of a specific work task."
 }

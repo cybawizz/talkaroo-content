@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_incident_b2",
   "prompt": "Identify the emphasis.",
-  "script": "Honestly, I didn’t expect the place to be that busy.",
+  "script": "So, anyway... honestly, I didn’t actually expect the meeting to be that long. It's' really thrown off my whole afternoon, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in using the word 'honestly'?",
     "options": [
-      "Giving a time",
-      "Expressing surprise",
-      "Asking a question",
-      "Ending the story"
+      "Sharing a sincere professional frustration regarding a schedule disruption.",
+      "Giving a specific time for when the meeting became far too long today.",
+      "Actually asking a question about why meetings are so long in this office.",
+      "Ending the incident report because they are too tired of meetings to talk."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'didn't' create a more believable, reactive tone for a work story."
 }

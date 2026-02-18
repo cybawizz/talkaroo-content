@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_work_policy_opinion",
   "prompt": "Identify the concern.",
-  "script": "My concern is work-life balance.",
+  "script": "So, anyway... my main concern's work-life balance, actually. I won't be able to stay late every night, you know?",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's underlying message about their work boundaries?",
     "options": [
-      "Concern is balance",
-      "Concern is salary",
-      "Concern is coffee",
-      "No concerns"
+      "Stating a firm requirement for personal time to avoid overwork.",
+      "Angry that the company provides free coffee but no balance.",
+      "Actually asking if they can start working later in the morning.",
+      "Warning the listener that they are planning to quit next week."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The use of the contraction 'won't' and the tag 'you know?' signals a polite but clear boundary-setting intent."
 }

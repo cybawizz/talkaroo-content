@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_city_lifestyle_b2",
   "prompt": "Identify the balance.",
-  "script": "That said, I can see why some people prefer the other option.",
+  "script": "Well, actually... that said, I can definitely see why some people'd prefer the other option. It's not for everyone, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in using the phrase 'that said'?",
     "options": [
-      "Strong disagreement",
-      "Balanced view",
-      "No opinion",
-      "Asking for help"
+      "Demonstrating intellectual flexibility by acknowledging an opposing viewpoint.",
+      "Expressing strong disagreement and tell the listener their idea is bad.",
+      "Stating that they have no opinion at all and wish to end the talk now.",
+      "Actually asking for help because they are confused about city lifestyles."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the contraction 'people'd' help the speaker sound balanced and nuanced in their opinion."
 }

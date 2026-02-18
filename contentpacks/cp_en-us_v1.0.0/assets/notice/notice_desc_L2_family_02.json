@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_family_member",
   "prompt": "Identify the time.",
-  "script": "He gets up at six and goes to bed at ten.",
+  "script": "So, anyway... he gets up at six and goes to bed at ten, you know? It's a bit of a long day for him, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in mentioning the specific times?",
     "options": [
-      "Up at 10",
-      "Up at 6, bed at 10",
-      "Up at 6, bed at 6",
-      "Bed at midnight"
+      "Highlighting the demanding nature of the person's daily schedule.",
+      "Stating that he sleeps all day and only gets up for four hours.",
+      "Actually asking if the listener can wake him up at six tomorrow.",
+      "Warning that going to bed at ten is far too late for a family member."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'It's' signal a natural, conversational way to describe a routine with empathy."
 }

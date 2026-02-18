@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_street_basic",
   "prompt": "Where is the place?",
-  "script": "It is straight ahead, near the park.",
+  "script": "So, anyway... it's straight ahead, actually, just near the park. You won't miss it!",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real attitude toward the destination?",
     "options": [
-      "Behind you",
-      "Straight ahead",
-      "Far away",
-      "In the water"
+      "Reassuring the listener that the place is very easy to find.",
+      "Warning the listener that the park is dangerous.",
+      "Complaining that they have to go straight ahead.",
+      "Actually asking if the listener has missed the park before."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway' and the reassuring idiom 'You won't miss it' signal that the speaker is concluding their help with confidence."
 }

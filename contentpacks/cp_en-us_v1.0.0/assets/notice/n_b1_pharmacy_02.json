@@ -4,15 +4,17 @@
   "level": 3,
   "skinId": "skin_pharmacy_help",
   "prompt": "Understand the instruction.",
-  "script": "Take one tablet with food every six hours.",
+  "script": "So, anyway... you'll take one tablet with food every six hours. It won't work well if you skip a dose, actually.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's underlying message about the medication?",
     "options": [
-      "Take two now",
-      "Take one with food",
-      "Take it once a day",
-      "Do not eat today"
+      "Stressing the necessity of consistency for the treatment to be effective.",
+      "Warning that taking the tablet with food will make them very sick.",
+      "Actually asking if they have any food left in the house for the dose.",
+      "Stating that they should take all the tablets at once right now."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' transitions into specific instructions, while the contraction 'won't' adds a warning tone."
 }

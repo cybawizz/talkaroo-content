@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_transit_info_b2",
   "prompt": "Identify the constraint.",
-  "script": "The main route is blocked due to roadworks, so you’ll need a detour.",
+  "script": "Well, actually... the subway's currently delayed due to signal failure, so you’ll definitely need an alternative. It's really frustrating, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the announcer's real intent in mentioning the delay?",
     "options": [
-      "The route is open as usual",
-      "The route is blocked",
-      "The museum is closed",
-      "The detour is optional"
+      "Warning commuters about a specific service failure to prompt re-routing.",
+      "Stating that the subway is on time and common alternatives are slow.",
+      "Actually asking if the commuters can help fix the signals this morning.",
+      "Warning that the whole city is closed because of the signal failure."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'subway's' and the filler 'actually' help the announcement sound realistic and informative."
 }

@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_bus_stop_smalltalk",
   "prompt": "Identify the question.",
-  "script": "Is this the bus to town?",
+  "script": "Um, well... is this actually the bus to town? I'm slightly worried I've missed it, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in starting this conversation?",
     "options": [
-      "Asking for directions",
-      "Asking about the bus route",
-      "Ordering food",
-      "Saying goodbye"
+      "Confirming logistical info to alleviate personal travel anxiety.",
+      "Asking for directions to the nearest town because they are walking.",
+      "Ordering food from the bus driver because they missed their lunch.",
+      "Saying goodbye to the bus stop and walking away for the day."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'I've' help the speaker express human vulnerability while seeking information."
 }

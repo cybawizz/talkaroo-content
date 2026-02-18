@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_city_directions_b2",
   "prompt": "Identify the clarification.",
-  "script": "Just to confirm, you want the quickest route, not the scenic one—right?",
+  "script": "So, anyway... just to confirm, you want the quickest route, not the scenic one—right? I'm assuming time's a factor here, honestly.",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's true intent in asking 'right'?",
     "options": [
-      "Giving directions",
-      "Clarifying the user's priority",
-      "Refusing to help",
-      "Changing the topic"
+      "Clarifying the listener's priority to provide the most relevant information.",
+      "Refusing to help the listener find any route because they are too slow anyway.",
+      "Changing the topic to talk about the quality of the city's scenery in winter.",
+      "Actually asking if the listener knows the way to the quickest route themselves."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'time's' signal a natural check of the listener's preferences."
 }

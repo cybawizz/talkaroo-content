@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_work_meeting_pushback",
   "prompt": "What is the speaker trying to do?",
-  "script": "Let’s separate the issues: scope versus staffing.",
+  "script": "So, anyway... let’s separate the issues: scope versus staffing, actually. I think we'll get much further if we're clear about that, you know?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's primary objective in 'separating the issues'?",
     "options": [
-      "Blame someone",
-      "Organize the discussion clearly",
-      "Reject the proposal",
-      "End the meeting"
+      "Structuring the discussion to avoid confusion and reach a decision.",
+      "Blaming the team for the scope being too large and the staff too small.",
+      "Actually asking for a break so they can go and find more staff members.",
+      "Ending the meeting immediately because the issues are too complex."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The fragment 'So, anyway...' and the contraction 'we'll' signal a leadership move to organize and progress the conversation."
 }

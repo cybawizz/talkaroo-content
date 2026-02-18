@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_city_directions_b2",
   "prompt": "Identify the constraint.",
-  "script": "The main route is blocked due to roadworks, so you’ll need a detour.",
+  "script": "Actually, you know... the main route is blocked due to roadworks, so you’ll definitely need a detour. It's a bit of a hassle, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in mentioning the roadworks?",
     "options": [
-      "The route is open as usual",
-      "The route is blocked",
-      "The museum is closed",
-      "The detour is optional"
+      "Warning the listener about a physical obstacle to ensure they change their route.",
+      "Stating that the route is open as usual and the detour is just optional.",
+      "Actually asking if the listener can help with the roadworks this afternoon.",
+      "Warning that the museum is closed because the roadworks are inside it."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'you'll' frame the information as a necessary, helpful warning for the listener."
 }

@@ -4,15 +4,17 @@
   "level": 1,
   "skinId": "skin_hotel_basic",
   "prompt": "Choose the correct meaning.",
-  "script": "The shower is broken.",
+  "script": "Um, well... the shower's actually broken, you know? It's just not working at all, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the guest's real intent in reporting the shower?",
     "options": [
-      "The shower is broken",
-      "The shower is new",
-      "The shower is clean",
-      "The shower is big"
+      "Seeking a resolution for a functional problem in their accommodation.",
+      "Stating that the shower is new and clean and they love using it.",
+      "Actually asking if they can have a big shower in a different building.",
+      "Warning the staff that they will never use a shower in a hotel again."
     ],
     "answerIndex": 0
-  }
+  },
+  "explanation": "The contraction 'shower's' and the filler 'Um, well...' help the guest deliver a complaint naturally."
 }

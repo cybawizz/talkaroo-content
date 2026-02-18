@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_learning_method_b2",
   "prompt": "Identify the balance.",
-  "script": "That said, I can see why some people prefer the other option.",
+  "script": "Actually, you know... that said, I can definitely see why some people'd prefer self-study over classes. It's more flexible, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true intent in using 'that said'?",
     "options": [
-      "Strong disagreement",
-      "Balanced view",
-      "No opinion",
-      "Asking for help"
+      "Acknowledging the merits of an alternative learning approach to remain balanced.",
+      "Expressing strong disagreement with anyone who prefers classes today.",
+      "Stating that they have no opinion on learning and wish to stop talking.",
+      "Actually asking for help because self-study is far too hard for them."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Actually' and the contraction 'people'd' help the speaker sound open-minded and balanced in their opinion."
 }

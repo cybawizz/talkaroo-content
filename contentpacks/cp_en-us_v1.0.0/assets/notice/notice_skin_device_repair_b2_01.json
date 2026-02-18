@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_device_repair_b2",
   "prompt": "Identify the tone.",
-  "script": "I’m afraid there’s an issue with my order—could you help me, please?",
+  "script": "Well, actually... I’m afraid there’s an issue with this repair. Could you actually double-check it for me, please? It's not quite working, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "How does the speaker communicate their dissatisfaction?",
     "options": [
-      "Rude and angry",
-      "Polite complaint",
-      "Joking",
-      "Not a complaint"
+      "By using polite hedges and softeners to express a professional concern.",
+      "By being rude and angry because the repair was completely free anyway.",
+      "By making a joke about how the device is better when it's broken.",
+      "By stating that it's not a complaint and they are very happy with it."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Well, actually...' and the contraction 'there's' create a respectful distance while addressing a failure."
 }

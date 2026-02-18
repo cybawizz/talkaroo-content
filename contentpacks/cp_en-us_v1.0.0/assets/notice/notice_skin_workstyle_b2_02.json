@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_workstyle_b2",
   "prompt": "Identify the follow-up focus.",
-  "script": "When you say it's convenient, what do you mean exactly—transport, shops, or something else?",
+  "script": "Um, well... when you say it's collaborative, what're you actually referring to—daily meetings, shared docs, or something else?",
   "question": {
     "type": "intent_pick",
+    "prompt": "What is the speaker's real intent in asking for specifics on 'collaborative'?",
     "options": [
-      "Changing the topic",
-      "Asking for clarification",
-      "Giving directions",
-      "Ending the chat"
+      "Clarifying a broad professional concept to understand the practical daily workflow.",
+      "Changing the topic to talk about why shared docs are better than meetings.",
+      "Actually asking for directions to the nearest collaborative workspace right now.",
+      "Ending the chat because they don't think collaboration is helpful at work."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'Um, well...' and the contraction 'what're' signal a natural desire for professional precision."
 }

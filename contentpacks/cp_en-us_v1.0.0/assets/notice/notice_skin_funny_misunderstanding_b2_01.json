@@ -4,15 +4,17 @@
   "level": 4,
   "skinId": "skin_funny_misunderstanding_b2",
   "prompt": "Identify the sequence marker.",
-  "script": "At first we got lost, and then we finally found the entrance.",
+  "script": "Well, actually... at first we'd got completely lost, and then we finally found the entrance. It's quite a story, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's real intent in emphasizing 'at first'?",
     "options": [
-      "They found it first",
-      "They got lost then found it",
-      "They never found it",
-      "They are lost now"
+      "Setting the narrative stage for a story of eventual success after failure.",
+      "Stating that they found the entrance immediately and were never lost.",
+      "Actually asking if the listener can help them find the entrance now.",
+      "Warning that being lost is an experience they never want to repeat."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The contraction 'we'd' and the filler 'actually' help the speaker build a natural narrative rhythm."
 }

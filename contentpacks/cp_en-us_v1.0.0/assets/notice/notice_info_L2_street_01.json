@@ -4,15 +4,17 @@
   "level": 2,
   "skinId": "skin_street_directions",
   "prompt": "Identify the direction.",
-  "script": "Go straight ahead and turn left at the bank.",
+  "script": "Well, actually... just go straight ahead and turn left at the bank, you know? It's right there, honestly.",
   "question": {
     "type": "meaning_pick",
+    "prompt": "What is the speaker's true objective in giving these directions?",
     "options": [
-      "Turn right at the bank",
-      "Go straight and turn left at the bank",
-      "Go back to the park",
-      "Take the bus now"
+      "Providing clear, sequential instructions to a specific urban landmark.",
+      "Stating that they should turn right at the bank to find the park.",
+      "Warning the listener that the bank is closed and they should go back.",
+      "Actually asking if the listener can take the bus to the bank now."
     ],
-    "answerIndex": 1
-  }
+    "answerIndex": 0
+  },
+  "explanation": "The filler 'actually' and the idiom 'right there' help guide the listener with a sense of visual proximity."
 }
