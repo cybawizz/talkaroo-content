@@ -4,7 +4,7 @@
   "level": 1,
   "skinId": "skin_cafe_greeting",
   "prompt": "How does the speaker feel?",
-  "script": "Oh, hello there! Actually, I'm feeling really happy today, you know?",
+  "script": "Oh, hello there! Actually, I'm feeling really happy today, you know",
   "question": {
     "type": "meaning_pick",
     "prompt": "Why does the speaker use 'Actually' at the start?",
