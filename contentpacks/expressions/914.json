@@ -1,0 +1,173 @@
+{
+  "title": "Allergic problems with the skin",
+  "context": "Mention that you have a rash or itchy skin from an allergy.",
+  "content": {
+    "bestLine": "I have a rash from an allergy",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've got a skin allergy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My skin is itchy from an allergy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an allergic rash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Allergies are causing my skin issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing skin allergy symptoms",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My allergy is causing skin problems",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have itchy skin due to an allergy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "An allergy is affecting my skin",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got a crazy rash from an allergy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My skin is super itchy from an allergy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm allergic to something and my skin is freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got an allergy and it's messing with my skin",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My skin is going nuts from an allergy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having a skin allergy thing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My allergy is making my skin all itchy and stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a skin issue from an allergy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a skin allergy reaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My skin is affected by an allergic response",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have developed a rash due to an allergy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "An allergic reaction is causing my skin issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am suffering from skin allergy symptoms",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My allergy is resulting in skin problems",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have [options] skin from an allergy",
+        "options": [
+          "itchy",
+          "rashy",
+          "red"
+        ],
+        "meaning": "describing skin allergy symptoms"
+      },
+      {
+        "template": "My [options] is affected by an allergy",
+        "options": [
+          "skin",
+          "body",
+          "face"
+        ],
+        "meaning": "describing allergy impact"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a doctor about skin allergy",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I have a rash from an allergy"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let's take a look and figure out what's causing it"
+          }
+        ]
+      },
+      {
+        "description": "Discussing skin allergy with a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I've got a crazy rash from an allergy"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Oh no, what are you allergic to?"
+          }
+        ]
+      }
+    ]
+  }
+}

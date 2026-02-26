@@ -1,0 +1,121 @@
+{
+  "title": "Transferring a phone caller",
+  "context": "Tell the person on the phone that you are routing them to another line.",
+  "content": {
+    "bestLine": "I'm going to transfer you to another line.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let me transfer you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll connect you with someone else.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please hold for a transfer.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to send you to another line.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll be transferred now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me switch you over.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll get someone to help you.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will transfer your call immediately.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please hold while I transfer you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will be connected with another representative.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am transferring you to our specialist.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your call is being transferred now.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] you.",
+        "options": [
+          "transfer",
+          "connect",
+          "send"
+        ],
+        "meaning": "to transfer the caller"
+      },
+      {
+        "template": "Please hold for a [options].",
+        "options": [
+          "transfer",
+          "connection",
+          "moment"
+        ],
+        "meaning": "to ask the caller to wait"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Transferring a caller to a specialist",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "I'm going to transfer you to our specialist."
+          },
+          {
+            "speaker": "Caller",
+            "text": "Okay, thank you."
+          }
+        ]
+      },
+      {
+        "description": "Transferring a caller to another line",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Let me transfer you to another line."
+          },
+          {
+            "speaker": "Caller",
+            "text": "How long will it take?"
+          }
+        ]
+      }
+    ]
+  }
+}

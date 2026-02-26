@@ -1,0 +1,141 @@
+{
+  "title": "Selling old clothes online",
+  "context": "Describe your used sneakers accurately for an online marketplace.",
+  "content": {
+    "bestLine": "Gently used sneakers for sale, excellent condition",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Used sneakers for sale",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sneakers in good condition",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Selling my old sneakers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Gently worn sneakers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sneakers with minimal wear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pre-owned sneakers for sale",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sneakers in excellent shape",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Used sneakers at a low price",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Sneaks for sale, super comfy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My old kicks are up for grabs",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Selling my fave sneakers",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sneakers that are still fire",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get these sneaks before they're gone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sneakers that are barely used",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Score these awesome sneakers",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sneakers that are a steal",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm selling my [options] sneakers",
+        "options": [
+          "used",
+          "old",
+          "gently worn"
+        ],
+        "meaning": "describing the condition of the sneakers"
+      },
+      {
+        "template": "These sneakers are [options] and ready to ship",
+        "options": [
+          "in excellent condition",
+          "gently used",
+          "still in great shape"
+        ],
+        "meaning": "describing the state of the sneakers"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Seller describing the sneakers to a potential buyer",
+        "lines": [
+          {
+            "speaker": "Seller",
+            "text": "Hey, I'm selling my used sneakers and they're in great condition"
+          },
+          {
+            "speaker": "Buyer",
+            "text": "That sounds awesome, can you send me some pics?"
+          }
+        ]
+      },
+      {
+        "description": "Seller negotiating the price with a buyer",
+        "lines": [
+          {
+            "speaker": "Seller",
+            "text": "I'm asking $50 for these sneakers, but I'm open to negotiations"
+          },
+          {
+            "speaker": "Buyer",
+            "text": "I'll give you $40 for them, that's my final offer"
+          }
+        ]
+      }
+    ]
+  }
+}

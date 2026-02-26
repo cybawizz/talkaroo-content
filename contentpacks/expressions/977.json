@@ -1,0 +1,125 @@
+{
+  "title": "Pitching a client for freelance work",
+  "context": "Email a business offering your graphic design or writing services.",
+  "content": {
+    "bestLine": "I'd love to discuss how my skills can support your business goals",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm interested in collaborating with your team",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My services can help enhance your brand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's explore how I can assist your company",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited about the opportunity to work together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My expertise can help drive your business forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to discussing your project needs",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My goal is to deliver high-quality work that meets your expectations",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I am confident in my ability to provide exceptional service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My professional experience makes me an ideal candidate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be delighted to discuss your business requirements",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My skills and expertise align with your company's needs",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am committed to delivering outstanding results",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I [options] to discuss how my skills can support your business",
+        "options": [
+          "would love",
+          "am excited",
+          "look forward"
+        ],
+        "meaning": "expressing enthusiasm for collaboration"
+      },
+      {
+        "template": "My [options] can help [options] your business",
+        "options": [
+          "services",
+          "expertise",
+          "experience"
+        ],
+        "meaning": "highlighting the benefits of one's services"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial email to introduce services",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "Dear [Client], I'm reaching out to offer my graphic design services"
+          },
+          {
+            "speaker": "Client",
+            "text": "Thank you for contacting us, we'll review your portfolio"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up conversation to discuss project details",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "I'd love to discuss how my skills can support your business goals"
+          },
+          {
+            "speaker": "Client",
+            "text": "We're looking for someone to create engaging content, can you show us some examples?"
+          }
+        ]
+      }
+    ]
+  }
+}

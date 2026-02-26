@@ -1,0 +1,139 @@
+{
+  "title": "A fast-food clerk offering extra items",
+  "context": "Ask the customer if they want fries or a larger size with that.",
+  "content": {
+    "bestLine": "Want fries or a larger size with that?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like fries with that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you a larger size?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fries or a bigger size?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to upgrade your meal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to add fries?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you a larger size?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to make it a combo?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fries with that?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You want fries with that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wanna supersize?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get fries too?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a large?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Throw in some fries?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You wanna upgrade?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Add some fries?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want a bigger size?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want [options] with that?",
+        "options": [
+          "fries",
+          "a larger size"
+        ],
+        "meaning": "Offering extra items"
+      },
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "fries",
+          "a bigger size"
+        ],
+        "meaning": "Asking about extra items"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a meal",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Want fries or a larger size with that?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'll take fries."
+          }
+        ]
+      },
+      {
+        "description": "Customer asking about extras",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What extras do you have?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "We have fries or you can upgrade to a larger size."
+          }
+        ]
+      }
+    ]
+  }
+}

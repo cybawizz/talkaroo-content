@@ -1,0 +1,171 @@
+{
+  "title": "Describing plumbing problems with a sink",
+  "context": "Tell a plumber that your kitchen sink is completely clogged.",
+  "content": {
+    "bestLine": "My kitchen sink is completely clogged",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The sink is backed up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Water won't drain from the sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a clogged sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The kitchen sink is not draining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a blockage in the sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is clogged and won't drain",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with a clogged sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is completely blocked",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My sink is messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The sink is all clogged up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a sink problem",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The water won't go down the sink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My kitchen sink is on the fritz",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a clog in the sink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The sink is acting up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need someone to fix my sink",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a sink obstruction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The kitchen sink is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a clogged sink",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is experiencing a drainage issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a plumber to fix the sink",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is currently out of order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] sink is clogged",
+        "options": [
+          "kitchen",
+          "bathroom"
+        ],
+        "meaning": "describing a clogged sink"
+      },
+      {
+        "template": "The [options] is not draining",
+        "options": [
+          "sink",
+          "drain"
+        ],
+        "meaning": "describing a drainage issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling a plumber to report a clogged sink",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Hi, my kitchen sink is completely clogged"
+          },
+          {
+            "speaker": "Plumber",
+            "text": "Okay, I'll send someone over to take a look"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a landlord about a clogged sink",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "The sink in my kitchen is clogged and won't drain"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "I'll arrange for a plumber to come and fix it"
+          }
+        ]
+      }
+    ]
+  }
+}

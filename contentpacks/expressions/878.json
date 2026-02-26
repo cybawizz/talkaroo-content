@@ -1,0 +1,171 @@
+{
+  "title": "Complaining to a rideshare driver",
+  "context": "Tell the app driver that they missed a turn or took a wrong route.",
+  "content": {
+    "bestLine": "I think you missed the turn back there",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You took a wrong turn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we're off route",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't the way I expected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check the GPS?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure this is right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a look at the map",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We might have missed our turn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take a different route?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you missed the turn",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you took a wrong turn, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're totally off track",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you just use the GPS?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm pretty sure that's not right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just take a detour",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can just turn around",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I can give you directions if you want",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe you've taken an incorrect turn",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It appears we're not on the optimal route",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please consult the GPS?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could take a different route",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It seems we've deviated from the planned course",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a route adjustment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] the turn",
+        "options": [
+          "missed",
+          "took"
+        ],
+        "meaning": "The driver made a mistake with the turn"
+      },
+      {
+        "template": "We're [options] track",
+        "options": [
+          "off",
+          "on"
+        ],
+        "meaning": "The current route is or is not correct"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger politely informs the driver of a missed turn",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I think you missed the turn back there"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Oh, sorry about that. Let me check the GPS"
+          }
+        ]
+      },
+      {
+        "description": "Passenger and driver discuss the best route",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I'm not sure this is the right way"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Don't worry, I know a shortcut. We'll be there in no time"
+          }
+        ]
+      }
+    ]
+  }
+}

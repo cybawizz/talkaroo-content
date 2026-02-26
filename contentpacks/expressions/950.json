@@ -1,0 +1,137 @@
+{
+  "title": "When someone is harassing you",
+  "context": "Loudly command a stranger to leave you alone immediately.",
+  "content": {
+    "bestLine": "Leave me alone immediately.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need some space.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please stop talking to me.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not interested.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave me alone.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want to talk.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please respect my boundaries.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to go.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop following me.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist you leave me alone.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from approaching me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with this interaction.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you gave me some space.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to have to ask you to leave me alone.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This conversation is over.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Leave me [options] alone.",
+        "options": [
+          "completely",
+          "immediately"
+        ],
+        "meaning": "Demanding personal space"
+      },
+      {
+        "template": "I [options] need some space.",
+        "options": [
+          "really",
+          "desperately"
+        ],
+        "meaning": "Requesting distance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Direct Confrontation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Leave me alone immediately."
+          },
+          {
+            "speaker": "Stranger",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "You",
+            "text": "I need some space. Please respect my boundaries."
+          }
+        ]
+      },
+      {
+        "description": "Firm but Polite",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm not interested in talking. Please leave me alone."
+          },
+          {
+            "speaker": "Stranger",
+            "text": "But I just wanted to..."
+          },
+          {
+            "speaker": "You",
+            "text": "I understand, but I must insist you give me some space."
+          }
+        ]
+      }
+    ]
+  }
+}

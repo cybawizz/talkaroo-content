@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about range anxiety",
+  "context": "Worry out loud that your electric car battery will die before you get home.",
+  "content": {
+    "bestLine": "I'm worried my electric car will die before I get home",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm getting a bit anxious about my battery level",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My car's range is a concern for this trip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hope I can make it home without running out of charge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Range anxiety is really getting to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure if I'll have enough juice to get home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My electric car's battery is making me nervous",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I had a longer range on this car",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm keeping an eye on my battery level",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freaking out about my car dying on the road",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low key worried about my battery",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I hope I don't get stranded with a dead car",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with range anxiety",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm stressing about making it to the next charging station",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My car's range is whack",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying not to think about my battery level",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want to make it home without any issues",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella worried about my whip dying on me",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My ride's got me feeling hella anxious about the range",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low on juice and high on anxiety",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting my car's battery life",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My electric car's got me feeling extra salty about the range",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm trying to stay turnt up about my car's battery",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about my car's battery",
+        "options": [
+          "worried",
+          "anxious",
+          "stressed"
+        ],
+        "meaning": "expressing concern about the car's range"
+      },
+      {
+        "template": "My car's [options] is making me [options]",
+        "options": [
+          "range",
+          "battery",
+          "charge"
+        ],
+        "meaning": "describing the impact of the car's range on the speaker's emotions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about range anxiety",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm getting a bit anxious about my battery level"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Don't worry, you'll make it home fine"
+          }
+        ]
+      },
+      {
+        "description": "Discussing range anxiety with a stranger",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm low key worried about my car dying on the road"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I feel you, I've been there too"
+          }
+        ]
+      }
+    ]
+  }
+}

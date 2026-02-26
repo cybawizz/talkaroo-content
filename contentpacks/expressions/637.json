@@ -1,0 +1,173 @@
+{
+  "title": "Asking if a restaurant is dog-friendly",
+  "context": "Ask the host if you can bring your puppy onto the outdoor patio.",
+  "content": {
+    "bestLine": "Can I bring my puppy onto the patio?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this patio dog-friendly?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you allow dogs outside?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bring my dog with me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are dogs permitted on the patio?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay to bring my puppy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a dog policy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can dogs join us on the patio?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are pets allowed outside?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can my pup come out here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cool to bring my dog?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bring my furry friend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys allow dogs?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can my dog hang out with us?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this a dog-friendly spot?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bring my puppy out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are dogs welcome here?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I bring my canine companion?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are dogs permitted on the premises?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a pet policy in place?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it acceptable to bring my dog?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I request permission to bring my dog?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are pets allowed in the outdoor area?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I bring my [options] onto the patio?",
+        "options": [
+          "dog",
+          "puppy",
+          "pet"
+        ],
+        "meaning": "Asking about dog-friendly policy"
+      },
+      {
+        "template": "Is this patio [options]?",
+        "options": [
+          "dog-friendly",
+          "pet-friendly",
+          "open to dogs"
+        ],
+        "meaning": "Inquiring about pet policy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about dog policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I bring my puppy onto the patio?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Yes, we allow dogs on the patio."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about pet policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have a dog policy?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Yes, we allow dogs on the patio, but they must be on a leash."
+          }
+        ]
+      }
+    ]
+  }
+}

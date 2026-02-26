@@ -1,0 +1,135 @@
+{
+  "title": "Announcing changes in an airline flight",
+  "context": "Announce over the loudspeaker that a flight has been delayed or canceled.",
+  "content": {
+    "bestLine": "Attention passengers, flight 123 has been delayed.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Flight 123 is delayed due to weather.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We apologize for the delay of flight 123.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Flight 123 will depart at a later time.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please check the board for flight 123 updates.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Flight 123 has been rescheduled for tomorrow.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We regret to inform you that flight 123 is canceled.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Flight 123 is experiencing a short delay.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please wait for further instructions on flight 123.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Ladies and gentlemen, flight 123 has been delayed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We regret to inform you that flight 123 is canceled.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Flight 123 will depart as soon as possible.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please contact our staff for assistance with flight 123.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Flight 123 has been rescheduled due to unforeseen circumstances.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We apologize for any inconvenience caused by the delay of flight 123.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Flight [options] has been delayed.",
+        "options": [
+          "123",
+          "456",
+          "789"
+        ],
+        "meaning": "Announcing a flight delay"
+      },
+      {
+        "template": "We apologize for the [options] of flight [options].",
+        "options": [
+          "delay",
+          "cancellation",
+          "rescheduling"
+        ],
+        "meaning": "Apologizing for a flight change"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Announcing a flight delay",
+        "lines": [
+          {
+            "speaker": "Airline Staff",
+            "text": "Attention passengers, flight 123 has been delayed."
+          },
+          {
+            "speaker": "Passenger",
+            "text": "How long will the delay be?"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing for a flight cancellation",
+        "lines": [
+          {
+            "speaker": "Airline Staff",
+            "text": "We regret to inform you that flight 123 is canceled."
+          },
+          {
+            "speaker": "Passenger",
+            "text": "What are our options for alternative flights?"
+          }
+        ]
+      }
+    ]
+  }
+}

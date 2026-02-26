@@ -1,0 +1,173 @@
+{
+  "title": "Special bag requests at the grocery store",
+  "context": "Ask the bagger to put cold items together or use paper bags.",
+  "content": {
+    "bestLine": "Could you please put the cold items together?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Put cold items together, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you use paper bags for the cold items?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like the cold items bagged separately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep the frozen items together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you put the dairy products in a separate bag?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could bag the cold items together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please use a paper bag for the meat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Put the cold items in a paper bag, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you put the cold stuff together?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you throw the cold items in a paper bag?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just put the cold items in one bag, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep the frozen stuff separate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Put the milk and eggs in a separate bag, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you use a paper bag for the cold items?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just bag the cold items together, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you put the cold items in a paper bag?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could bag the cold items separately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please use a paper bag for the perishable items?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request that the cold items be bagged together",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please bag the frozen items in a separate bag",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like the dairy products to be bagged separately, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please use a paper bag for the cold items?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you put the [options] items together?",
+        "options": [
+          "cold",
+          "frozen",
+          "perishable"
+        ],
+        "meaning": "Request to bag similar items together"
+      },
+      {
+        "template": "I'd like the [options] products in a separate bag",
+        "options": [
+          "dairy",
+          "meat",
+          "cold"
+        ],
+        "meaning": "Request to bag specific items separately"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requests to bag cold items together",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Could you please put the cold items together?"
+          },
+          {
+            "speaker": "Bagger",
+            "text": "Yes, of course. I'll put them in a separate bag."
+          }
+        ]
+      },
+      {
+        "description": "Customer requests to use paper bags for cold items",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you use a paper bag for the cold items?"
+          },
+          {
+            "speaker": "Bagger",
+            "text": "Yes, I can do that. Would you like me to bag all the cold items together?"
+          }
+        ]
+      }
+    ]
+  }
+}

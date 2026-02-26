@@ -1,0 +1,173 @@
+{
+  "title": "Excuses for failure or offense",
+  "context": "Offer a reason why you missed the goal or made a mistake.",
+  "content": {
+    "bestLine": "I fell short due to unforeseen circumstances",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It didn't work out as planned",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made an error in judgment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something unexpected came up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was unable to meet the deadline",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was an honest mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't have enough resources",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I underestimated the task",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should have done it differently",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I messed up, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It didn't go as expected",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I had a brain fart",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was caught off guard",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't mean to",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a stupid mistake",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll try to do better next time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I learned from my mistake",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret the oversight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The outcome was not as anticipated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I take full responsibility",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project faced unforeseen challenges",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will conduct a thorough review",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the inconvenience",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] the task",
+        "options": [
+          "messed up",
+          "failed to complete",
+          "didn't finish"
+        ],
+        "meaning": "admitting failure"
+      },
+      {
+        "template": "It was [options]",
+        "options": [
+          "an honest mistake",
+          "a stupid error",
+          "unforeseen circumstances"
+        ],
+        "meaning": "explaining the reason"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing for a mistake",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm sorry I messed up the project"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's okay, we all make mistakes. What happened?"
+          }
+        ]
+      },
+      {
+        "description": "Explaining a failure",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I didn't meet the deadline because of unforeseen circumstances"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What kind of circumstances?"
+          }
+        ]
+      }
+    ]
+  }
+}

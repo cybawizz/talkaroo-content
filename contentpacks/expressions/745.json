@@ -1,0 +1,121 @@
+{
+  "title": "Asking how a purchase will be paid for",
+  "context": "Ask a shopper if they are paying with cash or credit card.",
+  "content": {
+    "bestLine": "Will you be paying with cash or credit?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How will you pay for this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to pay with cash or card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your payment method?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be using cash or credit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like to pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cash or card today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of payment are you using?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "May I inquire about your payment method?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be paying by cash or credit card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How will you be settling your bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What form of payment will you be using today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I process your payment by cash or card?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Will you be paying with [options]?",
+        "options": [
+          "cash",
+          "credit",
+          "card"
+        ],
+        "meaning": "asking for payment method"
+      },
+      {
+        "template": "How will you [options] for this purchase?",
+        "options": [
+          "pay",
+          "settle"
+        ],
+        "meaning": "inquiring about payment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Cashier asking for payment method",
+        "lines": [
+          {
+            "speaker": "Cashier",
+            "text": "Will you be paying with cash or credit?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll use my credit card."
+          }
+        ]
+      },
+      {
+        "description": "Alternative payment inquiry",
+        "lines": [
+          {
+            "speaker": "Cashier",
+            "text": "How would you like to pay for this?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll just pay with cash."
+          }
+        ]
+      }
+    ]
+  }
+}

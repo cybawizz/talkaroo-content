@@ -1,0 +1,187 @@
+{
+  "title": "Ordering drinks at a cafe",
+  "context": "Specify the size and temperature of the beverage you are ordering.",
+  "content": {
+    "bestLine": "I'll have a large, hot coffee, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a medium iced coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a small hot latte.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I order a large cold brew?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a medium hot tea, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make me a small iced mocha?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a large hot cappuccino.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a medium hot coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a small cold coffee, please.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a large iced coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a small hot latte.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a medium cold brew?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a medium hot tea, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a small iced mocha, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna go with a large hot cappuccino.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you make me a medium hot coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll grab a small cold coffee, thanks.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a large hot coffee, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a medium iced coffee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a small hot latte.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you prepare a medium hot tea for me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to have a large hot cappuccino, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a medium cold brew, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [size] [temperature] [drink], please.",
+        "options": [
+          "large",
+          "medium",
+          "small",
+          "hot",
+          "iced",
+          "cold",
+          "coffee",
+          "tea",
+          "latte",
+          "cappuccino"
+        ],
+        "meaning": "Ordering a drink with specific size and temperature"
+      },
+      {
+        "template": "Can I get a [size] [temperature] [drink]?",
+        "options": [
+          "large",
+          "medium",
+          "small",
+          "hot",
+          "iced",
+          "cold",
+          "coffee",
+          "tea",
+          "latte",
+          "cappuccino"
+        ],
+        "meaning": "Asking for a drink with specific size and temperature"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a drink at a cafe",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a large hot coffee, please."
+          },
+          {
+            "speaker": "Barista",
+            "text": "Would you like whole milk, skim milk, or a non-dairy alternative?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for a drink modification",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a medium iced coffee with room for cream?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Absolutely, I'll make that for you."
+          }
+        ]
+      }
+    ]
+  }
+}

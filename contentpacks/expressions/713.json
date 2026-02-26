@@ -1,0 +1,131 @@
+{
+  "title": "Additional costs in the rental of lodgings",
+  "context": "Explain that the tenant must also pay for electricity and water.",
+  "content": {
+    "bestLine": "You'll also need to pay for electricity and water.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Additional fees apply for utilities.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're responsible for electricity and water costs.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Utility bills are not included in the rent.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please note that utilities are extra.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll need to cover utilities separately.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Electricity and water are billed separately.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The rent does not include utility costs.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're expected to pay for your own utilities.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please be advised that utility costs are the tenant's responsibility.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The lease agreement excludes utility bills.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Tenants are liable for their own electricity and water expenses.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Utility costs are not covered by the rental fee.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The tenant is obligated to pay for utilities separately.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The rental agreement stipulates that utilities are extra.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You'll need to pay for [options].",
+        "options": [
+          "electricity and water",
+          "utilities",
+          "your own utilities"
+        ],
+        "meaning": "Additional costs for utilities"
+      },
+      {
+        "template": "The rent does not include [options].",
+        "options": [
+          "utility bills",
+          "electricity and water costs",
+          "utilities"
+        ],
+        "meaning": "Exclusion of utility costs from rent"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Landlord explaining additional costs to tenant",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "You'll also need to pay for electricity and water."
+          },
+          {
+            "speaker": "Tenant",
+            "text": "Okay, got it. How much approximately?"
+          }
+        ]
+      },
+      {
+        "description": "Tenant inquiring about utility costs",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Are utilities included in the rent?"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "No, you're responsible for paying those separately."
+          }
+        ]
+      }
+    ]
+  }
+}

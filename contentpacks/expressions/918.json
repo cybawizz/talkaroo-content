@@ -1,0 +1,130 @@
+{
+  "title": "Statements about past abuse",
+  "context": "Sensitively discuss past physical or emotional trauma with a professional.",
+  "content": {
+    "bestLine": "I'm here to listen and support you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That must have been very difficult",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry you had to go through that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me more about what happened?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did that experience affect you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone in this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to support you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That takes a lot of courage to share",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you need from me right now?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm here to provide a safe and supportive environment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe the situation in more detail?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How have you been coping with the aftermath?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of support system do you have in place?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll work through this together",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your well-being is my top priority",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you to know that you're not alone",
+        "options": [
+          "want",
+          "need"
+        ],
+        "meaning": "Expression of support"
+      },
+      {
+        "template": "Can you [options] me more about your experience?",
+        "options": [
+          "tell",
+          "share",
+          "describe"
+        ],
+        "meaning": "Request for more information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial conversation about past abuse",
+        "lines": [
+          {
+            "speaker": "Counselor",
+            "text": "I'm here to listen and support you"
+          },
+          {
+            "speaker": "Client",
+            "text": "Thank you... I don't know where to start"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up conversation about coping mechanisms",
+        "lines": [
+          {
+            "speaker": "Counselor",
+            "text": "How have you been coping with the aftermath?"
+          },
+          {
+            "speaker": "Client",
+            "text": "It's been tough... but I'm trying to focus on my support system"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Giving instructions to a tailor",
+  "context": "Tell a tailor exactly how to hem or adjust your garment.",
+  "content": {
+    "bestLine": "Can you hem this to exactly 2 inches?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hem it to this length",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take in the sides",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let out the waist",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it shorter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fix the fit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Adjust the sleeves",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it tighter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Loosen the cuffs",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you fix this for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it fit better",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it in a bit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let it out some",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hem it up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make the sleeves shorter",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fix the collar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it look good",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require a hem of exactly 2 inches",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please adjust the garment to fit me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need the sleeves altered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make the necessary adjustments?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like the waist taken in",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure a precise fit",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] this garment?",
+        "options": [
+          "hem",
+          "alter",
+          "fix"
+        ],
+        "meaning": "requesting a specific alteration"
+      },
+      {
+        "template": "I need the [options] to be [options]",
+        "options": [
+          "sleeves",
+          "waist",
+          "hem"
+        ],
+        "meaning": "specifying a particular adjustment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for a hem adjustment",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you hem this to exactly 2 inches?"
+          },
+          {
+            "speaker": "Tailor",
+            "text": "Yes, of course. I'll take care of that for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting a fit adjustment",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I need this to fit better. Can you take it in a bit?"
+          },
+          {
+            "speaker": "Tailor",
+            "text": "Let me see what I can do. I'll make the necessary adjustments."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Asking to leave the dinner table early",
+  "context": "Politely ask if you may be excused from the table before others finish.",
+  "content": {
+    "bestLine": "May I be excused, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm done, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I leave the table?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm full, excuse me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get up now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had enough, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I be excused?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finished, thank you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I bail now?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm done, later",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Time for me to go",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I dip out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have your permission to leave?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to be excused",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I retire from the table?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe I've finished my meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I take my leave?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "May I be [options]?",
+        "options": [
+          "excused",
+          "dismissed",
+          "relieved"
+        ],
+        "meaning": "asking to leave the table"
+      },
+      {
+        "template": "I'm [options], thanks",
+        "options": [
+          "done",
+          "full",
+          "finished"
+        ],
+        "meaning": "indicating completion of meal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to leave the table with a reason",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "May I be excused? I have homework to finish"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Okay, but don't forget to thank your mother for dinner"
+          }
+        ]
+      },
+      {
+        "description": "Asking to leave the table without a reason",
+        "lines": [
+          {
+            "speaker": "Teenager",
+            "text": "Can I get up now?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Yes, you may be excused. Thanks for joining us for dinner"
+          }
+        ]
+      }
+    ]
+  }
+}

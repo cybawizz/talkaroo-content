@@ -1,0 +1,129 @@
+{
+  "title": "Instructions when boarding a bus",
+  "context": "Tell passengers to scan their transit card and step past the yellow line.",
+  "content": {
+    "bestLine": "Scan your card and step past the yellow line",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Scan your transit card now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please scan and step forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Scan and proceed past the line",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Transit card scan required",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Step past the line after scanning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Scan your card to board",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please scan your card now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Scan and go past the yellow line",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please scan your transit card",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Scan your card and proceed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Transit card scanning is required",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Scan your card to board the bus",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please step past the line after scanning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Scan your transit card at this time",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Scan [options] and step forward",
+        "options": [
+          "your card",
+          "your transit pass"
+        ],
+        "meaning": "to board the bus"
+      },
+      {
+        "template": "Please [options] past the yellow line",
+        "options": [
+          "step",
+          "proceed"
+        ],
+        "meaning": "after scanning your card"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Bus driver instructing a passenger",
+        "lines": [
+          {
+            "speaker": "Bus Driver",
+            "text": "Scan your transit card and step past the yellow line"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Okay, thank you"
+          }
+        ]
+      },
+      {
+        "description": "Automated bus announcement",
+        "lines": [
+          {
+            "speaker": "Automated Voice",
+            "text": "Please scan your transit card to board"
+          },
+          {
+            "speaker": "Automated Voice",
+            "text": "Step past the yellow line after scanning"
+          }
+        ]
+      }
+    ]
+  }
+}

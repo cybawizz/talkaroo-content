@@ -1,0 +1,167 @@
+{
+  "title": "Complaining about a terrible landlord",
+  "context": "Complain that the person who owns your building never fixes anything.",
+  "content": {
+    "bestLine": "My landlord never fixes anything",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The landlord is not maintaining the property",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having issues with the landlord's repair service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The building's condition is deteriorating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've reported several problems, but nothing gets fixed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The landlord is neglecting their responsibilities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about the safety of the building",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The landlord's lack of action is frustrating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with getting the landlord to fix things",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My landlord is super lazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with my landlord's excuses",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The landlord never lifts a finger to help",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm fed up with the landlord's broken promises",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My landlord is really bad at their job",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to get the landlord to step up their game",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The landlord's lack of effort is ridiculous",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to find a way to get my landlord to listen",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "My landlord is hella useless",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key furious with my landlord",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The landlord is straight up neglecting us",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key done with my landlord's BS",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My landlord never [fixes/fixes anything/does anything]",
+        "options": [
+          "fixes",
+          "fixes anything",
+          "does anything"
+        ],
+        "meaning": "The landlord is not taking action to address problems"
+      },
+      {
+        "template": "I've been having [issues/problems/trouble] with my landlord",
+        "options": [
+          "issues",
+          "problems",
+          "trouble"
+        ],
+        "meaning": "The speaker is experiencing difficulties with their landlord"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Tenant talking to a friend about their landlord",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "I'm so frustrated with my landlord, they never fix anything"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's ridiculous, you should report them to the housing authority"
+          }
+        ]
+      },
+      {
+        "description": "Tenant talking to their landlord about the issues",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Hi, I wanted to talk to you about the broken elevator"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "I'll send someone to look at it"
+          },
+          {
+            "speaker": "Tenant",
+            "text": "You've been saying that for weeks, can you please just fix it?"
+          }
+        ]
+      }
+    ]
+  }
+}

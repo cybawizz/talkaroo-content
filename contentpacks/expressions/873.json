@@ -1,0 +1,173 @@
+{
+  "title": "Asking questions on a bus",
+  "context": "Ask the passenger next to you what street you are currently driving past.",
+  "content": {
+    "bestLine": "Excuse me, what street are we on?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What street is this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are we on Main Street?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the name of this street?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the current street?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the street name here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are we passing by Oak Street?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What street are we driving on?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where we are?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's this street?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What street are we on, dude?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where are we now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the street name, man?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are we near my stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's this street called?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where we're at?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the current street, buddy?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, what is the current street?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me the street name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, what street are we on?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I ask what street this is?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the name of this street, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me of our current location?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, what [options]?",
+        "options": [
+          "street",
+          "stop",
+          "location"
+        ],
+        "meaning": "asking for current location"
+      },
+      {
+        "template": "Are we on [options]?",
+        "options": [
+          "Main Street",
+          "Oak Street",
+          "this street"
+        ],
+        "meaning": "asking for confirmation of current street"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a fellow passenger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, what street are we on?"
+          },
+          {
+            "speaker": "Fellow Passenger",
+            "text": "We're on Main Street."
+          }
+        ]
+      },
+      {
+        "description": "Asking the bus driver",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, driver, what street is this?"
+          },
+          {
+            "speaker": "Bus Driver",
+            "text": "We're approaching Oak Street."
+          }
+        ]
+      }
+    ]
+  }
+}

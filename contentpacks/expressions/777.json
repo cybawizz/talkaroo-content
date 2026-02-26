@@ -1,0 +1,158 @@
+{
+  "title": "Buying essential oils at a store",
+  "context": "Ask a shop owner which scent is best to cure a headache.",
+  "content": {
+    "bestLine": "What scent is best for relieving headaches?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm looking for something to help with headaches",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any oils for pain relief?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What essential oils are good for headaches?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need something to ease my headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend an oil for migraines?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the most popular oil for headache relief?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry any oils for stress and headaches?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's good for headaches?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a killer headache, any oil recommendations?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best oil to chill out and relieve a headache?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any magic oils for headaches?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so stressed, what oil can help with headaches?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your go-to oil for a bad headache?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with some headache relief?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am seeking an essential oil to alleviate headaches",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please recommend an oil for headache relief?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What essential oils do you carry for therapeutic purposes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on selecting an oil for migraines",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any oils that are specifically formulated for headache relief?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] oil is best for headaches?",
+        "options": [
+          "type",
+          "kind",
+          "sort"
+        ],
+        "meaning": "inquiring about the best oil for headaches"
+      },
+      {
+        "template": "I'm looking for [options] to help with headaches",
+        "options": [
+          "something",
+          "an oil",
+          "a remedy"
+        ],
+        "meaning": "seeking assistance for headache relief"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for headache relief oil",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for an essential oil to help with headaches"
+          },
+          {
+            "speaker": "Shop Owner",
+            "text": "We have a few options, but I recommend our peppermint or lavender oil"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about oil recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What scent is best for relieving headaches?"
+          },
+          {
+            "speaker": "Shop Owner",
+            "text": "Our eucalyptus oil is very popular for headache relief, would you like to try it?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Arguing about a hidden auto-renewal",
+  "context": "Complain to a manager that you did not authorize an automatic yearly charge.",
+  "content": {
+    "bestLine": "I did not authorize this automatic yearly charge.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I didn't sign up for auto-renewal.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain this charge?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure about this renewal.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This charge was not authorized.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with this auto-renewal.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cancel this renewal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about this charge.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is an unauthorized charge.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am writing to dispute this automatic renewal.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please investigate this charge?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a refund for this unauthorized charge.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not aware of authorizing this auto-renewal.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could look into this matter.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This charge is not reflected in my original agreement.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I did not [options] this charge.",
+        "options": [
+          "authorize",
+          "approve",
+          "agree to"
+        ],
+        "meaning": "disputing the charge"
+      },
+      {
+        "template": "Could you please [options] this auto-renewal?",
+        "options": [
+          "cancel",
+          "investigate",
+          "explain"
+        ],
+        "meaning": "requesting action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining to a manager",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I did not authorize this automatic yearly charge."
+          },
+          {
+            "speaker": "Manager",
+            "text": "I apologize for the inconvenience. Let me look into this for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting a refund",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I would like to request a refund for this unauthorized charge."
+          },
+          {
+            "speaker": "Manager",
+            "text": "I understand. I will process the refund immediately."
+          }
+        ]
+      }
+    ]
+  }
+}

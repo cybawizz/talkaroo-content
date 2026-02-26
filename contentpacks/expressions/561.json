@@ -1,0 +1,173 @@
+{
+  "title": "Describing plumbing problems with a toilet",
+  "context": "Explain to a plumber that your bathroom toilet is overflowing.",
+  "content": {
+    "bestLine": "The toilet in my bathroom is overflowing.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The toilet is overflowing.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a toilet issue.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom toilet is not working.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a problem with the toilet.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The toilet is leaking and overflowing.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with the toilet.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The toilet is not flushing properly.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's an issue with the toilet's plumbing.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My toilet's gone crazy!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The toilet's overflowing like crazy!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a toilet emergency!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The toilet's on the fritz.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a plumber ASAP!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The toilet's acting up again.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a major toilet problem.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The toilet's overflowing and it's a mess!",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a toilet overflow.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The toilet in my residence is malfunctioning.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require plumbing assistance for my toilet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There is a plumbing issue with the toilet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to schedule a plumbing repair for my toilet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The toilet is in need of immediate attention.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The toilet is [options].",
+        "options": [
+          "overflowing",
+          "leaking",
+          "not flushing"
+        ],
+        "meaning": "describing the toilet's condition"
+      },
+      {
+        "template": "I need help with the [options].",
+        "options": [
+          "toilet",
+          "plumbing",
+          "bathroom"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling a plumber to report the issue",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Hi, I need a plumber to fix my toilet."
+          },
+          {
+            "speaker": "Plumber",
+            "text": "What seems to be the problem with your toilet?"
+          }
+        ]
+      },
+      {
+        "description": "Describing the issue to the plumber",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "The toilet is overflowing and I don't know what to do."
+          },
+          {
+            "speaker": "Plumber",
+            "text": "Don't worry, I'll be right there to fix it."
+          }
+        ]
+      }
+    ]
+  }
+}

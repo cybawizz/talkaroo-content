@@ -1,0 +1,173 @@
+{
+  "title": "When greeting guests",
+  "context": "Warmly say hello to people arriving at your home or event.",
+  "content": {
+    "bestLine": "Hello, welcome to my home!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, come on in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, it's great to see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, please come in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, what's up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, make yourself at home",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, long time no see!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yo, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sup, welcome to my crib",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, it's great to have you over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, friend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, come on in, make yourself at home",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good evening, welcome to my residence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, please come in",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, I'm glad you could make it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to our home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening, please make yourself at home",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]!",
+        "options": [
+          "welcome to my home",
+          "it's great to see you",
+          "I'm glad you're here"
+        ],
+        "meaning": "Greeting guests"
+      },
+      {
+        "template": "Hey, [options]!",
+        "options": [
+          "what's up",
+          "how are you",
+          "long time no see"
+        ],
+        "meaning": "Informal greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Greeting guests at the door",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hello, welcome to my home!"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thanks, it's great to be here!"
+          }
+        ]
+      },
+      {
+        "description": "Greeting guests at a party",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hey, what's up? Welcome to the party!"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Not much, thanks for having me!"
+          }
+        ]
+      }
+    ]
+  }
+}

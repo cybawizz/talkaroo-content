@@ -1,0 +1,202 @@
+{
+  "title": "Expressing extreme hunger",
+  "context": "Loudly complain that you are desperately hungry and need to eat.",
+  "content": {
+    "bestLine": "I'm starving, let's eat now!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm extremely hungry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to eat something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling very hungry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting hungry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I could eat a whole meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach is growling",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm famished",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so hungry I could die",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's grab some food, I'm starving",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freaking hungry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need food ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hungry as hell",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Feed me now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm wasting away over here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm beyond hungry",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing extreme hunger",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential that I eat soon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in need of sustenance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require food immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling rather peckish",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must eat something promptly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella hungry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key starving",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hangry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need grub ASAP",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm straight up starving",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] hungry",
+        "options": [
+          "so",
+          "extremely",
+          "really",
+          "incredibly"
+        ],
+        "meaning": "expressing extreme hunger"
+      },
+      {
+        "template": "I need [options] to eat",
+        "options": [
+          "something",
+          "food",
+          "a meal",
+          "a snack"
+        ],
+        "meaning": "expressing the need to eat"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so hungry I could die"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Let's grab some food, I'm starving too"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a child and a parent",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "I'm hungry, Mom"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Okay, let's get you something to eat"
+          }
+        ]
+      }
+    ]
+  }
+}

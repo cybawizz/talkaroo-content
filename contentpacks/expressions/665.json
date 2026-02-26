@@ -1,0 +1,119 @@
+{
+  "title": "Requests to a telephone operator",
+  "context": "Ask an operator to connect your call or reverse the charges.",
+  "content": {
+    "bestLine": "Can you connect my call or reverse the charges?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to make a call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a call?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to make a call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you connect me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to request a call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with a phone call?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need assistance with a call",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a call connection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you facilitate a phone call for me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a telephone call",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please connect my call?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a call connection",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] my call?",
+        "options": [
+          "connect",
+          "put through"
+        ],
+        "meaning": "requesting call connection"
+      },
+      {
+        "template": "I'd like to [options] the charges for this call",
+        "options": [
+          "reverse",
+          "waive"
+        ],
+        "meaning": "requesting charge reversal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting Call Connection",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, can you connect my call?"
+          },
+          {
+            "speaker": "Operator",
+            "text": "Yes, of course. Who would you like to call?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting Charge Reversal",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you reverse the charges for this call?"
+          },
+          {
+            "speaker": "Operator",
+            "text": "I can assist you with that. Please hold for a moment."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Offering to take a message",
+  "context": "Ask the caller if they want to leave a voicemail for someone who is busy.",
+  "content": {
+    "bestLine": "Would you like to leave a voicemail?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I take a message?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to leave a message?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can take a message for them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to leave a voicemail?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have them call you back?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make sure they get the message",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to hold or leave a message?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a message for you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I take a message for the individual?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care to leave a voicemail?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I can ensure the message is conveyed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please leave a message and I will see that it is delivered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you'd like to leave a message, I'll make sure it's passed along",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a message and have them return your call",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] for them?",
+        "options": [
+          "take a message",
+          "have them call you back"
+        ],
+        "meaning": "Offering to assist with communication"
+      },
+      {
+        "template": "Would you like to [options]?",
+        "options": [
+          "leave a voicemail",
+          "hold for a moment"
+        ],
+        "meaning": "Asking for caller's preference"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Message Offer",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Would you like to leave a voicemail?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Yes, please"
+          }
+        ]
+      },
+      {
+        "description": "Message Offer with Alternative",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Can I take a message or have them call you back?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Just take a message, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

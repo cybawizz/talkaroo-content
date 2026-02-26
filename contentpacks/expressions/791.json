@@ -1,0 +1,131 @@
+{
+  "title": "Cleaning up after a meal",
+  "context": "Tell everyone it is time to clear the plates from the table.",
+  "content": {
+    "bestLine": "Let's clear the plates",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Time to clear the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's clean up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Clear the plates, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get the dishes done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Table needs to be cleared",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who can help with cleanup?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wipe down the table",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Let's get this mess cleaned up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Clear the table, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dishes aren't gonna do themselves",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get the cleanup crew going",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who's on dish duty?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make this quick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Everybody pitch in",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] the table",
+        "options": [
+          "clear",
+          "clean",
+          "wipe down"
+        ],
+        "meaning": "initiate cleanup"
+      },
+      {
+        "template": "Who can help with [options]?",
+        "options": [
+          "cleanup",
+          "dishes",
+          "clearing the table"
+        ],
+        "meaning": "request assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family members working together",
+        "lines": [
+          {
+            "speaker": "Mom",
+            "text": "Let's clear the plates"
+          },
+          {
+            "speaker": "Son",
+            "text": "I'll get the dishes started"
+          }
+        ]
+      },
+      {
+        "description": "Assigning tasks",
+        "lines": [
+          {
+            "speaker": "Dad",
+            "text": "Who can help with cleanup?"
+          },
+          {
+            "speaker": "Daughter",
+            "text": "I'll wipe down the table"
+          }
+        ]
+      }
+    ]
+  }
+}

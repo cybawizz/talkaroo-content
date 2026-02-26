@@ -1,0 +1,167 @@
+{
+  "title": "Delivering a fake apology",
+  "context": "Use a blatantly insincere voice to pretend you are sorry when you are not.",
+  "content": {
+    "bestLine": "Oh, I'm soooo sorry, not",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "My bad, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry, not sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm kinda sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whatever, sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Meh, my apologies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry, I guess",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not really sorry",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Sorry, kinda",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "My b, G",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Sorrie, not sorrie",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ain't sorry, bruh",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I'm devastated",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Sorry, not sorry, duh",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "My heart is breaking",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm soooo remorseful",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please forgive me, not",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I regret nothing",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Get over it",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Don't care, sorry",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Not my problem",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sorry [options]",
+        "options": [
+          "not",
+          "kinda",
+          "sorta"
+        ],
+        "meaning": "fake apology"
+      },
+      {
+        "template": "My [options]",
+        "options": [
+          "bad",
+          "apologies",
+          "regrets"
+        ],
+        "meaning": "insincere remorse"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend to friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Sorry, not sorry"
+          },
+          {
+            "speaker": "B",
+            "text": "Whatever, sorry"
+          }
+        ]
+      },
+      {
+        "description": "Sarcastic exchange",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Oh, I'm soooo sorry"
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, right"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "title": "Important things to tell a doctor",
+  "context": "Inform the physician about a major medical issue or concern.",
+  "content": {
+    "bestLine": "I'm experiencing severe chest pain and difficulty breathing",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've been feeling unwell lately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a concern about my health",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to discuss my symptoms",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some discomfort",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to talk about my medical history",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question about my treatment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about my condition",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to report a significant health issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing symptoms that require attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to inform you of a serious medical concern",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require guidance on managing my condition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate your expertise on this matter",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I am experiencing [options] and need your help",
+        "options": [
+          "severe pain",
+          "difficulty breathing",
+          "dizziness"
+        ],
+        "meaning": "Seeking medical attention for a serious issue"
+      },
+      {
+        "template": "I have a [options] that I want to discuss with you",
+        "options": [
+          "concern",
+          "question",
+          "symptom"
+        ],
+        "meaning": "Initiating a conversation about a health issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient informing doctor about a major medical issue",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "Doctor, I'm experiencing severe chest pain and difficulty breathing"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me more about your symptoms?"
+          }
+        ]
+      },
+      {
+        "description": "Patient discussing medical history with doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I want to talk about my medical history and how it relates to my current condition"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Please go ahead and share your medical history with me"
+          }
+        ]
+      }
+    ]
+  }
+}

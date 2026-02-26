@@ -1,0 +1,173 @@
+{
+  "title": "Offering food and drink",
+  "context": "Ask someone if they would like a snack or a beverage.",
+  "content": {
+    "bestLine": "Would you like something to drink?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get you a snack?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like a beverage?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Help yourself to some food.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want something to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have some refreshments here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like a drink or snack?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's food and drink over there.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you a refreshment?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Want a beer or something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Grab a plate and dig in!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got chips and dip over here.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You hungry or thirsty?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Help yourself to whatever.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got plenty of food and drink.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What can I get for you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You want a soda or something?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer you a refreshment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, help yourself to some food.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care for a beverage?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to get you a drink.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a selection of snacks over there.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you something to eat or drink?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "a snack",
+          "a drink",
+          "something to eat"
+        ],
+        "meaning": "Offering food or drink"
+      },
+      {
+        "template": "Help yourself to [options].",
+        "options": [
+          "some food",
+          "a refreshment",
+          "whatever you like"
+        ],
+        "meaning": "Inviting someone to take food or drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering food and drink at a party",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Would you like something to drink?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, please. What do you have?"
+          }
+        ]
+      },
+      {
+        "description": "Offering snacks at a meeting",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "Can I get you a snack?"
+          },
+          {
+            "speaker": "Boss",
+            "text": "No, thank you. I'm fine."
+          }
+        ]
+      }
+    ]
+  }
+}

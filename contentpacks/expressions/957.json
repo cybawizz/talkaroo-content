@@ -1,0 +1,207 @@
+{
+  "title": "Describing being exhausted or worn-out",
+  "context": "Complain that you have zero energy and are totally fatigued.",
+  "content": {
+    "bestLine": "I'm completely drained of energy",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling very tired",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have no energy left",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exhausted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running on empty",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling drained",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of energy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm completely worn out",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm super tired",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm beat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running on fumes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dead tired",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exhausted, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm wiped out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling zonked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pooped",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing fatigue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling extremely tired",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm suffering from exhaustion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in need of rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling energized",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling depleted",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella tired",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lowkey exhausted",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm highkey done",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosted by energy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on E",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm outta gas",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] tired",
+        "options": [
+          "very",
+          "extremely",
+          "super",
+          "dead"
+        ],
+        "meaning": "expressing different levels of tiredness"
+      },
+      {
+        "template": "I'm [options] out of energy",
+        "options": [
+          "completely",
+          "totally",
+          "running",
+          "all"
+        ],
+        "meaning": "expressing different states of energy depletion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm feeling really tired today"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, you look exhausted. Maybe you should take a nap?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "Doctor, I've been feeling extremely fatigued lately"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let's run some tests to see what's causing your exhaustion"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Renting a carpet cleaner from the store",
+  "context": "Ask the clerk how much it costs to rent the heavy machine for the day.",
+  "content": {
+    "bestLine": "How much to rent the carpet cleaner for a day?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the daily rate for the carpet cleaner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I rent the carpet cleaner for a day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much does it cost to rent the carpet cleaner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price for a day's rental of the carpet cleaner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the cost of renting the carpet cleaner for a day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to rent the carpet cleaner for a day, how much is it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the daily rental fee for the carpet cleaner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much to rent the carpet cleaner today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much to rent the carpet thingy for a day?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with renting the carpet cleaner?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I borrow the carpet cleaner for a day?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much to use the carpet cleaner for a day?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to rent the carpet cleaner, how much is it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the cost of renting the carpet cleaner for today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you rent me the carpet cleaner for a day?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much for the carpet cleaner rental for a day?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about the daily rental rate for the carpet cleaner.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of the cost to rent the carpet cleaner for a day?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the fee for renting the carpet cleaner for a 24-hour period?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in renting the carpet cleaner for a day, could you tell me the price?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with the daily rental cost of the carpet cleaner?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could inform me of the cost to rent the carpet cleaner for a day.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How much to rent the [options] for a day?",
+        "options": [
+          "carpet cleaner",
+          "vacuum",
+          "steam cleaner"
+        ],
+        "meaning": "inquire about rental cost"
+      },
+      {
+        "template": "What's the [options] rate for the carpet cleaner?",
+        "options": [
+          "daily",
+          "weekly",
+          "monthly"
+        ],
+        "meaning": "ask about rental rate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquires about renting a carpet cleaner",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to rent a carpet cleaner for a day."
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Okay, that'll be $20 for the day."
+          }
+        ]
+      },
+      {
+        "description": "Customer asks about the cost of renting a carpet cleaner",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much does it cost to rent the carpet cleaner for a day?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "The daily rental fee is $25."
+          }
+        ]
+      }
+    ]
+  }
+}

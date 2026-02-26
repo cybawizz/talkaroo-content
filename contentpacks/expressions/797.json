@@ -1,0 +1,127 @@
+{
+  "title": "Offering someone a bit of food",
+  "context": "Ask if a family member wants to sample or try a small piece of food.",
+  "content": {
+    "bestLine": "Want to try some of this?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like a bite?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you some?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to taste this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Care to try some?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want a little of this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you try some?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like some?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna try some?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta try this!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Try a bite!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want a piece?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Taste this!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should try some!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "Want to try some [food]?",
+        "options": [
+          "pizza",
+          "cake",
+          "salad"
+        ],
+        "meaning": "offering food"
+      },
+      {
+        "template": "Can I offer you a [portion] of [food]?",
+        "options": [
+          "bite",
+          "slice",
+          "piece"
+        ],
+        "meaning": "offering food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering food to a family member",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Want to try some of this pizza?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yeah, please!"
+          }
+        ]
+      },
+      {
+        "description": "Declining an offer of food",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Would you like a bite of my sandwich?"
+          },
+          {
+            "speaker": "Child",
+            "text": "No thanks, I'm not hungry."
+          }
+        ]
+      }
+    ]
+  }
+}

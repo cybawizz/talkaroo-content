@@ -1,0 +1,158 @@
+{
+  "title": "Suggesting a meditation app",
+  "context": "Tell a stressed coworker to download a mindfulness tool.",
+  "content": {
+    "bestLine": "Try Headspace for stress relief",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You should try a meditation app",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Meditation can help with stress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you considered mindfulness tools?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Download a mindfulness app to relax",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mindfulness can reduce anxiety",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Try a meditation app for mental health",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Relax with a mindfulness meditation app",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, try Headspace",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You need to chill with a meditation app",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Meditation apps are a lifesaver",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get a mindfulness app, it helps",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Try Calm for better sleep",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Meditate with an app, it's easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out with a meditation app",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I recommend a mindfulness meditation app",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Meditation tools can improve mental health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Consider downloading a mindfulness app",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Mindfulness apps are a valuable resource",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Utilize a meditation app for stress relief",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Try [options] for stress relief",
+        "options": [
+          "Headspace",
+          "Calm",
+          "Insight Timer"
+        ],
+        "meaning": "suggest a meditation app"
+      },
+      {
+        "template": "Download a [options] app to relax",
+        "options": [
+          "mindfulness",
+          "meditation",
+          "relaxation"
+        ],
+        "meaning": "recommend a relaxation app"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker is stressed",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, have you tried a meditation app?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "No, I haven't. Which one do you recommend?"
+          }
+        ]
+      },
+      {
+        "description": "Coworker is anxious",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I think you should try Headspace"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Okay, I'll give it a shot. Thanks for the suggestion"
+          }
+        ]
+      }
+    ]
+  }
+}

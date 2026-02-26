@@ -1,0 +1,173 @@
+{
+  "title": "Statements concerning excessive drinking",
+  "context": "Confess or discuss a severe problem with alcohol addiction.",
+  "content": {
+    "bestLine": "I think I have a problem with drinking too much",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I drink more than I should",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My drinking is getting out of control",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm concerned about my alcohol intake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my drinking problem",
+          "register": "neutral",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not sure if I'm drinking too much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to talk about my drinking habits",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to cut back on drinking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about my health due to drinking",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm drinking way too much",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to get my drinking under control",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting a little too drunk too often",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to quit drinking so much",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm really struggling with drinking",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I drink too much when I'm stressed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure if I'm an alcoholic",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I want to talk to someone about my drinking",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing difficulties with excessive drinking",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I require assistance with my alcohol consumption",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I am concerned about the impact of drinking on my health",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I would like to discuss my drinking habits with a professional",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I am struggling with alcohol addiction",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I need help to reduce my alcohol intake",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] drink too much",
+        "options": [
+          "think",
+          "know",
+          "feel"
+        ],
+        "meaning": "expressing concern about drinking habits"
+      },
+      {
+        "template": "I need [options] to stop drinking",
+        "options": [
+          "help",
+          "support",
+          "assistance"
+        ],
+        "meaning": "seeking assistance to quit drinking"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about drinking problems",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I think I have a problem with drinking too much"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What makes you think that? Maybe we can talk about it and find a solution"
+          }
+        ]
+      },
+      {
+        "description": "Discussing drinking habits with a counselor",
+        "lines": [
+          {
+            "speaker": "Counselor",
+            "text": "Can you tell me more about your drinking habits?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I drink more than I should, and I'm worried it's affecting my health"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Sarcastic response to wrongdoing",
+  "context": "Use sarcasm to highlight that someone completely messed up.",
+  "content": {
+    "bestLine": "Wow, you really messed that up, great job!",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "You totally blew it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was a huge mistake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What were you thinking?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not what I expected",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You really dropped the ball",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not your finest moment",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was a bad call",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should've thought that through",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "You messed up big time, bruh",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That was a major fail",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "What's good with that?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You got played",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's whack",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're trippin'",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Great job, you're a genius",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That was amazing, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be so proud",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a brilliant idea",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really something special",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That was stupid",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "What's wrong with you?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're an idiot",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get it together",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Unbelievable",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] that up",
+        "options": [
+          "messed",
+          "blew",
+          "totally destroyed"
+        ],
+        "meaning": "You made a mistake"
+      },
+      {
+        "template": "What a [options] idea",
+        "options": [
+          "terrible",
+          "awful",
+          "horrible"
+        ],
+        "meaning": "That was a bad idea"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sarcastic response to wrongdoing",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just got a ticket for speeding"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Wow, you really messed that up, great job!"
+          }
+        ]
+      },
+      {
+        "description": "Informal conversation about a mistake",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I forgot to turn in the project"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You totally blew it, what were you thinking?"
+          }
+        ]
+      }
+    ]
+  }
+}

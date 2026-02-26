@@ -1,0 +1,153 @@
+{
+  "title": "Offering something additional",
+  "context": "Ask someone if they want a second helping or a refill.",
+  "content": {
+    "bestLine": "Would you like another serving?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get you another plate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like some more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can get for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you another helping?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like more to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I get you some more?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Want another bite?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You good for another round?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a top-up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You wanna go back for seconds?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can grab you some more if you want?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You ready for another serving?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want me to get you some more?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You tryna get some more?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Low key hungry for more?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "High key need a refill?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You feel me, want another plate?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Would you like [options]?",
+        "options": [
+          "another serving",
+          "some more",
+          "a refill"
+        ],
+        "meaning": "Asking if someone wants more food or drink"
+      },
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "another plate",
+          "some more to eat",
+          "a top-up"
+        ],
+        "meaning": "Offering to get someone more food or drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering a second helping at a dinner party",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Would you like another serving?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, please. This is delicious."
+          }
+        ]
+      },
+      {
+        "description": "Asking if someone wants a refill at a casual gathering",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You good for another round?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, sure. Thanks."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Telling where a fast-food order will be eaten",
+  "context": "Tell the cashier that you are going to dine inside.",
+  "content": {
+    "bestLine": "I'll be dining in, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll eat it here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to dine in.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it to stay.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm eating here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be eating inside.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to dine in.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll stay and eat.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna eat it here.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll just eat in.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm staying to eat.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll grab a seat.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll eat in the dining area.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna chill and eat.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll hang out and eat.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to dine in, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be eating my meal here.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I intend to dine in the restaurant.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will eat my order inside.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would prefer to eat in.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will dine in the establishment.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll [options] and eat.",
+        "options": [
+          "eat it here",
+          "stay",
+          "dine in"
+        ],
+        "meaning": "telling the cashier you plan to eat inside"
+      },
+      {
+        "template": "I'm going to [options].",
+        "options": [
+          "eat here",
+          "dine in",
+          "stay and eat"
+        ],
+        "meaning": "informing the cashier of your intention to eat inside"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer tells the cashier they will dine in",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a burger, please."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Would you like to have it to go or dine in?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll dine in, please."
+          }
+        ]
+      },
+      {
+        "description": "Customer asks for a table after ordering",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to order a sandwich."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Would you like to eat in or take it to go?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll eat in. Can I get a table, please?"
+          }
+        ]
+      }
+    ]
+  }
+}

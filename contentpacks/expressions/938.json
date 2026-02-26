@@ -1,0 +1,173 @@
+{
+  "title": "Emergency telephone calls",
+  "context": "Tell the 911 dispatcher that there is a severe emergency happening.",
+  "content": {
+    "bestLine": "There's a severe emergency happening, please help.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help, it's an emergency.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's been an accident.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone needs assistance.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a life-threatening situation.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I require immediate help.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a medical emergency.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please send help right away.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an emergency, please respond.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Oh my god, it's an emergency!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need help ASAP.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Someone's hurt, please help.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's super serious, please come.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freaking out, please assist.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Please hurry, it's an emergency.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need help now, please.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's really bad, please send help.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am reporting a severe emergency.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Assistance is required immediately.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A life-threatening situation has occurred.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I request emergency services be dispatched.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is imperative that help arrives promptly.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A medical emergency is in progress.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need [options] now.",
+        "options": [
+          "help",
+          "assistance",
+          "emergency services"
+        ],
+        "meaning": "requesting immediate aid"
+      },
+      {
+        "template": "There's a [options] emergency.",
+        "options": [
+          "medical",
+          "life-threatening",
+          "severe"
+        ],
+        "meaning": "describing the type of emergency"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling 911 for a medical emergency",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "There's a severe emergency happening, please help."
+          },
+          {
+            "speaker": "Dispatcher",
+            "text": "What's your location?"
+          }
+        ]
+      },
+      {
+        "description": "Reporting a life-threatening situation",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "I am reporting a severe emergency."
+          },
+          {
+            "speaker": "Dispatcher",
+            "text": "What's the nature of the emergency?"
+          }
+        ]
+      }
+    ]
+  }
+}

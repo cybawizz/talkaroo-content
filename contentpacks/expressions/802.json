@@ -1,0 +1,124 @@
+{
+  "title": "A fast-food clerk taking an order",
+  "context": "Ask the customer what they would like to eat.",
+  "content": {
+    "bestLine": "What can I get for you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What would you like to order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take your order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What can I get for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I help you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take your order now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you want to eat?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd be happy to take your order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I assist you with your order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please place your order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to take your order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "a burger",
+          "fries",
+          "a salad"
+        ],
+        "meaning": "Asking for a specific food item"
+      },
+      {
+        "template": "What kind of [options] would you like?",
+        "options": [
+          "meat",
+          "toppings",
+          "sauce"
+        ],
+        "meaning": "Asking for a specific type of food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple order",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "What can I get for you today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll have a burger and fries"
+          }
+        ]
+      },
+      {
+        "description": "Order with questions",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "What would you like to order?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "What's the special today?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Our special is a chicken sandwich"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll have that"
+          }
+        ]
+      }
+    ]
+  }
+}

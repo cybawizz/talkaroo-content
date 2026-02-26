@@ -1,0 +1,125 @@
+{
+  "title": "Concerning motions during a meeting",
+  "context": "Formally propose an idea for the group to vote on.",
+  "content": {
+    "bestLine": "I propose we consider this option for a vote.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's put this to a vote",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should vote on this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to decide",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we proceed with a vote?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make a decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to vote on this matter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's voting time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I move that we adopt this proposal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose this motion for consideration",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's formally consider this option",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend we put this to a vote",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is proposed that we vote on this matter",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I propose [option] for consideration",
+        "options": [
+          "a new project",
+          "a change in policy",
+          "a different approach"
+        ],
+        "meaning": "to suggest something for the group to consider"
+      },
+      {
+        "template": "Let's [action] on [option]",
+        "options": [
+          "vote",
+          "decide",
+          "proceed"
+        ],
+        "meaning": "to take action on a proposal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Formally proposing an idea in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I propose we consider a new marketing strategy for our product."
+          },
+          {
+            "speaker": "Jane",
+            "text": "I second that motion. Let's put it to a vote."
+          }
+        ]
+      },
+      {
+        "description": "Discussing a proposal before voting",
+        "lines": [
+          {
+            "speaker": "Bob",
+            "text": "I recommend we adopt this proposal. It will benefit the company in the long run."
+          },
+          {
+            "speaker": "Alice",
+            "text": "I agree. Let's formally consider this option and vote on it."
+          }
+        ]
+      }
+    ]
+  }
+}

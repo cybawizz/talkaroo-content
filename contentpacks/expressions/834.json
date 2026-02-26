@@ -1,0 +1,173 @@
+{
+  "title": "Ordering food to be taken out",
+  "context": "Ask the restaurant to package your entire meal so you can leave with it.",
+  "content": {
+    "bestLine": "Can I get my order to go, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to take my meal out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you package my order to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take my food with me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my order packaged?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like my meal to be taken out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make my order to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need my food to take out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take my order with me?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I grab my order to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna take my food with me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you throw my order in a box?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll just take my meal to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my order togo?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking my food out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make my order portable?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need my order on the go",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request my order to be taken out",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please package my meal to go?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require my order to be prepared for take-out",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have my order packaged to go?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could make my order to go",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you arrange for my order to be taken out?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get my [options] to go?",
+        "options": [
+          "order",
+          "meal",
+          "food"
+        ],
+        "meaning": "requesting to take out the entire meal"
+      },
+      {
+        "template": "I'd like to [options] my order",
+        "options": [
+          "take out",
+          "take with me",
+          "package to go"
+        ],
+        "meaning": "asking for the order to be prepared for take-out"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering food to take out",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get my order to go, please?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, I'll package it for you right away"
+          }
+        ]
+      },
+      {
+        "description": "Customer confirming take-out order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Just to confirm, my order is to go, right?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, that's correct. We'll have it ready for you to take out"
+          }
+        ]
+      }
+    ]
+  }
+}

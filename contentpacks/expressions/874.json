@@ -1,0 +1,173 @@
+{
+  "title": "Asking questions on a train",
+  "context": "Ask a train employee what time the dining car closes.",
+  "content": {
+    "bestLine": "What time does the dining car close?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the dining car schedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the dining car hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the dining car stop serving?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the last call for the dining car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the dining car still open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I still get food in the dining car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the dining car operating hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the dining car close today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what time's the dining car close?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a minute? What's the dining car schedule?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "So, when's the last call for food?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is the dining car still serving?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I grab a bite in the dining car?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the haps with the dining car hours?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind telling me when the dining car closes?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "So, what time does the dining car shut down?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, what are the dining car hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me when the dining car closes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could inform me of the dining car schedule.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the dining car cease operations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly provide me with the dining car hours of operation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the dining car closing time, please.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time does the [options] close?",
+        "options": [
+          "dining car",
+          "cafe",
+          "restaurant"
+        ],
+        "meaning": "Asking about the closing time of a facility"
+      },
+      {
+        "template": "Can you tell me the [options] hours?",
+        "options": [
+          "dining car",
+          "train schedule",
+          "station hours"
+        ],
+        "meaning": "Asking about the hours of operation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asking train employee about dining car hours",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, what time does the dining car close?"
+          },
+          {
+            "speaker": "Train Employee",
+            "text": "The dining car closes at 9 PM. Would you like to grab a bite before then?"
+          }
+        ]
+      },
+      {
+        "description": "Passenger inquiring about dining car schedule",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hey, can you tell me the dining car schedule?"
+          },
+          {
+            "speaker": "Train Employee",
+            "text": "Let me check. Okay, the dining car is open from 7 AM to 9 PM. We have a limited menu after 8 PM, though."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Questions about the cost of travel",
+  "context": "Ask your travel agent how much the entire vacation bundle will cost.",
+  "content": {
+    "bestLine": "How much will the entire vacation bundle cost?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the total cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the trip?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price of the package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a total?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will everything cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the overall cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a price quote?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the vacation package?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much is the whole shebang?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much will I be out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a ballpark figure?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much is the trip gonna set me back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the total gonna be?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a rough estimate?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much will everything run me?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide a comprehensive cost breakdown?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the total cost of the vacation package?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a detailed quote.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide a total cost estimate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the overall price of the trip?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a comprehensive cost analysis.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How much will [option] cost?",
+        "options": [
+          "the trip",
+          "the package",
+          "everything"
+        ],
+        "meaning": "asking about the total cost"
+      },
+      {
+        "template": "Can you give me a [option] quote?",
+        "options": [
+          "total",
+          "detailed",
+          "comprehensive"
+        ],
+        "meaning": "requesting a cost estimate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a travel agent about the cost of a vacation package",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much will the entire vacation bundle cost?"
+          },
+          {
+            "speaker": "Travel Agent",
+            "text": "Let me check on that for you. The total cost comes out to be $5,000."
+          }
+        ]
+      },
+      {
+        "description": "Discussing the cost of a trip with a travel agent",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the total cost of the trip?"
+          },
+          {
+            "speaker": "Travel Agent",
+            "text": "The total cost is $3,500, but that includes all flights, hotels, and activities."
+          }
+        ]
+      }
+    ]
+  }
+}

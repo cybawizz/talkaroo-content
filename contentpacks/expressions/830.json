@@ -1,0 +1,173 @@
+{
+  "title": "Concerning seating in a restaurant",
+  "context": "Ask for a specific booth, table, or seating area.",
+  "content": {
+    "bestLine": "Can we get that booth by the window?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We'd like to sit over there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is that table available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we sit in the corner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll take the table by the door",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the patio seating available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'd prefer a quiet table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you seat us near the bar?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll take that table by the window",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we grab that booth?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is that table open?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we sit outside?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll take the table in the back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we get a table with a view?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'd love to sit at the bar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the high table available?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we get the cozy table?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request that table",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the table by the window available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We would prefer to sit in a quiet area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please seat us at that table?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We would like to sit at the table with a view",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the patio area available for seating?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we get the [options] table?",
+        "options": [
+          "window",
+          "corner",
+          "bar"
+        ],
+        "meaning": "Requesting a specific table"
+      },
+      {
+        "template": "Is the [options] seating available?",
+        "options": [
+          "patio",
+          "inside",
+          "bar"
+        ],
+        "meaning": "Asking about availability of a specific seating area"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a specific booth",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can we get that booth by the window?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Let me check if it's available. Yes, you can have it."
+          }
+        ]
+      },
+      {
+        "description": "Asking about table availability",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Is that table open?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Yes, it is. I can seat you there right away."
+          }
+        ]
+      }
+    ]
+  }
+}

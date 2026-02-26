@@ -1,0 +1,125 @@
+{
+  "title": "Recorded telephone service messages",
+  "context": "State a pre-recorded message that the dialed number has been disconnected.",
+  "content": {
+    "bestLine": "The number you have dialed is no longer in service.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This number is not available.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The number you called is disconnected.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're sorry, this number is out of service.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The phone number you dialed is no longer active.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This line has been disconnected.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The number is not in use.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We cannot complete your call.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The number you have reached is not in service.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The number you have dialed is no longer in service.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We regret to inform you that this number is disconnected.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This telephone number is not available for use.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The line you are trying to reach is out of service.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We apologize, but the number you called is no longer active.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The number you have called is not currently in use.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] number is not available.",
+        "options": [
+          "phone",
+          "telephone"
+        ],
+        "meaning": "The number is disconnected."
+      },
+      {
+        "template": "We're sorry, [options] number is out of service.",
+        "options": [
+          "the",
+          "this"
+        ],
+        "meaning": "The number is no longer in use."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Disconnected Message",
+        "lines": [
+          {
+            "speaker": "Automated Voice",
+            "text": "The number you have dialed is no longer in service."
+          }
+        ]
+      },
+      {
+        "description": "Apology Message",
+        "lines": [
+          {
+            "speaker": "Automated Voice",
+            "text": "We apologize for the inconvenience."
+          },
+          {
+            "speaker": "Automated Voice",
+            "text": "The number you have dialed is no longer in service."
+          }
+        ]
+      }
+    ]
+  }
+}

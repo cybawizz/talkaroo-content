@@ -1,0 +1,181 @@
+{
+  "title": "Instructing children in the kitchen",
+  "context": "Tell kids to stay out of the way while you are cooking.",
+  "content": {
+    "bestLine": "Please stay out of the way so I can cook safely",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Stay back, I'm cooking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some room to cook",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep a safe distance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me handle the cooking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got this, stay back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep out of the kitchen for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the kitchen clear",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, hang back, I'm cooking up a storm",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just chill, I've got dinner covered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay out of my kitchen zone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give your mom/dad some cooking space",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it safe, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on cooking duty, hang back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep those little hands out of here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me whip up something yummy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could stay out of the kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from entering the kitchen while I cook",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to maintain a safe distance from the cooking area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require uninterrupted space to prepare the meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "For safety reasons, please keep out of the kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must insist that you stay clear of the cooking area",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please stay out of the [options] while I cook",
+        "options": [
+          "kitchen",
+          "way",
+          "cooking area"
+        ],
+        "meaning": "requesting space to cook"
+      },
+      {
+        "template": "I need [options] to cook safely",
+        "options": [
+          "some space",
+          "a safe distance",
+          "room to move"
+        ],
+        "meaning": "requesting clearance to cook"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent instructing a child to stay out of the kitchen",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please stay out of the kitchen, I'm cooking"
+          },
+          {
+            "speaker": "Child",
+            "text": "Why?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "So I can cook safely and make a nice dinner for us"
+          }
+        ]
+      },
+      {
+        "description": "Parent reminding children to keep a safe distance",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Remember, kids, stay back while I'm cooking"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, got it"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Good, I want to make sure everyone stays safe"
+          }
+        ]
+      }
+    ]
+  }
+}

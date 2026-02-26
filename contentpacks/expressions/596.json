@@ -1,0 +1,208 @@
+{
+  "title": "Stating that someone is drunk",
+  "context": "Tell someone clearly that they are intoxicated.",
+  "content": {
+    "bestLine": "You've had a bit too much to drink, buddy.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You seem intoxicated.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you've had enough.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're clearly drunk.",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Maybe you should slow down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not sober.",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm concerned about your drinking.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've had too much.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to stop drinking.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you're wasted.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're really drunk, man.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Maybe you should call it a night.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You've had way too much to drink.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you need to slow down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not making sense, buddy.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get you some water.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're clearly intoxicated.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're lit, bro.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're turnt up.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're hella drunk.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're smashed, dude.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're wasted, man.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're trashed, bro.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're drunk, shut up.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're completely wasted, idiot.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You can't even walk, drunkard.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're a mess, drunk.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're so drunk, it's pathetic.",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You've had [options] drinks.",
+        "options": [
+          "too many",
+          "enough",
+          "a few too many"
+        ],
+        "meaning": "The person has consumed a significant amount of alcohol."
+      },
+      {
+        "template": "I think you should [options].",
+        "options": [
+          "stop drinking",
+          "slow down",
+          "call it a night"
+        ],
+        "meaning": "The speaker is advising the person to limit or stop their alcohol consumption."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend is concerned about someone's intoxication.",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Dude, you're really drunk."
+          },
+          {
+            "speaker": "Drunk Person",
+            "text": "I'm fine, I'm fine."
+          },
+          {
+            "speaker": "Friend",
+            "text": "No, you're not fine. Let's get you some water."
+          }
+        ]
+      },
+      {
+        "description": "A bartender is cutting someone off.",
+        "lines": [
+          {
+            "speaker": "Bartender",
+            "text": "I think you've had enough to drink."
+          },
+          {
+            "speaker": "Drunk Person",
+            "text": "Just one more!"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Sorry, buddy. You're cut off."
+          }
+        ]
+      }
+    ]
+  }
+}

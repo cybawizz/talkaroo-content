@@ -1,0 +1,173 @@
+{
+  "title": "Indicating readiness to order a meal",
+  "context": "Tell the server that you have decided what you want to eat.",
+  "content": {
+    "bestLine": "I'm ready to order",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've made my decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I know what I want",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I order now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've decided on my meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all set to order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the next step?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready when you are",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm good to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, I'm ready",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hit me with the menu",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm starving, let's order",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to chow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this food party started",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so down to order",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bring on the food",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm prepared to place my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've made my selection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to proceed with my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please take my order now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've decided on my meal choice",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to finalize my order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have the [options]",
+        "options": [
+          "burger",
+          "salad",
+          "pasta"
+        ],
+        "meaning": "ordering a specific dish"
+      },
+      {
+        "template": "Can I get the [options]?",
+        "options": [
+          "menu",
+          "special of the day",
+          "daily deal"
+        ],
+        "meaning": "requesting information before ordering"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer indicating readiness to order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm ready to order"
+          },
+          {
+            "speaker": "Server",
+            "text": "Great, what can I get for you?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for the check after ordering",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get the check please?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Sure thing, I'll bring it right over"
+          }
+        ]
+      }
+    ]
+  }
+}

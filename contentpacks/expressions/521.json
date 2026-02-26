@@ -1,0 +1,207 @@
+{
+  "title": "Encouraging someone to stop arguing",
+  "context": "Tell people who are fighting to be quiet and move on.",
+  "content": {
+    "bestLine": "Just drop it and let's move on",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's not fight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we agree to disagree?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not worth arguing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just calm down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about this later?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want to fight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on something else",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, stop arguing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out, it's not a big deal",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just drop it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we just move on?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm done arguing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's not fight about this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not worth it, bro",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I suggest we table this discussion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's agree to disagree and move forward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think we've covered this topic sufficiently",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we focus on a different issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose we end this conversation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey, let's just stop",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey done with this convo",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, let's move on",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ghost this argument",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Slay the drama",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, this argument is so productive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad we're still fighting about this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is exactly what I wanted to do with my day",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can we just argue forever?",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and move on",
+        "options": [
+          "drop it",
+          "agree to disagree",
+          "calm down"
+        ],
+        "meaning": "stop arguing and move forward"
+      },
+      {
+        "template": "I'm [options] with this conversation",
+        "options": [
+          "done",
+          "over it",
+          "tired of"
+        ],
+        "meaning": "want to end the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend to friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sick of this argument"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Me too, let's just drop it"
+          }
+        ]
+      },
+      {
+        "description": "Coworker to coworker",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I think we've covered this topic sufficiently"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Agreed, let's focus on something else"
+          }
+        ]
+      }
+    ]
+  }
+}

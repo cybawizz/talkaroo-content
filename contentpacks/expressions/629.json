@@ -1,0 +1,203 @@
+{
+  "title": "When someone has done something terrible",
+  "context": "Confront someone about a severe error or bad action they committed.",
+  "content": {
+    "bestLine": "What were you thinking when you did that?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That was a huge mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really disappointed in you",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What happened, exactly?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was not okay",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you explain yourself?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was a terrible decision",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "How could you do that?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "That was unacceptable",
+          "register": "neutral",
+          "risk": "high"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, what's wrong with you?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "That was so messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What were you even thinking?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was a huge screw-up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You really messed up this time",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "That was a crazy stupid thing to do",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "How could you be so reckless?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was just wrong",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm extremely disappointed in your actions",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "Your behavior was completely unacceptable",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I need to discuss this incident with you",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your decision was ill-advised and poorly executed",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I expect a full explanation for your actions",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "This incident will be thoroughly investigated",
+          "register": "formal",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "What is wrong with you?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That was incredibly stupid",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're an idiot for doing that",
+          "register": "rude",
+          "risk": "extremely high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How could you [options]?",
+        "options": [
+          "do that",
+          "be so reckless",
+          "make that decision"
+        ],
+        "meaning": "expressing shock and disappointment"
+      },
+      {
+        "template": "That was [options]",
+        "options": [
+          "a huge mistake",
+          "a terrible decision",
+          "completely unacceptable"
+        ],
+        "meaning": "stating the severity of the wrongdoing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a friend about a bad decision",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What were you thinking when you did that?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I don't know, I just wasn't thinking"
+          },
+          {
+            "speaker": "You",
+            "text": "That's not an excuse, you need to think about your actions"
+          }
+        ]
+      },
+      {
+        "description": "Addressing a coworker about a mistake",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I need to discuss this incident with you"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "What's going on?"
+          },
+          {
+            "speaker": "You",
+            "text": "Your decision was ill-advised and poorly executed, we need to review our procedures"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Requests to a hairdresser",
+  "context": "Tell the stylist exactly how you want your hair cut or colored.",
+  "content": {
+    "bestLine": "Can you cut my hair to shoulder length?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like a trim",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you style my hair?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want a new haircut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you color my hair brown?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a haircut for a special occasion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend a hairstyle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a haircut like this picture",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you hook me up with a fresh cut?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm thinking of going blonde",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a haircut like my friend's?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I want a haircut that's on trend",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make me look like a celebrity?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a haircut that's easy to maintain",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you work some magic on my hair?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a haircut, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a consultation for a new hairstyle?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a professional haircut",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend a suitable hairstyle for my face shape?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to schedule a hair coloring appointment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] my hair?",
+        "options": [
+          "cut",
+          "style",
+          "color"
+        ],
+        "meaning": "requesting a hair service"
+      },
+      {
+        "template": "I want a [options] haircut",
+        "options": [
+          "short",
+          "long",
+          "layered"
+        ],
+        "meaning": "specifying a haircut style"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a haircut",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "Hi, I'd like a haircut"
+          },
+          {
+            "speaker": "Stylist",
+            "text": "What kind of haircut are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing hair color",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I want to color my hair"
+          },
+          {
+            "speaker": "Stylist",
+            "text": "What color are you thinking of?"
+          }
+        ]
+      }
+    ]
+  }
+}

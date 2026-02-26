@@ -1,0 +1,165 @@
+{
+  "title": "Ordering food at a drive-thru after midnight",
+  "context": "Yell your massive fast-food order into the glowing speaker box.",
+  "content": {
+    "bestLine": "I'll take a number one combo with extra fries, please!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a burger?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a sandwich.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special tonight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat the menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a salad, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any deals?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a drink?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a burger and fries?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm starving, what's good here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a combo?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll take a number one, please.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best thing to get here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a milkshake too?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make it a large, please.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, can I get a burger and fries, stat?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella hungry, what's poppin'?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can you throw in some extra sauce?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'll take a number one, no cap.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good, can I get a deal?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can I get a large, G?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll take a [options] combo",
+        "options": [
+          "number one",
+          "number two",
+          "number three"
+        ],
+        "meaning": "ordering a specific combo"
+      },
+      {
+        "template": "Can I get a [options] with [options]?",
+        "options": [
+          "burger",
+          "sandwich",
+          "salad",
+          "fries",
+          "drink"
+        ],
+        "meaning": "customizing an order"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering at the drive-thru",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can I get a burger and fries?"
+          },
+          {
+            "speaker": "Drive-Thru",
+            "text": "That's a number one combo, would you like to upgrade to a large?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the best thing to get here?"
+          },
+          {
+            "speaker": "Drive-Thru",
+            "text": "Our most popular item is the number one combo, would you like to try that?"
+          }
+        ]
+      }
+    ]
+  }
+}

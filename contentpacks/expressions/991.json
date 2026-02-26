@@ -1,0 +1,131 @@
+{
+  "title": "Reprimanding an employee",
+  "context": "Strictly tell a worker that their performance is unacceptable.",
+  "content": {
+    "bestLine": "Your performance is unacceptable and needs improvement immediately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We need to discuss your performance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your work is not meeting expectations",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm concerned about your recent performance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to see significant improvement",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Your current performance is not satisfactory",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's review your performance and set goals",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to help you improve your performance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to work together to improve your performance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your performance has been deemed unsatisfactory",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I am writing to inform you of performance concerns",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "We must discuss your performance and potential improvements",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your work has not met the expected standards",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "We will be monitoring your performance closely",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I expect to see significant improvement immediately",
+          "register": "formal",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your performance is [options] and needs improvement",
+        "options": [
+          "unacceptable",
+          "below expectations",
+          "not satisfactory"
+        ],
+        "meaning": "Expressing disapproval of an employee's performance"
+      },
+      {
+        "template": "We need to [options] your performance and set goals",
+        "options": [
+          "discuss",
+          "review",
+          "improve"
+        ],
+        "meaning": "Initiating a conversation about an employee's performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reprimanding an employee for poor performance",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Your performance has been unsatisfactory, and we need to discuss it"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand, what can I do to improve?"
+          }
+        ]
+      },
+      {
+        "description": "Setting expectations for improvement",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I expect to see significant improvement immediately"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I will work on it, thank you for the feedback"
+          }
+        ]
+      }
+    ]
+  }
+}

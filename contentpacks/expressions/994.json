@@ -1,0 +1,173 @@
+{
+  "title": "Starting over again on a project",
+  "context": "Admit that the work was wrong and the team must begin again.",
+  "content": {
+    "bestLine": "Let's scrap what we have and start fresh.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We need to start over.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project isn't working.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's begin again.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're going back to square one.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The current approach isn't viable.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to reboot the project.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're starting from scratch.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project requires a fresh start.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This isn't working, let's try again.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're off to a bad start.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's ditch what we have and start over.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need a do-over.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This project is a mess, let's start fresh.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not on the right track.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take it from the top.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to go back to the drawing board.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's necessary to revisit our approach.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project requires a new strategy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must reinitiate the project.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A fresh start is essential for success.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to reevaluate our methods.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The current project plan is not effective.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [option] and start over.",
+        "options": [
+          "scrap what we have",
+          "begin again",
+          "start fresh"
+        ],
+        "meaning": "to start the project again from the beginning"
+      },
+      {
+        "template": "We need to [option] the project.",
+        "options": [
+          "reboot",
+          "restart",
+          "reinitiate"
+        ],
+        "meaning": "to start the project again"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Team leader decides to start the project over",
+        "lines": [
+          {
+            "speaker": "Team Leader",
+            "text": "Let's scrap what we have and start fresh."
+          },
+          {
+            "speaker": "Team Member",
+            "text": "I agree, this isn't working."
+          }
+        ]
+      },
+      {
+        "description": "Team discussion about starting over",
+        "lines": [
+          {
+            "speaker": "Team Member 1",
+            "text": "We're not on the right track."
+          },
+          {
+            "speaker": "Team Member 2",
+            "text": "Let's take it from the top."
+          }
+        ]
+      }
+    ]
+  }
+}

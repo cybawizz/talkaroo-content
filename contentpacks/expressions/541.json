@@ -1,0 +1,264 @@
+{
+  "title": "Expressing dissatisfaction with someone's effort",
+  "context": "Tell someone that they are not trying hard enough.",
+  "content": {
+    "bestLine": "You're not putting in enough effort",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think you can do better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your effort is not meeting expectations",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not seeing the results I want",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need to step up your game",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I expect more from you",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Your performance is lacking",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm disappointed in your effort",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not meeting the standards",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, you can do better than that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on, you're not trying hard enough",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're slacking off, pick it up",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I know you can do more",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not giving it your all",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Step up your effort, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not seeing the effort I expect",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You need to try harder, bro",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm concerned about your level of effort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your performance is not meeting expectations",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I expect to see more dedication from you",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your work is not up to par",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I recommend you reassess your approach",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You need to demonstrate more commitment",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're low-key not trying hard enough",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Step up your grind, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're being hella lazy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Get your act together, bruh",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're not bringing the heat",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You need to level up your effort",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, great effort, really impressive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so proud of you for barely trying",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be exhausted from all that hard work",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I can tell you're really committed to this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Your lack of effort is really inspiring",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure it's not easy to be this unenthusiastic",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're not even trying, what's wrong with you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get your butt in gear or get out",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're a total slacker, shape up",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't pay you to slack off",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're useless if you don't try harder",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're not [adjective] enough",
+        "options": [
+          "trying",
+          "working",
+          "studying"
+        ],
+        "meaning": "You're not putting in enough effort"
+      },
+      {
+        "template": "I expect to see [adjective] results",
+        "options": [
+          "better",
+          "improved",
+          "exceptional"
+        ],
+        "meaning": "I expect to see more effort from you"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Manager and employee discussion",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I'm not seeing the results I want from you"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm trying my best, but I'll try harder"
+          }
+        ]
+      },
+      {
+        "description": "Friend to friend conversation",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, you're not even trying"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, I've just been really lazy lately"
+          }
+        ]
+      }
+    ]
+  }
+}

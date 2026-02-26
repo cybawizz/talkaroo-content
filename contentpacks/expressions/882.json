@@ -1,0 +1,178 @@
+{
+  "title": "Concerning the temperature in a taxi",
+  "context": "Ask the driver to turn the air conditioning up or down.",
+  "content": {
+    "bestLine": "Could you turn the air conditioning up/down, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is it possible to adjust the temperature?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn the AC up/down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a bit cold/hot, could you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make it a bit warmer/cooler?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the air conditioning adjustable?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn the temperature up/down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could adjust the AC.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please turn the air conditioning up/down?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you crank the AC?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you turn it up/down a notch?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freezing/sweating, can you help?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make it cooler/warmer in here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Turn the AC up/down, would you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you adjust the temperature, please?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm a bit chilly/hot, can you fix it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you turn the heat/AC up/down?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could adjust the air conditioning.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please adjust the temperature to a more comfortable level?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing some discomfort due to the temperature, could you assist me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to turn the air conditioning up/down?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request that you adjust the temperature, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please turn the air conditioning to a more suitable temperature?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you turn the [options] up/down?",
+        "options": [
+          "air conditioning",
+          "heat",
+          "AC",
+          "temperature"
+        ],
+        "meaning": "asking the driver to adjust the temperature"
+      },
+      {
+        "template": "I'm feeling [options], could you adjust the [options]?",
+        "options": [
+          "cold",
+          "hot",
+          "chilly",
+          "warm",
+          "air conditioning",
+          "heat",
+          "temperature"
+        ],
+        "meaning": "asking the driver to adjust the temperature based on the passenger's comfort"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asks the driver to turn the air conditioning up",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Could you turn the air conditioning up, please?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Sure, I'll turn it up a bit."
+          }
+        ]
+      },
+      {
+        "description": "Passenger asks the driver to turn the air conditioning down",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I'm a bit hot, could you turn the air conditioning down?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, I'll turn it down for you."
+          }
+        ]
+      }
+    ]
+  }
+}

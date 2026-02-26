@@ -1,0 +1,173 @@
+{
+  "title": "At the service counter of a library",
+  "context": "Ask to check out a stack of books or pay a late fee.",
+  "content": {
+    "bestLine": "I'd like to check out these books, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I check out this stack?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to pay a late fee.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to return these.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a receipt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long can I keep these?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a fine?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I check out these?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry, I'm late.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just scan these?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe for this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get an extension?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to pay for this.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with late fees?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to check out these materials.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here to pay my overdue fee.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a receipt.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the policy on late returns?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am returning these items.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] these books.",
+        "options": [
+          "check out",
+          "return",
+          "renew"
+        ],
+        "meaning": "requesting library service"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "checking out",
+          "paying a fine",
+          "finding a book"
+        ],
+        "meaning": "asking for library assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking out books",
+        "lines": [
+          {
+            "speaker": "Patron",
+            "text": "I'd like to check out these books, please."
+          },
+          {
+            "speaker": "Librarian",
+            "text": "Okay, let me just scan them for you."
+          }
+        ]
+      },
+      {
+        "description": "Paying a late fee",
+        "lines": [
+          {
+            "speaker": "Patron",
+            "text": "I need to pay a late fee."
+          },
+          {
+            "speaker": "Librarian",
+            "text": "Okay, that will be $5. Would you like to pay with card or cash?"
+          }
+        ]
+      }
+    ]
+  }
+}

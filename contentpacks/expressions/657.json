@@ -1,0 +1,158 @@
+{
+  "title": "Answering a residential phone call",
+  "context": "Say hello politely when picking up a call at your personal home.",
+  "content": {
+    "bestLine": "Hello?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, this is my house",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, who's calling?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, can I help you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, this is my residence",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, who's this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what can I do for you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how are you doing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, can you hold on a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, I'm busy right now",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good day, this is my residence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, who's calling?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, this is my home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, how can I help you?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]",
+        "options": [
+          "this is my house",
+          "who's calling?",
+          "can I help you?"
+        ],
+        "meaning": "answering a phone call"
+      },
+      {
+        "template": "Hi, [options]",
+        "options": [
+          "how are you?",
+          "what's up?",
+          "can you hold on a sec?"
+        ],
+        "meaning": "answering a phone call informally"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "answering a phone call from a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hello?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Hey, what's up?"
+          }
+        ]
+      },
+      {
+        "description": "answering a phone call from a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hello, who's calling?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Hi, my name is John and I'm calling from XYZ company"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Explaining that you are cured",
+  "context": "Happily announce that your illness or disease is completely gone.",
+  "content": {
+    "bestLine": "I'm thrilled to say I'm fully cured!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've made a full recovery",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My illness is completely gone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm no longer sick",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been cured of my disease",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm healthy again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My health is back to normal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've recovered fully",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all better now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My sickness is gone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling great again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've kicked my illness",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good as new",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've bounced back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm back to my old self",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am pleased to report I am fully recovered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My medical condition has been resolved",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have been declared cured",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have made a complete recovery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My health has been fully restored",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] again",
+        "options": [
+          "better",
+          "healthy",
+          "great"
+        ],
+        "meaning": "Expressing full recovery"
+      },
+      {
+        "template": "My [options] is gone",
+        "options": [
+          "illness",
+          "disease",
+          "sickness"
+        ],
+        "meaning": "Announcing the end of an illness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing a friend about full recovery",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how are you feeling?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm all better now, thanks for asking!"
+          }
+        ]
+      },
+      {
+        "description": "Announcing recovery to a family member",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "How's your health?"
+          },
+          {
+            "speaker": "Person",
+            "text": "I've made a full recovery, I'm healthy again!"
+          }
+        ]
+      }
+    ]
+  }
+}

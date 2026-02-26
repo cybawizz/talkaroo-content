@@ -1,0 +1,165 @@
+{
+  "title": "Discussing a show finale without spoilers",
+  "context": "Talk about an ending without ruining it for someone else.",
+  "content": {
+    "bestLine": "I won't give it away, but the ending is wild",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The finale was really something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still thinking about the last episode",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The ending was very unexpected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want to spoil it for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just say it was intense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll have to watch it to believe it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The conclusion was really well done",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, the finale was crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still reeling from the last episode",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The ending was totally mind-blowing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No way, I'm not spoiling it for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just trust me, it's worth watching",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The finale was everything I hoped for",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You won't believe what happens",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "The finale was lowkey insane",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hella surprised by the ending",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "The last episode was straight fire",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No cap, the finale was amazing",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "The ending was totes emotional",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta watch it, it's a game-changer",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [adjective] finale was [adjective]",
+        "options": [
+          "crazy",
+          "amazing",
+          "wild",
+          "intense"
+        ],
+        "meaning": "describing the finale without spoilers"
+      },
+      {
+        "template": "I [verb] the last episode, but I won't [verb] it",
+        "options": [
+          "loved",
+          "hated",
+          "enjoyed",
+          "spoiled"
+        ],
+        "meaning": "expressing opinion without spoiling"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing the finale with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just finished the finale, what did you think?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm not saying anything, I don't want to spoil it for you"
+          }
+        ]
+      },
+      {
+        "description": "Talking about the finale online",
+        "lines": [
+          {
+            "speaker": "User1",
+            "text": "Just watched the finale and I'm still reeling"
+          },
+          {
+            "speaker": "User2",
+            "text": "No spoilers, please! I'm still on episode 5"
+          }
+        ]
+      }
+    ]
+  }
+}

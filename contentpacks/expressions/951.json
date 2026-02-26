@@ -1,0 +1,127 @@
+{
+  "title": "When someone is physically threatening you",
+  "context": "Demand that an aggressive person back away and stop touching you.",
+  "content": {
+    "bestLine": "Back away and stop touching me now.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Give me some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to back off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop touching me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm uncomfortable with this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please respect my boundaries",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some room to breathe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Back away slowly",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist you respect my personal space",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from touching me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a safe distance between us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not comfortable with your proximity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must ask you to step back",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Back [options] and stop touching me",
+        "options": [
+          "away",
+          "off"
+        ],
+        "meaning": "Demanding personal space"
+      },
+      {
+        "template": "I need you to [options] me now",
+        "options": [
+          "leave alone",
+          "stop touching"
+        ],
+        "meaning": "Asserting boundaries"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a physically threatening person",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Back away and stop touching me now."
+          },
+          {
+            "speaker": "Aggressor",
+            "text": "Or what?"
+          },
+          {
+            "speaker": "You",
+            "text": "I will call for help if you don't respect my space."
+          }
+        ]
+      },
+      {
+        "description": "Setting boundaries with someone invading personal space",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm uncomfortable with you standing so close."
+          },
+          {
+            "speaker": "Other",
+            "text": "I'm just trying to talk to you."
+          },
+          {
+            "speaker": "You",
+            "text": "I understand, but please give me some space."
+          }
+        ]
+      }
+    ]
+  }
+}

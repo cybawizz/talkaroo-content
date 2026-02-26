@@ -1,0 +1,135 @@
+{
+  "title": "Telling a babysitter how to reach you",
+  "context": "Give the child care worker your phone number in case of an emergency.",
+  "content": {
+    "bestLine": "Call me at 555-1234 if you need anything.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You can reach me at 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My phone number is 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If you need me, call 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm available at 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Call or text 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can text or call me at 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My contact number is 555-1234.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Reach me at 555-1234 anytime.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please contact me at 555-1234 in case of an emergency.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My telephone number for emergencies is 555-1234.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may reach me at 555-1234 for any urgent matters.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "In case of an emergency, please dial 555-1234 to reach me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "For emergency contact, my number is 555-1234.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If an emergency arises, call 555-1234 to contact me directly.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Call me at [options] if you need anything.",
+        "options": [
+          "555-1234",
+          "my cell"
+        ],
+        "meaning": "Providing contact information for emergencies"
+      },
+      {
+        "template": "You can reach me at [options] for any [options].",
+        "options": [
+          "555-1234",
+          "my phone",
+          "emergencies",
+          "questions"
+        ],
+        "meaning": "Offering contact information for various purposes"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Leaving contact information with the babysitter",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Just in case, my phone number is 555-1234."
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Okay, got it. 555-1234. I'll call if I need anything."
+          }
+        ]
+      },
+      {
+        "description": "Ensuring the babysitter has the correct contact information",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Do you have my phone number in case of an emergency?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Yes, it's 555-1234, right?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "That's correct. Call me at 555-1234 if you need anything."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "A bartender asking what you want",
+  "context": "Ask a customer sitting at the bar what drink they would like.",
+  "content": {
+    "bestLine": "What can I get you to drink?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your drink of choice?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you something to drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What would you like to order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What can I pour for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your poison?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What'll it be?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I start you off with a drink?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's your go-to drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a favorite drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What can I grab for you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drink of choice tonight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a drink recommendation?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What'll you have?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your pleasure?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I take your drink order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What would you like to drink, sir/ma'am?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you a beverage?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your drink preference?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to take your order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get you a [options]?",
+        "options": [
+          "beer",
+          "cocktail",
+          "wine"
+        ],
+        "meaning": "asking for a drink order"
+      },
+      {
+        "template": "What's your favorite [options]?",
+        "options": [
+          "beer",
+          "liquor",
+          "wine"
+        ],
+        "meaning": "asking for a drink preference"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Bartender asking a customer what they want",
+        "lines": [
+          {
+            "speaker": "Bartender",
+            "text": "What can I get you to drink?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll have a beer, please"
+          }
+        ]
+      },
+      {
+        "description": "Bartender making a recommendation",
+        "lines": [
+          {
+            "speaker": "Bartender",
+            "text": "We have a special on our summer cocktails"
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds great, what's popular?"
+          }
+        ]
+      }
+    ]
+  }
+}

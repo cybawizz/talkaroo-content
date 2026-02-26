@@ -1,0 +1,237 @@
+{
+  "title": "When someone is overbearing",
+  "context": "Tell someone that they are being far too controlling and bossy.",
+  "content": {
+    "bestLine": "You're being really controlling, can you back off?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're being too bossy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like you're controlling the situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me some space?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to make my own decisions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not listening to me",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some autonomy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find a compromise?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel suffocated by your control",
+          "register": "neutral",
+          "risk": "high"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stop being so bossy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me a break",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got this, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just relax?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not your minion",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Back off, man",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I need some breathing room",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I feel that you're being overly directive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refrain from controlling the situation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could give me more autonomy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe we should work together as equals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned that your behavior is coming across as domineering",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we should find a more collaborative approach",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, thanks for telling me what to do",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're in charge",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're so controlling, it's really attractive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love being bossed around",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can you just make all my decisions for me?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so grateful for your input, even when I don't ask for it",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Back off, control freak",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop bossing me around",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't need you telling me what to do",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get off my back",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not your puppet",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Mind your own business",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're being too [controlling/bossy/dominating]",
+        "options": [
+          "controlling",
+          "bossy",
+          "dominating"
+        ],
+        "meaning": "The person is being overly directive"
+      },
+      {
+        "template": "I need [space/autonomy/freedom] to [make my own decisions/think for myself]",
+        "options": [
+          "space",
+          "autonomy",
+          "freedom"
+        ],
+        "meaning": "The person wants more independence"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're being really controlling, can you back off?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm just trying to help"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I feel that you're being overly directive"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm just trying to get the job done"
+          }
+        ]
+      }
+    ]
+  }
+}

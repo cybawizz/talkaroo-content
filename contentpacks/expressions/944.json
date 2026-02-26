@@ -1,0 +1,173 @@
+{
+  "title": "Requests for help from a police officer",
+  "context": "Run up to a cop and ask them to intervene in a dangerous situation.",
+  "content": {
+    "bestLine": "Officer, I need your help, it's an emergency",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse me, officer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need your help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please assist me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I require your assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you intervene?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, officer, I need a hand",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in a bit of trouble",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you lend a hand?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need your help, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you do something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in a tough spot",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me out, please?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Officer, I require your assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need your help, officer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in need of your help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please assist me, officer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need your intervention",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Officer, I need your [options] in this situation",
+        "options": [
+          "help",
+          "assistance",
+          "intervention"
+        ],
+        "meaning": "Requesting help from a police officer"
+      },
+      {
+        "template": "Can you [options] and help me?",
+        "options": [
+          "lend a hand",
+          "do something",
+          "intervene"
+        ],
+        "meaning": "Asking a police officer for assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Approaching a police officer for help",
+        "lines": [
+          {
+            "speaker": "Citizen",
+            "text": "Officer, I need your help"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "What's going on?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting intervention from a police officer",
+        "lines": [
+          {
+            "speaker": "Citizen",
+            "text": "Can you intervene and help me?"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "I'm here to help, what's happening?"
+          }
+        ]
+      }
+    ]
+  }
+}

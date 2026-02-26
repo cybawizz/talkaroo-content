@@ -1,0 +1,173 @@
+{
+  "title": "When you are lost",
+  "context": "Admit to a stranger that you have no idea where you are.",
+  "content": {
+    "bestLine": "Excuse me, I'm lost. Can you help me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure where I am",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where we are?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to find my way back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know this area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get to downtown",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me directions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a bit turned around",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a map around here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I'm totally lost",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help a lost tourist?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I have no idea where I am",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you live around here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to find a landmark",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you point me in the right direction?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so turned around",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is there a good spot to grab a map?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, but I'm lost",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with directions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unfamiliar with this area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a map I could see?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to locate a specific address",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with guidance?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, can you help me find [options]",
+        "options": [
+          "the nearest subway",
+          "a good restaurant",
+          "my way back to the hotel"
+        ],
+        "meaning": "asking for help with directions"
+      },
+      {
+        "template": "I'm looking for [options], can you point me in the right direction?",
+        "options": [
+          "the city center",
+          "a landmark",
+          "a specific store"
+        ],
+        "meaning": "requesting guidance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Approaching a stranger for help",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, I'm lost. Can you help me?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "What are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for directions at a store",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm trying to find my way back to the hotel. Can you give me directions?"
+          },
+          {
+            "speaker": "Store Clerk",
+            "text": "Let me see... you can take the bus or walk from here"
+          }
+        ]
+      }
+    ]
+  }
+}

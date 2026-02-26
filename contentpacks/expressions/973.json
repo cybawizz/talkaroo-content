@@ -1,0 +1,177 @@
+{
+  "title": "Asking to share a desk",
+  "context": "Politely ask a stranger if the other half of the co-working table is empty.",
+  "content": {
+    "bestLine": "Is this seat taken?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is the other half of the table available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I join you at this table?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this side of the table free?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I share this table with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I sit here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this desk available for use?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I work from this table?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the table open for sharing?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Mind if I grab this seat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this spot taken?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I squeeze in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cool if I sit here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got room for one more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I join the table?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this chair free?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I park myself here?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have permission to occupy this desk?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this workspace available for my use?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if I could share this table with you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I possibly sit at this desk?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it acceptable to work from this location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request to join you at this table?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [seat/table/desk] [available/taken]?",
+        "options": [
+          "seat",
+          "table",
+          "desk",
+          "available",
+          "taken"
+        ],
+        "meaning": "Asking about the availability of a workspace"
+      },
+      {
+        "template": "May I [join/share/occupy] the [table/desk]?",
+        "options": [
+          "join",
+          "share",
+          "occupy",
+          "table",
+          "desk"
+        ],
+        "meaning": "Requesting to use a shared workspace"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to share a desk with a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Is this seat taken?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "No, it's available. Please, go ahead."
+          }
+        ]
+      },
+      {
+        "description": "Requesting to join a table in a co-working space",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "May I join you at this table?"
+          },
+          {
+            "speaker": "Table occupant",
+            "text": "Yes, of course. There's plenty of room."
+          }
+        ]
+      }
+    ]
+  }
+}

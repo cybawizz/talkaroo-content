@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor how long you have been ill",
+  "context": "State clearly the number of days you have had these symptoms.",
+  "content": {
+    "bestLine": "I've had these symptoms for 5 days",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've been feeling unwell for 3 days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My symptoms started 7 days ago",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had this cough for 10 days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been experiencing pain for 2 days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My illness began 4 days ago",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been sick for a week",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My symptoms have lasted 6 days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had a fever for 8 days",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've been out of commission for 5 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been feeling crummy for 3 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've had the flu for a week",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been under the weather for 4 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been dealing with this cold for 6 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been down for 2 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been battling this bug for 10 days",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been out of it for 7 days",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have been experiencing symptoms for 5 days",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My condition has persisted for 7 days",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have been under medical care for 3 days",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have been suffering from this illness for 10 days",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My symptoms have been present for 4 days",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have been receiving treatment for 6 days",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've had [symptom] for [number] days",
+        "options": [
+          "fever",
+          "cough",
+          "headache"
+        ],
+        "meaning": "describing the duration of symptoms"
+      },
+      {
+        "template": "My [condition] started [number] days ago",
+        "options": [
+          "illness",
+          "injury",
+          "allergy"
+        ],
+        "meaning": "describing the onset of a condition"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing symptoms to doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've had a fever for 3 days"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, let's take a look"
+          }
+        ]
+      },
+      {
+        "description": "Patient discussing treatment with doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been taking medication for 5 days"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "How are you feeling now?"
+          }
+        ]
+      }
+    ]
+  }
+}

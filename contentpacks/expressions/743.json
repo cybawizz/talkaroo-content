@@ -1,0 +1,179 @@
+{
+  "title": "Paying for pizza",
+  "context": "Hand the delivery driver cash or ask if they accept credit cards.",
+  "content": {
+    "bestLine": "Here's the cash for the pizza",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll pay with cash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's the payment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept credit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to pay now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cover the cost",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much do I owe you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the cash right here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll pay you now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just pay with card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much is it?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to settle the bill",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know the total",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will pay with cash",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept major credit cards?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ready to pay",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I pay now?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll pay with [options]",
+        "options": [
+          "cash",
+          "card"
+        ],
+        "meaning": "offering payment method"
+      },
+      {
+        "template": "Do you accept [options]?",
+        "options": [
+          "cash",
+          "credit cards"
+        ],
+        "meaning": "asking about payment methods"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Paying with cash",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much do I owe?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "That'll be $20 please"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Here you go"
+          }
+        ]
+      },
+      {
+        "description": "Asking about credit cards",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you accept credit cards?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yes, we do"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Great, I'll pay with card then"
+          }
+        ]
+      }
+    ]
+  }
+}

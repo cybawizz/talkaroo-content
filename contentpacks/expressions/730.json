@@ -1,0 +1,173 @@
+{
+  "title": "Checking an online bank balance",
+  "context": "Express happiness or fear when looking at your bank account app.",
+  "content": {
+    "bestLine": "Yes, I'm rich!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My balance looks good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have enough money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My account is fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all set financially",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My bank balance is okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got some savings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My money situation is stable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can cover my expenses",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm loaded!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My bank account is on point",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got cash to spare",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm financially set",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My money game is strong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good financially",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a nice cushion",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My finances are chill",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm straight fire financially!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My bank account is lowkey amazing",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm highkey rich",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My money situation is turnt",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm living large",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My finances are on fleek",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about my bank balance",
+        "options": [
+          "happy",
+          "sad",
+          "relieved"
+        ],
+        "meaning": "expressing emotions about financial situation"
+      },
+      {
+        "template": "My bank account is [options]",
+        "options": [
+          "healthy",
+          "struggling",
+          "stable"
+        ],
+        "meaning": "describing financial situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about bank balance",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just checked my bank account and I'm so relieved"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's going on? Did you get paid?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing financial situation with a partner",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Honey, I'm a bit worried about our bank balance"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Don't worry, we'll be fine. We can cut back on some expenses"
+          }
+        ]
+      }
+    ]
+  }
+}

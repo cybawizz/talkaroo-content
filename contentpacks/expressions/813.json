@@ -1,0 +1,173 @@
+{
+  "title": "Offering an invitation",
+  "context": "Politely ask someone to attend an event or gathering.",
+  "content": {
+    "bestLine": "Want to grab dinner with me tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like to join us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Care to come with us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're going out, want to come?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to come out with us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Join us for dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to eat with us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Come with us to dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'd love for you to join us",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna hang out and grab food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go out and eat!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to come out and party?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, want to grab a bite?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're going to dinner, you in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to hang out and get some food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's grab dinner together!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, let's go get some food!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you care to join us for dinner?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We'd be delighted if you could join us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're invited to dinner with us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We'd like to invite you to join us for a meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please join us for dinner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We invite you to dine with us",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options] with us?",
+        "options": [
+          "grab dinner",
+          "get some food",
+          "hang out"
+        ],
+        "meaning": "invitation to join for food or activity"
+      },
+      {
+        "template": "We're going to [options], want to come?",
+        "options": [
+          "dinner",
+          "a party",
+          "an event"
+        ],
+        "meaning": "invitation to join for a specific event"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend to dinner",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Want to grab dinner with me tonight?"
+          },
+          {
+            "speaker": "B",
+            "text": "That sounds great, where were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Inviting a colleague to lunch",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Would you care to join us for lunch?"
+          },
+          {
+            "speaker": "B",
+            "text": "I'd love to, thank you for inviting me"
+          }
+        ]
+      }
+    ]
+  }
+}

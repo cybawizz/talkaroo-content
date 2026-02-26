@@ -1,0 +1,200 @@
+{
+  "title": "Describing a bothersome person",
+  "context": "Complain to a third party about how annoying someone else is.",
+  "content": {
+    "bestLine": "They're really getting on my nerves",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They can be quite annoying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I find them to be bothersome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not my favorite person",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a fan of their behavior",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They can be a bit much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to avoid them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not very considerate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting frustrated with them",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ugh, they're so annoying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with them",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're driving me crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a break from them",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're really getting under my skin",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to tune them out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're such a pain",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over them",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "They're hella annoying",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key done with them",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "They're totes getting on my nerves",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I need a major break from them",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "They're straight up annoying",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting them",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, they're just the best",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so lucky to have them in my life",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "They're not annoying at all",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm thrilled to be around them",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "They're the most considerate person ever",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They're [options] annoying",
+        "options": [
+          "really",
+          "super",
+          "hella"
+        ],
+        "meaning": "expressing annoyance"
+      },
+      {
+        "template": "I'm [options] done with them",
+        "options": [
+          "so",
+          "low-key",
+          "totally"
+        ],
+        "meaning": "expressing frustration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, they're so annoying"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? They're always getting on my nerves"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a coworker",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm having a hard time working with them"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, they can be a bit much. Just try to focus on your work"
+          }
+        ]
+      }
+    ]
+  }
+}

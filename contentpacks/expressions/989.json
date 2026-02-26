@@ -1,0 +1,130 @@
+{
+  "title": "Expressions used under parliamentary procedure",
+  "context": "Use incredibly formal rules of order to run a strict meeting.",
+  "content": {
+    "bestLine": "The chair recognizes the speaker.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's begin the discussion.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the next agenda item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please state your question.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The meeting is now in session.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to stay on topic.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who's next to speak?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a short break.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "The chair recognizes the honorable speaker.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please address the chair.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The motion is now open for discussion.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "All in favor, please say aye.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The meeting will come to order.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The speaker is out of order.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "The [options] is recognized.",
+        "options": [
+          "chair",
+          "speaker",
+          "honorable member"
+        ],
+        "meaning": "Formal recognition of a speaker."
+      },
+      {
+        "template": "All in favor of [options], please say aye.",
+        "options": [
+          "the motion",
+          "the proposal",
+          "the amendment"
+        ],
+        "meaning": "Formal call for a vote."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Recognizing a speaker",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "The chair recognizes the speaker."
+          },
+          {
+            "speaker": "Speaker",
+            "text": "Thank you, honorable chair."
+          }
+        ]
+      },
+      {
+        "description": "Calling for a vote",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "All in favor of the motion, please say aye."
+          },
+          {
+            "speaker": "Members",
+            "text": "Aye."
+          }
+        ]
+      }
+    ]
+  }
+}

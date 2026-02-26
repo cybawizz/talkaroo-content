@@ -1,0 +1,176 @@
+{
+  "title": "Complaining about fast fashion quality",
+  "context": "Point out that a cheap shirt ripped after just one washing.",
+  "content": {
+    "bestLine": "This cheap shirt ripped after one wash, what a waste",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The quality is not good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It fell apart quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not worth the money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Poorly made clothes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does not last long",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cheap materials used",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not durable at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Disappointing purchase",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This shirt is so flimsy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ripped after one wear",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What a cheap rip-off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Fast fashion is such a scam",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with cheap clothes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This shirt is trash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not impressed with the quality",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Waste of money, if you ask me",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This shirt is hella cheap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Ripped after one wash, lol what a joke",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Fast fashion is lowkey a scam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting cheap clothes from now on",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This shirt is straight fire...ly bad",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Not turnt up about the quality",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I bought a [options] shirt and it ripped after one wash",
+        "options": [
+          "cheap",
+          "fast fashion",
+          "trendy"
+        ],
+        "meaning": "expressing disappointment with a purchase"
+      },
+      {
+        "template": "This [options] shirt is so [options]",
+        "options": [
+          "cheap",
+          "fast fashion",
+          "trendy",
+          "flimsy",
+          "low-quality",
+          "disappointing"
+        ],
+        "meaning": "describing a negative experience with a product"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about a bad purchase",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I bought this shirt and it ripped after one wash"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What a waste, that's so frustrating"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a store employee about a product",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I bought this shirt and it fell apart quickly"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the inconvenience, let me see what I can do"
+          }
+        ]
+      }
+    ]
+  }
+}

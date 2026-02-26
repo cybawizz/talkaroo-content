@@ -1,0 +1,175 @@
+{
+  "title": "Placing an order for baked goods",
+  "context": "Tell the baker what breads or pastries you want to buy.",
+  "content": {
+    "bestLine": "I'll have a loaf of whole wheat and a croissant, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to buy some bread.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a pastry?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What types of bread do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a baguette.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any muffins?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a cake, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a cookie?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special of the day?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a loaf of bread?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm craving a pastry, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any sweet treats?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a coffee cake, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's fresh out of the oven?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab a scone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a breakfast sandwich, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any vegan options?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to purchase a loaf of bread, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have a selection of pastries?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in buying a cake.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any artisanal breads available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a recommendation for a dessert.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please wrap a sandwich for me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [options] and a [options], please.",
+        "options": [
+          "loaf of bread",
+          "pastry",
+          "croissant",
+          "muffin"
+        ],
+        "meaning": "Ordering multiple items"
+      },
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "coffee cake",
+          "scone",
+          "cookie",
+          "brownie"
+        ],
+        "meaning": "Requesting a specific item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering bread",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to buy some bread."
+          },
+          {
+            "speaker": "Baker",
+            "text": "What type of bread would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Customer ordering pastry",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll take a pastry, please."
+          },
+          {
+            "speaker": "Baker",
+            "text": "Which one would you like? We have croissants, muffins, or cakes."
+          }
+        ]
+      }
+    ]
+  }
+}

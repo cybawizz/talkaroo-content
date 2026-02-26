@@ -1,0 +1,175 @@
+{
+  "title": "Telling the doctor about soreness",
+  "context": "Detail exactly which parts of your body feel tender and sore.",
+  "content": {
+    "bestLine": "My lower back and knees feel really sore.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have soreness in my muscles.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body feels tender.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing soreness.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My joints are sore.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a sore spot.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It hurts when I move.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling some discomfort.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body aches.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm super sore.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My body is killing me.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got aches all over.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling pretty beat up.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My muscles are screaming.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really feeling it today.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all achy.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got some sore spots.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing muscular soreness.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My body is exhibiting tenderness.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have discomfort in my joints.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am feeling a significant amount of pain.",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "My muscles are inflamed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a high level of soreness.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] feel sore.",
+        "options": [
+          "back",
+          "knees",
+          "muscles",
+          "joints"
+        ],
+        "meaning": "describing soreness in specific body parts"
+      },
+      {
+        "template": "I have [options] in my [options].",
+        "options": [
+          "soreness",
+          "tenderness",
+          "discomfort",
+          "pain"
+        ],
+        "meaning": "describing the type and location of soreness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing soreness to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "Hi, doc. I've been feeling really sore lately."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me where it hurts?"
+          }
+        ]
+      },
+      {
+        "description": "Patient and doctor discussing soreness",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "My lower back and knees feel really sore."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, let's take a look. Can you show me exactly where it hurts?"
+          }
+        ]
+      }
+    ]
+  }
+}

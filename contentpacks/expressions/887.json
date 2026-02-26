@@ -1,0 +1,181 @@
+{
+  "title": "Getting children to behave while traveling",
+  "context": "Tell kids in the backseat of the car to stop fighting and stay quiet.",
+  "content": {
+    "bestLine": "Please stop fighting and be quiet",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Settle down back there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the noise down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be quiet for a bit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop arguing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break from fighting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please be quiet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have some peace",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, knock it off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop bickering",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give it a rest",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Take a deep breath",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep it down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Easy does it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Calm down, guys",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist you stop fighting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from arguing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to remain quiet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I expect you to behave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a peaceful atmosphere",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you kept the noise down",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] and be quiet",
+        "options": [
+          "stop fighting",
+          "settle down",
+          "calm down"
+        ],
+        "meaning": "requesting children to stop arguing and be quiet"
+      },
+      {
+        "template": "Let's [options] for a bit",
+        "options": [
+          "take a break",
+          "keep it down",
+          "have some peace"
+        ],
+        "meaning": "suggesting a temporary pause from arguing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent asking children to stop fighting",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please stop fighting and be quiet"
+          },
+          {
+            "speaker": "Child",
+            "text": "But he started it!"
+          },
+          {
+            "speaker": "Parent",
+            "text": "I don't care who started it, just stop arguing"
+          }
+        ]
+      },
+      {
+        "description": "Parent reminding children to behave",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Remember, we need to keep the noise down"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, sorry"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Let's take a deep breath and calm down"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "title": "When someone overreacts",
+  "context": "Tell someone that they are being far too dramatic for the situation.",
+  "content": {
+    "bestLine": "You're being way too dramatic",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's an overreaction",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down, it's not that bad",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's look at this objectively",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're getting worked up over nothing",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Take a step back and breathe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not worth getting that upset",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's not blow this out of proportion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're overthinking this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're freaking out for no reason",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Take it easy, it's not a big deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're being super dramatic",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Calm down, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not that serious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't get your panties in a twist",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Relax, it's all good",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Gurl, bye with the drama",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're extra today",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, it's not that deep",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey, you're overreacting",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sis, calm down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Bruh, it's all good",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, you're so calm and rational",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how you're not overreacting at all",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're being totally reasonable",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're freaking out, it's really helpful",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Your drama is really entertaining",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, continue to overreact",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Get a grip, dude",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop being so dramatic, it's annoying",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're being a total idiot",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Calm down, or leave",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't have time for your drama",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just stop, okay?",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're being [options] dramatic",
+        "options": [
+          "way too",
+          "super",
+          "really"
+        ],
+        "meaning": "overreacting"
+      },
+      {
+        "template": "Calm down, it's not [options]",
+        "options": [
+          "that bad",
+          "a big deal",
+          "serious"
+        ],
+        "meaning": "not worth getting upset"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend overreacting about a minor issue",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "This is a disaster! I'll never recover!"
+          },
+          {
+            "speaker": "You",
+            "text": "Dude, chill out, it's just a minor setback"
+          }
+        ]
+      },
+      {
+        "description": "Coworker overreacting about a project deadline",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "We'll never meet the deadline! We're all going to get fired!"
+          },
+          {
+            "speaker": "You",
+            "text": "Let's look at this objectively, we can still make it work"
+          }
+        ]
+      }
+    ]
+  }
+}

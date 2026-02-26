@@ -1,0 +1,173 @@
+{
+  "title": "A lifeguard's instructions to swimmers",
+  "context": "Loudly tell people in the pool to stop running or follow the safety rules.",
+  "content": {
+    "bestLine": "Stop running, please follow pool rules",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please walk, don't run",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Follow pool rules",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be safe, no running",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pool safety is important",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No diving, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Swim safely, no horseplay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Respect pool rules",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Safety first, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, no running",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out, follow rules",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be reckless",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be cool, no diving",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it safe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No roughhousing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just relax, follow rules",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have fun, safely",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please refrain from running",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Adhere to pool regulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Safety protocols must be followed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "No diving or horseplay allowed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Comply with lifeguard instructions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Pool safety is our top priority",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "No [options], please",
+        "options": [
+          "running",
+          "diving",
+          "horseplay"
+        ],
+        "meaning": "Prohibiting unsafe behavior"
+      },
+      {
+        "template": "Please [options] for your safety",
+        "options": [
+          "follow rules",
+          "be careful",
+          "listen to lifeguards"
+        ],
+        "meaning": "Encouraging safe behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Lifeguard warning swimmers",
+        "lines": [
+          {
+            "speaker": "Lifeguard",
+            "text": "Stop running, please follow pool rules"
+          },
+          {
+            "speaker": "Swimmer",
+            "text": "Okay, sorry"
+          }
+        ]
+      },
+      {
+        "description": "Lifeguard reminding swimmers of safety",
+        "lines": [
+          {
+            "speaker": "Lifeguard",
+            "text": "Remember, no diving or horseplay"
+          },
+          {
+            "speaker": "Swimmer",
+            "text": "Got it, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

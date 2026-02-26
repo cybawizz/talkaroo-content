@@ -1,0 +1,135 @@
+{
+  "title": "When a restaurant is out of an item",
+  "context": "Apologize to the customer because the food they want is unavailable.",
+  "content": {
+    "bestLine": "I'm sorry, we're currently out of that item",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're out of that right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That item is not available today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, we're out of stock",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We don't have that available",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not available at this time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're currently out of that option",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not available right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've run out of that item",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I regret to inform you that we are out of that item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Unfortunately, that item is not available at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We apologize for the inconvenience, but that item is out of stock",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, but we do not have that item available today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That item is currently unavailable, I apologize",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are currently out of that item, I regret to say",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'm sorry, we're [options] out of that item",
+        "options": [
+          "currently",
+          "temporarily",
+          "completely"
+        ],
+        "meaning": "apologizing for an unavailable item"
+      },
+      {
+        "template": "We [options] have that item available",
+        "options": [
+          "don't",
+          "won't",
+          "can't"
+        ],
+        "meaning": "informing a customer of an unavailable item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Server apologizing to a customer for an unavailable item",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "I'm sorry, we're currently out of that item"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Okay, what else do you recommend?"
+          }
+        ]
+      },
+      {
+        "description": "Server offering alternatives to a customer",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "We're out of that right now, but we have a similar item"
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds good, I'll try it"
+          }
+        ]
+      }
+    ]
+  }
+}

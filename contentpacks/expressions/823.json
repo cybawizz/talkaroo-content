@@ -1,0 +1,172 @@
+{
+  "title": "When someone offers to help clean up",
+  "context": "Accept or decline a guest's offer to help you wash dishes.",
+  "content": {
+    "bestLine": "Thank you, I've got it covered",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I appreciate the offer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you, but I'm okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You don't have to do that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can handle it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's no trouble at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got this one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry about it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm almost done",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Nah, I'm good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks, but I've got it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can relax",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't bother",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No need to help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got this covered",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you, but it's not necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your offer, but I can manage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're too kind, but I've got it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of the cleaning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, don't trouble yourself",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to handle it",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thank you, but I [options]",
+        "options": [
+          "can handle it",
+          "am okay",
+          "have got it"
+        ],
+        "meaning": "declining help"
+      },
+      {
+        "template": "You [options] have to help",
+        "options": [
+          "don't",
+          "don't have to"
+        ],
+        "meaning": "declining help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest offers to help with cleaning up",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Can I help with the dishes?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Thank you, but I've got it covered"
+          }
+        ]
+      },
+      {
+        "description": "Host accepts help with cleaning up",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Let me help with the cleaning"
+          },
+          {
+            "speaker": "Host",
+            "text": "That's very kind of you, thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

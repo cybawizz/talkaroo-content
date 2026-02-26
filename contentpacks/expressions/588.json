@@ -1,0 +1,173 @@
+{
+  "title": "When a pet ruins furniture",
+  "context": "Scold an animal for scratching the sofa or chewing an expensive shoe.",
+  "content": {
+    "bestLine": "Stop scratching the sofa, kitty!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't scratch the furniture",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave the couch alone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop chewing on that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be gentle with the furniture",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't damage the shoe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your claws off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop destroying things",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful with your teeth",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, stop eating my shoes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Kitty, knock it off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop being a naughty pet",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out, pup",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a bad boy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Cut it out, furball",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop getting into trouble",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Behave yourself, pet",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, stop wrecking my stuff",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Chill, kitty, you're being extra",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't be a menace, pup",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Stop being a little monster",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Calm down, fur baby",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't get it twisted, pet",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Stop [options] the [object]",
+        "options": [
+          "scratching",
+          "chewing",
+          "eating"
+        ],
+        "meaning": "scolding a pet for ruining furniture"
+      },
+      {
+        "template": "Don't be a [options] [pet]",
+        "options": [
+          "naughty",
+          "bad",
+          "little monster"
+        ],
+        "meaning": "scolding a pet for misbehaving"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Scolding a cat for scratching the sofa",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "Stop scratching the sofa, kitty!"
+          },
+          {
+            "speaker": "Owner",
+            "text": "You're going to ruin the fabric"
+          }
+        ]
+      },
+      {
+        "description": "Scolding a dog for chewing an expensive shoe",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "Dude, stop eating my shoes!"
+          },
+          {
+            "speaker": "Owner",
+            "text": "Those are expensive, and you're going to get in trouble"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Checking a dog into a daycare or hotel",
+  "context": "Drop your pet off and give the worker their food and toys.",
+  "content": {
+    "bestLine": "I'd like to check my dog in for the day, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Here's their food and toys.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a tour of the facility?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the pickup time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How will you care for my dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've filled out the paperwork.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if there are any issues.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide updates throughout the day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate any photos or videos.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I'm dropping off my pup.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got all their stuff right here.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the vibe like here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a quick rundown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My dog's a bit anxious.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep me posted, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be back to pick them up later.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks so much for taking care of them!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to check in my dog, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have completed the necessary paperwork.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of your policies?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate regular updates on my dog's status.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure my dog receives proper care.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will return to collect my dog at the designated time.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm dropping off my [options] for the day.",
+        "options": [
+          "dog",
+          "pup",
+          "pet"
+        ],
+        "meaning": "leaving a pet in someone's care"
+      },
+      {
+        "template": "Can you [options] my dog during their stay?",
+        "options": [
+          "give updates on",
+          "provide care for",
+          "keep an eye on"
+        ],
+        "meaning": "requesting specific care for a pet"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking a dog into daycare",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "Hi, I'd like to check my dog in for the day."
+          },
+          {
+            "speaker": "Staff",
+            "text": "Great, let me just get some information from you."
+          }
+        ]
+      },
+      {
+        "description": "Discussing dog care with staff",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "How will you care for my dog today?"
+          },
+          {
+            "speaker": "Staff",
+            "text": "We'll make sure they get plenty of exercise and attention."
+          }
+        ]
+      }
+    ]
+  }
+}

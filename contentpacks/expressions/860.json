@@ -1,0 +1,172 @@
+{
+  "title": "A taxi driver identifying the destination",
+  "context": "Confirm the exact street address the passenger wants to go to.",
+  "content": {
+    "bestLine": "What's the exact address you're heading to?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where can I take you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you headed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you need to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the street address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the address from you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Where to?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the address?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you off to?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I drop you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drop-off point?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you want to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me the address",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you headed to?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the destination address?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to confirm the address, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your intended destination?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the exact address, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you confirm the drop-off location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require the precise address to ensure accurate navigation.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I take you to [options]?",
+        "options": [
+          "your destination",
+          "the airport",
+          "downtown"
+        ],
+        "meaning": "Asking for the passenger's destination"
+      },
+      {
+        "template": "The address is [options], right?",
+        "options": [
+          "123 Main St",
+          "456 Elm St"
+        ],
+        "meaning": "Confirming the destination address"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Taxi driver confirming destination",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "Where can I take you?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "I'm heading to 123 Main St"
+          }
+        ]
+      },
+      {
+        "description": "Taxi driver clarifying destination",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "What's the exact address you're heading to?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "It's 456 Elm St, apartment 3"
+          }
+        ]
+      }
+    ]
+  }
+}

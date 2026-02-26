@@ -1,0 +1,173 @@
+{
+  "title": "Requesting merchandise at a drugstore",
+  "context": "Ask a pharmacy worker where to find basic health or beauty items.",
+  "content": {
+    "bestLine": "Where can I find the pain relievers?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm looking for toothpaste",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the vitamins?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the skincare products?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help finding the cold medicine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any face masks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where the hair care products are?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find the first aid kit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the baby care items?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's the acetaminophen?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point me to the shampoo?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find some lip balm",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys have any eye masks?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the best place to find some cough drops?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out with some hand sanitizer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for some pain relievers, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the contact lenses?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please direct me to the pharmacy section?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to purchase some over-the-counter medication",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where might I find the personal care products?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of assistance locating the health and wellness section",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me of the location of the beauty products?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require guidance in finding the medical supplies",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where can I find the [options]?",
+        "options": [
+          "toothpaste",
+          "vitamins",
+          "skincare products"
+        ],
+        "meaning": "requesting location of a product"
+      },
+      {
+        "template": "Can you show me the [options]?",
+        "options": [
+          "cold medicine",
+          "hair care products",
+          "baby care items"
+        ],
+        "meaning": "requesting assistance in finding a product"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for pain relievers",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Where can I find the pain relievers?"
+          },
+          {
+            "speaker": "Pharmacy Worker",
+            "text": "Aisle 3, right over there"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for skincare products",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you show me the skincare products?"
+          },
+          {
+            "speaker": "Pharmacy Worker",
+            "text": "Let me take you to the skincare section"
+          }
+        ]
+      }
+    ]
+  }
+}

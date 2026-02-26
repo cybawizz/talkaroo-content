@@ -1,0 +1,173 @@
+{
+  "title": "Statements made to a marriage counselor",
+  "context": "Discuss deep relationship problems with a couples therapist.",
+  "content": {
+    "bestLine": "We need to work through our issues together",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel unheard",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're growing apart",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our communication is broken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to find a compromise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want us to be happy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our relationship is struggling",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm really frustrated",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not listening to me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like we're roommates",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need you to understand me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not connecting anymore",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm tired of fighting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I want us to be us again",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like I'm walking on eggshells",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe we have a communication problem",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our relationship is experiencing difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think we need to reevaluate our priorities",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about the state of our marriage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe we need to work on our intimacy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think we should consider couples therapy",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I feel [options] when you [action]",
+        "options": [
+          "hurt",
+          "angry",
+          "unheard"
+        ],
+        "meaning": "Expressing emotions in response to partner's actions"
+      },
+      {
+        "template": "We need to [options] our communication",
+        "options": [
+          "improve",
+          "work on",
+          "fix"
+        ],
+        "meaning": "Identifying the need for better communication"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Couples therapy session",
+        "lines": [
+          {
+            "speaker": "Wife",
+            "text": "I feel like you're not listening to me"
+          },
+          {
+            "speaker": "Husband",
+            "text": "I am listening, I just don't know what to say"
+          }
+        ]
+      },
+      {
+        "description": "Marriage counseling",
+        "lines": [
+          {
+            "speaker": "Therapist",
+            "text": "What seems to be the main issue in your relationship?"
+          },
+          {
+            "speaker": "Husband",
+            "text": "I think we've just grown apart over time"
+          }
+        ]
+      }
+    ]
+  }
+}

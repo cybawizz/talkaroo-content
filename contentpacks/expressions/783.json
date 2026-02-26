@@ -1,0 +1,166 @@
+{
+  "title": "Taking your order at a cafe",
+  "context": "Ask the barista what kind of coffee you would like.",
+  "content": {
+    "bestLine": "What kind of coffee can I get for you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What type of coffee would you like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you a coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your coffee order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I start your coffee order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of coffee do you want?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take your coffee order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What coffee can I make for you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's your go-to coffee order?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Coffee time! What can I get you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your coffee game today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Need a coffee fix?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your coffee vibe?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Coffee, yeah?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get your coffee on!",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I take your coffee order, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to assist you with your coffee selection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What type of coffee would you like to order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I interest you in one of our specialty coffees?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I start your coffee order today?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get you a [options] coffee?",
+        "options": [
+          "latte",
+          "cappuccino",
+          "mocha"
+        ],
+        "meaning": "Asking for a specific type of coffee"
+      },
+      {
+        "template": "What's your [options] coffee order?",
+        "options": [
+          "usual",
+          "go-to",
+          "favorite"
+        ],
+        "meaning": "Asking for a regular or preferred coffee order"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple coffee order",
+        "lines": [
+          {
+            "speaker": "Barista",
+            "text": "What kind of coffee can I get for you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Just a latte, please."
+          }
+        ]
+      },
+      {
+        "description": "Coffee order with options",
+        "lines": [
+          {
+            "speaker": "Barista",
+            "text": "Can I get you a coffee? We have a special on our fall flavors."
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds great. What flavors do you have?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "We have pumpkin spice, apple cinnamon, and maple pecan."
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll try the pumpkin spice latte."
+          }
+        ]
+      }
+    ]
+  }
+}

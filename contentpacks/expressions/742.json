@@ -1,0 +1,173 @@
+{
+  "title": "Concerning the payment of a bill",
+  "context": "Discuss who is going to pay the check or if you are splitting it.",
+  "content": {
+    "bestLine": "Shall we split the bill?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Who's paying?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you want to pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to split it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got this one.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we pay separately?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who paid last time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just split it.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm buying!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My treat!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this one?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Split it down the middle?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cover it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You pay, I'll tip.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Next one's on me.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just Venmo it.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I settle the bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to pay.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we divide the check?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of it.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to pay together?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cover the expenses.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you want to [options] the bill?",
+        "options": [
+          "split",
+          "pay together",
+          "divide"
+        ],
+        "meaning": "Asking how to handle the payment"
+      },
+      {
+        "template": "I'll [options] the check.",
+        "options": [
+          "pay",
+          "cover",
+          "take care of"
+        ],
+        "meaning": "Offering to pay the bill"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends deciding how to pay",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Shall we split the bill?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, that sounds fair."
+          }
+        ]
+      },
+      {
+        "description": "A group of coworkers discussing payment",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "Who's paying for lunch?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I've got it this time."
+          }
+        ]
+      }
+    ]
+  }
+}

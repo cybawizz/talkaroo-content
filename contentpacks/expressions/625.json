@@ -1,0 +1,121 @@
+{
+  "title": "Rage quitting a video game",
+  "context": "Angrily state that the computer is cheating and immediately log off.",
+  "content": {
+    "bestLine": "This game is cheating, I'm outta here!",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "This game is so rigged!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done with this stupid game!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can't believe I just got cheated!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This game is a total joke!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm quitting, this is ridiculous!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What a waste of time, I'm out!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "This game is hella rigged, yo!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting this game, it's whack!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This game is straight trash, I'm done!",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [],
+      "rude": [
+        {
+          "text": "Screw this game, it's a damn cheat!",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This game can suck it, I'm out!",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This game is [options]!",
+        "options": [
+          "cheating",
+          "rigged",
+          "trash"
+        ],
+        "meaning": "expressing frustration with the game"
+      },
+      {
+        "template": "I'm [options] this game, it's [options]!",
+        "options": [
+          "quitting",
+          "done with",
+          "ghosting"
+        ],
+        "meaning": "announcing decision to stop playing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Rage quitting a multiplayer game",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "This game is so rigged, I'm outta here!"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Dude, calm down, it's just a game!"
+          }
+        ]
+      },
+      {
+        "description": "Rage quitting a single-player game",
+        "lines": [
+          {
+            "speaker": "Player",
+            "text": "Screw this game, it's a damn cheat! I'm done!"
+          },
+          {
+            "speaker": "Game AI",
+            "text": "Would you like to restart or quit the game?"
+          }
+        ]
+      }
+    ]
+  }
+}

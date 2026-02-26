@@ -1,0 +1,173 @@
+{
+  "title": "Questions about rules in rental lodging",
+  "context": "Ask the landlord if pets are allowed in the apartment.",
+  "content": {
+    "bestLine": "Are pets allowed in the apartment?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you allow pets?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are pets permitted?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bring my pet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your pet policy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are animals allowed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have pet-friendly apartments?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can pets live here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay to have a pet?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I have a pet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys allow pets?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bring my dog?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with pets?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are pets cool here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a pet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do pets get to stay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it pet-friendly?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about your pet policy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are pets permitted in the rental unit?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about pet restrictions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about your pet policy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any restrictions on having pets?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if pets are allowed in the apartment.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are [options] allowed?",
+        "options": [
+          "pets",
+          "animals",
+          "dogs"
+        ],
+        "meaning": "Asking about permission for a specific type of pet"
+      },
+      {
+        "template": "What's your policy on [options]?",
+        "options": [
+          "pets",
+          "animals",
+          "renting with pets"
+        ],
+        "meaning": "Inquiring about the general rules regarding pets"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Tenant asking landlord about pet policy",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Hi, I'm interested in renting this apartment. Are pets allowed?"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "Yes, we allow pets, but there's a monthly fee and some breed restrictions."
+          }
+        ]
+      },
+      {
+        "description": "Landlord informing tenant about pet policy",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "Before we proceed, I want to inform you that we have a pet-friendly policy, but there are some rules to follow."
+          },
+          {
+            "speaker": "Tenant",
+            "text": "That's great, thank you for letting me know. What are the rules?"
+          }
+        ]
+      }
+    ]
+  }
+}

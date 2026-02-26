@@ -1,0 +1,205 @@
+{
+  "title": "Commenting on the taste of food",
+  "context": "Express your honest opinion on how a meal or drink tastes.",
+  "content": {
+    "bestLine": "This tastes amazing!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's really good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The flavor is nice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like the taste",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's quite tasty",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The food is delicious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm enjoying this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's very flavorful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's great",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is so good!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The taste is on point",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's super delicious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is my jam",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally into this",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The cuisine is excellent",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate the flavor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The dish is well-prepared",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The taste is superb",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm impressed by the quality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The food is exceptional",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's straight flames",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is the bomb",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key loving it",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This [options] is great",
+        "options": [
+          "food",
+          "drink",
+          "meal"
+        ],
+        "meaning": "Expressing enjoyment of something"
+      },
+      {
+        "template": "I'm [options] this",
+        "options": [
+          "loving",
+          "enjoying",
+          "obsessed with"
+        ],
+        "meaning": "Showing strong appreciation for something"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends trying a new restaurant",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "How's your food?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "It's really good, I love the flavor"
+          }
+        ]
+      },
+      {
+        "description": "A person commenting on a drink",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "This coffee is amazing"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Glad you like it, we source our beans locally"
+          }
+        ]
+      }
+    ]
+  }
+}

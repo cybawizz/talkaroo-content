@@ -1,0 +1,205 @@
+{
+  "title": "When someone is reluctant to argue",
+  "context": "Point out that someone is refusing to defend themselves in a conflict.",
+  "content": {
+    "bestLine": "You're not even going to stand up for yourself?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Why won't you argue your point?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not defending yourself.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't you want to express your opinion?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It seems like you're giving up.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Why are you backing down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not even trying to make your case.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's like you're not even interested.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't you care about the outcome?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "C'mon, say something!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't let them walk all over you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stand up for yourself, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're just gonna take that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Fight for what you want.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a pushover.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Say what's on your mind.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't back down now.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Don't be a simp, speak up!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey, you're getting played.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Highkey, you need to stand up.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, you're getting walked all over.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Salty about it, but say something.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't get clowned, defend yourself.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, just let them win.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, you're really standing up for yourself.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how you're just rolling over.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're so brave, not speaking up.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is really working out for you, isn't it?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Keep letting them walk all over you.",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're not even going to [options]?",
+        "options": [
+          "stand up for yourself",
+          "say something",
+          "defend your point"
+        ],
+        "meaning": "expressing surprise at someone's reluctance to argue"
+      },
+      {
+        "template": "Don't [options], speak up!",
+        "options": [
+          "be a pushover",
+          "get walked all over",
+          "let them win"
+        ],
+        "meaning": "encouraging someone to defend themselves"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend is reluctant to argue with someone who is taking advantage of them.",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I don't want to make a big deal out of it."
+          },
+          {
+            "speaker": "You",
+            "text": "You're not even going to stand up for yourself?"
+          }
+        ]
+      },
+      {
+        "description": "Someone is not defending their opinion in a discussion.",
+        "lines": [
+          {
+            "speaker": "Someone",
+            "text": "I guess you're right."
+          },
+          {
+            "speaker": "You",
+            "text": "Don't you want to express your opinion?"
+          }
+        ]
+      }
+    ]
+  }
+}

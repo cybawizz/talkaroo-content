@@ -1,0 +1,119 @@
+{
+  "title": "When a police officer stops a driver",
+  "context": "Talk to a cop after getting pulled over for speeding.",
+  "content": {
+    "bestLine": "I understand I was speeding, officer.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What seems to be the issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wasn't aware of the speed limit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see your badge, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to cooperate.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How fast was I going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the mistake.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the next step?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate your diligence, officer.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was not aware of the speed limit in this area.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request your badge number?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am willing to accept a warning or citation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please advise me on the proper procedure.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I was [options] when I got pulled over.",
+        "options": [
+          "driving to work",
+          "on my way home"
+        ],
+        "meaning": "explaining the situation"
+      },
+      {
+        "template": "Can you [options] my license and registration?",
+        "options": [
+          "please check",
+          "look at"
+        ],
+        "meaning": "requesting the officer to review documents"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A driver gets pulled over for speeding and has a neutral conversation with the police officer.",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "What seems to be the issue?"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "You were speeding, sir. License and registration, please."
+          }
+        ]
+      },
+      {
+        "description": "A driver gets pulled over for speeding and has a formal conversation with the police officer.",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "I appreciate your diligence, officer."
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "You were doing 80 in a 55 zone. Can I see your license and registration?"
+          }
+        ]
+      }
+    ]
+  }
+}

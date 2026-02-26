@@ -1,0 +1,179 @@
+{
+  "title": "Giving a child instructions for cleanliness",
+  "context": "Tell a kid to wash their hands or clean up their mess.",
+  "content": {
+    "bestLine": "Please wash your hands now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Wash your hands",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up your mess",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's clean up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to wash up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure to clean your hands",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get cleaned up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cleanliness is important",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wash those hands",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, wash up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this cleaned up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time for a wash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get those hands clean",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's clean this mess",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wash your hands, okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up, please",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please wash your hands",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for cleanliness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain hygiene",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Cleanliness is essential",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please clean up your area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wash your hands thoroughly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] our hands",
+        "options": [
+          "wash",
+          "clean"
+        ],
+        "meaning": "cleaning hands"
+      },
+      {
+        "template": "It's time to [options] up",
+        "options": [
+          "clean",
+          "wash"
+        ],
+        "meaning": "cleaning up"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent instructing a child to wash hands",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please wash your hands now"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, why?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "So we can stay healthy and clean"
+          }
+        ]
+      },
+      {
+        "description": "Caregiver asking a child to clean up",
+        "lines": [
+          {
+            "speaker": "Caregiver",
+            "text": "Let's clean up this mess"
+          },
+          {
+            "speaker": "Child",
+            "text": "But I don't want to"
+          },
+          {
+            "speaker": "Caregiver",
+            "text": "It's fun to clean up together"
+          }
+        ]
+      }
+    ]
+  }
+}

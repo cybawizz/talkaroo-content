@@ -1,0 +1,162 @@
+{
+  "title": "Requesting a glass or bottle of beer",
+  "context": "Order a specific type and size of beer from the bartender.",
+  "content": {
+    "bestLine": "I'll have a pint of IPA, please",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a beer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a beer, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What beers do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a lager",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I try your pale ale?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any stouts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a glass of your darkest beer",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Give me a cold one",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna need a beer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best beer you've got?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hook me up with a pint",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll take a beer, whatever's good",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a brew?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Beer me",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a beer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a beer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a beer, if you please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a beer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to try your specialty beer",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [size] of [beer type]",
+        "options": [
+          "pint",
+          "glass",
+          "bottle",
+          "IPA",
+          "lager",
+          "pale ale"
+        ],
+        "meaning": "Order a specific beer"
+      },
+      {
+        "template": "Can I get a [beer type]?",
+        "options": [
+          "beer",
+          "lager",
+          "ale",
+          "stout"
+        ],
+        "meaning": "Ask for a specific beer"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ordering a beer at the bar",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a pint of IPA, please"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Coming right up"
+          }
+        ]
+      },
+      {
+        "description": "Asking for beer recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What beers do you have?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "We have a variety of IPAs, lagers, and stouts"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Asking a massage therapist for more pressure",
+  "context": "Tell the worker that they need to push much harder on your shoulders.",
+  "content": {
+    "bestLine": "Can you press harder on my shoulders, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need more pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you apply more pressure?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like more pressure on my shoulders",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please press harder",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "More pressure would be great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you go deeper?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a bit more force",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you dig in a bit more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yeah, press harder",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good with more pressure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go ahead and push harder",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can take more",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me some extra pressure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be shy, press harder",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could apply more pressure",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please increase the pressure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a bit more pressure for optimal relief",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, apply more force to the affected area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request more pressure, if possible",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] on my shoulders?",
+        "options": [
+          "press harder",
+          "apply more pressure",
+          "go deeper"
+        ],
+        "meaning": "Requesting more pressure"
+      },
+      {
+        "template": "I need [options] for this to be effective",
+        "options": [
+          "more pressure",
+          "a bit more force",
+          "deeper strokes"
+        ],
+        "meaning": "Asking for adjustment in pressure"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Client asking for more pressure during a massage",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "Can you press harder on my shoulders, please?"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "Of course, I'll apply more pressure"
+          }
+        ]
+      },
+      {
+        "description": "Client and therapist discussing pressure",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I think I need a bit more pressure for this to feel right"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "Okay, let me adjust my technique. Is this better?"
+          }
+        ]
+      }
+    ]
+  }
+}

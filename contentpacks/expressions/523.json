@@ -1,0 +1,205 @@
+{
+  "title": "When you are in trouble",
+  "context": "Admit that you have made a mistake and face consequences.",
+  "content": {
+    "bestLine": "I made a mistake, and I'm willing to face the consequences.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I was wrong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I take responsibility",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was my fault",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should have known better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make it right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll learn from this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was in the wrong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll own up to it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was my mistake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll fix it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No excuses",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I acknowledge my error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I take full responsibility",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize sincerely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will rectify the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I accept the consequences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will learn from this experience",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella sorry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My fault, yo",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I messed up, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I got it wrong, fam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll cop to it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That was a major fail",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] my mistake",
+        "options": [
+          "admit",
+          "acknowledge",
+          "own up to"
+        ],
+        "meaning": "taking responsibility"
+      },
+      {
+        "template": "I will [options] the consequences",
+        "options": [
+          "face",
+          "accept",
+          "deal with"
+        ],
+        "meaning": "facing the results of one's actions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really sorry for what I did"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's okay, I know you didn't mean to"
+          }
+        ]
+      },
+      {
+        "description": "Admitting a mistake at work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I take full responsibility for the error"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Thank you for owning up to it, let's discuss how to fix it"
+          }
+        ]
+      }
+    ]
+  }
+}

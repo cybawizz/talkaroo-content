@@ -1,0 +1,181 @@
+{
+  "title": "Payment for an entertainment event",
+  "context": "Hand the ticket agent your money or card to pay for tickets.",
+  "content": {
+    "bestLine": "Here's my payment for the tickets.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to pay now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's my money.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll pay with card.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm paying for two tickets.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with cash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to pay upfront.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much do I need to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got my card right here.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just pay with my phone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good for it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just put it on my card.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I pay for this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cover the cost.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to proceed with payment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know the total amount due.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am prepared to pay by card.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide the payment options?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ready to finalize the payment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the preferred method of payment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll pay with [options].",
+        "options": [
+          "card",
+          "cash",
+          "phone"
+        ],
+        "meaning": "offering payment method"
+      },
+      {
+        "template": "The total comes out to be [options].",
+        "options": [
+          "$100",
+          "$50",
+          "$200"
+        ],
+        "meaning": "stating the total cost"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Paying for tickets at the counter",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much do I need to pay?"
+          },
+          {
+            "speaker": "Ticket Agent",
+            "text": "The total comes out to be $50."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Here's my card."
+          }
+        ]
+      },
+      {
+        "description": "Paying for event tickets online",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to pay now."
+          },
+          {
+            "speaker": "System",
+            "text": "Please enter your card details."
+          },
+          {
+            "speaker": "Customer",
+            "text": "I've entered my card information."
+          }
+        ]
+      }
+    ]
+  }
+}

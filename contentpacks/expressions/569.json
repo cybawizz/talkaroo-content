@@ -1,0 +1,205 @@
+{
+  "title": "Complaining a restaurant is closed",
+  "context": "Groan because the taco place just locked their doors before you arrived.",
+  "content": {
+    "bestLine": "Ugh, they just locked up, I'm starving!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The restaurant is closed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm disappointed they're not open",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The taco place is shut down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was looking forward to eating here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's too late to find another place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish they had later hours",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is really inconvenient",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to have to find somewhere else",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Aw man, they're closed already",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so hungry, this sucks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can't believe they locked up early",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Now I'm stuck with no food",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a total bummer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was really craving tacos",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Guess I'll have to settle for something else",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What a pain, now I'm starving",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bummer, dude, they're closed",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hella hungry, this is whack",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "They're ghosting me, no food tonight",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This is a major fail, I'm starving",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key hangry, this sucks",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Taco 'bout a bad night",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Great, just what I needed, a closed restaurant",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Oh, awesome, they're closed, just perfect",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Just what I wanted, a midnight snack at home",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "This is just the best night ever, said no one",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so glad I didn't get to eat, it's not like I'm starving",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Yeah, because closing early is exactly what customers want",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I was [options] to get some food",
+        "options": [
+          "really looking forward",
+          "hoping",
+          "dying"
+        ],
+        "meaning": "expressing disappointment"
+      },
+      {
+        "template": "This is [options], I'm so hungry",
+        "options": [
+          "a total bummer",
+          "super frustrating",
+          "really annoying"
+        ],
+        "meaning": "expressing frustration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, they just locked up, I'm starving!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Aw man, that's a bummer, what were you craving?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to the restaurant staff",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, I just got here and you're closed?"
+          },
+          {
+            "speaker": "Staff",
+            "text": "Sorry, we close at 10 PM, come back tomorrow"
+          }
+        ]
+      }
+    ]
+  }
+}

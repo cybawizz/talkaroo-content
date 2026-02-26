@@ -1,0 +1,173 @@
+{
+  "title": "Indicating that you have had enough to eat",
+  "context": "Politely state that you are full and do not want more food.",
+  "content": {
+    "bestLine": "I'm full, thank you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm all set",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had enough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No more for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm full now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's enough for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had my fill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm satisfied",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm stuffed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done eating",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No more food for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've had my share",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm full up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's it for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all done",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've reached my limit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sufficiently full",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've had a satisfactory meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't require any more food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm content with what I've eaten",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've had enough to eat, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] now",
+        "options": [
+          "full",
+          "done",
+          "set"
+        ],
+        "meaning": "indicating satisfaction with the amount of food eaten"
+      },
+      {
+        "template": "No more [options] for me",
+        "options": [
+          "food",
+          "eating",
+          "dessert"
+        ],
+        "meaning": "declining additional food or drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Declining a second helping",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Would you like some more?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "No, I'm full, thank you"
+          }
+        ]
+      },
+      {
+        "description": "Ending a meal",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Can I get you anything else?"
+          },
+          {
+            "speaker": "Diner",
+            "text": "No, I'm all set"
+          }
+        ]
+      }
+    ]
+  }
+}

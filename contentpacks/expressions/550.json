@@ -1,0 +1,185 @@
+{
+  "title": "Arguing over board game rules",
+  "context": "Angrily state that what your friend just did is totally against the rules.",
+  "content": {
+    "bestLine": "That's totally against the rules, are you kidding me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's not how you play",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can't do that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not fair",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're mistaken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not allowed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not following the rules",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's cheating",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, that's not how you play",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're totally breaking the rules",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's so not cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can't just do that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not how we play",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're ruining the game",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That's hella against the rules",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're totes cheating",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's whack, dude",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're lowkey breaking the rules",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's not turnt up right",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you even paying attention?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most ridiculous thing I've ever seen",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're such a cheater",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get it together, man",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That's just stupid",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You can't [options] and expect to win",
+        "options": [
+          "cheat",
+          "break the rules",
+          "get away with it"
+        ],
+        "meaning": "You're not following the rules and it's not fair"
+      },
+      {
+        "template": "That's [options] against the rules",
+        "options": [
+          "totally",
+          "completely",
+          "totally not"
+        ],
+        "meaning": "What you did is not allowed"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Arguing with a friend over board game rules",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "That's not how you play"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Yes it is, I'm allowed to do that"
+          }
+        ]
+      },
+      {
+        "description": "Disagreeing with a friend about a game move",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "You can't do that, it's against the rules"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "I don't care, I'm doing it anyway"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "title": "When you feel like vomiting",
+  "context": "Warn someone that you are incredibly nauseous and might throw up.",
+  "content": {
+    "bestLine": "I'm going to be sick, get me a bucket",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel nauseous",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I'm going to vomit",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some fresh air",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling queasy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm about to throw up",
+          "register": "neutral",
+          "risk": "high"
+        },
+        {
+          "text": "I'm extremely nauseous",
+          "register": "neutral",
+          "risk": "high"
+        },
+        {
+          "text": "I need to sit down",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna puke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like I'm going to throw up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so nauseous",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think I'm getting sick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a barf bag",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm feeling really queasy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm about to lose my lunch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm super nauseous right now",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing nausea",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am feeling unwell",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe I may vomit",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I require some assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling well enough to continue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to excuse myself",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm totes gonna hurl",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm feeling hella nauseous",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm gonna blow chunks",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm super green",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] if I don't get some fresh air",
+        "options": [
+          "throw up",
+          "pass out",
+          "get sick"
+        ],
+        "meaning": "feeling extremely nauseous"
+      },
+      {
+        "template": "I feel like I'm [options] and need to sit down",
+        "options": [
+          "going to throw up",
+          "getting sick",
+          "about to pass out"
+        ],
+        "meaning": "feeling extremely nauseous"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a friend that you are feeling nauseous",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not feeling well, I think I'm going to throw up"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh no, do you need some water or a bucket?"
+          }
+        ]
+      },
+      {
+        "description": "Telling a coworker that you need to take a break due to nausea",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm experiencing some nausea and need to step outside for some fresh air"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, take your time and feel better"
+          }
+        ]
+      }
+    ]
+  }
+}

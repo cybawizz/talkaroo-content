@@ -1,0 +1,173 @@
+{
+  "title": "Requesting that certain foods not be served",
+  "context": "Ask the kitchen to remove an ingredient from your meal.",
+  "content": {
+    "bestLine": "Can you hold the mayo on my sandwich?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Leave out the nuts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No onions, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you omit the cheese?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold the sauce",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No peppers, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it without gluten?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave off the bacon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No eggs, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you ditch the pickles?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No way, Jose, on the jalapenos",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Lose the lettuce",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Nix the noodles",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Skip the sausage",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it sans soy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No thanks on the tomatoes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold off on the horseradish",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request no MSG",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please omit the olives?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer my meal without capers",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request no artificial sweeteners?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could hold the garlic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you prepare my dish without shellfish?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] on my [dish]?",
+        "options": [
+          "hold the mayo",
+          "leave out the nuts",
+          "omit the cheese"
+        ],
+        "meaning": "requesting ingredient removal"
+      },
+      {
+        "template": "I would like my [dish] [options]",
+        "options": [
+          "without onions",
+          "with no sauce",
+          "prepared without gluten"
+        ],
+        "meaning": "requesting ingredient removal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting no nuts in their salad",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you leave out the nuts on my salad?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, I'll let the kitchen know"
+          }
+        ]
+      },
+      {
+        "description": "Diner asking for no cheese on their burger",
+        "lines": [
+          {
+            "speaker": "Diner",
+            "text": "Can you hold the cheese on my burger?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we can do that. Would you like any other modifications?"
+          }
+        ]
+      }
+    ]
+  }
+}

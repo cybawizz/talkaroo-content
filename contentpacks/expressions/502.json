@@ -1,0 +1,173 @@
+{
+  "title": "Getting groceries to the car",
+  "context": "Ask an employee to help load bags into your vehicle.",
+  "content": {
+    "bestLine": "Can you help me load these bags into my car?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help with my groceries",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with loading?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer help with carrying bags?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I could use some help getting these to my car",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there someone who can help me load my vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some assistance with my groceries?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a cart attendant who can help me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate help loading my groceries",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you help me load my stuff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a hand with these bags?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna need some help getting this to my car",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys help with loading groceries?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can someone help me carry these out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I could really use a hand here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you lend me a hand with my groceries?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need some help getting this loaded up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate assistance with loading my vehicle",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please help me load my groceries?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require help with carrying my bags to the car",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to get help with loading my groceries?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request assistance with loading my vehicle",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have help loading my groceries into my car?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you help me load [options] into my [vehicle]?",
+        "options": [
+          "groceries",
+          "bags",
+          "stuff"
+        ],
+        "meaning": "Requesting help with loading items into a vehicle"
+      },
+      {
+        "template": "I need help [options] my groceries to the [location]",
+        "options": [
+          "carrying",
+          "loading",
+          "transporting"
+        ],
+        "meaning": "Requesting assistance with moving groceries"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for help loading groceries",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, can you help me load these bags into my car?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Of course, let me just finish scanning this customer and I'll be right with you"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting assistance with loading",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you offer help with carrying bags to the car?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, we do. Let me call someone to assist you"
+          }
+        ]
+      }
+    ]
+  }
+}

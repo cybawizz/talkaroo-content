@@ -1,0 +1,175 @@
+{
+  "title": "Information about foreign exchange rates",
+  "context": "Ask what the current trading value is for a foreign currency.",
+  "content": {
+    "bestLine": "What's the current exchange rate for euros?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the current exchange rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the exchange rate for dollars?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the yen trading for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the rate for pounds today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the current rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need the exchange rate for francs.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the trading value for euros now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the current exchange rate please?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the exchange rate looking like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much can I get for my dollars?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's a good rate for yen right now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a quick exchange rate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the rate for pounds ASAP.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best rate I can get for euros?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the exchange rate today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check the current rate for me?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the current exchange rate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the exchange rate for dollars.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the current trading value for foreign currencies?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require the exchange rate for pounds sterling.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me of the current exchange rate for euros?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the current exchange rate for business purposes.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's the current exchange rate for [options]?",
+        "options": [
+          "euros",
+          "dollars",
+          "yen",
+          "pounds"
+        ],
+        "meaning": "inquire about the current trading value"
+      },
+      {
+        "template": "Can I get the exchange rate for [options]?",
+        "options": [
+          "foreign currencies",
+          "dollars",
+          "euros",
+          "pounds"
+        ],
+        "meaning": "request the current exchange rate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about exchange rates at a bank",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, what's the current exchange rate for euros?"
+          },
+          {
+            "speaker": "Bank Teller",
+            "text": "Let me check that for you. The current rate is 1 euro to 1.12 dollars."
+          }
+        ]
+      },
+      {
+        "description": "Traveler asking about exchange rates at an airport",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Excuse me, can you tell me the current exchange rate for pounds?"
+          },
+          {
+            "speaker": "Airport Staff",
+            "text": "Yes, the current rate is 1 pound to 1.32 dollars."
+          }
+        ]
+      }
+    ]
+  }
+}

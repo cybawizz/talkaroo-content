@@ -1,0 +1,173 @@
+{
+  "title": "Concerning speed in a taxi",
+  "context": "Tell the cab driver to slow down or speed up because you are late.",
+  "content": {
+    "bestLine": "Could you please speed up, I'm running late?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please slow down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speed up a bit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a hurry, can you go faster?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please drive more slowly?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about stepping on it?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's take it easy, okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we make it go a bit faster?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please drive safely, but hurry",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you go faster?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, step on it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's move, I'm late",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take the fast route?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, hurry up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm running super late, can you speed up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy, but not too easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get moving, I've got a deadline",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could drive more quickly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please increase your speed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am running behind schedule, could you hurry?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please drive at a safe but expedited pace",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to arrive as soon as possible, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you take the most efficient route?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you please [options]?",
+        "options": [
+          "slow down",
+          "speed up"
+        ],
+        "meaning": "Requesting the driver to adjust speed"
+      },
+      {
+        "template": "I'm [options], can you [options]?",
+        "options": [
+          "running late",
+          "in a hurry",
+          "go faster",
+          "step on it"
+        ],
+        "meaning": "Asking the driver to hurry due to time constraints"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the driver to speed up due to being late",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, could you please speed up? I'm running late"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Of course, I'll try to get you there as quickly as possible"
+          }
+        ]
+      },
+      {
+        "description": "Requesting the driver to slow down",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Could you please slow down? I'm getting a bit anxious"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, I'll reduce my speed. Is this better?"
+          }
+        ]
+      }
+    ]
+  }
+}

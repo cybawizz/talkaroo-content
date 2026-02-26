@@ -1,0 +1,200 @@
+{
+  "title": "Expressing disappointment with a result",
+  "context": "Complain that something did not meet your expectations at all.",
+  "content": {
+    "bestLine": "This didn't meet my expectations at all.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not satisfied with the result.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It didn't turn out as I hoped.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The outcome is disappointing.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I expected more from this.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't what I was looking for.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The result is not up to par.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not impressed with the outcome.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It falls short of my expectations.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is a total letdown.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was really looking forward to something better.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's just not what I wanted.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm super disappointed with this.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a bummer.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was expecting so much more.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not even close to what I hoped for.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a major disappointment.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The result does not meet my expectations.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am disappointed with the outcome.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The final product is not satisfactory.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I had anticipated a better result.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The outcome is not in line with my expectations.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not pleased with the result.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is a total fail.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella disappointed.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is whack.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was low-key expecting more.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is a major bummer, dude.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] expected more from this.",
+        "options": [
+          "was really hoping",
+          "had hoped",
+          "was looking forward to"
+        ],
+        "meaning": "expressing disappointment"
+      },
+      {
+        "template": "This [options] not what I wanted.",
+        "options": [
+          "is totally",
+          "is completely",
+          "is just not"
+        ],
+        "meaning": "expressing dissatisfaction"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about a disappointing movie",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm so disappointed with the new movie."
+          },
+          {
+            "speaker": "B",
+            "text": "What didn't you like about it?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a disappointing project result with a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The project didn't turn out as I hoped."
+          },
+          {
+            "speaker": "B",
+            "text": "Let's review what went wrong and how we can improve next time."
+          }
+        ]
+      }
+    ]
+  }
+}

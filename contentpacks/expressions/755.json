@@ -1,0 +1,148 @@
+{
+  "title": "Expressions used with a newspaper agent",
+  "context": "Ask to cancel or pause your newspaper delivery service.",
+  "content": {
+    "bestLine": "I'd like to cancel my newspaper subscription",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I stop my newspaper delivery?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to cancel my newspaper service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I pause my newspaper subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to discontinue my newspaper delivery",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cancel my newspaper account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to stop my newspaper subscription temporarily",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I cancel my newspaper delivery service?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you stop sending me the paper?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done with the newspaper, can I cancel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just pause my newspaper for now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want the newspaper anymore, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund if I cancel my newspaper?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm moving, can I stop my newspaper delivery?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to formally request cancellation of my newspaper subscription",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please terminate my newspaper delivery service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am writing to cancel my newspaper account, effective immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me in canceling my newspaper subscription?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I want to [options] my newspaper delivery",
+        "options": [
+          "cancel",
+          "pause",
+          "stop"
+        ],
+        "meaning": "requesting cancellation or pause of newspaper delivery"
+      },
+      {
+        "template": "Can you [options] my newspaper subscription?",
+        "options": [
+          "cancel",
+          "terminate",
+          "suspend"
+        ],
+        "meaning": "asking about cancellation or pause of newspaper subscription"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting cancellation of newspaper delivery",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to cancel my newspaper subscription"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Okay, I can assist you with that. Can you please provide me with your account information?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about pausing newspaper delivery",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm going out of town for a few weeks and I was wondering if I can pause my newspaper delivery"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, we can definitely pause your delivery. Would you like to specify the dates you'll be away?"
+          }
+        ]
+      }
+    ]
+  }
+}

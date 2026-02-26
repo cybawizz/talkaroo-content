@@ -1,0 +1,177 @@
+{
+  "title": "A taxi driver discussing payment",
+  "context": "Tell the passenger the total fare of the ride.",
+  "content": {
+    "bestLine": "The total fare for the ride is $23.50.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The fare is $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your total comes out to be $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The ride costs $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You owe $23.50 for the trip.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The total is $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The fare for this ride is $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your fare is $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That will be $23.50.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So that's $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking at $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The ride's $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That'll be $23.50, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your trip's $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The fare's $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're all set for $23.50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's $23.50, thanks.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The total fare for your trip is $23.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your fare amounts to $23.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The cost of the ride is $23.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are required to pay $23.50 for the service.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The total due is $23.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The fare for this transportation service is $23.50.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The total fare is [amount].",
+        "options": [
+          "$23.50",
+          "$10.00",
+          "$5.25"
+        ],
+        "meaning": "to inform the passenger of the total cost"
+      },
+      {
+        "template": "You owe [amount] for the [service].",
+        "options": [
+          "$23.50",
+          "taxi ride",
+          "trip"
+        ],
+        "meaning": "to clearly state the debt for the service provided"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A simple fare discussion",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "The total fare for the ride is $23.50."
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Here you go, keep the change."
+          }
+        ]
+      },
+      {
+        "description": "A fare discussion with a question",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "The fare for this ride is $23.50."
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Does that include tip?"
+          },
+          {
+            "speaker": "Taxi Driver",
+            "text": "No, that's just the fare."
+          }
+        ]
+      }
+    ]
+  }
+}

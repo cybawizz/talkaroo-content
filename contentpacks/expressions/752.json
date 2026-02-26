@@ -1,0 +1,125 @@
+{
+  "title": "A postal clerk ending a transaction",
+  "context": "Thank a customer and hand them their post office receipt.",
+  "content": {
+    "bestLine": "Here's your receipt, thank you for choosing our service",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thank you, here's your receipt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're all set, receipt is here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's your receipt, have a great day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Receipt is ready, thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All done, here's your receipt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your business, receipt is here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're good to go, receipt is ready",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Your transaction is complete, here is your receipt",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for using our postal services, receipt provided",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Here is your receipt, we appreciate your business",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your receipt is ready, thank you for choosing us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your patronage, receipt is attached",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your transaction has been successfully completed, receipt provided",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Here's your [options], thank you",
+        "options": [
+          "receipt",
+          "package"
+        ],
+        "meaning": "completion of transaction"
+      },
+      {
+        "template": "You're all [options], receipt is here",
+        "options": [
+          "set",
+          "done"
+        ],
+        "meaning": "transaction completion confirmation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple transaction completion",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "Here's your receipt, thank you for choosing our service"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thank you, have a great day"
+          }
+        ]
+      },
+      {
+        "description": "Transaction completion with appreciation",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "Thank you for using our postal services, receipt provided"
+          },
+          {
+            "speaker": "Customer",
+            "text": "You're welcome, thanks for the help"
+          }
+        ]
+      }
+    ]
+  }
+}

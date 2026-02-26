@@ -1,0 +1,172 @@
+{
+  "title": "Making complaints about unwanted calls",
+  "context": "Tell the phone company to stop scam calls or block a number.",
+  "content": {
+    "bestLine": "I want to report and block this scam number.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm getting unwanted calls",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you block this number?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to stop these calls",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This number is harassing me",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need help with unwanted calls",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me block calls?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm receiving scam calls",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to report a scam",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you please block this number?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so tired of these calls",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Help me stop these annoying calls",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting spammed by this number",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you do something about these calls?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I just want to block this scammer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fed up with these unwanted calls",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out with this?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request call blocking",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing harassment from this number",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need assistance with unwanted calls",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could block this number",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am receiving unwanted calls and would like help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report a scam and request blocking",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I want to [options] this number",
+        "options": [
+          "report",
+          "block"
+        ],
+        "meaning": "to take action against unwanted calls"
+      },
+      {
+        "template": "Can you [options] these unwanted calls?",
+        "options": [
+          "stop",
+          "block",
+          "help me with"
+        ],
+        "meaning": "to request assistance with unwanted calls"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting unwanted calls to the phone company",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm getting unwanted calls from this number."
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize for the inconvenience. I can help you block that number."
+          }
+        ]
+      },
+      {
+        "description": "Requesting call blocking",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I want to block this scam number."
+          },
+          {
+            "speaker": "Representative",
+            "text": "I've blocked the number for you. You should no longer receive calls from them."
+          }
+        ]
+      }
+    ]
+  }
+}

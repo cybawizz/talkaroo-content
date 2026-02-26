@@ -1,0 +1,173 @@
+{
+  "title": "Asking about a long train trip",
+  "context": "Ask how many hours it will take for the train to reach the final city.",
+  "content": {
+    "bestLine": "How many hours to the final city?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the total travel time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does the trip take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the duration of the train ride?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours to the final stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the travel time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long is the train journey?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the estimated arrival time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours will we be on the train?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How long's the train ride?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the trip time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours to get there?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long are we on the train?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the travel time like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to get to the final city?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours is the trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long will we be traveling?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the total travel time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the scheduled duration of the train trip?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours will it take to reach the final destination?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the estimated time of arrival at the final city?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me of the travel time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the length of the train journey?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How many hours to [options]",
+        "options": [
+          "the final city",
+          "our destination",
+          "the last stop"
+        ],
+        "meaning": "asking about travel time"
+      },
+      {
+        "template": "What's the [options] time?",
+        "options": [
+          "travel",
+          "trip",
+          "train ride"
+        ],
+        "meaning": "inquiring about duration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a train conductor about travel time",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, how many hours to the final city?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "It's about 10 hours, depending on the route and any potential delays."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about train travel time at a ticket counter",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "How long does the train trip take?"
+          },
+          {
+            "speaker": "Ticket Agent",
+            "text": "The total travel time is approximately 12 hours, including a few stops along the way."
+          }
+        ]
+      }
+    ]
+  }
+}

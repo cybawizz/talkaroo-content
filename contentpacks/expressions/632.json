@@ -1,0 +1,181 @@
+{
+  "title": "Watching a tutorial video before fixing",
+  "context": "Tell your partner to pause while you watch a YouTube repair guide.",
+  "content": {
+    "bestLine": "Can you pause this for a sec?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Pause the video",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait, let me see this part",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you stop it here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me take a look",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold on a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go back a bit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to see that again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pause it right there",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Pause it, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold up, let me check",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pause for a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wait, what's he doing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me get a closer look",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go back, I missed that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill, let me see this part",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pause, I need to understand",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, pause that",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lemme get a look",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill, pause it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good, pause the vid",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hold up, G, let me see",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Pause, homie, I need to check",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the video?",
+        "options": [
+          "pause",
+          "stop",
+          "hold"
+        ],
+        "meaning": "asking to pause the video"
+      },
+      {
+        "template": "Let me [options] this part",
+        "options": [
+          "see",
+          "check",
+          "understand"
+        ],
+        "meaning": "asking to take a closer look"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to pause the video",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can you pause this for a sec?"
+          },
+          {
+            "speaker": "Partner",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "You",
+            "text": "I just want to make sure I understand this step"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the video content",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Wait, what's he doing?"
+          },
+          {
+            "speaker": "Partner",
+            "text": "He's just explaining the process"
+          },
+          {
+            "speaker": "You",
+            "text": "Okay, got it. Let's keep watching"
+          }
+        ]
+      }
+    ]
+  }
+}

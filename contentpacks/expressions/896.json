@@ -1,0 +1,173 @@
+{
+  "title": "On an airplane",
+  "context": "Ask a flight attendant for a pillow or for help securing your seatbelt.",
+  "content": {
+    "bestLine": "Excuse me, can I get a pillow?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a pillow?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my seatbelt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a blanket?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with my seat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a pillow, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with my seatbelt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any extra pillows?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some help here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a pillow?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out with my seatbelt?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a spare pillow?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me how to use this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some help over here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some assistance?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any pillows left?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me get comfy?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a pillow",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with my seatbelt?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a blanket?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require help with my seat",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with a pillow?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like some assistance, please",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options]?",
+        "options": [
+          "a pillow",
+          "some help",
+          "a blanket"
+        ],
+        "meaning": "requesting something from the flight attendant"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "my seatbelt",
+          "my seat",
+          "getting comfortable"
+        ],
+        "meaning": "asking for assistance with something"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "asking for a pillow",
+        "lines": [
+          {
+            "speaker": "passenger",
+            "text": "Excuse me, can I get a pillow?"
+          },
+          {
+            "speaker": "flight attendant",
+            "text": "Of course, I'll get you one right away"
+          }
+        ]
+      },
+      {
+        "description": "asking for help with seatbelt",
+        "lines": [
+          {
+            "speaker": "passenger",
+            "text": "Can you help me with my seatbelt?"
+          },
+          {
+            "speaker": "flight attendant",
+            "text": "Let me show you how to use it"
+          }
+        ]
+      }
+    ]
+  }
+}

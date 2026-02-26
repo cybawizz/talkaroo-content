@@ -1,0 +1,160 @@
+{
+  "title": "Taking your order for a pizza",
+  "context": "Ask a customer what size and toppings they want on their pizza.",
+  "content": {
+    "bestLine": "What size pizza and toppings would you like?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What size and toppings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pizza size and toppings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How large and what toppings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of pizza?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Size and toppings, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pizza details?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your pizza order?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's your pizza order?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your pizza gonna be?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whaddaya want on your pizza?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Pizza time! What do you want?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the haps on your pizza?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me your pizza deets",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your pizza style?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please place your pizza order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to take your pizza order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To place your order, what size pizza...",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your pizza order, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I take your pizza order?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [size] pizza with [toppings]",
+        "options": [
+          "small",
+          "medium",
+          "large",
+          "extra large"
+        ],
+        "meaning": "ordering a specific pizza"
+      },
+      {
+        "template": "Can I get a [size] pizza with [toppings]?",
+        "options": [
+          "pepperoni",
+          "mushrooms",
+          "onions",
+          "bell peppers"
+        ],
+        "meaning": "asking for a specific pizza"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a pizza",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "What can I get for you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll have a large pizza with pepperoni and mushrooms"
+          }
+        ]
+      },
+      {
+        "description": "Server taking a pizza order",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "What size pizza and toppings would you like?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Medium, with onions and bell peppers"
+          }
+        ]
+      }
+    ]
+  }
+}

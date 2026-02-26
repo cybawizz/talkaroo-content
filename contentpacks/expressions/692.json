@@ -1,0 +1,173 @@
+{
+  "title": "Choosing a car",
+  "context": "Tell a car salesperson the specific model and features you want.",
+  "content": {
+    "bestLine": "I'm looking for a Honda Civic with leather seats",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I want a Toyota Corolla",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see the Nissan Altima?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price of the Ford Focus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in the Hyundai Elantra",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any Mazda3 models available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to test drive the Volkswagen Golf",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the features of the Kia Optima?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a car with good fuel efficiency",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, got any sweet rides?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in the market for a new set of wheels",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the coolest car you have on the lot?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for something with some serious horsepower",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you show me some cars with awesome tech features?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I want a car that's gonna turn some heads",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any cars with a sick sound system?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to find a car that's gonna be my daily driver",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about the availability of the BMW 3 Series",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with information on the Mercedes-Benz C-Class?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in purchasing a luxury vehicle, such as the Audi A4",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me the features of the Lexus IS",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a vehicle with advanced safety features, such as the Volvo S60",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with a detailed specification of the Porsche 911?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for a [options] with [options]",
+        "options": [
+          "Honda Civic",
+          "leather seats",
+          "sunroof"
+        ],
+        "meaning": "expressing interest in a specific car model and features"
+      },
+      {
+        "template": "Can you show me the [options]?",
+        "options": [
+          "features",
+          "price",
+          "interior"
+        ],
+        "meaning": "requesting information about a car"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about a specific car model",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a Honda Civic with leather seats"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "We have a few different models available, let me show you some options"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking about the features of a car",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you show me the features of the Toyota Corolla?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Absolutely, the Corolla has a number of great features, including a touchscreen infotainment system and blind spot monitoring"
+          }
+        ]
+      }
+    ]
+  }
+}

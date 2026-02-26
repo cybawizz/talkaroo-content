@@ -1,0 +1,173 @@
+{
+  "title": "Inviting a friend to play a video game online",
+  "context": "Text someone to see if they want to log on and play a multiplayer match.",
+  "content": {
+    "bestLine": "Want to play a multiplayer match online?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Want to play online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Up for a game?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to log on and play?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to play online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play a game online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play together online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to join a multiplayer match?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play with me online?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna play some games?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You in for a gaming session?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to get online and play?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to game?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play some multiplayer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You free to play online?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to team up online?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play together tonight?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Wanna get this gaming session started?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You tryna play some games online?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this multiplayer going!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Who's down to play?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to squad up online?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You hyped to play?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options] online?",
+        "options": [
+          "play",
+          "game",
+          "team up"
+        ],
+        "meaning": "inviting someone to play online"
+      },
+      {
+        "template": "You [options] to play?",
+        "options": [
+          "in",
+          "down",
+          "free"
+        ],
+        "meaning": "asking if someone is available to play"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend to play",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "Want to play a multiplayer match online?"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Yeah, I'm down. What game?"
+          }
+        ]
+      },
+      {
+        "description": "Coordinating a gaming session",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "You free to play online tonight?"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Yeah, I'm free. What time were you thinking?"
+          }
+        ]
+      }
+    ]
+  }
+}

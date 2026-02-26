@@ -1,0 +1,173 @@
+{
+  "title": "Announcing a meal (quick)",
+  "context": "Call the family to the table because the food is ready.",
+  "content": {
+    "bestLine": "Dinner's ready, everyone!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Time to eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Food is ready",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Come to the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mealtime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lunch/Dinner is served",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Gather around",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to eat",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grub's on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chow time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Food's ready, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's chow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who's hungry?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dig in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yum, time to eat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come and get it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Dinner is served",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please come to the table",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for our meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The meal is ready",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have dinner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please join us for dinner",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [option]!",
+        "options": [
+          "eat",
+          "have dinner",
+          "dig in"
+        ],
+        "meaning": "Calling the family to the table"
+      },
+      {
+        "template": "[Option] is ready!",
+        "options": [
+          "Dinner",
+          "Lunch",
+          "Food"
+        ],
+        "meaning": "Announcing that the meal is ready"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A family member announcing dinner",
+        "lines": [
+          {
+            "speaker": "Mom",
+            "text": "Dinner's ready, everyone!"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yay, what's for dinner?"
+          }
+        ]
+      },
+      {
+        "description": "A father calling his family to the table",
+        "lines": [
+          {
+            "speaker": "Dad",
+            "text": "Come to the table, please!"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, Dad, I'm coming!"
+          }
+        ]
+      }
+    ]
+  }
+}

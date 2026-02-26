@@ -1,0 +1,173 @@
+{
+  "title": "Declining an invitation",
+  "context": "Politely say no to someone's offer to hang out.",
+  "content": {
+    "bestLine": "I appreciate the invite, but I'll have to pass",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not feeling up to it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have other plans",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to stay in tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think I can make it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not really in the mood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some downtime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a tight schedule",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have to decline",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm good, thanks for asking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch you another time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not really feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a lot on my plate",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna have to rain check",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just gonna stay home",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not up for it tonight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Maybe some other time",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to decline your invitation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate the offer, but I must decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I won't be able to attend",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a prior commitment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not available at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must politely decline",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] tonight",
+        "options": [
+          "good",
+          "not feeling up to it",
+          "tired"
+        ],
+        "meaning": "declining an invitation"
+      },
+      {
+        "template": "I [options] to decline",
+        "options": [
+          "regret",
+          "must",
+          "have to"
+        ],
+        "meaning": "polite decline"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Declining a friend's invitation",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, want to grab dinner tonight?"
+          },
+          {
+            "speaker": "You",
+            "text": "I appreciate the invite, but I'll have to pass"
+          }
+        ]
+      },
+      {
+        "description": "Declining a coworker's invitation",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "We're going out for happy hour, want to join us?"
+          },
+          {
+            "speaker": "You",
+            "text": "I regret to decline your invitation, but I have a prior commitment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Describing your thoroughness",
+  "context": "Assure a manager that you pay extremely close attention to detail.",
+  "content": {
+    "bestLine": "I ensure every detail is meticulously reviewed.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I pay close attention to details.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm very thorough in my work.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I double-check everything.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I make sure to cover all bases.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm detail-oriented by nature.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I take my time to get it right.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Accuracy is my top priority.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I conduct thorough reviews of all materials.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My approach is meticulous and detailed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I adhere to high standards of precision.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I ensure all aspects are carefully examined.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Quality control is a key part of my process.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] every detail to ensure accuracy.",
+        "options": [
+          "review",
+          "check",
+          "verify"
+        ],
+        "meaning": "To convey a sense of thoroughness"
+      },
+      {
+        "template": "My work is characterized by [options] attention to detail.",
+        "options": [
+          "meticulous",
+          "thorough",
+          "precise"
+        ],
+        "meaning": "To describe one's work ethic"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Assuring a manager of thoroughness",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "How do you ensure accuracy in your reports?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I double-check every detail and have a colleague review them as well."
+          }
+        ]
+      },
+      {
+        "description": "Discussing work approach",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "What's your secret to delivering such precise work?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I just make sure to take my time and cover all bases, ensuring everything is done to a high standard."
+          }
+        ]
+      }
+    ]
+  }
+}

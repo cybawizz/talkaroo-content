@@ -1,0 +1,203 @@
+{
+  "title": "When someone has underestimated you",
+  "context": "Respond confidently to a person who thought you were unintelligent or weak.",
+  "content": {
+    "bestLine": "I'm more capable than you think",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I can handle this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't underestimate me",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not as weak as you think",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have skills you're not aware of",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't judge me too quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm more than what you see",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a chance to prove myself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I won't back down",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't sleep on me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're underestimating me big time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not to be underestimated",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Bring it on",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm more than you bargained for",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't count me out just yet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a force to be reckoned with",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're low-key underestimating me",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key capable",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't @ me, I'm right",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm the real MVP",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're hating on me for no reason",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm about to prove you wrong",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, you think I'm weak",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so glad you underestimated me",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for doubting me, it means a lot",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm shaking in my boots",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You have no idea what I'm capable of",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep underestimating me, it's cute",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm not [adjective], I'm [opposite adjective]",
+        "options": [
+          "weak",
+          "strong"
+        ],
+        "meaning": "contrasting an assumption"
+      },
+      {
+        "template": "You [verb] me, but I [verb] you",
+        "options": [
+          "underestimate",
+          "prove"
+        ],
+        "meaning": "reversing an expectation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Responding to underestimation in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're not smart enough to do this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm more capable than you think"
+          }
+        ]
+      },
+      {
+        "description": "Standing up for oneself in a group setting",
+        "lines": [
+          {
+            "speaker": "Person C",
+            "text": "I don't think you can handle this project"
+          },
+          {
+            "speaker": "Person D",
+            "text": "Don't underestimate me, I've got this"
+          }
+        ]
+      }
+    ]
+  }
+}

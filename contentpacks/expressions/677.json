@@ -1,0 +1,158 @@
+{
+  "title": "Starting a video call",
+  "context": "Greet everyone joining the virtual meeting online.",
+  "content": {
+    "bestLine": "Hello everyone, thanks for joining the call",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, welcome to the meeting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, everyone's here now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, let's get started",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi all, thanks for joining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to today's video call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, let's begin the meeting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi everyone, glad you're here",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey guys, what's up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi team, ready to start",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey everyone, let's do this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up guys, welcome to the call",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey all, glad you're on the call",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi friends, let's get this meeting started",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey team, thanks for joining in",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, ladies and gentlemen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to the virtual meeting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Greetings, everyone, let's begin",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, thank you for joining the call",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, everyone, to today's meeting",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello [options], thanks for joining",
+        "options": [
+          "everyone",
+          "team",
+          "guys"
+        ],
+        "meaning": "Greet the participants"
+      },
+      {
+        "template": "Welcome to [options]",
+        "options": [
+          "today's meeting",
+          "the video call",
+          "our virtual meeting"
+        ],
+        "meaning": "Introduce the meeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple greeting",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hello everyone, thanks for joining the call"
+          },
+          {
+            "speaker": "Participant",
+            "text": "Hi, thanks for having us"
+          }
+        ]
+      },
+      {
+        "description": "Formal introduction",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Good morning, ladies and gentlemen, welcome to the virtual meeting"
+          },
+          {
+            "speaker": "Participant",
+            "text": "Good morning, thank you for the introduction"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "When you are out of money",
+  "context": "Explain that you do not have any cash available.",
+  "content": {
+    "bestLine": "I'm currently out of cash",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't have any money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of funds",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have any cash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm broke",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of balance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have enough money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm short on cash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've run out of money",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm flat broke",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got no cash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of dough",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm strapped for cash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got no balance",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low on funds",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got no money on me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm dead broke",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got no scratch",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm out of benjamins",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm broke as a joke",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got no clams",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on E",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm out of [options]",
+        "options": [
+          "money",
+          "cash",
+          "funds"
+        ],
+        "meaning": "I don't have any money"
+      },
+      {
+        "template": "I've got no [options]",
+        "options": [
+          "balance",
+          "cash",
+          "dough"
+        ],
+        "meaning": "I don't have any money"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for help",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm out of cash, can you help me?"
+          },
+          {
+            "speaker": "B",
+            "text": "What happened?"
+          }
+        ]
+      },
+      {
+        "description": "Explaining the situation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm currently out of money"
+          },
+          {
+            "speaker": "B",
+            "text": "How did that happen?"
+          }
+        ]
+      }
+    ]
+  }
+}

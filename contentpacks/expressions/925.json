@@ -1,0 +1,150 @@
+{
+  "title": "Telling the doctor about a pain in the back",
+  "context": "Describe a sharp or dull ache in your spine or muscles.",
+  "content": {
+    "bestLine": "I have a sharp pain in my lower back",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm experiencing back pain",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My back is hurting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a back ache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a sharp pain in my spine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a dull ache in my back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My back is sore",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a pain in my upper back",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My back is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a bad back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My lower back is acting up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a sharp pain in my back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My back is really sore",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having some back trouble",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing lumbar pain",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My dorsal region is painful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a spinal ache",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There is a sharp pain in my thoracic spine",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have a [adjective] pain in my [location]",
+        "options": [
+          "sharp",
+          "dull",
+          "lower",
+          "upper"
+        ],
+        "meaning": "describing back pain"
+      },
+      {
+        "template": "My [location] is [adjective]",
+        "options": [
+          "back",
+          "spine",
+          "sore",
+          "painful"
+        ],
+        "meaning": "describing back pain"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing back pain to doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been having some back trouble lately"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you describe the pain to me?"
+          }
+        ]
+      },
+      {
+        "description": "Patient and doctor discussing back pain",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "It's a sharp pain in my lower back"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "How long have you been experiencing this pain?"
+          }
+        ]
+      }
+    ]
+  }
+}

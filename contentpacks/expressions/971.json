@@ -1,0 +1,177 @@
+{
+  "title": "Instructing a child in personal safety",
+  "context": "Warn a child to be careful and avoid getting hurt.",
+  "content": {
+    "bestLine": "Be careful, okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Watch your step",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't get hurt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay safe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be aware of your surroundings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't take risks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be cautious",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, watch it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be reckless",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be gentle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't get too close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Back off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Slow down",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Exercise caution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be mindful of your actions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Avoid hazardous situations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Take necessary precautions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Ensure your safety",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be vigilant",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Be [options] when [situation]",
+        "options": [
+          "careful",
+          "aware",
+          "cautious"
+        ],
+        "meaning": "Warning a child to be careful in a specific situation"
+      },
+      {
+        "template": "Don't [action] because [reason]",
+        "options": [
+          "run",
+          "jump",
+          "touch"
+        ],
+        "meaning": "Warning a child not to perform a specific action due to a reason"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a child to be careful when playing",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Be careful when you're playing outside"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, I will"
+          }
+        ]
+      },
+      {
+        "description": "Warning a child to avoid a hazardous situation",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Don't touch the hot stove"
+          },
+          {
+            "speaker": "Child",
+            "text": "Why not?"
+          },
+          {
+            "speaker": "Adult",
+            "text": "Because it can hurt you"
+          }
+        ]
+      }
+    ]
+  }
+}

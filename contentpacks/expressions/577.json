@@ -1,0 +1,205 @@
+{
+  "title": "Complaining about concert prices",
+  "context": "Complain that the tickets and drinks were way too expensive.",
+  "content": {
+    "bestLine": "The tickets and drinks were way too expensive",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Concert prices are getting out of hand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shocked by the cost of tickets",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The prices are not reasonable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's too expensive for a concert",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think it's worth the price",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The cost is a bit steep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not paying that much for a ticket",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not affordable for me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Concerts are hella expensive now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with pricey tickets",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's crazy how much they charge",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not made of money, you know",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's just not worth the bucks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, I'll just stay home",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're ripping us off, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a total rip-off",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Concerts are low-key too pricey",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key done with expensive tickets",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a major key to broke-ness",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting the concert scene",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a whole mood killer",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not tryna go broke",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, another chance to break the bank",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so excited to pay an arm and a leg",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a steal, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I live for overpriced concerts",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It's not like I have better things to spend my money on",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Yeah, because that's exactly what I wanted to do with my paycheck",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] are too expensive",
+        "options": [
+          "tickets",
+          "drinks",
+          "concert"
+        ],
+        "meaning": "Complaining about the cost"
+      },
+      {
+        "template": "I'm not paying [options] for a concert",
+        "options": [
+          "that much",
+          "an arm and a leg",
+          "a small fortune"
+        ],
+        "meaning": "Refusing to pay a high price"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so done with pricey tickets"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? It's crazy how much they charge"
+          }
+        ]
+      },
+      {
+        "description": "Arguing with a ticket vendor",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "This is ridiculous, the prices are too high"
+          },
+          {
+            "speaker": "Ticket Vendor",
+            "text": "I apologize, but the prices are set by the venue"
+          }
+        ]
+      }
+    ]
+  }
+}

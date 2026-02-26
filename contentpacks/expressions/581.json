@@ -1,0 +1,173 @@
+{
+  "title": "Dealing with a lost package",
+  "context": "Tell a customer support agent that your mail says delivered but is not here.",
+  "content": {
+    "bestLine": "My mail says delivered, but it's not here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Package says delivered, but I don't have it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't receive my package, though it's marked delivered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My order says it was delivered, but it's missing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The tracking says delivered, but I haven't got it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing a package that says it was delivered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My package is marked as delivered, but I don't have it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The package says delivered, but I haven't received it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't get my package, even though it's marked delivered",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, my package says delivered, but it's nowhere to be found",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still waiting on my package, but it says it was delivered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My package is MIA, even though the tracker says delivered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got a delivery notice, but no package",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up with my package? It says delivered, but I don't have it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing a package that was supposed to be delivered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The delivery says it was made, but I didn't get my package",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't receive my package, and it's marked as delivered",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am writing to report a discrepancy with my package delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My package has been marked as delivered, but I have not received it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about a missing package that was supposed to be delivered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The tracking information indicates that my package was delivered, but it is not in my possession",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing an issue with a package that says it was delivered, but I do not have it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate assistance with a missing package that was marked as delivered",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My package says [options] but I don't have it",
+        "options": [
+          "delivered",
+          "arrived",
+          "was delivered"
+        ],
+        "meaning": "The package tracking information shows it was delivered, but the customer does not have it"
+      },
+      {
+        "template": "I'm missing a package that was [options]",
+        "options": [
+          "supposed to be delivered",
+          "marked as delivered",
+          "scheduled for delivery"
+        ],
+        "meaning": "The customer is missing a package that was expected to be delivered"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer support conversation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm having an issue with my package. It says delivered, but I don't have it"
+          },
+          {
+            "speaker": "Support Agent",
+            "text": "I apologize for the inconvenience. Can you please provide me with your order number so I can look into this further?"
+          }
+        ]
+      },
+      {
+        "description": "Phone call to customer support",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, I'm calling about a package that was supposed to be delivered, but I never got it"
+          },
+          {
+            "speaker": "Support Agent",
+            "text": "I'd be happy to help you with that. Can you please tell me a little more about the issue you're experiencing?"
+          }
+        ]
+      }
+    ]
+  }
+}

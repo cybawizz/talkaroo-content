@@ -1,0 +1,173 @@
+{
+  "title": "Explaining a gig worker schedule",
+  "context": "Tell a friend that you make your own hours and work for yourself.",
+  "content": {
+    "bestLine": "I'm my own boss, making my own hours",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I create my own schedule",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I work at my own pace",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My hours are flexible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm self-employed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I make my own rules",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have control over my time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I work independently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I set my own deadlines",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm my own boss, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I work when I want",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My schedule is super flexible",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living the freelance life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I get to make my own hours",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in charge of my own time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I work on my own terms",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm free to work whenever",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have the autonomy to create my own schedule",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "As a freelancer, I set my own hours",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have the flexibility to work at my own pace",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm self-employed and manage my own time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have control over my workload and schedule",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I work independently as a freelancer",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I work [options] hours",
+        "options": [
+          "my own",
+          "flexible",
+          "independent"
+        ],
+        "meaning": "explaining gig worker schedule"
+      },
+      {
+        "template": "As a [options], I have [options] schedule",
+        "options": [
+          "freelancer",
+          "gig worker",
+          "independent contractor"
+        ],
+        "meaning": "explaining gig worker schedule"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining gig worker schedule to a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "What's your schedule like?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm my own boss, making my own hours"
+          }
+        ]
+      },
+      {
+        "description": "Discussing freelance work with a colleague",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "How do you manage your time as a freelancer?"
+          },
+          {
+            "speaker": "You",
+            "text": "I create my own schedule and work at my own pace"
+          }
+        ]
+      }
+    ]
+  }
+}

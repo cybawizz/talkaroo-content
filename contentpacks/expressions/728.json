@@ -1,0 +1,175 @@
+{
+  "title": "Returning an online order in-store",
+  "context": "Tell the cashier you bought the shoes online but want to return them here.",
+  "content": {
+    "bestLine": "I bought these shoes online, can I return them here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to return this online order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I return this purchase here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to return these shoes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I return an online order in-store?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to return this item",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund for this online purchase?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to exchange this online order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I initiate a return for this online buy?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I return these shoes I bought online?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got these online, can I bring them back here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I swap these out for a different size?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take these back, I bought them online",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the return process for online orders?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna return these, can you help me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get store credit for this online purchase?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking to return this, what's the process?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to initiate a return for this online purchase",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with returning this item?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in exchanging this online order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the procedure for returning an online order in-store?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on how to return this online buy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking to return this item, please advise",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I bought [item] online, can I return it [location]?",
+        "options": [
+          "here",
+          "in-store",
+          "at this location"
+        ],
+        "meaning": "Requesting to return an online purchase in a physical store"
+      },
+      {
+        "template": "How do I [action] this [item] I bought [location]?",
+        "options": [
+          "return",
+          "exchange",
+          "get a refund for",
+          "online",
+          "on the website"
+        ],
+        "meaning": "Asking about the process for returning or exchanging an item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer returning shoes bought online",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I bought these shoes online but they don't fit. Can I return them here?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, of course. Let me just scan the shoes and we'll get the return process started."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about return policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I bought this online, how do I return it in-store?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "You can bring the item back to any of our stores. Just make sure you have the order number and the item is in its original condition."
+          }
+        ]
+      }
+    ]
+  }
+}

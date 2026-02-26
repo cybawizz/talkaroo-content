@@ -1,0 +1,173 @@
+{
+  "title": "Cleaning up the meal",
+  "context": "Offer to help clear the table and wash the dishes.",
+  "content": {
+    "bestLine": "Let me help with the dishes",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll help clear the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I assist with cleaning up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together to clean up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to help with dishes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need help with the cleanup?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me lend a hand with cleaning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we clean up together?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll start washing the dishes",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got the dishes covered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me take care of the cleanup",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll help you tidy up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a hand with the mess?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on dish duty",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this cleaned up quickly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll grab the sponge",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Help me get the table cleared",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I assist with the dishes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be pleased to help clean up",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me take responsibility for the cleanup",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I proceed with washing the dishes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am happy to lend my assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please allow me to help with the table",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let me help with the [options]",
+        "options": [
+          "dishes",
+          "cleanup",
+          "table"
+        ],
+        "meaning": "Offering assistance"
+      },
+      {
+        "template": "I'll [options] the [options]",
+        "options": [
+          "wash",
+          "clean",
+          "clear"
+        ],
+        "meaning": "Taking initiative to clean"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering help after a meal",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let me help with the dishes"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I appreciate it"
+          }
+        ]
+      },
+      {
+        "description": "Asking for help with cleaning",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Need a hand with the mess?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, thanks for offering"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "title": "Requesting large or small bills",
+  "context": "Tell the teller exactly how you want your cash broken down.",
+  "content": {
+    "bestLine": "Can I get a mix of large and small bills, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like a combination of bills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some smaller bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any large bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a mix of bill sizes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break it down into smaller bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer a variety of bill denominations",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some bigger bills too?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get some small bills?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with some large bills?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some cash in small bills, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a mix of bills, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any big bills I can get?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love some smaller bills, if possible",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a combination of bill denominations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with some smaller bills?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a mix of large and small bills",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be possible to get some larger bills as well?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a variety of bill sizes",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] bills?",
+        "options": [
+          "large",
+          "small",
+          "a mix of"
+        ],
+        "meaning": "Requesting specific bill denominations"
+      },
+      {
+        "template": "I need [options] bills for [purpose]",
+        "options": [
+          "small",
+          "large",
+          "a combination of"
+        ],
+        "meaning": "Explaining the need for specific bill sizes"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting a mix of bills",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to withdraw some cash"
+          },
+          {
+            "speaker": "Teller",
+            "text": "Okay, how would you like that?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can I get a mix of large and small bills, please?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for smaller bills",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I need some cash for tips"
+          },
+          {
+            "speaker": "Teller",
+            "text": "Alright, what kind of bills would you like?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can you give me some smaller bills, like tens and twenties?"
+          }
+        ]
+      }
+    ]
+  }
+}

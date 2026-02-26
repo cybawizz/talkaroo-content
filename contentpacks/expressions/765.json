@@ -1,0 +1,158 @@
+{
+  "title": "Canceling a monthly subscription",
+  "context": "Tell a customer retention agent that you no longer want the streaming box.",
+  "content": {
+    "bestLine": "I'd like to cancel my streaming box subscription",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I want to stop the service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cancel my subscription please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I no longer need the streaming box",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I cancel my monthly subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to end my subscription",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please cancel my streaming box service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm canceling my subscription effective today",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you cancel my streaming box?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done with the streaming box",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cancel my subscription, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want the streaming box anymore",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund if I cancel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm canceling my streaming box subscription",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just cancel the streaming box for me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hereby request to cancel my subscription",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please terminate my streaming box service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am writing to cancel my monthly subscription",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to formally cancel my subscription",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Cancel my streaming box subscription immediately",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I want to [options] my streaming box subscription",
+        "options": [
+          "cancel",
+          "stop",
+          "end"
+        ],
+        "meaning": "canceling the subscription"
+      },
+      {
+        "template": "Can you [options] my streaming box service?",
+        "options": [
+          "cancel",
+          "terminate",
+          "stop"
+        ],
+        "meaning": "requesting cancellation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer calling to cancel their subscription",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to cancel my streaming box subscription"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Okay, I can help you with that. Can you please confirm your account information?"
+          }
+        ]
+      },
+      {
+        "description": "Customer chatting with an agent to cancel their subscription",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I want to cancel my streaming box subscription"
+          },
+          {
+            "speaker": "Agent",
+            "text": "I've gone ahead and canceled your subscription. You will receive a confirmation email shortly."
+          }
+        ]
+      }
+    ]
+  }
+}

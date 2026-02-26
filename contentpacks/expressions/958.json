@@ -1,0 +1,173 @@
+{
+  "title": "Describing dizziness",
+  "context": "Say that the room is spinning and you feel lightheaded.",
+  "content": {
+    "bestLine": "The room is spinning and I feel lightheaded",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling dizzy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The room is spinning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel lightheaded",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing dizziness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like I'm going to pass out",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling disoriented",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to sit down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling steady",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm feeling woozy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The room is spinning like crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like I'm on a merry-go-round",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a little lightheaded",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to grab onto something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit off-balance",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whoa, I'm feeling dizzy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think I might faint",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing vertigo",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The room appears to be spinning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am feeling a sensation of lightheadedness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a moment to collect myself",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling particularly stable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take a seat and collect my thoughts",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I feel [options] when I stand up",
+        "options": [
+          "dizzy",
+          "lightheaded",
+          "disoriented"
+        ],
+        "meaning": "describing dizziness when standing"
+      },
+      {
+        "template": "The room is [options] and I feel [options]",
+        "options": [
+          "spinning",
+          "moving",
+          "tilting"
+        ],
+        "meaning": "describing dizziness and disorientation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm not feeling so great. The room is spinning and I feel lightheaded"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Whoa, do you need to sit down? Let me get you some water"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "Doctor, I've been feeling dizzy and lightheaded all day"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, let's take a look at you. Can you tell me more about what you're experiencing?"
+          }
+        ]
+      }
+    ]
+  }
+}

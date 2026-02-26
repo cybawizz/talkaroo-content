@@ -1,0 +1,173 @@
+{
+  "title": "When someone looks very bad",
+  "context": "Express concern because a person appears extremely sick or exhausted.",
+  "content": {
+    "bestLine": "You look really unwell, is everything okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You don't look so good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you feeling alright?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be exhausted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something wrong?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look pale",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need to sit down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not looking yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I get you some water?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you look terrible",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's wrong, you look sick",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You okay, man? You look rough",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not looking too good",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you need a break or something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you're about to pass out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Maybe you should go home and rest",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're really pale, are you sure you're okay?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm concerned about your health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be unwell, can I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something troubling you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you could use some medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps you should take a break and rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think you should see a doctor",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options] today",
+        "options": [
+          "really unwell",
+          "exhausted",
+          "pale"
+        ],
+        "meaning": "Expressing concern for someone's health"
+      },
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "some water",
+          "to sit down",
+          "a break"
+        ],
+        "meaning": "Offering help to someone who looks unwell"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Concerned friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You look really unwell, is everything okay?"
+          },
+          {
+            "speaker": "Person",
+            "text": "I'm just tired, I didn't sleep well last night"
+          }
+        ]
+      },
+      {
+        "description": "Coworker expressing concern",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "You appear to be unwell, can I assist you?"
+          },
+          {
+            "speaker": "Person",
+            "text": "No, I'm fine, just a bit stressed"
+          }
+        ]
+      }
+    ]
+  }
+}

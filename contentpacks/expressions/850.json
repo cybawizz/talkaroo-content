@@ -1,0 +1,173 @@
+{
+  "title": "Asking about electric vehicle charging",
+  "context": "Ask a store owner or parking attendant if they have an EV charging station.",
+  "content": {
+    "bestLine": "Do you have an EV charging station here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is there an EV charger available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer electric vehicle charging?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I charge my electric car here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any EV charging points nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a charging station for electric vehicles?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is EV charging available on site?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you charge electric cars here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you provide electric vehicle charging services?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got an EV charger I can use?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I plug in my electric car here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a place to charge my EV?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys have an EV charging station?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I charge my car here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is EV charging an option here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you charge my electric vehicle?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have charging for electric cars?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about electric vehicle charging facilities.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me if there is an EV charging station available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you provide charging services for electric vehicles on your premises?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am wondering if you have a charging point for electric cars.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to charge an electric vehicle at your location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please let me know if EV charging is available?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you have [options] charging?",
+        "options": [
+          "an EV",
+          "electric vehicle",
+          "EV"
+        ],
+        "meaning": "Asking about the availability of EV charging"
+      },
+      {
+        "template": "Is there [options] nearby?",
+        "options": [
+          "an EV charging station",
+          "a place to charge my electric car",
+          "EV charging"
+        ],
+        "meaning": "Inquiring about the proximity of EV charging facilities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a store owner about EV charging",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, do you have an EV charging station here?"
+          },
+          {
+            "speaker": "Store Owner",
+            "text": "Yes, we do. It's located at the back of the parking lot."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about EV charging with a parking attendant",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Excuse me, is there an EV charger available?"
+          },
+          {
+            "speaker": "Parking Attendant",
+            "text": "Yes, there are a few charging points on level 2. I can direct you to them."
+          }
+        ]
+      }
+    ]
+  }
+}

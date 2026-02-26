@@ -1,0 +1,148 @@
+{
+  "title": "A library desk clerk's responses",
+  "context": "Tell a library patron when their borrowed books are due back.",
+  "content": {
+    "bestLine": "Your books are due back on Friday",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Books are due this week",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Return by the due date",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Due date is approaching",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Books are overdue",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Please return on time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Check your due dates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Books are due soon",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, your books are due",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't forget to return",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your books are almost due",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Return your books ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Check your books' due dates",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your books are coming due",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your borrowed books are due",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please return books by the due date",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The due date for your books is approaching",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require timely book returns",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your books are due [options]",
+        "options": [
+          "back",
+          "soon",
+          "this week"
+        ],
+        "meaning": "notification of due date"
+      },
+      {
+        "template": "Please return your books by [options]",
+        "options": [
+          "the due date",
+          "Friday",
+          "the end of the week"
+        ],
+        "meaning": "request for return"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Library clerk informs patron of due date",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Your books are due back on Friday"
+          },
+          {
+            "speaker": "Patron",
+            "text": "Okay, I'll return them then"
+          }
+        ]
+      },
+      {
+        "description": "Library clerk reminds patron of overdue books",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Your books are overdue, please return them"
+          },
+          {
+            "speaker": "Patron",
+            "text": "Sorry, I'll return them today"
+          }
+        ]
+      }
+    ]
+  }
+}

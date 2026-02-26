@@ -1,0 +1,173 @@
+{
+  "title": "Asking about arriving somewhere",
+  "context": "Ask the driver how many more hours until you reach the destination.",
+  "content": {
+    "bestLine": "How many more hours until we arrive?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the estimated arrival time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer until we get there?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time are we expected to arrive?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many more hours is the trip?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When can we expect to reach our destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long until we arrive at the destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the remaining travel time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many hours left until arrival?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much longer is this gonna take?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When are we gonna get there?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How many more hours on the road?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Are we almost there yet?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the ETA, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How long till we arrive, man?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a while longer, huh?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Still got a bit to go, right?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of our expected arrival time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me how much longer we have to travel.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is our anticipated arrival time, sir?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly let me know how many more hours we have until we reach our destination?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if you could provide me with an estimated time of arrival.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer do we have until we arrive at our destination, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We have [options] hours left until arrival.",
+        "options": [
+          "a few",
+          "several",
+          "a couple of"
+        ],
+        "meaning": "indicating the remaining travel time"
+      },
+      {
+        "template": "Our estimated arrival time is [options].",
+        "options": [
+          "soon",
+          "in a few hours",
+          "later today"
+        ],
+        "meaning": "providing the expected arrival time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the driver about arrival time",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "How many more hours until we arrive?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "We've got about two hours left, depending on traffic."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about the remaining travel time",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "What's the remaining travel time?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "We're expected to arrive in about three hours, give or take."
+          }
+        ]
+      }
+    ]
+  }
+}

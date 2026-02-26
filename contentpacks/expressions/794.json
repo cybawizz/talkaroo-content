@@ -1,0 +1,172 @@
+{
+  "title": "Instructing children on good table manners",
+  "context": "Correct a child's behavior while they are eating at the table.",
+  "content": {
+    "bestLine": "Remember to chew with your mouth closed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please keep your elbows off the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Chew slowly and quietly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't talk with your mouth full",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait for everyone to get their food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use your napkin to wipe your mouth",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Say please and thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your phone away from the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Listen to others while they're speaking",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, don't burp at the table",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out and eat slowly",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a pig, use a fork",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Gross, don't pick your nose",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Be cool and wait for everyone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be rude, say excuse me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, use your manners",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's disgusting, don't do that",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's impolite to interrupt others",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from making loud noises",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to respect others at the table",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Remember to keep your hands visible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's courteous to offer others food first",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please don't leave the table until everyone is finished",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Remember to [options] at the table",
+        "options": [
+          "chew with your mouth closed",
+          "keep your elbows off the table"
+        ],
+        "meaning": "good table manners"
+      },
+      {
+        "template": "It's [options] to [action] during meals",
+        "options": [
+          "impolite",
+          "rude",
+          "inconsiderate"
+        ],
+        "meaning": "polite behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Correcting a child's behavior",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Remember to chew with your mouth closed"
+          },
+          {
+            "speaker": "Child",
+            "text": "Sorry, I forgot"
+          }
+        ]
+      },
+      {
+        "description": "Teaching good table manners",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "It's essential to respect others at the table"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'll try to remember"
+          }
+        ]
+      }
+    ]
+  }
+}

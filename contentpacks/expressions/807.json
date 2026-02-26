@@ -1,0 +1,157 @@
+{
+  "title": "Making a guest feel at home",
+  "context": "Tell your visitors to relax and get comfortable.",
+  "content": {
+    "bestLine": "Make yourself at home, relax!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please get comfortable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to relax",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make yourself at ease",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome to unwind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get cozy and settle in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a load off and relax",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can kick back here",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Chill out and get comfy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make yourself right at home",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get comfortable, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Relax, you're among friends",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can hang out and relax",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just kick back and unwind",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please, make yourself comfortable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome to relax in our home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're glad you're here, please unwind",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may take a seat and get comfortable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, feel at home and relax",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Make [options] at home",
+        "options": [
+          "yourself",
+          "you"
+        ],
+        "meaning": "to feel welcome"
+      },
+      {
+        "template": "You can [options] and relax",
+        "options": [
+          "hang out",
+          "kick back",
+          "take a load off"
+        ],
+        "meaning": "to unwind"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host greeting a guest",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hey, make yourself at home, relax!"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thanks, I will. Your place is really nice."
+          }
+        ]
+      },
+      {
+        "description": "Making a guest feel at ease",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Can I get you something to drink? Please, get comfortable."
+          },
+          {
+            "speaker": "Guest",
+            "text": "No, thanks. I'm good. But thanks for offering."
+          }
+        ]
+      }
+    ]
+  }
+}

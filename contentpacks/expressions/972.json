@@ -1,0 +1,173 @@
+{
+  "title": "Booking a deep tissue massage",
+  "context": "Call the spa and ask for a one-hour appointment for your sore back.",
+  "content": {
+    "bestLine": "I'd like to book a one-hour deep tissue massage for my sore back.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a massage for my back.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I book a deep tissue massage?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a massage to help with back pain.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any availability for a massage today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to schedule a massage for my sore back.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend a massage therapist for back issues?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in booking a one-hour massage.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer deep tissue massages for back pain?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a massage for my back?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a massage ASAP for my sore back.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I book a massage with you guys?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm super stressed and need a massage.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any massage openings today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to get a massage to relax.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I schedule a massage for later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a good massage spot.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to schedule a massage appointment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please recommend a massage therapist?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing back pain and would like a massage.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer massage services for back pain?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could book a massage for me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide me with your massage schedule?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to book a [options] massage.",
+        "options": [
+          "deep tissue",
+          "swedish",
+          "hot stone"
+        ],
+        "meaning": "requesting a specific type of massage"
+      },
+      {
+        "template": "Can I schedule a massage for [options]?",
+        "options": [
+          "today",
+          "tomorrow",
+          "this week"
+        ],
+        "meaning": "asking about availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Booking a massage over the phone",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to book a one-hour deep tissue massage for my sore back."
+          },
+          {
+            "speaker": "Spa Receptionist",
+            "text": "Okay, let me check our schedule. What time were you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Asking about massage services",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you offer deep tissue massages for back pain?"
+          },
+          {
+            "speaker": "Spa Receptionist",
+            "text": "Yes, we do. Our massage therapists are trained in deep tissue massage and can help with back pain."
+          }
+        ]
+      }
+    ]
+  }
+}

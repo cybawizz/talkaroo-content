@@ -1,0 +1,137 @@
+{
+  "title": "Listing the special rules at a hotel",
+  "context": "Explain the noise policy and checkout times to a new guest.",
+  "content": {
+    "bestLine": "Please note our noise policy and checkout times.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Quiet hours start at 10 PM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Checkout is at 11 AM sharp",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please respect other guests",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Noise levels must be minimal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a strict noise policy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Late checkout is available upon request",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please check out on time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our staff will assist with any issues",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We kindly remind you of our noise policy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Checkout time is promptly at 11 AM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your cooperation in maintaining a quiet environment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be advised of our hotel's rules and regulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our hotel staff is available to assist with any concerns",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We strive to provide a comfortable stay for all guests",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please note our [option] policy",
+        "options": [
+          "noise",
+          "checkout"
+        ],
+        "meaning": "Informing guests of hotel policies"
+      },
+      {
+        "template": "We have a [option] checkout time of [time]",
+        "options": [
+          "strict",
+          "flexible"
+        ],
+        "meaning": "Explaining checkout times to guests"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Hotel staff explaining rules to a new guest",
+        "lines": [
+          {
+            "speaker": "Hotel Staff",
+            "text": "Welcome to our hotel, please note our noise policy and checkout times."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thank you, what time is checkout?"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "Checkout is at 11 AM sharp, but late checkout is available upon request."
+          }
+        ]
+      },
+      {
+        "description": "Hotel staff reminding a guest of the noise policy",
+        "lines": [
+          {
+            "speaker": "Hotel Staff",
+            "text": "We kindly remind you of our noise policy, quiet hours start at 10 PM."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Sorry, I didn't realize it was that late."
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "It's okay, we just want to ensure all guests have a comfortable stay."
+          }
+        ]
+      }
+    ]
+  }
+}

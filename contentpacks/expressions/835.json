@@ -1,0 +1,146 @@
+{
+  "title": "Ordering wine in a restaurant",
+  "context": "Ask the server to bring a specific bottle or glass of alcohol.",
+  "content": {
+    "bestLine": "Can I get a bottle of your best Cabernet?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have a glass of Merlot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see the wine list?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your house wine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a bottle of wine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any wine recommendations?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring us a bottle of Chardonnay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What wines do you have by the glass?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we get a bottle of wine?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best wine you've got?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a glass of whatever's good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you grab us a bottle of red?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special wine of the day?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just bring us a bottle of your favorite",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a bottle of your finest wine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please recommend a wine pairing?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a glass of your premium wine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a bottle of wine from your cellar?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options] of wine?",
+        "options": [
+          "bottle",
+          "glass"
+        ],
+        "meaning": "requesting wine"
+      },
+      {
+        "template": "I'll have a [options] of [wine type]",
+        "options": [
+          "glass",
+          "bottle"
+        ],
+        "meaning": "ordering wine"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering wine from the server",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a bottle of your best Cabernet?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Excellent choice. I'll bring that right out."
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for wine recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any wine recommendations?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, our sommelier recommends the Pinot Noir. Would you like to try it?"
+          }
+        ]
+      }
+    ]
+  }
+}

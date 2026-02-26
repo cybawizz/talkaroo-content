@@ -1,0 +1,264 @@
+{
+  "title": "Criticism of someone with whom you disagree",
+  "context": "Directly criticize the opinion or logic of another person.",
+  "content": {
+    "bestLine": "I respectfully disagree with your opinion",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't think that's correct",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my understanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That doesn't make sense to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a different perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's accurate",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't think you're right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I gotta disagree",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're off base",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't see it that way",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not how I see it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're wrong",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's a valid argument",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I don't agree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a logical conclusion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're mistaken",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with your assessment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That's whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're trippin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's not legit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're hella wrong",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's not on point",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're buggin'",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great point",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's really smart",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so convinced",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be a genius",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's totally logical",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure you're right",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're an idiot",
+          "register": "rude",
+          "risk": "extremely high"
+        },
+        {
+          "text": "That's stupid",
+          "register": "rude",
+          "risk": "extremely high"
+        },
+        {
+          "text": "You don't know what you're talking about",
+          "register": "rude",
+          "risk": "extremely high"
+        },
+        {
+          "text": "Shut up",
+          "register": "rude",
+          "risk": "extremely high"
+        },
+        {
+          "text": "You're wrong and you know it",
+          "register": "rude",
+          "risk": "extremely high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with your opinion",
+        "options": [
+          "agree",
+          "disagree",
+          "partially agree"
+        ],
+        "meaning": "Expressing agreement or disagreement"
+      },
+      {
+        "template": "That's [options] to me",
+        "options": [
+          "not true",
+          "not fair",
+          "not right"
+        ],
+        "meaning": "Expressing disagreement or skepticism"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Disagreeing with someone in a neutral tone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think that's a great idea"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm not sure I agree, can you explain it again?"
+          }
+        ]
+      },
+      {
+        "description": "Disagreeing with someone in an informal tone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think you're wrong"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh yeah, what makes you think that?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Complaining that music is too loud",
+  "context": "Tell someone that your ears are actively ringing from the bass.",
+  "content": {
+    "bestLine": "My ears are ringing from the bass",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The music is too loud",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can feel the bass in my chest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My ears are hurting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn it down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sound is overwhelming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some earplugs",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, my ears are ringing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This music is insane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you chill with the volume?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm about to lose my hearing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is way too loud",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a break from this noise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My ears are killing me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, turn it down a notch",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This beat is whack, it's too loud",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key getting a headache",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep it down, G?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This music is straight fire, but too loud",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I need some quiet, ASAP",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [body part] is [adjective] from the [music aspect]",
+        "options": [
+          "ears",
+          "head",
+          "body"
+        ],
+        "meaning": "complaining about loud music"
+      },
+      {
+        "template": "Can you [action] the [music aspect]?",
+        "options": [
+          "turn down",
+          "keep down",
+          "chill with"
+        ],
+        "meaning": "asking to reduce the volume"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Dude, my ears are ringing"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I know, it's pretty loud"
+          }
+        ]
+      },
+      {
+        "description": "Asking the DJ to turn it down",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, can you turn it down a notch?"
+          },
+          {
+            "speaker": "DJ",
+            "text": "Okay, okay, I'll keep it down"
+          }
+        ]
+      }
+    ]
+  }
+}

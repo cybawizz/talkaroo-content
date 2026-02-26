@@ -1,0 +1,173 @@
+{
+  "title": "Watching a live stream of someone playing",
+  "context": "Discuss a famous gamer you are watching play online.",
+  "content": {
+    "bestLine": "Ninja is crushing it in Fortnite right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "He's really good at this game",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love watching him play",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This stream is so entertaining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He's one of my favorite gamers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm learning a lot from his gameplay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He's very skilled at Fortnite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I enjoy his commentary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He's a great player to watch",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ninja is a beast at Fortnite",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so hyped to be watching him play",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This stream is lit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's my go-to gamer for Fortnite tips",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love his gaming setup",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's killing it in this game",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so impressed by his skills",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's the best Fortnite player I've seen",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Ninja is lowkey a Fortnite god",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm highkey excited to be watching him play",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This stream is straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He's a total boss at Fortnite",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm salty I'm not as good as him",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He's a gaming legend",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "He's [options] at Fortnite",
+        "options": [
+          "amazing",
+          "incredible",
+          "so good"
+        ],
+        "meaning": "expressing admiration for the gamer's skills"
+      },
+      {
+        "template": "I'm [options] to be watching him play",
+        "options": [
+          "so hyped",
+          "really excited",
+          "super stoked"
+        ],
+        "meaning": "expressing enthusiasm for the stream"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing the gamer's skills",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ninja is so good at Fortnite"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? He's a beast"
+          }
+        ]
+      },
+      {
+        "description": "Reacting to a impressive play",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Wow, did you see that?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, he's a total boss"
+          }
+        ]
+      }
+    ]
+  }
+}

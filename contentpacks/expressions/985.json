@@ -1,0 +1,135 @@
+{
+  "title": "Negotiating a higher salary",
+  "context": "Politely tell a recruiter that you need more money to accept the job offer.",
+  "content": {
+    "bestLine": "I'm excited about the offer, but I need a higher salary to accept.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can we discuss the compensation package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a salary more in line with industry standards.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What flexibility is there in the salary range?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to explore options for a higher salary.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there room for negotiation on the salary?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hoping we can find a mutually agreeable salary.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share the salary range for this position?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a salary that reflects my skills and experience.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would appreciate it if we could revisit the salary discussion.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The offered salary is below my expected range.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could we explore alternative compensation arrangements?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking a salary that is commensurate with my qualifications.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a salary adjustment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to reconsider the salary offered?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for a salary [options] my current expectations.",
+        "options": [
+          "more in line with",
+          "closer to",
+          "above"
+        ],
+        "meaning": "Expressing the need for a higher salary"
+      },
+      {
+        "template": "Can we discuss the [options] package?",
+        "options": [
+          "compensation",
+          "salary",
+          "benefits"
+        ],
+        "meaning": "Initiating a discussion about salary and benefits"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Negotiating a higher salary during a job offer discussion",
+        "lines": [
+          {
+            "speaker": "Candidate",
+            "text": "I'm excited about the offer, but I need a higher salary to accept."
+          },
+          {
+            "speaker": "Recruiter",
+            "text": "Let's discuss the possibilities. What salary range are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Asking about salary flexibility during an interview",
+        "lines": [
+          {
+            "speaker": "Candidate",
+            "text": "Can you tell me about the salary range for this position?"
+          },
+          {
+            "speaker": "Interviewer",
+            "text": "We have some flexibility. What are your salary expectations?"
+          }
+        ]
+      }
+    ]
+  }
+}

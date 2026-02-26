@@ -1,0 +1,173 @@
+{
+  "title": "Ending a project",
+  "context": "Announce that the entire assignment is finally completed.",
+  "content": {
+    "bestLine": "The project is now fully completed.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The project is complete.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've finished the project.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The assignment is done.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Project completion is confirmed.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've completed all tasks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project is finalized.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All project work is finished.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project has been completed.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're done with the project.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Project's all wrapped up.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've finished up the project.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The project is all done.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've completed the assignment.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Project completion is a wrap.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're all set with the project.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The project is finished up.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The project has been successfully completed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are pleased to announce project completion.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project is now fully finalized.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Project completion has been confirmed and verified.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The assignment has been completed to satisfaction.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have successfully concluded the project.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The project is [options].",
+        "options": [
+          "complete",
+          "finished",
+          "done"
+        ],
+        "meaning": "Project completion announcement"
+      },
+      {
+        "template": "We have [options] the project.",
+        "options": [
+          "completed",
+          "finished",
+          "wrapped up"
+        ],
+        "meaning": "Project completion confirmation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Project manager announces completion to team",
+        "lines": [
+          {
+            "speaker": "Project Manager",
+            "text": "The project is now fully completed."
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Great, what's the next step?"
+          }
+        ]
+      },
+      {
+        "description": "Team lead discusses project completion with client",
+        "lines": [
+          {
+            "speaker": "Team Lead",
+            "text": "We are pleased to announce project completion."
+          },
+          {
+            "speaker": "Client",
+            "text": "Excellent, thank you for your hard work."
+          }
+        ]
+      }
+    ]
+  }
+}

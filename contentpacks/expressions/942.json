@@ -1,0 +1,164 @@
+{
+  "title": "Life and death medical emergencies",
+  "context": "Report that a person is having a heart attack or has stopped breathing.",
+  "content": {
+    "bestLine": "Someone's having a heart attack, call 911 now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think they're having a heart attack",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They've stopped breathing, we need help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Call 911, it's an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's in cardiac arrest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need an ambulance, it's life or death",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not breathing, act fast",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a medical emergency, call for help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get help, they're having a heart attack",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Oh my god, they're having a heart attack",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, they've stopped breathing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone call 911, it's serious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're not okay, we need help ASAP",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is bad, they need an ambulance",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're in trouble, call for help",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We have a medical emergency, please call 911",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The person is experiencing cardiac arrest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require immediate medical assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The individual has stopped breathing, please act quickly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need emergency services, it's a life-threatening situation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Someone's having a [options] attack",
+        "options": [
+          "heart",
+          "cardiac"
+        ],
+        "meaning": "reporting a heart attack"
+      },
+      {
+        "template": "They've stopped [options], call 911",
+        "options": [
+          "breathing",
+          "responding"
+        ],
+        "meaning": "reporting a life-threatening emergency"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a heart attack to 911",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hello, I need to report a medical emergency"
+          },
+          {
+            "speaker": "911 Operator",
+            "text": "What's the nature of the emergency?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Someone's having a heart attack, please send help"
+          }
+        ]
+      },
+      {
+        "description": "Alerting someone to call 911",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Oh my god, they've stopped breathing"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Call 911, it's an emergency"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I'm calling, please help them"
+          }
+        ]
+      }
+    ]
+  }
+}

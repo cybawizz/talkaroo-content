@@ -1,0 +1,173 @@
+{
+  "title": "Rescheduling an airline flight",
+  "context": "Ask to change your flight to a different day or time.",
+  "content": {
+    "bestLine": "Can I change my flight to a different day?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to reschedule my flight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I change my flight time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to switch to a different day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to reschedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to change my flight date",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me reschedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to adjust my travel plans",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a different flight?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I switch flights?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta change my flight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you swap my flight for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to bump my flight to tomorrow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just change my flight time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to reschedule my flight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out with a new flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna change my flight to next week",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request a flight change",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with rescheduling?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of adjusting my flight itinerary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about changing my flight date?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a modification to my travel arrangements",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please help me with a flight schedule change?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I change my flight to [options]?",
+        "options": [
+          "a different day",
+          "a later time",
+          "an earlier flight"
+        ],
+        "meaning": "requesting a flight change"
+      },
+      {
+        "template": "I need to [options] my flight",
+        "options": [
+          "reschedule",
+          "change",
+          "adjust"
+        ],
+        "meaning": "requesting a flight modification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Rescheduling a flight at the airport",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hi, I need to change my flight to a different day"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Let me see what I can do. What day would you like to fly?"
+          }
+        ]
+      },
+      {
+        "description": "Rescheduling a flight over the phone",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hello, I'd like to reschedule my flight"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Okay, can you please provide me with your booking reference?"
+          }
+        ]
+      }
+    ]
+  }
+}

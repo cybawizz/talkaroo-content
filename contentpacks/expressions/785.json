@@ -1,0 +1,175 @@
+{
+  "title": "Explaining a specific diet",
+  "context": "Tell a waiter or host that you are vegan, keto, or gluten-free.",
+  "content": {
+    "bestLine": "I'm vegan, can I get a plant-based option?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm on a vegan diet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I follow a keto lifestyle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gluten-free, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any vegan options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a keto-friendly meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a gluten-free menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have dietary restrictions, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What vegan dishes do you recommend?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm vegan, got any good options?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on keto, what's good here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, I'm gluten-free, can you help me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the vegan special today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm keto, can I get a modification?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any gluten-free beers?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for something vegan and delicious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make a keto version of this dish?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inform you that I am a vegan",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am following a ketogenic diet, can you accommodate me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a gluten intolerance, can you provide a suitable option?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please recommend a vegan dish from your menu?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could prepare a keto-friendly meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a gluten-free menu that I could peruse?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options], can I get a [options] option?",
+        "options": [
+          "vegan",
+          "keto",
+          "gluten-free",
+          "plant-based",
+          "meat-based"
+        ],
+        "meaning": "asking for a specific dietary option"
+      },
+      {
+        "template": "Do you have any [options] dishes?",
+        "options": [
+          "vegan",
+          "keto",
+          "gluten-free"
+        ],
+        "meaning": "inquiring about available dietary options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a waiter about vegan options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm vegan, can I get a plant-based option?"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "Yes, we have a vegan menu, let me show you"
+          }
+        ]
+      },
+      {
+        "description": "Informing a host about dietary restrictions",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'm gluten-free, please make sure there's something I can eat"
+          },
+          {
+            "speaker": "Host",
+            "text": "Don't worry, I've got a gluten-free option prepared for you"
+          }
+        ]
+      }
+    ]
+  }
+}

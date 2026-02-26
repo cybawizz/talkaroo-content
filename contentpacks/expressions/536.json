@@ -1,0 +1,237 @@
+{
+  "title": "Calling someone crazy (quick)",
+  "context": "Tell someone that their idea or behavior is insane.",
+  "content": {
+    "bestLine": "That's insane, are you kidding me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That doesn't make sense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're mistaken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not logical",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not reasonable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's a good plan",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That's crazy talk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can't be serious",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's out of your mind",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you've lost it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not thinking clearly",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a bad idea, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think you're thinking",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That's hella crazy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're trippin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's wildin' out",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're buggin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's straight up crazy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're outta your mind, G",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, that's a great idea, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, you're a genius",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most ridiculous thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be joking",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's just perfect, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure that'll work out great",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you freaking kidding me?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's the stupidest thing I've ever heard",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're an idiot if you think that",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's insane, you're crazy",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "What's wrong with you?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're out of your mind, literally",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] if you think that",
+        "options": [
+          "crazy",
+          "out of your mind",
+          "insane"
+        ],
+        "meaning": "expressing disagreement"
+      },
+      {
+        "template": "That's [options], don't you think?",
+        "options": [
+          "a bit much",
+          "over the top",
+          "completely insane"
+        ],
+        "meaning": "expressing surprise or shock"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Disagreeing with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think we should go skydiving this weekend"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're crazy, that's insane"
+          }
+        ]
+      },
+      {
+        "description": "Arguing with a stranger",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think the best way to get there is by walking"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Are you kidding me? That's ridiculous"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "title": "Allergic problems with the eyes",
+  "context": "Complain that your eyes are itchy and watery from allergies.",
+  "content": {
+    "bestLine": "My eyes are itchy and watery from allergies",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have itchy eyes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes are watery",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing eye irritation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes feel scratchy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have allergic conjunctivitis",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes are sensitive to allergens",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having eye allergy issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes are reacting to something",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My eyes are killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got crazy itchy eyes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My peepers are watery",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with these allergies",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My eyes are super sensitive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm allergic to everything",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My eyes are driving me nuts",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want to scratch my eyes out",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing ocular discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes are exhibiting allergic symptoms",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a case of allergic conjunctivitis",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My eyes are reacting to environmental allergens",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require medical attention for my eye allergies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My eye health is being affected by allergies",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My eyes are [options] from allergies",
+        "options": [
+          "itchy",
+          "watery",
+          "scratchy",
+          "sensitive"
+        ],
+        "meaning": "complaining about eye allergy symptoms"
+      },
+      {
+        "template": "I'm having [options] eye problems",
+        "options": [
+          "allergy",
+          "irritation",
+          "discomfort",
+          "issues"
+        ],
+        "meaning": "describing eye problems caused by allergies"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a doctor about eye allergies",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "My eyes are itchy and watery from allergies"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let me take a look. Have you tried any medication?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing eye allergies with a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "My eyes are killing me from these allergies"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I feel you. I've been using eye drops all day"
+          }
+        ]
+      }
+    ]
+  }
+}

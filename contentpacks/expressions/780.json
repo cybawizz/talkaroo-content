@@ -1,0 +1,173 @@
+{
+  "title": "Taking out a bakery order",
+  "context": "State whether your pastry is to eat here or to go.",
+  "content": {
+    "bestLine": "I'd like my pastry to go, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this to eat here or to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it to go.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get this order to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to take my order with me.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to take this out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking this to go.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To go, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it to go.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I grab this to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna take this with me.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To go, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll just take it to go.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get this to go, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking it to go.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just to go, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it with me.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to take my order to go.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have this order to go?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be taking this order with me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have this to go, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if I could take this to go.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To go, if you please.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like my [options] to go.",
+        "options": [
+          "pastry",
+          "order",
+          "cake"
+        ],
+        "meaning": "Requesting to take the item to go"
+      },
+      {
+        "template": "Can I get this [options] to go?",
+        "options": [
+          "order",
+          "pastry",
+          "item"
+        ],
+        "meaning": "Asking if it's possible to take the item to go"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for their order to go",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like my pastry to go, please."
+          },
+          {
+            "speaker": "Barista",
+            "text": "Okay, I'll get that ready for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer confirming their order is to go",
+        "lines": [
+          {
+            "speaker": "Barista",
+            "text": "Would you like to eat here or take it to go?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll take it to go, thanks."
+          }
+        ]
+      }
+    ]
+  }
+}

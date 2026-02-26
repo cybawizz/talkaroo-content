@@ -1,0 +1,237 @@
+{
+  "title": "Complaining about too many passwords",
+  "context": "Express frustration that you have to reset your password every thirty days.",
+  "content": {
+    "bestLine": "I'm so tired of resetting my password every 30 days",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have too many passwords to keep track of",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Password resets are getting annoying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I didn't have to change my password so often",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Frequent password resets are frustrating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble keeping up with all these passwords",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can't I just use one password for everything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with password resets",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Why do I need to reset my password so frequently?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ugh, another password reset",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm over all these passwords",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can't they just make passwords simpler?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sick of forgetting my passwords",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Why do passwords have to be so complicated?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I could just use my fingerprint or something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Password resets are the worst",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tired of dealing with all these password issues",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing difficulties with frequent password resets",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The current password policy is causing me inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if password resets could be less frequent",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The password reset process is becoming burdensome",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am finding it challenging to manage multiple passwords",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps a more streamlined password system could be implemented",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Password resets are hella annoying",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key done with all these passwords",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can't they just make passwords more turnt?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key frustrated with password resets",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Password resets are so extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting all these password resets",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh joy, another password reset",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so excited to reset my password again",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Who doesn't love password resets?",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just thrilled to be dealing with password issues",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Password resets are the highlight of my day",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I live for password resets",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with password resets",
+        "options": [
+          "so done",
+          "over",
+          "tired of"
+        ],
+        "meaning": "expressing frustration with password resets"
+      },
+      {
+        "template": "Why do I need to [options] my password so often?",
+        "options": [
+          "reset",
+          "change",
+          "update"
+        ],
+        "meaning": "questioning the frequency of password resets"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about password resets",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so tired of resetting my password every 30 days"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, it's so annoying"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a coworker about password resets",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, I just had to reset my password again"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I know, it's such a pain"
+          }
+        ]
+      }
+    ]
+  }
+}

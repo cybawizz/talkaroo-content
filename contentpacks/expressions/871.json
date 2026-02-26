@@ -1,0 +1,173 @@
+{
+  "title": "Asking about frequent flyer mileage",
+  "context": "Ask if your flight qualifies for reward points or miles.",
+  "content": {
+    "bestLine": "Does this flight qualify for reward points or miles?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this flight eligible for miles?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I earn points on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does this flight count towards my mileage?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Am I eligible for reward miles on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will I earn frequent flyer miles on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this flight part of the mileage program?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I accumulate points on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does my ticket qualify for mileage rewards?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Do I get miles for this flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I score some points on this trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this flight gonna give me some miles?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Will this flight add to my mileage total?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do I earn rewards on this flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I rack up some points on this flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a mileage bonus for this flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Will I get some frequent flyer love on this trip?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about mileage eligibility for this flight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me if this flight qualifies for reward miles?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in knowing if this flight is part of the frequent flyer program.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Will this flight be credited towards my mileage account?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me if this flight earns mileage rewards.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to earn points on this flight as part of the loyalty program?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Does [flight/type] qualify for [reward/miles]?",
+        "options": [
+          "flight",
+          "trip",
+          "journey"
+        ],
+        "meaning": "Asking about mileage eligibility"
+      },
+      {
+        "template": "Can I earn [points/miles] on [flight/trip]?",
+        "options": [
+          "points",
+          "miles",
+          "rewards"
+        ],
+        "meaning": "Inquiring about reward accumulation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about mileage eligibility at check-in",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Does this flight qualify for reward points or miles?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, this flight is eligible for mileage rewards. I can help you credit the miles to your account."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about mileage accumulation during booking",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Will I earn frequent flyer miles on this flight?"
+          },
+          {
+            "speaker": "Booking Agent",
+            "text": "Yes, you will earn miles on this flight. Would you like me to add your loyalty program number to the booking?"
+          }
+        ]
+      }
+    ]
+  }
+}

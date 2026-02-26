@@ -1,0 +1,135 @@
+{
+  "title": "Answering a business phone call",
+  "context": "Professionally answer a call at your office and state the company name.",
+  "content": {
+    "bestLine": "Hello, this is XYZ Corporation.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello, how can I help you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, this is the office.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, thank you for calling.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what can I do for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, this is the main office.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to our company.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, we're happy to help.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Good morning, XYZ Corporation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, this is the office of XYZ Corporation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, how may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, thank you for calling XYZ Corporation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, this is XYZ Corporation speaking.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm happy to help you with your inquiry.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Hello, this is [company name].",
+        "options": [
+          "XYZ Corporation",
+          "ABC Inc.",
+          " DEF Company"
+        ],
+        "meaning": "Answering a business phone call"
+      },
+      {
+        "template": "Good [time of day], [company name].",
+        "options": [
+          "morning",
+          "afternoon",
+          "evening"
+        ],
+        "meaning": "Formal greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple business call answer",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Hello, this is XYZ Corporation."
+          },
+          {
+            "speaker": "Caller",
+            "text": "Hi, I'm calling about the new product."
+          }
+        ]
+      },
+      {
+        "description": "Formal business call answer",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Good morning, XYZ Corporation."
+          },
+          {
+            "speaker": "Caller",
+            "text": "Good morning, I'd like to speak to the sales department."
+          }
+        ]
+      }
+    ]
+  }
+}

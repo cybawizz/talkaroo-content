@@ -1,0 +1,176 @@
+{
+  "title": "A dry cleaner offering services",
+  "context": "Ask a customer how they want their shirts cleaned and folded.",
+  "content": {
+    "bestLine": "How would you like your shirts cleaned and folded?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your preferred cleaning method?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want them dry cleaned or washed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like your shirts folded?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a preferred folding style?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like them cleaned and pressed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your preferred level of starch?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want them bagged or boxed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like your shirts packaged?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how do you want your shirts done?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with your shirts?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You want them cleaned and folded, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your shirt game?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You need them cleaned, folded, and ready to go?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your go-to for shirt cleaning?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You like them extra crispy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do you take your shirts?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd be happy to assist you with your shirt cleaning preferences.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of your desired cleaning method?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We offer various folding styles, which one would you prefer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like your shirts to be dry cleaned or laundered?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can provide a range of starch levels, which one suits your needs?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know how you would like your shirts packaged.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How would you like your [options] cleaned and folded?",
+        "options": [
+          "shirts",
+          "clothes",
+          "garments"
+        ],
+        "meaning": "Asking for cleaning preferences"
+      },
+      {
+        "template": "Do you want your [options] [options]?",
+        "options": [
+          "shirts",
+          "clothes",
+          "garments",
+          "dry cleaned",
+          "washed",
+          "pressed"
+        ],
+        "meaning": "Asking for specific cleaning services"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer approaches the dry cleaner counter",
+        "lines": [
+          {
+            "speaker": "Dry Cleaner",
+            "text": "Hi, how can I help you with your shirts today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to get them cleaned and folded, please."
+          }
+        ]
+      },
+      {
+        "description": "Dry cleaner inquires about customer's preferences",
+        "lines": [
+          {
+            "speaker": "Dry Cleaner",
+            "text": "How would you like your shirts cleaned and folded?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'd like them dry cleaned and folded with medium starch, please."
+          }
+        ]
+      }
+    ]
+  }
+}

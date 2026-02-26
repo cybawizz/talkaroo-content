@@ -1,0 +1,173 @@
+{
+  "title": "Discussing a viral internet video",
+  "context": "Ask someone if they saw the short clip everyone is talking about.",
+  "content": {
+    "bestLine": "Did you see that crazy video everyone's talking about?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Have you seen the latest viral video?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I just saw a really popular video online",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a new video going around that's really funny",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did you hear about the viral video that's trending?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you'd like this viral video I saw",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is that viral video real or fake?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think about the latest viral video?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I just watched a viral video that's so cool",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, have you seen that insane video?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "OMG, you won't believe this video I just saw",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dying over here, have you seen that funny video?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with that crazy video everyone's sharing?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gotta see this viral video, it's hilarious",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm obsessed with this one video that's going viral",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have you checked out that viral challenge video?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That viral video is everything and more",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, have you seen that fire video?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey, that viral video is so extra",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Highkey, I'm living for that viral video",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, that video is the most viral thing I've seen",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead, that viral video is so lit",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That viral video is a whole mood",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Did you see [options]?",
+        "options": [
+          "that crazy video",
+          "the latest viral video",
+          "that insane clip"
+        ],
+        "meaning": "asking if someone has seen a viral video"
+      },
+      {
+        "template": "Have you checked out [options]?",
+        "options": [
+          "that viral challenge",
+          "that funny video",
+          "that popular clip"
+        ],
+        "meaning": "asking if someone has seen a specific type of viral content"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a viral video",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Did you see that crazy video everyone's talking about?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I saw it yesterday! It's so funny"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers talking about a viral video at the office",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "Have you seen the latest viral video?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "Not yet, but I've heard it's really popular"
+          }
+        ]
+      }
+    ]
+  }
+}

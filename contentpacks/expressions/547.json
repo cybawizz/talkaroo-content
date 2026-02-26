@@ -1,0 +1,139 @@
+{
+  "title": "Complaining about scope creep",
+  "context": "Tell a client that their new requests will cost extra money.",
+  "content": {
+    "bestLine": "New requests will incur additional costs",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is outside the original scope",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll need to adjust the price",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Extra work means extra cost",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not part of the initial agreement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Requires additional resources",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will impact the project timeline",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's discuss the new requirements",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll provide a revised estimate",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The new requests fall outside the original scope of work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must inform you that additional costs will be incurred",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The changes will require a revised agreement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please note that the extra work will impact the project budget",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend we review the project scope and adjust the contract accordingly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The new requirements will necessitate a change order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] will require additional costs",
+        "options": [
+          "new requests",
+          "changes",
+          "extra work"
+        ],
+        "meaning": "informing the client of extra costs"
+      },
+      {
+        "template": "I'll need to [options] to accommodate the new requirements",
+        "options": [
+          "adjust the price",
+          "revised estimate",
+          "change the scope"
+        ],
+        "meaning": "explaining the need for adjustments"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing scope creep with a client",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "I've reviewed the new requests, and they will require additional costs"
+          },
+          {
+            "speaker": "Client",
+            "text": "Can you explain why?"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "The new requests fall outside the original scope of work, and I'll need to adjust the price accordingly"
+          }
+        ]
+      },
+      {
+        "description": "Negotiating a revised agreement",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I understand that the new requests will incur extra costs, but can we discuss the details?"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "Of course, let's review the project scope and adjust the contract accordingly"
+          },
+          {
+            "speaker": "Client",
+            "text": "That sounds reasonable, please provide a revised estimate"
+          }
+        ]
+      }
+    ]
+  }
+}

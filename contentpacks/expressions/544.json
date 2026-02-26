@@ -1,0 +1,197 @@
+{
+  "title": "Starting a fight",
+  "context": "Use an aggressive phrase to challenge someone physically or verbally.",
+  "content": {
+    "bestLine": "You wanna step outside?",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "Let's go",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "You're on",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Bring it",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not afraid of you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You think you're tough?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Oh, it's like that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You want a piece of me?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ready for you",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "You feel me?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this bread",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting you",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're canceled",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're a joke",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, another tough guy",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so scared",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really intimidating",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, bring your best shot",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm shaking in my boots",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You think you're funny?",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and fight",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're a punk",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'll knock you out",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're going down",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're a waste of time",
+          "register": "rude",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't care about you",
+          "register": "rude",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You want to [options]?",
+        "options": [
+          "step outside",
+          "fight",
+          "go at it"
+        ],
+        "meaning": "challenging someone to a physical or verbal confrontation"
+      },
+      {
+        "template": "I'm [options] you",
+        "options": [
+          "calling out",
+          "daring",
+          "warning"
+        ],
+        "meaning": "threatening or challenging someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a fight with a stranger",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're looking at me?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm looking at you. What's it to you?"
+          }
+        ]
+      },
+      {
+        "description": "Starting a fight with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You think you're better than me?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, I just think I'm right. And you're wrong."
+          }
+        ]
+      }
+    ]
+  }
+}

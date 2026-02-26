@@ -1,0 +1,173 @@
+{
+  "title": "Explaining gig work to older relatives",
+  "context": "Patiently explain what an app driver or a digital creator does.",
+  "content": {
+    "bestLine": "I drive for a ride-sharing app, it's like a taxi service",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I work as an independent contractor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My job is to create digital content",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a freelancer, I choose my own projects",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I use an app to find work opportunities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My work is flexible, I set my own schedule",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm self-employed, I run my own business",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I work on a project-by-project basis",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a gig worker, I have multiple jobs",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm an Uber driver, it's pretty cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I make videos for a living, it's awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a freelancer, I get to work from home",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I use an app to find gigs, it's easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm my own boss, I love it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I get to choose my own hours, it's great",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a digital nomad, I work from anywhere",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a gig economy worker, it's the future",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm a professional driver for a ride-sharing service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a digital content creator, I produce high-quality work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a freelance consultant, I offer expert services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I utilize a platform to find freelance work opportunities",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a self-employed individual, I manage my own business",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I work on a project-by-project basis, delivering high-quality results",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm a [options] worker",
+        "options": [
+          "Uber",
+          "freelance",
+          "gig"
+        ],
+        "meaning": "explaining type of work"
+      },
+      {
+        "template": "I use [options] to find work",
+        "options": [
+          "an app",
+          "a platform",
+          "my network"
+        ],
+        "meaning": "explaining how work is found"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining gig work to an older relative",
+        "lines": [
+          {
+            "speaker": "Relative",
+            "text": "What do you do for work?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm a freelancer, I work on a project-by-project basis"
+          }
+        ]
+      },
+      {
+        "description": "Explaining ride-sharing work to an older relative",
+        "lines": [
+          {
+            "speaker": "Relative",
+            "text": "How do you make a living?"
+          },
+          {
+            "speaker": "You",
+            "text": "I drive for a ride-sharing app, it's like a taxi service"
+          }
+        ]
+      }
+    ]
+  }
+}

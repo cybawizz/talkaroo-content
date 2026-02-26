@@ -1,0 +1,173 @@
+{
+  "title": "Dealing with a hacked account",
+  "context": "Tell a customer service agent that someone stole your password and logged in.",
+  "content": {
+    "bestLine": "Someone stole my password and logged in",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My account was compromised",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I've been hacked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My password was stolen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having security issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My account is not secure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone accessed my account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been a victim of cybercrime",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My account got hacked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's been using my account",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got hacked and I'm freaked out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My password's been compromised",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my hacked account",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone stole my login info",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dealing with a security issue",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My account's been breached",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a security breach",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My account has been compromised due to unauthorized access",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a hacked account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have been a victim of cyber theft",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My login credentials have been stolen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report a security incident",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Someone [options] my account",
+        "options": [
+          "hacked",
+          "stole",
+          "breached"
+        ],
+        "meaning": "reporting a security incident"
+      },
+      {
+        "template": "I need help with my [options] account",
+        "options": [
+          "hacked",
+          "compromised",
+          "breached"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer reporting a hacked account",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, someone stole my password and logged in"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Sorry to hear that. Can you please tell me more about what happened?"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting help with a security issue",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I think my account has been compromised"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Okay, let's take a look. Can you please confirm your account information?"
+          }
+        ]
+      }
+    ]
+  }
+}

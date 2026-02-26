@@ -1,0 +1,173 @@
+{
+  "title": "Asking for exact change (quick)",
+  "context": "Ask if the cashier has quarters or smaller bills.",
+  "content": {
+    "bestLine": "Do you have quarters or smaller bills?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get exact change?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have smaller bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like exact change, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make exact change?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any quarters?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need exact change, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me exact change?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have change for a dollar?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got quarters?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with exact change?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any small bills?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a little short, can you make change?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break a bill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some smaller bills, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any ones or fives?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me some change?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate exact change, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with smaller bills?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require exact change for my purchase.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be possible to receive exact change?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to receive change in smaller denominations.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make change for me, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "quarters",
+          "smaller bills",
+          "ones"
+        ],
+        "meaning": "asking for specific bills"
+      },
+      {
+        "template": "Can you make [options]?",
+        "options": [
+          "change",
+          "exact change",
+          "smaller bills"
+        ],
+        "meaning": "requesting change"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for exact change",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have quarters or smaller bills?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, I have quarters. How many do you need?"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting change",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you make exact change, please?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Let me see what I have. Okay, here's your change."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Offering hospitality to guests",
+  "context": "Offer your guests food and a place to sit down.",
+  "content": {
+    "bestLine": "Please, have a seat and help yourself to some food",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Make yourself at home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you something to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please, take a seat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Help yourself to some refreshments",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad you're here, let's eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to grab a plate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get you settled in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make yourself comfortable",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grab a seat, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What can I get ya to eat?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chow down, guys!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get comfy, let's hang out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got plenty of food, dig in",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Take a load off, have a bite",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's chow down and catch up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Help yourself, buddy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please, do make yourself at home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I offer you a refreshment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a pleasure to have you, please sit down",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you're hungry, we have plenty to eat",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, help yourself to the buffet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm delighted to have you as our guest",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get you [options] to drink?",
+        "options": [
+          "something",
+          "a beverage",
+          "a glass of wine"
+        ],
+        "meaning": "Offering a drink to the guest"
+      },
+      {
+        "template": "Please, take a seat and [options]",
+        "options": [
+          "make yourself at home",
+          "get comfortable",
+          "relax"
+        ],
+        "meaning": "Offering a place to sit and relax"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host greeting guests at the door",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hey, come on in! Please, make yourself at home"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thanks, we're starving! What's for dinner?"
+          }
+        ]
+      },
+      {
+        "description": "Host offering food and drinks to guests",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Can I get you something to eat? We have plenty of options"
+          },
+          {
+            "speaker": "Guest",
+            "text": "That's so kind of you, yeah, I'll have a sandwich"
+          }
+        ]
+      }
+    ]
+  }
+}

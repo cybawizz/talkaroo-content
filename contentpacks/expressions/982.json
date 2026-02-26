@@ -1,0 +1,135 @@
+{
+  "title": "An applicant talking to an employer",
+  "context": "Confidently answer questions during a job interview to impress the boss.",
+  "content": {
+    "bestLine": "I'm excited to discuss my qualifications.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm looking forward to this opportunity.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This role seems like a great fit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in my abilities.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've prepared for this interview.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm eager to learn more.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This company aligns with my values.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited about the challenges.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a quick learner.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I'm pleased to be here today.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in my skills.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've researched the company.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited about the position.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a strong team player.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to contributing.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I [options] this company.",
+        "options": [
+          "admire",
+          "respect",
+          "value"
+        ],
+        "meaning": "showing appreciation for the company"
+      },
+      {
+        "template": "My [options] make me a strong candidate.",
+        "options": [
+          "skills",
+          "experience",
+          "education"
+        ],
+        "meaning": "highlighting qualifications"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction and confidence",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "I'm excited to discuss my qualifications."
+          },
+          {
+            "speaker": "Employer",
+            "text": "Great, let's get started."
+          }
+        ]
+      },
+      {
+        "description": "Showing enthusiasm and interest",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "I've researched the company and I'm impressed."
+          },
+          {
+            "speaker": "Employer",
+            "text": "That's great to hear. What do you like about our company?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Delivering an explicit insult",
+  "context": "Use a strong, aggressive insult towards someone who angered you.",
+  "content": {
+    "bestLine": "You're completely useless, get out of my sight",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "You're such a jerk",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so done with you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're really pissing me off",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Get lost, dude",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "You're an idiot",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I don't even like you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're so annoying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just leave me alone",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "You're hella annoying",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Get outta here, bruh",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're straight trash",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're so extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Bye, felicia",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're a complete waste of space",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I hate your guts",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're the worst person I've ever met",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get out of my face",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're disgusting",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't want to see you again",
+          "register": "rude",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] and I'm done with you",
+        "options": [
+          "annoying",
+          "useless",
+          "the worst"
+        ],
+        "meaning": "expressing frustration and anger"
+      },
+      {
+        "template": "Get [options] out of my [options]",
+        "options": [
+          "out",
+          "lost",
+          "gone"
+        ],
+        "meaning": "telling someone to leave"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting someone who angered you",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're such a jerk, I'm so done with you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's your problem, dude?"
+          }
+        ]
+      },
+      {
+        "description": "Telling someone to leave you alone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Just leave me alone, I don't want to see you again"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Fine, I'm outta here"
+          }
+        ]
+      }
+    ]
+  }
+}

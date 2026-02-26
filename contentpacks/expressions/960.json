@@ -1,0 +1,173 @@
+{
+  "title": "Expressing mild discomfort owing to illness",
+  "context": "Complain about a minor symptom like a sore throat or ache.",
+  "content": {
+    "bestLine": "I've got a bit of a sore throat.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not feeling 100%.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a minor ache.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit under the weather.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've come down with something.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some discomfort.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling my best.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bit of a headache.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit off.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm feeling pretty crummy.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a nasty cough.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm under the weather, man.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bit of a bug.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling so hot.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a sore throat, ugh.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling kinda meh.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a headache from hell.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing some minor discomfort.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have developed a slight illness.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling entirely well.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a bit of a throat infection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am currently under the weather.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have come down with a minor ailment.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've got a [options] throat.",
+        "options": [
+          "sore",
+          "scratchy",
+          "itchy"
+        ],
+        "meaning": "Expressing throat discomfort"
+      },
+      {
+        "template": "I'm feeling [options] today.",
+        "options": [
+          "under the weather",
+          "a bit off",
+          "not my best"
+        ],
+        "meaning": "Expressing general discomfort"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a coworker about not feeling well",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, I'm not feeling 100% today."
+          },
+          {
+            "speaker": "Coworker",
+            "text": "What's wrong? Do you need to go home?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a friend about having a cold",
+        "lines": [
+          {
+            "speaker": "Sarah",
+            "text": "I've got a bit of a cold, I think I'm coming down with something."
+          },
+          {
+            "speaker": "Friend",
+            "text": "Aww, sorry to hear that. Do you need any meds or tea?"
+          }
+        ]
+      }
+    ]
+  }
+}

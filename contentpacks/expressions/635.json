@@ -1,0 +1,121 @@
+{
+  "title": "Special rules for rooms and apartments",
+  "context": "Warn a tenant that loud parties are strictly forbidden.",
+  "content": {
+    "bestLine": "Loud parties are strictly forbidden in the rooms.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please keep noise levels down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Quiet hours are from 10 PM to 8 AM.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No loud gatherings allowed.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Respect other guests' peace.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Noise complaints will be addressed.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the volume down after 10 PM.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No parties or loud events allowed.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is imperative that you refrain from loud gatherings.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be advised that noise levels must be kept to a minimum.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We strictly prohibit loud parties in our rooms.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are expected to respect the quiet enjoyment of other guests.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Failure to comply with noise regulations may result in action.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Loud [options] are not allowed.",
+        "options": [
+          "parties",
+          "gatherings",
+          "events"
+        ],
+        "meaning": "Prohibition of loud activities"
+      },
+      {
+        "template": "Please keep [options] down after [time].",
+        "options": [
+          "noise",
+          "volume",
+          "music"
+        ],
+        "meaning": "Request to reduce noise levels"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a tenant about loud parties",
+        "lines": [
+          {
+            "speaker": "Hotel Manager",
+            "text": "I need to remind you that loud parties are strictly forbidden in the rooms."
+          },
+          {
+            "speaker": "Tenant",
+            "text": "Okay, got it. We'll keep the noise down."
+          }
+        ]
+      },
+      {
+        "description": "Addressing a noise complaint",
+        "lines": [
+          {
+            "speaker": "Hotel Staff",
+            "text": "We've received a noise complaint about your room. Could you please keep the volume down?"
+          },
+          {
+            "speaker": "Tenant",
+            "text": "Sorry about that. We didn't realize it was getting too loud."
+          }
+        ]
+      }
+    ]
+  }
+}

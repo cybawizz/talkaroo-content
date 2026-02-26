@@ -1,0 +1,171 @@
+{
+  "title": "Allergic problems with breathing",
+  "context": "Complain about nasal congestion and difficulty breathing because of allergies.",
+  "content": {
+    "bestLine": "I'm having trouble breathing due to allergies",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My allergies are acting up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing nasal congestion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Breathing is difficult for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Allergies are affecting my breathing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a stuffy nose from allergies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My sinuses are swollen from allergies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to breathe normally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Allergies are causing me respiratory issues",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so congested from allergies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My allergies are killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I can barely breathe with this cold",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Allergies are making me miserable",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling really stuffed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My allergies are no joke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having a hard time catching my breath",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This allergy season is brutal",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing respiratory difficulties due to allergies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My allergies are causing me significant discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am having trouble breathing due to allergic reactions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Allergies are impacting my ability to breathe normally",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require medical attention for my allergy symptoms",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My allergies are a serious health concern",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having [options] due to allergies",
+        "options": [
+          "trouble breathing",
+          "nasal congestion"
+        ],
+        "meaning": "experiencing allergic reactions"
+      },
+      {
+        "template": "My [options] are acting up from allergies",
+        "options": [
+          "allergies",
+          "sinuses"
+        ],
+        "meaning": "experiencing allergic reactions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a doctor about allergies",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I'm having trouble breathing due to allergies"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let's take a look at your symptoms and find a solution"
+          }
+        ]
+      },
+      {
+        "description": "Discussing allergies with a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm so congested from allergies"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Maybe you should try using a humidifier to help with your sinuses"
+          }
+        ]
+      }
+    ]
+  }
+}

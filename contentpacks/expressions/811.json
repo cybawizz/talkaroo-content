@@ -1,0 +1,173 @@
+{
+  "title": "Asking visitors how long they can stay",
+  "context": "Ask your guests when they need to leave.",
+  "content": {
+    "bestLine": "What time do you need to head out?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your schedule like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you need to leave?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long can you stay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time should we wrap up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When are you free until?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your deadline to leave?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long are you available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When should we say goodbye?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You gotta bail soon?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When are you peacing out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much longer you sticking around?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You free for a bit longer?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When do you gotta dip?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How long you got before you leave?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You got a hot minute or what?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When are you outta here?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "What is your expected departure time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "At what time do you anticipate leaving?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How long do you plan to stay with us?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you need to conclude your visit?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "At what hour should we expect your departure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your scheduled departure time?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time do you need to [options]?",
+        "options": [
+          "head out",
+          "leave",
+          "depart"
+        ],
+        "meaning": "asking about departure time"
+      },
+      {
+        "template": "How long can you [options]?",
+        "options": [
+          "stay",
+          "hang out",
+          "be here"
+        ],
+        "meaning": "asking about availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host asking a guest about their departure time",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "What time do you need to head out?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I should probably leave around 8 pm."
+          }
+        ]
+      },
+      {
+        "description": "Friend asking another friend about their plans",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You gotta bail soon?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I have an early meeting tomorrow, so I should leave soon."
+          }
+        ]
+      }
+    ]
+  }
+}

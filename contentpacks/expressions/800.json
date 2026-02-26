@@ -1,0 +1,126 @@
+{
+  "title": "A fast-food clerk delivering an order (quick)",
+  "context": "Hand the customer their food and tell them to enjoy.",
+  "content": {
+    "bestLine": "Here's your order, enjoy!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Here's your food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your order is ready",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here you go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your food is ready",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's your order",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grab your food",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Here ya go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your grub",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get your eat on",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chow down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dig in",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Here's your [options]",
+        "options": [
+          "order",
+          "food",
+          "meal"
+        ],
+        "meaning": "handing over the food"
+      },
+      {
+        "template": "Enjoy your [options]",
+        "options": [
+          "meal",
+          "food",
+          "grub"
+        ],
+        "meaning": "wishing the customer a good meal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple order delivery",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Here's your order"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thanks"
+          }
+        ]
+      },
+      {
+        "description": "Order delivery with a greeting",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Hi, here's your food"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

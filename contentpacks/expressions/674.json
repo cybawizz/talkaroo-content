@@ -1,0 +1,173 @@
+{
+  "title": "Discussing television programs",
+  "context": "Talk about what shows are currently playing on TV.",
+  "content": {
+    "bestLine": "What's on TV tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm watching a new show",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite TV program?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I saw a great episode last night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you seen the latest series?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a good movie on tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a new show to watch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on TV this weekend?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love watching TV on Fridays",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "OMG, have you seen that new show?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm binge-watching a series",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best show on Netflix?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so hooked on this TV program",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's watch something on Hulu",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a new show to obsess over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have you seen the latest episode?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm watching TV all day today",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm interested in watching a documentary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The television schedule looks interesting tonight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to watch a news program",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The TV guide lists several good shows",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to watching a live broadcast",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The television network is airing a special program",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm watching [options] on TV",
+        "options": [
+          "a new show",
+          "a movie",
+          "a sports game"
+        ],
+        "meaning": "discussing current TV programs"
+      },
+      {
+        "template": "Have you seen [options]?",
+        "options": [
+          "the latest episode",
+          "the new series",
+          "the TV special"
+        ],
+        "meaning": "asking about someone's TV watching habits"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing TV shows",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's on TV tonight?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "There's a new episode of my favorite show"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers talking about TV programs",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm looking for a new show to watch"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You should check out the latest series on Netflix"
+          }
+        ]
+      }
+    ]
+  }
+}

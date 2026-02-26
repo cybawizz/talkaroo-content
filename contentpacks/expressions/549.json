@@ -1,0 +1,173 @@
+{
+  "title": "Observing that someone looks disorderly",
+  "context": "Point out that a person looks very messy or unkempt.",
+  "content": {
+    "bestLine": "You look like you just rolled out of bed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You appear a bit disheveled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your hair is quite messy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be having a bad hair day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your clothes are a bit rumpled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you've been up all night",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Your appearance is a bit unkempt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You could use a shower and a change of clothes",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you're going through a tough time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you look like a mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're looking pretty rough",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You need to get it together, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you just woke up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a bit of a hot mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You need to clean up your act",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you've been partying all night",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You need to take a shower and get some sleep",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, you look great",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love the whole 'just rolled out of bed' look",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really rocking the messy look",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm jealous of your ability to look so disheveled",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're an inspiration to us all",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I bet you spent hours perfecting that look",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look like you just [options]",
+        "options": [
+          "rolled out of bed",
+          "woke up",
+          "got out of the shower"
+        ],
+        "meaning": "You appear disheveled"
+      },
+      {
+        "template": "You're looking a bit [options]",
+        "options": [
+          "rough",
+          "tough",
+          "messy"
+        ],
+        "meaning": "You appear unkempt"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend to friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Dude, you look like a mess"
+          },
+          {
+            "speaker": "B",
+            "text": "I know, I didn't get much sleep last night"
+          }
+        ]
+      },
+      {
+        "description": "Coworker to coworker",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "You appear a bit disheveled"
+          },
+          {
+            "speaker": "B",
+            "text": "Thanks for noticing, I had a long commute"
+          }
+        ]
+      }
+    ]
+  }
+}

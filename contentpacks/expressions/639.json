@@ -1,0 +1,181 @@
+{
+  "title": "Denying an app location tracking",
+  "context": "Tell your child never to let a random game follow their GPS coordinates.",
+  "content": {
+    "bestLine": "Never let a random game track your location",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't share your location with apps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your location private",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful with location tracking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't let apps follow you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Protect your location data",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Only share location with trusted apps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Location tracking can be risky",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your phone's location private",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't let apps track you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your location on the down low",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be sneaky with your location",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't share your whereabouts",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your phone's location under wraps",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Only share location with friends",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Location tracking is sketchy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't let apps know where you are",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Refuse location tracking requests",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Maintain location privacy settings",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Exercise caution with location services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Restrict location access to trusted apps",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Protect personal location data",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Disable location tracking when unnecessary",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Don't let [options] track your location",
+        "options": [
+          "random games",
+          "strange apps",
+          "unknown services"
+        ],
+        "meaning": "Be cautious with location tracking"
+      },
+      {
+        "template": "Keep your location [options]",
+        "options": [
+          "private",
+          "secret",
+          "hidden"
+        ],
+        "meaning": "Maintain location privacy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent-child conversation",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Never let a random game track your location"
+          },
+          {
+            "speaker": "Child",
+            "text": "Why not?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Because it's not safe and can put you at risk"
+          }
+        ]
+      },
+      {
+        "description": "Friend-to-friend conversation",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Don't let apps track you"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, it's so sketchy"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Exactly, keep your location private"
+          }
+        ]
+      }
+    ]
+  }
+}

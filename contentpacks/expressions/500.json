@@ -1,0 +1,173 @@
+{
+  "title": "Special instructions to a bartender",
+  "context": "Ask the bartender to make your drink strong or with specific ice.",
+  "content": {
+    "bestLine": "Can you make it a double?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Make it strong, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like it with extra ice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you add more liquor?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer it with crushed ice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a strong one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you use less mixer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like it with a lot of ice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it extra cold?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hit me with a strong one",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make it a double, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need it extra strong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you add a shot?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm thirsty, make it strong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me a strong drink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I want it with lots of booze",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make it a stiff one",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a stronger drink",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make it with more liquor?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer my drinks to be quite strong",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a double?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like it with extra ice, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make sure it's extra cold?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you make it with [options]?",
+        "options": [
+          "more ice",
+          "less mixer",
+          "extra liquor"
+        ],
+        "meaning": "requesting a modification to the drink"
+      },
+      {
+        "template": "I'd like it [options]",
+        "options": [
+          "strong",
+          "extra cold",
+          "with a lot of ice"
+        ],
+        "meaning": "requesting a specific preparation for the drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for a strong drink",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you make it a double?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Sure thing, coming right up"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting specific ice",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like it with crushed ice, please"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Absolutely, I'll get that for you"
+          }
+        ]
+      }
+    ]
+  }
+}

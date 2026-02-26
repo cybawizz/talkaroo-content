@@ -1,0 +1,158 @@
+{
+  "title": "Concerning a journey or vacation",
+  "context": "Ask a friend how their recent trip was and what they did.",
+  "content": {
+    "bestLine": "How was your trip?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How was your trip?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What did you do on vacation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your travel experience?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did you have a good time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What was your favorite part?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was the journey?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Was everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How's it going after the trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, how was your vacation?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how was the trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So, what did you end up doing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How was the travel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Did you have fun?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What was the highlight?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope you had a pleasant trip.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me about your travel experience?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your recent journey?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would love to hear about your vacation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Did you enjoy your time away?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How was your [options]?",
+        "options": [
+          "trip",
+          "vacation",
+          "journey"
+        ],
+        "meaning": "Asking about someone's travel experience"
+      },
+      {
+        "template": "What did you do on your [options]?",
+        "options": [
+          "trip",
+          "vacation",
+          "travel"
+        ],
+        "meaning": "Inquiring about activities during travel"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking about a trip",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, how was your trip?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "It was great, thanks! I had a wonderful time."
+          }
+        ]
+      },
+      {
+        "description": "Coworker inquiring about vacation",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "Welcome back! How was your vacation?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "Thanks, it was very relaxing. I'm glad to be back though."
+          }
+        ]
+      }
+    ]
+  }
+}

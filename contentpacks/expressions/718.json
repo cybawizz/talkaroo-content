@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a room for one at a hotel",
+  "context": "Ask the front desk for a single bedroom for the night.",
+  "content": {
+    "bestLine": "I'd like a single room for the night, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a room for one person.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a single room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a room for tonight.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a single room available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to book a room for one night.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a room for one?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in a single room for the night.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a single room available for tonight?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a room for the night?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a place to crash for the night.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a single room?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a room for tonight, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with single rooms for tonight?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a room for one, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find a room for the night, can you assist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any single rooms available for tonight?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to reserve a single room for the night.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with a room for one?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of a single room for tonight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any single rooms available for occupancy tonight?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide me with a single room.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please check if there are any single rooms available for tonight?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like a [options] room for the night.",
+        "options": [
+          "single",
+          "double",
+          "suite"
+        ],
+        "meaning": "requesting a specific type of room"
+      },
+      {
+        "template": "Can I get a room for [options]?",
+        "options": [
+          "one person",
+          "two people",
+          "a night"
+        ],
+        "meaning": "asking about room availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a room at the front desk",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, I'd like a single room for the night, please."
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Okay, let me check availability. Yes, we have a single room available for $100 per night."
+          }
+        ]
+      },
+      {
+        "description": "Asking about room options",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Do you have any rooms with a king-sized bed?"
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Yes, we have a few rooms with king-sized beds. Would you like me to show you some options?"
+          }
+        ]
+      }
+    ]
+  }
+}

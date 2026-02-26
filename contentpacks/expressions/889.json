@@ -1,0 +1,158 @@
+{
+  "title": "Going to the bathroom while traveling",
+  "context": "Ask the driver to pull over because you need to use a restroom.",
+  "content": {
+    "bestLine": "I need to use a restroom, can you pull over?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to stop at a restroom",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we make a quick stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to use the facilities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pull over at a restroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to go to the bathroom",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we stop for a break?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to make a pit stop",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I gotta go, can you pull over?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we stop at a gas station?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to pee, can you stop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you pull over, I need to use the restroom",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna burst, can you stop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we take a quick break?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I really need to go, can you pull over?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require a brief stop at a restroom",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please pull over at a convenient location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to attend to a personal matter, may we stop?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if we could stop at a restroom",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a brief pause at a restroom facility?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you pull over at a [options]?",
+        "options": [
+          "restroom",
+          "gas station",
+          "convenient location"
+        ],
+        "meaning": "asking the driver to stop at a specific location"
+      },
+      {
+        "template": "I need to [options], can you stop?",
+        "options": [
+          "use the restroom",
+          "go to the bathroom",
+          "make a pit stop"
+        ],
+        "meaning": "asking the driver to stop for a personal need"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the driver to pull over",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I need to use a restroom, can you pull over?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, I'll stop at the next gas station"
+          }
+        ]
+      },
+      {
+        "description": "Asking the driver to stop at a convenient location",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Can you pull over at a convenient location?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "How about we stop at that rest stop up ahead?"
+          }
+        ]
+      }
+    ]
+  }
+}

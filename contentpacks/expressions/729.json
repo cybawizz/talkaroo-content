@@ -1,0 +1,129 @@
+{
+  "title": "Asking a bank to reverse an overdraft fee",
+  "context": "Politely ask the teller to waive the penalty charge on your account.",
+  "content": {
+    "bestLine": "Could you please waive the overdraft fee on my account?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to request a fee waiver",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help with the overdraft charge?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hoping to get the fee reversed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to waive the penalty?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could waive the fee",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you look into waiving the overdraft fee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm asking to have the fee removed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please review the overdraft charge?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I respectfully request a waiver of the overdraft fee",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me in having the fee waived?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to formally request a reversal of the overdraft charge",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it feasible to have the penalty fee waived?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am requesting your assistance in waiving the overdraft fee",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please consider waiving the overdraft fee on my account?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [option] waive the overdraft fee?",
+        "options": [
+          "please",
+          "possibly"
+        ],
+        "meaning": "requesting fee waiver"
+      },
+      {
+        "template": "I am requesting [option] assistance with the overdraft charge",
+        "options": [
+          "your",
+          "the bank's"
+        ],
+        "meaning": "asking for help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking to waive the overdraft fee",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to speak with someone about an overdraft fee on my account"
+          },
+          {
+            "speaker": "Teller",
+            "text": "Of course, let me see what I can do. Can you please tell me more about the issue?"
+          }
+        ]
+      },
+      {
+        "description": "Teller offering to waive the overdraft fee",
+        "lines": [
+          {
+            "speaker": "Teller",
+            "text": "I've reviewed your account and I can offer to waive the overdraft fee this one time"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thank you so much, I really appreciate it"
+          }
+        ]
+      }
+    ]
+  }
+}

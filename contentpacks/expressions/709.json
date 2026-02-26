@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a man's haircut",
+  "context": "Ask a barber for a specific trim or a close shave.",
+  "content": {
+    "bestLine": "I'll have a trim, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a haircut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a trim?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a close shave",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a standard cut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for a haircut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cut my hair?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a haircut today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a simple trim",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a cut?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a haircut, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a trim?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a fresh cut",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a buzz cut",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a haircut, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cut my hair, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for a haircut, bro",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like a haircut, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I schedule a haircut?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a trim, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here for a haircut appointment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a close shave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a standard haircut?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like a [options] haircut",
+        "options": [
+          "trim",
+          "close shave",
+          "standard cut"
+        ],
+        "meaning": "requesting a specific type of haircut"
+      },
+      {
+        "template": "Can you give me a [options]?",
+        "options": [
+          "cut",
+          "trim",
+          "shave"
+        ],
+        "meaning": "asking for a specific service"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a haircut at a barbershop",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a trim, please."
+          },
+          {
+            "speaker": "Barber",
+            "text": "What kind of trim are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Scheduling a haircut appointment",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I schedule a haircut?"
+          },
+          {
+            "speaker": "Barber",
+            "text": "What time would you like to come in?"
+          }
+        ]
+      }
+    ]
+  }
+}

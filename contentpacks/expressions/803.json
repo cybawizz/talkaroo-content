@@ -1,0 +1,158 @@
+{
+  "title": "Ordering drinks at a fast-food restaurant",
+  "context": "Request a specific beverage and size with your meal.",
+  "content": {
+    "bestLine": "I'll have a large Coke with my meal, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a drink with that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What drinks do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a medium soda.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any specials on drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a large water, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refill on my drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What size drinks do you offer?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grab me a Coke, too.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna need a drink with that.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a large tea?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Throw in a drink, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a small lemonade.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get me a drink to go.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make that a large?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a beverage with my meal.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a drink with that?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a large coffee, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a drink to accompany my meal?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a drink, please.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [options] drink with my meal.",
+        "options": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "meaning": "Requesting a specific size drink"
+      },
+      {
+        "template": "Can I get a [options] with that?",
+        "options": [
+          "Coke",
+          "soda",
+          "water"
+        ],
+        "meaning": "Asking for a specific drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a drink at a fast-food restaurant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a large Coke with my meal, please."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Alright, that's a total of $10.99. Would you like to pay with card or cash?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for a drink recommendation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What drinks do you recommend?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Our most popular drinks are Coke, Diet Coke, and Sprite. We also have a special on our large drinks today."
+          }
+        ]
+      }
+    ]
+  }
+}

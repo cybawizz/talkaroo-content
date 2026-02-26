@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a rideshare vehicle",
+  "context": "Order a car through a smartphone app to pick you up.",
+  "content": {
+    "bestLine": "I'd like to order a car through the app",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a ride to the airport?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a car to pick me up now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I request a vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to book a car for tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send a car to my location?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to order a ride to the city",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I use the app to get a car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to request a vehicle for tomorrow",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you get me a ride?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a lift to the party",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send an Uber to my place?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get a car to the beach",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me order a ride?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a car to pick me up ASAP",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get a car through the app?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to book a ride for later",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request a vehicle for transportation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please arrange for a car to pick me up?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a ride to the airport for my flight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could book a car for me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me in ordering a vehicle through the app?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to arrange for a car to take me to the city",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to order a car to [location]",
+        "options": [
+          "the airport",
+          "the city",
+          "the beach"
+        ],
+        "meaning": "requesting a ride to a specific location"
+      },
+      {
+        "template": "Can you send a [service] to [location]?",
+        "options": [
+          "Uber",
+          "Lyft",
+          "taxi"
+        ],
+        "meaning": "requesting a specific type of ride to a location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a ride through the app",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "I'd like to order a car to the airport"
+          },
+          {
+            "speaker": "App",
+            "text": "Your car will arrive in 10 minutes"
+          }
+        ]
+      },
+      {
+        "description": "Asking for help with ordering a ride",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Can you help me order a ride?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "What's your destination?"
+          }
+        ]
+      }
+    ]
+  }
+}

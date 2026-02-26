@@ -1,0 +1,168 @@
+{
+  "title": "Finding vintage clothes at a thrift store",
+  "context": "Express excitement over buying a cheap, retro jacket.",
+  "content": {
+    "bestLine": "I scored this awesome retro jacket for a steal!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This jacket is a great find",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love the vintage style",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The price is very reasonable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This jacket is a good addition to my wardrobe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy with this purchase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The jacket is in great condition",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like the unique design",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a fantastic bargain",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so stoked I found this jacket",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This retro jacket is totally my style",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got this awesome jacket for cheap",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with vintage fashion",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This jacket is a sick find",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I came to this thrift store",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This jacket is perfect for my next party",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like I hit the jackpot",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I copped this fire jacket for a steal",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This retro fit is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed with thrift shopping",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This jacket is a major score",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key excited about this find",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] this jacket for [price]",
+        "options": [
+          "found",
+          "scored",
+          "copped"
+        ],
+        "meaning": "expressing excitement over finding a cheap jacket"
+      },
+      {
+        "template": "This jacket is [options]!",
+        "options": [
+          "amazing",
+          "awesome",
+          "fire"
+        ],
+        "meaning": "expressing admiration for the jacket"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "excitedly showing off the jacket to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Oh my gosh, look at this jacket I just found!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Wow, that's so cool! Where did you find it?"
+          }
+        ]
+      },
+      {
+        "description": "bragging about the find to a family member",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just got the most amazing retro jacket for a steal!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's awesome, congratulations! Can I see it?"
+          }
+        ]
+      }
+    ]
+  }
+}

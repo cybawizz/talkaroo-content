@@ -1,0 +1,173 @@
+{
+  "title": "When someone has made a mistake",
+  "context": "Inform someone clearly that they did something incorrect.",
+  "content": {
+    "bestLine": "You made a mistake that needs to be fixed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's not correct",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's an error here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You did it wrong",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Mistake found",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Incorrect action taken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something went wrong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not done correctly",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was wrong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got it wrong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Oops, mistake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not what I asked for",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You did it incorrectly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not what you should have done",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Wrong move",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "A mistake has been made",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Incorrect procedure followed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "An error occurred",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The action taken was incorrect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A correction is needed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The task was not completed correctly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] it wrong",
+        "options": [
+          "did",
+          "made",
+          "did it"
+        ],
+        "meaning": "informing someone they made a mistake"
+      },
+      {
+        "template": "There's a [options] in what you did",
+        "options": [
+          "mistake",
+          "problem",
+          "error"
+        ],
+        "meaning": "pointing out an error"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing a colleague of a mistake",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "You made a mistake that needs to be fixed"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "What did I do wrong?"
+          }
+        ]
+      },
+      {
+        "description": "Correcting a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You messed up, let me show you"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Thanks for correcting me"
+          }
+        ]
+      }
+    ]
+  }
+}

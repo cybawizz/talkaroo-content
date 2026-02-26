@@ -1,0 +1,129 @@
+{
+  "title": "Instructions from a train conductor",
+  "context": "Announce the next train stop and instruct passengers to have tickets ready.",
+  "content": {
+    "bestLine": "Next stop, please have your tickets ready",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Next stop, tickets out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please prepare for arrival",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get ready to disembark",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tickets ready, next stop",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Approaching next station",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have your tickets ready",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Next stop, prepare to exit",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Ladies and gentlemen, next stop",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please have your tickets prepared",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Next station, tickets required",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are approaching our next stop",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your attention, next stop ahead",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Next stop, [options]",
+        "options": [
+          "please have your tickets ready",
+          "tickets out",
+          "prepare for arrival"
+        ],
+        "meaning": "Announce the next train stop and instruct passengers"
+      },
+      {
+        "template": "[options] at the next station",
+        "options": [
+          "Please have your tickets ready",
+          "Tickets will be checked",
+          "Prepare to disembark"
+        ],
+        "meaning": "Inform passengers of the next stop and required actions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conductor's announcement",
+        "lines": [
+          {
+            "speaker": "Conductor",
+            "text": "Next stop, please have your tickets ready"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Where are we stopping?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "Our next stop will be at the downtown station"
+          }
+        ]
+      },
+      {
+        "description": "Conductor's reminder",
+        "lines": [
+          {
+            "speaker": "Conductor",
+            "text": "Tickets ready, next stop"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "How much longer until we arrive?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "We will be arriving at the next station in about 10 minutes"
+          }
+        ]
+      }
+    ]
+  }
+}

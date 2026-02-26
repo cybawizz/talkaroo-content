@@ -1,0 +1,121 @@
+{
+  "title": "Following up on an unpaid invoice",
+  "context": "Politely demand that a client pay you for the work you just finished.",
+  "content": {
+    "bestLine": "Could you please settle the outstanding invoice?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I haven't received payment yet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When can I expect the payment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a reminder about the invoice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you update me on the payment status?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still waiting for the payment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please process the payment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could pay the invoice",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request payment for the completed work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please find the invoice attached for your prompt attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please arrange for the payment to be made?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could settle the outstanding balance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know when I can expect the payment to be made",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you please [options] the invoice?",
+        "options": [
+          "pay",
+          "settle",
+          "process"
+        ],
+        "meaning": "requesting payment"
+      },
+      {
+        "template": "I would appreciate it if you could [options] the payment",
+        "options": [
+          "make",
+          "arrange",
+          "process"
+        ],
+        "meaning": "requesting payment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Following up on an unpaid invoice",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "Hi, I wanted to follow up on the invoice I sent over last week"
+          },
+          {
+            "speaker": "Client",
+            "text": "Oh, sorry about that. I'll get it processed right away"
+          }
+        ]
+      },
+      {
+        "description": "Requesting payment for completed work",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "Could you please settle the outstanding invoice?"
+          },
+          {
+            "speaker": "Client",
+            "text": "Yes, of course. I'll send it over to our accounting department"
+          }
+        ]
+      }
+    ]
+  }
+}

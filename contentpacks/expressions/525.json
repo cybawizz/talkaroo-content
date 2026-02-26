@@ -1,0 +1,173 @@
+{
+  "title": "When something is broken",
+  "context": "Point out that an item is physically damaged and needs repair.",
+  "content": {
+    "bestLine": "This item is damaged and needs repair",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not working properly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The item is broken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's damaged",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's out of order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This doesn't seem to be working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The device is faulty",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not functioning correctly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I found a problem with it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This thing is broken",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not working right",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's on the fritz",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is broken too",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's kaput",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not doing its job",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The item is defective",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It requires maintenance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The device is malfunctioning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's in need of repair",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The equipment is faulty",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not operating correctly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] is broken",
+        "options": [
+          "TV",
+          "computer",
+          "phone"
+        ],
+        "meaning": "Something is not working"
+      },
+      {
+        "template": "I think the [options] is damaged",
+        "options": [
+          "item",
+          "device",
+          "equipment"
+        ],
+        "meaning": "Something is not functioning properly"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a broken item",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, this item is broken"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "I apologize, let me help you with that"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a faulty device",
+        "lines": [
+          {
+            "speaker": "Technician",
+            "text": "It looks like the device is malfunctioning"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Okay, let's get it repaired as soon as possible"
+          }
+        ]
+      }
+    ]
+  }
+}

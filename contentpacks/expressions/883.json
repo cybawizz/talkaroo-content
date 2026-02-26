@@ -1,0 +1,171 @@
+{
+  "title": "Describing types of airline flights",
+  "context": "Discuss whether you are taking a red-eye or a non-stop flight.",
+  "content": {
+    "bestLine": "I'm taking a non-stop flight to avoid layovers.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My flight is non-stop.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a red-eye flight tonight.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The flight has one stop.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm flying direct.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My flight is overnight.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a connecting flight.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The flight is non-stop to New York.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a morning flight.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm on a red-eye, ugh.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My flight is super early.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm flying non-stop, yay!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a layover in Chicago.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My flight is a quick hop.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a night flight.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a direct flight, sweet!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My flight has a long delay.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will be taking a non-stop flight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My flight schedule includes a layover.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have booked a direct flight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The flight is scheduled to depart at midnight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be traveling on a red-eye flight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My flight itinerary includes a connection.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm taking a [options] flight.",
+        "options": [
+          "non-stop",
+          "red-eye"
+        ],
+        "meaning": "describing flight type"
+      },
+      {
+        "template": "My flight is [options].",
+        "options": [
+          "direct",
+          "with a layover"
+        ],
+        "meaning": "describing flight details"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their flights.",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm taking a non-stop flight to New York."
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's great! I have a red-eye flight to Los Angeles."
+          }
+        ]
+      },
+      {
+        "description": "A traveler asking for flight information.",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Is my flight non-stop?"
+          },
+          {
+            "speaker": "Airline Representative",
+            "text": "Yes, your flight is direct with no layovers."
+          }
+        ]
+      }
+    ]
+  }
+}

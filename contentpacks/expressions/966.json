@@ -1,0 +1,171 @@
+{
+  "title": "Concerning pregnancy",
+  "context": "Discuss a pregnancy or share the news that someone is expecting.",
+  "content": {
+    "bestLine": "We're having a baby!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm pregnant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're expecting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A baby is on the way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to be a mom",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're starting a family",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A new addition is coming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a child",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're expanding our family",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm knocked up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're having a kid",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm preggo",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're gonna be parents",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A baby is coming soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna be a momma",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're having a little one",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm expecting a baby",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am with child",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are expecting a child",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A baby is expected",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am pregnant and expecting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are starting a family and expecting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A new baby is on the way and expected",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We're [options] a baby",
+        "options": [
+          "having",
+          "expecting"
+        ],
+        "meaning": "sharing news of pregnancy"
+      },
+      {
+        "template": "I'm [options] and expecting",
+        "options": [
+          "pregnant",
+          "with child"
+        ],
+        "meaning": "sharing news of pregnancy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sharing news with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "We're having a baby!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Congratulations! That's amazing news!"
+          }
+        ]
+      },
+      {
+        "description": "Sharing news at work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I am expecting a child and will need maternity leave"
+          },
+          {
+            "speaker": "Supervisor",
+            "text": "Congratulations! We will discuss the details of your leave"
+          }
+        ]
+      }
+    ]
+  }
+}

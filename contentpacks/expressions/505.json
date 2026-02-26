@@ -1,0 +1,181 @@
+{
+  "title": "Asking a child to leave things alone",
+  "context": "Warn a child not to touch fragile or dangerous items.",
+  "content": {
+    "bestLine": "Please don't touch that, it's fragile.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't touch that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave it alone.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful with that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a toy.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't play with that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find something else.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not for you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please don't touch.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, don't touch that!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Leave it be, kiddo.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not yours to play with.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be gentle, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find a toy instead.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mess with that.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's breakable, so hands off.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's leave that alone, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must ask you not to touch that.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from touching that item.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That object is fragile, so please be careful.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not suitable for children to play with that.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find something more appropriate for you to play with.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you didn't touch that.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please don't [options] that.",
+        "options": [
+          "touch",
+          "play with",
+          "handle"
+        ],
+        "meaning": "Warning a child not to interact with something"
+      },
+      {
+        "template": "Let's find something [options] to [options].",
+        "options": [
+          "else",
+          "better",
+          "more fun"
+        ],
+        "meaning": "Redirecting a child to a different activity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A parent warning a child not to touch a fragile vase",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please don't touch that, it's fragile."
+          },
+          {
+            "speaker": "Child",
+            "text": "Why not?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Because it might break, and I don't want you to get hurt."
+          }
+        ]
+      },
+      {
+        "description": "A caregiver redirecting a child to a different toy",
+        "lines": [
+          {
+            "speaker": "Caregiver",
+            "text": "Let's find something else to play with, okay?"
+          },
+          {
+            "speaker": "Child",
+            "text": "But I want to play with that!"
+          },
+          {
+            "speaker": "Caregiver",
+            "text": "I know, but that's not a toy. How about we play with blocks instead?"
+          }
+        ]
+      }
+    ]
+  }
+}

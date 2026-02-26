@@ -1,0 +1,237 @@
+{
+  "title": "Requesting someone to stop needless talk",
+  "context": "Demand that a person stop rambling and shut up.",
+  "content": {
+    "bestLine": "Just stop talking, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please be quiet.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some silence.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you stop talking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to focus.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not interested.",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some peace.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, stop talking.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you chill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to work.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just shut up, okay?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not listening.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you keep it down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm busy, talk later.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not now, please.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey shut up.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, be quiet.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ghost me for now.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Salty talk, stop it.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Vibe check, please stop.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No talk, just chill.",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, thanks for talking.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, do go on.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so interested.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can you talk more?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is so fascinating.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Do tell, I'm captivated.",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut the hell up.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Stop talking, idiot.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't care, shut up.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Just stop, for God's sake.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Are you kidding me? Stop.",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I'm done listening, shut up.",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "stop talking",
+          "be quiet",
+          "keep it down"
+        ],
+        "meaning": "Requesting silence"
+      },
+      {
+        "template": "I'm [options], so please stop.",
+        "options": [
+          "trying to focus",
+          "busy",
+          "not interested"
+        ],
+        "meaning": "Requesting silence due to a reason"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting silence in a meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can we please focus on the agenda?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sorry, I got sidetracked. Let's continue."
+          }
+        ]
+      },
+      {
+        "description": "Requesting silence from a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Dude, can you stop talking for a sec?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's up, why?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Basic requests to a personal banker",
+  "context": "Ask a financial advisor for help with your accounts.",
+  "content": {
+    "bestLine": "Can you help me with my accounts?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help with my account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with banking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question about my balance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some help with my finances?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to discuss my account options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain my account fees?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to update my account information",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would appreciate assistance with my accounts",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with banking guidance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require help with managing my finances",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to schedule a meeting to discuss my account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you help me with a financial transaction?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "my accounts",
+          "banking",
+          "my finances"
+        ],
+        "meaning": "requesting assistance"
+      },
+      {
+        "template": "I need [options] with my account",
+        "options": [
+          "help",
+          "guidance",
+          "assistance"
+        ],
+        "meaning": "requesting support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting help with accounts",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can you help me with my accounts?"
+          },
+          {
+            "speaker": "Banker",
+            "text": "Of course, what do you need help with?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing account options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to discuss my account options"
+          },
+          {
+            "speaker": "Banker",
+            "text": "Certainly, let's go over the different types of accounts we offer"
+          }
+        ]
+      }
+    ]
+  }
+}

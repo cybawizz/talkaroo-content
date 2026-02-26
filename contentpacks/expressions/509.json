@@ -1,0 +1,126 @@
+{
+  "title": "Instructing a child in good posture (quick)",
+  "context": "Tell a child to sit up straight and stop slouching.",
+  "content": {
+    "bestLine": "Sit up straight, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sit up straight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please straighten up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good posture, remember",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sit properly, okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your back straight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shoulders back, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sit up, don't slouch",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Sit up, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Straighten up, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't slouch, okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good sitting, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sit like a pro",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Back straight, shoulders back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sit up [adverb]",
+        "options": [
+          "straight",
+          "properly",
+          "upright"
+        ],
+        "meaning": "to instruct good posture"
+      },
+      {
+        "template": "Remember to [verb] your back",
+        "options": [
+          "straighten",
+          "keep straight",
+          "hold straight"
+        ],
+        "meaning": "to maintain good posture"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Instruction",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Sit up straight, please."
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay."
+          }
+        ]
+      },
+      {
+        "description": "Encouragement",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "You're doing great, just remember to keep your back straight."
+          },
+          {
+            "speaker": "Child",
+            "text": "I'll try."
+          }
+        ]
+      }
+    ]
+  }
+}

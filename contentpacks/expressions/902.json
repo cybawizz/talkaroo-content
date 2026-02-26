@@ -1,0 +1,153 @@
+{
+  "title": "Questions asked of a ticket agent",
+  "context": "Ask an airline employee if you can upgrade your seat to first class.",
+  "content": {
+    "bestLine": "Can I upgrade my seat to first class?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is first class available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I upgrade my ticket?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the upgrade process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much to upgrade?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay to upgrade?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a first class upgrade option?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check for upgrades?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I bump up to first class?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any first class upgrades available?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I score a first class seat?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with upgrading?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with an upgrade?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Any chance I can upgrade my seat?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about upgrading to first class.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about the upgrade procedure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in upgrading my ticket to first class.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request information about available upgrades?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could check for upgrade availability.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] to first class?",
+        "options": [
+          "upgrade",
+          "bump up",
+          "move up"
+        ],
+        "meaning": "Asking about upgrading to first class"
+      },
+      {
+        "template": "Is there a [options] upgrade option?",
+        "options": [
+          "first class",
+          "business class",
+          "premium"
+        ],
+        "meaning": "Inquiring about specific upgrade options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about upgrading to first class",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Can I upgrade my seat to first class?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Let me check the availability. May I see your ticket?"
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about the upgrade process",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "What's the process for upgrading to first class?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "You can pay the difference in fare, and if there's availability, we can upgrade your seat."
+          }
+        ]
+      }
+    ]
+  }
+}

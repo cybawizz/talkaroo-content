@@ -1,0 +1,145 @@
+{
+  "title": "Trying to intimidate a police officer",
+  "context": "Aggressively challenge a cop who is trying to arrest or ticket you.",
+  "content": {
+    "bestLine": "You can't do this, I know my rights",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "Come on, officer, give me a break",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the big deal, it's just a ticket",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think you understand the situation",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we talk about this somewhere else",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not going anywhere until you explain",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is ridiculous, I'm calling my lawyer",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "Chill out, cop, I got this",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're just trying to hassle me, right",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, I don't need no ticket",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, just what I needed, a ticket",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Thanks for ruining my day, officer",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Back off, cop, I'm not afraid of you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You can't touch me, I know the law",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is a waste of time, let me go",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm not going to [options] until you [options]",
+        "options": [
+          "leave",
+          "move",
+          "cooperate"
+        ],
+        "meaning": "refusing to comply"
+      },
+      {
+        "template": "You can't [options] me because [options]",
+        "options": [
+          "arrest",
+          "ticket",
+          "stop"
+        ],
+        "meaning": "challenging authority"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a police officer during a traffic stop",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "What's the problem, officer?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "You were speeding, license and registration please"
+          },
+          {
+            "speaker": "Driver",
+            "text": "I don't think I was speeding, this is a trap"
+          }
+        ]
+      },
+      {
+        "description": "Arguing with a police officer during an arrest",
+        "lines": [
+          {
+            "speaker": "Officer",
+            "text": "Turn around and put your hands behind your back"
+          },
+          {
+            "speaker": "Suspect",
+            "text": "I'm not going anywhere, you can't arrest me"
+          },
+          {
+            "speaker": "Officer",
+            "text": "You're resisting arrest, stop struggling"
+          }
+        ]
+      }
+    ]
+  }
+}

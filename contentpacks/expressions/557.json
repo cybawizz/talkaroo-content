@@ -1,0 +1,174 @@
+{
+  "title": "Describing a water leak",
+  "context": "Explain that there is water dripping from the ceiling or pipes.",
+  "content": {
+    "bestLine": "There's water dripping from the ceiling",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Water is leaking from the pipe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a leak in my ceiling",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a water leak somewhere",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The ceiling is dripping water",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we have a leak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Water is coming from the ceiling",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's water on the floor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The pipe is leaking water",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, there's water everywhere",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a leaky ceiling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Water's dripping from the ceiling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My apartment's leaking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a leak somewhere",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got water coming from the ceiling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The ceiling's leaking water",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with this leak",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "There is a water leak in the ceiling",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing a water leak",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The pipe is leaking water into the room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a water leak",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There is water damage from the leak",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report a water leak",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "There's [options] coming from the ceiling",
+        "options": [
+          "water",
+          "a leak",
+          "drips"
+        ],
+        "meaning": "describing a water leak"
+      },
+      {
+        "template": "I've got [options] in my [options]",
+        "options": [
+          "a leak",
+          "water",
+          "apartment",
+          "house"
+        ],
+        "meaning": "describing a water leak"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a water leak to a landlord",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Hi, I've got a water leak in my apartment"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "Okay, I'll send someone to fix it"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a roommate about a water leak",
+        "lines": [
+          {
+            "speaker": "Roommate 1",
+            "text": "Dude, there's water dripping from the ceiling"
+          },
+          {
+            "speaker": "Roommate 2",
+            "text": "Yeah, I know, I'll grab a bucket"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Making a complaint to a dry cleaner",
+  "context": "Complain that your clothes were shrunk or still have a stain.",
+  "content": {
+    "bestLine": "My clothes were shrunk and still have a stain",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not happy with the service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My clothes didn't turn out right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's still a stain on my shirt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I expected better quality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My clothes were damaged",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need this fixed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't what I paid for",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm disappointed in the result",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, my clothes got messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What happened to my favorite shirt?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I still see a stain",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you redo this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My clothes shrunk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on with my clothes?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am writing to express my dissatisfaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My garments were not properly cleaned",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a re-cleaning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The service did not meet my expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There is still a noticeable stain",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] was [options]",
+        "options": [
+          "shirt",
+          "pants",
+          "dress"
+        ],
+        "meaning": "complaining about a specific item of clothing"
+      },
+      {
+        "template": "I [options] my clothes to be [options]",
+        "options": [
+          "expected",
+          "wanted",
+          "needed"
+        ],
+        "meaning": "expressing disappointment or frustration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining to dry cleaner",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm not happy with the service"
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "I apologize, what seems to be the issue?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for help",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you help me with this stain?"
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "Let me see what I can do"
+          }
+        ]
+      }
+    ]
+  }
+}

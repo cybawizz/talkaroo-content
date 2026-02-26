@@ -1,0 +1,129 @@
+{
+  "title": "Setting boundaries on weekend emails",
+  "context": "Gently remind a client that you do not work or reply on Sundays.",
+  "content": {
+    "bestLine": "I'm unavailable on Sundays, but I'll respond Monday",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't work on Sundays",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sunday is my day off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not available on weekends",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll get back to you Monday",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My weekend hours are limited",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I take Sundays off from work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll hear from me on Monday",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm offline on Sundays",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am unavailable on Sundays",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My workweek begins on Monday",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I do not respond to emails on weekends",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please expect a response on Monday",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I observe a traditional weekend schedule",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sundays are outside my working hours",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm unavailable on [options]",
+        "options": [
+          "Sundays",
+          "weekends"
+        ],
+        "meaning": "setting boundaries"
+      },
+      {
+        "template": "You'll hear from me on [options]",
+        "options": [
+          "Monday",
+          "the next business day"
+        ],
+        "meaning": "setting expectations"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Client emails on Sunday, freelancer responds on Monday",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "Hi, I need an update on the project"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "I'm unavailable on Sundays, but I'll respond Monday"
+          }
+        ]
+      },
+      {
+        "description": "Freelancer sets boundaries with client upfront",
+        "lines": [
+          {
+            "speaker": "Freelancer",
+            "text": "Just a heads up, I don't work on Sundays"
+          },
+          {
+            "speaker": "Client",
+            "text": "Okay, got it. I'll expect a response on Monday"
+          }
+        ]
+      }
+    ]
+  }
+}

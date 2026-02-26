@@ -1,0 +1,173 @@
+{
+  "title": "Asking about payment at a grocery store",
+  "context": "Ask the cashier what forms of payment they accept.",
+  "content": {
+    "bestLine": "What forms of payment do you accept?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you take credit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What payment methods are available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with my card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept cash only?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What forms of payment do you take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my debit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cash or card only?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any payment restrictions?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Do you take cards?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just use my card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept mobile payments?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with my phone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is card or cash better?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have Apple Pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my watch to pay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about your accepted payment methods.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about the available payment options?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What forms of payment are accepted at this establishment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about your payment policies.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any specific payment requirements I should be aware of?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me about the payment procedures?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you accept [options]?",
+        "options": [
+          "credit cards",
+          "cash",
+          "mobile payments"
+        ],
+        "meaning": "inquire about accepted payment methods"
+      },
+      {
+        "template": "Can I pay with [options]?",
+        "options": [
+          "my card",
+          "my phone",
+          "my watch"
+        ],
+        "meaning": "ask about available payment options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment methods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you take credit cards?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, we accept all major credit cards."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about payment options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What forms of payment do you accept?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "We accept cash, credit cards, and mobile payments."
+          }
+        ]
+      }
+    ]
+  }
+}

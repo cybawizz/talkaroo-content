@@ -1,0 +1,173 @@
+{
+  "title": "Spilling messy street food",
+  "context": "Yell in frustration because a burrito just exploded on your shirt.",
+  "content": {
+    "bestLine": "Are you kidding me, my shirt is ruined!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is a real mess",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I just got sauce all over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My shirt is stained now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This burrito exploded on me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a napkin ASAP",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What a disaster, my clothes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm such a clumsy eater",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is not my day",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dang it, my favorite shirt!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Seriously, who drops a burrito?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ugh, I'm covered in guac",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is so frustrating",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I just got my shirt dirty",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What bad luck, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm such a mess, literally",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This burrito hates me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Son of a biscuit, my shirt!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Burrito just went rogue on me",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella messy right now",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This food truck is cursed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key furious",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "High-key frustrated, btw",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is ruined!",
+        "options": [
+          "shirt",
+          "pants",
+          "favorite clothes"
+        ],
+        "meaning": "expressing frustration over spilled food"
+      },
+      {
+        "template": "I just [options] all over my [options]",
+        "options": [
+          "spilled",
+          "dropped",
+          "got sauce"
+        ],
+        "meaning": "describing the accident"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to the food truck vendor",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Dude, your burrito just exploded on me!"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "Oh no, I'm so sorry! Let me get you a napkin"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Ugh, I'm such a clumsy eater, I just spilled a burrito all over"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Haha, that's so you! Do you need a napkin or something?"
+          }
+        ]
+      }
+    ]
+  }
+}

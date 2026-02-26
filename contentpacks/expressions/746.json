@@ -1,0 +1,156 @@
+{
+  "title": "Choosing merchandise in a store",
+  "context": "Discuss different product options or sizes with a store employee.",
+  "content": {
+    "bestLine": "Can you show me some options in a different size?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What sizes do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for something in blue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any recommendations?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see that in a larger size?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the difference between these two?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any sales going on?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find something?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got any other colors?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best seller?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a different size?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much is this one?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any deals?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me something similar?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think of this one?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about available sizes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please show me some alternative options?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in purchasing a product in a specific color",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with some product recommendations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me in finding a suitable product",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you show me [options]?",
+        "options": [
+          "some options in a different size",
+          "something in a larger size"
+        ],
+        "meaning": "requesting to see alternative products"
+      },
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "any sales going on",
+          "any recommendations"
+        ],
+        "meaning": "inquiring about available options or promotions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about product sizes",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for a shirt in a medium size"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Let me check what we have in stock. We have a few different options in medium"
+          }
+        ]
+      },
+      {
+        "description": "Customer seeking product recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a gift for my friend. Can you show me some options?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "We have a few different products that might be suitable. Let me show you some of our best sellers"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "title": "When a smart home device breaks",
+  "context": "Complain that you cannot turn on your bedroom lights without the internet.",
+  "content": {
+    "bestLine": "I'm stuck without bedroom lights due to no internet",
+    "groups": {
+      "neutral": [
+        {
+          "text": "No internet, no lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bedroom lights won't turn on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Internet issue, lights not working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can't control lights without internet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lights depend on internet connection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No wifi, no bedroom lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Smart home device not functioning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lights won't turn on without internet",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My lights are dead without wifi",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No internet, lights are out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in the dark without internet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can't even turn on my lights",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lights are useless without wifi",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No lights, no internet, no fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stuck in the dark ages without internet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My smart home is pretty dumb without wifi",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lights are hella busted without wifi",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No internet, lights are ghosted",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lowkey stuck without lights",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lights are highkey useless without wifi",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No wifi, no lights, no cap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My smart home is straight trash without internet",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, my lights don't work without internet, just what I needed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I love being dependent on wifi for my lights",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just perfect, my smart home device is a brick without internet",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I spent money on a device that doesn't work without wifi",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is exactly what I wanted, a light system that's useless without internet",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just great, now I get to enjoy the dark ages thanks to my smart home device",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having trouble with my [options] lights",
+        "options": [
+          "bedroom",
+          "living room",
+          "kitchen"
+        ],
+        "meaning": "expressing frustration with smart home device"
+      },
+      {
+        "template": "My [options] device is not working without internet",
+        "options": [
+          "smart home",
+          "lighting",
+          "security"
+        ],
+        "meaning": "complaining about device dependency on internet"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a customer support representative",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, my bedroom lights won't turn on without internet"
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize for the inconvenience, let me help you troubleshoot"
+          }
+        ]
+      },
+      {
+        "description": "Discussing with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so frustrated, my lights don't work without wifi"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's annoying, have you tried restarting your router?"
+          }
+        ]
+      }
+    ]
+  }
+}

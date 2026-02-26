@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about wedding planning",
+  "context": "Tell your fiance that the catering is way too expensive and stressful.",
+  "content": {
+    "bestLine": "Honey, this catering is breaking the bank",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The catering costs are too high",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about the catering budget",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to reconsider the catering options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The catering is getting out of hand",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we can find cheaper catering",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The catering is stressing me out",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "We should look for alternative catering",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure about the catering choice",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This catering is crazy expensive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freaking out about the catering costs",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We need to chill with the catering spending",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The catering is giving me anxiety",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we please find a cheaper caterer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with this catering drama",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just DIY the catering",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This catering is a total nightmare",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This catering is hella pricey",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key freaking out about the catering",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "We need to scale back the catering, fam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The catering is straight fire...ly expensive",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we get a cheaper caterer, pls?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so extra about this catering situation",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about the catering",
+        "options": [
+          "worried",
+          "freaking out",
+          "done"
+        ],
+        "meaning": "expressing concern or frustration"
+      },
+      {
+        "template": "We need to [options] the catering",
+        "options": [
+          "reconsider",
+          "scale back",
+          "DIY"
+        ],
+        "meaning": "suggesting a change in catering plans"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to fiance about expensive catering",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Honey, this catering is breaking the bank"
+          },
+          {
+            "speaker": "Fiance",
+            "text": "I know, I've been looking for cheaper options"
+          }
+        ]
+      },
+      {
+        "description": "Discussing catering alternatives",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What if we just do a potluck instead?"
+          },
+          {
+            "speaker": "Fiance",
+            "text": "That's not a bad idea, let's consider it"
+          }
+        ]
+      }
+    ]
+  }
+}

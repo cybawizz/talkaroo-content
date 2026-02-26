@@ -1,0 +1,173 @@
+{
+  "title": "Ruining a home-cooked meal",
+  "context": "Admit to your family that you completely burned the dinner in the oven.",
+  "content": {
+    "bestLine": "I think I burned dinner, sorry guys",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Dinner didn't turn out right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a mistake with the cooking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The meal is overcooked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid dinner is ruined",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something went wrong in the oven",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I burned the main course",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner is not edible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the mistake",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I totally messed up dinner",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dinner is toast, literally",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I burned the heck out of it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Whoops, dinner is ruined",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm such a bad cook",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dinner is a disaster",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I guess we're ordering takeout",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Yeah, dinner didn't go well",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I straight up burned dinner, lol",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Dinner is hella ruined",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm a culinary fail",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Dinner is ghosted, it's gone",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I lowkey messed up dinner",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Dinner is a hot mess",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] dinner",
+        "options": [
+          "burned",
+          "messed up",
+          "ruined"
+        ],
+        "meaning": "admitting to ruining dinner"
+      },
+      {
+        "template": "Dinner is [options]",
+        "options": [
+          "ruined",
+          "burned",
+          "not edible"
+        ],
+        "meaning": "describing the state of dinner"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Admitting to burning dinner",
+        "lines": [
+          {
+            "speaker": "Mom",
+            "text": "What's for dinner?"
+          },
+          {
+            "speaker": "You",
+            "text": "I think I burned dinner, sorry"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the burned dinner",
+        "lines": [
+          {
+            "speaker": "Sibling",
+            "text": "What happened to dinner?"
+          },
+          {
+            "speaker": "You",
+            "text": "I messed up, it's ruined"
+          }
+        ]
+      }
+    ]
+  }
+}

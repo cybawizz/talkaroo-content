@@ -1,0 +1,173 @@
+{
+  "title": "Ordering flowers from a florist",
+  "context": "Tell a florist exactly what kind of bouquet you want to send.",
+  "content": {
+    "bestLine": "I'd like a bouquet with roses and lilies, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a bouquet with mixed flowers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a flower arrangement for a birthday.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What flowers are in season now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any pre-made bouquets?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for something simple and elegant.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend a flower type?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much for a dozen roses?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer delivery services?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a cool bouquet for my friend?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some flowers for a party tonight.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best flower for a get-well gift?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a sweet bouquet?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for something that'll impress my date.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any flowers that are, like, really unique?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make me a bouquet with, like, a mix of everything?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much would a custom bouquet cost?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to place an order for a custom bouquet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please recommend a suitable flower arrangement?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a bouquet for a formal event.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the process for ordering a bespoke bouquet?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me with a flower selection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with a quote for a flower arrangement?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like a bouquet with [options].",
+        "options": [
+          "roses",
+          "lilies",
+          "sunflowers"
+        ],
+        "meaning": "requesting a custom bouquet"
+      },
+      {
+        "template": "Can you recommend a flower type for [options]?",
+        "options": [
+          "a birthday",
+          "a wedding",
+          "a get-well gift"
+        ],
+        "meaning": "seeking advice on flower selection"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a custom bouquet",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to order a bouquet with roses and lilies."
+          },
+          {
+            "speaker": "Florist",
+            "text": "That sounds beautiful. Would you like any other flowers added to the arrangement?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about flower availability",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any sunflowers available?"
+          },
+          {
+            "speaker": "Florist",
+            "text": "Yes, we have a fresh batch of sunflowers that just arrived this morning."
+          }
+        ]
+      }
+    ]
+  }
+}

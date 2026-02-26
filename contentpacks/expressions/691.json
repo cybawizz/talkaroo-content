@@ -1,0 +1,173 @@
+{
+  "title": "Using the ATM",
+  "context": "Ask for help using the automated teller machine.",
+  "content": {
+    "bestLine": "Excuse me, can you help me with this ATM?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help with the ATM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I use this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need assistance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you help me out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm stuck, can you help?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on with this thing?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a hand?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having some issues",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you walk me through it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure what to do",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me figure it out?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate your assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please help me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require help with the ATM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request your help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide me with assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need your help with this transaction",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you help me with [options]",
+        "options": [
+          "this ATM",
+          "my transaction",
+          "this machine"
+        ],
+        "meaning": "requesting help"
+      },
+      {
+        "template": "I need [options] with the ATM",
+        "options": [
+          "help",
+          "assistance",
+          "support"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for help from a bank employee",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, can you help me with this ATM?"
+          },
+          {
+            "speaker": "Bank Employee",
+            "text": "Of course, what seems to be the issue?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for help from a passerby",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can you help me out with this ATM?"
+          },
+          {
+            "speaker": "Passerby",
+            "text": "Sure, what's going on?"
+          }
+        ]
+      }
+    ]
+  }
+}

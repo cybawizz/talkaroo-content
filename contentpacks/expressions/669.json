@@ -1,0 +1,189 @@
+{
+  "title": "Giving voice commands to a smart speaker",
+  "context": "Ask a digital assistant to turn off the lights or play a song.",
+  "content": {
+    "bestLine": "Turn off the lights",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Turn off the lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Play some music",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn on the living room lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Play a song by The Beatles",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dim the lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Play some jazz music",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn off the kitchen lights",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Play a random song",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, turn off the lights",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Play something cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn on the lights?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Play a song I'll like",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn down the lights",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Play some tunes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lights off, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Play a fun song",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please turn off the lights",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to play some music",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you turn on the living room lights?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Play a song by a popular artist",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Dim the lights to 50%",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Play some classical music",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Turn on the [options] lights",
+        "options": [
+          "living room",
+          "kitchen",
+          "bedroom"
+        ],
+        "meaning": "Turn on the lights in a specific room"
+      },
+      {
+        "template": "Play some [options] music",
+        "options": [
+          "jazz",
+          "rock",
+          "classical"
+        ],
+        "meaning": "Play music of a specific genre"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "User asks smart speaker to turn off the lights and play music",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Turn off the lights"
+          },
+          {
+            "speaker": "Smart Speaker",
+            "text": "Okay, turning off the lights"
+          },
+          {
+            "speaker": "User",
+            "text": "Play some music"
+          },
+          {
+            "speaker": "Smart Speaker",
+            "text": "Playing some jazz music"
+          }
+        ]
+      },
+      {
+        "description": "User asks smart speaker to turn on the lights and play a specific song",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Turn on the living room lights"
+          },
+          {
+            "speaker": "Smart Speaker",
+            "text": "Okay, turning on the living room lights"
+          },
+          {
+            "speaker": "User",
+            "text": "Play a song by The Beatles"
+          },
+          {
+            "speaker": "Smart Speaker",
+            "text": "Playing 'Yesterday' by The Beatles"
+          }
+        ]
+      }
+    ]
+  }
+}

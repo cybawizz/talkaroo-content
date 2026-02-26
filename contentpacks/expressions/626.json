@@ -1,0 +1,198 @@
+{
+  "title": "Warnings",
+  "context": "Firmly caution someone about an immediate danger or problem.",
+  "content": {
+    "bestLine": "Be careful, there's a hazard ahead",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Watch out for that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a problem here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be aware of your surroundings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Caution is advised",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something's not right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Proceed with caution",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Warning, danger ahead",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, look out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Watch your step",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's something weird going on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You might want to slow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bad feeling about this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be careful in here",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Exercise extreme caution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be advised of potential hazards",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Warning, proceed with care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Attention, danger zone ahead",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Caution is strongly advised",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, heads up",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Lowkey, something's off",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Highkey, be careful",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No cap, there's a problem",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Fam, watch out",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Gotta keep it safe, G",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Be [adjective] of [thing]",
+        "options": [
+          "careful",
+          "aware",
+          "warned"
+        ],
+        "meaning": "to caution someone"
+      },
+      {
+        "template": "There's a [adjective] [thing] [location]",
+        "options": [
+          "potential",
+          "hidden",
+          "obvious"
+        ],
+        "meaning": "to warn someone of a hazard"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a friend of a potential hazard",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, watch out for that"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "There's a hole in the ground"
+          }
+        ]
+      },
+      {
+        "description": "Warning a coworker of a workplace hazard",
+        "lines": [
+          {
+            "speaker": "Supervisor",
+            "text": "Exercise extreme caution in this area"
+          },
+          {
+            "speaker": "Employee",
+            "text": "What's the hazard?"
+          },
+          {
+            "speaker": "Supervisor",
+            "text": "There's a risk of electrical shock"
+          }
+        ]
+      }
+    ]
+  }
+}

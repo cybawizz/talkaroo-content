@@ -1,0 +1,131 @@
+{
+  "title": "Health claims on consumer products",
+  "context": "Read a label that claims the product is healthy or organic.",
+  "content": {
+    "bestLine": "This product claims to be organic and healthy.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Check the label for health claims.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This product says it's good for you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for organic options.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What does the label say about health benefits?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this product really healthy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me read the health claims.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This product is labeled as natural.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to know what's in this product.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The product label indicates it is a healthy choice.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am examining the health claims on this product.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This product is certified organic.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The packaging states it has health benefits.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to verify the health claims on this product.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The label claims this product is good for your health.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This product claims to be [options].",
+        "options": [
+          "organic",
+          "healthy",
+          "natural"
+        ],
+        "meaning": "The product's label makes a specific health or environmental claim."
+      },
+      {
+        "template": "I'm looking for [options] products.",
+        "options": [
+          "organic",
+          "healthy",
+          "natural"
+        ],
+        "meaning": "The speaker is seeking products with specific health or environmental attributes."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing health claims on a product",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "This product says it's organic and healthy."
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Let me see the label. Yes, it claims to have several health benefits."
+          }
+        ]
+      },
+      {
+        "description": "A customer asking a store clerk about health claims",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, what does the label say about the health benefits of this product?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "It says here that it's made from natural ingredients and is good for your health."
+          }
+        ]
+      }
+    ]
+  }
+}

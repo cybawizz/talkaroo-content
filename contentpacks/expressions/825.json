@@ -1,0 +1,125 @@
+{
+  "title": "A server offering dessert",
+  "context": "Ask the customers if they would like to see the sweets menu.",
+  "content": {
+    "bestLine": "Would you like to see our dessert menu?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I show you our desserts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a great selection of sweets.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like dessert?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our dessert menu is available.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I interest you in dessert?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have some delicious desserts to choose from.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dessert options are available.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "May I present our dessert offerings?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have an extensive dessert menu.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care to view our desserts?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our dessert selection is available for your review.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I can offer you our dessert menu.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] our dessert menu?",
+        "options": [
+          "show you",
+          "bring you",
+          "offer you"
+        ],
+        "meaning": "Asking if the customer wants to see the dessert menu"
+      },
+      {
+        "template": "We have [options] desserts available.",
+        "options": [
+          "a variety of",
+          "a selection of",
+          "an assortment of"
+        ],
+        "meaning": "Informing the customer about the dessert options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Server offering dessert to customers",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Can I show you our desserts?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, please."
+          }
+        ]
+      },
+      {
+        "description": "Server presenting dessert menu",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "We have a great selection of sweets."
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds good. What do you recommend?"
+          }
+        ]
+      }
+    ]
+  }
+}

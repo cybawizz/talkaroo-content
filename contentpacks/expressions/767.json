@@ -1,0 +1,126 @@
+{
+  "title": "A clerk asking about prices",
+  "context": "Check with a coworker or customer about how much an item costs.",
+  "content": {
+    "bestLine": "How much does this cost?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the price of this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is this item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price tag?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much does it cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the cost of this?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much is this gonna set me back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a price check?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much are you selling this for?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price on this?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the price?",
+        "options": [
+          "tell me",
+          "give me",
+          "show me"
+        ],
+        "meaning": "asking for the price"
+      },
+      {
+        "template": "How much does [options] cost?",
+        "options": [
+          "this",
+          "that",
+          "it"
+        ],
+        "meaning": "asking for the price of an item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Clerk asking customer about price",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "I'm not sure how much this costs, can you tell me?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Let me check, it's $10.99"
+          }
+        ]
+      },
+      {
+        "description": "Clerk asking coworker about price",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Hey, do you know how much this item costs?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Yeah, it's on sale for $5.99"
+          }
+        ]
+      }
+    ]
+  }
+}

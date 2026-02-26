@@ -1,0 +1,205 @@
+{
+  "title": "When someone is in trouble",
+  "context": "Acknowledge that another person is facing a difficult situation or punishment.",
+  "content": {
+    "bestLine": "You're in a tough spot",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's a difficult situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're facing a challenge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not ideal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're in a bind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're dealing with a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a tough break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're in trouble",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're screwed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a bummer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're in a pickle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a drag",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're in deep",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a mess",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're in hot water",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a hassle",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're hosed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's whack",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're ghosted",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's lit",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're salty",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a bust",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just what you needed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's just perfect",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really lucky",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's awesome",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just peachy",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're in [options] trouble",
+        "options": [
+          "deep",
+          "big",
+          "hot"
+        ],
+        "meaning": "You're in a difficult situation"
+      },
+      {
+        "template": "That's a [options] problem",
+        "options": [
+          "big",
+          "huge",
+          "enormous"
+        ],
+        "meaning": "That's a significant issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend in trouble",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I just got a ticket"
+          },
+          {
+            "speaker": "B",
+            "text": "You're in a tough spot"
+          }
+        ]
+      },
+      {
+        "description": "Colleague in trouble",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I missed the deadline"
+          },
+          {
+            "speaker": "B",
+            "text": "That's a difficult situation"
+          }
+        ]
+      }
+    ]
+  }
+}

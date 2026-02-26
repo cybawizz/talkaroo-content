@@ -1,0 +1,173 @@
+{
+  "title": "Requests to have uneaten food wrapped",
+  "context": "Ask the server for a box to take your leftover food home.",
+  "content": {
+    "bestLine": "Can I get a box for my leftovers?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a to-go box?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to take my leftovers home.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wrap up my remaining food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take the rest to go.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a container for my leftovers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a box for my uneaten food.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you box up my leftovers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll need a to-go box, please.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I get a doggy bag?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna take this to go.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you throw my leftovers in a box?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll just take the rest home.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab a to-go container?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not done, can I take it with me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wrap this up for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take my leftovers to go, thanks.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a box for my leftovers.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide a container for my uneaten food?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to take my remaining food with me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have a to-go box, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could wrap up my leftovers.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a box for my leftovers, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [option] for my leftovers?",
+        "options": [
+          "box",
+          "to-go box",
+          "container"
+        ],
+        "meaning": "Requesting a container for leftover food"
+      },
+      {
+        "template": "I'd like to [option] my leftovers.",
+        "options": [
+          "take home",
+          "take with me",
+          "wrap up"
+        ],
+        "meaning": "Requesting to take leftover food home"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a box for leftovers",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a box for my leftovers?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, I'll get you a to-go box."
+          }
+        ]
+      },
+      {
+        "description": "Asking to take food home",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to take my leftovers home."
+          },
+          {
+            "speaker": "Server",
+            "text": "Okay, I'll wrap it up for you."
+          }
+        ]
+      }
+    ]
+  }
+}

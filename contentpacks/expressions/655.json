@@ -1,0 +1,199 @@
+{
+  "title": "Writing a terrible product review",
+  "context": "Leave a one-star review warning people that the product broke immediately.",
+  "content": {
+    "bestLine": "Broke immediately, total waste of money",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Did not meet expectations",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Product failed quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not satisfied with purchase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Item broke right away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Poor quality product",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would not recommend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Disappointing experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Failed to deliver",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This thing broke in a day",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Total garbage, don't buy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Broke super fast, what a waste",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't waste your money",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This product is trash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not worth the hassle",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Broke before I could use it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Would not buy again",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This product is hella whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't @ me, this thing is trash",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey disappointed, highkey annoyed",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This product is straight fire...ly bad",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't get it, G",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a hot mess",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, just what I needed, a broken product",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for the amazing experience, said no one",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I wasted my money on this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This product is the best...at being terrible",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm just so impressed with the quality...of the trash",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I bought [product] and it [broke/failed] [time]",
+        "options": [
+          "immediately",
+          "right away",
+          "in a day"
+        ],
+        "meaning": "Expressing disappointment with a product"
+      },
+      {
+        "template": "Don't [buy/waste] your [money/time] on [product]",
+        "options": [
+          "buy",
+          "waste"
+        ],
+        "meaning": "Warning others about a bad product"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Leaving a bad review",
+        "lines": [
+          {
+            "speaker": "Reviewer",
+            "text": "I'm so disappointed with this product"
+          },
+          {
+            "speaker": "Reviewer",
+            "text": "It broke immediately, what a waste of money"
+          }
+        ]
+      },
+      {
+        "description": "Warning a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, have you used this product?"
+          },
+          {
+            "speaker": "You",
+            "text": "Yeah, it's trash, don't waste your money"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Asking a taxi driver to wait",
+  "context": "Ask the driver to keep the meter running while you run inside a building.",
+  "content": {
+    "bestLine": "Can you wait here for a minute?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Wait here for a sec",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wait a minute?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be right back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the meter running",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to run inside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep the meter on?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a quick stop",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait here please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you wait?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just gonna run in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the meter goin'",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be right back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hang out for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gimme a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wait up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be back in a flash",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please wait?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to make a quick stop",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep the meter running",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be right back, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request you wait?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your patience",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you wait [options]?",
+        "options": [
+          "here for a minute",
+          "for a sec",
+          "while I run in"
+        ],
+        "meaning": "requesting the driver to wait"
+      },
+      {
+        "template": "I'll be right back, [options]",
+        "options": [
+          "thanks",
+          "okay?",
+          "alright"
+        ],
+        "meaning": "informing the driver of a quick return"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a taxi driver to wait",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Can you wait here for a minute?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yeah, sure thing"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a taxi driver to keep the meter running",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Keep the meter running, please"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, got it"
+          }
+        ]
+      }
+    ]
+  }
+}

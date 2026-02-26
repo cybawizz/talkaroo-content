@@ -1,0 +1,121 @@
+{
+  "title": "Life and death emergencies",
+  "context": "Yell that someone is actively dying and needs a doctor immediately.",
+  "content": {
+    "bestLine": "Someone's dying, we need a doctor now!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We need medical help ASAP",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's in critical condition",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a life-threatening emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Call 911, it's an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need a doctor right away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's dying, we need help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a matter of life and death",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We require immediate medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone is experiencing a life-threatening emergency",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to call emergency services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A doctor is needed urgently",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have a critical situation that requires medical help",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Someone's [adjective], we need a doctor [adverb]",
+        "options": [
+          "dying",
+          "hurt",
+          "injured"
+        ],
+        "meaning": "expressing urgency for medical help"
+      },
+      {
+        "template": "We need [medical help] [immediately/now]",
+        "options": [
+          "a doctor",
+          "medical attention",
+          "emergency services"
+        ],
+        "meaning": "requesting immediate medical assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Emergency situation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Someone's dying, we need a doctor now!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'll call 911, try to keep them calm"
+          }
+        ]
+      },
+      {
+        "description": "Urgent medical help",
+        "lines": [
+          {
+            "speaker": "Person C",
+            "text": "We need a doctor right away, it's an emergency"
+          },
+          {
+            "speaker": "Person D",
+            "text": "I'll get the defibrillator, you call for an ambulance"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Losing your friends at a music festival",
+  "context": "Text or yell to your group that you are lost in the giant crowd.",
+  "content": {
+    "bestLine": "Guys, I'm lost! Where are you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm lost in the crowd",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can't find you guys",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm over here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Meet back at the entrance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm by the stage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hear me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I'm lost",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's everyone at?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck in this crowd",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you see me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm right behind the bar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's meet up at the food trucks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm near the merch booth",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yell if you can hear me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, I'm ghosted in this crowd",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey lost, highkey scared",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Squad, where you at?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm turnt up, but lost",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, I'm really lost",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Fam, help a friend out",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] in the crowd",
+        "options": [
+          "lost",
+          "stuck",
+          "hidden"
+        ],
+        "meaning": "Unable to find friends"
+      },
+      {
+        "template": "Can you [options] me?",
+        "options": [
+          "see",
+          "hear",
+          "find"
+        ],
+        "meaning": "Asking for help to reunite"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for help to find friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, have you seen my friends?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, but I can help you find them. What are they wearing?"
+          }
+        ]
+      },
+      {
+        "description": "Reuniting with friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Oh man, I'm so glad I found you guys!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, we were worried sick about you! Let's stick together from now on."
+          }
+        ]
+      }
+    ]
+  }
+}

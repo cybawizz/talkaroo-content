@@ -1,0 +1,173 @@
+{
+  "title": "Admitting your errors",
+  "context": "Confess that you were wrong or made a bad choice.",
+  "content": {
+    "bestLine": "I was wrong, and I apologize",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I made a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was my error",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was incorrect",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies for the mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should have done it differently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was not my best decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I regret my choice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was wrong to do that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I blew it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was a bad call",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I should have known better",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel terrible about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was way off",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was my mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I take full responsibility",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret my actions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should have been more careful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] that decision",
+        "options": [
+          "regret",
+          "apologize for",
+          "wish I could change"
+        ],
+        "meaning": "expressing remorse for a choice"
+      },
+      {
+        "template": "If I could [options], I would",
+        "options": [
+          "do it again",
+          "change my decision",
+          "go back in time"
+        ],
+        "meaning": "expressing a desire to alter a past choice"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing for a mistake",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I was wrong to do that"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's okay, we all make mistakes"
+          }
+        ]
+      },
+      {
+        "description": "Taking responsibility for an error",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I take full responsibility for the mistake"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you for owning up to it"
+          }
+        ]
+      }
+    ]
+  }
+}

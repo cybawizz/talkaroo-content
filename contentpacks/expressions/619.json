@@ -1,0 +1,195 @@
+{
+  "title": "When someone is being timid",
+  "context": "Tell someone to stop being shy and speak up.",
+  "content": {
+    "bestLine": "Hey, don't be shy, speak up!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please share your thoughts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We want to hear from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't hesitate to speak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your input is valuable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to contribute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're listening, go ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Share your ideas with us",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "C'mon, say something",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be quiet, speak up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's on your mind, share",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're all ears, go ahead",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be shy, let's hear it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give us your two cents",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let your voice be heard",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, your silence is deafening",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Great, just what we need, more silence",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Oh, please, do go on, we're fascinated",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Your lack of input is really helping",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "We're all just dying to hear your thoughts",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This silence is really productive",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Spill the beans, dude",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, we need your input",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey, speak up already",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, your thoughts matter",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a wallflower, contribute",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this tea, share your thoughts",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If you've got something to say, [options]",
+        "options": [
+          "say it",
+          "share it",
+          "speak up"
+        ],
+        "meaning": "encouraging someone to contribute"
+      },
+      {
+        "template": "We're all [options], so go ahead",
+        "options": [
+          "ears",
+          "listening",
+          "waiting to hear from you"
+        ],
+        "meaning": "creating a supportive environment for someone to speak up"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging a timid friend to speak up",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I don't know if I should say anything"
+          },
+          {
+            "speaker": "You",
+            "text": "C'mon, say something, we're all listening"
+          }
+        ]
+      },
+      {
+        "description": "Supporting a shy colleague in a meeting",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "I'm not sure if my idea is any good"
+          },
+          {
+            "speaker": "You",
+            "text": "Your input is valuable, please share your thoughts"
+          }
+        ]
+      }
+    ]
+  }
+}

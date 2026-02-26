@@ -1,0 +1,235 @@
+{
+  "title": "When someone gives an unwanted opinion",
+  "context": "Tell someone to mind their own business and stop interfering.",
+  "content": {
+    "bestLine": "Not my problem, mind your own business",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd rather not discuss this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my concern",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not involved in this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on my issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't need your input",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Please don't interfere",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "This doesn't involve you",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got this under control",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Butt out, it's not your problem",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not your circus, not your monkeys",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind your own biz",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't stick your nose in",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me handle it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's none of your concern",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stay out of it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't need your two cents",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Chill, it's not your beef",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be all up in my grill",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ain't your problem, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it movin', not your biz",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't get it twisted, mind your own",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Not your drama, bruh",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, another expert",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, thanks for your input, I was lost",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I was just waiting for your opinion",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're so smart, mind your own business",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you butted in",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Your two cents are so valuable",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and mind your own business",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get out of my face",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Butt out, idiot",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't care about your opinion",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Mind your own damn business",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Don't interfere, you're not welcome",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Mind your own [business/bee's wax]",
+        "options": [
+          "business",
+          "bee's wax"
+        ],
+        "meaning": "Tell someone to stop interfering"
+      },
+      {
+        "template": "Not my [problem/concern]",
+        "options": [
+          "problem",
+          "concern"
+        ],
+        "meaning": "Tell someone it's not your issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Someone gives unwanted advice",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You should do this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Mind your own business, thanks"
+          }
+        ]
+      },
+      {
+        "description": "Someone interferes in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm trying to talk to him"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Butt out, it's not your conversation"
+          }
+        ]
+      }
+    ]
+  }
+}

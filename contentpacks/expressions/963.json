@@ -1,0 +1,131 @@
+{
+  "title": "Medical warnings on product labels",
+  "context": "Read a warning about side effects or dangers on a label.",
+  "content": {
+    "bestLine": "Read the label carefully for side effects",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Check the label for warnings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be aware of potential side effects",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Follow the instructions carefully",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take as directed to avoid risks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Consult a doctor if you have concerns",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Read the fine print for important information",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Understand the risks before taking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Heed the warnings to ensure safety",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is essential to read the label carefully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Adhere to the instructions to minimize risks",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be cautious of potential interactions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Consult a medical professional if necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Follow the recommended dosage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Understand the contraindications",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If you experience [options], seek medical attention",
+        "options": [
+          "dizziness",
+          "nausea",
+          "headaches"
+        ],
+        "meaning": "Warning about potential side effects"
+      },
+      {
+        "template": "To avoid [options], take the medication as directed",
+        "options": [
+          "allergic reactions",
+          "interactions",
+          "overdose"
+        ],
+        "meaning": "Instruction to follow the dosage instructions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Pharmacist warning a patient about side effects",
+        "lines": [
+          {
+            "speaker": "Pharmacist",
+            "text": "Please read the label carefully for any warnings"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Okay, what are the most common side effects?"
+          }
+        ]
+      },
+      {
+        "description": "Doctor instructing a patient on medication use",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Take the medication as directed to minimize risks"
+          },
+          {
+            "speaker": "Patient",
+            "text": "What should I do if I experience any side effects?"
+          }
+        ]
+      }
+    ]
+  }
+}

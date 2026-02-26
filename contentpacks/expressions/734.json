@@ -1,0 +1,147 @@
+{
+  "title": "Asking about payment for phone orders",
+  "context": "Ask the agent if you can pay with a credit card over the phone.",
+  "content": {
+    "bestLine": "Can I pay with a credit card over the phone?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you accept credit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay by card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is credit card payment available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my credit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take credit card payments?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay over the phone with a credit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is phone payment with credit card an option?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I just pay with my card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys take credit cards?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay by credit card over the phone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay to use my credit card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with a credit card now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept credit card payments over the phone?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about payment options.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please inform me about credit card payment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to pay by credit card over the phone?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to pay with a credit card. Is that acceptable?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I pay with [options]?",
+        "options": [
+          "a credit card",
+          "my card",
+          "a credit card over the phone"
+        ],
+        "meaning": "Asking about payment method"
+      },
+      {
+        "template": "Do you accept [options] payments?",
+        "options": [
+          "credit card",
+          "card"
+        ],
+        "meaning": "Inquiring about accepted payment methods"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can I pay with a credit card over the phone?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, we accept credit card payments over the phone."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about payment methods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you take credit card payments?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, we do. You can pay with Visa, Mastercard, or Amex."
+          }
+        ]
+      }
+    ]
+  }
+}

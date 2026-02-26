@@ -1,0 +1,177 @@
+{
+  "title": "A clerk asking about payment",
+  "context": "Ask the customer if they are paying with cash or card.",
+  "content": {
+    "bestLine": "Will you be paying with cash or card?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How would you like to pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your payment method?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cash or card today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How will you be paying?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Payment method, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will that be cash or card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of payment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How are you paying?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Cash or card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How ya payin'?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the payment?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You payin' with cash or card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the payment?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cash, card, or?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Payin' with what?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gonna pay with cash or card?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require your payment method, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please specify your payment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What form of payment will you be using?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your payment method, if you please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We accept cash or card. Which will it be?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please indicate your preferred payment method.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Will you be paying with [options]?",
+        "options": [
+          "cash",
+          "card",
+          "mobile pay"
+        ],
+        "meaning": "Asking about payment method"
+      },
+      {
+        "template": "You can pay with [options].",
+        "options": [
+          "cash",
+          "card",
+          "check"
+        ],
+        "meaning": "Informing about available payment methods"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple payment inquiry",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Will you be paying with cash or card?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll pay with card."
+          }
+        ]
+      },
+      {
+        "description": "Payment method explanation",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "We accept cash, card, or mobile pay. How would you like to pay?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "What's mobile pay?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "It's a contactless payment method. Would you like to use it?"
+          }
+        ]
+      }
+    ]
+  }
+}

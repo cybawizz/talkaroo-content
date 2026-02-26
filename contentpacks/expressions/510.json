@@ -1,0 +1,171 @@
+{
+  "title": "Asking participants to mute their microphones",
+  "context": "Politely request that people quiet down because of background noise.",
+  "content": {
+    "bestLine": "Could you please mute your mic?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you mute your microphone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please mute your mic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mute your microphone, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep your mic muted?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mute your mic for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep the noise down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we keep it quiet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the background noise down",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you mute that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mute your mic, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you quiet down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mute it, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it down, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mute your mic, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn off your mic?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it quiet, guys",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you mind muting your microphone?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from making noise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please mute your mic?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your silence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep your microphone muted",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a quiet environment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [option] your mic?",
+        "options": [
+          "mute",
+          "turn off"
+        ],
+        "meaning": "request to mute microphone"
+      },
+      {
+        "template": "Let's keep it [option]",
+        "options": [
+          "quiet",
+          "down"
+        ],
+        "meaning": "request to reduce noise"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Request to mute microphone",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Could you please mute your mic?"
+          },
+          {
+            "speaker": "Participant",
+            "text": "Sorry about that, I'll mute it now"
+          }
+        ]
+      },
+      {
+        "description": "Request to reduce background noise",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Let's keep the background noise down, okay?"
+          },
+          {
+            "speaker": "Participant",
+            "text": "Got it, I'll keep it quiet"
+          }
+        ]
+      }
+    ]
+  }
+}

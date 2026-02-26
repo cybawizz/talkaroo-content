@@ -1,0 +1,146 @@
+{
+  "title": "Asking about an online order",
+  "context": "Message customer service to ask when your package will ship.",
+  "content": {
+    "bestLine": "When will my package ship?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the shipping status?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When can I expect my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long until my package arrives?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you update me on my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the estimated delivery time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When will my order be processed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me when my package will ship?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, when's my stuff shipping?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When can I get my order?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's my order coming along?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with my package?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me an update on my order?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When will I get my package?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate an update on my order.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of the shipping status?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "When can I expect to receive my package?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the estimated delivery time.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "When will my [options] ship?",
+        "options": [
+          "package",
+          "order"
+        ],
+        "meaning": "inquire about shipping status"
+      },
+      {
+        "template": "Can you update me on my [options]?",
+        "options": [
+          "order",
+          "package"
+        ],
+        "meaning": "request status update"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about order status",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm calling about my order."
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "What's your order number?"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting shipping update",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "When will my package ship?"
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "Let me check on that for you."
+          }
+        ]
+      }
+    ]
+  }
+}

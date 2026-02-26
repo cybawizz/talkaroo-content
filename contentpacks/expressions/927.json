@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor about bleeding",
+  "context": "Inform a medical professional about a cut or active bleeding.",
+  "content": {
+    "bestLine": "I'm bleeding and need help",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have a cut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing bleeding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's blood coming out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need stitches",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It won't stop bleeding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an open wound",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm losing blood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's bleeding heavily",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I cut myself",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm bleeding pretty bad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got hurt and I'm bleeding",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some help, I'm bleeding",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's bleeding a lot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think I need a bandage",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm bleeding from a cut",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this cut?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing active bleeding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have sustained a laceration",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require medical attention for bleeding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of immediate medical care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have an open wound that requires treatment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am bleeding profusely and need assistance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] and need help",
+        "options": [
+          "am bleeding",
+          "have a cut",
+          "am hurt"
+        ],
+        "meaning": "requesting medical assistance"
+      },
+      {
+        "template": "I need [options] for this cut",
+        "options": [
+          "stitches",
+          "a bandage",
+          "medical attention"
+        ],
+        "meaning": "requesting specific medical treatment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient informs doctor about bleeding",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "Doctor, I'm bleeding and need help"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, let me take a look. Where is the bleeding coming from?"
+          }
+        ]
+      },
+      {
+        "description": "Patient explains the situation to the doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I cut myself and it won't stop bleeding"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Don't worry, we'll get you fixed up. Can you tell me what happened?"
+          }
+        ]
+      }
+    ]
+  }
+}

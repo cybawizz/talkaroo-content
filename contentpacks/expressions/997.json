@@ -1,0 +1,205 @@
+{
+  "title": "Concerning an easy task",
+  "context": "State that a requested work project is very simple to complete.",
+  "content": {
+    "bestLine": "This project is a breeze to complete",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's a simple task",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can finish it quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a big deal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got it covered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an easy one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can handle it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a piece of cake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it done in no time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is a cakewalk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll knock it out fast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a no-brainer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got this in the bag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's easy peasy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll crush it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a walk in the park",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll get it done ASAP",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "This project is straightforward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am confident in my ability to complete it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It requires minimal effort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I anticipate a swift completion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is a manageable task",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will ensure its timely completion",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is a lowkey easy task",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm gonna smash it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's hella simple",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm on it, no cap",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a chill project",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'll get it done, G",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have [options] done",
+        "options": [
+          "it",
+          "this project",
+          "the task"
+        ],
+        "meaning": "expressing confidence in completing the task"
+      },
+      {
+        "template": "This project is [options]",
+        "options": [
+          "a breeze",
+          "a piece of cake",
+          "easy peasy"
+        ],
+        "meaning": "describing the task as simple"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "How's the project going?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "It's going great, this project is a breeze to complete"
+          }
+        ]
+      },
+      {
+        "description": "Conversation between two coworkers",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "Hey, how's the task coming along?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I've got it covered, it's a simple task"
+          }
+        ]
+      }
+    ]
+  }
+}

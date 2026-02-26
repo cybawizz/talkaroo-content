@@ -1,0 +1,121 @@
+{
+  "title": "A police officer confronting a criminal",
+  "context": "Order a dangerous suspect to freeze and put their hands up.",
+  "content": {
+    "bestLine": "Freeze and put your hands up now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Stop where you are",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't move any further",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hands up, turn around",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay calm, hands visible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't make any sudden moves",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get down on the ground",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your hands where I can see them",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Halt and raise your hands",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are under arrest, freeze",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Comply with my instructions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Surrender and put your hands up",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Obey my commands immediately",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Get [options] now",
+        "options": [
+          "down",
+          "back",
+          "on the ground"
+        ],
+        "meaning": "immediate compliance"
+      },
+      {
+        "template": "Put your [options] where I can see them",
+        "options": [
+          "hands",
+          "arms",
+          "weapons"
+        ],
+        "meaning": "visibility and safety"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Police officer confronting a suspect",
+        "lines": [
+          {
+            "speaker": "Police Officer",
+            "text": "Freeze and put your hands up now"
+          },
+          {
+            "speaker": "Suspect",
+            "text": "I didn't do anything"
+          }
+        ]
+      },
+      {
+        "description": "Police officer giving instructions",
+        "lines": [
+          {
+            "speaker": "Police Officer",
+            "text": "Get down on the ground and keep your hands visible"
+          },
+          {
+            "speaker": "Suspect",
+            "text": "Okay, okay"
+          }
+        ]
+      }
+    ]
+  }
+}

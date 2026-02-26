@@ -1,0 +1,173 @@
+{
+  "title": "Asking about foreign exchange",
+  "context": "Request to swap your money for a different currency.",
+  "content": {
+    "bestLine": "Can I exchange my money for euros?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to exchange currency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the exchange rate today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with currency exchange?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to exchange dollars for pounds",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer foreign exchange services?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I exchange my money for a different currency?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What currencies do you exchange?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a better rate if I exchange more money?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I swap my cash for euros?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to exchange money here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get some local currency",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a good exchange rate?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking to exchange some money, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much will it cost to exchange my money?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a fee to exchange currency?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my credit card to exchange money?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about foreign exchange services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with exchanging my currency?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require information on exchanging dollars for euros",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the procedures for exchanging currency at this bank?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on the best way to exchange my money",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any restrictions on exchanging large amounts of currency?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I exchange [options] for [options]?",
+        "options": [
+          "dollars",
+          "euros",
+          "pounds"
+        ],
+        "meaning": "Request to swap one currency for another"
+      },
+      {
+        "template": "What's the exchange rate for [options] to [options]?",
+        "options": [
+          "dollars",
+          "euros",
+          "yen"
+        ],
+        "meaning": "Inquire about the current exchange rate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about foreign exchange",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to exchange some money"
+          },
+          {
+            "speaker": "Bank Teller",
+            "text": "What currency would you like to exchange and what's the amount?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about exchange rates",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the current exchange rate for euros?"
+          },
+          {
+            "speaker": "Bank Teller",
+            "text": "The current rate is 1 euro to 1.18 dollars. Would you like to exchange some money?"
+          }
+        ]
+      }
+    ]
+  }
+}

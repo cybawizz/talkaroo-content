@@ -1,0 +1,205 @@
+{
+  "title": "Experiencing severe game lag",
+  "context": "Complain over the microphone that the internet connection is terrible.",
+  "content": {
+    "bestLine": "This internet connection is terrible!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The lag is really bad",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some delay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game is freezing a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The connection is not stable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a lot of lag spikes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The internet is really slow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game is not responding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble staying connected",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This lag is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with this internet",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The game is lagging so hard",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting destroyed by lag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This connection is trash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm about to rage quit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The lag is so frustrating",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a better internet connection",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This lag is whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting rekt by lag",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The game is hella laggy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm lowkey about to lose it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This internet is straight fire...ly bad",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm highkey done with this lag",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me with this lag?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "This internet is absolute garbage",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I swear, this connection is the worst",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get your act together, internet",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "This lag is a joke, right?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Unbelievable, this internet is so bad",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] is really bad",
+        "options": [
+          "lag",
+          "internet",
+          "connection"
+        ],
+        "meaning": "expressing frustration with the game"
+      },
+      {
+        "template": "I'm [options] with this [options]",
+        "options": [
+          "done",
+          "so over",
+          "sick of"
+        ],
+        "meaning": "expressing annoyance with the game"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a teammate",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "This lag is killing me"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "I know, right? It's so frustrating"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to the game server",
+        "lines": [
+          {
+            "speaker": "Player",
+            "text": "This internet connection is terrible!"
+          },
+          {
+            "speaker": "Server",
+            "text": "Sorry to hear that, please try restarting your router"
+          }
+        ]
+      }
+    ]
+  }
+}

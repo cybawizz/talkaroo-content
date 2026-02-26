@@ -1,0 +1,172 @@
+{
+  "title": "Payment to a hairdresser",
+  "context": "Hand the stylist cash or a card and offer a tip.",
+  "content": {
+    "bestLine": "Here you go, keep the change",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Here's your payment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll just pay with card",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a receipt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's the cash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll tip you separately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with phone?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks so much, here you go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll just Venmo you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the change, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You did a great job",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll give you a tip",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay you back later?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you take Apple Pay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd like to pay now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Here is the payment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be paying with card",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have a receipt?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to leave a tip",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept American Express?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll pay with [options]",
+        "options": [
+          "card",
+          "cash",
+          "phone"
+        ],
+        "meaning": "payment method"
+      },
+      {
+        "template": "You can keep the [options]",
+        "options": [
+          "change",
+          "tip"
+        ],
+        "meaning": "gratuity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Payment and tip",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Here you go, keep the change"
+          },
+          {
+            "speaker": "Hairdresser",
+            "text": "Thank you so much, I appreciate it"
+          }
+        ]
+      },
+      {
+        "description": "Payment method",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you accept cards?"
+          },
+          {
+            "speaker": "Hairdresser",
+            "text": "Yes, we accept all major cards"
+          }
+        ]
+      }
+    ]
+  }
+}

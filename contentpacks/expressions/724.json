@@ -1,0 +1,131 @@
+{
+  "title": "Asking about loan terms at a bank",
+  "context": "Ask for details about interest rates and payback rules.",
+  "content": {
+    "bestLine": "What are the interest rates and repayment terms?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you explain the loan terms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much interest will I pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the payback period?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any fees?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a loan summary?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I repay the loan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break down the costs?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd like to inquire about the loan's interest rate.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide the repayment terms?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the loan's conditions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate a detailed loan overview.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you clarify the loan's payment schedule?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the consequences of late payment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What are the [options] for this loan?",
+        "options": [
+          "interest rates",
+          "repayment terms",
+          "fees"
+        ],
+        "meaning": "inquire about loan details"
+      },
+      {
+        "template": "Can you [options] the loan terms?",
+        "options": [
+          "explain",
+          "clarify",
+          "provide"
+        ],
+        "meaning": "request loan information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about loan terms",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm interested in a loan. What are the interest rates and repayment terms?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "The interest rate is 6% and the repayment term is 5 years."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting loan summary",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you give me a summary of the loan terms?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "The loan has an interest rate of 6%, a repayment term of 5 years, and a total cost of $12,000."
+          }
+        ]
+      }
+    ]
+  }
+}

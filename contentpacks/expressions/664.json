@@ -1,0 +1,130 @@
+{
+  "title": "Requesting telephone service",
+  "context": "Call the telecom company to set up a new phone or internet line.",
+  "content": {
+    "bestLine": "I'd like to set up a new phone line, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a new phone line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to install a new internet line.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I set up a new phone service?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to schedule an installation.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a new phone setup?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in getting a new phone plan.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I get a new phone line installed?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to request a new telephone installation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with setting up a new phone service?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of a new internet connection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate help with scheduling a new phone line installation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with information on setting up a new phone plan?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with installing a new phone line.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] a new phone line.",
+        "options": [
+          "set up",
+          "install",
+          "schedule"
+        ],
+        "meaning": "requesting a new phone line"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "setting up a new phone",
+          "installing a new internet line",
+          "scheduling a new phone installation"
+        ],
+        "meaning": "asking for assistance with phone service"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a new phone line",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to set up a new phone line."
+          },
+          {
+            "speaker": "Representative",
+            "text": "Okay, what type of plan are you interested in?"
+          }
+        ]
+      },
+      {
+        "description": "Scheduling a new phone installation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I need to schedule an installation for a new phone line."
+          },
+          {
+            "speaker": "Representative",
+            "text": "Let me check the availability. What date and time work best for you?"
+          }
+        ]
+      }
+    ]
+  }
+}

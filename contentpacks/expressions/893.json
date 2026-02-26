@@ -1,0 +1,171 @@
+{
+  "title": "Making requests on a bus",
+  "context": "Ask the bus driver to pull over at the very next stop.",
+  "content": {
+    "bestLine": "Next stop, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Next stop, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you stop at the next stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get off at the next stop.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Next stop, if you don't mind.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you pull over at the next stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The next stop would be great, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get off at the next stop.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Next stop, please, if possible.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you stop at the next stop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Next stop, thanks!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you drop me off at the next stop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting off at the next stop.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Next stop, please, buddy.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you pull over up ahead?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to hop off at the next stop.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Next stop, okay?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could stop at the next stop.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please pull over at the next designated stop?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am getting off at the next stop, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The next stop would be my destination, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to disembark at the next stop, if possible.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly stop at the upcoming stop?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you stop at the [next/upcoming] stop?",
+        "options": [
+          "next",
+          "upcoming"
+        ],
+        "meaning": "Requesting the bus to stop at the next or upcoming stop"
+      },
+      {
+        "template": "I need to get off at the [next/this] stop.",
+        "options": [
+          "next",
+          "this"
+        ],
+        "meaning": "Informing the driver of the need to disembark at the current or next stop"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting the next stop",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Next stop, please."
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, we're approaching the next stop now."
+          }
+        ]
+      },
+      {
+        "description": "Confirming the stop",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Is this the next stop?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yes, it is. I'll pull over now."
+          }
+        ]
+      }
+    ]
+  }
+}

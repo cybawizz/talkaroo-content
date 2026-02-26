@@ -1,0 +1,190 @@
+{
+  "title": "Complaining about a crash in crypto",
+  "context": "Suffer an agonizing loss on highly volatile digital coins.",
+  "content": {
+    "bestLine": "I just lost a fortune on Bitcoin",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My crypto investment tanked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about my digital coins",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The crypto market is volatile",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure what to do with my crypto",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The crash is affecting my finances",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to reassess my investment strategy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The crypto market is unpredictable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to stay calm about my losses",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I got wrecked on crypto",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My crypto portfolio is a mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with Bitcoin",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The crypto market is crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to cut my losses",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure if I should sell or hold",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The crypto crash is a nightmare",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just trying to survive this market",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I got rekt on crypto",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My crypto bag is empty",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The crypto market is a dumpster fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm just trying to HODL on",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The crypto crash is a bloodbath",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Yeah, crypto is a great investment",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I put my life savings in crypto",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "The crypto market is super stable",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm loving the crypto rollercoaster",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] my crypto investment",
+        "options": [
+          "lost",
+          "sold",
+          "held"
+        ],
+        "meaning": "expressing a personal experience with crypto"
+      },
+      {
+        "template": "The crypto market is [options]",
+        "options": [
+          "volatile",
+          "unpredictable",
+          "crazy"
+        ],
+        "meaning": "describing the crypto market"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about crypto losses",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just lost a fortune on Bitcoin"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I know what you mean, I'm down too"
+          }
+        ]
+      },
+      {
+        "description": "Discussing crypto with a financial advisor",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not sure what to do with my crypto investment"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Well, let's take a look at your portfolio and see what options you have"
+          }
+        ]
+      }
+    ]
+  }
+}

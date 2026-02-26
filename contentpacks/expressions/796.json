@@ -1,0 +1,158 @@
+{
+  "title": "Offering second servings",
+  "context": "Ask if anyone at the table would like more food.",
+  "content": {
+    "bestLine": "Would anyone like seconds?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is everyone finished?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want some more food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Anyone need more to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "More for anyone?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You guys want more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who's ready for seconds?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "More grub anyone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You want some more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Anyone up for more food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who needs more to eat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "More for you?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer you more?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care for another serving?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can serve you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I serve seconds?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would anyone like an additional helping?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Would you like [options]?",
+        "options": [
+          "more",
+          "some more",
+          "another serving"
+        ],
+        "meaning": "Asking if someone wants more food"
+      },
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "more to eat",
+          "some more food",
+          "another helping"
+        ],
+        "meaning": "Offering to serve more food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A family dinner where the father offers second servings",
+        "lines": [
+          {
+            "speaker": "Father",
+            "text": "Would anyone like seconds?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yes, please!"
+          }
+        ]
+      },
+      {
+        "description": "A holiday meal where the host offers more food",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Can I get you more to eat?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "No, thank you, I'm full"
+          }
+        ]
+      }
+    ]
+  }
+}

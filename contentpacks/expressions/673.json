@@ -1,0 +1,173 @@
+{
+  "title": "Changing the television channel",
+  "context": "Ask someone to pass the remote or switch to a different show.",
+  "content": {
+    "bestLine": "Can you pass the remote, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you change the channel?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I change the channel?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we watch something else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the remote?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pass the remote?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's watch something different.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we switch to another show?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to change the channel.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I get the remote?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can we change the channel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to watch something else?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hand me the remote?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's flip through channels.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's next on TV?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we watch a different show?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm bored with this, can we change it?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could pass the remote.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please change the channel?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a channel change?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It would be great if we could watch something else.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe it's time for a different program.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly hand me the remote control?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we [options] the channel?",
+        "options": [
+          "change",
+          "switch",
+          "flip"
+        ],
+        "meaning": "Request to change the TV channel"
+      },
+      {
+        "template": "Can you [options] the remote?",
+        "options": [
+          "pass",
+          "hand me",
+          "give me"
+        ],
+        "meaning": "Request for the remote control"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to change the channel",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you pass the remote, please?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What do you want to watch?"
+          }
+        ]
+      },
+      {
+        "description": "Suggesting a channel change",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let's watch something else."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, what did you have in mind?"
+          }
+        ]
+      }
+    ]
+  }
+}

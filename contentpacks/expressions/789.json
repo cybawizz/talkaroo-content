@@ -1,0 +1,173 @@
+{
+  "title": "Blessing the food",
+  "context": "Say a brief prayer or expression of gratitude before eating.",
+  "content": {
+    "bestLine": "Let's give thanks for this meal",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's take a moment to appreciate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bless this food to our bodies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's give thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Grateful for this food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Appreciate the meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for dinner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bless our meal",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dig in, let's eat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to chow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get started",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your meal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to eat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's dig in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Food's ready",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Let us take a moment to reflect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We give thanks for this meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Blessings on our food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Gratitude for the meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us express gratitude",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks be to God",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] before we eat",
+        "options": [
+          "say grace",
+          "give thanks",
+          "bless the food"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "We're [options] for this meal",
+        "options": [
+          "truly grateful",
+          "very thankful",
+          "blessed"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family dinner",
+        "lines": [
+          {
+            "speaker": "Father",
+            "text": "Let's give thanks for this meal"
+          },
+          {
+            "speaker": "Mother",
+            "text": "Yes, let's take a moment to appreciate"
+          }
+        ]
+      },
+      {
+        "description": "Holiday gathering",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "We give thanks for this meal and for being together"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Hear, hear, thanks for the delicious food"
+          }
+        ]
+      }
+    ]
+  }
+}

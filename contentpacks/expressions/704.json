@@ -1,0 +1,205 @@
+{
+  "title": "Spending a lot of money",
+  "context": "Admit that you just made a very large, expensive purchase.",
+  "content": {
+    "bestLine": "I just spent a small fortune on this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I made a big purchase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was expensive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I spent a lot of money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It cost an arm and a leg",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I bought something pricey",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bill was huge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I went over budget",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was a costly decision",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I just dropped a ton of cash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was hella expensive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm broke now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I splurged big time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It was a pricey mistake",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I went all out on this one",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My wallet is crying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I treated myself to something expensive",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I made a significant investment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The cost was substantial",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I incurred a considerable expense",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The purchase was a major financial decision",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I spent a considerable amount of money",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The expenditure was notable",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I just copped something fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That was a major key purchase",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low on funds now",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I went ham on this purchase",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It was a lit purchase",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My wallet is hella light now",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I just [options] on this purchase",
+        "options": [
+          "spent a fortune",
+          "dropped a ton of cash",
+          "broke the bank"
+        ],
+        "meaning": "admitting to spending a lot of money"
+      },
+      {
+        "template": "This purchase was [options]",
+        "options": [
+          "a major splurge",
+          "a big investment",
+          "a costly decision"
+        ],
+        "meaning": "describing the purchase as expensive"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Admitting a large purchase to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just spent a small fortune on this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What is it? You've been eyeing it for a while, right?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a large purchase at work",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I understand the equipment was a significant investment"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, but it will increase our productivity in the long run"
+          }
+        ]
+      }
+    ]
+  }
+}

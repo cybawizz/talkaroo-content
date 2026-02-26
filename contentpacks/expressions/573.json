@@ -1,0 +1,167 @@
+{
+  "title": "Brushing off someone's complaint",
+  "context": "Tell a complaining person that their problem does not matter to you.",
+  "content": {
+    "bestLine": "Not my problem, dude",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "Meh, not my issue",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't care, bro",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not my problem, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Whatever, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, you're not",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Not my circus",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't bother me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got my own stuff",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "Ain't my thang",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Not on my radar",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're on your own",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this convo",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey don't care",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, poor you",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's so sad",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, what a tragedy",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be so devastated",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and deal",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't care about your problems",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Not my problem, get lost",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about your issue",
+        "options": [
+          "good",
+          "done",
+          "out"
+        ],
+        "meaning": "I don't care about your problem"
+      },
+      {
+        "template": "You're [options] on your own",
+        "options": [
+          "high",
+          "dry",
+          "screwed"
+        ],
+        "meaning": "I won't help you with your problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Brushing off a friend's complaint",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I'm so upset about what happened"
+          },
+          {
+            "speaker": "You",
+            "text": "Not my problem, dude"
+          }
+        ]
+      },
+      {
+        "description": "Responding to a coworker's complaint",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "This project is so frustrating"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm good, you're not"
+          }
+        ]
+      }
+    ]
+  }
+}

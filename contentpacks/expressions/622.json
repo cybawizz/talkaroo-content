@@ -1,0 +1,189 @@
+{
+  "title": "Technical issues on a video call",
+  "context": "Tell a coworker that their microphone or camera is not working.",
+  "content": {
+    "bestLine": "Your microphone isn't working, can you check it?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you hear me okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your camera is off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble hearing you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check your mic?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your video is frozen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're on mute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you try restarting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting any audio",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you hear me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, your mic is off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not getting any sound",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you unmute yourself?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your camera isn't working",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Try restarting your computer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're muted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check your connection?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing technical difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your audio is not coming through",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please check your equipment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with the video feed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you try restarting the call?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, but I'm not receiving any audio",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your [options] isn't working",
+        "options": [
+          "microphone",
+          "camera",
+          "connection"
+        ],
+        "meaning": "Technical issue with the specified device"
+      },
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "check your mic",
+          "unmute yourself",
+          "restart the call"
+        ],
+        "meaning": "Request for the user to perform a specific action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker's microphone is not working",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you hear me?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Yeah, I can hear you fine"
+          },
+          {
+            "speaker": "You",
+            "text": "Okay, but I'm not getting any audio from you"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Oh, sorry about that. Let me check my mic"
+          }
+        ]
+      },
+      {
+        "description": "Coworker's camera is not working",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm having trouble with the video feed"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Sorry about that. I'll try restarting my camera"
+          },
+          {
+            "speaker": "You",
+            "text": "Okay, that should work"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Alright, can you see me now?"
+          }
+        ]
+      }
+    ]
+  }
+}

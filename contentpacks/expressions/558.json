@@ -1,0 +1,173 @@
+{
+  "title": "Describing a water pressure issue",
+  "context": "Complain to a plumber that the shower has no water pressure.",
+  "content": {
+    "bestLine": "The shower has really low water pressure",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The water pressure is too low",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with the shower pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The shower isn't getting much water pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help with the low water pressure?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The water pressure in the shower is weak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with the shower's water pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The shower's water pressure is really low",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing low water pressure in the shower",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "The shower pressure is crap",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting barely any water in the shower",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The water pressure in the shower sucks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you fix the shower pressure?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so frustrated with the low water pressure",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The shower's not getting enough water pressure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need someone to look at the shower's water pressure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The water pressure in the shower is super weak",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing issues with the water pressure in the shower",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The shower's water pressure is insufficient",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me with the low water pressure",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The water pressure in the shower is not meeting my expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require your expertise to resolve the low water pressure issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The shower's water pressure is below standard",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The shower's water pressure is [options]",
+        "options": [
+          "too low",
+          "really weak",
+          "not enough"
+        ],
+        "meaning": "describing the low water pressure issue"
+      },
+      {
+        "template": "Can you [options] the shower's water pressure?",
+        "options": [
+          "fix",
+          "help with",
+          "look at"
+        ],
+        "meaning": "requesting assistance with the low water pressure issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a plumber about low water pressure",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "The shower's water pressure is really low"
+          },
+          {
+            "speaker": "Plumber",
+            "text": "I'll take a look and see what's causing the issue"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the low water pressure issue with a plumber",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "I'm having trouble with the shower pressure"
+          },
+          {
+            "speaker": "Plumber",
+            "text": "Have you noticed any other issues with the water pressure in the house?"
+          }
+        ]
+      }
+    ]
+  }
+}

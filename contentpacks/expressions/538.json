@@ -1,0 +1,205 @@
+{
+  "title": "Expressing total displeasure",
+  "context": "Complain heavily that you are unhappy with a situation or product.",
+  "content": {
+    "bestLine": "I'm extremely unhappy with this situation.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is not what I expected.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not satisfied with the result.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The service was subpar.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been let down by this experience.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The quality is not up to standards.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm disappointed in the outcome.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This has fallen short of my expectations.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The performance was underwhelming.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is a total disaster.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with this.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a complete waste of time.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really frustrated with this.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is ridiculous.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm fed up with this situation.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a joke, right?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm at my wit's end.",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am expressing my strong dissatisfaction.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The situation is unacceptable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must convey my deep disappointment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The service provided was inadequate.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am compelled to express my discontent.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The outcome is not satisfactory.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is hella bad.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key furious.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is straight trash.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this situation.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is a hot mess.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm done with this drama.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with this situation.",
+        "options": [
+          "extremely unhappy",
+          "really frustrated",
+          "totally disappointed"
+        ],
+        "meaning": "expressing strong negative emotions"
+      },
+      {
+        "template": "This [options] is not what I expected.",
+        "options": [
+          "service",
+          "product",
+          "experience"
+        ],
+        "meaning": "expressing dissatisfaction with something"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining to a company representative",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm extremely unhappy with the service I received."
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize for the inconvenience. Can you please tell me more about what happened?"
+          }
+        ]
+      },
+      {
+        "description": "Friend complaining to another friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "This is a total disaster. I'm so done with this."
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "What's wrong? Tell me what happened."
+          }
+        ]
+      }
+    ]
+  }
+}

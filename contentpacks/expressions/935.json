@@ -1,0 +1,172 @@
+{
+  "title": "Asking for help at an accident scene",
+  "context": "Scream for someone to call an ambulance and help the victims.",
+  "content": {
+    "bestLine": "Someone call 911 now!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Call an ambulance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need help here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone call for help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Emergency services needed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please call 911",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Call for an ambulance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Help is needed immediately",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, someone call 911",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need an ambulance ASAP",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone get help now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Call 911, it's an emergency",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got a bad situation here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get an ambulance over here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone call for medical help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need help, like, now",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require emergency assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please contact emergency services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are in need of immediate medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please call for an ambulance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Emergency response is required at this location",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report an emergency situation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Someone call [options] now",
+        "options": [
+          "911",
+          "for an ambulance"
+        ],
+        "meaning": "Requesting immediate emergency assistance"
+      },
+      {
+        "template": "We need [options] here",
+        "options": [
+          "help",
+          "medical assistance",
+          "emergency services"
+        ],
+        "meaning": "Requesting help or assistance in an emergency situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic emergency call",
+        "lines": [
+          {
+            "speaker": "Witness",
+            "text": "Someone call 911 now!"
+          },
+          {
+            "speaker": "Bystander",
+            "text": "I'm on it, what happened?"
+          }
+        ]
+      },
+      {
+        "description": "Informing emergency services",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hello, I need to report an emergency"
+          },
+          {
+            "speaker": "Operator",
+            "text": "What's your location and what's happening?"
+          }
+        ]
+      }
+    ]
+  }
+}

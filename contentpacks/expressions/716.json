@@ -1,0 +1,130 @@
+{
+  "title": "Completing the hotel check-in",
+  "context": "Hand the guest their room key and tell them to enjoy their stay.",
+  "content": {
+    "bestLine": "Here's your room key, enjoy your stay.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Your room key is ready.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's your key, have a great stay.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your time with us.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We hope you like your room.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let us know if you need anything.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your stay is our priority.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to ask for help.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Here is your room key, sir/ma'am.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your choice of hotel.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let us know if you require assistance.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your comfort is our main concern.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your stay with us.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you need anything, do not hesitate.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Here's your [options] key.",
+        "options": [
+          "room"
+        ],
+        "meaning": "Providing the guest with their room key"
+      },
+      {
+        "template": "We hope you [options] your stay.",
+        "options": [
+          "enjoy"
+        ],
+        "meaning": "Expressing a positive sentiment towards the guest's stay"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple check-in completion",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Here's your room key, enjoy your stay."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thank you, I appreciate it."
+          }
+        ]
+      },
+      {
+        "description": "Check-in with additional information",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Your room key is ready, and we have included a map of our facilities."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Great, thank you. What time is breakfast?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Breakfast is from 7 to 10 am. Let us know if you need anything else."
+          }
+        ]
+      }
+    ]
+  }
+}

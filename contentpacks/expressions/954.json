@@ -1,0 +1,173 @@
+{
+  "title": "Asking if someone is all right",
+  "context": "Check on a person who seems hurt or upset to see if they are okay.",
+  "content": {
+    "bestLine": "Are you okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is everything all right?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you feeling okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's wrong?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you need assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something bothering you?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I help you with something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you in pain?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You alright?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look upset",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Need a hand?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You okay, man?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's wrong, buddy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You doing alright?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Everything cool?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Are you experiencing any discomfort?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do to assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require medical attention?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm concerned about your well-being",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Please let me know if you need help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything satisfactory?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are you [options]?",
+        "options": [
+          "okay",
+          "alright",
+          "feeling better"
+        ],
+        "meaning": "Checking on someone's condition"
+      },
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "help",
+          "assistance",
+          "medical attention"
+        ],
+        "meaning": "Offering support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking on a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, are you okay?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, I'm just a bit tired"
+          }
+        ]
+      },
+      {
+        "description": "Asking about someone's condition",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What's wrong, you look upset"
+          },
+          {
+            "speaker": "B",
+            "text": "I just had a bad day, that's all"
+          }
+        ]
+      }
+    ]
+  }
+}

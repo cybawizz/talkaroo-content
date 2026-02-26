@@ -1,0 +1,172 @@
+{
+  "title": "Checking out of a hotel",
+  "context": "Tell the front desk you are leaving and hand them back the room keys.",
+  "content": {
+    "bestLine": "I'm checking out, here are my room keys",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm leaving now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Checking out, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here are my keys",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done with my stay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I check out now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to return my keys",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stay is over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm checking out today",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get my bill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm checking out, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Here's my key, I'm done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm heading out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I settle my bill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all set, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good to go",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to check out now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my room key",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ready to depart",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with checkout?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate your help with checkout",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am checking out of my room",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm checking out, here are my [options]",
+        "options": [
+          "room keys",
+          "key card"
+        ],
+        "meaning": "returning hotel keys"
+      },
+      {
+        "template": "Can I [options] my bill?",
+        "options": [
+          "get",
+          "settle",
+          "pay"
+        ],
+        "meaning": "requesting to pay hotel bill"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple checkout",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'm checking out, here are my room keys"
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Thank you, let me just check the bill"
+          }
+        ]
+      },
+      {
+        "description": "Checkout with question",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'm checking out, can I get my bill?"
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Yes, of course, let me just print it out for you"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Starting a text conversation",
+  "context": "Send a quick message from your phone just to say hello.",
+  "content": {
+    "bestLine": "Hey, what's up?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's new?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's life?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yo, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, long time no talk!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how was your day?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, what's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's everything?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, what's poppin'?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, no cap, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's gucci?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, you good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ayy, what's up?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, no worries, what's poppin'?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hey [options], what's up?",
+        "options": [
+          "man",
+          "girl",
+          "buddy"
+        ],
+        "meaning": "starting a casual conversation"
+      },
+      {
+        "template": "What's [options]?",
+        "options": [
+          "good",
+          "new",
+          "poppin'"
+        ],
+        "meaning": "asking about someone's life or current events"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, what's up?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Not much, just got back from lunch. You?"
+          }
+        ]
+      },
+      {
+        "description": "Starting a conversation with an acquaintance",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm good, thanks. Just busy with work. You?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "A dry cleaner responding to complaints",
+  "context": "Apologize to a customer and offer to rewash their clothes for free.",
+  "content": {
+    "bestLine": "I apologize for the issue, let me rewash your clothes for free",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry about the problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll fix it right away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I rewash your clothes?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of it personally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What seems to be the issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me make it right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the inconvenience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get it done for you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Sorry about that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get it cleaned up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No charge for the rewash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on with your clothes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me fix this for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll make it right, don't worry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got you covered",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will rewash your clothes at no additional cost",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept our sincerest apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will take immediate action to correct the issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your satisfaction is our top priority",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your patience and understanding",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I apologize for the [issue], let me [resolve it] for you",
+        "options": [
+          "problem",
+          "mistake",
+          "inconvenience"
+        ],
+        "meaning": "Apologize and offer to fix the issue"
+      },
+      {
+        "template": "We will [action] your clothes at no additional [cost]",
+        "options": [
+          "rewash",
+          "reclean",
+          "reprocess"
+        ],
+        "meaning": "Offer to rewash clothes for free"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complains about poorly cleaned clothes",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "My clothes are still stained after cleaning"
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "I apologize for the issue, let me rewash your clothes for free"
+          }
+        ]
+      },
+      {
+        "description": "Customer asks for a refund",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I want a refund for the poor service"
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "I understand your frustration, but let me offer to rewash your clothes at no additional cost instead"
+          }
+        ]
+      }
+    ]
+  }
+}

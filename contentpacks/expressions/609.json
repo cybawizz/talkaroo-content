@@ -1,0 +1,213 @@
+{
+  "title": "Dealing with a friend who always cancels",
+  "context": "Aggressively call out your friend who bails on plans at the last second.",
+  "content": {
+    "bestLine": "You always bail on me, what's going on?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel like we never hang out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You cancel a lot, is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starting to think you're not interested",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we find a time that works for both of us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting frustrated with the last-minute cancellations",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's make a plan and stick to it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I value our friendship, but this is getting old",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a heads up if you need to cancel?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you always flake on me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with you always canceling?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're always bailing, it's getting annoying",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Let's just hang out already",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're killing me with these last-minute cancellations",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Can you just commit to something for once?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm starting to think you're not a reliable friend",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Let's make a plan and actually follow through",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're the flakiest person I know",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop wasting my time with your cancellations",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're not even considerate of other people's time",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just don't make plans if you're not going to show up",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm done making plans with you, it's always a waste",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're really selfish for always canceling on me",
+          "register": "rude",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're always ghosting me, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're so extra for canceling all the time",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this bread, and actually hang out",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're low-key the worst for always flaking",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can you just keep it 100 and show up for once?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key done with your cancellations",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You always [options] on me",
+        "options": [
+          "cancel",
+          "flake",
+          "bail"
+        ],
+        "meaning": "You always cancel plans"
+      },
+      {
+        "template": "I'm [options] with your constant cancellations",
+        "options": [
+          "done",
+          "over",
+          "tired"
+        ],
+        "meaning": "I'm frustrated with your cancellations"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a friend about their constant cancellations",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "You always bail on me, what's going on?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'm sorry, something just came up"
+          },
+          {
+            "speaker": "You",
+            "text": "Something always comes up, it's getting old"
+          }
+        ]
+      },
+      {
+        "description": "Making a plan with a friend who always cancels",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Let's make a plan and actually follow through"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I'm down, what did you have in mind?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just don't cancel on me this time, okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

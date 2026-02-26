@@ -1,0 +1,148 @@
+{
+  "title": "Dealing with a bad client rating",
+  "context": "Stress out over a completely unfair one-star review on an app.",
+  "content": {
+    "bestLine": "That one-star review is totally unfair",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm really disappointed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This review doesn't make sense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to respond calmly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The review is inaccurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try to resolve the issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The client is being unfair",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm frustrated with the review",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That review is whack",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with this client",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This review is a total joke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key annoyed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The client is being super unfair",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna try to brush it off",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That review is hella unfair",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm salty about the review",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The client is being extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting this client",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about the review",
+        "options": [
+          "frustrated",
+          "annoyed",
+          "done"
+        ],
+        "meaning": "expressing negative emotions"
+      },
+      {
+        "template": "The review is [options]",
+        "options": [
+          "unfair",
+          "inaccurate",
+          "whack"
+        ],
+        "meaning": "describing the review"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about the bad review",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I just got a one-star review and it's so unfair"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's whack, what did the client say?"
+          }
+        ]
+      },
+      {
+        "description": "Responding to the client's review",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm sorry you had a bad experience, but I think the review is inaccurate"
+          },
+          {
+            "speaker": "Client",
+            "text": "I'm just saying what happened"
+          }
+        ]
+      }
+    ]
+  }
+}

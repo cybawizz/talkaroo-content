@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a refund for a digital purchase",
+  "context": "Demand your money back for an app or game that does not work.",
+  "content": {
+    "bestLine": "I need a refund for this app, it's not working",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to request a refund",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This app isn't working as expected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my money back?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having issues with my purchase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate a refund or replacement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This digital product is defective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not satisfied with my purchase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a refund?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, this app is busted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a refund ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This game is a total rip-off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a refund?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm super frustrated with this purchase",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want my money back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This app is a total waste of money",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm asking for a refund, please",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am requesting a refund for this digital product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The app is not functioning as advertised",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a full refund or replacement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing technical difficulties with my purchase",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to initiate a refund process",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The product is not meeting my expectations",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having [options] with my purchase",
+        "options": [
+          "trouble",
+          "issues",
+          "problems"
+        ],
+        "meaning": "experiencing difficulties"
+      },
+      {
+        "template": "Can you [options] a refund?",
+        "options": [
+          "help me with",
+          "assist me in",
+          "provide"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a refund from a customer support agent",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm having trouble with my app purchase"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Sorry to hear that, can you please provide more details?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a refund with a developer",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Your game is not working as expected, can I get a refund?"
+          },
+          {
+            "speaker": "Developer",
+            "text": "I apologize for the issue, I'll look into it and provide a refund or replacement"
+          }
+        ]
+      }
+    ]
+  }
+}

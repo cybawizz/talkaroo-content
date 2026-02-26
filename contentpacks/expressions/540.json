@@ -1,0 +1,237 @@
+{
+  "title": "Criticizing someone's misunderstanding",
+  "context": "Express frustration that someone failed to grasp a simple concept.",
+  "content": {
+    "bestLine": "You're not getting it, it's really simple",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think there's been a misunderstanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me explain it again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure you understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not that complicated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I clarify something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're missing the point",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's go over it one more time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to help you understand",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, it's not that hard",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, get it together",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've already explained it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not listening",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's really not that complicated",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starting to get frustrated",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please just get it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like I'm repeating myself",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I'm impressed you didn't get it",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Great job, you're really understanding this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I got to explain it again",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're absolutely right, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how you're not getting it",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is just perfect, you're not understanding",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you even listening?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is ridiculous, you're not getting it",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't have time for this",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're wasting my time",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get it together or get out",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm done explaining this",
+          "register": "rude",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bruh, it's not that deep",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey frustrated you're not getting it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey done with explaining this",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're hella not understanding",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting this conversation",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a major key to understanding",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you're not getting it",
+        "options": [
+          "think",
+          "feel",
+          "know"
+        ],
+        "meaning": "expressing frustration"
+      },
+      {
+        "template": "You're [options] the point",
+        "options": [
+          "missing",
+          "not getting",
+          "ignoring"
+        ],
+        "meaning": "criticizing someone's misunderstanding"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, I've already explained it like three times"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, I just don't get it"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a teacher and student",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "I think you're missing the point"
+          },
+          {
+            "speaker": "Student",
+            "text": "I'm trying to understand, but it's just not clicking"
+          }
+        ]
+      }
+    ]
+  }
+}

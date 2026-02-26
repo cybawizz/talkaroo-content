@@ -1,0 +1,205 @@
+{
+  "title": "Complaining about password sharing rules",
+  "context": "Complain that a platform locked your account because you logged in at a hotel.",
+  "content": {
+    "bestLine": "I got locked out for logging in at a hotel, that's ridiculous",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm having trouble with my account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with my login issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't expect to get locked out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is really inconvenient",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I just wanted to check my account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a way to recover my account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure what happened",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the password sharing rules?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up with the login rules?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got locked out at a hotel, weird",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help a guy out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is super annoying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just wanted to chill and check my account",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is there a workaround?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm kinda frustrated",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make an exception?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Got locked out, no cap",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good with the login rules, tho?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella frustrated",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can you lowkey help me out?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is wild, fam",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I just wanna get back in",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Great, just what I needed, another lockout",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, your security is top-notch",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love getting locked out at hotels",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is the best customer experience ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can I get a prize for most lockouts?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I paid for this service",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I got locked out for [options]",
+        "options": [
+          "logging in at a hotel",
+          "using a public computer",
+          "sharing my password"
+        ],
+        "meaning": "complaining about account lockout"
+      },
+      {
+        "template": "Can you [options] my account?",
+        "options": [
+          "recover",
+          "unlock",
+          "restore"
+        ],
+        "meaning": "requesting account recovery"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer support conversation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I got locked out for logging in at a hotel, that's ridiculous"
+          },
+          {
+            "speaker": "Support",
+            "text": "I apologize for the inconvenience, let me help you recover your account"
+          }
+        ]
+      },
+      {
+        "description": "Frustrated customer conversation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "This is super annoying, I just wanted to check my account"
+          },
+          {
+            "speaker": "Support",
+            "text": "I understand your frustration, can you please try resetting your password?"
+          }
+        ]
+      }
+    ]
+  }
+}

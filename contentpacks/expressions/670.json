@@ -1,0 +1,173 @@
+{
+  "title": "Commenting on a social media post",
+  "context": "Leave a positive public remark on a friend's online photo.",
+  "content": {
+    "bestLine": "Love this photo, you look amazing!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Great picture!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look happy!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nice photo!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Beautiful shot!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good times!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Awesome pic!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Smile is everything!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lovely photo!",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wow, you're rocking this!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So cool!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're on fire!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Love your style!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is epic!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're amazing!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So proud of you!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're killing it!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey obsessed with this pic!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey jealous!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Slaying the game!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Yaaas, you're crushing it!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This pic is fire!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a total boss!",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options]!",
+        "options": [
+          "amazing",
+          "awesome",
+          "killing it"
+        ],
+        "meaning": "expressing admiration"
+      },
+      {
+        "template": "Love [options]!",
+        "options": [
+          "this photo",
+          "your style",
+          "your smile"
+        ],
+        "meaning": "expressing affection"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Commenting on a friend's photo",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Love this photo, you look amazing!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Thanks, just got back from vacation!"
+          }
+        ]
+      },
+      {
+        "description": "Responding to a friend's comment",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Great picture!"
+          },
+          {
+            "speaker": "You",
+            "text": "Thanks, I was just trying out a new camera!"
+          }
+        ]
+      }
+    ]
+  }
+}

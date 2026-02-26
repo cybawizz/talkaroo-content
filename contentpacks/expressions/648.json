@@ -1,0 +1,131 @@
+{
+  "title": "Requesting service from a utility company",
+  "context": "Call the electric or gas company to set up an account.",
+  "content": {
+    "bestLine": "I'd like to set up a new account for electricity",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get help with setting up my account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to establish service at my new address",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I start a new account with your company?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm moving into a new place and need utilities set up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with setting up my utility account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to schedule a setup for my new account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the process for starting a new utility account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with getting my utilities turned on",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate assistance with establishing a new account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please guide me through the process of setting up my utility account?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of setting up a new account for my residence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request setup for a new utility account at my address",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with information on how to initiate a new account?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am requesting to set up a new account for electricity and gas services",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] my account",
+        "options": [
+          "set up",
+          "establish",
+          "initiate"
+        ],
+        "meaning": "Setting up a new account"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "setting up my account",
+          "getting my utilities turned on",
+          "establishing service"
+        ],
+        "meaning": "Requesting assistance with setup"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Setting up a new account over the phone",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to set up a new account for electricity"
+          },
+          {
+            "speaker": "Representative",
+            "text": "Okay, can you please provide me with your name and address?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting assistance with setup online",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm having trouble setting up my account online, can you help me?"
+          },
+          {
+            "speaker": "Representative",
+            "text": "Yes, of course. What seems to be the issue you're experiencing?"
+          }
+        ]
+      }
+    ]
+  }
+}

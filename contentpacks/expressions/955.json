@@ -1,0 +1,195 @@
+{
+  "title": "Concerning catching a disease",
+  "context": "Mention that you think you caught a cold or bug from someone else.",
+  "content": {
+    "bestLine": "I think I caught a cold from you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling unwell after meeting you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I got sick from someone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've come down with something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling well after our encounter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I may have caught a bug from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing cold symptoms",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like I've been infected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've fallen ill after meeting you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I think I caught your cold",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pretty sure I got sick from you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been feeling crappy since we hung out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think you gave me your bug",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling great after seeing you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pretty sure I caught something from you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You might have given me your cold",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been feeling sick since we met up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe I may have contracted an illness from you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing symptoms of a cold after our meeting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's possible I caught a bug from you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've fallen ill after our encounter and suspect it may be related",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling well and wonder if I caught something from you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've come down with a cold and think it might be from our meeting",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm pretty sure you gave me the cooties",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I think I caught the plague from you",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You must have given me the bug, dude",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the sickness and I think it's from you",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think I caught [options] from you",
+        "options": [
+          "a cold",
+          "the flu",
+          "a bug"
+        ],
+        "meaning": "expressing concern about catching an illness"
+      },
+      {
+        "template": "I've come down with [options] after meeting you",
+        "options": [
+          "a cold",
+          "the flu",
+          "an illness"
+        ],
+        "meaning": "informing someone about a suspected illness transmission"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends about a suspected cold transmission",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I've been feeling really sick since we hung out yesterday"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh no, I'm so sorry to hear that. I was feeling a bit under the weather too"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between two coworkers about a suspected illness transmission",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "I think I might have caught something from you at the meeting yesterday"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I did have a bit of a cough, but I didn't think it was contagious"
+          }
+        ]
+      }
+    ]
+  }
+}

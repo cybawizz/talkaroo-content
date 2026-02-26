@@ -1,0 +1,222 @@
+{
+  "title": "When someone acts superior or smart",
+  "context": "Call out a person who is acting extremely arrogant or boastful.",
+  "content": {
+    "bestLine": "You're coming across pretty arrogant right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That sounds a bit condescending",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's necessary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the discussion respectful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's a fair statement",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Could you explain that in a different way?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree with your perspective",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's focus on finding a solution",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's pretty full of yourself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, no need to be like that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think you're as smart as you think you are",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Let's not be arrogant here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Easy does it, no need to brag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it humble, man",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bruh, you're being hella extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey seems like you're trying too hard",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey annoying when you talk like that",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, you're being pretty arrogant",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sis, you need to calm down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Tea is, you're not as cool as you think",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I'm so impressed by your intelligence",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Oh, great, another genius in the room",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I bet you're just a joy to be around",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be the smartest person alive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so grateful for your condescending attitude",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, continue to talk down to me",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up, you're being annoying",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get over yourself",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're not as special as you think you are",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Stop being such a know-it-all",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Nobody likes a smartass",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're being [options] right now",
+        "options": [
+          "pretty arrogant",
+          "really full of yourself",
+          "hella extra"
+        ],
+        "meaning": "Calling out someone's arrogant behavior"
+      },
+      {
+        "template": "I don't think you're as [options] as you think you are",
+        "options": [
+          "smart",
+          "cool",
+          "special"
+        ],
+        "meaning": "Questioning someone's self-perceived intelligence or status"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a friend's arrogance",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm basically a genius, I can solve this problem in no time"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Dude, that's pretty full of yourself, let's just work together"
+          }
+        ]
+      },
+      {
+        "description": "Dealing with a condescending coworker",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "I don't think you understand the project, let me explain it to you"
+          },
+          {
+            "speaker": "You",
+            "text": "I appreciate your help, but I think I have a good grasp of it, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

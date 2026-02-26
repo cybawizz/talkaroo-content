@@ -1,0 +1,173 @@
+{
+  "title": "Asking about payment for tickets",
+  "context": "Ask the ticket agent what payment methods are accepted.",
+  "content": {
+    "bestLine": "What payment methods do you accept?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How can I pay for the tickets?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What payment options are available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with credit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept cash or card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What forms of payment do you take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay online or in person?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I purchase tickets?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the payment process?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the best way to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just use my card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take Apple Pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with my phone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the easiest way to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just pay cash?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I buy tickets online?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the payment deal?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about payment options.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about accepted payment methods?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the available payment alternatives?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate information on how to proceed with payment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly advise on the payment process?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in learning about the payment procedures.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I pay with [options]?",
+        "options": [
+          "credit card",
+          "cash",
+          "Apple Pay"
+        ],
+        "meaning": "inquire about payment methods"
+      },
+      {
+        "template": "What's the [options] way to pay?",
+        "options": [
+          "best",
+          "easiest",
+          "most convenient"
+        ],
+        "meaning": "ask about preferred payment method"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment methods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to buy tickets for the concert."
+          },
+          {
+            "speaker": "Ticket Agent",
+            "text": "Great! What payment method would you like to use?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about payment options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you accept credit cards or just cash?"
+          },
+          {
+            "speaker": "Ticket Agent",
+            "text": "We accept both credit cards and cash, as well as Apple Pay."
+          }
+        ]
+      }
+    ]
+  }
+}

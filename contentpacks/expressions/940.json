@@ -1,0 +1,173 @@
+{
+  "title": "Life and death emergency accidents",
+  "context": "Report a massive fire or disaster that is threatening lives.",
+  "content": {
+    "bestLine": "There's a massive fire, we need help now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Call 911, it's an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a fire, please send help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a disaster, we need assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone call the fire department",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need emergency services now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a life or death situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please send an ambulance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a critical emergency",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Oh my god, the building is on fire",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Someone get the fire extinguisher",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We gotta get out of here, now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is insane, call for help",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're all gonna die if we don't act",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get the kids to safety, fast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a nightmare, wake up someone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Run, the fire is spreading",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We require immediate emergency assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A massive fire is threatening lives",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to evacuate the premises immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please dispatch emergency services to our location",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have a critical situation that requires attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Lives are at risk, we need help now",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We need [options] now",
+        "options": [
+          "help",
+          "assistance",
+          "emergency services"
+        ],
+        "meaning": "Requesting immediate aid"
+      },
+      {
+        "template": "There's a [options] in the [options]",
+        "options": [
+          "fire",
+          "disaster",
+          "emergency"
+        ],
+        "meaning": "Reporting a critical situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a fire to emergency services",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hello, we have a massive fire"
+          },
+          {
+            "speaker": "Operator",
+            "text": "Okay, stay calm. What's your location?"
+          }
+        ]
+      },
+      {
+        "description": "Alerting others to a disaster",
+        "lines": [
+          {
+            "speaker": "Person 1",
+            "text": "There's a disaster, we need to get out"
+          },
+          {
+            "speaker": "Person 2",
+            "text": "What's happening? What's going on?"
+          }
+        ]
+      }
+    ]
+  }
+}

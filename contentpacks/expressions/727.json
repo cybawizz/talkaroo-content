@@ -1,0 +1,175 @@
+{
+  "title": "Buying merchandise at a concert",
+  "context": "Ask the vendor for a specific sized band t-shirt.",
+  "content": {
+    "bestLine": "Do you have a large band t-shirt?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll take a medium t-shirt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any smalls left?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a large, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What sizes do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a size XL",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any band tees in size L?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the sizes you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a size M",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got a large tee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, do you have any small band tees?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab a medium?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the biggest size you have?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a large, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any XLs left?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a size L, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any band tees in my size?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to purchase a large t-shirt",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please show me the available sizes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in a medium-sized band t-shirt",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any extra-large band tees available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me with sizing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with a size large?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [size] t-shirt?",
+        "options": [
+          "small",
+          "medium",
+          "large",
+          "XL"
+        ],
+        "meaning": "requesting a specific size"
+      },
+      {
+        "template": "Do you have any [size] band tees?",
+        "options": [
+          "small",
+          "medium",
+          "large",
+          "XL"
+        ],
+        "meaning": "inquiring about available sizes"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for a specific size",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have a large band t-shirt?"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "Yes, we have a few large sizes left. Would you like to try one on?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about available sizes",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What sizes do you have?"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "We have small, medium, large, and extra-large. Which one would you like?"
+          }
+        ]
+      }
+    ]
+  }
+}

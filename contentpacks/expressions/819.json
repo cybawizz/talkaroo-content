@@ -1,0 +1,160 @@
+{
+  "title": "Encouraging people to finish the food",
+  "context": "Tell everyone to eat the last remaining bites of the meal.",
+  "content": {
+    "bestLine": "Let's finish up, everyone!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Finish your plates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wrap it up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to finish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat up, everyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Last bites, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Clean your plates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your meal",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Chow down, guys",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's scarf it down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get it in, everyone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Munch time, finish up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Down the hatch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Last call, eat up",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please finish your meals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's conclude our dining",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your courses, everyone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Complete your meals, please",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, finish that grub",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Get that food in, G",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] our food",
+        "options": [
+          "finish",
+          "eat",
+          "devour"
+        ],
+        "meaning": "to encourage others to finish their meal"
+      },
+      {
+        "template": "It's time to [options] up",
+        "options": [
+          "wrap",
+          "clean",
+          "finish"
+        ],
+        "meaning": "to signal the end of the meal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging others to finish",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Let's finish up, everyone!"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Okay, I'll try to eat a bit more"
+          }
+        ]
+      },
+      {
+        "description": "Informal setting",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Chow down, guys! Let's finish this food"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Haha, okay okay, I'll try"
+          }
+        ]
+      }
+    ]
+  }
+}

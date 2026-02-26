@@ -1,0 +1,121 @@
+{
+  "title": "Questions asked by a travel agent",
+  "context": "Ask a client where they want to fly and what days they want to travel.",
+  "content": {
+    "bestLine": "Where would you like to fly and on which days?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you headed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What cities are you traveling between?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me your travel dates?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When were you thinking of traveling?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your preferred travel schedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you want to go and when?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide your travel itinerary?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your travel plans, sir/ma'am?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to assist you with your flight arrangements.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To better assist you, may I have your travel dates?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I assist you with your travel plans today?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for flights from [options] to [options]",
+        "options": [
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "meaning": "Client is searching for flights between two cities"
+      },
+      {
+        "template": "I'd like to travel on [options]",
+        "options": [
+          "Monday",
+          "Friday",
+          "next weekend"
+        ],
+        "meaning": "Client is specifying their preferred travel days"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Travel agent inquiring about client's travel plans",
+        "lines": [
+          {
+            "speaker": "Travel Agent",
+            "text": "Hello, how can I assist you with your travel plans today?"
+          },
+          {
+            "speaker": "Client",
+            "text": "Hi, I'm looking for flights from New York to Los Angeles next Friday."
+          }
+        ]
+      },
+      {
+        "description": "Client providing travel information to the travel agent",
+        "lines": [
+          {
+            "speaker": "Travel Agent",
+            "text": "What's your destination and when would you like to travel?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I'd like to go to Chicago and return on Monday."
+          }
+        ]
+      }
+    ]
+  }
+}

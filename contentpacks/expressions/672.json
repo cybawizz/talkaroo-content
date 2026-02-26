@@ -1,0 +1,173 @@
+{
+  "title": "Asking artificial intelligence a question",
+  "context": "Say a voice command asking a machine to summarize a long book chapter.",
+  "content": {
+    "bestLine": "Summarize this chapter for me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Give me a summary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you summarize this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the main idea?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Summarize the key points",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me an overview?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What does it say in simple terms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Provide a brief summary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tell me the basics",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hit me with the highlights",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the gist of it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me the lowdown",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you break it down for me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the main takeaway?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sum it up for me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you simplify it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just give me the basics",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a summary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide an overview?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please summarize the key points",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a concise summary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you outline the main ideas?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a brief summary of the chapter",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Summarize [chapter/article] for me",
+        "options": [
+          "chapter",
+          "article",
+          "text"
+        ],
+        "meaning": "requesting a summary"
+      },
+      {
+        "template": "Can you give me a [brief/quick] summary?",
+        "options": [
+          "brief",
+          "quick",
+          "short"
+        ],
+        "meaning": "requesting a concise summary"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "User asking AI for a summary",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Hey, can you summarize this chapter for me?"
+          },
+          {
+            "speaker": "AI",
+            "text": "Sure, the main idea is..."
+          }
+        ]
+      },
+      {
+        "description": "User requesting a simplified explanation",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "I don't understand this part, can you simplify it?"
+          },
+          {
+            "speaker": "AI",
+            "text": "Let me try to explain it in simpler terms..."
+          }
+        ]
+      }
+    ]
+  }
+}

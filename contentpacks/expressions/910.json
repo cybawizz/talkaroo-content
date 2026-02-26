@@ -1,0 +1,205 @@
+{
+  "title": "When an airplane is crowded",
+  "context": "Complain that there is absolutely no legroom or space on the flight.",
+  "content": {
+    "bestLine": "There's no legroom at all on this flight.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This seat is really cramped.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish there was more space.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The legroom is quite limited.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to get comfortable.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This flight is very crowded.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit claustrophobic.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The seats are too close together.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's no room to stretch.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This seat is super tight.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck like a sardine.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's no legroom whatsoever.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm basically sitting on the person's lap.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This flight is crazy crowded.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need more space to breathe.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "These seats are ridiculously small.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling like I'm in a can.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The seating arrangement is quite compact.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some discomfort due to the lack of space.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The legroom on this flight is insufficient.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate more room to move about.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The aircraft is fully booked, and it shows.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finding it challenging to get comfortable in this seat.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This seat is hella cramped.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key suffocating.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "There's no room to chill.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This flight is straight up packed.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I need some space, fam.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "These seats are whack.",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "There's [options] legroom on this flight.",
+        "options": [
+          "no",
+          "barely any",
+          "not enough"
+        ],
+        "meaning": "complaining about lack of space"
+      },
+      {
+        "template": "I'm feeling [options] in this seat.",
+        "options": [
+          "claustrophobic",
+          "suffocated",
+          "trapped"
+        ],
+        "meaning": "expressing discomfort due to lack of space"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger complaining to the flight attendant",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, is there any way I can get more legroom?"
+          },
+          {
+            "speaker": "Flight Attendant",
+            "text": "I apologize, but the flight is fully booked. Maybe you can try stretching your legs in the aisle?"
+          }
+        ]
+      },
+      {
+        "description": "Passengers discussing the lack of space",
+        "lines": [
+          {
+            "speaker": "Passenger 1",
+            "text": "Wow, this seat is tiny."
+          },
+          {
+            "speaker": "Passenger 2",
+            "text": "I know, right? I'm basically sitting on the person's lap in front of me."
+          }
+        ]
+      }
+    ]
+  }
+}

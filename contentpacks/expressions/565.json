@@ -1,0 +1,245 @@
+{
+  "title": "Responding to insolence",
+  "context": "Firmly address someone who is speaking to you with extreme disrespect.",
+  "content": {
+    "bestLine": "I won't engage in a conversation that involves disrespect",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's not an acceptable way to speak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could be more respectful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the conversation civil",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with that tone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from speaking to me like that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I expect to be treated with respect",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on the issue, not personal attacks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I won't tolerate disrespect",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, no need to be rude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out, let's talk about this calmly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not cool, let's start over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not trying to fight, let's keep it civil",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, no need to get nasty",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it real, but respectful",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not going to engage in a shouting match",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Back off, I'm not looking for a fight",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist on being treated with respect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will not engage in a conversation that involves disrespect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from using that tone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I expect a professional and respectful demeanor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a civil and respectful dialogue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will not tolerate unprofessional behavior",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I'm so impressed by your maturity",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Thanks for showing me what a respectful conversation looks like",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so glad we're having this respectful and productive conversation",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "You're really setting a great example for how to communicate effectively",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm learning so much from your excellent communication skills",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Thanks for demonstrating what it means to be respectful and open-minded",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and listen for once",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get out of my face",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't have time for your nonsense",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop yelling and calm down",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not going to waste my time on you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Leave me alone",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I won't [options] with someone who is being disrespectful",
+        "options": [
+          "engage",
+          "talk",
+          "communicate"
+        ],
+        "meaning": "Setting boundaries"
+      },
+      {
+        "template": "Let's [options] the conversation and start over",
+        "options": [
+          "calm down",
+          "take a break",
+          "start fresh"
+        ],
+        "meaning": "De-escalating the situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Responding to insolence in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not going to tolerate your disrespect"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Or what? You'll fire me?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I'll do what's necessary to maintain a respectful work environment"
+          }
+        ]
+      },
+      {
+        "description": "Responding to insolence in an informal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, no need to be rude"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Mind your own business"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I'm making it my business because I won't be disrespected"
+          }
+        ]
+      }
+    ]
+  }
+}

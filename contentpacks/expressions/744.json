@@ -1,0 +1,173 @@
+{
+  "title": "Asking about payment plans",
+  "context": "Ask if the store offers financing or a payment plan for a large purchase.",
+  "content": {
+    "bestLine": "Do you offer financing or a payment plan for this purchase?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What payment options do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay in installments?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a financing program?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a payment plan available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I pay for this over time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are my payment options for this purchase?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I make monthly payments?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer any payment assistance?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I pay for this in chunks?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have a layaway plan?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get financing for this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How can I break up the cost?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is there a way to pay over time?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I make payments on this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any payment deals?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I pay in payments?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about your payment plan options.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about your financing options?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in learning about your payment terms.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer any financing programs for large purchases?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate information about your payment plans.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please explain your payment options to me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you offer [options] for large purchases?",
+        "options": [
+          "financing",
+          "payment plans",
+          "installment plans"
+        ],
+        "meaning": "Asking about payment options"
+      },
+      {
+        "template": "Can I pay for this in [options]?",
+        "options": [
+          "installments",
+          "monthly payments",
+          "chunks"
+        ],
+        "meaning": "Asking about payment terms"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment plans",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you offer financing or a payment plan for this purchase?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "Yes, we offer a financing program with monthly payments."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about payment options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What payment options do you have for this item?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "We offer cash, credit, or financing through our payment plan."
+          }
+        ]
+      }
+    ]
+  }
+}

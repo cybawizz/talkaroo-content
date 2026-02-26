@@ -1,0 +1,181 @@
+{
+  "title": "When children bicker",
+  "context": "Tell fighting children to stop arguing and share.",
+  "content": {
+    "bestLine": "Stop arguing and share with each other",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's take turns",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be kind to each other",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Share your toys",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop fighting now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We don't hit or yell",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be friends",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a deep breath",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down and share",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, no fighting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out and share",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be nice to your sibling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be mean",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let your brother/sister have a turn",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No more arguing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Play nice together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Share and be kind",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I expect you to share",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from arguing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to be kind",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's resolve this peacefully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I want to see you sharing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must respect each other",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and be kind",
+        "options": [
+          "share",
+          "take turns",
+          "play together"
+        ],
+        "meaning": "Encouraging kindness and sharing"
+      },
+      {
+        "template": "Remember to [options] when you're playing",
+        "options": [
+          "share",
+          "be nice",
+          "take turns"
+        ],
+        "meaning": "Reminding children to behave nicely"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Mother resolving a fight between two children",
+        "lines": [
+          {
+            "speaker": "Mother",
+            "text": "Stop arguing and share with each other"
+          },
+          {
+            "speaker": "Child 1",
+            "text": "But I had it first"
+          },
+          {
+            "speaker": "Mother",
+            "text": "It doesn't matter who had it first, let's take turns"
+          }
+        ]
+      },
+      {
+        "description": "Father teaching children to share",
+        "lines": [
+          {
+            "speaker": "Father",
+            "text": "Let's be kind to each other and share our toys"
+          },
+          {
+            "speaker": "Child 2",
+            "text": "Okay, daddy"
+          },
+          {
+            "speaker": "Father",
+            "text": "I'm proud of you for sharing, let's play together"
+          }
+        ]
+      }
+    ]
+  }
+}

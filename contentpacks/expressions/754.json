@@ -1,0 +1,125 @@
+{
+  "title": "Expressions used by a postal clerk",
+  "context": "Tell a post office customer how much their total shipping cost is.",
+  "content": {
+    "bestLine": "Your total shipping cost is $10.50.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The total comes out to be $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your shipping cost is $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The total shipping cost is $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You owe $10.50 for shipping.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The cost is $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your total is $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The shipping total is $10.50.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "The total shipping cost for your package is $10.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your shipping total comes out to $10.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The total amount due for shipping is $10.50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will need to pay $10.50 for shipping.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The shipping cost is $10.50.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Your total shipping cost is [amount].",
+        "options": [
+          "$10.50",
+          "$5.25",
+          "$7.75"
+        ],
+        "meaning": "telling the customer their total shipping cost"
+      },
+      {
+        "template": "The cost for shipping is [amount].",
+        "options": [
+          "$10.50",
+          "$5.25",
+          "$7.75"
+        ],
+        "meaning": "informing the customer about their shipping cost"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A customer asks about the shipping cost",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much will it cost to ship this?"
+          },
+          {
+            "speaker": "Postal Clerk",
+            "text": "Your total shipping cost is $10.50."
+          }
+        ]
+      },
+      {
+        "description": "A customer is informed about their shipping total",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "The total shipping cost for your package is $10.50."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Okay, that sounds good."
+          }
+        ]
+      }
+    ]
+  }
+}

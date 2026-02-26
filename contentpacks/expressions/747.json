@@ -1,0 +1,129 @@
+{
+  "title": "Offering additional help to a customer",
+  "context": "Ask a shopper if there is anything else they need.",
+  "content": {
+    "bestLine": "Is there anything else I can help you with today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you need any more assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help you find something else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else you need?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have everything you came in for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you anything else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need help with anything else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Anything else I can help you with?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I be of further assistance to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can help you with today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I provide you with any additional help?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require any more assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I help you with anything else?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options]?",
+        "options": [
+          "help you with something else",
+          "get you anything else",
+          "assist you further"
+        ],
+        "meaning": "Offering additional help"
+      },
+      {
+        "template": "Do you [options]?",
+        "options": [
+          "need any more assistance",
+          "have everything you came in for",
+          "require any further help"
+        ],
+        "meaning": "Checking if the customer needs more help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer is looking for a product",
+        "lines": [
+          {
+            "speaker": "Sales Associate",
+            "text": "Can I help you find something else?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'm looking for a new phone case."
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "Let me show you our selection."
+          }
+        ]
+      },
+      {
+        "description": "Customer is at the checkout counter",
+        "lines": [
+          {
+            "speaker": "Cashier",
+            "text": "Is there anything else I can help you with today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "No, that's all. Just this one item."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Alright, that'll be $10.99 please."
+          }
+        ]
+      }
+    ]
+  }
+}

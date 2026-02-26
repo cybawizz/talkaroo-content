@@ -1,0 +1,205 @@
+{
+  "title": "When someone starts trouble",
+  "context": "Accuse someone of deliberately causing drama or arguments.",
+  "content": {
+    "bestLine": "You're always causing drama",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're stirring up trouble",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not helping the situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Why are you doing this?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "This isn't necessary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're making things worse",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just calm down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your problem?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "This is getting out of hand",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, stop causing drama",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's wrong with you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Cut it out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're being really annoying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just leave it alone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're asking for trouble",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Knock it off",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're lowkey trying to start something",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop being extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're being hella dramatic",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill, G",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're trying to get a rise out of me",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop trolling",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, just what we needed, more drama",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, you're so original, starting trouble again",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for stirring the pot",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really contributing to the conversation",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're here to cause chaos",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're doing a great job of making things worse",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] causing trouble",
+        "options": [
+          "always",
+          "constantly",
+          "still"
+        ],
+        "meaning": "Accusing someone of frequently starting trouble"
+      },
+      {
+        "template": "Stop [options] and calm down",
+        "options": [
+          "being dramatic",
+          "causing a scene",
+          "yelling"
+        ],
+        "meaning": "Telling someone to stop causing trouble and relax"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Accusing someone of starting trouble in a group setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're always causing drama"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I am not, you're just being sensitive"
+          }
+        ]
+      },
+      {
+        "description": "Confronting someone about starting trouble in a one-on-one conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're really stirring up trouble with your comments"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm just saying what's on my mind"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about lost luggage",
+  "context": "Tell the airline desk that your suitcase did not arrive on the baggage carousel.",
+  "content": {
+    "bestLine": "My suitcase didn't arrive on the baggage carousel",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My luggage is missing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I couldn't find my bag",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My suitcase didn't show up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing my luggage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My bag didn't arrive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I couldn't locate my suitcase",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My luggage is nowhere to be found",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still waiting for my bag",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, my luggage is MIA",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having some bad luck with my bag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My suitcase is AWOL",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a lost luggage problem",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My bag got lost in transit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dealing with a missing suitcase",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My luggage is playing hide and seek",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on the hunt for my lost bag",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing an issue with my luggage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My suitcase has not arrived as expected",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report a missing bag",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am having difficulty locating my luggage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My baggage has not been delivered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with my lost luggage",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] didn't arrive",
+        "options": [
+          "luggage",
+          "bag",
+          "suitcase"
+        ],
+        "meaning": "complaining about lost luggage"
+      },
+      {
+        "template": "I'm having trouble finding my [options]",
+        "options": [
+          "bag",
+          "suitcase",
+          "luggage"
+        ],
+        "meaning": "complaining about lost luggage"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining about lost luggage at the airline desk",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "My suitcase didn't arrive on the baggage carousel"
+          },
+          {
+            "speaker": "Airline Staff",
+            "text": "I apologize for the inconvenience, let me help you with that"
+          }
+        ]
+      },
+      {
+        "description": "Following up on lost luggage",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I reported my lost luggage earlier, can you update me on the status?"
+          },
+          {
+            "speaker": "Airline Staff",
+            "text": "Let me check on that for you, please hold for a moment"
+          }
+        ]
+      }
+    ]
+  }
+}

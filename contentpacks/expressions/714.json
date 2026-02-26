@@ -1,0 +1,173 @@
+{
+  "title": "Asking about payment at a hotel",
+  "context": "Ask the clerk for an itemized receipt of your final room charges.",
+  "content": {
+    "bestLine": "Can I get an itemized receipt for my room charges?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the total for my stay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see a breakdown of my charges?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe for my room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you itemize my bill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the final total for my room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a detailed receipt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I pay for my room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain my charges?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the damage for my room?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a rundown of my charges?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the lowdown on my bill?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the total come out to be?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see what I'm being charged for?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I settle my bill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you walk me through my charges?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate an itemized receipt for my room charges.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide a detailed breakdown of my bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to review my charges before payment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you explain the total amount due for my stay?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a comprehensive receipt for my records.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide me with a detailed invoice for my room.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options] receipt?",
+        "options": [
+          "detailed",
+          "itemized",
+          "comprehensive"
+        ],
+        "meaning": "requesting a detailed receipt"
+      },
+      {
+        "template": "What's the [options] for my room?",
+        "options": [
+          "total",
+          "damage",
+          "amount due"
+        ],
+        "meaning": "asking about the total cost"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest asking for an itemized receipt",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Can I get an itemized receipt for my room charges?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Of course, let me print that out for you."
+          }
+        ]
+      },
+      {
+        "description": "Guest inquiring about payment options",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "How do I pay for my room?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "We accept cash, credit, or debit. Which would you prefer?"
+          }
+        ]
+      }
+    ]
+  }
+}

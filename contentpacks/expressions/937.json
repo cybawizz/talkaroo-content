@@ -1,0 +1,181 @@
+{
+  "title": "Dealing with an injured person at an accident",
+  "context": "Tell an injured person to stay completely still until medics arrive.",
+  "content": {
+    "bestLine": "Stay completely still until help arrives.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't move until the medics get here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay still, help is on the way.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please remain still until medical help arrives.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just stay still, you'll be okay.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't try to move, wait for the paramedics.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay as still as possible until help arrives.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Help will be here soon, just stay still.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": " Remain calm and still until medical help arrives.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whoa, don't move, dude, help's coming.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just chill, the ambulance is on its way.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay put, buddy, you'll be fine.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry, just stay still, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hang in there, help's almost here.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just relax, the medics will be here soon.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're gonna be alright, just stay still.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't move, I've got help coming.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please remain immobile until medical assistance arrives.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's crucial that you stay still until the paramedics arrive.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay as still as possible, help is en route.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do not attempt to move, medical help is on the way.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential that you remain still until further assistance arrives.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please stay calm and still, the ambulance will arrive shortly.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Stay [options] until help arrives.",
+        "options": [
+          "still",
+          "calm",
+          "as still as possible"
+        ],
+        "meaning": "Instructing the injured person to remain stationary."
+      },
+      {
+        "template": "Help is [options], just stay still.",
+        "options": [
+          "on the way",
+          "coming soon",
+          "almost here"
+        ],
+        "meaning": "Reassuring the injured person that medical help is approaching."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A bystander helping an injured person at an accident scene.",
+        "lines": [
+          {
+            "speaker": "Bystander",
+            "text": "Stay completely still until help arrives."
+          },
+          {
+            "speaker": "Injured Person",
+            "text": "Okay... it hurts."
+          },
+          {
+            "speaker": "Bystander",
+            "text": "I know it does, but help is on the way. Just hang in there."
+          }
+        ]
+      },
+      {
+        "description": "A formal interaction between a first responder and an injured person.",
+        "lines": [
+          {
+            "speaker": "First Responder",
+            "text": "Please remain immobile until we can assess your injuries."
+          },
+          {
+            "speaker": "Injured Person",
+            "text": "I think I can move..."
+          },
+          {
+            "speaker": "First Responder",
+            "text": "No, please don't. It's crucial that you stay still until we can provide further assistance."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Freezing a stolen credit card",
+  "context": "Call the bank immediately and report fraudulent charges.",
+  "content": {
+    "bestLine": "Call the bank immediately to report fraudulent charges",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to freeze my card",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My credit card was stolen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to report a stolen card",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a stolen credit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think my card has been compromised",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I report a stolen credit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to cancel my credit card",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My card is missing and I think it was stolen",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am requesting to freeze my credit card due to theft",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report a stolen credit card and request a replacement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please assist me in reporting a stolen credit card",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing issues with a stolen credit card and need assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please guide me through the process of reporting a stolen credit card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to inform you that my credit card has been stolen and I would like to take action",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Call the bank to [options] my stolen credit card",
+        "options": [
+          "report",
+          "freeze"
+        ],
+        "meaning": "to take action against a stolen credit card"
+      },
+      {
+        "template": "I need to [options] my credit card due to theft",
+        "options": [
+          "cancel",
+          "freeze",
+          "report"
+        ],
+        "meaning": "to take action against a stolen credit card"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling the bank to report a stolen credit card",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, I need to report a stolen credit card"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "I'm sorry to hear that. Can you please provide me with your account information?"
+          }
+        ]
+      },
+      {
+        "description": "Freezing a credit card due to suspicious activity",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I think my credit card has been compromised. Can you help me freeze it?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "Yes, of course. I'll guide you through the process. Can you please confirm your identity?"
+          }
+        ]
+      }
+    ]
+  }
+}

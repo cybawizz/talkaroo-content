@@ -1,0 +1,162 @@
+{
+  "title": "Telling how a steak is to be cooked",
+  "context": "Specify exactly how well-done or rare you want your meat prepared.",
+  "content": {
+    "bestLine": "I'll have my steak medium-rare, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Cook it medium",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer it rare",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it well-done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Medium-well is fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a little pink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not too raw, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fully cooked, thanks",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Give me a rare one",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a medium-rare guy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it bloody rare",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I like it pretty rare",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just sear it, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not too cooked, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like it medium-rare",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please cook it to medium",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer my steak well-done",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have it rare, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it medium-well, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have my steak [options]",
+        "options": [
+          "medium-rare",
+          "rare",
+          "well-done",
+          "medium"
+        ],
+        "meaning": "Specifying how you want your steak cooked"
+      },
+      {
+        "template": "Cook it [options], please",
+        "options": [
+          "medium",
+          "rare",
+          "well-done"
+        ],
+        "meaning": "Requesting the doneness of your steak"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering steak at a restaurant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have the steak, please."
+          },
+          {
+            "speaker": "Waiter",
+            "text": "How would you like it cooked?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Medium-rare, thank you."
+          }
+        ]
+      },
+      {
+        "description": "Friend asking another about steak preference",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "How do you like your steak?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I prefer it rare. How about you?"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "I'm more of a medium-well kind of guy."
+          }
+        ]
+      }
+    ]
+  }
+}

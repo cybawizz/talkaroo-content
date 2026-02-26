@@ -1,0 +1,148 @@
+{
+  "title": "Financial arrangements with a babysitter",
+  "context": "Discuss how much you are going to pay the person watching your kids.",
+  "content": {
+    "bestLine": "How much do you charge per hour?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do you charge?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your hourly fee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me your price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will it cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you charge per child?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss payment?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much do you get paid?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your going rate?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a quote?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much do you make?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What do you usually get?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we work out a deal?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "What is your standard rate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide your fee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your hourly compensation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about your payment terms?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking to pay [options] per hour",
+        "options": [
+          "$10",
+          "$15",
+          "$20"
+        ],
+        "meaning": "Discussing payment rate"
+      },
+      {
+        "template": "Can we agree on [options]?",
+        "options": [
+          "$10",
+          "$15",
+          "$20"
+        ],
+        "meaning": "Negotiating payment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing payment with a babysitter",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "How much do you charge per hour?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "I usually charge $15 per hour"
+          }
+        ]
+      },
+      {
+        "description": "Negotiating payment with a babysitter",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Can we agree on $12 per hour?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Yes, that sounds fine"
+          }
+        ]
+      }
+    ]
+  }
+}

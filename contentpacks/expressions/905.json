@@ -1,0 +1,176 @@
+{
+  "title": "Rideshare driver confirming a passenger",
+  "context": "Ask the person entering your car for the name on the account.",
+  "content": {
+    "bestLine": "Can I confirm your name on the account?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the name on your account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please confirm your name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I confirm your identity?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your name, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see your account name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I know it's you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What account name should I see?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you confirm your account name?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's your name on the app?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your account name, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me your name real quick?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the name I should see on my screen?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going? What's your name?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just need to confirm your name, thanks!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your name, by the way?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your name on the account?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I confirm your account name, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to verify your identity. What's your name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please provide your account name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "For security purposes, what's your name on the account?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To confirm, what is your name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, but I need to confirm your name on the account.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I confirm your [options]?",
+        "options": [
+          "name",
+          "account name",
+          "identity"
+        ],
+        "meaning": "Asking for confirmation of the passenger's identity"
+      },
+      {
+        "template": "What's your [options]?",
+        "options": [
+          "name",
+          "account name"
+        ],
+        "meaning": "Requesting the passenger's name or account name"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Rideshare driver confirming a passenger's identity",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Hi, can I confirm your name on the account?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Yes, it's John Doe."
+          }
+        ]
+      },
+      {
+        "description": "Rideshare driver verifying a passenger's account name",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "What's your name, please?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "It's Jane Smith. Why do you need to know?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Just to confirm your identity for the ride."
+          }
+        ]
+      }
+    ]
+  }
+}

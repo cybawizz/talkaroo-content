@@ -1,0 +1,146 @@
+{
+  "title": "A fast-food clerk asking where the food will be eaten",
+  "context": "Ask the customer if their meal is for here or to go.",
+  "content": {
+    "bestLine": "Is your meal for here or to go?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Will you be eating in or taking out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this to stay or to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be dining in or taking it with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "For here or to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to eat in or take out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your order to eat here or take away?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be eating here or taking it to go?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You gonna eat here or take it with you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this for here or to go, buddy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You eating in or taking out, man?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "For here or to go, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You wanna eat in or grab it to go?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is your food to stay or to go, friend?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Will you be dining with us or taking your order to go?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is your order for consumption on our premises or to be taken away?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to eat in our dining area or take your food with you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if your order is to be eaten here or taken to go.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is your meal [options]?",
+        "options": [
+          "for here or to go",
+          "to stay or to go"
+        ],
+        "meaning": "Asking where the food will be eaten"
+      },
+      {
+        "template": "Will you be [options]?",
+        "options": [
+          "eating in or taking out",
+          "dining in or taking away"
+        ],
+        "meaning": "Asking where the food will be eaten"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic interaction",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Is your meal for here or to go?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll take it to go, please."
+          }
+        ]
+      },
+      {
+        "description": "Informal interaction",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "You gonna eat here or take it with you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll eat it here, thanks."
+          }
+        ]
+      }
+    ]
+  }
+}

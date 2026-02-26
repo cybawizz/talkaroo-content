@@ -1,0 +1,133 @@
+{
+  "title": "Offering help to a customer",
+  "context": "Offer assistance to a shopper in a retail store.",
+  "content": {
+    "bestLine": "Can I help you find something?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you need assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I help you today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something I can help you with?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me know if you need anything.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I assist you with that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any questions about our products?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help, just let me know.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "May I be of assistance to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to help you with that.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know how I can assist you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can help you find or purchase?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to provide excellent customer service.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Can I help you with [options]?",
+        "options": [
+          "finding something",
+          "making a purchase",
+          "returning an item"
+        ],
+        "meaning": "Offering assistance with a specific task"
+      },
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "help with a product",
+          "directions to a department",
+          "information about a sale"
+        ],
+        "meaning": "Asking if the customer needs assistance with something general"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer approaches a shelf and looks unsure",
+        "lines": [
+          {
+            "speaker": "Sales Associate",
+            "text": "Hi, can I help you find something?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'm looking for a new phone case."
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "Let me show you where they are."
+          }
+        ]
+      },
+      {
+        "description": "Customer stands at the counter with a question",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, do you have any discounts available?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "Yes, we have a sale going on right now. Let me tell you about it."
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "Would you like me to apply the discount to your purchase?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "When merchandise is not satisfactory",
+  "context": "Complain to a store employee that a product is defective or low quality.",
+  "content": {
+    "bestLine": "This product is defective, can I get a refund?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not satisfied with this product",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This item is not what I expected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's something wrong with this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I exchange this for a working one?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to report a problem with this product",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This doesn't seem to be functioning properly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with this item",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a defective product?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This thing is busted, can I get a new one?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got a lemon, what can I do?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This product is a dud, can I return it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a working one?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really disappointed in this product",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This isn't what I paid for, can I get a refund?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me out with a defective product?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to exchange this for something that works",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to report a defective product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This item does not meet my expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing difficulties with this product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I request a replacement or refund?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate assistance with a defective item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This product is not functioning as advertised",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having trouble with my [options]",
+        "options": [
+          "phone",
+          "laptop",
+          "tablet"
+        ],
+        "meaning": "reporting a problem with a product"
+      },
+      {
+        "template": "This [options] is not working properly",
+        "options": [
+          "TV",
+          "refrigerator",
+          "air conditioner"
+        ],
+        "meaning": "complaining about a defective product"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining about a defective product",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm not satisfied with this product, it's defective"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the inconvenience, let me help you with a refund or replacement"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting a replacement for a defective item",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I exchange this for a working one?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, of course, let me process the exchange for you"
+          }
+        ]
+      }
+    ]
+  }
+}

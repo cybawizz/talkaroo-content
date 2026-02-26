@@ -1,0 +1,181 @@
+{
+  "title": "Warning a relative about a scam",
+  "context": "Tell an older family member never to click on a suspicious text message link.",
+  "content": {
+    "bestLine": "Never click on suspicious links, okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Be careful with links",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't click on unknown links",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Avoid suspicious messages",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Watch out for scams",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your info safe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't trust strange links",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be cautious online",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Protect yourself from scams",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't click on weird links",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful what you click",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Scams are everywhere",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your phone safe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't fall for it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be smart online",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Watch your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay safe, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Exercise caution with links",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Refrain from clicking unknown links",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be vigilant against scams",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Protect your personal info",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Maintain online security",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Avoid potential threats",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Never click on [options] links",
+        "options": [
+          "suspicious",
+          "unknown",
+          "strange"
+        ],
+        "meaning": "warning against scams"
+      },
+      {
+        "template": "Be [options] when clicking links",
+        "options": [
+          "careful",
+          "cautious",
+          "smart"
+        ],
+        "meaning": "advising caution online"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a relative about a scam",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, never click on suspicious links, okay?"
+          },
+          {
+            "speaker": "Relative",
+            "text": "Okay, got it. Why?"
+          },
+          {
+            "speaker": "You",
+            "text": "Because scams are everywhere and I don't want you to get hacked"
+          }
+        ]
+      },
+      {
+        "description": "Discussing online safety",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Have you heard about the latest scams online?"
+          },
+          {
+            "speaker": "Relative",
+            "text": "No, what's going on?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just be careful what you click, and never give out your personal info"
+          }
+        ]
+      }
+    ]
+  }
+}

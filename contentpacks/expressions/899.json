@@ -1,0 +1,173 @@
+{
+  "title": "Questions a passenger might ask about a flight",
+  "context": "Ask an airline employee if a flight has a layover or is direct.",
+  "content": {
+    "bestLine": "Is this flight direct or does it have a layover?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Does this flight stop anywhere?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a layover on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will we be flying straight to our destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any stops on this flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this a non-stop flight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do we have a layover on this trip?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the flight direct or not?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will we have to change planes?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got any layovers on this flight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this a straight shot to our destination?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Any stops on the way?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do we get to stay on the plane the whole time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Layovers, yeah or no?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How many stops does this flight have?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it a one-flight deal?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do we have to switch planes somewhere?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me if this flight has any layovers?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if this flight is direct or not.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any scheduled stops on this flight?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you confirm if this is a non-stop flight?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know if there are any connections on this flight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this flight a direct service to our destination?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is this flight [options]?",
+        "options": [
+          "direct",
+          "non-stop",
+          "with layovers"
+        ],
+        "meaning": "Asking about the nature of the flight"
+      },
+      {
+        "template": "Does the flight from [options] to [options] have any stops?",
+        "options": [
+          "city1",
+          "city2",
+          "destination"
+        ],
+        "meaning": "Inquiring about stops on a specific route"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asking about layovers at the check-in counter",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hi, I'm checking in for my flight. Is it direct or does it have a layover?"
+          },
+          {
+            "speaker": "Airline Employee",
+            "text": "Let me check that for you. According to our system, your flight has one layover."
+          }
+        ]
+      },
+      {
+        "description": "Traveler inquiring about flight details over the phone",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Hello, I booked a flight with your airline and I was wondering if it's a non-stop flight?"
+          },
+          {
+            "speaker": "Airline Representative",
+            "text": "Yes, the flight you booked is direct. You won't have to change planes."
+          }
+        ]
+      }
+    ]
+  }
+}

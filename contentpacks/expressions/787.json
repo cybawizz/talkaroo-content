@@ -1,0 +1,171 @@
+{
+  "title": "Asking about a meal",
+  "context": "Ask what is being cooked for dinner or when it will be ready.",
+  "content": {
+    "bestLine": "What's for dinner?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's cooking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's for dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is dinner ready?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help with dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on the menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When will dinner be ready?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are we having?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whatcha makin'?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's cookin'?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner ready yet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's for grub?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a plate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the haps for dinner?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is food ready?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the plan for dinner?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I inquire about dinner?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What has been prepared for dinner?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "At what time will dinner be served?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the dinner plans.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me about dinner?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the dinner menu?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's [option] for dinner?",
+        "options": [
+          "cooking",
+          "on the menu"
+        ],
+        "meaning": "asking about the dinner plans"
+      },
+      {
+        "template": "Is [option] ready?",
+        "options": [
+          "dinner",
+          "food"
+        ],
+        "meaning": "asking about the dinner status"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about dinner plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's for dinner?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "We're having pasta."
+          }
+        ]
+      },
+      {
+        "description": "Asking about dinner status",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Is dinner ready?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Almost, just a few more minutes."
+          }
+        ]
+      }
+    ]
+  }
+}

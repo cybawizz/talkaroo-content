@@ -1,0 +1,158 @@
+{
+  "title": "Problems on the highway",
+  "context": "State that the car broke down and is stuck on the side of the road.",
+  "content": {
+    "bestLine": "My car broke down and I'm stuck on the side of the road",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The car stopped working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having car trouble",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicle is not moving",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stranded on the highway",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The car is not functioning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need roadside assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The car broke down on me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My car died on me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck on the side of the road",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My ride broke down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having some car issues",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My car is busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a tow truck",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My car won't start",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "My vehicle has experienced a mechanical failure",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am currently stranded due to car trouble",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The car is inoperable at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with my vehicle",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My car has broken down and I need help",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My car [options] on the side of the road",
+        "options": [
+          "broke down",
+          "stopped working",
+          "died"
+        ],
+        "meaning": "The car is not functioning and I am stranded"
+      },
+      {
+        "template": "I'm [options] due to car trouble",
+        "options": [
+          "stranded",
+          "stuck",
+          "having issues"
+        ],
+        "meaning": "I am experiencing problems with my car and need help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling for roadside assistance",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Hello, my car broke down on the highway"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Sorry to hear that, can you please provide your location?"
+          }
+        ]
+      },
+      {
+        "description": "Explaining the situation to a friend",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Hey, my car died on me and I'm stuck on the side of the road"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh no, do you need me to come pick you up?"
+          }
+        ]
+      }
+    ]
+  }
+}

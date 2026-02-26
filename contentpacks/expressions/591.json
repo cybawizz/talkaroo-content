@@ -1,0 +1,191 @@
+{
+  "title": "When interrupted by a telephone solicitor",
+  "context": "Tell a telemarketer that you are busy and cannot talk.",
+  "content": {
+    "bestLine": "I'm busy, can I call you back?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm in the middle of something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I call you back later?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not interested, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm busy right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you call back another time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not available to talk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to go, sorry",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I catch you later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm kinda busy, can we talk later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not a good time, can you call back?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a rush, can we talk later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we chat another time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tied up right now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Rain check, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm afraid I'm busy at the moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I request a callback at your earliest convenience?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not available to discuss this now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could call back later",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a meeting, can I call you back?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, another telemarketer",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just what I needed, a sales call",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I was just sitting here waiting for you to call",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Don't call me again",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not interested, don't bother calling back",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Take me off your list",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] right now",
+        "options": [
+          "busy",
+          "tied up",
+          "in a meeting"
+        ],
+        "meaning": "not available to talk"
+      },
+      {
+        "template": "Can I [options] you back?",
+        "options": [
+          "call",
+          "catch up with"
+        ],
+        "meaning": "request to call back later"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple decline",
+        "lines": [
+          {
+            "speaker": "Telemarketer",
+            "text": "Hi, I'm calling from XYZ company"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm busy, can I call you back?"
+          }
+        ]
+      },
+      {
+        "description": "Polite decline",
+        "lines": [
+          {
+            "speaker": "Telemarketer",
+            "text": "Hi, I'm calling from XYZ company"
+          },
+          {
+            "speaker": "You",
+            "text": "I appreciate the call, but I'm not interested"
+          }
+        ]
+      }
+    ]
+  }
+}

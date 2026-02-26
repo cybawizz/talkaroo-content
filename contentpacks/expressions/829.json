@@ -1,0 +1,176 @@
+{
+  "title": "Concerning pizza delivery",
+  "context": "Ask a restaurant to bring your order directly to your house.",
+  "content": {
+    "bestLine": "Can you deliver my pizza order to my house?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like my order delivered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring it to my house?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need delivery to my address",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my order delivered?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer delivery to my home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you deliver to my location?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for delivery options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can my order be delivered?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you just bring it over?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need it delivered ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get delivery, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just deliver it to my house",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm craving pizza, can you deliver?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you bring my order over?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd love to have it delivered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my pizza delivered?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could deliver my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please deliver my pizza to my residence?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am requesting delivery to my home address",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to arrange for delivery, if possible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you deliver my order to my house, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require delivery to my location, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you deliver my [options] to my house?",
+        "options": [
+          "pizza",
+          "order",
+          "food"
+        ],
+        "meaning": "requesting delivery"
+      },
+      {
+        "template": "I'd like my [options] delivered to my [options]",
+        "options": [
+          "pizza",
+          "order",
+          "food",
+          "house",
+          "home",
+          "address"
+        ],
+        "meaning": "specifying delivery details"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting pizza delivery",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can I get my pizza delivered to my house?"
+          },
+          {
+            "speaker": "Restaurant Staff",
+            "text": "Absolutely, what's your address?"
+          }
+        ]
+      },
+      {
+        "description": "Customer confirming delivery details",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Just to confirm, you can deliver my order to my house, right?"
+          },
+          {
+            "speaker": "Restaurant Staff",
+            "text": "Yes, we can deliver it to your house. We'll be there in about 30 minutes."
+          }
+        ]
+      }
+    ]
+  }
+}

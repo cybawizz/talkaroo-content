@@ -1,0 +1,173 @@
+{
+  "title": "Concerning a radio or stereo",
+  "context": "Ask someone to adjust the volume or station on a music player.",
+  "content": {
+    "bestLine": "Can you turn it up/down?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you adjust the volume?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn it up/down, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you change the station?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Volume is too high/low.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn it off?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it too loud?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it louder?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn down the music.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you turn it down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you put on something else?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn it up, I love this song!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This song is annoying.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you change it to [station]?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't like this music.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make it louder?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn off that noise.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please adjust the volume?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you turned it down.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a station change?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The music is too loud, may I ask you to turn it down?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble concentrating, could you turn it off?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you mind changing the station to something more classical?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you turn [options]?",
+        "options": [
+          "it up",
+          "it down",
+          "the music off"
+        ],
+        "meaning": "Asking to adjust the volume or turn off the music"
+      },
+      {
+        "template": "I'd like to listen to [options].",
+        "options": [
+          "something else",
+          "a different station",
+          "some classical music"
+        ],
+        "meaning": "Requesting a change in music or station"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to turn down the music",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can you turn it down?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, sorry. I didn't realize it was that loud."
+          }
+        ]
+      },
+      {
+        "description": "Requesting a station change",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you change the station to something more classical?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sure, let me see what I can find."
+          }
+        ]
+      }
+    ]
+  }
+}

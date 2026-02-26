@@ -1,0 +1,181 @@
+{
+  "title": "Asking a child to stop some behavior",
+  "context": "Give a firm instruction for a child to stop doing what they are doing.",
+  "content": {
+    "bestLine": "Please stop doing that right now.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Stop that immediately.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to stop.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please stop now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's enough.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop doing that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't like that behavior.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's stop that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to stop.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, knock it off.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop that, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cut it out.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not okay.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's try something else.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whoa, slow down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist you stop.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from doing that.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to cease that behavior.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require you to stop immediately.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That behavior is unacceptable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please desist.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please stop [options].",
+        "options": [
+          "doing that",
+          "behaving like that",
+          "acting out"
+        ],
+        "meaning": "Requesting a child to stop a specific behavior"
+      },
+      {
+        "template": "I need you to [options].",
+        "options": [
+          "stop",
+          "calm down",
+          "behave"
+        ],
+        "meaning": "Asking a child to change their behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Stopping a child from throwing toys",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Please stop throwing toys."
+          },
+          {
+            "speaker": "Child",
+            "text": "But why?"
+          },
+          {
+            "speaker": "Adult",
+            "text": "Because it's not safe and can break things."
+          }
+        ]
+      },
+      {
+        "description": "Asking a child to stop drawing on the wall",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Stop drawing on the wall, please."
+          },
+          {
+            "speaker": "Child",
+            "text": "I was just making art."
+          },
+          {
+            "speaker": "Adult",
+            "text": "I know, but walls are not for drawing. Let's find you some paper."
+          }
+        ]
+      }
+    ]
+  }
+}

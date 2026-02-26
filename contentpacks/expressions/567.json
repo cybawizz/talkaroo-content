@@ -1,0 +1,240 @@
+{
+  "title": "When someone interrupts with an opinion",
+  "context": "Stop someone from speaking over you during a conversation.",
+  "content": {
+    "bestLine": "Excuse me, may I finish my thought?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let me finish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I continue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to finish my point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me speak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not done yet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Allow me to complete my thought",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a moment, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If I may finish",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, let me get a word in",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I jump in here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hold up, let me finish",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just let me say this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to say something",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me chime in",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you let me talk?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got something to add",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "If I may interject",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I be allowed to finish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if I could complete my thought",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "With your permission, I'd like to continue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, I'm not finished speaking",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to add my perspective",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, sorry, was I interrupting your interruption?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, thanks for letting me speak",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you let me finish... not",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, interrupt me again",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I live for being cut off mid-sentence",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for the opportunity to speak... said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and let me talk",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I'm talking, so listen",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Don't interrupt me, it's rude",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Let me speak without your input",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't care about your opinion, let me finish",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, [options]",
+        "options": [
+          "may I finish",
+          "can I continue",
+          "can I add something"
+        ],
+        "meaning": "polite interruption"
+      },
+      {
+        "template": "Let me [options]",
+        "options": [
+          "finish speaking",
+          "get a word in",
+          "say something"
+        ],
+        "meaning": "assertive interruption"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Interrupting a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "So, I was saying that I think we should..."
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh, I know what you mean, but..."
+          },
+          {
+            "speaker": "You",
+            "text": "Excuse me, may I finish my thought?"
+          }
+        ]
+      },
+      {
+        "description": "Interrupting a coworker",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I believe the best approach would be..."
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I disagree, we should..."
+          },
+          {
+            "speaker": "You",
+            "text": "If I may interject, I'd like to finish my point"
+          }
+        ]
+      }
+    ]
+  }
+}

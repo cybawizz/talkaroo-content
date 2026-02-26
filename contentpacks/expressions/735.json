@@ -1,0 +1,173 @@
+{
+  "title": "Asking about store hours over the telephone",
+  "context": "Call a retail business to ask when they open and close today.",
+  "content": {
+    "bestLine": "What are your hours today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What time do you open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are your hours today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you close today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me your hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you open and close?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know your store hours.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your hours of operation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your schedule for today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what time are you open?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with your hours today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "So, when do you guys close?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a quick rundown of your hours?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to figure out when to come by.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What time should I swing by?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have special hours today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How late are you open tonight?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of your hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me your hours.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your business hours for today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to confirm your store's hours of operation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with your schedule for today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am inquiring about your hours of service.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What are your [options] hours?",
+        "options": [
+          "today's",
+          "daily",
+          "business"
+        ],
+        "meaning": "Asking about store hours"
+      },
+      {
+        "template": "Can you tell me when you [options]?",
+        "options": [
+          "open",
+          "close",
+          "are open"
+        ],
+        "meaning": "Asking about specific store hours"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple inquiry about store hours",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, what are your hours today?"
+          },
+          {
+            "speaker": "Store Representative",
+            "text": "We're open from 9 AM to 6 PM."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about hours for a specific day",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time do you close on Sundays?"
+          },
+          {
+            "speaker": "Store Representative",
+            "text": "We close at 5 PM on Sundays."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Instructions for a shoe repair clerk",
+  "context": "Tell a cobbler exactly how you want your shoes fixed.",
+  "content": {
+    "bestLine": "Please fix the heel and polish the shoes black",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Fix the sole",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Repair the heel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it look new",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just fix the tear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get it done today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use the same material",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure it's sturdy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fix the buckle too",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you fix my kicks?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make my shoes look fresh",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just glue it back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get it done ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Use some strong glue",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't mess it up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make it look cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Fix the hole too",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like the heel repaired",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refurbish the shoes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Ensure the material is matching",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I request a thorough repair",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please complete the task promptly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a sturdy fix",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] the shoes",
+        "options": [
+          "fix",
+          "repair",
+          "refurbish"
+        ],
+        "meaning": "requesting shoe repair"
+      },
+      {
+        "template": "I want my shoes to [options]",
+        "options": [
+          "look new",
+          "be fixed",
+          "be polished"
+        ],
+        "meaning": "specifying desired outcome"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting shoe repair",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to get my shoes fixed"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "What seems to be the problem with them?"
+          }
+        ]
+      },
+      {
+        "description": "Customer specifying repair details",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Please fix the heel and make it look new"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "I can do that for you. Would you like me to use a specific type of polish?"
+          }
+        ]
+      }
+    ]
+  }
+}

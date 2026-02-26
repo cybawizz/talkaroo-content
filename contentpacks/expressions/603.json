@@ -1,0 +1,172 @@
+{
+  "title": "A newspaper agent responding to complaints",
+  "context": "Apologize for a missed delivery and promise to fix it.",
+  "content": {
+    "bestLine": "I apologize for the missed delivery and will redeliver today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry about the missed paper",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get your paper to you today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll look into the delivery issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your paper will be delivered ASAP",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for the inconvenience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll make sure you get your paper",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your paper is on its way",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, sorry about your paper not showing up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No worries, we'll get it to you today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on with your delivery?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll get that paper to you pronto",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry 'bout that, we'll fix it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your paper should be there soon",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No problem, we'll redeliver",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll check on the status for you",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the missed delivery and will rectify the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept our apologies for the inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will ensure timely delivery going forward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A replacement paper will be delivered immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your patience and understanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The issue will be investigated and resolved promptly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I apologize for the [options] and will [options]",
+        "options": [
+          "missed delivery",
+          "delay",
+          "inconvenience"
+        ],
+        "meaning": "Apologize and offer a solution"
+      },
+      {
+        "template": "Your [options] will be [options] today",
+        "options": [
+          "paper",
+          "delivery"
+        ],
+        "meaning": "Provide a specific solution"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Agent responding to a customer complaint",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "I apologize for the missed delivery and will redeliver today"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thank you, I appreciate it"
+          }
+        ]
+      },
+      {
+        "description": "Agent offering a solution to a customer issue",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I didn't get my paper this morning"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Sorry about that, we'll get a new one to you right away"
+          }
+        ]
+      }
+    ]
+  }
+}

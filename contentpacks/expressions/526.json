@@ -1,0 +1,163 @@
+{
+  "title": "Complaining about loud talkers",
+  "context": "Tell someone in a shared office to take their phone call outside.",
+  "content": {
+    "bestLine": "Could you take your call outside, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse me, could you keep it down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to focus, could you take it outside?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to interrupt, but could you keep your voice down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you mind taking your call in the break room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a deadline, could you please keep it down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please take your call outside?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to concentrate, could you keep your voice down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry, but could you take your call elsewhere?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could take your call outside.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refrain from taking personal calls in the office?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to meet a deadline, could you please keep your voice down?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you mind taking your call in a designated break area?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request that you take your call outside, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please keep your voice down during work hours?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I'm so glad you're having a loud conversation, it's really helping me focus.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I didn't realize this was a phone booth, thanks for letting me know.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed by your ability to talk loudly on the phone, it's a real skill.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Could you please take your call outside, or do you need me to get you a megaphone?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm trying to work, but your conversation is so fascinating, I just can't help but listen.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for sharing your conversation with the whole office, we're all really interested.",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [options] take your call outside?",
+        "options": [
+          "please",
+          "kindly",
+          "if you don't mind"
+        ],
+        "meaning": "asking someone to take their call outside"
+      },
+      {
+        "template": "I'm trying to [options], could you keep it down?",
+        "options": [
+          "focus",
+          "work",
+          "concentrate"
+        ],
+        "meaning": "asking someone to keep their voice down"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to take their call outside",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, could you take your call outside?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Oh, sorry, I didn't realize I was being loud."
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to keep their voice down",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm trying to focus, could you keep it down?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Sorry, I got carried away with my conversation."
+          }
+        ]
+      }
+    ]
+  }
+}

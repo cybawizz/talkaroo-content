@@ -1,0 +1,176 @@
+{
+  "title": "Describing plumbing problems with a bathtub",
+  "context": "Tell a repair worker that your shower or tub is not draining.",
+  "content": {
+    "bestLine": "The water isn't draining from my bathtub.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My tub is clogged.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathtub drain is slow.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Water is backing up in the tub.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The tub isn't draining properly.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a drainage issue with my bathtub.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathtub is not draining at all.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a problem with my tub's drain.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My bathtub is experiencing drainage problems.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My tub's all clogged up.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The water's not going down the drain.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a tub that won't drain.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathtub's drain is messed up.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My shower and tub are having drainage issues.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The tub's not draining right.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my tub's drainage.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The water's just sitting there in the tub.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing difficulties with my bathtub's drainage system.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathtub is not draining as it should.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There appears to be an issue with the tub's drainage.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a clogged bathtub drain.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The drainage in my bathtub is not functioning properly.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report a problem with the bathtub's drain.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is not draining.",
+        "options": [
+          "tub",
+          "shower",
+          "bathtub"
+        ],
+        "meaning": "Describing a plumbing issue"
+      },
+      {
+        "template": "The [options] drain is [options].",
+        "options": [
+          "tub",
+          "shower",
+          "bathtub",
+          "clogged",
+          "slow",
+          "not working"
+        ],
+        "meaning": "Describing a specific plumbing problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a plumbing issue to a repair worker",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Hi, I need some help with my bathtub. It's not draining."
+          },
+          {
+            "speaker": "Repair Worker",
+            "text": "Okay, I'll take a look. Can you tell me more about the issue?"
+          }
+        ]
+      },
+      {
+        "description": "Describing the problem to a plumber over the phone",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Hello, I'm having trouble with my bathtub. The water isn't going down the drain."
+          },
+          {
+            "speaker": "Plumber",
+            "text": "Alright, I'll send someone over to take a look. Can you give me your address?"
+          }
+        ]
+      }
+    ]
+  }
+}

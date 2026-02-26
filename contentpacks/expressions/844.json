@@ -1,0 +1,153 @@
+{
+  "title": "Various requests for drinks from a bartender",
+  "context": "Order a variety of cocktails or mixed drinks for your group.",
+  "content": {
+    "bestLine": "Can I get a few drinks for my group, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What drinks do you recommend?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a beer, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a cocktail menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any specials?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try the house special.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a glass of wine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your most popular drink?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a round?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll take a whiskey sour.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a beer and a shot?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the drink of the day?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll try the special of the night.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a few drinks, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a cocktail menu?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will have a glass of merlot, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any drink recommendations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to try your signature cocktail.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "beer",
+          "cocktail",
+          "glass of wine"
+        ],
+        "meaning": "requesting a drink"
+      },
+      {
+        "template": "I'll have a [options], please.",
+        "options": [
+          "whiskey sour",
+          "gin and tonic",
+          "rum and coke"
+        ],
+        "meaning": "ordering a specific drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ordering drinks at a bar",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a few drinks for my group, please?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "What can I get for you?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What drinks do you recommend?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Our signature cocktail is very popular."
+          }
+        ]
+      }
+    ]
+  }
+}

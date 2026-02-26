@@ -1,0 +1,124 @@
+{
+  "title": "Greetings from a gas station attendant",
+  "context": "Say hello to a driver pulling up to the fuel pump.",
+  "content": {
+    "bestLine": "Hello, how can I help you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, welcome to our gas station",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what brings you in today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, can I help you with fuel?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, do you need any assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how can I assist you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what can I get for you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good day, welcome to our gas station",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm here to assist you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, how can I help you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what can I do for you today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, welcome to our station",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]?",
+        "options": [
+          "can I help you",
+          "how are you",
+          "what brings you in"
+        ],
+        "meaning": "greeting and offering assistance"
+      },
+      {
+        "template": "Hi, [options]",
+        "options": [
+          "welcome to our gas station",
+          "what can I get for you"
+        ],
+        "meaning": "friendly greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple greeting and transaction",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "Hello, how can I help you today?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Just filling up, please."
+          }
+        ]
+      },
+      {
+        "description": "Greeting with additional assistance",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "Hi, welcome to our gas station"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Thanks, I need to fill up and get a map."
+          },
+          {
+            "speaker": "Attendant",
+            "text": "Okay, I can help you with that."
+          }
+        ]
+      }
+    ]
+  }
+}

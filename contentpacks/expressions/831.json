@@ -1,0 +1,166 @@
+{
+  "title": "Explaining that someone else will join you",
+  "context": "Tell the host that you are waiting for more friends to arrive.",
+  "content": {
+    "bestLine": "I'm waiting for a few more friends to arrive",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're expecting a few more people",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone else is joining us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A few friends are running late",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're not all here yet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm waiting for the rest of our group",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A couple more people are on their way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're still waiting for a few to arrive",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My friends are running a bit behind",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got a few more coming",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm waiting for the crew to get here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A few more are on their way, hang tight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're not all here yet, bear with us",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My buddies are almost here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just waiting for a few stragglers",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We are anticipating the arrival of additional guests",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our party is not yet complete",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We expect a few more individuals to join us shortly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be patient, we are waiting for the rest of our group",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A few more members of our party are expected to arrive soon",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We're waiting for [options] to arrive",
+        "options": [
+          "a few more people",
+          "the rest of our group",
+          "a couple of friends"
+        ],
+        "meaning": "indicating that the group is not yet complete"
+      },
+      {
+        "template": "I'm expecting [options] to join us",
+        "options": [
+          "a few friends",
+          "some more people",
+          "the rest of the party"
+        ],
+        "meaning": "informing the host of additional expected guests"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing the host of additional guests",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, we have a reservation for 7 pm"
+          },
+          {
+            "speaker": "Host",
+            "text": "Right this way, how many are in your party?"
+          },
+          {
+            "speaker": "You",
+            "text": "We're expecting a few more people, so not everyone is here yet"
+          }
+        ]
+      },
+      {
+        "description": "Waiting for friends to arrive",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm waiting for a few more friends to arrive"
+          },
+          {
+            "speaker": "Host",
+            "text": "Okay, would you like to be seated now or wait?"
+          },
+          {
+            "speaker": "You",
+            "text": "We'll wait, they should be here any minute"
+          }
+        ]
+      }
+    ]
+  }
+}

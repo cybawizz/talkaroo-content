@@ -1,0 +1,119 @@
+{
+  "title": "Life and death emergency violence",
+  "context": "Report a violent crime or shooting to the authorities.",
+  "content": {
+    "bestLine": "Call 911, there's been a shooting",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to report a crime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's been hurt, call for help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's an emergency, please assist",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've witnessed a violent incident",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please send an ambulance immediately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to speak with a police officer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's been a shooting, please help",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am reporting a violent crime",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Requesting immediate police assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A life-threatening emergency has occurred",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require emergency medical services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please dispatch an officer to my location",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Call [options] for help",
+        "options": [
+          "911",
+          "the police"
+        ],
+        "meaning": "to report an emergency"
+      },
+      {
+        "template": "There's been a [options], please assist",
+        "options": [
+          "shooting",
+          "violent incident"
+        ],
+        "meaning": "to report a life-threatening situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a shooting to 911",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hello, I need to report a shooting"
+          },
+          {
+            "speaker": "911 Operator",
+            "text": "Okay, sir. Where are you located?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for police assistance",
+        "lines": [
+          {
+            "speaker": "Witness",
+            "text": "Excuse me, officer. I need to report a crime"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "What happened? Are you okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

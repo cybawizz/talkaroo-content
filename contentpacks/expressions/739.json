@@ -1,0 +1,158 @@
+{
+  "title": "Asking about payment methods",
+  "context": "Check with the server if they accept credit cards or only cash.",
+  "content": {
+    "bestLine": "Do you accept credit cards or is it cash only?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What payment methods do you accept?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take credit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cash only?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What forms of payment are accepted?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept debit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my credit card here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Do you take cards?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just card it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is cash the only way?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you accept Apple Pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with my phone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have contactless payment?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about your accepted payment methods?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if you accept major credit cards.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the available payment options at your establishment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have the facility to accept card payments?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to inquire about your payment policies.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you accept [options]?",
+        "options": [
+          "credit cards",
+          "cash",
+          "mobile payments"
+        ],
+        "meaning": "Asking about specific payment methods"
+      },
+      {
+        "template": "Can I pay with [options]?",
+        "options": [
+          "card",
+          "phone",
+          "cash"
+        ],
+        "meaning": "Inquiring about payment method availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment methods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you accept credit cards?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we accept all major credit cards."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about cash-only policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Is it cash only here?"
+          },
+          {
+            "speaker": "Server",
+            "text": "No, we also accept card payments and mobile payments."
+          }
+        ]
+      }
+    ]
+  }
+}

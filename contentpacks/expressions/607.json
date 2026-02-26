@@ -1,0 +1,237 @@
+{
+  "title": "A smoker's response to a nonsmoker",
+  "context": "Reply when someone asks you to put out your cigarette.",
+  "content": {
+    "bestLine": "I'll put it out now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Okay, I'll extinguish it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll put it out now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sure, no problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll stop smoking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Alright, I'll quit for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll put it out here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No issue, I'll stop",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Chill, I'm putting it out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Okay okay, I'll stop",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on it, don't worry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got it, I'll quit for now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No big deal, I'll take it outside",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Alright alright, I'll put it out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm putting it out, relax",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't stress, I've got it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, I'll extinguish it immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Of course, I'll put it out right away",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cease smoking at once",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take my smoke break outside",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the inconvenience, I'll stop",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll put out the cigarette immediately",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh joy, I get to put it out",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, thanks for reminding me",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I was just waiting for your permission",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I live for putting out cigarettes",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're so considerate, thanks",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you asked nicely",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Mind your own business",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I'll put it out when I'm done",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "It's none of your concern",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Don't tell me what to do",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Back off, I've got this",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't need your input",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll [options] now",
+        "options": [
+          "put it out",
+          "stop smoking",
+          "take it outside"
+        ],
+        "meaning": "complying with the request"
+      },
+      {
+        "template": "I'll [options] for now",
+        "options": [
+          "quit",
+          "stop",
+          "cease"
+        ],
+        "meaning": "temporarily stopping"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A polite exchange",
+        "lines": [
+          {
+            "speaker": "Nonsmoker",
+            "text": "Could you please put out your cigarette?"
+          },
+          {
+            "speaker": "Smoker",
+            "text": "I'll put it out now, sorry about that"
+          }
+        ]
+      },
+      {
+        "description": "A sarcastic response",
+        "lines": [
+          {
+            "speaker": "Nonsmoker",
+            "text": "You need to put that out"
+          },
+          {
+            "speaker": "Smoker",
+            "text": "Oh joy, I get to put it out"
+          }
+        ]
+      }
+    ]
+  }
+}

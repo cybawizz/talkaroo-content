@@ -1,0 +1,173 @@
+{
+  "title": "Asking for the bill in a restaurant",
+  "context": "Tell the server that you are finished and ready to pay.",
+  "content": {
+    "bestLine": "Can I get the check, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm ready for the bill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the bill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to pay now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring me the bill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finished, can I pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I settle the bill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to pay",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I get the tab?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done, can I pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring us the bill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just pay now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we get the check?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to split the bill",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request the bill",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please bring me the bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ready to settle my account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the check, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could bring me the bill",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please present me with the bill?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get the [options]?",
+        "options": [
+          "check",
+          "bill",
+          "tab"
+        ],
+        "meaning": "requesting the bill"
+      },
+      {
+        "template": "I'm [options], can I pay?",
+        "options": [
+          "done",
+          "finished",
+          "ready"
+        ],
+        "meaning": "indicating readiness to pay"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for the bill",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get the check, please?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Right away, sir."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about the bill",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much do I owe?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Let me calculate that for you."
+          }
+        ]
+      }
+    ]
+  }
+}

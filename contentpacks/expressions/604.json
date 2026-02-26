@@ -1,0 +1,173 @@
+{
+  "title": "Making a complaint to a newspaper agent",
+  "context": "Complain that your newspaper was not delivered today.",
+  "content": {
+    "bestLine": "My newspaper wasn't delivered today, can you help?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I didn't get my paper today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check on my delivery?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing today's newspaper",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What happened to my paper?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't receive my newspaper",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you look into this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My paper didn't arrive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with my delivery",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, my paper's not here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up with my delivery?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still waiting on my paper",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you sort out my delivery?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My paper's MIA",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got no paper today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on with the delivery?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am writing to report a missed delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you investigate this matter?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have not received my newspaper today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could look into this",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There seems to be an issue with my delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing difficulties with my newspaper subscription",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [object] wasn't [action] today",
+        "options": [
+          "paper",
+          "mail",
+          "package"
+        ],
+        "meaning": "Something was not delivered"
+      },
+      {
+        "template": "Can you [action] my [object]?",
+        "options": [
+          "check",
+          "look into",
+          "investigate"
+        ],
+        "meaning": "Request for assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining to the agent",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I didn't get my paper today"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Sorry to hear that, let me check on it"
+          }
+        ]
+      },
+      {
+        "description": "Agent responding to the customer's complaint",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's going on with the delivery?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "It looks like there was an issue with the route, I'll make sure it's delivered ASAP"
+          }
+        ]
+      }
+    ]
+  }
+}

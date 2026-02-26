@@ -1,0 +1,237 @@
+{
+  "title": "Encouraging an argument",
+  "context": "Goad someone into continuing a fight.",
+  "content": {
+    "bestLine": "You're not going to let it go, are you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's discuss this further",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we should talk about it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your side of the story?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find a resolution?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to hear your thoughts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's clear the air",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think we should do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk this through?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, don't give up now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not backing down, are you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep going, it's getting interesting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't let it drop, keep fighting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You've got a point, let's hear it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not convinced, keep trying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get to the bottom of this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're on a roll, keep going",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Don't punk out now, keep it real",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're not gonna let them win, are you?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Keep it lit, don't back down",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey, you're making sense, keep going",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Highkey, I'm team you, keep fighting",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't @ me, keep your argument going",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, you're just going to give up now?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so impressed by your argument",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, keep talking",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so convinced by your points, not",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're doing great, keep digging yourself into a hole",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm loving this, keep going, it's hilarious",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're not even trying, what a joke",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get your act together, this is pathetic",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Stop being a wimp, keep arguing",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You call that an argument? Try harder",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Unbelievable, you're giving up already?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "What a loser, can't even keep an argument going",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] going to let it go, are you?",
+        "options": [
+          "not",
+          "really",
+          "seriously"
+        ],
+        "meaning": "Encouraging the person to continue the argument"
+      },
+      {
+        "template": "Let's [options] this out",
+        "options": [
+          "talk",
+          "discuss",
+          "fight"
+        ],
+        "meaning": "Encouraging the person to continue the argument"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging an argument in an informal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I don't think that's right"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Come on, don't give up now, keep arguing"
+          }
+        ]
+      },
+      {
+        "description": "Encouraging an argument in a sarcastic tone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm done with this conversation"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, great, you're just going to give up now?"
+          }
+        ]
+      }
+    ]
+  }
+}

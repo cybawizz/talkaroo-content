@@ -1,0 +1,173 @@
+{
+  "title": "Making requests on a train",
+  "context": "Politely ask the train conductor to turn down the air conditioning.",
+  "content": {
+    "bestLine": "Excuse me, could you turn down the air conditioning?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Could you adjust the temperature?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit chilly in here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling cold, could you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to turn down the AC?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could turn down the air.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's freezing in here, could you turn it down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make it a bit warmer in here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting cold, could you adjust the temperature?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you turn down the AC?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's really cold in here, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you crank down the air a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm freezing, can you turn it down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it warmer in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn down the air, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's chilly, can you adjust the temperature?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you lower the AC a bit?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could adjust the temperature.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please turn down the air conditioning?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit cold in the carriage, could you assist?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing discomfort due to the cold, could you help?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be possible to adjust the air conditioning?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be grateful if you could turn down the air.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [options] the air conditioning?",
+        "options": [
+          "turn down",
+          "adjust",
+          "lower"
+        ],
+        "meaning": "request to change the air conditioning setting"
+      },
+      {
+        "template": "It's [options] in here, could you [options]?",
+        "options": [
+          "cold",
+          "chilly",
+          "freezing"
+        ],
+        "meaning": "request to change the temperature"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asking the conductor to turn down the air conditioning",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, could you turn down the air conditioning?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "Of course, I'll adjust it for you."
+          }
+        ]
+      },
+      {
+        "description": "Passenger asking the conductor to adjust the temperature",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "It's a bit chilly in here, could you help?"
+          },
+          {
+            "speaker": "Conductor",
+            "text": "Let me see what I can do. I'll turn down the air conditioning."
+          }
+        ]
+      }
+    ]
+  }
+}

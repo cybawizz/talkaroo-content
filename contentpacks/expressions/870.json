@@ -1,0 +1,158 @@
+{
+  "title": "Asking about bus routes",
+  "context": "Ask a local which bus line will take you downtown.",
+  "content": {
+    "bestLine": "Which bus line goes downtown?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What bus do I take to get downtown?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me which bus goes to the city center?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to downtown by bus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which bus route takes me to the downtown area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get downtown, what bus should I take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get downtown on this bus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know which bus line goes to downtown?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, which bus goes downtown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get downtown on the bus?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find the bus to downtown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get downtown, what's the best bus?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take this bus to get downtown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this the bus that goes to the city center?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to get downtown by bus?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about the bus route to downtown?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know which bus line services the downtown area.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, could you tell me how to get to downtown by bus?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am trying to get to downtown and I need to know the bus number.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with information about the bus schedule to downtown?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Which bus [option] to get downtown?",
+        "options": [
+          "line",
+          "number",
+          "route"
+        ],
+        "meaning": "Asking about the specific bus to take"
+      },
+      {
+        "template": "How do I [option] to downtown by bus?",
+        "options": [
+          "get",
+          "take",
+          "go"
+        ],
+        "meaning": "Asking for directions to downtown"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a local for directions",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, which bus line goes downtown?"
+          },
+          {
+            "speaker": "Local",
+            "text": "You can take the number 10 bus to get downtown."
+          }
+        ]
+      },
+      {
+        "description": "Asking a bus driver for information",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Does this bus go to downtown?"
+          },
+          {
+            "speaker": "Bus Driver",
+            "text": "Yes, this bus will take you to the city center."
+          }
+        ]
+      }
+    ]
+  }
+}

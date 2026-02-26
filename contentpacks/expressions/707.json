@@ -1,0 +1,147 @@
+{
+  "title": "A hairdresser asking for payment",
+  "context": "Tell the client their haircut is finished and state the total cost.",
+  "content": {
+    "bestLine": "Your haircut is finished, the total comes out to be $50.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "All done, that'll be $50 please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your haircut is complete, total is $50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finished with your haircut, the cost is $50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That'll be $50 for the haircut.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your total comes out to be $50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All set, the total is $50.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Haircut is done, the cost is $50.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Alright, you're all set, $50 please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Done with your haircut, that's $50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking great, $50 for the haircut.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All finished, the total is $50.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're all done, $50 for the service.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Haircut's done, $50 please.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your haircut is now complete, the total amount due is $50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have finished your haircut, the total cost is $50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The haircut is complete, your total comes out to $50.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your haircut is finished, the total amount is $50.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your haircut is [options], the total is $[amount].",
+        "options": [
+          "finished",
+          "complete",
+          "done"
+        ],
+        "meaning": "Informing the client that the service is complete and stating the total cost."
+      },
+      {
+        "template": "That'll be $[amount] for the [options].",
+        "options": [
+          "haircut",
+          "service"
+        ],
+        "meaning": "Requesting payment for the service provided."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Hairdresser asking for payment after completing the haircut",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "Your haircut is finished, the total comes out to be $50."
+          },
+          {
+            "speaker": "Client",
+            "text": "Here you are, keep the change."
+          }
+        ]
+      },
+      {
+        "description": "Hairdresser confirming the total cost with the client",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "Just to confirm, your total comes out to be $50, correct?"
+          },
+          {
+            "speaker": "Client",
+            "text": "Yes, that's correct. Here's my payment."
+          }
+        ]
+      }
+    ]
+  }
+}

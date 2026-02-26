@@ -1,0 +1,143 @@
+{
+  "title": "Using AI to write an email",
+  "context": "Tell your coworker you used a robot to draft your stressful message to the boss.",
+  "content": {
+    "bestLine": "I used a robot to draft that email to the boss",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I utilized AI for the email",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The email was generated with AI assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I employed a robot to write the email",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "AI helped me draft the message",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The email was created using AI tools",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I used automated software to write the email",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "AI generated the content of the email",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I had a robot write that email",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "AI did the heavy lifting on that message",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got a bot to draft the email",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The email was written by a machine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I used a computer program to write it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "A robot helped me with the email",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I let AI do the writing",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I had a bot spit out that email",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "AI cranked out the message",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I used [options] to write the email",
+        "options": [
+          "AI",
+          "a robot",
+          "automated software"
+        ],
+        "meaning": "Using AI or automated tools to write an email"
+      },
+      {
+        "template": "The email was [options] with AI",
+        "options": [
+          "written",
+          "generated",
+          "created"
+        ],
+        "meaning": "Using AI to generate or create an email"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Telling a coworker about using AI to write an email",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "How did you write that email so fast?"
+          },
+          {
+            "speaker": "You",
+            "text": "I used a robot to draft it"
+          }
+        ]
+      },
+      {
+        "description": "Explaining the use of AI in email writing",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Who wrote this email?"
+          },
+          {
+            "speaker": "You",
+            "text": "I utilized AI for the email, with some final touches from me"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "title": "When someone is bothering you",
+  "context": "Tell someone repeatedly that their actions are annoying you.",
+  "content": {
+    "bestLine": "That's really annoying, can you stop?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm getting annoyed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is bothering me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling frustrated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is getting on my nerves",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a break?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to focus",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's annoying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you chill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's really getting on my nerves",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop doing that, it's annoying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so over this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you just leave me alone?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is driving me crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please knock it off?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm finding this behavior disturbing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refrain from doing that?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some frustration",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could stop",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is causing me some discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to concentrate, can you please stop?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bruh, that's hella annoying",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you lowkey stop?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That's straight up annoying, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting you if you don't stop",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is savage, can you please stop?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dead, can you stop?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, just what I needed, more annoying noise",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so impressed by your annoying behavior",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can you please keep doing that, it's not annoying at all",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're being annoying, it's really making my day",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is the most entertaining thing I've ever seen, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] stop?",
+        "options": [
+          "please",
+          "just",
+          "for the love of God"
+        ],
+        "meaning": "asking someone to stop doing something annoying"
+      },
+      {
+        "template": "I'm [options] annoyed",
+        "options": [
+          "getting",
+          "really",
+          "extremely"
+        ],
+        "meaning": "expressing annoyance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Dude, that's annoying"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "You're being really loud and it's bothering me"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sorry, I'll try to keep it down"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a customer and a store employee",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm finding this music really annoying"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize, let me see what I can do"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can you please turn it off or change the station?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'll go ask my manager"
+          }
+        ]
+      }
+    ]
+  }
+}

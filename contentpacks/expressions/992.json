@@ -1,0 +1,158 @@
+{
+  "title": "Beginning a new project or activity",
+  "context": "Announce to the team that a new work initiative is kicking off.",
+  "content": {
+    "bestLine": "Let's kick off our new project initiative",
+    "groups": {
+      "neutral": [
+        {
+          "text": "New project is starting today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're launching a new initiative",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get ready for our new project",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our new project begins now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's start our new project",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "New project is underway",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're beginning a new project phase",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Who's ready to start this new project?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this project started already",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "New project, who dis?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Time to kick off this new initiative",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's make this project happen",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Our new project is a go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this project party started",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We are pleased to announce the commencement of our new project",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our new project is officially underway",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The new project initiative has begun",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are launching a new project today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The new project is now in effect",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] this new project",
+        "options": [
+          "start",
+          "launch",
+          "kick off"
+        ],
+        "meaning": "beginning a new project"
+      },
+      {
+        "template": "Our new project is [options]",
+        "options": [
+          "underway",
+          "in progress",
+          "starting today"
+        ],
+        "meaning": "announcing the start of a new project"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Team lead announces the start of a new project",
+        "lines": [
+          {
+            "speaker": "Team Lead",
+            "text": "Let's kick off our new project initiative"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "I'm excited to get started, what's the first step?"
+          }
+        ]
+      },
+      {
+        "description": "Colleagues discuss the new project",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "Have you heard about the new project?"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Yes, I heard it's starting today. Let's go check it out"
+          }
+        ]
+      }
+    ]
+  }
+}

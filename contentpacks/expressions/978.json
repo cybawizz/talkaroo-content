@@ -1,0 +1,163 @@
+{
+  "title": "Refusing to work for exposure",
+  "context": "Firmly decline a job that offers zero money and only digital reach.",
+  "content": {
+    "bestLine": "I'm afraid I don't work for free, exposure doesn't pay bills",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to prioritize paid projects",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My services require compensation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable working for free",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My expertise has a monetary value",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to charge for my work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Exposure doesn't cover my expenses",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I require a paid agreement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My time is valuable and needs to be paid",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm afraid I must decline, as this project doesn't align with my compensation requirements",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "As a professional, I must prioritize paid engagements",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My professional services are provided for a fee",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not in a position to offer my services pro bono",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My contract requires a paid agreement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must insist on a paid arrangement for my work",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, another opportunity to work for free, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Exposure is great, but it doesn't pay my rent",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm sure the 'exposure' will look great on my resume, but I still need to eat",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Thanks for offering me the chance to work for free, I'm flattered",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not sure what's more valuable, my time or the 'exposure' you're offering",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll make sure to add 'worked for free' to my skillset",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm afraid I don't work for [options]",
+        "options": [
+          "free",
+          "exposure",
+          "experience"
+        ],
+        "meaning": "Declining unpaid work"
+      },
+      {
+        "template": "My [options] requires a paid agreement",
+        "options": [
+          "time",
+          "expertise",
+          "services"
+        ],
+        "meaning": "Requesting payment for work"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Refusing to work for exposure",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "We can't pay you, but you'll get great exposure"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "I'm afraid I don't work for free, exposure doesn't pay bills"
+          }
+        ]
+      },
+      {
+        "description": "Negotiating payment",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "We can offer you a great opportunity to work with us, but no pay"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "I appreciate the offer, but I need to prioritize paid projects"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "Asking about a train seat",
+  "context": "Ask a passenger if the seat next to them is currently taken.",
+  "content": {
+    "bestLine": "Is this seat taken?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this seat available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I sit here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat free?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take this seat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is anyone sitting here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat occupied?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I sit down here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the seat next to you taken?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Mind if I sit here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat up for grabs?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I squeeze in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat open?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take the seat next to you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat available, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I park myself here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this seat yours?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, is this seat available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the pleasure of sitting here?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this seat reserved?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if I could sit in this seat?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me if this seat is taken?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible for me to sit here?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [seat/spot] next to you [taken/available]?",
+        "options": [
+          "seat",
+          "spot",
+          "taken",
+          "available"
+        ],
+        "meaning": "Asking about the availability of a seat"
+      },
+      {
+        "template": "Can I [sit/take] the [seat/spot] [here/next to you]?",
+        "options": [
+          "sit",
+          "take",
+          "seat",
+          "spot",
+          "here",
+          "next to you"
+        ],
+        "meaning": "Requesting permission to sit in a seat"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a passenger about a train seat",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, is this seat taken?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "No, it's not. You can sit here."
+          }
+        ]
+      },
+      {
+        "description": "Asking a passenger about a train seat in a polite manner",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm so sorry to bother you, but is this seat available?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Not at all, please go ahead and sit down."
+          }
+        ]
+      }
+    ]
+  }
+}

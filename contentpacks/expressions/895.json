@@ -1,0 +1,173 @@
+{
+  "title": "Making requests to a gas station attendant",
+  "context": "Ask the worker to fill up the tank and check the oil.",
+  "content": {
+    "bestLine": "Fill up the tank and check the oil, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you fill up my tank?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a fill-up and oil check.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please fill my tank and check the oil.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a full tank and oil check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fill up my tank and check the oil level.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a fill-up and a quick oil check.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please fill my gas tank?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to fill up and have my oil checked.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you fill 'er up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Fill up my tank, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get gas and an oil check?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just a fill-up and oil, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fill my tank and check the oil, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need gas and an oil check, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you fill up my car?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fill up and oil check, thanks.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request a full tank of gas.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please fill my tank and perform an oil check.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a fill-up and oil level check.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please fill my tank and check the oil?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could fill my tank.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please fill up my vehicle and check the oil level.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] my tank?",
+        "options": [
+          "fill up",
+          "fill"
+        ],
+        "meaning": "requesting gas"
+      },
+      {
+        "template": "I need a [options] and [options].",
+        "options": [
+          "fill-up",
+          "gas",
+          "oil check",
+          "tire check"
+        ],
+        "meaning": "requesting multiple services"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requests a fill-up and oil check",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can you fill up my tank and check the oil?"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "Yes, of course. Would you like to pay with card or cash?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asks for a fill-up and oil check in an informal setting",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can you fill 'er up and check the oil?"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "Sure thing. That'll be $20 please."
+          }
+        ]
+      }
+    ]
+  }
+}

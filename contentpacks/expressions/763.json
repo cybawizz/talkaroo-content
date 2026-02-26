@@ -1,0 +1,153 @@
+{
+  "title": "Requests to a pharmacist for instructions",
+  "context": "Ask a pharmacist how to take a prescribed medicine properly.",
+  "content": {
+    "bestLine": "How do I take this medication properly?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the correct dosage?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How often should I take it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the side effects?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take it with food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any interactions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What if I miss a dose?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, how do I take this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with the dosage?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take it with my morning coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long till it kicks in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What if I forget to take it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any weird side effects?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you explain the proper administration?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the recommended dosage and frequency?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any potential interactions or contraindications?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What should I do in case of a missed dose?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide information on possible side effects?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How do I [take/administer] this [medication/medicine]?",
+        "options": [
+          "take",
+          "administer"
+        ],
+        "meaning": "asking for instructions"
+      },
+      {
+        "template": "What are the [dosage/frequency] [instructions/guidelines] for this [medication/medicine]?",
+        "options": [
+          "dosage",
+          "frequency",
+          "instructions",
+          "guidelines"
+        ],
+        "meaning": "requesting specific information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking pharmacist for instructions",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I just got this prescription filled. Can you tell me how to take it?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "Of course, let me explain the dosage and any potential side effects."
+          }
+        ]
+      },
+      {
+        "description": "Pharmacist providing instructions to customer",
+        "lines": [
+          {
+            "speaker": "Pharmacist",
+            "text": "To take this medication properly, you should take one pill twice a day with food."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Okay, got it. And what if I miss a dose?"
+          }
+        ]
+      }
+    ]
+  }
+}

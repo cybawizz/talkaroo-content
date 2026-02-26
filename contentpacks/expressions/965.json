@@ -1,0 +1,173 @@
+{
+  "title": "Telling a vet about a sick pet",
+  "context": "Explain to the animal doctor that your dog is throwing up or limping.",
+  "content": {
+    "bestLine": "My dog is throwing up and limping, can you help?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My dog is vomiting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The dog is limping badly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think my dog is sick",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My pet is not eating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The dog has diarrhea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is acting strange",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my sick dog",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is in pain",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My dog's throwing up everywhere",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My poor pup is limping",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think my dog's really sick",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog won't eat anything",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog has the runs",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog's being super weird",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm worried about my dog",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog's in a lot of pain",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "My canine companion is experiencing vomiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The dog is exhibiting signs of lameness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe my dog requires medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is refusing to consume food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The dog is suffering from gastrointestinal issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate assistance with my ailing dog",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My dog is [options] and I'm concerned",
+        "options": [
+          "vomiting",
+          "limping",
+          "acting strange"
+        ],
+        "meaning": "Expressing worry about a sick pet"
+      },
+      {
+        "template": "I think my dog has [options]",
+        "options": [
+          "a virus",
+          "an injury",
+          "a digestive issue"
+        ],
+        "meaning": "Speculating about a pet's health issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Owner explaining a sick pet to a vet",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "My dog is throwing up and limping, can you help?"
+          },
+          {
+            "speaker": "Vet",
+            "text": "I'd be happy to take a look. Can you tell me more about what's been going on?"
+          }
+        ]
+      },
+      {
+        "description": "Owner discussing a pet's symptoms with a vet",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "My dog won't eat and is acting really strange"
+          },
+          {
+            "speaker": "Vet",
+            "text": "Okay, let's run some tests and see what's going on"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Enforcing good table manners",
+  "context": "Correct someone's bad eating etiquette at the dinner table.",
+  "content": {
+    "bestLine": "Please chew with your mouth closed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's keep our elbows off the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Remember to say please and thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't talk with your mouth full",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your hands visible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait for everyone to get their food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't burp at the table",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use your napkin to wipe your mouth",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Chew slowly and quietly",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, don't eat with your hands",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please not slurp your soup?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Gross, don't double dip",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a pig, use a fork",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill, let's eat like civilized people",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't make a mess, clean up after yourself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Be cool, don't interrupt others while they're eating",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be rude, offer to pass dishes",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please refrain from eating with your hands",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's impolite to talk with your mouth full",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Remember to keep your phone on silent mode",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse yourself before leaving the table",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Use your utensils correctly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wait for the host to indicate where to sit",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] at the table",
+        "options": [
+          "don't talk with your mouth full",
+          "keep your elbows off"
+        ],
+        "meaning": "reminding someone of table manners"
+      },
+      {
+        "template": "Let's [options] while we eat",
+        "options": [
+          "keep our voices down",
+          "not use our phones"
+        ],
+        "meaning": "suggesting polite behavior during meals"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Correcting a family member's table manners",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please don't eat with your hands"
+          },
+          {
+            "speaker": "Child",
+            "text": "Sorry, I forgot"
+          }
+        ]
+      },
+      {
+        "description": "Reminding a guest of table etiquette",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Remember to wait for everyone to get their food"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thank you for reminding me"
+          }
+        ]
+      }
+    ]
+  }
+}

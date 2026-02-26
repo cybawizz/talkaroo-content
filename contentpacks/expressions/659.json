@@ -1,0 +1,158 @@
+{
+  "title": "Interrupting a call with other business",
+  "context": "Tell the person on the phone that you have another call coming in.",
+  "content": {
+    "bestLine": "I have another call coming in, can I put you on hold?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've got another call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I call you back?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold on a sec",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a call waiting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll call you right back",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I've got another call",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I hit you back?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta take this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hang on a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a call coming in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch you later",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have another call that I need to attend to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I put you on hold for a moment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize, but I have another call coming in",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please hold for just a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be right with you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've got [options] coming in",
+        "options": [
+          "another call",
+          "a call waiting",
+          "a call coming in"
+        ],
+        "meaning": "interrupting the call"
+      },
+      {
+        "template": "Can I [options]?",
+        "options": [
+          "call you back",
+          "put you on hold",
+          "hit you back"
+        ],
+        "meaning": "asking permission to interrupt"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Interrupting a call with another business call",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I've got another call coming in, can I put you on hold?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, that's fine, go ahead"
+          }
+        ]
+      },
+      {
+        "description": "Interrupting a call with a personal emergency",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sorry, but I have an emergency I need to attend to"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, okay, is everything alright?"
+          }
+        ]
+      }
+    ]
+  }
+}

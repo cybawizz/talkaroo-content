@@ -1,0 +1,179 @@
+{
+  "title": "Returning clothes bought online",
+  "context": "Tell the cashier that the mailed pants did not fit you at all.",
+  "content": {
+    "bestLine": "The pants I got online don't fit at all.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They didn't fit right.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The size is off.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a different size.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The pants are too small.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The pants are too large.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to exchange them.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The fit is not right.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "These pants are way too tight.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got the wrong size, I think.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I swap them out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're just not my size.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need something that fits better.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "These don't fit like I expected.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to try a different size.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I return these?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm returning these due to a sizing issue.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The pants do not fit as expected.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to initiate a return.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The size I received does not fit.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to exchange these for a different size.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing a fit issue with these pants.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need [options] in a different size.",
+        "options": [
+          "these pants",
+          "this item"
+        ],
+        "meaning": "requesting a size change"
+      },
+      {
+        "template": "The [options] don't fit.",
+        "options": [
+          "pants",
+          "size"
+        ],
+        "meaning": "stating a fit issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Returning pants due to sizing issue",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to return these pants."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Okay, what seems to be the issue?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "They just don't fit right."
+          }
+        ]
+      },
+      {
+        "description": "Exchanging pants for a different size",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to exchange these pants for a different size."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Sure, let me see what we have in stock."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Great, thank you."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "When someone drinks too much",
+  "context": "Point out that a person has had too much alcohol.",
+  "content": {
+    "bestLine": "You've had a bit too much, haven't you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think you've had enough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem intoxicated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Maybe you should slow down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about you driving",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not used to drinking, are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get you some water",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's time to call a cab",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you're wasted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're really drunk, aren't you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Slow down, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you've had one too many",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get you home safe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not making sense, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Maybe we should get some coffee",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're lit, bro",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're turnt up",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're hammered, dude",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're smashed, bro",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're drunk as hell",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're totally wasted",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You've had [options] drinks, maybe it's time to stop",
+        "options": [
+          "too many",
+          "enough",
+          "a few too many"
+        ],
+        "meaning": "suggesting someone has had too much to drink"
+      },
+      {
+        "template": "I'm [options] you're going to be okay to drive",
+        "options": [
+          "not sure",
+          "a little worried",
+          "really concerned"
+        ],
+        "meaning": "expressing concern about someone's ability to drive after drinking"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend is concerned about another friend's intoxication",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, you're really drunk, aren't you?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I'm fine, I'm fine. Just one more drink"
+          }
+        ]
+      },
+      {
+        "description": "A bartender is cutting someone off",
+        "lines": [
+          {
+            "speaker": "Bartender",
+            "text": "I think you've had enough, buddy. Let's get you a cab"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Aww, come on. Just one more"
+          }
+        ]
+      }
+    ]
+  }
+}

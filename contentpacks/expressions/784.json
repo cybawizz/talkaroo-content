@@ -1,0 +1,142 @@
+{
+  "title": "Explaining a recipe substitution",
+  "context": "Tell your dinner guest that you used oat milk instead of heavy cream.",
+  "content": {
+    "bestLine": "I used oat milk instead of heavy cream",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I substituted oat milk for heavy cream",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Oat milk replaced heavy cream in this recipe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I used a non-dairy alternative to heavy cream",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Heavy cream was swapped out for oat milk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The recipe calls for heavy cream, but I used oat milk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a substitution with oat milk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Oat milk was used as a substitute for heavy cream",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The dish was made with oat milk instead of cream",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I just used oat milk instead of cream",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Oat milk worked great as a substitute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I swapped heavy cream for oat milk, no big deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I used oat milk, it's a good alternative",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No heavy cream needed, oat milk did the trick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Oat milk is what I had, so I used it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's oat milk instead of heavy cream, still delicious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I went with oat milk, easier that way",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "I used [options] instead of heavy cream",
+        "options": [
+          "oat milk",
+          "a non-dairy alternative",
+          "a substitute"
+        ],
+        "meaning": "explaining a recipe substitution"
+      },
+      {
+        "template": "[options] was used in place of heavy cream",
+        "options": [
+          "oat milk",
+          "a dairy-free option",
+          "a substitute"
+        ],
+        "meaning": "describing a recipe modification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "host explaining recipe substitution to guest",
+        "lines": [
+          {
+            "speaker": "host",
+            "text": "I used oat milk instead of heavy cream"
+          },
+          {
+            "speaker": "guest",
+            "text": "Oh, that's a great idea, I've been looking for dairy-free options"
+          }
+        ]
+      },
+      {
+        "description": "host and guest discussing recipe modifications",
+        "lines": [
+          {
+            "speaker": "guest",
+            "text": "This is really good, what kind of cream did you use?"
+          },
+          {
+            "speaker": "host",
+            "text": "Actually, I used oat milk as a substitute"
+          }
+        ]
+      }
+    ]
+  }
+}

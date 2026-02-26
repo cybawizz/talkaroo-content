@@ -1,0 +1,173 @@
+{
+  "title": "Offering apologies for the home",
+  "context": "Humorously or politely say sorry for the mess in your house.",
+  "content": {
+    "bestLine": "Sorry about the mess, I wasn't expecting company",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse the clutter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about the state of my place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please disregard the mess",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the disarray",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My home is a bit of a disaster",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for the untidiness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bear with the mess",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still cleaning up",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My place is a total mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't mind the chaos",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so sorry about the state of my apartment",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a bit of a disaster zone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry for the crazy mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Make yourself at home, despite the mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wasn't expecting visitors",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not usually this messy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept my apologies for the untidiness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the disarray in my home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My residence is not typically in this state",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret the inconvenience of the mess",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid my home is not presently tidy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please excuse the clutter and disorganization",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sorry about the [options]",
+        "options": [
+          "mess",
+          "clutter",
+          "state of my place"
+        ],
+        "meaning": "apologizing for the home's condition"
+      },
+      {
+        "template": "Please [options] the mess",
+        "options": [
+          "excuse",
+          "disregard",
+          "bear with"
+        ],
+        "meaning": "asking the guest to overlook the mess"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host apologizing for the mess as the guest arrives",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Sorry about the mess, I wasn't expecting company"
+          },
+          {
+            "speaker": "Guest",
+            "text": "It's okay, I'm used to it"
+          }
+        ]
+      },
+      {
+        "description": "Host offering a drink while apologizing for the mess",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Can I get you a drink? Sorry again for the state of my place"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Just water, thanks. Your place is fine"
+          }
+        ]
+      }
+    ]
+  }
+}

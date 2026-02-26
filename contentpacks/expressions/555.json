@@ -1,0 +1,135 @@
+{
+  "title": "Responding to tenant complaints",
+  "context": "Apologize to a renter and promise to send a repair person soon.",
+  "content": {
+    "bestLine": "I apologize for the issue and will send a repair person soon.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry for the problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll fix it ASAP",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please elaborate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll send someone over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for the inconvenience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're working on it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It will be fixed today",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the disturbance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A repair person will be sent promptly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept our apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will rectify the situation immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your issue is our top priority",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your patience",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I apologize for the [options] and will send a repair person soon.",
+        "options": [
+          "issue",
+          "problem",
+          "disturbance"
+        ],
+        "meaning": "Apologize and promise to send a repair person"
+      },
+      {
+        "template": "Sorry for the [options] and we'll fix it [options].",
+        "options": [
+          "ASAP",
+          "today",
+          "soon"
+        ],
+        "meaning": "Apologize and promise to fix the issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Responding to a tenant complaint",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "My sink is leaking."
+          },
+          {
+            "speaker": "Landlord",
+            "text": "I apologize for the issue and will send a repair person soon."
+          }
+        ]
+      },
+      {
+        "description": "Following up on a tenant complaint",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "I wanted to follow up on the issue with your sink."
+          },
+          {
+            "speaker": "Tenant",
+            "text": "Yes, it's still leaking."
+          },
+          {
+            "speaker": "Landlord",
+            "text": "I apologize for the delay and will send someone over today."
+          }
+        ]
+      }
+    ]
+  }
+}

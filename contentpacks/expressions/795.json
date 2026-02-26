@@ -1,0 +1,166 @@
+{
+  "title": "Instructing children to finish eating",
+  "context": "Tell a child to stop playing and finish the rest of their meal.",
+  "content": {
+    "bestLine": "Please stop playing and finish your meal",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Finish your food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat your meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stop playing, eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to finish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish eating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's finish dinner",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, finish",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stop messing around, eat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your plate",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Eat, then play",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish up, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No playing until you're done",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please finish your meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to complete your dinner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish eating, then you may play",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's finish our meal together",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please eat the rest of your food",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Finish [options]",
+        "options": [
+          "your meal",
+          "eating",
+          "dinner"
+        ],
+        "meaning": "Complete your food"
+      },
+      {
+        "template": "Stop [options] and eat",
+        "options": [
+          "playing",
+          "messing around",
+          "talking"
+        ],
+        "meaning": "Focus on your meal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent instructing a child to finish their meal",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please stop playing and finish your meal"
+          },
+          {
+            "speaker": "Child",
+            "text": "But I'm not hungry"
+          },
+          {
+            "speaker": "Parent",
+            "text": "You need to eat to have energy to play"
+          }
+        ]
+      },
+      {
+        "description": "Parent setting boundaries during mealtime",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "No playing until you're done eating"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, I'll finish"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Good job, now you can go play"
+          }
+        ]
+      }
+    ]
+  }
+}

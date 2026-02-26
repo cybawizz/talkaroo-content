@@ -1,0 +1,173 @@
+{
+  "title": "Buying postage stamps",
+  "context": "Ask a postal worker to sell you stamps for your letters.",
+  "content": {
+    "bestLine": "I'd like to buy some stamps, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get some stamps?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to buy postage stamps.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any stamps available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much are your stamps?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to purchase some stamps.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with stamps?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What types of stamps do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for postage stamps.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I grab some stamps?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any stamps I can buy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need stamps for my letters.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much for a stamp?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a few stamps?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you sell stamps here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of stamps, can I buy some?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got stamps?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to purchase postage stamps.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with buying stamps?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require stamps for my correspondence.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the cost of a postage stamp?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could sell me some stamps.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer postage stamp sales?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need [options] stamps.",
+        "options": [
+          "some",
+          "a few",
+          "several"
+        ],
+        "meaning": "requesting a specific quantity of stamps"
+      },
+      {
+        "template": "Can I buy [options]?",
+        "options": [
+          "stamps",
+          "postage stamps",
+          "a stamp"
+        ],
+        "meaning": "inquiring about the availability of stamps for purchase"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic transaction",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to buy some stamps."
+          },
+          {
+            "speaker": "Postal Worker",
+            "text": "Okay, what type and how many?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for assistance",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, can you help me with stamps?"
+          },
+          {
+            "speaker": "Postal Worker",
+            "text": "Of course, what do you need?"
+          }
+        ]
+      }
+    ]
+  }
+}

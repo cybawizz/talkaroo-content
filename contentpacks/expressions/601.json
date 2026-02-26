@@ -1,0 +1,150 @@
+{
+  "title": "Threatening retaliation",
+  "context": "Warn someone that you will get revenge for what they did.",
+  "content": {
+    "bestLine": "You're gonna regret what you just did",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "You're going down for this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll get you back for this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're messing with the wrong person",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "This isn't over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You'll pay for what you did",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'll make you regret this",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "You're toast, homie",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I got my eye on you, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're goin' down, foo'",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, you think you're so smart",
+          "register": "sarcastic",
+          "risk": "low"
+        },
+        {
+          "text": "Wow, I'm so impressed by your move",
+          "register": "sarcastic",
+          "risk": "low"
+        },
+        {
+          "text": "You must be so proud of yourself",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're dead to me",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'll destroy you for this",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're screwed, buddy",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] regret this",
+        "options": [
+          "will",
+          "gonna",
+          "are gonna"
+        ],
+        "meaning": "threatening retaliation"
+      },
+      {
+        "template": "I'll [options] get you back",
+        "options": [
+          "definitely",
+          "for sure",
+          "no matter what"
+        ],
+        "meaning": "promising revenge"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Threatening retaliation after being wronged",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're going down for this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What are you talking about?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "You know exactly what you did"
+          }
+        ]
+      },
+      {
+        "description": "Warning someone of consequences",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're messing with the wrong person"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh yeah? What are you gonna do?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "You'll find out soon enough"
+          }
+        ]
+      }
+    ]
+  }
+}

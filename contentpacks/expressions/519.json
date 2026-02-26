@@ -1,0 +1,269 @@
+{
+  "title": "Arguing passionately",
+  "context": "State your case forcefully during a heated discussion.",
+  "content": {
+    "bestLine": "I strongly disagree with your point",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I see it differently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's look at the facts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find a compromise?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I understand your perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's discuss this further",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have some concerns",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, that's not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think so",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're kidding, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get real",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a different opinion",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not how I see it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's examine the evidence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to propose an alternative",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss this in more detail?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have some reservations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's consider multiple perspectives",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That's whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key disagreeing",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're trippin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not feeling it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not lit",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm good, I'll pass",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great point, not",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so convinced",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's really original",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a brilliant idea",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be joking",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's stupid",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're wrong, period",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't care about your opinion",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Shut up and listen",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're not making any sense",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] disagree with you",
+        "options": [
+          "strongly",
+          "completely",
+          "totally"
+        ],
+        "meaning": "expressing disagreement"
+      },
+      {
+        "template": "You're [options] wrong",
+        "options": [
+          "completely",
+          "totally",
+          "absolutely"
+        ],
+        "meaning": "expressing strong disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Arguing with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm telling you, it's the best way"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I strongly disagree, it's not the best option"
+          }
+        ]
+      },
+      {
+        "description": "Discussing with a colleague",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I think we should go with plan A"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I'm not convinced, let's consider plan B"
+          }
+        ]
+      }
+    ]
+  }
+}

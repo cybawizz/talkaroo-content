@@ -1,0 +1,157 @@
+{
+  "title": "When streaming video buffers",
+  "context": "Complain that your movie keeps freezing or loading slowly.",
+  "content": {
+    "bestLine": "My movie keeps buffering, it's so frustrating",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The video is loading slowly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing buffering issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The stream is freezing frequently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with video playback",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The movie is pausing unexpectedly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a lot of lag on this stream",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The video is stuttering and freezing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ugh, this movie is buffering like crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on with this stream, it's so slow",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to watch this movie, but it keeps freezing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This video is taking forever to load",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so annoyed, this stream is buffering nonstop",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can't this movie just play smoothly for once",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting tired of this stream's constant lag",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This stream is hella slow, yo",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good with this buffering, it's whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key frustrated with this video's lag",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This movie is high-key annoying, it keeps freezing",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [movie/stream] keeps [buffering/freezing]",
+        "options": [
+          "movie",
+          "stream",
+          "buffering",
+          "freezing"
+        ],
+        "meaning": "expressing frustration with streaming issues"
+      },
+      {
+        "template": "I'm [so/totally] annoyed with this [stream/video]'s [lag/buffering]",
+        "options": [
+          "so",
+          "totally",
+          "stream",
+          "video",
+          "lag",
+          "buffering"
+        ],
+        "meaning": "expressing annoyance with streaming issues"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about streaming issues",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, this movie is buffering like crazy"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I know, it's so frustrating"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a streaming service support",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "My movie keeps freezing, can you help me?"
+          },
+          {
+            "speaker": "Support",
+            "text": "Sorry to hear that, let me see what I can do"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Telling the doctor about sleep problems",
+  "context": "Complain that you have insomnia or cannot sleep fully.",
+  "content": {
+    "bestLine": "I've been having trouble sleeping lately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've been having insomnia",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sleeping well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have trouble falling asleep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wake up frequently at night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting enough rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been experiencing sleep disturbances",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty sleeping through the night",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm not sleeping like a baby",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm up all night, every night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so tired, I haven't slept in days",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running on fumes, sleep-wise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having major sleep issues",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting my beauty sleep",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exhausted, I need sleep",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing chronic sleep deprivation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty achieving restful sleep",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm suffering from insomnia",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting adequate sleep",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing sleep disruptions",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been having [options] sleeping lately",
+        "options": [
+          "trouble",
+          "issues",
+          "problems"
+        ],
+        "meaning": "expressing sleep difficulties"
+      },
+      {
+        "template": "I'm [options] sleep-deprived",
+        "options": [
+          "extremely",
+          "highly",
+          "severely"
+        ],
+        "meaning": "describing level of sleep deprivation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing sleep problems to doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been having trouble sleeping lately"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me more about that?"
+          }
+        ]
+      },
+      {
+        "description": "Patient discussing sleep issues with doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I'm not sleeping well, I wake up frequently at night"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Have you tried any relaxation techniques before bed?"
+          }
+        ]
+      }
+    ]
+  }
+}

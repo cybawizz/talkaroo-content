@@ -1,0 +1,181 @@
+{
+  "title": "Scolding a child",
+  "context": "Firmly reprimand a child for doing something dangerous or wrong.",
+  "content": {
+    "bestLine": "That was very dangerous, let's not do it again.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm disappointed in your choice.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That wasn't a good idea.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find a safer way.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want you to get hurt.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to be more careful.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That behavior is not acceptable.",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's think before we act.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I expect better from you.",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What were you thinking?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was a bad move.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't do that again, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about you.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's try something else.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You know better than that.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Be more careful next time.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was close, let's not do it again.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your actions were unacceptable.",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I expect you to behave responsibly.",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "That behavior will not be tolerated.",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "Let's discuss a better approach.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about your well-being.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to follow the rules.",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] when you [action].",
+        "options": [
+          "don't like it",
+          "get worried",
+          "feel disappointed"
+        ],
+        "meaning": "Expressing concern or disappointment"
+      },
+      {
+        "template": "Let's [options] instead.",
+        "options": [
+          "find a safer way",
+          "try something else",
+          "be more careful"
+        ],
+        "meaning": "Suggesting an alternative"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Scolding a child for touching something hot",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Ouch, that was very dangerous, let's not do it again."
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm sorry, it hurt."
+          },
+          {
+            "speaker": "Parent",
+            "text": "I know it did, let's find a safer way to explore."
+          }
+        ]
+      },
+      {
+        "description": "Scolding a child for running into the street",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "What were you thinking? That was very dangerous."
+          },
+          {
+            "speaker": "Child",
+            "text": "I saw a ball and wanted to get it."
+          },
+          {
+            "speaker": "Parent",
+            "text": "I understand, but we need to be more careful and look both ways before crossing the street."
+          }
+        ]
+      }
+    ]
+  }
+}

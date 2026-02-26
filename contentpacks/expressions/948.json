@@ -1,0 +1,158 @@
+{
+  "title": "Asking someone to spot you at the gym",
+  "context": "Ask a stranger to assist you while you lift heavy weights.",
+  "content": {
+    "bestLine": "Can you spot me on this lift?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you help me with this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a spot on this exercise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me for a second?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind spotting me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I could use a hand with this weight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep an eye on me for this lift?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need someone to spot me on this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you spot me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a minute to spot me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a hand with this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind helping me out with this lift?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a spot, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you watch my back on this one?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you keep an eye on me?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, would you be able to assist me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a spot for this exercise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please help me with this lift?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could spot me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request your assistance with this weight?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] me on this?",
+        "options": [
+          "spot",
+          "help",
+          "assist"
+        ],
+        "meaning": "asking for help with a lift"
+      },
+      {
+        "template": "I need a [options] for this exercise",
+        "options": [
+          "spot",
+          "hand",
+          "assistant"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to spot you at the gym",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you spot me on this lift?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Sure, how much are you lifting?"
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to spot you at the gym, formal",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, would you be able to assist me with this exercise?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Of course, I'd be happy to help"
+          }
+        ]
+      }
+    ]
+  }
+}

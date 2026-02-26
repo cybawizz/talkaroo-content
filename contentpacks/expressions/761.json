@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a publication",
+  "context": "Ask a cashier for a specific newspaper or magazine.",
+  "content": {
+    "bestLine": "Can I get a copy of the New York Times?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to buy a newspaper.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have the latest issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a magazine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a specific publication.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry the Wall Street Journal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a copy of Time magazine.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the newspapers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to purchase a book.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got a newspaper?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab a mag?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a paper.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got the new issue?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a newspaper, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a copy of People?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any sports magazines?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find a specific book.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to purchase a newspaper.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please show me the magazines?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a specific publication.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry the Financial Times?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a copy of Forbes.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with finding a book?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "newspaper",
+          "magazine",
+          "book"
+        ],
+        "meaning": "requesting a publication"
+      },
+      {
+        "template": "Do you have the [options]?",
+        "options": [
+          "latest issue",
+          "new issue",
+          "specific publication"
+        ],
+        "meaning": "inquiring about availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for a newspaper",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a copy of the New York Times?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, that's $2.50."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about a magazine",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have the latest issue of Time magazine?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, it's right over here."
+          }
+        ]
+      }
+    ]
+  }
+}

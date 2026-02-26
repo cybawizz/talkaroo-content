@@ -1,0 +1,173 @@
+{
+  "title": "A taxi driver asking general questions",
+  "context": "Ask a passenger if they are comfortable or if they have luggage.",
+  "content": {
+    "bestLine": "Are you comfortable, do you have any luggage?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you have any bags?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need help with luggage?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you all set?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any luggage to put in the trunk?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can get for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need any assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you comfortable back there?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got any bags?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need help with your stuff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All set?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any luggage?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You comfy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need anything?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Do you have any luggage that requires assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything to your satisfaction?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I assist you with your bags?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you comfortable and ready to proceed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require any additional services?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do to make your ride more enjoyable?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "any bags",
+          "luggage",
+          "anything"
+        ],
+        "meaning": "Asking about luggage"
+      },
+      {
+        "template": "Are you [options]?",
+        "options": [
+          "comfortable",
+          "all set",
+          "good"
+        ],
+        "meaning": "Asking about comfort"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Taxi driver asking about luggage",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "Do you have any bags?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Yes, I have a suitcase in the back"
+          }
+        ]
+      },
+      {
+        "description": "Taxi driver asking about comfort",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "Are you comfortable?"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Yes, I'm fine thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

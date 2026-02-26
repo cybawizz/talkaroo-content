@@ -1,0 +1,171 @@
+{
+  "title": "Asking questions at a house viewing",
+  "context": "Ask the real estate agent if the roof is new or the neighborhood is quiet.",
+  "content": {
+    "bestLine": "Is the roof new and is this neighborhood quiet?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How old is the roof?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the neighborhood quiet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the condition of the roof?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the noise level in this area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the roof recently replaced?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about the neighborhood?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any noise concerns?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What about the roof's maintenance?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How's the roof holding up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this area pretty quiet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the story with the roof?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do people around here complain about noise?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Was the roof replaced recently?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the neighborhood vibe?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Any issues with noise around here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the roof looking?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me about the roof's condition?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the neighborhood known for being quiet?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the age of the roof?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any notable noise concerns in the area?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Has the roof been recently inspected?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you describe the neighborhood atmosphere?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [option] new?",
+        "options": [
+          "roof",
+          "neighborhood"
+        ],
+        "meaning": "Asking about the condition or age of something"
+      },
+      {
+        "template": "How's the [option] around here?",
+        "options": [
+          "noise level",
+          "neighborhood vibe"
+        ],
+        "meaning": "Inquiring about the environment or atmosphere"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the real estate agent about the roof and neighborhood",
+        "lines": [
+          {
+            "speaker": "Buyer",
+            "text": "Hi, I'm interested in this house. Can you tell me about the roof and the neighborhood?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "The roof is about 10 years old, and the neighborhood is generally quiet."
+          }
+        ]
+      },
+      {
+        "description": "Discussing noise concerns with the real estate agent",
+        "lines": [
+          {
+            "speaker": "Buyer",
+            "text": "I'm concerned about noise. Is this area quiet?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, it's a quiet neighborhood. You might hear some occasional traffic, but it's generally peaceful."
+          }
+        ]
+      }
+    ]
+  }
+}

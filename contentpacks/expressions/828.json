@@ -1,0 +1,183 @@
+{
+  "title": "Asking for a table at a restaurant",
+  "context": "Tell the host how many people are in your dining party.",
+  "content": {
+    "bestLine": "We have a party of four, please",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We need a table for three",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Party of two, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Table for five, thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're a group of six",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we get a table for four?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a party of two",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Table for one, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need a table for eight",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We've got a party of six",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we squeeze in a table for five?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just the two of us, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're a party of four, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a table for three?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need a table for two, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Party of eight, can you seat us?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just one person, thanks",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We would like a table for four, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could we have a table for six?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require a table for two",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A table for eight, if you please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have a party of five, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May we have a table for three?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We have a party of [options]",
+        "options": [
+          "one",
+          "two",
+          "three",
+          "four",
+          "five",
+          "six",
+          "seven",
+          "eight"
+        ],
+        "meaning": "specifying the number of people in the dining party"
+      },
+      {
+        "template": "Can we get a table for [options]?",
+        "options": [
+          "one",
+          "two",
+          "three",
+          "four",
+          "five",
+          "six",
+          "seven",
+          "eight"
+        ],
+        "meaning": "requesting a table for a specific number of people"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for a table at a restaurant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "We have a party of four, please"
+          },
+          {
+            "speaker": "Host",
+            "text": "Right this way, please"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a table for a large group",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "We need a table for eight"
+          },
+          {
+            "speaker": "Host",
+            "text": "Let me check if we have a table available for that many"
+          }
+        ]
+      }
+    ]
+  }
+}

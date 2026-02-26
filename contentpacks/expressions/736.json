@@ -1,0 +1,173 @@
+{
+  "title": "Expressions used by a sales representative",
+  "context": "Pitch a new phone plan or upgrade to a potential customer.",
+  "content": {
+    "bestLine": "Our new plan offers unlimited data and international coverage",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I help you with a new plan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your current phone plan like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a promotion going on right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to upgrade your phone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our plans start at $50 per month",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can offer you a discount on your first bill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a variety of phones to choose from",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our customer service is available 24/7",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, want to hear about our new plans?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with your current phone situation?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got a sweet deal going on right now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You should totally upgrade your phone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Our plans are pretty affordable, starting at $50",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I can hook you up with a discount on your first bill",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got some awesome phones to choose from",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Our customer service is always available, 24/7",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd be happy to discuss our new plans with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me about your current phone plan?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are currently offering a promotional discount",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend considering an upgrade to our latest phone model",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our plans are competitively priced, starting at $50 per month",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I can provide you with a detailed breakdown of our plans and pricing",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Our [options] plan offers [options]",
+        "options": [
+          "new",
+          "unlimited",
+          "international"
+        ],
+        "meaning": "describing a phone plan"
+      },
+      {
+        "template": "You can [options] your phone plan to [options]",
+        "options": [
+          "upgrade",
+          "change",
+          "modify"
+        ],
+        "meaning": "explaining plan changes"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sales representative pitching a new plan",
+        "lines": [
+          {
+            "speaker": "Sales Representative",
+            "text": "Hi, can I help you with a new phone plan?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'm interested in learning more"
+          }
+        ]
+      },
+      {
+        "description": "Sales representative discussing plan details",
+        "lines": [
+          {
+            "speaker": "Sales Representative",
+            "text": "Our new plan offers unlimited data and international coverage"
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds great, how much does it cost?"
+          }
+        ]
+      }
+    ]
+  }
+}

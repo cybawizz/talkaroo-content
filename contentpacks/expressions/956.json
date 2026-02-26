@@ -1,0 +1,183 @@
+{
+  "title": "Describing a pain in the head",
+  "context": "Tell someone that you have a severe migraine or headache.",
+  "content": {
+    "bestLine": "I have a severe migraine",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have a headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My head hurts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing head pain",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bad headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My head is throbbing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a severe headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling unwell with a headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a pounding headache",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got a killer headache",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My head is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a nasty migraine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dying from this headache",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a headache from hell",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My head is exploding",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with this headache",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a brain freeze",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a severe headache",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a migraine that requires attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am suffering from a debilitating headache",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a headache that is impacting my productivity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require medical attention for my headache",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling well due to a headache",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have a [options] headache",
+        "options": [
+          "severe",
+          "bad",
+          "nasty",
+          "pounding"
+        ],
+        "meaning": "describing the intensity of the headache"
+      },
+      {
+        "template": "My head is [options]",
+        "options": [
+          "hurting",
+          "killing me",
+          "throbbing",
+          "exploding"
+        ],
+        "meaning": "describing the sensation of the headache"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "telling a friend about a headache",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, I'm not feeling well"
+          },
+          {
+            "speaker": "B",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "A",
+            "text": "I have a severe migraine"
+          }
+        ]
+      },
+      {
+        "description": "informing a supervisor about a headache",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hi, I need to take a break"
+          },
+          {
+            "speaker": "B",
+            "text": "Is everything okay?"
+          },
+          {
+            "speaker": "A",
+            "text": "I am experiencing a severe headache and need to rest"
+          }
+        ]
+      }
+    ]
+  }
+}

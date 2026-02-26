@@ -1,0 +1,121 @@
+{
+  "title": "Inviting an employee into a private office",
+  "context": "Formally request that a worker step into your office for a serious talk.",
+  "content": {
+    "bestLine": "May I see you in my office for a moment?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I talk to you for a minute?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to discuss something with you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's step into my office.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to speak with you privately.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you come in here for a second?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have something to go over with you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's talk in my office.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a word with you in my office.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please join me in my office for a discussion.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request your presence in my office?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to confer with you privately.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's convene in my office.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [please/come] into my office?",
+        "options": [
+          "please",
+          "come"
+        ],
+        "meaning": "requesting someone's presence"
+      },
+      {
+        "template": "I'd like to [discuss/speak] with you about [something/a matter].",
+        "options": [
+          "discuss",
+          "speak",
+          "something",
+          "a matter"
+        ],
+        "meaning": "initiating a private conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting an employee into a private office",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "May I see you in my office for a moment?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Of course, what's this about?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a private meeting",
+        "lines": [
+          {
+            "speaker": "Supervisor",
+            "text": "I need to discuss something with you privately."
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, let me just finish this task."
+          }
+        ]
+      }
+    ]
+  }
+}

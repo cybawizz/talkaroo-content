@@ -1,0 +1,158 @@
+{
+  "title": "Complaining about a streaming service",
+  "context": "Complain that a platform keeps raising prices or canceled a good show.",
+  "content": {
+    "bestLine": "They just canceled my favorite show, what a rip-off!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The price keeps going up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not happy with the new rates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They canceled a good show",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The service is getting too expensive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't like the changes they made",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The quality has gone down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm considering switching providers",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This streaming service is a total scam",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with these price hikes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with all the cancellations?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting ripped off with this service",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is getting too pricey for me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm fed up with the lack of new content",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to find a better streaming service",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This streaming service is hella expensive",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key done with this service",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "They're high-key ripping us off",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This service is straight trash",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this streaming service",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with this streaming service",
+        "options": [
+          "done",
+          "fed up",
+          "sick"
+        ],
+        "meaning": "expressing frustration"
+      },
+      {
+        "template": "This service is [options] expensive",
+        "options": [
+          "hella",
+          "super",
+          "ridiculously"
+        ],
+        "meaning": "complaining about prices"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about streaming services",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so done with Netflix, they just canceled my favorite show"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? And the prices just keep going up"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a customer service representative",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm not happy with the new rates, can you help me?"
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize for the inconvenience, let me see what I can do"
+          }
+        ]
+      }
+    ]
+  }
+}

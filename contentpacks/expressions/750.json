@@ -1,0 +1,174 @@
+{
+  "title": "Shopping for an item",
+  "context": "Tell a salesperson exactly what item you want to buy.",
+  "content": {
+    "bestLine": "I'm looking for a specific product, can you help me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to buy a new phone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I find a laptop here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any tablets in stock?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm searching for a pair of shoes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the clothing section?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a gift for my friend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the latest smartwatches?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to purchase a new TV",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I'm looking for a new gaming console",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any cool gadgets I can check out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to find a sick pair of sneakers",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best phone you have right now?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a new laptop for school",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you show me some awesome headphones?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for a dope smartwatch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any fresh clothing items?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about purchasing a new computer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please direct me to the electronics department?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in buying a high-quality camera",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry any luxury watches?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me some designer clothing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a top-of-the-line smartphone",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for a [options] to buy",
+        "options": [
+          "phone",
+          "laptop",
+          "tablet",
+          "shoes"
+        ],
+        "meaning": "expressing the intention to purchase a specific item"
+      },
+      {
+        "template": "Can you show me where the [options] are?",
+        "options": [
+          "electronics",
+          "clothing",
+          "accessories"
+        ],
+        "meaning": "asking for directions to a specific department"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for help finding a product",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for a new phone. Can you help me?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Of course, what kind of phone are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about a specific product",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any laptops with 16GB of RAM?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Yes, we have a few models with that specification. Let me show you."
+          }
+        ]
+      }
+    ]
+  }
+}

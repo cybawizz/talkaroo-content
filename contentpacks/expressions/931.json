@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor about various pains",
+  "context": "List all the different symptoms and aches you are experiencing.",
+  "content": {
+    "bestLine": "I'm experiencing several aches and pains.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have a headache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My back hurts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling nauseous",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a sore throat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach is upset",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a fever",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My joints are sore",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling dizzy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got a killer headache",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My back is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling pretty crummy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a nasty cough",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My stomach is doing flips",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm running a fever",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My body aches all over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling really off",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing cephalalgia",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a severe case of lumbar pain",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am feeling queasy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a throat infection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing gastrointestinal distress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a high fever",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have a [options] pain",
+        "options": [
+          "head",
+          "back",
+          "stomach"
+        ],
+        "meaning": "describing a specific type of pain"
+      },
+      {
+        "template": "My [options] is hurting",
+        "options": [
+          "head",
+          "back",
+          "throat"
+        ],
+        "meaning": "describing a specific area of pain"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing symptoms to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been experiencing a lot of pain lately."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me more about the pain?"
+          }
+        ]
+      },
+      {
+        "description": "Patient and doctor discussing treatment options",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I have a headache and my back hurts."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let's take a look at your symptoms and see what we can do to help you feel better."
+          }
+        ]
+      }
+    ]
+  }
+}

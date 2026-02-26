@@ -1,0 +1,168 @@
+{
+  "title": "Expressing mock sympathy",
+  "context": "Use sarcasm to pretend you feel bad for someone who is complaining.",
+  "content": {
+    "bestLine": "Oh no, that's just so sad",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "That's a bummer, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What a shame",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That sucks, I guess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Too bad, so sad",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's too bad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bummer, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a drag",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Oh well",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "My bad, not really",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's whack, I suppose",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Not my problem, G",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh no, how ever will you survive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's just so tragic",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm literally crying for you",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a terrible life you lead",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You have my fake sympathy",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm soooo sorry to hear that",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Not my problem, deal with it",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get over it",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Stop whining",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Oh [options], that's just so [options]",
+        "options": [
+          "great",
+          "amazing",
+          "sad",
+          "terrible"
+        ],
+        "meaning": "mock sympathy"
+      },
+      {
+        "template": "I'm [options] sorry to hear that",
+        "options": [
+          "so",
+          "literally",
+          "not at all"
+        ],
+        "meaning": "mock apology"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend complaining about a minor issue",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I just spilled coffee on my shirt"
+          },
+          {
+            "speaker": "You",
+            "text": "Oh no, how ever will you survive"
+          }
+        ]
+      },
+      {
+        "description": "Coworker complaining about a project",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "This project is so frustrating"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm literally crying for you"
+          }
+        ]
+      }
+    ]
+  }
+}

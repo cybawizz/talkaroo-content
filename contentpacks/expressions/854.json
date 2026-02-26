@@ -1,0 +1,181 @@
+{
+  "title": "Explaining how to ride an electric scooter",
+  "context": "Tell a friend how to unlock and drive a rented city scooter.",
+  "content": {
+    "bestLine": "Just scan the QR code to unlock and go",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Unlock the scooter with your phone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Follow traffic rules and signals",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wear a helmet for safety",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Check the scooter's brakes and tires",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ride in designated bike lanes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your speed under control",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be aware of pedestrians and cars",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Park the scooter in a designated area",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hop on and start riding",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't forget to wear a helmet, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just ride like you would a bike",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Watch out for potholes and stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't ride on sidewalks, it's not cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep an eye on your speed, bro",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Park it and lock it when you're done",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have fun and enjoy the ride",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please ensure you are wearing a helmet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Operate the scooter in a safe and responsible manner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Follow all traffic laws and regulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be mindful of your surroundings and other road users",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Return the scooter to a designated parking area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Report any damage or issues to the rental company",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "To [options] the scooter, simply [action]",
+        "options": [
+          "unlock",
+          "lock",
+          "start"
+        ],
+        "meaning": "explaining how to perform an action on the scooter"
+      },
+      {
+        "template": "Remember to [options] while riding",
+        "options": [
+          "wear a helmet",
+          "follow traffic rules",
+          "keep your speed under control"
+        ],
+        "meaning": "reminding someone of important safety rules"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining how to unlock the scooter",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Okay, so first you need to scan the QR code to unlock it"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Got it, and then what?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just hop on and start riding, but don't forget to wear a helmet"
+          }
+        ]
+      },
+      {
+        "description": "Discussing safety rules",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Remember to follow traffic rules and signals"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, and what about pedestrians?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just be aware of your surroundings and yield to pedestrians and cars"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Asking about bus and subway fare",
+  "context": "Ask the transit worker how much a one-way ticket costs.",
+  "content": {
+    "bestLine": "How much is a one-way ticket?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the fare for a single ride?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the price of a one-way ticket?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much does it cost to ride the bus/subway one way?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the cost of a single trip?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the fare for one way, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the subway/bus fare for one ride?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price of a one-way fare?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the cost of a single fare?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much for one way?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with fares?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much to ride?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the fare?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's it cost to get there?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the ride?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the fare look like?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much to go one way?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the one-way fare?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the cost of a single ticket.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the fare for a one-way journey?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me the price of a one-way ticket?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide me with the fare information.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the cost of traveling one way on the bus/subway?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How much is a [options] ticket?",
+        "options": [
+          "one-way",
+          "round-trip",
+          "single"
+        ],
+        "meaning": "asking about ticket prices"
+      },
+      {
+        "template": "What's the fare for a [options] ride?",
+        "options": [
+          "single",
+          "one-way",
+          "return"
+        ],
+        "meaning": "inquiring about transportation costs"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a transit worker about the fare",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, how much is a one-way ticket?"
+          },
+          {
+            "speaker": "Transit Worker",
+            "text": "A one-way ticket is $2.50."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about the cost of a single ride",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Can you tell me the price of a single fare?"
+          },
+          {
+            "speaker": "Transit Employee",
+            "text": "The fare for one ride is $3.00."
+          }
+        ]
+      }
+    ]
+  }
+}

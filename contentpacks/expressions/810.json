@@ -1,0 +1,173 @@
+{
+  "title": "When a babysitter gets hungry",
+  "context": "Tell the babysitter what food they are allowed to eat from the kitchen.",
+  "content": {
+    "bestLine": "Help yourself to anything in the kitchen",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're welcome to eat anything",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to grab a snack",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's food in the kitchen for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make yourself at home, eat what you like",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can eat whatever you find",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The kitchen is stocked, help yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If you're hungry, there's food available",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat anything that suits your taste",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grab a bite, whatever you want",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Help yourself, dude, kitchen's open",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "If you're starving, eat up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make a sandwich, have a snack",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You must be hungry, eat something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Kitchen's all yours, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get some food, you're welcome to it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Eat whatever, don't be shy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please, help yourself to our food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are welcome to eat from our kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you're hungry, please eat something",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We've prepared some snacks for you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to partake in our hospitality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our kitchen is at your disposal",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You can [options] from the kitchen",
+        "options": [
+          "eat",
+          "grab",
+          "have"
+        ],
+        "meaning": "allowing the babysitter to eat"
+      },
+      {
+        "template": "The kitchen is [options] for you",
+        "options": [
+          "open",
+          "yours",
+          "available"
+        ],
+        "meaning": "informing the babysitter about food availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing the babysitter about food options",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Help yourself to anything in the kitchen"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Thank you, I might grab a snack later"
+          }
+        ]
+      },
+      {
+        "description": "Discussing food preferences with the babysitter",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Do you have any food preferences or allergies?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "No, I'm good. Thanks for asking"
+          }
+        ]
+      }
+    ]
+  }
+}

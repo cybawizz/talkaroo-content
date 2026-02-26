@@ -1,0 +1,173 @@
+{
+  "title": "Choosing car options",
+  "context": "Discuss the different upgrades and packages available for a new vehicle.",
+  "content": {
+    "bestLine": "What upgrades are available for this model?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are my options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I customize?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What packages are available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to explore upgrades.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the difference between models?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me some features?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's included in the premium package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I personalize my vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What can I add to this car?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any cool upgrades?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get some extras?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best package for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want to make it my own.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What are some popular upgrades?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me customize?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the most popular package?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd like to discuss available upgrades.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you outline the optional features?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What customization options do you offer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in exploring premium packages.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the differences between models?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate a detailed overview of available upgrades.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm interested in [options].",
+        "options": [
+          "upgrades",
+          "packages",
+          "customization"
+        ],
+        "meaning": "expressing interest in car options"
+      },
+      {
+        "template": "Can you tell me about [options]?",
+        "options": [
+          "available upgrades",
+          "premium packages",
+          "custom features"
+        ],
+        "meaning": "requesting information about car options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about upgrades",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What upgrades are available for this model?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "We have several packages, including a premium sound system and navigation."
+          }
+        ]
+      },
+      {
+        "description": "Customer discussing customization",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to customize my vehicle. What options do I have?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "We can discuss interior and exterior colors, wheel options, and technology upgrades."
+          }
+        ]
+      }
+    ]
+  }
+}

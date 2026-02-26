@@ -1,0 +1,148 @@
+{
+  "title": "Instructions for taking prescription medication",
+  "context": "Read or explain the dosage rules for medicine on a pill bottle.",
+  "content": {
+    "bestLine": "Read the label for dosage instructions",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Follow the dosage on the bottle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take as directed by your doctor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Check the label for dosage rules",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Read the instructions carefully",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take the prescribed amount only",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dosage instructions are on the label",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Follow the medication schedule",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just follow the instructions on the bottle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it as prescribed, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Check the label, it's pretty straightforward",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't overthink it, just follow the directions",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The dosage is right there on the label",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy, just follow the instructions",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please adhere to the prescribed dosage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to follow the dosage instructions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The medication label provides clear dosage guidelines",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To ensure safety, follow the prescribed medication schedule",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Take [options] as directed",
+        "options": [
+          "one pill",
+          "two capsules",
+          "the prescribed amount"
+        ],
+        "meaning": "Follow the dosage instructions"
+      },
+      {
+        "template": "The [options] is on the label",
+        "options": [
+          "dosage",
+          "medication schedule",
+          "instructions"
+        ],
+        "meaning": "Check the label for information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient and doctor discussing medication",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Please read the label for dosage instructions"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Okay, got it. Take two pills twice a day?"
+          }
+        ]
+      },
+      {
+        "description": "Pharmacist explaining medication to customer",
+        "lines": [
+          {
+            "speaker": "Pharmacist",
+            "text": "The dosage instructions are on the label"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Alright, thank you. I'll make sure to follow them"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Requesting a magazine subscription",
+  "context": "Tell a sales agent that you want to subscribe to their publication.",
+  "content": {
+    "bestLine": "I'd like to subscribe to your magazine.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm interested in a subscription.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I subscribe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to sign up.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to subscribe to your publication.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I get a subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking to subscribe.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a sub?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wanna subscribe.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a subscription?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm down to subscribe.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do I get in on that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm interested in checking it out.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a subscription going?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd love to subscribe.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to initiate a subscription.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with a subscription?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in subscribing to your publication.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide me with subscription information.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to subscribe to your magazine.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you help me with the subscription process?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] a subscription.",
+        "options": [
+          "get",
+          "start",
+          "initiate"
+        ],
+        "meaning": "expressing interest in subscribing"
+      },
+      {
+        "template": "Can you help me with a [options] subscription?",
+        "options": [
+          "monthly",
+          "yearly",
+          "digital"
+        ],
+        "meaning": "asking for assistance with subscription"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about subscription",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm interested in subscribing to your magazine."
+          },
+          {
+            "speaker": "Sales Agent",
+            "text": "Great, we have a few options available. Which one would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about subscription process",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How do I subscribe to your publication?"
+          },
+          {
+            "speaker": "Sales Agent",
+            "text": "You can subscribe online or by calling our customer service number."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Responses from a hairdresser",
+  "context": "Ask a client how much hair they want chopped off today.",
+  "content": {
+    "bestLine": "How much would you like me to cut off today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How much hair do you want to cut?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What length are you aiming for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How short do you want to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a specific cut in mind?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much of a trim are you looking for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your desired hair length?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you looking for a drastic change?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much are we chopping off?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the plan for your hair today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want a trim or a full cut?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How short are you feeling?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a refresh or a whole new look?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What can I cut off for you today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready for a hair makeover?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please specify the desired length?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to assist you with your haircut.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I tailor the cut to your preferences?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your ideal hair length for this appointment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please inform me of any specific styling requests.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I can [options] your hair to achieve the look you want.",
+        "options": [
+          "trim",
+          "cut",
+          "style"
+        ],
+        "meaning": "offering haircut services"
+      },
+      {
+        "template": "Would you like me to [options] the length?",
+        "options": [
+          "keep",
+          "adjust",
+          "change"
+        ],
+        "meaning": "asking about desired hair length"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial Consultation",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "Hello, how are you today?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I'm good, thanks. I need a haircut."
+          },
+          {
+            "speaker": "Hairdresser",
+            "text": "How much would you like me to cut off today?"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Questioning",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "What's your current hair care routine like?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I wash it every other day and use some styling products."
+          },
+          {
+            "speaker": "Hairdresser",
+            "text": "Okay, that helps. Do you have a specific style in mind for today's cut?"
+          }
+        ]
+      }
+    ]
+  }
+}

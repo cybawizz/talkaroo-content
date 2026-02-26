@@ -1,0 +1,131 @@
+{
+  "title": "Blessing the food",
+  "context": "Briefly give thanks for the meal before everyone eats.",
+  "content": {
+    "bestLine": "Let's give thanks for this meal",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thanks for dinner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bless this food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat and be thankful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Grateful for this meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's give thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Appreciate the meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for cooking",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Let us give thanks",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Blessings for this meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Gratitude for the food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the hospitality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a moment to appreciate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for having us over",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [option] for this meal",
+        "options": [
+          "give thanks",
+          "be grateful",
+          "appreciate"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "Thanks for the [option]",
+        "options": [
+          "food",
+          "meal",
+          "dinner"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family saying grace",
+        "lines": [
+          {
+            "speaker": "Father",
+            "text": "Let's give thanks for this meal"
+          },
+          {
+            "speaker": "Mother",
+            "text": "Yes, let's take a moment to appreciate"
+          }
+        ]
+      },
+      {
+        "description": "Friends giving thanks",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Thanks for coming over, let's eat and be thankful"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thanks for having us, grateful for this meal"
+          }
+        ]
+      }
+    ]
+  }
+}

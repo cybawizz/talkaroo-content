@@ -1,0 +1,173 @@
+{
+  "title": "Statements made to a therapist",
+  "context": "Open up to a psychologist about your mental health and feelings.",
+  "content": {
+    "bestLine": "I'm struggling with my mental health and need help",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to talk about my feelings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble coping",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to improve my mental health",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm seeking professional help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to manage my emotions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need guidance and support",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a safe space to talk",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm really stressed out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling super anxious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need someone to talk to",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to deal with my emotions",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling lost and alone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I just need someone to listen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to keep it together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hoping to find some peace",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing mental health issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require professional counseling",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm seeking therapy to improve my well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need guidance on managing my emotions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a therapist to help me cope",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to improving my mental health",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm feeling [options] and need help",
+        "options": [
+          "overwhelmed",
+          "anxious",
+          "lost"
+        ],
+        "meaning": "expressing emotions and seeking support"
+      },
+      {
+        "template": "I'm trying to [options] my mental health",
+        "options": [
+          "improve",
+          "manage",
+          "cope with"
+        ],
+        "meaning": "taking action to improve mental well-being"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial conversation with a therapist",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I'm struggling with my mental health and need help"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "I'm here to listen and support you, what's been going on?"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up conversation with a therapist",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I've been feeling overwhelmed and anxious"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "Let's work together to develop some coping strategies, how does that sound?"
+          }
+        ]
+      }
+    ]
+  }
+}

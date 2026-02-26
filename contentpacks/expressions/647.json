@@ -1,0 +1,163 @@
+{
+  "title": "Splitting a bill on a money app",
+  "context": "Send someone a request for their half of the dinner check.",
+  "content": {
+    "bestLine": "Can you send me your half of the dinner check?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you cover your half?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll send you the request",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send me your share?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's split the bill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll send the request now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pay your half?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Splitting the check",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you venmo me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send me cash?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got you, just send me half",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Split the bill with me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pay me back?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Send me your half, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's settle up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Hit me with your half",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Send me that dough",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Venmo me, pls",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Split it with me, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Pay me back, bruh",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Send me my cut",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you send me [options]?",
+        "options": [
+          "your half",
+          "the cash",
+          "my share"
+        ],
+        "meaning": "requesting payment"
+      },
+      {
+        "template": "Let's [options] the bill",
+        "options": [
+          "split",
+          "settle",
+          "divide"
+        ],
+        "meaning": "proposing to share the cost"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting payment",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can you send me your half of the dinner check?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'll send it to you now"
+          }
+        ]
+      },
+      {
+        "description": "Proposing to split the bill",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let's split the bill"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sounds good to me, I'll send you my half"
+          }
+        ]
+      }
+    ]
+  }
+}

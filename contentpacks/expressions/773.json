@@ -1,0 +1,173 @@
+{
+  "title": "Requesting instructions for packing",
+  "context": "Tell the cashier how you want your groceries bagged.",
+  "content": {
+    "bestLine": "Can you please bag my groceries separately?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like them bagged separately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bag my groceries individually?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please put each item in a separate bag",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get separate bags for my items?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need my groceries bagged one by one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Separate bags would be great, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please use separate bags for each item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could bag them separately",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you bag these separately?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get these bagged one by one?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just throw each one in a separate bag, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you do separate bags for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bag them separately, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take separate bags for these, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you separate my groceries into different bags?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just separate bags, that's all",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could bag my groceries separately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please ensure each item is bagged individually?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require separate bags for my items, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please bag each of my groceries in a separate bag",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request separate bags for my purchases",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have my groceries bagged separately, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] my groceries?",
+        "options": [
+          "bag separately",
+          "put in separate bags",
+          "bag individually"
+        ],
+        "meaning": "Requesting separate bags for groceries"
+      },
+      {
+        "template": "I'd like my [options] in separate bags",
+        "options": [
+          "groceries",
+          "items",
+          "purchases"
+        ],
+        "meaning": "Requesting separate bags for specific items"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting separate bags at checkout",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you please bag my groceries separately?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Sure, I can do that for you. Would you like me to bag the fragile items separately as well?"
+          }
+        ]
+      },
+      {
+        "description": "Customer confirming bagging instructions",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Just to confirm, you're bagging each item separately, right?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, that's correct. Each item will be in its own bag."
+          }
+        ]
+      }
+    ]
+  }
+}

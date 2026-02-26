@@ -1,0 +1,125 @@
+{
+  "title": "Entering through customs and immigration",
+  "context": "Declare your passport and the items you bought while traveling abroad.",
+  "content": {
+    "bestLine": "I'd like to declare the items I purchased abroad, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have items to declare.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I declare my purchases?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to report my buys.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do I need to declare this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have goods to declare.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do I declare?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to declare my items now.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to declare my international purchases.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me declare my items.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to declare the goods I bought abroad.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please direct me to declare my purchases?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here to declare my items from abroad.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'd like to declare [options].",
+        "options": [
+          "my purchases",
+          "the items I bought",
+          "my goods"
+        ],
+        "meaning": "Declaring items at customs"
+      },
+      {
+        "template": "Where do I [options] my items?",
+        "options": [
+          "declare",
+          "report",
+          "check in"
+        ],
+        "meaning": "Asking for declaration location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Declaring items at customs",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "I'd like to declare the items I purchased abroad, please."
+          },
+          {
+            "speaker": "Customs Officer",
+            "text": "Please proceed to the declaration area and fill out the form."
+          }
+        ]
+      },
+      {
+        "description": "Asking for declaration location",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Where do I declare my purchases?"
+          },
+          {
+            "speaker": "Customs Officer",
+            "text": "You can declare your items at the desk to your left."
+          }
+        ]
+      }
+    ]
+  }
+}

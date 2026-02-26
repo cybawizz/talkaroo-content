@@ -1,0 +1,125 @@
+{
+  "title": "Requesting a loan from a banker",
+  "context": "Formally ask to borrow money from a financial institution.",
+  "content": {
+    "bestLine": "I'd like to apply for a loan, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a loan here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to borrow some money.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the process for getting a loan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I apply for a loan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in a loan.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a loan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to inquire about a loan.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to request a loan.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I schedule a meeting to discuss a loan?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking a loan from your institution.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with loan information?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to apply for a loan, formally.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] a loan.",
+        "options": [
+          "apply for",
+          "inquire about",
+          "request"
+        ],
+        "meaning": "Formal request for a loan"
+      },
+      {
+        "template": "Can I [options] a loan here?",
+        "options": [
+          "get",
+          "apply for",
+          "obtain"
+        ],
+        "meaning": "Neutral inquiry about loan availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting a loan from a banker",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, I'd like to apply for a loan, please."
+          },
+          {
+            "speaker": "Banker",
+            "text": "Of course, let me guide you through the process."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about loan options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What types of loans do you offer?"
+          },
+          {
+            "speaker": "Banker",
+            "text": "We have various options, including personal and business loans."
+          }
+        ]
+      }
+    ]
+  }
+}

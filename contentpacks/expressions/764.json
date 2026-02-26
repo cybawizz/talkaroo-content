@@ -1,0 +1,131 @@
+{
+  "title": "Responses from a magazine agent",
+  "context": "Tell a customer when their new magazine subscription will start.",
+  "content": {
+    "bestLine": "Your new subscription will start with the next issue.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Your subscription starts next month.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The first issue will arrive soon.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll receive your first magazine next week.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your subscription begins with the upcoming issue.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The next issue will be your first one.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can expect your first magazine in two weeks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your new subscription starts immediately.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The start date is listed on your receipt.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your subscription will commence with the next available issue.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will receive your first magazine at the start of the next month.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The initial issue of your subscription will be sent to you shortly.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your subscription start date is confirmed as the next issue.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please expect your first magazine to arrive within the next few weeks.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The details of your subscription, including the start date, are outlined in your welcome packet.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your subscription will start with the [options] issue.",
+        "options": [
+          "next",
+          "following",
+          "upcoming"
+        ],
+        "meaning": "indicating when the subscription begins"
+      },
+      {
+        "template": "You can expect your first magazine in [options].",
+        "options": [
+          "a week",
+          "two weeks",
+          "next month"
+        ],
+        "meaning": "providing a timeframe for the first issue arrival"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Agent informs customer about subscription start",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Your new subscription will start with the next issue."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Great, thank you for letting me know."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquires about subscription start date",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "When can I expect my first magazine?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "You'll receive your first magazine next week."
+          }
+        ]
+      }
+    ]
+  }
+}

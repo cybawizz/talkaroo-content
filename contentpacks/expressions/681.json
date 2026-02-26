@@ -1,0 +1,119 @@
+{
+  "title": "A bank teller greeting a patron",
+  "context": "Say hello to a customer at the bank counter.",
+  "content": {
+    "bestLine": "Hello, how can I assist you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, welcome to the bank",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our bank, how can we help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm here to help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what can I do for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's nice to see you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, how may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm your bank representative",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our banking institution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to serve you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, how can I help you?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]",
+        "options": [
+          "how are you?",
+          "what brings you here?"
+        ],
+        "meaning": "Greeting with a question"
+      },
+      {
+        "template": "Welcome to [options]",
+        "options": [
+          "our bank",
+          "the bank"
+        ],
+        "meaning": "Formal greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple greeting",
+        "lines": [
+          {
+            "speaker": "Teller",
+            "text": "Hello, how can I assist you today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need to deposit a check"
+          }
+        ]
+      },
+      {
+        "description": "Formal greeting",
+        "lines": [
+          {
+            "speaker": "Teller",
+            "text": "Good morning, how may I assist you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Good morning, I'd like to open a new account"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Giving a child instructions at dinner time",
+  "context": "Tell a kid to eat their vegetables and stay at the table.",
+  "content": {
+    "bestLine": "Eat your veggies and stay seated",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please eat your vegetables",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay at the table until you're done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your meal before getting up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat your dinner and then you can play",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Remember to eat all your food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay seated until everyone is finished",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat your veggies, they're good for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's finish dinner as a family",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, eat your veggies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay put, kiddo, until you're done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish up, then you can go play",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Eat your dinner, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't get up until you're all done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's chow down and then have fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Veggies are yummy, try them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hang out at the table with us",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Eat your [options] and stay at the table",
+        "options": [
+          "veggies",
+          "dinner",
+          "meal"
+        ],
+        "meaning": "Finish eating before getting up"
+      },
+      {
+        "template": "Stay seated until [options]",
+        "options": [
+          "everyone is finished",
+          "you're all done",
+          "dinner is over"
+        ],
+        "meaning": "Wait until the meal is completed"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent instructing a child to eat and stay at the table",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Eat your veggies and stay seated"
+          },
+          {
+            "speaker": "Child",
+            "text": "Do I have to?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Yes, finish your meal before getting up"
+          }
+        ]
+      },
+      {
+        "description": "Parent encouraging a child to finish dinner",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Let's finish dinner as a family"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm full"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Just a few more bites, then you can play"
+          }
+        ]
+      }
+    ]
+  }
+}

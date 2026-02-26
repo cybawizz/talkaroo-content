@@ -1,0 +1,181 @@
+{
+  "title": "When a smart assistant misunderstands you",
+  "context": "Express frustration that your device did not hear you correctly.",
+  "content": {
+    "bestLine": "Come on, didn't you hear me right?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I didn't say that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not what I meant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's been a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not what I said",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me try again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being misunderstood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you understand me now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's not what I said",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Seriously, didn't you hear me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, listen up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's totally not what I meant",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you try that again",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm telling you, that's not right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not listening to me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's start over",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, that's whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good, didn't you catch that",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey, you're not hearing me",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Highkey frustrated",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Bruh, that's not what I said",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You feel me, that's not right",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] heard me wrong",
+        "options": [
+          "totally",
+          "completely",
+          "totally messed up"
+        ],
+        "meaning": "expressing frustration at being misunderstood"
+      },
+      {
+        "template": "I [options] said that",
+        "options": [
+          "didn't",
+          "never",
+          "would never"
+        ],
+        "meaning": "correcting the smart assistant's understanding"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "User trying to clarify a misunderstanding",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "I said turn on the living room lights"
+          },
+          {
+            "speaker": "Smart Assistant",
+            "text": "Okay, turning on the kitchen lights"
+          },
+          {
+            "speaker": "User",
+            "text": "No, that's not what I said. Come on, didn't you hear me right?"
+          }
+        ]
+      },
+      {
+        "description": "User getting frustrated with repeated misunderstandings",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "I'm telling you, that's not what I meant"
+          },
+          {
+            "speaker": "Smart Assistant",
+            "text": "I apologize, could you please rephrase"
+          },
+          {
+            "speaker": "User",
+            "text": "Seriously, didn't you hear me? This is the third time"
+          }
+        ]
+      }
+    ]
+  }
+}

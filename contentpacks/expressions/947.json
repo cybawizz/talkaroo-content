@@ -1,0 +1,173 @@
+{
+  "title": "Asking if a piece of gym equipment is taken",
+  "context": "Ask someone if they are currently using a machine.",
+  "content": {
+    "bestLine": "Is this machine taken?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this machine in use?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is someone using this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this equipment available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use this machine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this taken?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is anyone on this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I use this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it free?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You using this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this thing taken?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I hop on?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You done with this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this free to use?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind if I use this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You on this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I use it now?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I inquire if this machine is in use?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this equipment currently being utilized?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if I might use this machine?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please let me know if this is available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, is this machine taken?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to use this, if it's available.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [options] machine taken?",
+        "options": [
+          "leg press",
+          "treadmill",
+          "elliptical"
+        ],
+        "meaning": "Asking about the availability of a specific machine"
+      },
+      {
+        "template": "Can I use the [options]?",
+        "options": [
+          "bench press",
+          "rowing machine",
+          "stationary bike"
+        ],
+        "meaning": "Requesting to use a particular piece of equipment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone if they are using a machine",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Is this machine taken?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, I'm just resting between sets. You can use it."
+          }
+        ]
+      },
+      {
+        "description": "Politely asking to use a machine",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, is this machine available?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I'm done with my workout. You can have it."
+          }
+        ]
+      }
+    ]
+  }
+}

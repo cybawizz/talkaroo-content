@@ -1,0 +1,173 @@
+{
+  "title": "Accepting the blame for something",
+  "context": "Take full responsibility for a mistake that occurred.",
+  "content": {
+    "bestLine": "I'm fully responsible for the mistake",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It was my fault",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should have done better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The error was mine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I take full responsibility",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm to blame for this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My mistake caused the issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for my error",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad, I messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I blew it, sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was all me, I'm sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I messed up, it's on me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was wrong, my apologies",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I made a mistake, sorry about that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was my fault, I'm really sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I should've done it differently",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I accept full responsibility",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The mistake was mine, I apologize",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I take complete blame for the error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret my mistake, please accept my apology",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am fully accountable for the issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My actions led to the problem, I apologize",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] for the mistake",
+        "options": [
+          "apologize",
+          "take responsibility",
+          "am sorry"
+        ],
+        "meaning": "Taking blame for an error"
+      },
+      {
+        "template": "The [options] was my fault",
+        "options": [
+          "mistake",
+          "error",
+          "issue"
+        ],
+        "meaning": "Accepting responsibility for a problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing for a mistake at work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm fully responsible for the mistake, I should have done it differently"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Thank you for taking responsibility, let's discuss how to prevent it in the future"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing for a personal mistake",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really sorry, I made a mistake and it was my fault"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's okay, we all make mistakes, thank you for apologizing"
+          }
+        ]
+      }
+    ]
+  }
+}

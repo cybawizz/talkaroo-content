@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about lodgings",
+  "context": "Call the landlord to complain that the heater is broken.",
+  "content": {
+    "bestLine": "The heater is broken, can you fix it?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Heater is not working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Room is too cold",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need help with heater",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Heating issue in room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you fix the heater?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Heater is broken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not getting heat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Heater problem",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, the heater's out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you get the heat on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's freezing in here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Heater's busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need some heat, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The heater's not working",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you fix the heat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's really cold in here",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing heating issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The heater in my room is not functioning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could repair the heater",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There is a problem with the heating system",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with the heater",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with the heater?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] is not working",
+        "options": [
+          "heater",
+          "heat",
+          "heating system"
+        ],
+        "meaning": "reporting a problem with the heating"
+      },
+      {
+        "template": "Can you [options] the heat?",
+        "options": [
+          "turn on",
+          "fix",
+          "repair"
+        ],
+        "meaning": "requesting help with the heating"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling the landlord to complain about the heater",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Hi, I'm having some issues with the heater in my room"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "I'm sorry to hear that, I'll send someone to fix it right away"
+          }
+        ]
+      },
+      {
+        "description": "Talking to the hotel staff about the heating problem",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Excuse me, the heater in my room is not working"
+          },
+          {
+            "speaker": "Staff",
+            "text": "I apologize for the inconvenience, let me see what I can do to help you"
+          }
+        ]
+      }
+    ]
+  }
+}

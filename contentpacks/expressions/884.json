@@ -1,0 +1,159 @@
+{
+  "title": "Eating and drinking on an airplane",
+  "context": "Order a beverage or snack from the flight attendant's cart.",
+  "content": {
+    "bestLine": "Can I get a soda, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have a coffee",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a water",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have juice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a snack",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I order a meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What drinks do you have",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a tea",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a Coke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any peanuts",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I grab a water",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm starving, what snacks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any sandwiches",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a beer",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'll take a bag of chips",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a drink",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a beverage menu",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a snack",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a refreshment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options]",
+        "options": [
+          "soda",
+          "water",
+          "juice",
+          "coffee"
+        ],
+        "meaning": "requesting a drink"
+      },
+      {
+        "template": "I'll take a [options]",
+        "options": [
+          "snack",
+          "meal",
+          "sandwich"
+        ],
+        "meaning": "ordering food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ordering a drink",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Can I get a soda, please?"
+          },
+          {
+            "speaker": "Flight Attendant",
+            "text": "Sure, what kind would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Ordering a snack",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "I'll take a bag of peanuts"
+          },
+          {
+            "speaker": "Flight Attendant",
+            "text": "That'll be $5, would you like to pay with card or cash?"
+          }
+        ]
+      }
+    ]
+  }
+}

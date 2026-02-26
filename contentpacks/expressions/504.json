@@ -1,0 +1,181 @@
+{
+  "title": "Asking a child to leave people alone",
+  "context": "Tell a child to stop bothering another person or pet.",
+  "content": {
+    "bestLine": "Please leave them alone, sweetie.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let them have some space.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't bother them, okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give them some room.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave them be for now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's not disturb them.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please don't interrupt.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just let them alone.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give them a break.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, leave them alone!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill out and let them be.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a pest, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just give 'em some space.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Lay off, kiddo.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's go bother someone else.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop bugging them!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give 'em a break, dude.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must ask you to leave them alone.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from disturbing them.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to respect their space.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you didn't bother them.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's allow them to have some peace.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's crucial to give them some quiet time.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please don't [options] them.",
+        "options": [
+          "bother",
+          "disturb",
+          "interrupt"
+        ],
+        "meaning": "asking a child to leave someone alone"
+      },
+      {
+        "template": "Let's [options] them some space.",
+        "options": [
+          "give",
+          "allow",
+          "grant"
+        ],
+        "meaning": "giving someone space"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A parent asking a child to leave a pet alone",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please leave the dog alone, sweetie."
+          },
+          {
+            "speaker": "Child",
+            "text": "But why? I just want to play with it."
+          },
+          {
+            "speaker": "Parent",
+            "text": "I know, but the dog needs some rest. Let's give it some space."
+          }
+        ]
+      },
+      {
+        "description": "A teacher asking a child to leave a classmate alone",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Okay, let's not disturb them right now."
+          },
+          {
+            "speaker": "Child",
+            "text": "But I just want to show them my drawing."
+          },
+          {
+            "speaker": "Teacher",
+            "text": "That's nice, but they're working on a test. Let's give them some quiet time."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Getting a purchase gift wrapped",
+  "context": "Ask the cashier to beautifully wrap the item you bought as a gift.",
+  "content": {
+    "bestLine": "Can you gift wrap this for me, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like this gift wrapped",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wrap this as a gift?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Gift wrapping, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wrap this up nicely for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need this wrapped as a gift",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get gift wrapping on this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please wrap this item for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could wrap this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you wrap this up for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a gift wrap on this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wrap it up pretty, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gift wrap, please, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it look nice and wrapped up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need this wrapped up all cute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you gift wrap this for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wrap this up as a gift, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could gift wrap this item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please wrap this as a gift?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require gift wrapping for this purchase",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please gift wrap this item for me, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to have this gift wrapped, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I request gift wrapping for this item?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] this for me?",
+        "options": [
+          "gift wrap",
+          "wrap as a gift",
+          "wrap nicely"
+        ],
+        "meaning": "Requesting gift wrapping"
+      },
+      {
+        "template": "I'd like this [options], please",
+        "options": [
+          "gift wrapped",
+          "wrapped as a gift",
+          "wrapped up nicely"
+        ],
+        "meaning": "Asking for gift wrapping politely"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for gift wrapping",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you gift wrap this for me, please?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Absolutely, I'd be happy to. Which wrapping paper would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting gift wrapping with a specific design",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like this wrapped as a gift, please. Do you have any Christmas-themed wrapping paper?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, we do. Let me show you our holiday collection."
+          }
+        ]
+      }
+    ]
+  }
+}

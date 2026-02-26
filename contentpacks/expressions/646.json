@@ -1,0 +1,139 @@
+{
+  "title": "Confirming a digital transfer",
+  "context": "Tell a friend that you successfully sent the money to their account.",
+  "content": {
+    "bestLine": "I just sent you the money",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The transfer is complete",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I sent the money to your account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The payment has been made",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You should see the funds soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The transaction is done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've transferred the money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The money is on its way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll receive the funds shortly",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Money's on the way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I just sent it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're all set",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's in your account now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Done deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sent",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All taken care of",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] sent you the money",
+        "options": [
+          "just",
+          "already"
+        ],
+        "meaning": "confirming the transfer"
+      },
+      {
+        "template": "The money is [options] to your account",
+        "options": [
+          "on its way",
+          "being transferred"
+        ],
+        "meaning": "describing the transfer process"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confirming a digital transfer",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, did you send me the money?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I just sent it"
+          }
+        ]
+      },
+      {
+        "description": "Following up on a transfer",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have you transferred the funds yet?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, it's done. You should see it in your account soon"
+          }
+        ]
+      }
+    ]
+  }
+}

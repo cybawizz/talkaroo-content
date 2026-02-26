@@ -1,0 +1,173 @@
+{
+  "title": "When someone is in debt",
+  "context": "Discuss the fact that someone owes a lot of money.",
+  "content": {
+    "bestLine": "I'm in deep financial trouble",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I owe a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Debt is piling up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Financial struggles",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Owe money to many",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "In over my head",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need to pay off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Struggling financially",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Owe a significant amount",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm broke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got debt up to here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Money troubles",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Owe everyone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "In a financial hole",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Need cash ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My wallet is crying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in debt big time",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have significant debt",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Experiencing financial difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Obligations exceed income",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Require financial assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Facing financial constraints",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Debt repayment is necessary",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I owe [options]",
+        "options": [
+          "a lot",
+          "too much",
+          "more than I can pay"
+        ],
+        "meaning": "admitting debt"
+      },
+      {
+        "template": "My debt is [options]",
+        "options": [
+          "piling up",
+          "out of control",
+          "a big problem"
+        ],
+        "meaning": "describing debt"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking about debt",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, how's it going financially?"
+          },
+          {
+            "speaker": "You",
+            "text": "Honestly, I'm struggling. I owe a lot."
+          }
+        ]
+      },
+      {
+        "description": "Boss discussing financial assistance",
+        "lines": [
+          {
+            "speaker": "Boss",
+            "text": "We've noticed you're having trouble paying bills on time."
+          },
+          {
+            "speaker": "You",
+            "text": "Yes, I'm facing financial constraints. I need help."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Asking guests if they have had enough",
+  "context": "Check to ensure your guests are full and satisfied.",
+  "content": {
+    "bestLine": "Is everyone all set with food?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Have you had enough to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need anything else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you all done?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you anything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can get for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want seconds?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you full?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You guys good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a refill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want more food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All set?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready for dessert?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Had enough?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All done?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer you anything else?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can provide for you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have you had a satisfactory dining experience?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I refresh your drink?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything to your liking?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I bring out dessert?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is everyone [options]?",
+        "options": [
+          "all set",
+          "good",
+          "done"
+        ],
+        "meaning": "checking if guests are satisfied"
+      },
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "anything else",
+          "more food",
+          "a refill"
+        ],
+        "meaning": "offering additional food or drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host checking in with guests",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Is everyone all set with food?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, I'm good. Thanks!"
+          }
+        ]
+      },
+      {
+        "description": "Server checking in with diners",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Can I get you anything else?"
+          },
+          {
+            "speaker": "Diner",
+            "text": "No, we're all done. Thanks for checking in!"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "title": "Concerning a bank account",
+  "context": "Ask a question about the fees or status of your savings.",
+  "content": {
+    "bestLine": "What are the fees on my savings account?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How much are the monthly fees?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the status of my account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a statement?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any charges?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I check my balance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the interest rates?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the fees?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is my account active?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to inquire about the fees associated with my account.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with a detailed statement?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the terms and conditions of my savings account?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could explain the account status.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any additional charges I should be aware of?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please confirm my account balance?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What are the [options] on my account?",
+        "options": [
+          "fees",
+          "interest rates",
+          "charges"
+        ],
+        "meaning": "inquiry about account details"
+      },
+      {
+        "template": "Can you [options] my account statement?",
+        "options": [
+          "provide",
+          "explain",
+          "send"
+        ],
+        "meaning": "request for account information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about account fees",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to know more about the fees on my savings account."
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "Of course, let me check on that for you. The monthly fee is $5."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting account statement",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Could you please provide me with a detailed statement of my account?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "Yes, I can send you a statement. Would you like it emailed or mailed?"
+          }
+        ]
+      }
+    ]
+  }
+}

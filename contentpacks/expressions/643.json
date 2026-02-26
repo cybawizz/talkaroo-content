@@ -1,0 +1,135 @@
+{
+  "title": "Expressions used in business communications",
+  "context": "Politely open or close a professional email or letter.",
+  "content": {
+    "bestLine": "Dear [Recipient], I hope this email finds you well.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi [Recipient]",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Best regards",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I look forward to hearing from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Dear [Recipient]",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sincerely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Regards",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Yours faithfully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Yours sincerely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your consideration",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Dear [options], I hope this email finds you well.",
+        "options": [
+          "Recipient",
+          "Sir/Ma'am",
+          "Hiring Manager"
+        ],
+        "meaning": "Polite greeting"
+      },
+      {
+        "template": "Best [options] to you.",
+        "options": [
+          "regards",
+          "wishes",
+          "luck"
+        ],
+        "meaning": "Polite closing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Polite email opening",
+        "lines": [
+          {
+            "speaker": "Sender",
+            "text": "Dear [Recipient],"
+          },
+          {
+            "speaker": "Sender",
+            "text": "I hope this email finds you well."
+          }
+        ]
+      },
+      {
+        "description": "Polite email closing",
+        "lines": [
+          {
+            "speaker": "Sender",
+            "text": "Thank you for your time and consideration."
+          },
+          {
+            "speaker": "Sender",
+            "text": "Best regards,"
+          }
+        ]
+      }
+    ]
+  }
+}

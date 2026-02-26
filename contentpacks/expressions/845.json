@@ -1,0 +1,163 @@
+{
+  "title": "When your food is brought to the table",
+  "context": "Express excitement and say thank you when the server delivers your meal.",
+  "content": {
+    "bestLine": "Wow, thank you so much!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Great, thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks so much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Appreciate the service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you very much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for bringing it out",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Awesome, thanks!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks so much, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so excited to dig in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the food",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This looks amazing, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cheers, thanks for the service",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks, you're a lifesaver",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you very much, I appreciate it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for the excellent service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you, this looks wonderful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your attention to detail",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for the prompt service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is exactly what I ordered, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks [options]!",
+        "options": [
+          "so much",
+          "a lot",
+          "very much"
+        ],
+        "meaning": "Expressing gratitude"
+      },
+      {
+        "template": "I'm [options] to try this",
+        "options": [
+          "excited",
+          "happy",
+          "looking forward"
+        ],
+        "meaning": "Showing enthusiasm for the food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer and server interaction",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Here's your food, enjoy!"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Wow, thank you so much! This looks amazing"
+          }
+        ]
+      },
+      {
+        "description": "Customer expressing gratitude",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Thanks so much for bringing this out"
+          },
+          {
+            "speaker": "Server",
+            "text": "You're welcome, enjoy your meal"
+          }
+        ]
+      }
+    ]
+  }
+}

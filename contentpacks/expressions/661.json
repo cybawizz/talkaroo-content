@@ -1,0 +1,148 @@
+{
+  "title": "Putting a caller on hold",
+  "context": "Ask the person on the phone to wait for a moment while you check something.",
+  "content": {
+    "bestLine": "Can you please hold for just a moment?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hold for a moment, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a moment, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wait a sec?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bear with me for a moment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me check on that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me just a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be right back",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hang on a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just a minute, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold up a minute?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me check something real quick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a minute, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll check on that for you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I place you on hold for a moment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please hold for just a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be with you in just a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me attend to something briefly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] for a moment?",
+        "options": [
+          "hold",
+          "wait",
+          "bear with me"
+        ],
+        "meaning": "asking the caller to wait"
+      },
+      {
+        "template": "Let me [options] on that",
+        "options": [
+          "check",
+          "follow up",
+          "get back to you"
+        ],
+        "meaning": "informing the caller you will look into their issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic Hold Request",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Can you please hold for just a moment?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Okay, sure"
+          }
+        ]
+      },
+      {
+        "description": "Informal Hold Request",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Hang on a sec, okay?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Alright"
+          }
+        ]
+      }
+    ]
+  }
+}

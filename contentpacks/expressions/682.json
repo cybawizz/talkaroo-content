@@ -1,0 +1,132 @@
+{
+  "title": "A teller inquiring about the size of bills",
+  "context": "Ask the customer how they want their cash divided.",
+  "content": {
+    "bestLine": "How would you like your cash divided?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What denominations would you like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you want the cash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What size bills do you need?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I give you large or small bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like a mix of bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like your withdrawal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your preference for bill size?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want big bills or small ones?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Could you please specify the denominations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like your cash disbursed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your preferred bill size?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like large or small bills, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I provide your cash to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What arrangement of bills would you prefer?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I give you [options]?",
+        "options": [
+          "large bills",
+          "small bills",
+          "a mix"
+        ],
+        "meaning": "Asking for bill size preference"
+      },
+      {
+        "template": "How would you like your cash [options]?",
+        "options": [
+          "divided",
+          "dispensed",
+          "provided"
+        ],
+        "meaning": "Inquiring about cash division"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Teller inquiring about bill size",
+        "lines": [
+          {
+            "speaker": "Teller",
+            "text": "How would you like your cash divided?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll take a mix of large and small bills, please."
+          }
+        ]
+      },
+      {
+        "description": "Teller asking for clarification",
+        "lines": [
+          {
+            "speaker": "Teller",
+            "text": "What size bills do you need?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Just small bills, thank you."
+          }
+        ]
+      }
+    ]
+  }
+}

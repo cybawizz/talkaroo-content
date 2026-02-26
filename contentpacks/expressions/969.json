@@ -1,0 +1,173 @@
+{
+  "title": "Explaining that your health is improving",
+  "context": "Share the good news that you are finally feeling better.",
+  "content": {
+    "bestLine": "I'm finally feeling better",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My health is improving",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the mend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting better slowly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My condition is stabilizing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm recovering well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling more energetic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My symptoms are fading",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm almost back to normal",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm bouncing back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting my strength back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm almost good as new",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling like myself again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm over the worst of it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the road to recovery",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing much better now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting back in the game",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing a significant improvement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My health is showing notable progress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am pleased to report a full recovery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My condition has stabilized considerably",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am making a steady recovery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My overall health is improving steadily",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] better now",
+        "options": [
+          "almost",
+          "nearly",
+          "practically"
+        ],
+        "meaning": "improving health"
+      },
+      {
+        "template": "My health is [options]",
+        "options": [
+          "improving",
+          "getting better",
+          "on the mend"
+        ],
+        "meaning": "recovery update"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sharing recovery news with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how are you feeling?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm finally feeling better, thanks for asking!"
+          }
+        ]
+      },
+      {
+        "description": "Updating a family member on health",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "How's your recovery going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm making good progress, thanks for asking. I'm almost back to normal."
+          }
+        ]
+      }
+    ]
+  }
+}

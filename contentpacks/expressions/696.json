@@ -1,0 +1,173 @@
+{
+  "title": "Test-driving a car",
+  "context": "Ask a car salesperson if you can take a vehicle for a spin.",
+  "content": {
+    "bestLine": "Can I take this car for a test drive?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to take it for a spin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I drive it around the block?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I test drive this vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take this car out for a drive?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to take it for a test drive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I try driving it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is a test drive available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take it for a quick drive?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Mind if I take her for a spin?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I take this baby out for a drive?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wanna take it for a test drive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I cruise around in this thing?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd love to get behind the wheel",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I take this ride for a spin?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it cool if I take it out for a bit?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I give it a whirl?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate the opportunity to test drive this vehicle",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a test drive?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to take this car for a test drive, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to arrange a test drive?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be grateful if I could test drive this car",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I take this vehicle for a test drive?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] this car?",
+        "options": [
+          "take for a spin",
+          "drive around the block",
+          "test drive"
+        ],
+        "meaning": "requesting to drive the car"
+      },
+      {
+        "template": "Is it [options] to take this car out?",
+        "options": [
+          "okay",
+          "alright",
+          "possible"
+        ],
+        "meaning": "asking for permission to drive the car"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking to test drive a car",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I take this car for a test drive?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Absolutely, let me just get the keys"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about test driving a car",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Is it possible to take this car out for a drive?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Yes, of course, I'll need to see your license first"
+          }
+        ]
+      }
+    ]
+  }
+}

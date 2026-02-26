@@ -1,0 +1,121 @@
+{
+  "title": "Requesting a number from directory assistance",
+  "context": "Ask an operator to look up a phone number for a business.",
+  "content": {
+    "bestLine": "Can you look up the phone number for a business?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a phone number",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find a number?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the number for",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a business number",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you look up a number for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to find a phone number",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you search for a number?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request a phone number",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please look up a number?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require the phone number for a business",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me in finding a phone number?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to obtain a phone number",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you look up the number for [options]?",
+        "options": [
+          "a business",
+          "a company",
+          "an organization"
+        ],
+        "meaning": "requesting a phone number"
+      },
+      {
+        "template": "I need the phone number for [options]",
+        "options": [
+          "a specific business",
+          "a local company",
+          "a national organization"
+        ],
+        "meaning": "requesting a phone number"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a phone number from directory assistance",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hello, I need the phone number for a business"
+          },
+          {
+            "speaker": "Operator",
+            "text": "What's the name of the business?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a phone number with additional information",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "Hi, I'm looking for the phone number of a company in New York"
+          },
+          {
+            "speaker": "Operator",
+            "text": "What's the name of the company?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "title": "Asking about sales and coupons",
+  "context": "Ask the cashier if a specific discount or coupon is valid.",
+  "content": {
+    "bestLine": "Is this coupon valid for today's purchase?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you have any sales on this item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use this coupon with my purchase?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a discount available for this product?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I apply this coupon to my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any promotions currently available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about any ongoing sales?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this item on sale today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer any discounts for bulk purchases?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a discount on this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any coupons I can use?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this on sale or something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a deal?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Any way to get a cheaper price?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any secret sales?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I use this coupon with my other discounts?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How about a price match?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about any available discounts.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about any current promotions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in applying this coupon to my purchase.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any special offers or sales at this time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about any discounts I may be eligible for.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please let me know if this item is currently on sale?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is [coupon/discount] valid for [item/purchase]?",
+        "options": [
+          "coupon",
+          "discount",
+          "item",
+          "purchase"
+        ],
+        "meaning": "Asking about the validity of a coupon or discount"
+      },
+      {
+        "template": "Do you have any [sales/promotions] for [item/category]?",
+        "options": [
+          "sales",
+          "promotions",
+          "item",
+          "category"
+        ],
+        "meaning": "Inquiring about available sales or promotions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about a coupon",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I have this coupon for $5 off. Can I use it today?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Let me check. Yes, it's valid. You can use it with your purchase."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about sales",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Are there any sales going on right now?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Actually, yes. We have a buy one get one free deal on some of our products. Let me show you which ones."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Statements about the payment of rent",
+  "context": "Tell a new tenant exactly what day their monthly payment is due.",
+  "content": {
+    "bestLine": "Your monthly payment is due on the 1st of each month.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Rent is due on the first day of the month.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The monthly payment is due on the 1st.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need to pay rent by the first of the month.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The due date for monthly rent is the 1st.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Rent payments are due on the first day of each month.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your monthly rent payment is due on the 1st.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The monthly rent is payable on the first of the month.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You should pay your rent on the 1st of the month.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please be advised that rent is due on the 1st of each month.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The monthly rent payment is payable on the first day of the month.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to note that the due date for rent is the 1st.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Rent payments must be made on or before the 1st of the month.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The rent is due and payable on the first day of each month.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are required to pay your monthly rent on the 1st.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your monthly payment is due on the [day] of each month.",
+        "options": [
+          "1st",
+          "15th",
+          "last day"
+        ],
+        "meaning": "Specify the due date for monthly payments"
+      },
+      {
+        "template": "Rent is payable on the [day] of the month.",
+        "options": [
+          "1st",
+          "first day",
+          "last day of the previous month"
+        ],
+        "meaning": "Indicate when the rent is due"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Landlord informing a new tenant about the rent due date",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "Hello, welcome to our building. I just wanted to remind you that your monthly payment is due on the 1st of each month."
+          },
+          {
+            "speaker": "Tenant",
+            "text": "Thank you for letting me know. I'll make sure to pay on time."
+          }
+        ]
+      },
+      {
+        "description": "Tenant inquiring about the rent due date",
+        "lines": [
+          {
+            "speaker": "Tenant",
+            "text": "Hi, I just moved in and I was wondering when my monthly rent is due?"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "Your monthly payment is due on the 1st of each month. You can pay by check or online through our website."
+          }
+        ]
+      }
+    ]
+  }
+}

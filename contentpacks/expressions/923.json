@@ -1,0 +1,182 @@
+{
+  "title": "Doctor expressions about medicine and tests",
+  "context": "Listen to a doctor explaining bloodwork or prescriptions.",
+  "content": {
+    "bestLine": "Let's review your bloodwork results.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We need to run some tests.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm prescribing medication.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your results are normal.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's discuss your treatment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend a follow-up visit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your health is our priority.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll monitor your progress.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any questions?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't worry, it's just a routine test.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You'll be back to normal in no time.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get you fixed up.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got just the thing for you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're in good hands.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We'll take care of you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Feel better soon.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're doing great.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am prescribing a course of treatment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your test results indicate...",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend that you...",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential that you...",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your health and well-being are our top priority.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will continue to monitor your condition.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your [test/result] shows [result].",
+        "options": [
+          "bloodwork",
+          "prescription",
+          "test"
+        ],
+        "meaning": "explaining medical results"
+      },
+      {
+        "template": "I [recommend/prescribe] [treatment/medication].",
+        "options": [
+          "recommend",
+          "prescribe",
+          "treatment",
+          "medication"
+        ],
+        "meaning": "explaining treatment options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Doctor explaining bloodwork results",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Let's review your bloodwork results."
+          },
+          {
+            "speaker": "Patient",
+            "text": "What do they show?"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Your results are normal, but we need to run some additional tests."
+          }
+        ]
+      },
+      {
+        "description": "Doctor discussing treatment options",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "I recommend that you take this medication."
+          },
+          {
+            "speaker": "Patient",
+            "text": "What are the side effects?"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "We'll discuss the potential side effects and answer any questions you have."
+          }
+        ]
+      }
+    ]
+  }
+}

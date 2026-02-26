@@ -1,0 +1,129 @@
+{
+  "title": "A gas station attendant pointing out problems",
+  "context": "Warn a driver that their tire looks flat or their oil is low.",
+  "content": {
+    "bestLine": "Your tire looks a bit flat, sir.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You've got a flat tire",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your oil is running low",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you've got a problem with your tire",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your vehicle needs attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You should check your tire pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I noticed your oil light is on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You might want to get that tire checked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your car could use some maintenance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've noticed your tire appears to be underinflated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your vehicle's oil level is below the recommended level",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's advisable to have your tire inspected",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your vehicle requires immediate attention to avoid damage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend checking your tire pressure as soon as possible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The oil light on your dashboard indicates a potential issue",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your [options] looks [options]",
+        "options": [
+          "tire",
+          "oil"
+        ],
+        "meaning": "Pointing out a specific issue with the vehicle"
+      },
+      {
+        "template": "You should [options] your [options]",
+        "options": [
+          "check",
+          "maintain"
+        ],
+        "meaning": "Advising the driver to take action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A gas station attendant warning a driver about a flat tire",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "You've got a flat tire, sir."
+          },
+          {
+            "speaker": "Driver",
+            "text": "Oh, I hadn't noticed. Thank you for telling me."
+          }
+        ]
+      },
+      {
+        "description": "A gas station attendant informing a driver about low oil",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "I noticed your oil light is on. You should get that checked."
+          },
+          {
+            "speaker": "Driver",
+            "text": "I'll make sure to stop by a mechanic soon. Thanks for letting me know."
+          }
+        ]
+      }
+    ]
+  }
+}

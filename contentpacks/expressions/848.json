@@ -1,0 +1,158 @@
+{
+  "title": "Offering someone a small portion of food",
+  "context": "Ask a friend if they would like to try a bite of your meal.",
+  "content": {
+    "bestLine": "Want to try a bite of this?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like a bite?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you some?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to try some of this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Care to taste this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Like to have a bite?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want a taste?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I give you a bite?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Try some of mine?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wanna bite?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta try this!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have a bite, it's good!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Taste this, it's amazing!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want a little bite?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should try some!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer you a bite?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care to try some?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to share.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, have a bite.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to offer you a taste.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to try [options]?",
+        "options": [
+          "a bite",
+          "some of this",
+          "a taste"
+        ],
+        "meaning": "offering food"
+      },
+      {
+        "template": "Can I offer you [options]?",
+        "options": [
+          "a bite",
+          "some of my food",
+          "a taste"
+        ],
+        "meaning": "polite offer"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering food to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Want to try a bite of this?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sure, thanks!"
+          }
+        ]
+      },
+      {
+        "description": "Offering food in a formal setting",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "May I offer you a bite of our specialty?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thank you, I'd love to."
+          }
+        ]
+      }
+    ]
+  }
+}

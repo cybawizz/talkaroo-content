@@ -1,0 +1,173 @@
+{
+  "title": "When you visit someone else",
+  "context": "Say something polite when you arrive at someone else's house.",
+  "content": {
+    "bestLine": "Hello, thanks for having me over",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's great to see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, thanks for inviting me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm so glad to be here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, thanks for having me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, it's nice to visit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm happy to be here",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, thanks for having me over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm so stoked to be here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, thanks for inviting me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, it's great to see you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm glad I could make it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Hello, it's a pleasure to be here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening, thank you for inviting me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm honored to be your guest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, it's nice to visit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, thank you for having me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening, I'm pleased to be here",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]",
+        "options": [
+          "thanks for having me over",
+          "it's great to see you",
+          "I'm so glad to be here"
+        ],
+        "meaning": "greeting"
+      },
+      {
+        "template": "Hi, [options]",
+        "options": [
+          "how are you?",
+          "what's up?",
+          "how's it going?"
+        ],
+        "meaning": "casual greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Arriving at someone's house",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hello, thanks for having me over"
+          },
+          {
+            "speaker": "Host",
+            "text": "You're welcome, come on in"
+          }
+        ]
+      },
+      {
+        "description": "Meeting at a restaurant",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Host",
+            "text": "I'm good, thanks, how about you?"
+          }
+        ]
+      }
+    ]
+  }
+}

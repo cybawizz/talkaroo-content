@@ -1,0 +1,172 @@
+{
+  "title": "Taking a call off hold",
+  "context": "Thank the person on the phone for waiting patiently on the line.",
+  "content": {
+    "bestLine": "Thank you for holding, I'm back on the line now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thanks for waiting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm back on the line now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for holding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the wait",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your patience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about the delay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for staying on the line",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, thanks for waiting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, I'm back now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for holding, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm back, let's chat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about that, I'm here now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for being patient",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the line now, what's up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, I'm back, let's talk",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you for holding, I'm back on the line",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the delay, I'm here now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your patience, I'm back now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm back on the line, how can I assist you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for waiting, I'm here to help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the wait, let's proceed",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for [options] on the line",
+        "options": [
+          "waiting",
+          "holding",
+          "staying"
+        ],
+        "meaning": "appreciation for the caller's patience"
+      },
+      {
+        "template": "I'm [options] now, let's [options]",
+        "options": [
+          "back",
+          "here"
+        ],
+        "meaning": "return to the conversation and proceed"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple apology and return to conversation",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Thank you for holding, I'm back on the line now"
+          },
+          {
+            "speaker": "Caller",
+            "text": "No problem, thanks for getting back to me"
+          }
+        ]
+      },
+      {
+        "description": "Formal return to conversation with assistance offer",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "I apologize for the delay, I'm here now. How can I assist you?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Thanks for getting back to me. I need help with my order"
+          }
+        ]
+      }
+    ]
+  }
+}

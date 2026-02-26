@@ -1,0 +1,173 @@
+{
+  "title": "Discussing remote work schedules",
+  "context": "Tell your boss that you are working from home today.",
+  "content": {
+    "bestLine": "I'm working from home today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm working remotely today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be at home today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Working from home today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm telecommuting today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "At home office today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Remote workday today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not coming into the office",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Working remotely this morning",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm WFH today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Working from my couch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "At home, working",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not in the office today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Telecommuting, yay!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Home office, here I am",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No commute for me today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just working from home",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will be working from home today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am scheduled to work remotely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My work arrangement today is remote",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will not be in the office today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am telecommuting as planned",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My work location today is my home office",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm working from [options] today",
+        "options": [
+          "home",
+          "my couch",
+          "the office"
+        ],
+        "meaning": "location of work"
+      },
+      {
+        "template": "My work arrangement is [options]",
+        "options": [
+          "remote",
+          "in the office",
+          "flexible"
+        ],
+        "meaning": "type of work arrangement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing the boss about remote work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "Hi, I just wanted to let you know I'm working from home today"
+          },
+          {
+            "speaker": "Boss",
+            "text": "Okay, thanks for letting me know. Do you have everything you need?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing remote work schedule",
+        "lines": [
+          {
+            "speaker": "Boss",
+            "text": "Will you be available for the meeting today?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, I'll be working from home and can join the meeting remotely"
+          }
+        ]
+      }
+    ]
+  }
+}

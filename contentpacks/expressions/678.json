@@ -1,0 +1,177 @@
+{
+  "title": "Discussing an upcoming video game release",
+  "context": "Express extreme excitement for a game launching next week.",
+  "content": {
+    "bestLine": "I'm beyond hyped for this game, it's going to be lit!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The new game is coming out next week",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to the game launch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game's release is highly anticipated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Next week can't come soon enough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game is going to be a game-changer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been waiting for this game for months",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game's trailer looks amazing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited to see the game's features",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so stoked for this game",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This game is going to be sick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been counting down the days",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The game's going to be a blast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hyped beyond belief",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This game is my most anticipated release",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to play all night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The game's community is going to be lit",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, this game is going to be fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed with this game",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The game's graphics are straight flames",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key excited for the game's release",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This game is the real MVP",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm deadass ready to play this game",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for this game",
+        "options": [
+          "hyped",
+          "stoked",
+          "excited"
+        ],
+        "meaning": "expressing enthusiasm"
+      },
+      {
+        "template": "This game is going to be [options]",
+        "options": [
+          "lit",
+          "sick",
+          "fire"
+        ],
+        "meaning": "expressing excitement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing the game launch",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm beyond hyped for this game, it's going to be lit!"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, right? I've been counting down the days"
+          }
+        ]
+      },
+      {
+        "description": "A group of friends reacting to the game's trailer",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Yaaas, this game is going to be fire"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I'm low-key obsessed with this game"
+          },
+          {
+            "speaker": "Friend 3",
+            "text": "The game's graphics are straight flames"
+          }
+        ]
+      }
+    ]
+  }
+}

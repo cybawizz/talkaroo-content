@@ -1,0 +1,158 @@
+{
+  "title": "Sending a direct message",
+  "context": "Privately message a colleague or friend on an online app.",
+  "content": {
+    "bestLine": "Hey, can we discuss this privately?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, need to talk to you about something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we chat privately for a minute?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to discuss this with you directly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's talk about this in a private message",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your thoughts on this privately?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question for you, can we chat privately?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to discuss something privately with you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up? Need to chat about something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we catch up privately for a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta ask you something, can we chat privately?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's talk about this in a DM",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your take on this? Want to discuss privately",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we chat about this privately for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need your input on something, can we talk privately?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate the opportunity to discuss this with you privately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could we schedule a private conversation to discuss this matter?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe it would be beneficial to discuss this privately with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a private meeting to discuss this topic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be possible to have a private conversation about this?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we [options] about this?",
+        "options": [
+          "talk",
+          "chat",
+          "discuss"
+        ],
+        "meaning": "requesting a private conversation"
+      },
+      {
+        "template": "I'd like to [options] with you about this",
+        "options": [
+          "talk",
+          "discuss",
+          "chat"
+        ],
+        "meaning": "initiating a private conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initiating a private conversation with a colleague",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can we discuss this privately?"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Sure, what's up?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a private conversation with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Want to discuss something privately with you"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Okay, what's going on?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Asking for a small drink of alcohol",
+  "context": "Order a short or small pour of strong liquor from the bartender.",
+  "content": {
+    "bestLine": "Can I get a shot of whiskey?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have a small vodka",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a short drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A small whiskey, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a tiny gin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pour me a small one?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a mini rum",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A small tequila, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hit me with a shot",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a tiny drink",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gimme a small whiskey",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a baby drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a wee dram",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pour me a short one, buddy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like a small cocktail",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a miniature liquor?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a small serving of whiskey",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide me with a small drink?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options] of [liquor]?",
+        "options": [
+          "small",
+          "short",
+          "tiny"
+        ],
+        "meaning": "Requesting a small amount of liquor"
+      },
+      {
+        "template": "I'll have a [options] [liquor]",
+        "options": [
+          "small",
+          "mini",
+          "wee"
+        ],
+        "meaning": "Ordering a small drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ordering a small drink at a bar",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a shot of whiskey?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "What kind would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for a small drink at a restaurant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a small vodka, please"
+          },
+          {
+            "speaker": "Server",
+            "text": "Would you like it with a mixer?"
+          }
+        ]
+      }
+    ]
+  }
+}

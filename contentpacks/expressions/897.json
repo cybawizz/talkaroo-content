@@ -1,0 +1,173 @@
+{
+  "title": "Paying a taxi fare",
+  "context": "Hand the driver cash and tell them to keep the change as a tip.",
+  "content": {
+    "bestLine": "Keep the change, thanks",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Here you go, keep the change",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the balance as a tip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can keep the remaining amount",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just keep the change, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The rest is for you, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Consider the change a tip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can have the remaining balance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it as a gratuity",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Keep the change, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just keep it, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The change is yours, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can have the tip",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it as a tip, cheers",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The remaining amount is for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Consider it a tip, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome to the change",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept the remaining amount as a gratuity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may keep the change as a tip",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The balance is for your services",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like you to have the remaining amount",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep the change as a gesture of appreciation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are welcome to the remaining balance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Keep [options] as a tip",
+        "options": [
+          "the change",
+          "it",
+          "the remaining amount"
+        ],
+        "meaning": "to give the driver a gratuity"
+      },
+      {
+        "template": "You can [options]",
+        "options": [
+          "keep the change",
+          "have the tip",
+          "accept the remaining amount"
+        ],
+        "meaning": "to offer the driver a tip"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Paying a taxi fare with a tip",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Here you go, keep the change"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Thank you, have a great day"
+          }
+        ]
+      },
+      {
+        "description": "Paying a taxi fare with a tip in a formal setting",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Please accept the remaining amount as a gratuity"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Thank you, sir. You're welcome"
+          }
+        ]
+      }
+    ]
+  }
+}

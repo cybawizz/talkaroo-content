@@ -1,0 +1,173 @@
+{
+  "title": "Advising the driver of a car",
+  "context": "Warn the driver about an upcoming turn or hazard on the road.",
+  "content": {
+    "bestLine": "Turn left up ahead",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Watch out for the turn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Upcoming turn ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn coming up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful, turn ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Left turn in a quarter mile",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn signal in 500 feet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Approaching a sharp turn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn warning, slow down",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, turn's coming up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn ahead, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Left turn, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Watch out, turn's near",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn's just ahead, slow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whoa, turn coming up fast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn signal, turn signal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it, turn ahead",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please be advised of the upcoming turn",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn approaching, please slow down",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Left turn ahead, proceed with caution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Attention driver, turn upcoming",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn warning, please be careful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Prepare to turn, signal ahead",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Turn [options] ahead",
+        "options": [
+          "left",
+          "right",
+          "upcoming"
+        ],
+        "meaning": "Warning of an upcoming turn"
+      },
+      {
+        "template": "Watch out for the [options]",
+        "options": [
+          "turn",
+          "hazard",
+          "intersection"
+        ],
+        "meaning": "General warning to the driver"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning the driver of an upcoming turn",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Turn left up ahead"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, thanks for the warning"
+          }
+        ]
+      },
+      {
+        "description": "Warning the driver of a hazard on the road",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Watch out for the pothole"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Got it, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

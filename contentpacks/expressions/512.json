@@ -1,0 +1,189 @@
+{
+  "title": "Complaining about a group project slacker",
+  "context": "Complain to the teacher that one student is doing zero work.",
+  "content": {
+    "bestLine": "One team member is not pulling their weight",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Not everyone is contributing equally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's an imbalance in the workload",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Some team members are not doing their part",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project is not being shared fairly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "One person is doing all the work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The team's efforts are not evenly distributed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone is slacking off in the group",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The group's progress is being hindered",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "One guy is totally slacking",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Someone's not doing their job",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got a freeloader in the group",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "One person is carrying the whole team",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not fair that one person is doing nothing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We need to get this person to contribute",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This person is holding us back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We can't let one person slack off",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "There is a lack of contribution from one team member",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The workload is not being shared equitably",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "One individual is not fulfilling their responsibilities",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The team's performance is being impacted by one person's lack of effort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential that all team members contribute to the project",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The team's success is being hindered by one person's inaction",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "One team member is [options]",
+        "options": [
+          "not pulling their weight",
+          "slacking off",
+          "not contributing"
+        ],
+        "meaning": "complaining about a group project slacker"
+      },
+      {
+        "template": "The team is being [options] by one person's [options]",
+        "options": [
+          "held back",
+          "impacted",
+          "affected"
+        ],
+        "meaning": "describing the effect of a slacker on the team"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to the teacher about a group project slacker",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Hi, I wanted to talk to you about our group project"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "What's going on?"
+          },
+          {
+            "speaker": "Student",
+            "text": "One of our team members is not doing any work"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "I see, let's discuss this further"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the issue with the slacker",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Hey, I wanted to talk to you about the project"
+          },
+          {
+            "speaker": "Slacker",
+            "text": "What's up?"
+          },
+          {
+            "speaker": "Student",
+            "text": "You're not doing any work, and it's not fair to the rest of us"
+          },
+          {
+            "speaker": "Slacker",
+            "text": "I'll try to do better"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "What to say to a smoker",
+  "context": "Politely ask someone to stop smoking near you.",
+  "content": {
+    "bestLine": "Could you please not smoke near me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd appreciate it if you didn't smoke here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refrain from smoking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to avoid smoke, could you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind not smoking near me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with smoke, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you smoke somewhere else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer it if you didn't smoke here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if you don't smoke now?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you not smoke right now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good if you don't smoke near me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take a smoke break elsewhere?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to quit, can you not smoke?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do me a solid and don't smoke here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a fan of smoke, can you stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you smoke outside or something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd really appreciate it if you didn't smoke",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you refrained from smoking",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please extinguish your cigarette?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must ask you to refrain from smoking in this area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's our policy to maintain a smoke-free environment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be grateful if you could smoke elsewhere",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be aware that smoking is not allowed here",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [option] smoke near me?",
+        "options": [
+          "please not",
+          "not"
+        ],
+        "meaning": "asking someone to stop smoking"
+      },
+      {
+        "template": "I'd [option] it if you didn't smoke here",
+        "options": [
+          "appreciate",
+          "prefer"
+        ],
+        "meaning": "requesting someone to refrain from smoking"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a stranger to stop smoking",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, could you please not smoke near me?"
+          },
+          {
+            "speaker": "Smoker",
+            "text": "Oh, sorry about that. I'll go smoke somewhere else"
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend to stop smoking",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you not smoke right now? I'm trying to avoid smoke"
+          },
+          {
+            "speaker": "Friend",
+            "text": "No problem, I'll take a break from smoking for a bit"
+          }
+        ]
+      }
+    ]
+  }
+}

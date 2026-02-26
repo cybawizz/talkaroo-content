@@ -1,0 +1,173 @@
+{
+  "title": "Describing a lack of work experience",
+  "context": "Admit in a professional setting that you are new to this field.",
+  "content": {
+    "bestLine": "I'm new to this field, but eager to learn",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't have much experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still learning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with this area",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking to gain experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a quick learner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited to start",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm open to new challenges",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm willing to learn",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm totally new to this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm still figuring things out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure what I'm doing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hoping to pick it up fast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to get up to speed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm learning as I go",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm doing my best",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm giving it a shot",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have limited experience in this field",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am eager to develop my skills",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking to expand my knowledge",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am committed to learning and growing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am excited to contribute to the team",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am confident in my ability to learn",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] to learn and grow",
+        "options": [
+          "am excited",
+          "am looking forward",
+          "am eager"
+        ],
+        "meaning": "expressing enthusiasm for learning"
+      },
+      {
+        "template": "I [options] experience in [field]",
+        "options": [
+          "have limited",
+          "am gaining",
+          "am developing"
+        ],
+        "meaning": "describing level of experience"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction to a new team",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Can you tell me about your experience in this field?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I'm new to this field, but I'm eager to learn and contribute to the team"
+          }
+        ]
+      },
+      {
+        "description": "Discussing career goals",
+        "lines": [
+          {
+            "speaker": "Mentor",
+            "text": "What are your long-term career goals?"
+          },
+          {
+            "speaker": "Mentee",
+            "text": "I'm looking to gain experience and develop my skills in this field, and eventually take on a leadership role"
+          }
+        ]
+      }
+    ]
+  }
+}

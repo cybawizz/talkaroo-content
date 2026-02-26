@@ -1,0 +1,215 @@
+{
+  "title": "Telling someone to keep out",
+  "context": "Command someone to stay away from an area or situation.",
+  "content": {
+    "bestLine": "Stay away from here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please keep out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay away from this area",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do not enter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your distance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Avoid this place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do not approach",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay back",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Get outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stay away, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't come back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep out, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't bother coming",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just leave",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Go away",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please refrain from entering",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are not permitted to enter",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep out of this area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do not attempt to enter",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Access is restricted",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bounce, dude",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Get lost",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Scram",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Take a hike",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Beat it",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Get out, now",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Leave, or else",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Don't make me tell you twice",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Just get out",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Stay [options] from [location]",
+        "options": [
+          "away",
+          "back",
+          "out"
+        ],
+        "meaning": "to keep someone from approaching or entering a place"
+      },
+      {
+        "template": "Do not [options] this [location]",
+        "options": [
+          "enter",
+          "approach",
+          "come near"
+        ],
+        "meaning": "to warn someone against entering or approaching a place"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Telling someone to stay away from a private area",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Stay away from my room"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Why, what's going on?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Just keep out, okay?"
+          }
+        ]
+      },
+      {
+        "description": "Warning someone against entering a restricted area",
+        "lines": [
+          {
+            "speaker": "Security Guard",
+            "text": "Do not enter this area, it's restricted"
+          },
+          {
+            "speaker": "Visitor",
+            "text": "But I need to get to the other side"
+          },
+          {
+            "speaker": "Security Guard",
+            "text": "I'm afraid that's not possible, please stay back"
+          }
+        ]
+      }
+    ]
+  }
+}

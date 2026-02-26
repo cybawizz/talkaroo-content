@@ -1,0 +1,131 @@
+{
+  "title": "Concerning payment of rent",
+  "context": "Firmly warn a tenant that their monthly payment is overdue.",
+  "content": {
+    "bestLine": "Your monthly rent is overdue, please settle immediately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Rent is overdue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Payment is past due",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your account is overdue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need payment now",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Rent payment is late",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please pay your rent",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your rent is overdue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Payment is required",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your rent payment is overdue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require immediate payment",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your account has an overdue balance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please settle your rent payment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Overdue rent payment noticed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Rent payment is now past due",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your [options] is overdue",
+        "options": [
+          "rent",
+          "payment",
+          "account"
+        ],
+        "meaning": "Notification of overdue payment"
+      },
+      {
+        "template": "We need [options] now",
+        "options": [
+          "payment",
+          "settlement",
+          "rent"
+        ],
+        "meaning": "Request for immediate payment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Landlord notifying tenant of overdue rent",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "Your rent is overdue, please settle immediately"
+          },
+          {
+            "speaker": "Tenant",
+            "text": "I apologize, I'll pay it today"
+          }
+        ]
+      },
+      {
+        "description": "Hotel management requesting payment from guest",
+        "lines": [
+          {
+            "speaker": "Hotel Manager",
+            "text": "Your account has an overdue balance, please pay now"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I was not aware, let me settle it now"
+          }
+        ]
+      }
+    ]
+  }
+}

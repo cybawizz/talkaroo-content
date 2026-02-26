@@ -1,0 +1,173 @@
+{
+  "title": "Requests made to a travel agent",
+  "context": "Tell your agent to book your hotel and flight for a vacation.",
+  "content": {
+    "bestLine": "Can you book my hotel and flight for vacation?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Book my hotel and flight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a hotel and flight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you arrange my travel?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Book a hotel and flight for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to book a trip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you book my vacation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Book my travel arrangements",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to book a hotel and flight",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, book my trip",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a hotel and flight?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Book it for me, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to book my travel",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Book my hotel and flight, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take care of my trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Book my vacation, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could book my travel",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to book a hotel and flight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please arrange my travel accommodations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a hotel and flight booking",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please book my trip?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to book a hotel and flight for my vacation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please book my travel arrangements",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you book my [options]?",
+        "options": [
+          "hotel and flight",
+          "trip",
+          "travel"
+        ],
+        "meaning": "requesting to book travel"
+      },
+      {
+        "template": "I need to book a [options] for my vacation",
+        "options": [
+          "hotel",
+          "flight",
+          "hotel and flight"
+        ],
+        "meaning": "requesting to book specific travel arrangements"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Booking a hotel and flight",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to book a hotel and flight for my vacation"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Sure, where are you traveling to and what are your dates?"
+          }
+        ]
+      },
+      {
+        "description": "Confirming travel arrangements",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you confirm my hotel and flight booking?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, I've booked your hotel and flight. I'll send you the details via email"
+          }
+        ]
+      }
+    ]
+  }
+}

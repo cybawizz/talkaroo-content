@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about a strict diet",
+  "context": "Complain how hard it is to avoid eating junk food.",
+  "content": {
+    "bestLine": "I'm so sick of avoiding junk food, it's killing me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's hard to resist junk food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling with my diet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eating healthy is a challenge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I miss eating whatever I want",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This diet is really tough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finding it hard to stick to it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Healthy food is not my favorite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I could eat junk food again",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ugh, I'm so over this diet",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dying for a burger and fries",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This diet is such a drag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with eating healthy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a junk food fix ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm craving something bad for me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This diet is ruining my life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want to eat what I want",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella hungry for some junk",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This diet is whack, yo",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key starving over here",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I need some grub that's not healthy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This diet is straight fire, but not in a good way",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key done with this diet",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for some junk food",
+        "options": [
+          "so down",
+          "really craving",
+          "totally in the mood for"
+        ],
+        "meaning": "expressing desire for junk food"
+      },
+      {
+        "template": "This diet is [options], I need a break",
+        "options": [
+          "killing me",
+          "driving me crazy",
+          "making me hungry"
+        ],
+        "meaning": "expressing frustration with the diet"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about the struggles of a strict diet",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sick of avoiding junk food, it's killing me"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, I'm struggling too. Let's find some healthy alternatives"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a family member about the diet",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, I'm so over this diet. I just want to eat what I want"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know it's tough, but you're doing great. Just a few more weeks"
+          }
+        ]
+      }
+    ]
+  }
+}

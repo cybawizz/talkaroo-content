@@ -1,0 +1,131 @@
+{
+  "title": "Offering merchandise to a customer",
+  "context": "Show a customer a specific product they might like.",
+  "content": {
+    "bestLine": "I think you might like this product",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This might interest you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a similar item",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You might like this one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me show you something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a popular choice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you'll like this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a great selection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a great option",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I recommend this product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This item is highly rated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may be interested in this",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a high-quality product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think this would suit you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a popular choice among our customers",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think you might like [options]",
+        "options": [
+          "this product",
+          "this item",
+          "something like this"
+        ],
+        "meaning": "showing a customer a product"
+      },
+      {
+        "template": "We have [options] that might interest you",
+        "options": [
+          "a similar item",
+          "a great selection",
+          "a high-quality product"
+        ],
+        "meaning": "offering a customer a product"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sales associate showing a customer a product",
+        "lines": [
+          {
+            "speaker": "Sales Associate",
+            "text": "I think you might like this product"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Oh, that looks great. What's the price?"
+          }
+        ]
+      },
+      {
+        "description": "Sales associate recommending a product to a customer",
+        "lines": [
+          {
+            "speaker": "Sales Associate",
+            "text": "I recommend this product. It's highly rated"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Okay, I'll take a look"
+          }
+        ]
+      }
+    ]
+  }
+}

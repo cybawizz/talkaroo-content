@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about a fast-food order",
+  "context": "Politely tell the employee that they gave you the wrong item.",
+  "content": {
+    "bestLine": "I think you gave me the wrong item",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This isn't what I ordered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's been a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get what I actually ordered?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This doesn't match my receipt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get this corrected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you double-check my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing an item from my order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This order is incorrect",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whoa, this isn't my food",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you messed up my order",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you fix this for me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is totally wrong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't order this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a redo on this order?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This isn't what I paid for",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me out with this order?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe there's been an error with my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please verify my order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could correct this",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It appears there's been a mistake with my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with this issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a correction to my order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I ordered [options], but got [options]",
+        "options": [
+          "burger",
+          "fries",
+          "salad"
+        ],
+        "meaning": "expressing disappointment with the order"
+      },
+      {
+        "template": "Can I get [options] instead of [options]?",
+        "options": [
+          "a refund",
+          "a new order",
+          "a correction"
+        ],
+        "meaning": "requesting a solution to the problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining about a wrong order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I think you gave me the wrong item"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the mistake, let me fix it for you"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for a correction",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you double-check my order?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, of course, let me verify it for you"
+          }
+        ]
+      }
+    ]
+  }
+}

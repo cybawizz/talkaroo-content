@@ -1,0 +1,173 @@
+{
+  "title": "Realizing a piece of furniture is backward",
+  "context": "Complain loudly after building a whole shelf the wrong way.",
+  "content": {
+    "bestLine": "I just built the whole shelf backwards!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is not what I planned",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I made a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The instructions were unclear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to start over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is frustrating",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I should have measured twice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Now I have to redo it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What a waste of time",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whoops, wrong way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm such a DIY disaster",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Back to the drawing board",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I messed up big time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a total fail",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Note to self: read instructions",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I guess I learned something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to start over, again",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella bad at this",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is whack",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so extra, I built it backwards",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What a major fail, bruh",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key annoyed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "High-key frustrated, though",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I just [options] the whole thing",
+        "options": [
+          "built",
+          "assembled",
+          "constructed"
+        ],
+        "meaning": "realizing a mistake"
+      },
+      {
+        "template": "This [options] is not what I wanted",
+        "options": [
+          "shelf",
+          "bookcase",
+          "table"
+        ],
+        "meaning": "expressing disappointment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about the mistake",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just built the whole shelf backwards!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What? How did you manage that?"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a family member",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm such a DIY disaster, I built the shelf wrong"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Well, at least you tried. Do you want some help fixing it?"
+          }
+        ]
+      }
+    ]
+  }
+}

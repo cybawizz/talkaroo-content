@@ -1,0 +1,236 @@
+{
+  "title": "Asking to be left alone",
+  "context": "Clearly command that a person walk away and stop talking to you.",
+  "content": {
+    "bestLine": "Please leave me alone.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a moment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to be alone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please give me some time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to focus",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you leave me be?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to concentrate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please don't disturb me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, leave me alone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you chill for a sec?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just give me a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm busy, can we talk later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please back off?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some me time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just leave me alone, okay?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate some privacy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please excuse me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require some solitude",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to be left alone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please do not disturb me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to focus on my work",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Ghost me for a bit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey leave me alone",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella busy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you dip for a sec?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to vibe alone",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Just peaced out for a bit",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Just leave me the hell alone",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get out of my face",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't want to talk to you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop bothering me",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm done talking to you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just shut up and leave me alone",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] for a bit?",
+        "options": [
+          "leave me alone",
+          "give me some space"
+        ],
+        "meaning": "asking for solitude"
+      },
+      {
+        "template": "I'm [options], can we talk later?",
+        "options": [
+          "busy",
+          "tired",
+          "focused"
+        ],
+        "meaning": "postponing conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to be left alone in a polite manner",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can I talk to you for a minute?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm trying to focus, can we talk later?"
+          }
+        ]
+      },
+      {
+        "description": "Asking to be left alone in a direct manner",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's up?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Just leave me alone, okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

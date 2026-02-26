@@ -1,0 +1,173 @@
+{
+  "title": "Placing a merchandise order over the telephone",
+  "context": "Tell a phone agent exactly what product you want to buy.",
+  "content": {
+    "bestLine": "I'd like to order the product number 1234, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get the product details?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price of this item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to purchase this product.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me more about this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much does it cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in buying this.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the product number?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to place an order.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get this thing?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with the price?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wanna buy this, how much?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with this product?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much is this gonna set me back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm down to buy this, what's the deal?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I cop this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to get this, can you help?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to proceed with the purchase.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide the product information?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in acquiring this product.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the total cost of the item?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could assist me with the order.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please confirm the product details?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to order [options].",
+        "options": [
+          "the product number 1234",
+          "this item",
+          "the merchandise"
+        ],
+        "meaning": "to place an order"
+      },
+      {
+        "template": "Can you tell me more about [options]?",
+        "options": [
+          "this product",
+          "the item",
+          "the merchandise"
+        ],
+        "meaning": "to request more information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A customer calls to place an order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to order the product number 1234."
+          },
+          {
+            "speaker": "Agent",
+            "text": "Okay, that's the blue shirt. Would you like to proceed with the purchase?"
+          }
+        ]
+      },
+      {
+        "description": "A customer inquires about a product before placing an order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you tell me more about this product?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Yes, it's a high-quality item. Would you like to place an order?"
+          }
+        ]
+      }
+    ]
+  }
+}

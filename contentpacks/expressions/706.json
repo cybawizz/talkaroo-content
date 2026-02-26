@@ -1,0 +1,161 @@
+{
+  "title": "A salesperson greeting a customer",
+  "context": "Say hello to a shopper walking into your retail store.",
+  "content": {
+    "bestLine": "Hello, welcome to our store",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what brings you in?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our store",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how can I help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, browse around",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, let me know if you need help",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, how's it going?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What brings you here today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, need any help?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, just browsing?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What can I help you find?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, welcome to the store",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good day, welcome to our store",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, please let me know if you need help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, welcome to our store",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm here to help you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, is there something I can help you find?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options] to our store",
+        "options": [
+          "welcome",
+          "thanks for coming"
+        ],
+        "meaning": "greeting"
+      },
+      {
+        "template": "Hi, [options] you need help?",
+        "options": [
+          "do",
+          "can I"
+        ],
+        "meaning": "offering assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Salesperson greeting a customer",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Hello, welcome to our store"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thanks, just looking around"
+          }
+        ]
+      },
+      {
+        "description": "Salesperson offering help",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Hi, how can I help you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a new phone"
+          }
+        ]
+      }
+    ]
+  }
+}

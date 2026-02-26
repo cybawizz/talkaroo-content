@@ -1,0 +1,121 @@
+{
+  "title": "An employee speaking to human resources",
+  "context": "Ask HR a question about your benefits or company rules.",
+  "content": {
+    "bestLine": "Can you explain my benefits package?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are my options for health insurance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I enroll in the company 401k?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What is the company policy on vacation time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me understand my pay structure?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I report a workplace incident?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the rules for remote work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a copy of the employee handbook?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate clarification on the company's benefits policy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with information on the employee assistance program?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in learning more about the company's professional development opportunities.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you explain the procedure for requesting a leave of absence?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the company's policy on employee conduct.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you explain [options]?",
+        "options": [
+          "my benefits package",
+          "the company policy on vacation time",
+          "the procedure for reporting a workplace incident"
+        ],
+        "meaning": "Requesting clarification on a specific topic"
+      },
+      {
+        "template": "How do I [options]?",
+        "options": [
+          "enroll in the company 401k",
+          "report a workplace incident",
+          "request a leave of absence"
+        ],
+        "meaning": "Requesting instructions on a specific process"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Employee inquiring about benefits",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "Hi, I'm trying to understand my benefits package. Can you explain it to me?"
+          },
+          {
+            "speaker": "HR",
+            "text": "Of course, let me walk you through the different options we offer."
+          }
+        ]
+      },
+      {
+        "description": "Employee asking about company policy",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "What is the company policy on vacation time?"
+          },
+          {
+            "speaker": "HR",
+            "text": "Our policy is outlined in the employee handbook, but I can give you a brief overview if you'd like."
+          }
+        ]
+      }
+    ]
+  }
+}

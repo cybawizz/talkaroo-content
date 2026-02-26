@@ -1,0 +1,173 @@
+{
+  "title": "Basic instructions to a cab driver",
+  "context": "Tell your taxi driver nicely to take you to a specific street address.",
+  "content": {
+    "bestLine": "Take me to 123 Main Street, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Take me to this address.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to go to 123 Main Street.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please drive me to this location.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My destination is 123 Main Street.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take me to this street address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to go to 123 Main Street, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take me to 123 Main Street, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stop is 123 Main Street.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you take me to 123 Main?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take me to Main Street, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm headed to 123 Main, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just take me to 123 Main, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "123 Main Street, that's my stop.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you drop me off at 123 Main?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take me to 123 Main, I'd appreciate it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a ride to 123 Main Street.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to go to 123 Main Street, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My destination is 123 Main Street, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please take me to 123 Main Street?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am headed to 123 Main Street, if you please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Take me to 123 Main Street, if you would.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could take me to 123 Main Street.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Take me to [location], please.",
+        "options": [
+          "123 Main Street",
+          "the airport",
+          "downtown"
+        ],
+        "meaning": "requesting a ride to a specific location"
+      },
+      {
+        "template": "I need to go to [location].",
+        "options": [
+          "123 Main Street",
+          "the bus station",
+          "the hotel"
+        ],
+        "meaning": "stating a need to travel to a specific location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Giving instructions to a cab driver",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Take me to 123 Main Street, please."
+          },
+          {
+            "speaker": "Driver",
+            "text": "Okay, that's just a few blocks away."
+          }
+        ]
+      },
+      {
+        "description": "Asking for confirmation",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Can you take me to 123 Main Street?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yes, I can take you there. It'll be about a 10-minute drive."
+          }
+        ]
+      }
+    ]
+  }
+}

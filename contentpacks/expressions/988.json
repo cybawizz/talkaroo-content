@@ -1,0 +1,131 @@
+{
+  "title": "Expressions heard in negotiating sessions",
+  "context": "Counter an offer and try to find a compromise during intense negotiations.",
+  "content": {
+    "bestLine": "Let's find a mutually beneficial compromise",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm open to alternatives",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the middle ground?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss further?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's explore options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm willing to listen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are your thoughts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find a balance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I propose a compromise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's review the terms",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suggest a modification",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can negotiate further",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend a revision",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's finalize the agreement",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] to reach an agreement",
+        "options": [
+          "compromise",
+          "negotiate",
+          "discuss"
+        ],
+        "meaning": "finding a mutually beneficial solution"
+      },
+      {
+        "template": "I'm [options] to [options]",
+        "options": [
+          "open",
+          "willing",
+          "happy"
+        ],
+        "meaning": "expressing willingness to cooperate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Negotiation session",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I'm open to alternatives"
+          },
+          {
+            "speaker": "Employee",
+            "text": "What's the middle ground?"
+          }
+        ]
+      },
+      {
+        "description": "Compromise discussion",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Let's find a mutually beneficial compromise"
+          },
+          {
+            "speaker": "Client",
+            "text": "I'm willing to listen"
+          }
+        ]
+      }
+    ]
+  }
+}

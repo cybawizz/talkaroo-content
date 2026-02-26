@@ -1,0 +1,121 @@
+{
+  "title": "A server seeking to be of further service",
+  "context": "Ask the table if they need anything else before you walk away.",
+  "content": {
+    "bestLine": "Can I get you anything else?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you need anything else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help with anything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can get for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything tasting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need any assistance?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I be of further assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything else I can provide?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer you anything additional?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I further assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything to your satisfaction?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options]?",
+        "options": [
+          "get you anything else",
+          "help with anything",
+          "get for you"
+        ],
+        "meaning": "Offering further assistance"
+      },
+      {
+        "template": "Is everything [options]?",
+        "options": [
+          "okay",
+          "to your liking",
+          "alright"
+        ],
+        "meaning": "Checking on the customer's experience"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Server checking in with the table",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Can I get you anything else?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, can we get the check please?"
+          }
+        ]
+      },
+      {
+        "description": "Server offering additional service",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Is there anything else I can provide?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "No, thank you. Everything was great."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Requesting a larger room at a hotel",
+  "context": "Ask if you can upgrade to a suite or a room with a better view.",
+  "content": {
+    "bestLine": "Can I upgrade to a suite or a room with a better view?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like a larger room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is a room upgrade available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a room with a better view?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in a suite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any larger rooms available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer a room with more space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you upgrade my room?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a bigger room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want a room with a sweet view",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a suite?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for a room that's a bit more luxurious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any rooms with a nicer view?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to upgrade my room",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a room that's more spacious?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request a room upgrade",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about available suites?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in a room with a superior view",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about the possibility of a room upgrade?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could upgrade my room",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] to a [options]?",
+        "options": [
+          "upgrade",
+          "move",
+          "switch"
+        ],
+        "meaning": "requesting a room change"
+      },
+      {
+        "template": "I'm looking for a room with a [options] view",
+        "options": [
+          "better",
+          "nicer",
+          "more beautiful"
+        ],
+        "meaning": "requesting a room with a specific view"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest requesting a room upgrade",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, I'd like to request a room upgrade"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "Let me check what's available. What type of room are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Guest inquiring about available suites",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Do you have any suites available?"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "Yes, we have a few suites available. Would you like me to show you the options?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Expressing general feelings of illness",
+  "context": "Tell someone that you generally feel sick and under the weather.",
+  "content": {
+    "bestLine": "I'm not feeling well today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm under the weather",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling my best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a bit off today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling unwell",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling sick",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not up to par",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling poorly",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm feeling pretty crummy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of commission today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling like myself",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm under the weather, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling meh today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not 100% today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling kinda sick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a rough day",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am currently unwell",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing health issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling well enough to work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am under doctor's care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not at full capacity today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing some health concerns",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm feeling [options] today",
+        "options": [
+          "sick",
+          "unwell",
+          "under the weather"
+        ],
+        "meaning": "expressing general illness"
+      },
+      {
+        "template": "I'm [options] and need to rest",
+        "options": [
+          "not feeling well",
+          "feeling unwell",
+          "under the weather"
+        ],
+        "meaning": "expressing need for rest due to illness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "telling a friend about illness",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, I'm not feeling well today"
+          },
+          {
+            "speaker": "B",
+            "text": "Sorry to hear that, what's wrong?"
+          }
+        ]
+      },
+      {
+        "description": "informing a boss about illness",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I am currently unwell and won't be able to come to work today"
+          },
+          {
+            "speaker": "B",
+            "text": "Okay, take care of yourself and let me know when you're feeling better"
+          }
+        ]
+      }
+    ]
+  }
+}

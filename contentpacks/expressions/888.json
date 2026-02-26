@@ -1,0 +1,173 @@
+{
+  "title": "Giving instructions to bus passengers",
+  "context": "Tell all passengers to move toward the back of the crowded bus.",
+  "content": {
+    "bestLine": "Please move to the back of the bus",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Move to the back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please move back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go to the rear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shift to the back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make room up front",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Move towards the back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please move towards the rear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go towards the back of the bus",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, move back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you move to the back?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Scooch to the back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Move it to the back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get to the back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Head to the rear",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Move on back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go on to the back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please proceed to the rear",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Kindly move to the back",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We ask that you move to the back",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please move to the rear of the bus",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is necessary to move to the back",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please relocate to the back",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please move to the [options]",
+        "options": [
+          "back",
+          "rear",
+          "back of the bus"
+        ],
+        "meaning": "request to move"
+      },
+      {
+        "template": "Can you [options] to the back?",
+        "options": [
+          "move",
+          "go",
+          "head"
+        ],
+        "meaning": "polite request to move"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Bus driver instructing passengers",
+        "lines": [
+          {
+            "speaker": "Bus Driver",
+            "text": "Please move to the back of the bus"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "Okay, sorry about that"
+          }
+        ]
+      },
+      {
+        "description": "Passenger asking for clarification",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Where should we move to?"
+          },
+          {
+            "speaker": "Bus Driver",
+            "text": "Please move to the rear of the bus"
+          }
+        ]
+      }
+    ]
+  }
+}

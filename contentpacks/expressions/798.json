@@ -1,0 +1,158 @@
+{
+  "title": "Stating that you are hungry",
+  "context": "Tell your family that you are starving and need food.",
+  "content": {
+    "bestLine": "I'm starving, can we eat?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm hungry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we have dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready for a meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have a bite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I could eat something",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so hungry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we grab some food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm famished",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's chow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starving over here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's for dinner?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dying of hunger",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella hungry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this food",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key starving",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Where's the grub?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hangry",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] hungry",
+        "options": [
+          "so",
+          "really",
+          "incredibly"
+        ],
+        "meaning": "expressing hunger"
+      },
+      {
+        "template": "Can we [options] food?",
+        "options": [
+          "get",
+          "grab",
+          "have"
+        ],
+        "meaning": "requesting food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family dinner conversation",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "I'm starving, can we eat?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Yes, let's get dinner ready"
+          }
+        ]
+      },
+      {
+        "description": "Informal family conversation",
+        "lines": [
+          {
+            "speaker": "Teen",
+            "text": "I'm so hungry, what's for dinner?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "We're having pizza, let's order"
+          }
+        ]
+      }
+    ]
+  }
+}

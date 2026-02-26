@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor about stomach problems",
+  "context": "Discuss digestive issues and pain in your stomach area.",
+  "content": {
+    "bestLine": "I've been having some stomach pain and digestive issues.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have stomach pain",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach hurts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing digestive issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach is upset",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a stomach ache",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling nauseous",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach is cramping",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have diarrhea",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My stomach is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a bad stomach",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having some tummy trouble",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My gut is messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got the stomach flu",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling queasy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My stomach is doing flips",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a stomach bug",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing gastrointestinal discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a stomach condition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My digestive system is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am suffering from stomach pain",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a gastrointestinal issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My stomach is experiencing cramps",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My stomach [options] when I eat [options]",
+        "options": [
+          "hurts",
+          "gets upset",
+          "cramps"
+        ],
+        "meaning": "describing stomach problems"
+      },
+      {
+        "template": "I've been having [options] stomach issues",
+        "options": [
+          "some",
+          "severe",
+          "mild"
+        ],
+        "meaning": "describing stomach problems"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient describing stomach problems to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been having some stomach pain and digestive issues."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me more about your symptoms?"
+          }
+        ]
+      },
+      {
+        "description": "Patient discussing stomach problems with a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "My stomach hurts when I eat spicy food."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Have you tried taking any medication for your symptoms?"
+          }
+        ]
+      }
+    ]
+  }
+}

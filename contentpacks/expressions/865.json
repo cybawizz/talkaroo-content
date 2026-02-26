@@ -1,0 +1,173 @@
+{
+  "title": "Asking about a long bus trip",
+  "context": "Ask the driver when the bus will make a designated rest stop.",
+  "content": {
+    "bestLine": "When's the next rest stop?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How long until the next stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do we stop for a break?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are we close to a rest stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer until we stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When's the next scheduled stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me when we'll stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How soon will we arrive at a rest stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When is our next break?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, when's our next stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer 'til we stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do we get a break?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are we almost at a rest stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's the next time we can get off?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How soon can we stretch our legs?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's our next pit stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you let me know when we'll stop next?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me of the next scheduled stop?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "When might we expect to arrive at a rest stop?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate knowing when the next stop will be.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me when we will be stopping next?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "When is the next designated rest stop?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the estimated time of our next stop.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "When's the next [options] stop?",
+        "options": [
+          "rest",
+          "food",
+          "bathroom"
+        ],
+        "meaning": "Asking about the next stop for a specific purpose"
+      },
+      {
+        "template": "How long until we [options]?",
+        "options": [
+          "stop",
+          "arrive",
+          "get off"
+        ],
+        "meaning": "Asking about the duration until the next stop or arrival"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asking the driver about the next rest stop",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, when's the next rest stop?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "We'll be stopping in about an hour at a rest stop."
+          }
+        ]
+      },
+      {
+        "description": "Passenger inquiring about the next stop to stretch their legs",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hey, how much longer 'til we stop?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "We've got about 30 minutes until our next stop. You can stretch your legs then."
+          }
+        ]
+      }
+    ]
+  }
+}

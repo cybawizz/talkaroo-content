@@ -1,0 +1,180 @@
+{
+  "title": "Reporting a minor trail injury",
+  "context": "Tell your hiking partner that you twisted your ankle on a rock.",
+  "content": {
+    "bestLine": "I twisted my ankle on a rock",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think I twisted my ankle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle is hurt from a rock",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I slipped on a rock and hurt my ankle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle is injured from a trail accident",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my ankle injury",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble walking due to an ankle injury",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I need to rest my ankle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle is swollen from a fall",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I just rolled my ankle on a rock",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle is messed up from hiking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I tweaked my ankle on the trail",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, just a minor ankle sprain",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think I need to ice my ankle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That rock just got the best of my ankle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm limping because of a stupid rock",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle is throbbing from the hike",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have sustained an ankle injury on the trail",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle has been injured due to a rock",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with my ankle injury",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing ankle pain from a hiking accident",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report an ankle injury from the trail",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My ankle injury requires medical attention",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [injured/hurt/twisted] my ankle on a [rock/stone]",
+        "options": [
+          "injured",
+          "hurt",
+          "twisted",
+          "rock",
+          "stone"
+        ],
+        "meaning": "reporting a minor trail injury"
+      },
+      {
+        "template": "My ankle is [sore/injured/hurt] from a [fall/trip/slip] on the [trail/path]",
+        "options": [
+          "sore",
+          "injured",
+          "hurt",
+          "fall",
+          "trip",
+          "slip",
+          "trail",
+          "path"
+        ],
+        "meaning": "describing the injury"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting an ankle injury to a hiking partner",
+        "lines": [
+          {
+            "speaker": "Hiker 1",
+            "text": "I think I twisted my ankle on a rock"
+          },
+          {
+            "speaker": "Hiker 2",
+            "text": "Oh no, are you okay? Do you need help?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the injury and next steps",
+        "lines": [
+          {
+            "speaker": "Hiker 1",
+            "text": "I'm good, just a minor ankle sprain"
+          },
+          {
+            "speaker": "Hiker 2",
+            "text": "Let's take a break and ice it. We can head back if it gets worse"
+          }
+        ]
+      }
+    ]
+  }
+}

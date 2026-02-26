@@ -1,0 +1,133 @@
+{
+  "title": "Concerning food allergies",
+  "context": "Warn the server that you will get sick if you eat a certain ingredient.",
+  "content": {
+    "bestLine": "I'm allergic to nuts, can you ensure they're not in my meal?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have a food allergy, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does this dish contain any common allergens?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to avoid gluten, what options do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check if this meal contains soy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm allergic to shellfish, is it in this dish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any nut-free options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a dairy allergy, what can I order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you ask the chef about cross-contamination?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inform you of a severe food allergy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please confirm the ingredients in this dish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a meal that is free from gluten and nuts.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could check with the chef about food allergies.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a protocol in place for handling food allergies?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to ensure that my meal is prepared in a dedicated area.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I am allergic to [options], can you accommodate me?",
+        "options": [
+          "nuts",
+          "gluten",
+          "shellfish",
+          "soy",
+          "dairy"
+        ],
+        "meaning": "Warning about a specific allergy"
+      },
+      {
+        "template": "Can you ensure that my meal is free from [options]?",
+        "options": [
+          "common allergens",
+          "cross-contamination",
+          "specific ingredients"
+        ],
+        "meaning": "Requesting assurance about meal safety"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing the server about a food allergy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm allergic to nuts, can you ensure they're not in my meal?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, let me check with the chef. We can prepare a nut-free option for you."
+          }
+        ]
+      },
+      {
+        "description": "Asking about food allergy protocols",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have a protocol in place for handling food allergies?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we take food allergies very seriously. We have a dedicated area for preparing meals for customers with allergies."
+          }
+        ]
+      }
+    ]
+  }
+}

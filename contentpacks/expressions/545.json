@@ -1,0 +1,173 @@
+{
+  "title": "Missing items in an app delivery",
+  "context": "Report that the driver forgot your drink or a side dish.",
+  "content": {
+    "bestLine": "The driver forgot my drink",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My order is missing a side dish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't get my drink with the delivery",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The driver left out part of my order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My food is incomplete",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm missing an item from my order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The delivery didn't include my full order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Part of my meal is missing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't receive my entire order",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, my drink is missing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got my food, but no drink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My order is messed up, no side dish",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Where's my drink, man?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm still waiting on part of my order",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This isn't what I ordered, missing stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get my missing item, please?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My food is incomplete, what's going on?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've noticed my order is incomplete",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The delivery driver omitted part of my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid my meal is missing a crucial item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with a missing item from my order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It appears my order was not fulfilled completely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate help with my incomplete order",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [driver/company] forgot my [item]",
+        "options": [
+          "drink",
+          "side dish",
+          "dessert"
+        ],
+        "meaning": "reporting a missing item"
+      },
+      {
+        "template": "I'm missing [item] from my [order/meal]",
+        "options": [
+          "drink",
+          "side dish",
+          "main course"
+        ],
+        "meaning": "reporting an incomplete order"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer reporting a missing item to the delivery driver",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I think you forgot my drink"
+          },
+          {
+            "speaker": "Driver",
+            "text": "I apologize, let me check the order"
+          }
+        ]
+      },
+      {
+        "description": "Customer complaining about a missing item to the restaurant staff",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I didn't get my side dish with my order"
+          },
+          {
+            "speaker": "Staff",
+            "text": "I'm sorry to hear that, let me see what we can do"
+          }
+        ]
+      }
+    ]
+  }
+}

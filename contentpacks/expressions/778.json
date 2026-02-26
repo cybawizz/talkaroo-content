@@ -1,0 +1,173 @@
+{
+  "title": "Ordering a drink at a bakery",
+  "context": "Ask the bakery employee for coffee or a beverage.",
+  "content": {
+    "bestLine": "Can I get a coffee, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have a coffee",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of coffee do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like a latte",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have tea?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your specialty drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try a cappuccino",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good to drink here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a coffee",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any iced coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a coffee to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best drink you have?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a coffee, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any flavored lattes?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a coffee",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a beverage?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What coffee options do you offer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a cup of coffee",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you serve tea or coffee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a coffee, black",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "coffee",
+          "latte",
+          "tea"
+        ],
+        "meaning": "requesting a drink"
+      },
+      {
+        "template": "I'll have a [options]",
+        "options": [
+          "coffee",
+          "cappuccino",
+          "mocha"
+        ],
+        "meaning": "ordering a specific drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a coffee",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can I get a coffee?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "What kind of coffee would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for recommendations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's your specialty drink?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Our most popular drink is the caramel latte"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "Placing an order for fast food",
+  "context": "Tell the cashier exactly what meal you want to buy.",
+  "content": {
+    "bestLine": "I'll have a number one combo, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll take a burger and fries.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a chicken sandwich?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a salad.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special of the day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a drink and a sandwich.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a meal with no pickles?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any vegetarian options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a large order of fries.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a burger?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starving, give me a combo.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a number one, duh.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a sandwich to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have what he's having.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a large, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a hurry, just a drink.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to place an order, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I please have the daily special?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have the grilled chicken sandwich.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a meal with no sauce?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order for takeout, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any gluten-free options?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [options] combo.",
+        "options": [
+          "number one",
+          "number two",
+          "number three"
+        ],
+        "meaning": "ordering a meal combo"
+      },
+      {
+        "template": "Can I get a [options] with [options]?",
+        "options": [
+          "burger",
+          "sandwich",
+          "salad",
+          "fries",
+          "drink",
+          "no pickles",
+          "no sauce"
+        ],
+        "meaning": "customizing an order"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a meal",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a number one combo, please."
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Would you like to try our special sauce?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for modifications",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a burger with no pickles?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Sure, I can modify that for you."
+          }
+        ]
+      }
+    ]
+  }
+}

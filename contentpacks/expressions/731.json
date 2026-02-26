@@ -1,0 +1,173 @@
+{
+  "title": "Setting up a budget spreadsheet",
+  "context": "Talk about finally saving money and tracking your expenses.",
+  "content": {
+    "bestLine": "I'm finally saving money and tracking my expenses",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've got a budget plan",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tracking expenses is key",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Saving money feels great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Budgeting is a must",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on top of my finances",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Expense tracking is easy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Budgeting is simple",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm saving for the future",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm crushing my budget",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Saving money is a breeze",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got my finances in check",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Budgeting is a game changer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm killing it with my budget",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Tracking expenses is a no brainer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm finally getting ahead",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Budgeting is my jam",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've established a budget plan",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Expense tracking is a priority",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Saving money is a long term goal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Budgeting is a financial necessity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to financial stability",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Budgeting is a responsible decision",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with my budget",
+        "options": [
+          "crushing",
+          "killing it",
+          "on top of"
+        ],
+        "meaning": "doing well with budgeting"
+      },
+      {
+        "template": "Budgeting is [options]",
+        "options": [
+          "a game changer",
+          "a must",
+          "simple"
+        ],
+        "meaning": "budgeting is beneficial or easy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend discussing budgeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I've finally started tracking my expenses"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's great! I've been doing that for years, it's really helped me save money"
+          }
+        ]
+      },
+      {
+        "description": "Coworker discussing budgeting",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I'm trying to get my finances in order"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I recommend making a budget plan, it's really helped me prioritize my spending"
+          }
+        ]
+      }
+    ]
+  }
+}

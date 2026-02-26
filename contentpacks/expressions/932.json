@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor about vomiting",
+  "context": "Explain that you have been throwing up and cannot keep food down.",
+  "content": {
+    "bestLine": "I've been throwing up and can't keep food down.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've been vomiting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble keeping food down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been feeling nauseous and throwing up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing vomiting and can't eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been sick to my stomach and vomiting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a hard time keeping liquids down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been throwing up and feel weak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not able to keep food in my stomach",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've been puking all morning",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so nauseous I can barely eat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been throwing up like crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling really sick to my stomach",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been vomiting nonstop",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having the worst time keeping food down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so queasy I can barely stand up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been barfing all day",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing persistent vomiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty retaining food and liquids",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been suffering from severe nausea and vomiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing gastrointestinal distress and vomiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unable to maintain adequate nutrition due to vomiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been experiencing recurrent episodes of vomiting",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been [options] and can't keep food down",
+        "options": [
+          "throwing up",
+          "vomiting",
+          "feeling nauseous"
+        ],
+        "meaning": "explaining vomiting to the doctor"
+      },
+      {
+        "template": "I'm having trouble [options] due to vomiting",
+        "options": [
+          "eating",
+          "drinking",
+          "keeping food down"
+        ],
+        "meaning": "describing the effects of vomiting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient explaining vomiting to the doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been throwing up and can't keep food down."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "How long have you been experiencing this?"
+          }
+        ]
+      },
+      {
+        "description": "Patient discussing vomiting with the doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been feeling really sick to my stomach and vomiting."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Have you tried taking any medication or drinking plenty of fluids?"
+          }
+        ]
+      }
+    ]
+  }
+}

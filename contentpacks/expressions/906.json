@@ -1,0 +1,204 @@
+{
+  "title": "Running out of gasoline",
+  "context": "Panic or complain because the car tank is completely empty.",
+  "content": {
+    "bestLine": "We're out of gas, this is not good",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The tank is empty",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to refuel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The car won't start",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're out of fuel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The gas light is on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should have stopped earlier",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is not what we needed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The car is not moving",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're out of gas, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I forgot to fill up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is so frustrating",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should have checked the gauge",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Now we're stuck",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm such an idiot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to find a gas station",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a disaster",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The vehicle has run out of fuel",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require immediate refueling",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The fuel gauge indicates an empty tank",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must locate a nearby gas station",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This situation is unfortunate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should have planned our route better",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "We're on fumes, bro",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with this car",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We're ghosting on gas",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This ride is a lost cause",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We need a fill-up, ASAP",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hella frustrated",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We're out of [options]",
+        "options": [
+          "gas",
+          "fuel",
+          "petrol"
+        ],
+        "meaning": "The car has no more fuel"
+      },
+      {
+        "template": "The [options] is on",
+        "options": [
+          "gas light",
+          "fuel warning"
+        ],
+        "meaning": "The car is indicating it needs fuel"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Driver and passenger discussing the empty tank",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "We're out of gas, this is not good"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "How did you not notice the gas light?"
+          }
+        ]
+      },
+      {
+        "description": "Two friends trying to find a solution",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "We need to find a gas station, pronto"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I think I saw one a few miles back, let's go"
+          }
+        ]
+      }
+    ]
+  }
+}

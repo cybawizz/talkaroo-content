@@ -1,0 +1,173 @@
+{
+  "title": "Asking about office amenities",
+  "context": "Ask the community manager where the free coffee or printer is located.",
+  "content": {
+    "bestLine": "Where is the free coffee?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where is the coffee machine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the printer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What amenities are available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the break room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a copier I can use?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the office supplies?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about the office amenities?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where is the free coffee located?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's the coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a printer I can use?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with the break room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the best place to grab a cup of coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point me to the copier?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you guys keep the office supplies?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of amenities do you have here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a fridge I can use?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please direct me to the coffee machine?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know where the printer is located.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What office amenities are available to me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you show me where the break room is?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about the office supplies.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the copier and other office equipment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where is the [options]?",
+        "options": [
+          "coffee",
+          "printer",
+          "break room"
+        ],
+        "meaning": "asking about office amenities"
+      },
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "show me the printer",
+          "tell me about the office supplies",
+          "direct me to the coffee machine"
+        ],
+        "meaning": "requesting information or assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the community manager about office amenities",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, where is the free coffee?"
+          },
+          {
+            "speaker": "Community Manager",
+            "text": "The coffee machine is in the break room, down the hall to your left."
+          }
+        ]
+      },
+      {
+        "description": "Requesting information about office equipment",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, where can I find the printer?"
+          },
+          {
+            "speaker": "Community Manager",
+            "text": "The printer is in the office supply room, next to the copier."
+          }
+        ]
+      }
+    ]
+  }
+}

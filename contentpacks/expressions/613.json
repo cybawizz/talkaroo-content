@@ -1,0 +1,173 @@
+{
+  "title": "When supplies run out at a grocery store",
+  "context": "Complain or ask about an item that is out of stock.",
+  "content": {
+    "bestLine": "Do you have any more of this in stock?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm looking for this item",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this out of stock?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a restock date?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I find this elsewhere?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need this for a recipe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be getting more soon?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check in the back?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to purchase this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, you guys out of this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Any chance you'll get more?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really craving this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any alternatives?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been looking everywhere",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You should really restock this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so disappointed it's out",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about availability",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please check the stockroom?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of this product",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you anticipate a restock soon?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate assistance finding this",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a substitute product available?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for [options]",
+        "options": [
+          "milk",
+          "eggs",
+          "bread"
+        ],
+        "meaning": "requesting a specific product"
+      },
+      {
+        "template": "Do you have any [options]?",
+        "options": [
+          "more of this",
+          "a similar product",
+          "an alternative"
+        ],
+        "meaning": "inquiring about availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about out-of-stock item",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, do you have any more of this in stock?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Let me check in the back. Unfortunately, we're currently out of stock."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting assistance finding a product",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for this type of cereal. Can you help me find it?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "We're currently out of that specific type, but we have a similar one on aisle 3."
+          }
+        ]
+      }
+    ]
+  }
+}

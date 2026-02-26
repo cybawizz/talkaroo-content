@@ -1,0 +1,261 @@
+{
+  "title": "Arguing with an automated phone bot",
+  "context": "Scream repeatedly that you want to talk to a real human being.",
+  "content": {
+    "bestLine": "I want to talk to a real human being now!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to speak with a human",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I talk to a person?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to speak with a representative",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need human assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you transfer me to a person?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to talk to someone who can help me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with the automated system",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer to speak with a human being",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I just talk to a real person?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so sick of this automated stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please just transfer me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to talk to someone who cares",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This bot is not helping me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want to talk to a human, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a real person on the phone?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm done with this automated nonsense",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "I demand to speak with a human now",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This bot is useless, give me a person",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't have time for this automated crap",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just transfer me to a human already",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not going to deal with this bot anymore",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Give me a real person or I'll hang up",
+          "register": "rude",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Can I get a human on the line, ASAP?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This bot is whack, give me a real person",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key done with this automated stuff",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a human?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a human, stat",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This bot is hella annoying, give me a person",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, another automated message, just what I needed",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Wow, this bot is so helpful, said no one ever",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so glad I got to talk to a robot, it's been a dream of mine",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I just talk to a human, or is that too much to ask?",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "This bot is amazing, can I give it a prize?",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving this automated experience, can I do it again?",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I want to talk to a [options] human",
+        "options": [
+          "real",
+          "actual",
+          "live"
+        ],
+        "meaning": "request to speak with a human"
+      },
+      {
+        "template": "Can I [options] speak with a person?",
+        "options": [
+          "please",
+          "just",
+          "now"
+        ],
+        "meaning": "request to speak with a human"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Frustrated customer",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I want to talk to a real human being now!"
+          },
+          {
+            "speaker": "Bot",
+            "text": "I apologize, but I'm here to help you with your issue"
+          },
+          {
+            "speaker": "Customer",
+            "text": "No, I don't want to talk to a bot, I want a human"
+          },
+          {
+            "speaker": "Bot",
+            "text": "I understand, but please let me try to assist you"
+          },
+          {
+            "speaker": "Customer",
+            "text": "No, just transfer me to a human already"
+          }
+        ]
+      },
+      {
+        "description": "Sarcastic customer",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Oh great, another automated message, just what I needed"
+          },
+          {
+            "speaker": "Bot",
+            "text": "Hello, how can I assist you today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Wow, this bot is so helpful, said no one ever"
+          },
+          {
+            "speaker": "Bot",
+            "text": "I apologize if I'm not meeting your expectations"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can I just talk to a human, or is that too much to ask?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "General banking matters",
+  "context": "Discuss opening an account or checking your balance.",
+  "content": {
+    "bestLine": "How can I help you with your account today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to open an account",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I check my balance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the account options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to deposit a check",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the fees?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to transfer money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's my account status?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a statement?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I open an account?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's my balance look like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to put some cash in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with a transfer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with the fees?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to keep my account active",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some account info?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna make a deposit",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to establish a new account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide my current balance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a transaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you explain the account terms?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to conduct a financial transaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide my account statement",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] my account",
+        "options": [
+          "open",
+          "check",
+          "update"
+        ],
+        "meaning": "customer request"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "a transfer",
+          "a deposit",
+          "my balance"
+        ],
+        "meaning": "customer inquiry"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer opens a new account",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to open a new account"
+          },
+          {
+            "speaker": "Banker",
+            "text": "Okay, let's get started with the application process"
+          }
+        ]
+      },
+      {
+        "description": "Customer checks account balance",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can I check my account balance?"
+          },
+          {
+            "speaker": "Banker",
+            "text": "Sure, let me just check that for you"
+          }
+        ]
+      }
+    ]
+  }
+}

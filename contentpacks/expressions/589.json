@@ -1,0 +1,173 @@
+{
+  "title": "Describing problems with a pay telephone",
+  "context": "Complain that a public phone swallowed your coins without connecting.",
+  "content": {
+    "bestLine": "This phone just ate my coins without connecting",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The phone took my money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I put in coins, but it didn't work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The payphone isn't working properly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with this public phone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The phone swallowed my coins",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This payphone is not functioning correctly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I inserted coins, but it didn't connect",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The phone is not giving me a dial tone",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This phone is a total rip-off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just got scammed by this payphone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What a waste of money, this phone doesn't work",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so frustrated with this phone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This payphone is a piece of junk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I put in coins and nothing happened",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This phone is such a hassle",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm never using this payphone again",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing difficulties with this public telephone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The payphone appears to be malfunctioning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have inserted coins, but the phone is not connecting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This payphone seems to be out of order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report a problem with this public phone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The phone is not functioning as expected",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This phone [options] my coins",
+        "options": [
+          "ate",
+          "swallowed",
+          "took"
+        ],
+        "meaning": "The phone took the speaker's money without connecting"
+      },
+      {
+        "template": "I [options] to get this phone to work",
+        "options": [
+          "tried",
+          "attempted",
+          "had trouble"
+        ],
+        "meaning": "The speaker had difficulty using the phone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A person complaining to a customer service representative about a payphone",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm having trouble with a payphone. It took my coins without connecting"
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize for the inconvenience. Can you please provide the location of the payphone?"
+          }
+        ]
+      },
+      {
+        "description": "A person talking to a friend about their experience with a payphone",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "I just got ripped off by a payphone. It ate my coins and didn't even connect"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's so frustrating. You should report it to the phone company"
+          }
+        ]
+      }
+    ]
+  }
+}

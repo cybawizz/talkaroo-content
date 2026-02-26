@@ -1,0 +1,171 @@
+{
+  "title": "Tire problems",
+  "context": "Explain that the car has a flat tire and needs a replacement.",
+  "content": {
+    "bestLine": "The car has a flat tire and needs a replacement",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The tire is flat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need a new tire",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The car has a flat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tire replacement is needed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicle has a flat tire",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a tire issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The tire is damaged",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A new tire is required",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We've got a flat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The tire's busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to change the tire",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The car's got a flat tire",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got a tire problem",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The tire's gone flat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need a spare",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The tire's shot",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The vehicle requires a tire replacement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are experiencing a tire malfunction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A tire issue has been identified",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The car is in need of a new tire",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Tire replacement is necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicle has suffered a tire failure",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] tire is flat",
+        "options": [
+          "car",
+          "vehicle"
+        ],
+        "meaning": "The tire of the car or vehicle is flat"
+      },
+      {
+        "template": "We need to [options] the tire",
+        "options": [
+          "change",
+          "replace"
+        ],
+        "meaning": "We need to change or replace the tire"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Driver informing passenger of tire issue",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "We've got a flat tire"
+          },
+          {
+            "speaker": "Passenger",
+            "text": "What do we do now?"
+          }
+        ]
+      },
+      {
+        "description": "Mechanic explaining tire problem to customer",
+        "lines": [
+          {
+            "speaker": "Mechanic",
+            "text": "The vehicle requires a tire replacement"
+          },
+          {
+            "speaker": "Customer",
+            "text": "How much will it cost?"
+          }
+        ]
+      }
+    ]
+  }
+}

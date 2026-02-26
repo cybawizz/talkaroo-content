@@ -1,0 +1,173 @@
+{
+  "title": "Asking for a carpool",
+  "context": "Ask a coworker if you can ride together to save money on gas.",
+  "content": {
+    "bestLine": "Want to carpool to work and split gas costs?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can we carpool to work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to ride together to work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We could carpool and save on gas.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to carpool with me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's carpool to work and reduce expenses.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is carpooling to work an option for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We could split gas costs if we carpool.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Carpooling could be a great way to save money.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, want to ride to work together?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should totally carpool to work!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You wanna carpool and save some cash?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's grab a ride to work together!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We could be carpool buddies!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ride with me to work and we'll split gas?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Carpooling would be so much more fun with you!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to team up for the commute?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if we could arrange a carpool to work.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be interested in carpooling to the office?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Carpooling could be a beneficial arrangement for both of us.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose we explore the option of carpooling to work.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you're willing, we could discuss a carpooling schedule.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Carpooling would be a prudent decision, considering the costs.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options] to work?",
+        "options": [
+          "carpool",
+          "ride together",
+          "split a ride"
+        ],
+        "meaning": "Asking someone to share a commute"
+      },
+      {
+        "template": "We could [options] and save money.",
+        "options": [
+          "carpool",
+          "ride together",
+          "share a commute"
+        ],
+        "meaning": "Suggesting a shared commute for financial benefits"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworkers discussing carpooling",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, want to ride to work together?"
+          },
+          {
+            "speaker": "Emily",
+            "text": "That sounds like a great idea. I've been looking for ways to save on gas."
+          }
+        ]
+      },
+      {
+        "description": "Colleagues arranging a carpool",
+        "lines": [
+          {
+            "speaker": "Michael",
+            "text": "I was thinking we could carpool to work. Would you be interested?"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "Yes, that would be wonderful. My car is available if you'd like to drive together."
+          }
+        ]
+      }
+    ]
+  }
+}

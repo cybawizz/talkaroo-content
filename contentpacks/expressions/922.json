@@ -1,0 +1,173 @@
+{
+  "title": "Asking a doctor about a medical problem",
+  "context": "Politely ask the doctor questions about your diagnosis.",
+  "content": {
+    "bestLine": "What's the diagnosis, doctor?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you explain my diagnosis?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's causing my symptoms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How will this affect my daily life?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are my treatment options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long will it take to recover?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any potential complications?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I ask some questions about my diagnosis?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the next step in my treatment?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, what's going on with me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How bad is it, doc?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the plan to get me better?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Will I be okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the short version?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do I need to do to get better?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long will I be out of commission?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it serious?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please elaborate on my diagnosis?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could explain my treatment options.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the prognosis for my condition?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to discuss my diagnosis and treatment plan in more detail.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with some information about my condition?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate your professional opinion on my diagnosis.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] can I do to manage my condition?",
+        "options": [
+          "treatments",
+          "medications",
+          "lifestyle changes"
+        ],
+        "meaning": "Asking about management options"
+      },
+      {
+        "template": "How will [options] affect my daily life?",
+        "options": [
+          "my diagnosis",
+          "my treatment",
+          "my condition"
+        ],
+        "meaning": "Asking about impact on daily life"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient asking about diagnosis",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "What's the diagnosis, doctor?"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "You have a minor condition that can be treated with medication."
+          }
+        ]
+      },
+      {
+        "description": "Patient asking about treatment options",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "What are my treatment options?"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "We can discuss medication, therapy, or a combination of both."
+          }
+        ]
+      }
+    ]
+  }
+}

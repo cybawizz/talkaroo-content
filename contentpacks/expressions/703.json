@@ -1,0 +1,148 @@
+{
+  "title": "Controlling expenses",
+  "context": "Talk about needing to save money and stick to a budget.",
+  "content": {
+    "bestLine": "I need to stick to my budget",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm on a tight budget",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to save money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to cut back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to be frugal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm watching my expenses",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to be mindful of my spending",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to stay within my means",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm broke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to save up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a budget, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to cut back on spending",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to be more frugal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm watching my wallet",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm operating on a limited budget",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to exercise fiscal restraint",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm attempting to reduce my expenditures",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm prioritizing my financial obligations",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need to [options] my spending",
+        "options": [
+          "cut back on",
+          "reduce",
+          "keep track of"
+        ],
+        "meaning": "control expenses"
+      },
+      {
+        "template": "I'm trying to [options] to my budget",
+        "options": [
+          "stick",
+          "adhere",
+          "stay true"
+        ],
+        "meaning": "follow a budget"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm trying to save up for a trip"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm on a tight budget too"
+          }
+        ]
+      },
+      {
+        "description": "Conversation between a customer and a financial advisor",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I need to reduce my expenses"
+          },
+          {
+            "speaker": "Financial Advisor",
+            "text": "Let's review your budget and see where we can make some cuts"
+          }
+        ]
+      }
+    ]
+  }
+}

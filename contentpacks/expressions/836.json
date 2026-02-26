@@ -1,0 +1,148 @@
+{
+  "title": "Reciting special meal offers",
+  "context": "Tell the customers about the unique food specials available today.",
+  "content": {
+    "bestLine": "Today's special is our signature burger",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We have a new menu item today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Check out our daily specials",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our chef's special is a must-try",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Today's feature is a unique dish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're offering a special deal today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't miss our limited-time offer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our special of the day is a favorite",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You gotta try our special today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got a killer deal on food",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Our daily special is fire",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You won't want to miss this offer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Today's special is a game-changer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're hooking you up with a great deal",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We are pleased to offer a special menu item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Today's special is a culinary delight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our chef has prepared a unique dish",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We invite you to try our daily special",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Today's [option] is a [adjective] choice",
+        "options": [
+          "special",
+          "feature",
+          "deal"
+        ],
+        "meaning": "Recommendation"
+      },
+      {
+        "template": "You won't want to miss our [option] [food item]",
+        "options": [
+          "daily special",
+          "limited-time offer",
+          "chef's special"
+        ],
+        "meaning": "Promotion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Server telling customer about daily special",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Hi, today's special is our signature burger"
+          },
+          {
+            "speaker": "Customer",
+            "text": "That sounds great, I'll try it"
+          }
+        ]
+      },
+      {
+        "description": "Server promoting limited-time offer",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "We have a limited-time offer on our famous wings"
+          },
+          {
+            "speaker": "Customer",
+            "text": "How long is the offer valid for?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Concerning allergies",
+  "context": "Tell someone about an allergic reaction you are having.",
+  "content": {
+    "bestLine": "I'm having an allergic reaction, please help",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm experiencing an allergic reaction",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I'm allergic to this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with an allergy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a bad reaction",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something's not agreeing with me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need medical attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling unwell due to an allergy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freaking out, I think I'm allergic",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dude, I'm having a reaction",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm super itchy, must be an allergy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some Benadryl, stat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is really scaring me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me with this allergy thing?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing an adverse allergic reaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require immediate medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am suffering from an allergic reaction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need assistance with a severe allergy",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having a [options] reaction",
+        "options": [
+          "severe",
+          "mild",
+          "bad"
+        ],
+        "meaning": "describing the severity of the allergic reaction"
+      },
+      {
+        "template": "I think I'm allergic to [options]",
+        "options": [
+          "this food",
+          "that medicine",
+          "something in the air"
+        ],
+        "meaning": "specifying the potential allergen"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing a friend about an allergic reaction",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm not feeling well"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I think I'm having an allergic reaction"
+          }
+        ]
+      },
+      {
+        "description": "Telling a doctor about an allergic reaction",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "What seems to be the problem?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "I'm having a severe allergic reaction"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, let's take a look"
+          }
+        ]
+      }
+    ]
+  }
+}

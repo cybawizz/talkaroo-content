@@ -1,0 +1,173 @@
+{
+  "title": "Recommending a streaming show",
+  "context": "Tell a friend they absolutely have to watch a new series.",
+  "content": {
+    "bestLine": "You have to watch this new series, it's amazing!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I highly recommend this show",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You should totally check it out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a great series, you'll love it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you'd really enjoy this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This show is definitely worth watching",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've heard great things about this series",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need to add this to your watchlist",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a must-see, trust me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you have to watch this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This show is lit, you'll love it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with this series",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're missing out if you don't watch this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's so good, you'll binge it in one day",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm telling you, this show is fire",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta check it out, it's amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This series is everything and more",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey, this show is the best",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Highkey, you need to watch this",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This series is straight fire, no cap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dead, this show is so good",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're hella missing out if you don't watch this",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This show is the real MVP",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] watch this",
+        "options": [
+          "have to",
+          "need to",
+          "should"
+        ],
+        "meaning": "strong recommendation"
+      },
+      {
+        "template": "This show is [options]",
+        "options": [
+          "amazing",
+          "lit",
+          "fire"
+        ],
+        "meaning": "positive review"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend recommends a show",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You have to watch this new series, it's amazing!"
+          },
+          {
+            "speaker": "You",
+            "text": "What's it about?"
+          }
+        ]
+      },
+      {
+        "description": "Friend insists on a show",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Dude, you have to watch this, it's so good!"
+          },
+          {
+            "speaker": "You",
+            "text": "Okay, fine, I'll add it to my list"
+          }
+        ]
+      }
+    ]
+  }
+}

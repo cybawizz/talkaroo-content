@@ -1,0 +1,173 @@
+{
+  "title": "Welcoming someone who has returned",
+  "context": "Excitedly greet a person who just came back from a long vacation.",
+  "content": {
+    "bestLine": "Welcome back, we've missed you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello, it's great to see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome back, how was your trip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's nice to have you back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're glad you're home safe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your vacation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's great to have you back home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've missed you, welcome back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome back home",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up, welcome back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yay, you're back, we've missed you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, welcome home",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how was your trip?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome back, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got so much to catch up on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Glad you're back, let's hang out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What did you bring back for us?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Welcome back, it's a pleasure to see you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're delighted to have you back",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's great to have you back with us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome back, we hope you had a great trip",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're glad you're back home safely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's wonderful to see you again",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Welcome back [options]",
+        "options": [
+          "home",
+          "to us",
+          "safe and sound"
+        ],
+        "meaning": "expressing excitement and relief that someone is back"
+      },
+      {
+        "template": "We've [options] you",
+        "options": [
+          "missed",
+          "been waiting for",
+          "been thinking about"
+        ],
+        "meaning": "expressing how much someone was missed or thought about during their absence"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend welcoming back another friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, welcome back! How was your trip?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "It was amazing, thanks for asking! I've got so many stories to share."
+          }
+        ]
+      },
+      {
+        "description": "A family member welcoming back a relative",
+        "lines": [
+          {
+            "speaker": "Family Member 1",
+            "text": "Welcome home, we've missed you so much!"
+          },
+          {
+            "speaker": "Family Member 2",
+            "text": "I've missed you all too, it's great to be back."
+          }
+        ]
+      }
+    ]
+  }
+}

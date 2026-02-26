@@ -1,0 +1,200 @@
+{
+  "title": "When someone is arrested",
+  "context": "Explain that the police took a person to jail.",
+  "content": {
+    "bestLine": "The police took them to jail",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The person was arrested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They were taken into custody",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The police detained them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're being held at the station",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The individual is in jail",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The authorities took them away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They were apprehended by the police",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The person is behind bars",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They got busted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The cops took them in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're in the slammer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The police hauled them off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They got arrested and taken away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're doing time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The cops caught them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're in jail now",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The individual was taken into custody",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The police apprehended the person",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They are being detained by the authorities",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The person is currently incarcerated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The police have the individual in custody",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They were arrested and are being held",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "They got pinched",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The popo took them down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "They're in the clink",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The cops scooped them up",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "They're doing a bid",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The police [options] the person",
+        "options": [
+          "arrested",
+          "took into custody",
+          "detained"
+        ],
+        "meaning": "The police took action against the person"
+      },
+      {
+        "template": "They're [options] now",
+        "options": [
+          "in jail",
+          "behind bars",
+          "doing time"
+        ],
+        "meaning": "The person is currently incarcerated"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend asking about someone's whereabouts",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, have you seen John?"
+          },
+          {
+            "speaker": "Other",
+            "text": "The police took him to jail"
+          }
+        ]
+      },
+      {
+        "description": "A news report about a recent arrest",
+        "lines": [
+          {
+            "speaker": "News Anchor",
+            "text": "Breaking news: a local resident has been arrested"
+          },
+          {
+            "speaker": "News Anchor",
+            "text": "The police took the individual into custody earlier today"
+          }
+        ]
+      }
+    ]
+  }
+}

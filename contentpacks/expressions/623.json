@@ -1,0 +1,208 @@
+{
+  "title": "Complaining about video game bugs",
+  "context": "Complain that a new game is broken and glitches constantly.",
+  "content": {
+    "bestLine": "This game is literally unplayable due to all the glitches.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The game has a lot of technical issues.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some problems with the game.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game is not functioning properly.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There are some bugs that need to be fixed.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game is crashing frequently.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've encountered several glitches.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game's performance is subpar.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game needs some patches.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This game is so buggy it's ridiculous.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting tired of all these glitches.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The game is messed up, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've had it with this game's technical issues.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This game is a hot mess.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with these bugs.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The game's a total disaster.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm fed up with the game's poor performance.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This game is hella glitchy.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The game is straight trash, fam.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key done with this game.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The game is high-key broken.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This game is a total no-go.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this game.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, this game is so much fun... said no one ever.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how this game crashes all the time.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This game is totally worth the money... not.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed with the game's poor performance.",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This game is a total masterpiece... of glitches.",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The game is [options] with bugs.",
+        "options": [
+          "riddled",
+          "infested",
+          "plagued"
+        ],
+        "meaning": "The game has a lot of technical issues."
+      },
+      {
+        "template": "I'm [options] with the game's performance.",
+        "options": [
+          "done",
+          "fed up",
+          "tired"
+        ],
+        "meaning": "I'm unhappy with the game's technical issues."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend about a new game",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "I'm so frustrated with this new game."
+          },
+          {
+            "speaker": "Player 2",
+            "text": "What's wrong with it?"
+          },
+          {
+            "speaker": "Player 1",
+            "text": "It's just so buggy and glitchy. I've had it crash like five times already."
+          }
+        ]
+      },
+      {
+        "description": "Reporting a bug to a game developer",
+        "lines": [
+          {
+            "speaker": "Player",
+            "text": "Hi, I'm experiencing some technical issues with your game."
+          },
+          {
+            "speaker": "Developer",
+            "text": "Sorry to hear that. Can you tell me more about the issue?"
+          },
+          {
+            "speaker": "Player",
+            "text": "Yeah, the game keeps crashing and I've encountered several glitches. It's really frustrating."
+          }
+        ]
+      }
+    ]
+  }
+}

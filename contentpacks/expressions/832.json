@@ -1,0 +1,138 @@
+{
+  "title": "Greetings from a waiter or waitress",
+  "context": "Welcome customers to their table and introduce yourself.",
+  "content": {
+    "bestLine": "Hello, I'm your waiter, and I'll be taking care of you today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, welcome to our restaurant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how are you today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our table, I'm your server",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm here to take care of you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, can I start you off with something to drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'll be your waiter today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how can I make your dining experience great?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Good evening, I'm your waiter, and it's a pleasure to serve you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to our establishment, I'll be taking care of you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, I'm your server, and I'll ensure you have a great dining experience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, I'll be your waiter, and I'll do my best to make your meal enjoyable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm here to provide you with exceptional service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our restaurant, I'll be taking care of you today",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Hello, I'm your [options] today",
+        "options": [
+          "waiter",
+          "server",
+          "waitress"
+        ],
+        "meaning": "Introduction"
+      },
+      {
+        "template": "Welcome to [options], I'll be taking care of you",
+        "options": [
+          "our restaurant",
+          "our table",
+          "your table"
+        ],
+        "meaning": "Greetings"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Waiter introduces themselves and asks about drinks",
+        "lines": [
+          {
+            "speaker": "Waiter",
+            "text": "Hello, I'm your waiter, and I'll be taking care of you today"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, thanks"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "Can I start you off with something to drink?"
+          }
+        ]
+      },
+      {
+        "description": "Waiter welcomes customers and explains the menu",
+        "lines": [
+          {
+            "speaker": "Waiter",
+            "text": "Welcome to our restaurant, I'll be your server today"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Thanks, we're excited to be here"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "Great, let me explain our menu and specials for the day"
+          }
+        ]
+      }
+    ]
+  }
+}

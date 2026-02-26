@@ -1,0 +1,205 @@
+{
+  "title": "Complaining about blocked bike lanes",
+  "context": "Complain that a delivery truck is parked directly in the bicycle lane.",
+  "content": {
+    "bestLine": "There's a delivery truck parked in the bike lane",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The bike lane is blocked by a truck",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A delivery truck is in the way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bike lane is obstructed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a vehicle in the bike lane",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The lane is blocked by a parked truck",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A truck is parked in the bike lane",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bike path is blocked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A delivery vehicle is in the bike lane",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, there's a truck in the bike lane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a truck parked in our lane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Someone's parked in the bike lane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The bike lane is all blocked up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A truck's in the way, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can't get through, there's a truck",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The lane's all messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a delivery truck in our path",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, truck's in the bike lane, fam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Truck's all up in our grill",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lane's hella blocked, bro",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Someone's all up in our lane",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Truck's in the way, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "We can't even get through, it's whack",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Get your truck out of our lane",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Move your stupid truck",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "What's wrong with you, parking in the bike lane?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This isn't a parking lot, move your truck",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Are you kidding me, truck in the bike lane?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get out of our way, truck",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "There's a [options] in the bike lane",
+        "options": [
+          "truck",
+          "car",
+          "van"
+        ],
+        "meaning": "Something is blocking the bike lane"
+      },
+      {
+        "template": "The bike lane is blocked by a [options]",
+        "options": [
+          "delivery truck",
+          "parked car",
+          "construction"
+        ],
+        "meaning": "The bike lane is obstructed by something"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends complaining about a blocked bike lane",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, there's a truck in the bike lane"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, right? It's so annoying"
+          }
+        ]
+      },
+      {
+        "description": "A cyclist complaining to a driver about a blocked bike lane",
+        "lines": [
+          {
+            "speaker": "Cyclist",
+            "text": "You're parked in the bike lane, can you move?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Oh, sorry about that. I didn't see it"
+          }
+        ]
+      }
+    ]
+  }
+}

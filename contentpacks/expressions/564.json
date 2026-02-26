@@ -1,0 +1,135 @@
+{
+  "title": "Complaining to human resources",
+  "context": "Formally report a workplace issue or bad policy to HR.",
+  "content": {
+    "bestLine": "I'd like to formally report a workplace issue to your attention",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have a concern",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something's not right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to discuss an issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about a problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed an issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to bring something up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's something I'm not sure about",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I report a concern",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I wish to report a formal complaint",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to file a formal grievance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to discuss a workplace issue with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to report a policy concern",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to bring a formal matter to your attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm reporting a workplace problem",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about a workplace issue",
+        "options": [
+          "concerned",
+          "worried",
+          "upset"
+        ],
+        "meaning": "expressing concern about a workplace issue"
+      },
+      {
+        "template": "The [options] policy is causing problems",
+        "options": [
+          "new",
+          "current",
+          "proposed"
+        ],
+        "meaning": "reporting a problem with a workplace policy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a workplace issue to HR",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'd like to formally report a workplace issue to your attention"
+          },
+          {
+            "speaker": "HR",
+            "text": "Of course, please tell me more about the issue"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a policy concern with HR",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm here to report a policy concern"
+          },
+          {
+            "speaker": "HR",
+            "text": "I'm listening, please explain the concern"
+          }
+        ]
+      }
+    ]
+  }
+}

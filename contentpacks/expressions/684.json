@@ -1,0 +1,151 @@
+{
+  "title": "Basic requests to a bank teller",
+  "context": "Ask a teller to cash a check or make a deposit.",
+  "content": {
+    "bestLine": "I'd like to cash this check, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I deposit this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to cash a check.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I deposit this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to make a deposit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to cash this check now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this the right line for deposits?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I cash this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I gotta deposit this check.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a deposit?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to get this check cashed ASAP.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with depositing checks here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I just deposit this real quick?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to deposit this check, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with a deposit?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here to make a deposit.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I deposit this check now?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a check deposit.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] this check.",
+        "options": [
+          "cash",
+          "deposit"
+        ],
+        "meaning": "Request to perform an action on a check"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "a deposit",
+          "cashing a check"
+        ],
+        "meaning": "Request for assistance with a banking task"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requests to cash a check",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to cash this check."
+          },
+          {
+            "speaker": "Teller",
+            "text": "Okay, let me just see your ID and the check, please."
+          }
+        ]
+      },
+      {
+        "description": "Customer asks about depositing a check",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, how do I go about depositing this check?"
+          },
+          {
+            "speaker": "Teller",
+            "text": "You can deposit it right here at the counter. Do you have an account with us?"
+          }
+        ]
+      }
+    ]
+  }
+}

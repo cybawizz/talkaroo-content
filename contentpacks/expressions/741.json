@@ -1,0 +1,173 @@
+{
+  "title": "Charges for drinks at a bar",
+  "context": "Ask the bartender how much you owe or ask to open a tab.",
+  "content": {
+    "bestLine": "How much do I owe for the drinks?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the total for my drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the bill for my drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe for the drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the cost of my drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do I owe for my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay for my drinks now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is my tab?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you open a tab for me?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much for the drinks?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's my tab looking like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a tab going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much do I owe?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you put this on my tab?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage for the drinks?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much is this round?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide me with the bill for my drinks?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the cost of my drinks.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request to open a tab, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me of the total for my order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide me with the total cost.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the bill, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] for my drinks?",
+        "options": [
+          "get the bill",
+          "pay",
+          "open a tab"
+        ],
+        "meaning": "asking for drink charges"
+      },
+      {
+        "template": "How much [options] for the drinks?",
+        "options": [
+          "do I owe",
+          "is my tab",
+          "is this round"
+        ],
+        "meaning": "inquiring about drink costs"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for drink charges",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much do I owe for the drinks?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Let me check. You have two beers and a shot, that's $15."
+          }
+        ]
+      },
+      {
+        "description": "Customer opening a tab",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you open a tab for me?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Sure thing. I'll need to see your ID and a credit card."
+          }
+        ]
+      }
+    ]
+  }
+}

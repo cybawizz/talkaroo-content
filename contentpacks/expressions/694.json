@@ -1,0 +1,173 @@
+{
+  "title": "Concerning the price of a car",
+  "context": "Negotiate the total cost of a vehicle with a car dealer.",
+  "content": {
+    "bestLine": "Can we discuss the total cost of the vehicle?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the final price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will it cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the total?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the bottom line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a price breakdown?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will I pay?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much is this gonna set me back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a deal?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much can you knock off?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best price you can give me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we work out a better price?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much is the car, no extras?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the lowest price you can offer?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the total cost?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a detailed price breakdown.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the final purchase price?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you clarify the total cost of the vehicle?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the total amount due.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide the total cost, including all fees.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we [options] the price?",
+        "options": [
+          "discuss",
+          "negotiate",
+          "talk about"
+        ],
+        "meaning": "to initiate a price discussion"
+      },
+      {
+        "template": "I'm looking for a [options] price.",
+        "options": [
+          "better",
+          "lower",
+          "more competitive"
+        ],
+        "meaning": "to express a desire for a lower price"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about the price",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you give me the total cost of the vehicle?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "The total cost is $25,000."
+          }
+        ]
+      },
+      {
+        "description": "Customer negotiating the price",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I was thinking more along the lines of $20,000."
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "Let me see what I can do. I can offer you a discount of $1,000."
+          }
+        ]
+      }
+    ]
+  }
+}

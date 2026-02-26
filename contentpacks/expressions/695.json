@@ -1,0 +1,173 @@
+{
+  "title": "Financing a car",
+  "context": "Discuss loan options and monthly payments for a new car.",
+  "content": {
+    "bestLine": "What are my loan options for this car?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to discuss financing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the interest rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a loan estimate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is the monthly payment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the financing process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any discounts available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long is the loan term?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much will I pay each month?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a good deal on a loan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best financing option?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with financing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How does the loan work?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I afford this car?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the payment plan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a loan with bad credit?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate a financing overview",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide a loan breakdown?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the financing terms?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to review the loan agreement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the financing process in detail?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the repayment options?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] a loan for this car",
+        "options": [
+          "get",
+          "apply for",
+          "secure"
+        ],
+        "meaning": "requesting a loan"
+      },
+      {
+        "template": "The monthly payment will be [options]",
+        "options": [
+          "$200",
+          "$500",
+          "around $300"
+        ],
+        "meaning": "discussing loan terms"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about loan options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What are my loan options for this car?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "We have several financing options available. Let me explain them to you."
+          }
+        ]
+      },
+      {
+        "description": "Customer discussing loan terms",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much will I pay each month?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "The monthly payment will be around $300, depending on the loan term and interest rate."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about student loans",
+  "context": "Complain that your college debt is completely overwhelming.",
+  "content": {
+    "bestLine": "I'm drowning in college debt",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My student loans are overwhelming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to pay off my debt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "College debt is a huge burden",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about my financial future",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My loans are taking over my life",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel trapped by my debt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Paying off loans is a constant stress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to stay on top of my payments",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so done with these loans",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My debt is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm stuck with a ton of debt",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Paying off loans is a nightmare",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm barely scraping by",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My loans are a total mess",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just trying to survive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over this debt",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella stressed about my loans",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My debt is lowkey ruining my life",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting my loan payments",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My loans are a total savage",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm just trying to adult",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My debt is a hot mess",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about my student loans",
+        "options": [
+          "stressed",
+          "worried",
+          "overwhelmed"
+        ],
+        "meaning": "expressing concern about debt"
+      },
+      {
+        "template": "My loans are [options] my life",
+        "options": [
+          "taking over",
+          "ruining",
+          "controlling"
+        ],
+        "meaning": "describing the impact of debt"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about student loans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so done with these loans"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, I'm struggling too"
+          }
+        ]
+      },
+      {
+        "description": "Discussing debt with a financial advisor",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "My student loans are overwhelming"
+          },
+          {
+            "speaker": "Financial Advisor",
+            "text": "Let's work on a plan to pay them off"
+          }
+        ]
+      }
+    ]
+  }
+}

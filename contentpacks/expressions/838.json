@@ -1,0 +1,174 @@
+{
+  "title": "Requesting additional servings",
+  "context": "Ask the server to bring more bread, water, or sides to the table.",
+  "content": {
+    "bestLine": "Can we get some more bread, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I have more water?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need more bread.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring us more fries?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like some more salad, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we get a refill on the sides?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're out of bread, can we get more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring more drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need more condiments.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we get more bread?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're out of water, can you grab us some more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook us up with more fries?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starving, can we get more food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring us another round of drinks?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need more snacks, can you grab some?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you get us some more dessert?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're still hungry, can we get more food?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please bring us more bread?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We would appreciate it if you could refill our water.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May we have some additional sides, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly bring us more condiments?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We would like to request more drinks, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please bring us another round of appetizers?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we get more [options]?",
+        "options": [
+          "bread",
+          "water",
+          "fries",
+          "sides"
+        ],
+        "meaning": "Requesting additional servings"
+      },
+      {
+        "template": "I'd like some more [options], please.",
+        "options": [
+          "salad",
+          "drinks",
+          "condiments"
+        ],
+        "meaning": "Requesting additional servings politely"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting more bread at a restaurant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can we get some more bread, please?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Of course, I'll bring you some more right away."
+          }
+        ]
+      },
+      {
+        "description": "Requesting a refill on drinks at a bar",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you bring us another round of drinks?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Coming right up, what can I get you?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Expressions about event tickets",
+  "context": "Discuss whether an event is sold out or has seats available.",
+  "content": {
+    "bestLine": "The event is sold out, but we have a waitlist.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Tickets are still available.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The event is sold out.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have limited seating left.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can check ticket availability online.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The show is fully booked.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There are no more tickets left.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can try the box office for tickets.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tickets are going fast.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's sold out, dude.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can still grab tickets.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The event is totally booked.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Check the website for tix.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're all out of tickets.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You might be able to score tickets at the door.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's almost sold out.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Tickets are flying out the door.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The event has reached maximum capacity.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Tickets are available for purchase online.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We regret to inform you that the event is sold out.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please contact the box office for ticket availability.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The event is fully subscribed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may inquire about ticket availability at the venue.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The event is [options] out.",
+        "options": [
+          "sold",
+          "almost sold"
+        ],
+        "meaning": "The event has limited or no ticket availability."
+      },
+      {
+        "template": "You can [options] tickets online.",
+        "options": [
+          "buy",
+          "purchase",
+          "get"
+        ],
+        "meaning": "Tickets can be obtained through the internet."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about ticket availability",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Are there any tickets left for the show?"
+          },
+          {
+            "speaker": "Ticket Agent",
+            "text": "The event is sold out, but we have a waitlist."
+          }
+        ]
+      },
+      {
+        "description": "Friend asking another friend about tickets",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, did you get tickets to the concert?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I got them online. It's almost sold out, though."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "At the airport boarding gate",
+  "context": "Ask the gate agent if they are currently boarding your zone.",
+  "content": {
+    "bestLine": "Is my zone boarding now?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this zone boarding?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What zone are you boarding?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is my zone up next?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me if zone 2 is boarding?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is zone boarding currently in progress?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the current boarding zone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you boarding my zone now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it my turn to board?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Is my zone up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the boarding status?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are we boarding yet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it time for my zone?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I board now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What zone are we on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is my group boarding?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are they calling my zone?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me if my zone is currently boarding?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate knowing if my zone is boarding at this time.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the current boarding zone the one I'm in?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me the status of boarding for my zone?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am wondering if the boarding process has reached my zone.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it now time for passengers in my zone to board the aircraft?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is [zone/options] boarding now?",
+        "options": [
+          "my zone",
+          "zone 1",
+          "this zone"
+        ],
+        "meaning": "Asking about the current boarding zone"
+      },
+      {
+        "template": "What [aspect/options] of boarding?",
+        "options": [
+          "zone",
+          "status",
+          "time"
+        ],
+        "meaning": "Inquiring about a specific aspect of the boarding process"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger inquires about boarding zone",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Is my zone boarding now?"
+          },
+          {
+            "speaker": "Gate Agent",
+            "text": "Yes, we are currently boarding zone 2."
+          }
+        ]
+      },
+      {
+        "description": "Passenger asks for clarification on boarding status",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "What zone are you boarding?"
+          },
+          {
+            "speaker": "Gate Agent",
+            "text": "We are boarding zone 3 at the moment. Zone 2 has already boarded."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "title": "Requesting change from a cashier (quick)",
+  "context": "Ask someone to break a large bill into smaller notes.",
+  "content": {
+    "bestLine": "Can you break this large bill into smaller notes?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need smaller bills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get change for this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have smaller notes?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to break this bill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make change?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to split this bill",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to get smaller bills?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have smaller denominations?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you break this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some smaller bills?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any smaller notes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to split this up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make some change?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get some smaller bills",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break it down for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some smaller bills, please",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request change",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please break this bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require smaller denominations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be possible to make change?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to exchange this for smaller bills",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with making change?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you break a [bill/notes] into [smaller/larger] [bills/notes]?",
+        "options": [
+          "bill",
+          "notes",
+          "smaller",
+          "larger",
+          "bills",
+          "notes"
+        ],
+        "meaning": "Requesting to exchange a bill for different denominations"
+      },
+      {
+        "template": "I need [some/all] [smaller/larger] [bills/notes] for [this/that] [bill/notes]",
+        "options": [
+          "some",
+          "all",
+          "smaller",
+          "larger",
+          "bills",
+          "notes",
+          "this",
+          "that"
+        ],
+        "meaning": "Requesting a specific type of bill or note"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requests change from a cashier",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you break this large bill into smaller notes?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, of course. What denominations would you like?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asks for change in a more informal setting",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can you break this for me?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Sure thing. What do you need?"
+          }
+        ]
+      }
+    ]
+  }
+}

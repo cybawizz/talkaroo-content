@@ -1,0 +1,129 @@
+{
+  "title": "When an item is out of stock",
+  "context": "Apologize to a customer because the item they want is unavailable.",
+  "content": {
+    "bestLine": "I'm sorry, that item is currently out of stock.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're out of that item right now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not available at the moment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We don't have that in stock.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's currently unavailable.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're waiting for a new shipment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's out of stock, sorry.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't fulfill that request.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That item is not in stock.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, but that item is currently out of stock.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We regret to inform you that the item is unavailable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Unfortunately, we do not have that item in stock.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The item is currently out of stock, and we apologize.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are currently unable to fulfill your request.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The item is not available at this time, sorry.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm sorry, [options] is out of stock.",
+        "options": [
+          "that item",
+          "the product you want"
+        ],
+        "meaning": "apologizing for unavailability"
+      },
+      {
+        "template": "We're waiting for a new shipment of [options].",
+        "options": [
+          "that item",
+          "the product"
+        ],
+        "meaning": "explaining the reason for unavailability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asks for an item that is out of stock",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have this item in stock?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "I'm sorry, that item is currently out of stock."
+          }
+        ]
+      },
+      {
+        "description": "Customer wants to know when the item will be available",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "When will you have this item in stock?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "We're waiting for a new shipment, and it should arrive next week."
+          }
+        ]
+      }
+    ]
+  }
+}

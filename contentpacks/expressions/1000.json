@@ -1,0 +1,132 @@
+{
+  "title": "Making claims about your competence",
+  "context": "Confidently state that you are highly skilled and capable.",
+  "content": {
+    "bestLine": "I'm highly skilled and capable of handling this task",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have the necessary skills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in my abilities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got this covered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm well-equipped to handle this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the expertise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a skilled professional",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can handle this with ease",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm highly competent",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I possess the requisite skills",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm highly qualified for this task",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have extensive experience in this area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a seasoned professional with expertise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in my capacity to deliver",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a proven track record of success",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] to handle this task",
+        "options": [
+          "highly skilled",
+          "well-equipped",
+          "confident"
+        ],
+        "meaning": "stating competence"
+      },
+      {
+        "template": "I have [options] in this area",
+        "options": [
+          "extensive experience",
+          "the necessary skills",
+          "expertise"
+        ],
+        "meaning": "claiming expertise"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Job interview",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Can you handle this task?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I'm highly skilled and capable of handling this task"
+          }
+        ]
+      },
+      {
+        "description": "Team meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Who can lead this project?"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "I'm confident in my abilities and can handle it"
+          }
+        ]
+      }
+    ]
+  }
+}

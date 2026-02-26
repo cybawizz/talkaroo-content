@@ -1,0 +1,121 @@
+{
+  "title": "Questions found on surveys and forms",
+  "context": "Ask for standard demographic or background information.",
+  "content": {
+    "bestLine": "Can you please provide some background information?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your age?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you from?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your highest level of education?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about your work experience?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your current occupation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long have you been in this field?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your marital status?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide your date of birth?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your current job title?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe your educational background?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What relevant experience do you have?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your expected salary range?",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What is your [options]?",
+        "options": [
+          "age",
+          "occupation",
+          "education level"
+        ],
+        "meaning": "asking for demographic information"
+      },
+      {
+        "template": "Can you tell me about your [options]?",
+        "options": [
+          "work experience",
+          "background",
+          "qualifications"
+        ],
+        "meaning": "asking for background information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Interviewer asking for demographic information",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Can you please provide some background information?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "Yes, of course. I'm 30 years old, and I have a bachelor's degree in marketing."
+          }
+        ]
+      },
+      {
+        "description": "Interviewer asking follow-up questions",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "That's great. Can you tell me about your work experience?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I have about 5 years of experience in the field, and I've been working as a marketing manager for the past 2 years."
+          }
+        ]
+      }
+    ]
+  }
+}

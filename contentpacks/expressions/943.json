@@ -1,0 +1,121 @@
+{
+  "title": "Making emergency calls",
+  "context": "Tell the 911 operator that you immediately need police or an ambulance.",
+  "content": {
+    "bestLine": "I need an ambulance or police immediately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help right away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Send an ambulance please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get police assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an emergency, I need help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need medical help now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please send help immediately",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require immediate police assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need an ambulance at my location",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is an emergency, I need help now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am calling to report an emergency",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need emergency services immediately",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need [options] immediately",
+        "options": [
+          "police",
+          "an ambulance",
+          "help"
+        ],
+        "meaning": "requesting emergency assistance"
+      },
+      {
+        "template": "Can I get [options] to my location?",
+        "options": [
+          "police assistance",
+          "medical help",
+          "emergency services"
+        ],
+        "meaning": "requesting emergency services"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling 911 for an emergency",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "I need an ambulance or police immediately"
+          },
+          {
+            "speaker": "911 Operator",
+            "text": "What is your location?"
+          }
+        ]
+      },
+      {
+        "description": "Reporting an emergency to 911",
+        "lines": [
+          {
+            "speaker": "Caller",
+            "text": "I am calling to report an emergency"
+          },
+          {
+            "speaker": "911 Operator",
+            "text": "What is the nature of the emergency?"
+          }
+        ]
+      }
+    ]
+  }
+}

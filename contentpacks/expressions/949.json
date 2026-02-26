@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about post-workout soreness",
+  "context": "Tell someone that your muscles hurt terribly from exercising.",
+  "content": {
+    "bestLine": "My muscles are killing me after that workout",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling some muscle soreness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body is a bit achy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a lot of muscle pain",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My muscles are really sore",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some post-workout soreness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body hurts after exercising",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got some muscle discomfort",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit stiff",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so sore after that gym session",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My muscles are screaming at me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dying from muscle soreness",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really feeling the burn",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My body is killing me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm super sore today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got some serious muscle ache",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling pretty beat up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella sore, bro",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "My muscles are legit on fire",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key dying from soreness",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I've got some gnarly muscle pain",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with being sore",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "My body is straight up hurting",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [body/muscles] are [adjective] after [workout/exercise]",
+        "options": [
+          "killing me",
+          "really sore",
+          "on fire"
+        ],
+        "meaning": "complaining about post-workout soreness"
+      },
+      {
+        "template": "I'm [adverb] [adjective] from [workout/exercise]",
+        "options": [
+          "so",
+          "hella",
+          "low-key"
+        ],
+        "meaning": "expressing the intensity of post-workout soreness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sore after that gym session"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, me too! I'm dying from muscle soreness"
+          }
+        ]
+      },
+      {
+        "description": "talking to a personal trainer",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "My muscles are really sore after our last workout"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's normal, it's just your body adjusting to the new routine"
+          }
+        ]
+      }
+    ]
+  }
+}

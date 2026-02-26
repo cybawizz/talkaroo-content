@@ -1,0 +1,148 @@
+{
+  "title": "When you are just looking",
+  "context": "Politely tell a salesperson you do not need any help right now.",
+  "content": {
+    "bestLine": "I'm just browsing, thank you.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm just looking around.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No help needed, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good for now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just browsing, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll let you know if I need help.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No thanks, I'm just looking.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just checking things out.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all set, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just taking a look around.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, I've got it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, just browsing.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks, I'll just look around.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll ask if I need anything.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate your offer, but I'm just browsing.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you, I'll let you know if I require assistance.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just looking at the moment, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be fine, just looking around.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for now.",
+        "options": [
+          "just browsing",
+          "good",
+          "all set"
+        ],
+        "meaning": "Politely decline help"
+      },
+      {
+        "template": "No [options], thanks.",
+        "options": [
+          "help needed",
+          "thanks",
+          "worries"
+        ],
+        "meaning": "Decline assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer declines help from salesperson",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Can I help you find anything?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "No thanks, I'm just looking around."
+          }
+        ]
+      },
+      {
+        "description": "Customer asks to be left alone",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Do you need any assistance?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm good for now, thanks. I'll let you know if I need anything."
+          }
+        ]
+      }
+    ]
+  }
+}

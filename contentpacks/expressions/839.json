@@ -1,0 +1,158 @@
+{
+  "title": "Requesting something to drink",
+  "context": "Ask the server for water, soda, or a beverage menu.",
+  "content": {
+    "bestLine": "Can I get a glass of water, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have water, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a soda?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a beverage menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a drink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see the drink options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What drinks do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a glass of water",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good to drink here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a soda",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a beer?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the special drink today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a coke",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any iced tea?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a beverage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I please have a glass of water?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I see the drink menu?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a soda",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What beverages do you offer?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "glass of water",
+          "soda",
+          "beer"
+        ],
+        "meaning": "requesting a specific drink"
+      },
+      {
+        "template": "I'll have a [options]",
+        "options": [
+          "water",
+          "coke",
+          "iced tea"
+        ],
+        "meaning": "ordering a drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for water",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a glass of water, please?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, I'll bring it right over"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for a soda",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any soda?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we have coke, diet coke, and sprite"
+          }
+        ]
+      }
+    ]
+  }
+}

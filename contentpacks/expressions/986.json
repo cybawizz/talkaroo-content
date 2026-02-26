@@ -1,0 +1,126 @@
+{
+  "title": "Adjourning a formal meeting",
+  "context": "Officially declare that the business meeting is now over.",
+  "content": {
+    "bestLine": "This meeting is now adjourned.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The meeting is over.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're done here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wrap up.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's all for today.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The meeting has ended.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've covered everything.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to adjourn.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "This meeting is hereby adjourned.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The meeting is officially closed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will now adjourn the meeting.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The meeting has been formally concluded.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let the record show the meeting is adjourned.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This meeting is now officially over.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "The meeting is [options].",
+        "options": [
+          "over",
+          "adjourned",
+          "closed"
+        ],
+        "meaning": "declare the meeting is finished"
+      },
+      {
+        "template": "We will now [options] the meeting.",
+        "options": [
+          "adjourn",
+          "close",
+          "conclude"
+        ],
+        "meaning": "officially end the meeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Adjourning",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "This meeting is now adjourned."
+          }
+        ]
+      },
+      {
+        "description": "Formal Adjourning",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "We have covered all the agenda items."
+          },
+          {
+            "speaker": "Chair",
+            "text": "Let the record show the meeting is adjourned."
+          }
+        ]
+      }
+    ]
+  }
+}

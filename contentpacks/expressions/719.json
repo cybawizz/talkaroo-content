@@ -1,0 +1,173 @@
+{
+  "title": "Requesting an apartment from a rental agent",
+  "context": "Tell a leasing agent you want to rent a two-bedroom apartment.",
+  "content": {
+    "bestLine": "I'm interested in renting a two-bedroom apartment.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a two-bedroom apartment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I rent a two-bedroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a two-bedroom apartment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have two-bedroom apartments available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to rent a two-bedroom apartment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me a two-bedroom apartment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in a two-bedroom apartment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any two-bedroom apartments for rent?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, got any two-bedroom apartments?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for a two-bedroom, what's available?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I check out a two-bedroom apartment?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a two-bedroom, ASAP.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with your two-bedroom apartments?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in the market for a two-bedroom apartment.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any sweet two-bedroom apartments?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with a two-bedroom?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about renting a two-bedroom apartment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please show me a two-bedroom apartment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in renting a two-bedroom apartment, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any two-bedroom apartments available for rent?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me a two-bedroom apartment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a two-bedroom apartment to rent, thank you.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for a [options] apartment.",
+        "options": [
+          "two-bedroom",
+          "one-bedroom",
+          "three-bedroom"
+        ],
+        "meaning": "Expressing interest in a specific type of apartment."
+      },
+      {
+        "template": "Can you show me a [options] apartment?",
+        "options": [
+          "two-bedroom",
+          "one-bedroom",
+          "three-bedroom"
+        ],
+        "meaning": "Requesting to see a specific type of apartment."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a two-bedroom apartment from a leasing agent.",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm interested in renting a two-bedroom apartment."
+          },
+          {
+            "speaker": "Leasing Agent",
+            "text": "Great, we have a few options available. Let me show you some of our two-bedroom apartments."
+          }
+        ]
+      },
+      {
+        "description": "Asking about the availability of two-bedroom apartments.",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any two-bedroom apartments available for rent?"
+          },
+          {
+            "speaker": "Leasing Agent",
+            "text": "Yes, we have a few two-bedroom apartments available. Would you like to take a look?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Stating what is wrong with a computer",
+  "context": "Tell a tech support worker that your device is freezing or broken.",
+  "content": {
+    "bestLine": "My computer is freezing and won't turn on",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My computer is not working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having computer issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My device is malfunctioning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The computer is frozen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with my computer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My computer is broken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing technical difficulties",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My computer is messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having major computer problems",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My laptop is on the fritz",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My computer is being super slow",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think my computer is dying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My computer is acting weird",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so frustrated with my computer",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing technical issues with my computer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My computer is in need of repair",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with my computer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My computer is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report a computer issue",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My computer is [options]",
+        "options": [
+          "freezing",
+          "broken",
+          "malfunctioning"
+        ],
+        "meaning": "describing computer issues"
+      },
+      {
+        "template": "I'm having [options] with my computer",
+        "options": [
+          "trouble",
+          "problems",
+          "issues"
+        ],
+        "meaning": "reporting computer issues"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling tech support",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, my computer is freezing and won't turn on"
+          },
+          {
+            "speaker": "Tech Support",
+            "text": "Sorry to hear that, can you tell me more about what's happening?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "My computer is being super slow, I don't know what's wrong with it"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Maybe you should try restarting it or running a virus scan"
+          }
+        ]
+      }
+    ]
+  }
+}

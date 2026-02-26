@@ -1,0 +1,173 @@
+{
+  "title": "Losing a crucial screw or tool",
+  "context": "Yell in frustration because a tiny piece of hardware is missing.",
+  "content": {
+    "bestLine": "Where's that tiny screw?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've lost the screw",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can't find the tool",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Missing a small part",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need to find it now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is frustrating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the screw?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I had it just now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a problem",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dang, where's the screw?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so annoyed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stupid screw, where are you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I swear, I had it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is ridiculous",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, where's the tool?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Seriously, where's it?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Aww, man, screw's MIA",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hella frustrated",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Screw's ghosted me",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with this",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Where's that dang screw?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This is whack",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've looked [options] and still can't find it",
+        "options": [
+          "everywhere",
+          "high and low",
+          "all over"
+        ],
+        "meaning": "expressing frustration"
+      },
+      {
+        "template": "This [options] is killing me",
+        "options": [
+          "screw",
+          "tool",
+          "situation"
+        ],
+        "meaning": "expressing annoyance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Person talking to themselves",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "Where's that screw?"
+          },
+          {
+            "speaker": "Person",
+            "text": "I could've sworn I had it"
+          }
+        ]
+      },
+      {
+        "description": "Person talking to someone else",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "Have you seen the screw?"
+          },
+          {
+            "speaker": "Other person",
+            "text": "No, I haven't seen it"
+          }
+        ]
+      }
+    ]
+  }
+}

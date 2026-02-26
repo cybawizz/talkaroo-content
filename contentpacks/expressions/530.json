@@ -1,0 +1,207 @@
+{
+  "title": "When someone is showing off",
+  "context": "Demand that a person stop trying to impress everyone in the room.",
+  "content": {
+    "bestLine": "Stop trying to impress everyone",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're coming on too strong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ease up, we get it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No need to brag",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it humble",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're being a bit much",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Tone it down",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not impressed",
+          "register": "neutral",
+          "risk": "high"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stop showing off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're being extra",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down, bro",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Stop trying so hard",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're being annoying",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, we're all so impressed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Great job, you're so cool",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, continue to brag",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "We're all just fascinated",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're the best thing since sliced bread",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Keep talking, we're on the edge of our seats",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and stop bragging",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "No one cares about your accomplishments",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're being a total show-off",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get over yourself",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop being so full of yourself",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "We don't need to hear about it",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Stop [options] and listen",
+        "options": [
+          "talking",
+          "bragging",
+          "showing off"
+        ],
+        "meaning": "Demand attention and stop boasting"
+      },
+      {
+        "template": "We [options] your stories",
+        "options": [
+          "don't care about",
+          "are tired of",
+          "aren't impressed by"
+        ],
+        "meaning": "Express disinterest in someone's boasts"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a show-off",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're being really full of yourself tonight"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong with being confident?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "There's a difference between confidence and arrogance"
+          }
+        ]
+      },
+      {
+        "description": "Dealing with a braggart",
+        "lines": [
+          {
+            "speaker": "Person C",
+            "text": "I just got a promotion and a raise"
+          },
+          {
+            "speaker": "Person D",
+            "text": "That's great, but we don't need to hear about it all night"
+          },
+          {
+            "speaker": "Person C",
+            "text": "I'm just excited to share my good news"
+          },
+          {
+            "speaker": "Person D",
+            "text": "We're happy for you, but let's talk about something else"
+          }
+        ]
+      }
+    ]
+  }
+}

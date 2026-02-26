@@ -1,0 +1,182 @@
+{
+  "title": "When someone is acting conceited",
+  "context": "Point out that a person is bragging too much about themselves.",
+  "content": {
+    "bestLine": "You're really full of yourself, huh?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's quite an accomplishment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem very confident",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's something to brag about",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "You're coming across a bit arrogant",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's focus on the team's efforts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's an interesting perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not impressed",
+          "register": "neutral",
+          "risk": "high"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you're being really full of yourself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's cool and all, but let's not get too carried away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really milking this for all it's worth",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm happy for you, but let's keep it humble",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're starting to sound like a broken record",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's take a step back and look at the bigger picture",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bruh, you're being hella extra",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, you're coming across as super arrogant",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey, I'm not impressed",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're being super salty about your accomplishments",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep it 100 and not get too full of ourselves",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, congratulations, you're a genius",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed, I can barely contain my excitement",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be so proud of yourself, I bet it's hard to fit your head through the door",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up and stop bragging",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're being a total narcissist",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're being [options] about your accomplishments",
+        "options": [
+          "really full of yourself",
+          "super arrogant",
+          "hella extra"
+        ],
+        "meaning": "pointing out someone's conceit"
+      },
+      {
+        "template": "I'm [options] impressed by your story",
+        "options": [
+          "not really",
+          "barely",
+          "not at all"
+        ],
+        "meaning": "expressing skepticism or disinterest"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just got a promotion and a raise!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's cool and all, but let's not get too carried away"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "You seem very confident about your project"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, I am, but I'm also open to feedback and suggestions"
+          }
+        ]
+      }
+    ]
+  }
+}

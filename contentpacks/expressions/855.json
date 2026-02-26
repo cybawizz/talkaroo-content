@@ -1,0 +1,123 @@
+{
+  "title": "A gas station attendant offering service",
+  "context": "Ask the driver if they want their windshield washed.",
+  "content": {
+    "bestLine": "Would you like me to wash your windshield?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Want a windshield wash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I wash your windshield?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Windshield wash with fill-up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need a windshield wash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can wash your windshield.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like a windshield wash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get that windshield clean for you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "May I offer to wash your windshield?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like me to clean your windshield?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "As part of our service, I can wash your windshield.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I wash your windshield for you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to wash your windshield.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Would you like me to [options] your windshield?",
+        "options": [
+          "wash",
+          "clean"
+        ],
+        "meaning": "Offering windshield service"
+      },
+      {
+        "template": "Can I [options] your windshield with your fill-up?",
+        "options": [
+          "wash",
+          "clean"
+        ],
+        "meaning": "Including windshield service with fuel purchase"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple service offer",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "Would you like me to wash your windshield?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yes, please."
+          }
+        ]
+      },
+      {
+        "description": "Service offer with fuel purchase",
+        "lines": [
+          {
+            "speaker": "Attendant",
+            "text": "Fill-up and windshield wash?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Just the fill-up, thanks."
+          }
+        ]
+      }
+    ]
+  }
+}

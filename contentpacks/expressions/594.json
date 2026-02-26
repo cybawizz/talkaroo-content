@@ -1,0 +1,173 @@
+{
+  "title": "Internet connectivity issues",
+  "context": "Complain to a colleague that your home internet keeps disconnecting.",
+  "content": {
+    "bestLine": "My internet keeps dropping, it's really frustrating",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm having internet issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My connection is unstable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing disconnections",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My internet is not reliable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble staying online",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My home internet is not working well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting disconnected frequently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My internet connection is poor",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My internet is being super glitchy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting kicked off the internet",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My connection is crap today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having a tough time staying connected",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My internet is driving me crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with my internet today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My home internet is a joke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm fed up with these disconnections",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing technical difficulties with my internet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My internet connection is currently unstable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am encountering issues with my home internet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My internet service is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am having trouble maintaining a stable internet connection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My internet is not performing as expected",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My internet [options] all the time",
+        "options": [
+          "keeps dropping",
+          "is slow",
+          "disconnects"
+        ],
+        "meaning": "Expressing frustration with frequent internet issues"
+      },
+      {
+        "template": "I'm [options] with my internet today",
+        "options": [
+          "so done",
+          "fed up",
+          "frustrated"
+        ],
+        "meaning": "Showing annoyance with current internet performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing internet issues with a colleague",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, my internet keeps dropping. Have you experienced anything like that?"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Yeah, I had some issues yesterday. Maybe it's our provider?"
+          }
+        ]
+      },
+      {
+        "description": "Reporting internet problems to a supervisor",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm having trouble with my home internet. It's unstable and disconnects frequently."
+          },
+          {
+            "speaker": "Supervisor",
+            "text": "Sorry to hear that. Let's look into possible solutions or alternatives for you."
+          }
+        ]
+      }
+    ]
+  }
+}

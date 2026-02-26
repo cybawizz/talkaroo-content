@@ -1,0 +1,173 @@
+{
+  "title": "Giving instructions to a postal clerk",
+  "context": "Tell a post office employee how fast you want your package shipped.",
+  "content": {
+    "bestLine": "I'd like to send this package overnight, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you send this quickly?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the fastest shipping option?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need this delivered ASAP.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you expedite this package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How fast can you send this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to send this via express mail.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your fastest delivery time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send this package today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you rush this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need this sent fast.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send this pronto?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a hurry, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send this overnight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need this delivered yesterday.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make this a priority?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a deadline, can you help?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require expedited shipping.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you arrange for rapid delivery?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need this package sent via express mail.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide the fastest shipping option?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I request priority shipping.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you ensure timely delivery?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to send this package [options].",
+        "options": [
+          "overnight",
+          "via express mail",
+          "as soon as possible"
+        ],
+        "meaning": "requesting fast shipping"
+      },
+      {
+        "template": "Can you send this package [options]?",
+        "options": [
+          "today",
+          "tomorrow",
+          "as soon as possible"
+        ],
+        "meaning": "requesting fast shipping"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for fast shipping",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to send this package overnight, please."
+          },
+          {
+            "speaker": "Postal Clerk",
+            "text": "That'll be $20 extra. Would you like to proceed?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about shipping options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the fastest shipping option you have?"
+          },
+          {
+            "speaker": "Postal Clerk",
+            "text": "We have express mail, which arrives the next business day."
+          }
+        ]
+      }
+    ]
+  }
+}

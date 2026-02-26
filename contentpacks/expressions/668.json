@@ -1,0 +1,195 @@
+{
+  "title": "Placing a telephone order for pizza",
+  "context": "Call a restaurant and tell them what pizza you want to pick up.",
+  "content": {
+    "bestLine": "I'd like to place an order for pickup, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to order a pizza",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I place an order for pickup?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a large pepperoni pizza",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the total for my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you confirm my order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll pick it up in 30 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any specials today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to pay with card",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a pizza to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a pizza, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a large with extra cheese?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long till it's ready?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you throw in some garlic knots?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll swing by to pick it up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll pay when I pick it up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to place an order for a pizza to be picked up",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of your current specials?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will have a large pizza with the following toppings",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the estimated time of preparation for my order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be paying with credit card upon pickup",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please confirm that my order is accurate",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to order a [size] pizza with [toppings]",
+        "options": [
+          "large",
+          "medium",
+          "small",
+          "pepperoni",
+          "mushrooms",
+          "onions"
+        ],
+        "meaning": "Ordering a pizza with specific size and toppings"
+      },
+      {
+        "template": "Can I get a [special] and a [drink]?",
+        "options": [
+          "pizza",
+          "salad",
+          "wings",
+          "soda",
+          "water",
+          "beer"
+        ],
+        "meaning": "Ordering a special and a drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple pizza order",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to place an order for pickup, please."
+          },
+          {
+            "speaker": "Restaurant",
+            "text": "What can I get for you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll have a large pepperoni pizza."
+          },
+          {
+            "speaker": "Restaurant",
+            "text": "Okay, that's a large pepperoni pizza. We'll have it ready in 30 minutes."
+          }
+        ]
+      },
+      {
+        "description": "Order with special requests",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can I get a pizza to go?"
+          },
+          {
+            "speaker": "Restaurant",
+            "text": "What kind of pizza can I get for you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can I get a large with extra cheese and some garlic knots?"
+          },
+          {
+            "speaker": "Restaurant",
+            "text": "Alright, so that's a large pizza with extra cheese and garlic knots. We'll throw in some marinara sauce."
+          }
+        ]
+      }
+    ]
+  }
+}

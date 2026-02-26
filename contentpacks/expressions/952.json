@@ -1,0 +1,173 @@
+{
+  "title": "When someone does not look well",
+  "context": "Tell a person gently that they look pale or unwell.",
+  "content": {
+    "bestLine": "You look a bit pale, is everything okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You seem unwell",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you feeling okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look tired",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything alright?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be under the weather",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need to sit down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You don't look like yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I get you something?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you look sick",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's wrong, you look pale",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You okay, man?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you're about to pass out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you need some water or something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You seem really out of it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Maybe you should sit down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're looking a bit rough",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, are you feeling unwell?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be in discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something I can get for you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be under the weather",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps you should take a break",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I assist you in any way?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options]",
+        "options": [
+          "pale",
+          "tired",
+          "unwell"
+        ],
+        "meaning": "expressing concern for someone's health"
+      },
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "something to drink",
+          "to sit down",
+          "some help"
+        ],
+        "meaning": "offering assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Concerned friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You look really pale, is everything okay?"
+          },
+          {
+            "speaker": "Person",
+            "text": "Yeah, I'm just a bit tired"
+          }
+        ]
+      },
+      {
+        "description": "Coworker checking in",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "You seem a bit under the weather, do you need to take a break?"
+          },
+          {
+            "speaker": "Person",
+            "text": "No, I'm fine, thanks for asking"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "title": "Telling an attendant about car problems",
+  "context": "Explain that your engine is making a weird noise.",
+  "content": {
+    "bestLine": "My engine is making a weird noise",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm having engine issues",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My car is making a strange sound",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a noise coming from the engine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think my engine might be malfunctioning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The engine is producing a weird noise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing engine trouble",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My vehicle's engine is acting up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's an unusual sound from the engine",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My car's engine is freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a weird noise under the hood",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My engine's making a crazy sound",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Something's up with my engine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got engine problems",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My car's acting weird",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "There's a funky noise coming from my engine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My engine's being super loud",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing engine difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicle's engine is emitting a strange noise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with my engine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The engine is malfunctioning and producing a noise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to report an issue with my engine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The engine is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [engine/car] is making a [adjective] noise",
+        "options": [
+          "weird",
+          "strange",
+          "funny",
+          "loud"
+        ],
+        "meaning": "describing the engine problem"
+      },
+      {
+        "template": "I'm having [adjective] issues with my [engine/car]",
+        "options": [
+          "engine",
+          "car",
+          "vehicle"
+        ],
+        "meaning": "reporting the problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting engine problems to an attendant",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm having some trouble with my car"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "What seems to be the problem?"
+          }
+        ]
+      },
+      {
+        "description": "Describing the engine noise to a mechanic",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "My engine is making a weird noise"
+          },
+          {
+            "speaker": "Mechanic",
+            "text": "Can you describe the noise to me?"
+          }
+        ]
+      }
+    ]
+  }
+}

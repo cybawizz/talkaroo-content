@@ -1,0 +1,160 @@
+{
+  "title": "Complaining about a terrible haircut",
+  "context": "Cry to your best friend because the salon cut off way too much hair.",
+  "content": {
+    "bestLine": "I'm literally crying, they butchered my hair!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I got a bad haircut",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The salon messed up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't like my hair",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The stylist made a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unhappy with my hair",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The cut is uneven",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want a refund",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "OMG, my hair is ruined!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I hate my new haircut",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The salon screwed up big time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with this hair",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This haircut is a disaster",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a hair fix ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freaking out about my hair",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "My hair is hella messed up",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I got jacked at the salon",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This haircut is whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key freaking out",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My hair is a hot mess",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] my hair",
+        "options": [
+          "love",
+          "hate",
+          "like",
+          "don't like"
+        ],
+        "meaning": "expressing feelings about hair"
+      },
+      {
+        "template": "The salon [options] my hair",
+        "options": [
+          "messed up",
+          "butchered",
+          "ruined",
+          "fixed"
+        ],
+        "meaning": "describing the salon's actions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a best friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Oh my god, I'm so upset about my hair"
+          },
+          {
+            "speaker": "Best Friend",
+            "text": "What happened? You look fine to me"
+          }
+        ]
+      },
+      {
+        "description": "Talking to the salon staff",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm really unhappy with my haircut"
+          },
+          {
+            "speaker": "Salon Staff",
+            "text": "I apologize, let me see what I can do to fix it"
+          }
+        ]
+      }
+    ]
+  }
+}

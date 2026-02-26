@@ -1,0 +1,141 @@
+{
+  "title": "A taxi driver asking where to go",
+  "context": "Ask the customer getting into your cab what their final destination is.",
+  "content": {
+    "bestLine": "Where can I take you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you headed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you want to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drop-off point?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I drop you off?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the final destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you going?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Where to?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the plan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where you off to?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a ride to?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's your stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you headed today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your next stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I take you today?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where can I take you to [options]?",
+        "options": [
+          "the airport",
+          "downtown",
+          "the hotel"
+        ],
+        "meaning": "asking for destination"
+      },
+      {
+        "template": "What's your destination [options]?",
+        "options": [
+          "today",
+          "tonight",
+          "this morning"
+        ],
+        "meaning": "asking for destination"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Taxi Driver and Customer Conversation",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "Where can I take you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm headed to the airport."
+          }
+        ]
+      },
+      {
+        "description": "Taxi Driver and Customer Conversation",
+        "lines": [
+          {
+            "speaker": "Taxi Driver",
+            "text": "What's your destination?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I need to go to the city center."
+          }
+        ]
+      }
+    ]
+  }
+}

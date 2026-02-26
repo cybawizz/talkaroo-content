@@ -1,0 +1,173 @@
+{
+  "title": "Asking about subway routes",
+  "context": "Ask someone at the station which train connects to the red line.",
+  "content": {
+    "bestLine": "Which train connects to the red line?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse me, which train goes to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me which train connects to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get to the red line, which train should I take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which train can I take to get to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know which train goes to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find the train to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which line connects to the red line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the red line from here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, which train goes to the red line?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So, how do I get to the red line?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to get to the red line?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me which train to take?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm headed to the red line, which train should I catch?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know the way to the red line?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I transfer to the red line?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Which one goes to the red line?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me which train connects to the red line?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me which train to take.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Which train would you recommend taking to get to the red line?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am trying to get to the red line, could you assist me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to direct me to the train for the red line?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get to the red line, which train should I board?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Which train [options] to the red line?",
+        "options": [
+          "goes",
+          "connects",
+          "takes me"
+        ],
+        "meaning": "Asking about the train route"
+      },
+      {
+        "template": "How do I [options] to the red line?",
+        "options": [
+          "get",
+          "transfer",
+          "take the train"
+        ],
+        "meaning": "Asking for directions to the red line"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a station employee for directions",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Excuse me, which train connects to the red line?"
+          },
+          {
+            "speaker": "Station Employee",
+            "text": "The train on platform 3 goes to the red line."
+          }
+        ]
+      },
+      {
+        "description": "Asking a fellow passenger for help",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Hey, do you know which train goes to the red line?"
+          },
+          {
+            "speaker": "Fellow Passenger",
+            "text": "Yeah, you can take this one. It connects to the red line at the next stop."
+          }
+        ]
+      }
+    ]
+  }
+}

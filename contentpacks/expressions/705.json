@@ -1,0 +1,171 @@
+{
+  "title": "Ordering food on a delivery app",
+  "context": "Use your phone to order dinner and have it brought to your house.",
+  "content": {
+    "bestLine": "I'll have the pizza delivered, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Order for delivery",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get food delivered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Send dinner to my house",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Deliver my order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Food delivery, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get delivery?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Deliver to my address",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you deliver?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just order online",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get it to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ordering in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Send food my way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ordering dinner online",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get it delivered?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just deliver it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please deliver my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ordering for delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you arrange delivery?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate delivery",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please send my dinner",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] my order",
+        "options": [
+          "pick up",
+          "have delivered"
+        ],
+        "meaning": "Specify order preference"
+      },
+      {
+        "template": "Can you [options] my food?",
+        "options": [
+          "deliver",
+          "bring over"
+        ],
+        "meaning": "Ask about delivery possibility"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering food for delivery",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to order for delivery."
+          },
+          {
+            "speaker": "App",
+            "text": "What can I get for you?"
+          }
+        ]
+      },
+      {
+        "description": "Confirming delivery details",
+        "lines": [
+          {
+            "speaker": "App",
+            "text": "Your order will be delivered in 30 minutes."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Great, thank you."
+          }
+        ]
+      }
+    ]
+  }
+}

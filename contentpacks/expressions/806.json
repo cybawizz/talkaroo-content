@@ -1,0 +1,177 @@
+{
+  "title": "Ordering street food at a truck",
+  "context": "Loudly ask the window worker for two tacos and a soda.",
+  "content": {
+    "bestLine": "Hey, can I get two tacos and a soda?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll have two tacos and a drink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get two tacos and a soda?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Two tacos and a soda, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like two tacos and a soda",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me two tacos and a soda",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Two tacos and a soda, thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me two tacos and a soda?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need two tacos and a soda",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yo, two tacos and a soda",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hit me with two tacos and a soda",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Two tacos and a soda, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Gimme two tacos and a soda",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna take two tacos and a soda",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Two tacos and a soda, please, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I grab two tacos and a soda?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Two tacos and a soda, that's what I need",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Two tacos and a soda, stat",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Hook me up with two tacos and a soda",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Two tacos and a soda, fo shizzle",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella hungry, two tacos and a soda",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Two tacos and a soda, ASAP",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Two tacos and a soda, you feel me?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options]?",
+        "options": [
+          "two tacos and a soda",
+          "a burger and fries",
+          "a hot dog and a drink"
+        ],
+        "meaning": "ordering food"
+      },
+      {
+        "template": "I'll take [options]",
+        "options": [
+          "two tacos and a soda",
+          "a sandwich and a salad",
+          "a pizza and a drink"
+        ],
+        "meaning": "ordering food"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ordering street food at a truck",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can I get two tacos and a soda?"
+          },
+          {
+            "speaker": "Window Worker",
+            "text": "That'll be $10, please"
+          }
+        ]
+      },
+      {
+        "description": "Ordering street food with a friend",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have two tacos and a soda"
+          },
+          {
+            "speaker": "Friend",
+            "text": "And I'll have a burger and fries"
+          },
+          {
+            "speaker": "Window Worker",
+            "text": "Alright, that'll be $15 total"
+          }
+        ]
+      }
+    ]
+  }
+}

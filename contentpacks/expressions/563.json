@@ -1,0 +1,131 @@
+{
+  "title": "Reporting problems to a utility company",
+  "context": "Call the power company to report that the electricity is out.",
+  "content": {
+    "bestLine": "My power is out, can you send someone to fix it?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm experiencing a power outage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My electricity is not working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report a power outage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with my power issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've lost power at my residence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My power went out and I need assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm without electricity, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a power outage in my area",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am reporting a power outage at my location",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance with a power issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My electricity service is currently interrupted",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to inform you of a power outage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide assistance with my power outage?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing an unexpected power outage",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is not working",
+        "options": [
+          "power",
+          "electricity",
+          "lights"
+        ],
+        "meaning": "Reporting a power outage"
+      },
+      {
+        "template": "I need help with my [options]",
+        "options": [
+          "power issue",
+          "electricity problem",
+          "outage"
+        ],
+        "meaning": "Requesting assistance with a power outage"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reporting a power outage to the utility company",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, I'm calling to report a power outage"
+          },
+          {
+            "speaker": "Utility Company",
+            "text": "Okay, can you please provide your address?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for assistance with a power outage",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, my power is out and I need help"
+          },
+          {
+            "speaker": "Utility Company",
+            "text": "Sorry to hear that, we'll send someone to fix it as soon as possible"
+          }
+        ]
+      }
+    ]
+  }
+}

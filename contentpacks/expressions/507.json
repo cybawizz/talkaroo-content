@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging a child to be quiet",
+  "context": "Tell a kid to lower their voice and play quietly.",
+  "content": {
+    "bestLine": "Please lower your voice and play quietly.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Be quiet for a bit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please quiet down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your voice low.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have some quiet time.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shh, be quiet now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Quiet please, okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be quiet together.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, keep it down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out and be quiet.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please quiet down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the noise down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be quiet, buddy.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Shh, quiet time.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it, quiet down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hang out quietly.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must ask you to keep your voice down.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from making excessive noise.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's necessary to maintain a quiet environment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could keep the noise level down.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's observe a period of quiet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be mindful of the noise level.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and be quiet.",
+        "options": [
+          "play",
+          "read",
+          "rest"
+        ],
+        "meaning": "Encouraging quiet activity"
+      },
+      {
+        "template": "Please keep your voice [options].",
+        "options": [
+          "down",
+          "low",
+          "quiet"
+        ],
+        "meaning": "Requesting lower volume"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging a child to be quiet during a game",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Let's keep it down, okay?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, I'll try."
+          }
+        ]
+      },
+      {
+        "description": "Asking a child to quiet down during a story",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Shh, be quiet now. Let's listen to the story."
+          },
+          {
+            "speaker": "Child",
+            "text": "Sorry, I'll be quiet."
+          }
+        ]
+      }
+    ]
+  }
+}

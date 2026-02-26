@@ -1,0 +1,158 @@
+{
+  "title": "When a machine is out of order",
+  "context": "Warn others that a device or machine is currently not working.",
+  "content": {
+    "bestLine": "This machine is currently out of order",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Not working",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Out of order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Broken machine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not functioning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Temporarily down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Currently unavailable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Malfunctioning",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Busted",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "On the fritz",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not working right",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Out of commission",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Down for now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Acting up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "On the blink",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Currently inoperable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Experiencing technical difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Temporarily out of service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Not in working order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Undergoing maintenance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [machine/device] is [options]",
+        "options": [
+          "out of order",
+          "broken",
+          "not working"
+        ],
+        "meaning": "Warning others about a broken machine"
+      },
+      {
+        "template": "We're experiencing [options] with the [machine/device]",
+        "options": [
+          "technical difficulties",
+          "issues",
+          "problems"
+        ],
+        "meaning": "Warning others about a broken machine"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning a coworker about a broken machine",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, the copier is out of order"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Okay, thanks for letting me know. I'll use the other one instead"
+          }
+        ]
+      },
+      {
+        "description": "Informing a customer about a broken machine",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I apologize, but our credit card machine is currently not working"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Okay, can I pay with cash instead?"
+          }
+        ]
+      }
+    ]
+  }
+}

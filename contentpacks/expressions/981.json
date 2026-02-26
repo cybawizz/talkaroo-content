@@ -1,0 +1,125 @@
+{
+  "title": "Speaking to human resources",
+  "context": "Talk to an HR rep about joining the company or filling out forms.",
+  "content": {
+    "bestLine": "I'm interested in learning more about the company and available positions.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get an application?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the company culture like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I apply for a job?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the benefits of working here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I schedule an interview?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the typical career path?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does the hiring process take?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to inquire about potential job opportunities.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with information about the company's mission?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in discussing my qualifications with a representative.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the necessary steps to complete the application process?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on how to proceed with my application.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I am [options] in learning more about the company.",
+        "options": [
+          "interested",
+          "very interested",
+          "extremely interested"
+        ],
+        "meaning": "Expressing interest in the company"
+      },
+      {
+        "template": "Could you [options] me with more information about the application process?",
+        "options": [
+          "provide",
+          "help",
+          "assist"
+        ],
+        "meaning": "Requesting information about the application process"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction and Inquiry",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "Hello, I'm interested in learning more about the company and available positions."
+          },
+          {
+            "speaker": "HR Representative",
+            "text": "Hello! We're glad you're interested. What specific area of the company are you interested in?"
+          }
+        ]
+      },
+      {
+        "description": "Application Process Discussion",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "I would like to inquire about the application process. Could you provide me with more information?"
+          },
+          {
+            "speaker": "HR Representative",
+            "text": "Of course. Our application process typically involves submitting an online application, followed by an interview with our team."
+          }
+        ]
+      }
+    ]
+  }
+}

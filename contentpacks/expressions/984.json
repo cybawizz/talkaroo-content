@@ -1,0 +1,122 @@
+{
+  "title": "Following up after a job interview",
+  "context": "Email the hiring manager to thank them and ask when they will make a decision.",
+  "content": {
+    "bestLine": "Thank you for the opportunity, when can I expect a decision?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I appreciate your time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Looking forward to hearing from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the interview",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm excited about the opportunity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know the next steps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm eager to learn about the decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for considering my application",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would appreciate an update on the status",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your time and consideration",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I look forward to the opportunity to contribute",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please inform me of the expected decision timeline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am confident in my abilities to excel in the role",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thank you for [option], I look forward to [option]",
+        "options": [
+          "the interview",
+          "the opportunity",
+          "your time"
+        ],
+        "meaning": "Expressing gratitude and anticipation"
+      },
+      {
+        "template": "I would appreciate it if you could [option] by [option]",
+        "options": [
+          "inform me of the decision",
+          "let me know the next steps",
+          "update me on the status"
+        ],
+        "meaning": "Requesting information or action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Follow-up email after a job interview",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "Dear Hiring Manager, thank you for the opportunity to interview for the position."
+          },
+          {
+            "speaker": "Applicant",
+            "text": "I look forward to hearing from you soon and learning about the next steps."
+          }
+        ]
+      },
+      {
+        "description": "Phone call follow-up after a job interview",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "Hello, I wanted to express my gratitude for the interview and inquire about the expected decision timeline."
+          },
+          {
+            "speaker": "Hiring Manager",
+            "text": "We will be making a decision soon and will notify you via email."
+          }
+        ]
+      }
+    ]
+  }
+}

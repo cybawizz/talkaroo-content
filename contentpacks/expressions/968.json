@@ -1,0 +1,148 @@
+{
+  "title": "Explaining that you are receiving medical care",
+  "context": "Tell friends that you are currently being treated by a doctor.",
+  "content": {
+    "bestLine": "I'm currently under a doctor's care",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm seeing a doctor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting medical treatment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm under a doctor's care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm receiving medical attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being treated by a doctor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in the hospital",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm recovering with medical help",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm at the doctor's",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting checked out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm under the weather, seeing a doc",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the mend with a doctor's help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hanging out at the hospital",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting some medical help",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am currently receiving medical attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am under the care of a physician",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am being treated for a medical condition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in the hospital for treatment",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with a doctor",
+        "options": [
+          "seeing",
+          "getting treated by",
+          "under the care of"
+        ],
+        "meaning": "receiving medical care"
+      },
+      {
+        "template": "I'm [options] at the hospital",
+        "options": [
+          "staying",
+          "receiving treatment",
+          "getting medical attention"
+        ],
+        "meaning": "receiving medical care"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Telling a friend about receiving medical care",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I'm currently under a doctor's care"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh, what's wrong? Is everything okay?"
+          }
+        ]
+      },
+      {
+        "description": "Informing a coworker about receiving medical care",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I am currently receiving medical attention and will be out of the office"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I hope you feel better soon, let me know if there's anything I can do"
+          }
+        ]
+      }
+    ]
+  }
+}

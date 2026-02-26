@@ -1,0 +1,173 @@
+{
+  "title": "Placing an order in a cafe",
+  "context": "Tell the barista exactly what coffee and food you want to buy.",
+  "content": {
+    "bestLine": "I'll have a large coffee and a pastry, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like a coffee, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a latte?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a cappuccino.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a muffin and coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order a coffee and cake.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I order a coffee to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a coffee and a sandwich.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have a coffee and a cookie?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a latte.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make me a cappuccino?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a coffee and a pastry, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special of the day?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a coffee to go, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refill on my coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a coffee and go.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to order a coffee, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a latte?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a cappuccino.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I shall have a coffee and a pastry, thank you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please prepare my coffee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to place an order for a coffee.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll have a [options] coffee.",
+        "options": [
+          "large",
+          "small",
+          "medium"
+        ],
+        "meaning": "ordering a coffee"
+      },
+      {
+        "template": "Can I get a [options]?",
+        "options": [
+          "latte",
+          "cappuccino",
+          "muffin"
+        ],
+        "meaning": "asking for a specific item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer ordering a coffee and pastry",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have a large coffee and a pastry, please."
+          },
+          {
+            "speaker": "Barista",
+            "text": "That'll be $5.50. Would you like to pay with card or cash?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for a recommendation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the special of the day?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Our special today is a caramel macchiato. Would you like to try it?"
+          }
+        ]
+      }
+    ]
+  }
+}

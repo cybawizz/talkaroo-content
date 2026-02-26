@@ -1,0 +1,173 @@
+{
+  "title": "Concerning smoking in a taxi",
+  "context": "Ask the driver if you are allowed to smoke in the vehicle.",
+  "content": {
+    "bestLine": "Is it okay to smoke in here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I smoke in the taxi?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is smoking allowed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind if I smoke?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Are cigarettes allowed in the vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a smoke?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this a smoke-free taxi?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you allow smoking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I smoke in the cab?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Mind if I light up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a smoke in here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You cool with me smoking?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it alright to smoke?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a problem with smoking?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I smoke in your cab?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You allow smoking, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Smoking okay with you?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if smoking is permitted?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please let me know if smoking is allowed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about your smoking policy?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it permissible to smoke in the vehicle?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a no-smoking policy in the taxi?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could inform me about smoking regulations?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is it [options] to smoke?",
+        "options": [
+          "okay",
+          "alright",
+          "permitted"
+        ],
+        "meaning": "Asking about smoking permission"
+      },
+      {
+        "template": "Do you [options] smoking?",
+        "options": [
+          "mind",
+          "allow",
+          "permit"
+        ],
+        "meaning": "Inquiring about smoking policy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Passenger asking the driver about smoking",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Is it okay to smoke in here?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "I'm afraid not, it's a smoke-free taxi."
+          }
+        ]
+      },
+      {
+        "description": "Driver informing the passenger about smoking policy",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Just to let you know, smoking is not allowed in this taxi."
+          },
+          {
+            "speaker": "Passenger",
+            "text": "No problem, I'll wait until we stop."
+          }
+        ]
+      }
+    ]
+  }
+}

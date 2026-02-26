@@ -1,0 +1,174 @@
+{
+  "title": "Managing a television set",
+  "context": "Tell someone to turn the TV off or adjust its settings.",
+  "content": {
+    "bestLine": "Can you turn off the TV?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Turn off the TV",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "TV needs to be turned off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you adjust the TV settings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The TV is too loud",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn down the volume",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mute the TV",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Change the channel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn on closed captions",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, turn off the TV",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you turn down the TV?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "TV's too loud, can you fix it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just turn it off, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you change the channel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn on subtitles, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make the TV quieter",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn the TV off, I'm trying to sleep",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please turn off the television",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could adjust the TV settings",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The television is too loud, could you please turn it down?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please change the channel?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to watch the TV with closed captions, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please mute the television",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the TV?",
+        "options": [
+          "turn off",
+          "turn down",
+          "change the channel"
+        ],
+        "meaning": "request to adjust the TV settings"
+      },
+      {
+        "template": "The TV is [options], can you [options]?",
+        "options": [
+          "too loud",
+          "too quiet",
+          "turn it off",
+          "turn it down"
+        ],
+        "meaning": "request to adjust the TV volume"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to turn off the TV",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you turn off the TV?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, sure. I'll turn it off."
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to adjust the TV settings",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you turn down the TV?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "How much do you want me to turn it down?"
+          }
+        ]
+      }
+    ]
+  }
+}

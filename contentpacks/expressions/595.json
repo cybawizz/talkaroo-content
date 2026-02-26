@@ -1,0 +1,197 @@
+{
+  "title": "Making a complaint in a restaurant",
+  "context": "Politely tell the server that your food is cold or cooked incorrectly.",
+  "content": {
+    "bestLine": "I think my food might be undercooked, could you check?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My food is cold",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't cooked right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's a problem with my order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you check the temperature of my food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure if this is cooked correctly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dish is lukewarm",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to request a new dish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you replace this with a freshly cooked one?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, my food's cold",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This burger's not cooked right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you redo this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you guys messed up my order",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a new one?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This isn't what I asked for",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you check on this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not loving this dish",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe my meal has been undercooked",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please check the temperature of my dish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could replace this meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It appears there is an issue with my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a new dish, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please ensure my food is cooked correctly?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, this is exactly what I wanted, a cold meal",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Great, just what I needed, undercooked food",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed with the temperature of this dish",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is definitely the best undercooked meal I've had",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think my [food/meat] is [undercooked/cold]",
+        "options": [
+          "food",
+          "meat",
+          "undercooked",
+          "cold"
+        ],
+        "meaning": "Expressing a problem with the food"
+      },
+      {
+        "template": "Can you [check/replace] my [dish/meal]?",
+        "options": [
+          "check",
+          "replace",
+          "dish",
+          "meal"
+        ],
+        "meaning": "Requesting a solution to the problem"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer complaining about cold food",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I think my food might be undercooked, could you check?"
+          },
+          {
+            "speaker": "Server",
+            "text": "I apologize for the mistake, let me check on that for you"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting a new dish",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you replace this with a freshly cooked one?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Absolutely, I'll go ahead and put that in for you"
+          }
+        ]
+      }
+    ]
+  }
+}

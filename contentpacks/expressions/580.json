@@ -1,0 +1,237 @@
+{
+  "title": "When someone is not doing enough",
+  "context": "Point out that a person is failing to complete their fair share of work.",
+  "content": {
+    "bestLine": "You're not pulling your weight here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You need to do more",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't a team effort",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not getting it done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're falling behind",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "We need more from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a shared responsibility",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're counting on you",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, do your part",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're slacking off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get with the program",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're all waiting on you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Step up your game",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're holding us back",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We need you to try harder",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your contributions are lacking",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "We require more effort from you",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "This project needs your full attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not meeting expectations",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "We expect to see improvement",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your role is crucial to our success",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, great job doing nothing",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for all your help",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really carrying your weight",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "We're so glad you're on our team",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Your lack of effort is impressive",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Keep up the good work",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're useless",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get out if you're not going to help",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're a waste of space",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Do something or leave",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If [options] doesn't step up, we're in trouble",
+        "options": [
+          "you",
+          "he",
+          "she",
+          "they"
+        ],
+        "meaning": "emphasizing the importance of someone's contribution"
+      },
+      {
+        "template": "We can't [options] without your help",
+        "options": [
+          "succeed",
+          "finish",
+          "complete",
+          "achieve"
+        ],
+        "meaning": "highlighting the necessity of someone's participation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A team leader addressing a lack of effort from a team member",
+        "lines": [
+          {
+            "speaker": "Team Leader",
+            "text": "You're not pulling your weight here"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "I'm trying my best"
+          },
+          {
+            "speaker": "Team Leader",
+            "text": "Try harder, we need more from you"
+          }
+        ]
+      },
+      {
+        "description": "A colleague expressing frustration with a coworker's lack of contribution",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "You're not doing your part"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I am doing my job"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Not well enough, we're all waiting on you"
+          }
+        ]
+      }
+    ]
+  }
+}

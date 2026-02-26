@@ -1,0 +1,208 @@
+{
+  "title": "When someone is presumptuous",
+  "context": "Tell a person they are making assumptions and overstepping their welcome.",
+  "content": {
+    "bestLine": "You're making a lot of assumptions",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's not assume that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's accurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should verify that first",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's true",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be careful not to assume",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not necessarily the case",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should be cautious with assumptions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to clarify that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's a big assumption",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think you should assume that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's not jump to conclusions",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a pretty bold assumption",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure you're right about that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's take a step back and think",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're making a lot of guesses",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think you're getting ahead of yourself",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, you must be a mind reader",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's a great assumption, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how you just assumed that",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really good at making assumptions",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm impressed by your jumping to conclusions skills",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's a fantastic example of assuming the worst",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me with that assumption?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's a ridiculous assumption",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You have no right to assume that",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's a pretty arrogant assumption",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're way out of line with that assumption",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] with that assumption",
+        "options": [
+          "making a big leap",
+          "way off base",
+          "assuming too much"
+        ],
+        "meaning": "You're being presumptuous"
+      },
+      {
+        "template": "Let's [options] before we assume anything",
+        "options": [
+          "take a step back",
+          "think this through",
+          "get more information"
+        ],
+        "meaning": "Let's be cautious with assumptions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Addressing presumptuous behavior in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're making a lot of assumptions"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What do you mean? I'm just trying to understand"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Let's not assume that, let's verify it first"
+          }
+        ]
+      },
+      {
+        "description": "Responding to presumptuous behavior in a meeting",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I think we should assume that the project will be done on time"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I don't think we should assume that, let's review the timeline"
+          },
+          {
+            "speaker": "Colleague 1",
+            "text": "Okay, let's take a closer look"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about mosquitoes",
+  "context": "Complain that bugs are biting you constantly and you need spray.",
+  "content": {
+    "bestLine": "I'm getting eaten alive, need some bug spray ASAP",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Mosquitoes are biting me constantly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some bug spray",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "These bugs are relentless",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find some repellent?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being bitten all over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is really annoying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hate getting bitten",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we move indoors?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I'm getting destroyed by mosquitoes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some bug spray, stat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "These bugs are killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you pass the repellent?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over these mosquitoes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is crazy, I've never seen so many bugs",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get out of here, I'm getting eaten alive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Ugh, I hate summer bugs",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, these skeeters are whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key getting devoured by mosquitoes",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can you cop some bug spray, G?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "These bugs are hella annoying",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this spot, too many mosquitoes",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Skeeter season is the worst",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] by mosquitoes",
+        "options": [
+          "getting eaten alive",
+          "getting destroyed",
+          "getting bitten all over"
+        ],
+        "meaning": "being bitten constantly"
+      },
+      {
+        "template": "Can we [options] some bug spray?",
+        "options": [
+          "find",
+          "get",
+          "cop"
+        ],
+        "meaning": "obtain bug spray"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm getting eaten alive, need some bug spray ASAP"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Dude, I know, I've got some in my backpack"
+          }
+        ]
+      },
+      {
+        "description": "Asking a store clerk for help",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, where can I find some bug spray?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Aisle 3, we have a variety of repellents"
+          }
+        ]
+      }
+    ]
+  }
+}

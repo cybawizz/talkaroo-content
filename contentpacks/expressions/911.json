@@ -1,0 +1,166 @@
+{
+  "title": "When someone is leaving on a journey",
+  "context": "Wish a friend a safe trip right before they leave.",
+  "content": {
+    "bestLine": "Have a safe trip, see you soon!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Be careful on your journey",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wish you a smooth trip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Travel safely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good trip",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Safe travels to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care on the road",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get home safely",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Safe trip, dude!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have an awesome trip!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Travel safe, buddy!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this, safe trip!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't forget to stay safe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hit the road safely",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later, safe travels",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I wish you a safe journey",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please travel safely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a safe and pleasant trip",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope your trip is successful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you a safe and enjoyable trip",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Have a [options] trip",
+        "options": [
+          "safe",
+          "good",
+          "great"
+        ],
+        "meaning": "Wishing a friend a safe trip"
+      },
+      {
+        "template": "Wish you a [options] journey",
+        "options": [
+          "safe",
+          "smooth",
+          "successful"
+        ],
+        "meaning": "Expressing good wishes for someone's trip"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend is leaving for a trip",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, you're leaving already?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, my bus is waiting. Wish me luck!"
+          },
+          {
+            "speaker": "You",
+            "text": "Have a safe trip, see you soon!"
+          }
+        ]
+      },
+      {
+        "description": "Saying goodbye to a friend at the airport",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "It was great catching up with you"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Likewise, I have to run to my gate"
+          },
+          {
+            "speaker": "You",
+            "text": "Safe travels, don't forget to stay in touch!"
+          }
+        ]
+      }
+    ]
+  }
+}

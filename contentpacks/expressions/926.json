@@ -1,0 +1,132 @@
+{
+  "title": "Telling the doctor about allergies",
+  "context": "Inform the doctor about the specific medicines or foods you are allergic to.",
+  "content": {
+    "bestLine": "I'm allergic to penicillin and shellfish.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have an allergy to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm allergic to certain medicines",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a food allergy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to avoid",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a severe allergy to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm allergic to latex",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an allergy to nuts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to inform you of my allergies",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to disclose my allergies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a known allergy to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am allergic to certain medications",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must inform you of my food allergies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a medical history of allergies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am severely allergic to",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I am allergic to [options]",
+        "options": [
+          "penicillin",
+          "shellfish",
+          "nuts",
+          "latex"
+        ],
+        "meaning": "informing the doctor of specific allergies"
+      },
+      {
+        "template": "I need to avoid [options] due to an allergy",
+        "options": [
+          "certain foods",
+          "medicines",
+          "materials"
+        ],
+        "meaning": "notifying the doctor of allergy-related precautions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient informing the doctor of their allergies",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I'm allergic to penicillin and shellfish."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Okay, we'll make sure to note that in your file."
+          }
+        ]
+      },
+      {
+        "description": "Patient asking the doctor about allergy precautions",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "What precautions should I take for my allergy?"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "We'll provide you with a list of foods and medicines to avoid."
+          }
+        ]
+      }
+    ]
+  }
+}

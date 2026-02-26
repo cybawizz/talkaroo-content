@@ -1,0 +1,173 @@
+{
+  "title": "Placing an order with a dry cleaner",
+  "context": "Drop off your formal clothes to be washed and pressed.",
+  "content": {
+    "bestLine": "I'd like to drop off my formal clothes for washing and pressing.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to clean my suit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you wash and press this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a few items to drop off.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the turnaround time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get this cleaned.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need this done by tomorrow.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will it cost?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you clean my favorite shirt?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bunch of stuff to drop off.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make my clothes look new again?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need this done ASAP.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long will it take to clean this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a good deal?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a hurry, can you rush it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer any discounts?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to arrange for the cleaning of my formal attire.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me of your cleaning procedures?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require your assistance with the cleaning of these garments.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the estimated time of completion for this order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could expedite the cleaning process.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with a detailed invoice?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] my clothes.",
+        "options": [
+          "get cleaned",
+          "have washed",
+          "drop off"
+        ],
+        "meaning": "requesting cleaning services"
+      },
+      {
+        "template": "Can you [options] this by [options]?",
+        "options": [
+          "clean",
+          "wash",
+          "press"
+        ],
+        "meaning": "requesting a specific cleaning service with a deadline"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer dropping off clothes",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to drop off my formal clothes for washing and pressing."
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "Okay, let me just check the prices for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about services",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What services do you offer?"
+          },
+          {
+            "speaker": "Dry Cleaner",
+            "text": "We offer washing, pressing, and dry cleaning. What can I help you with today?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Doing the dishes",
+  "context": "Tell the family that it is time to clean the plates and kitchen.",
+  "content": {
+    "bestLine": "Let's clean up the kitchen now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Time to wash the dishes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's clean up the kitchen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to do the dishes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get the kitchen cleaned up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for cleanup",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wash the plates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should clean the kitchen now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Who's doing the dishes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this kitchen cleaned",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dish duty time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wash up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Kitchen cleanup, everyone!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get cleaning",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dishes aren't gonna do themselves",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is necessary to clean the kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must attend to the dishes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The kitchen requires cleaning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us proceed with the cleanup",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is time to clean the kitchen",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] the kitchen",
+        "options": [
+          "clean",
+          "wash",
+          "do"
+        ],
+        "meaning": "initiate kitchen cleanup"
+      },
+      {
+        "template": "It's time to [options] the dishes",
+        "options": [
+          "wash",
+          "do",
+          "clean"
+        ],
+        "meaning": "indicate dish cleanup time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family members discussing cleanup",
+        "lines": [
+          {
+            "speaker": "Mom",
+            "text": "Let's clean up the kitchen now"
+          },
+          {
+            "speaker": "Son",
+            "text": "Do I have to do the dishes?"
+          }
+        ]
+      },
+      {
+        "description": "Assigning cleanup tasks",
+        "lines": [
+          {
+            "speaker": "Dad",
+            "text": "Let's get the kitchen cleaned up"
+          },
+          {
+            "speaker": "Daughter",
+            "text": "I'll wash the plates"
+          }
+        ]
+      }
+    ]
+  }
+}

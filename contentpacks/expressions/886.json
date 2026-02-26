@@ -1,0 +1,175 @@
+{
+  "title": "General questions when boarding a bus",
+  "context": "Ask the bus driver if this vehicle goes to a specific destination.",
+  "content": {
+    "bestLine": "Does this bus go to downtown?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this bus headed to the city center?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does this bus stop at the airport?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will this bus take me to the train station?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this the bus to the beach?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Does this bus go to the university?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take this bus to get to the mall?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is downtown the final destination of this bus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will this bus pass by the hospital?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, does this bus go to downtown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this the one that goes to the city?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you go to the airport?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take me to the beach?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Does this bus stop at the university?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this bus going to the mall?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Will you pass by the train station?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this the right bus for the hospital?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, does this bus travel to downtown?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if this bus goes to the city center.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me if this bus stops at the airport?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am trying to get to the university, does this bus go there?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this bus scheduled to stop at the train station?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to go to the mall, does this bus go in that direction?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Does this bus go to [options]?",
+        "options": [
+          "downtown",
+          "the city",
+          "the airport",
+          "the university"
+        ],
+        "meaning": "Asking about the bus destination"
+      },
+      {
+        "template": "Is this the bus to [options]?",
+        "options": [
+          "the beach",
+          "the mall",
+          "the hospital",
+          "the train station"
+        ],
+        "meaning": "Confirming the bus route"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the bus driver about the destination",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, does this bus go to downtown?"
+          },
+          {
+            "speaker": "Bus Driver",
+            "text": "Yes, this bus goes to downtown. It's the final destination."
+          }
+        ]
+      },
+      {
+        "description": "Confirming the bus stop",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Does this bus stop at the university?"
+          },
+          {
+            "speaker": "Bus Driver",
+            "text": "Yes, we have a stop at the university. It's about 10 minutes from here."
+          }
+        ]
+      }
+    ]
+  }
+}
