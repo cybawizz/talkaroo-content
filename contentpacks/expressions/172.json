@@ -1,0 +1,126 @@
+{
+  "title": "Asking what is for dinner",
+  "context": "Inquire about what type of food is being prepared for the meal.",
+  "content": {
+    "bestLine": "What's for dinner?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's being served?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help with dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is dinner ready yet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on the menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are we having?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's cookin'?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any grub?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whatcha makin'?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner plans?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's for eats?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hungry, what's up?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's [option] for dinner?",
+        "options": [
+          "on the menu",
+          "cooking",
+          "ready"
+        ],
+        "meaning": "inquire about dinner plans"
+      },
+      {
+        "template": "Is [option] for dinner?",
+        "options": [
+          "pizza",
+          "pasta",
+          "steak"
+        ],
+        "meaning": "ask about specific dinner options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple inquiry",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "What's for dinner?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "We're having pasta tonight."
+          }
+        ]
+      },
+      {
+        "description": "Showing interest",
+        "lines": [
+          {
+            "speaker": "Teen",
+            "text": "What's cooking?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "I'm making your favorite, chicken parmesan."
+          }
+        ]
+      }
+    ]
+  }
+}

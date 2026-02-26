@@ -1,0 +1,153 @@
+{
+  "title": "Recommending a meal kit delivery",
+  "context": "Tell a busy friend how much time you save having meals mailed to you.",
+  "content": {
+    "bestLine": "I save so much time with meal kits delivered to my door",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Meal kits save me time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I get meals delivered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's convenient for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have to cook",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Meal kits are a timesaver",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can focus on other things",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's easy to use",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I save time on groceries",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Meal kits are a lifesaver",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with meal kits",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's so much easier",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have to think about dinner",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Meal kits are the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I save so much time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a game changer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love not having to shop",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Meal kits are lowkey amazing",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella busy, meal kits help",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I save [options] with meal kits",
+        "options": [
+          "so much time",
+          "a lot of time",
+          "tons of time"
+        ],
+        "meaning": "expressing the time-saving benefit of meal kits"
+      },
+      {
+        "template": "Meal kits are [options] for me",
+        "options": [
+          "a lifesaver",
+          "a game changer",
+          "amazing"
+        ],
+        "meaning": "expressing the positive impact of meal kits"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Recommending meal kits to a busy friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I've been using meal kits and they're a lifesaver"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Really? I've been thinking about trying them"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the benefits of meal kits",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I save so much time with meal kits"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's amazing, I need to try them"
+          }
+        ]
+      }
+    ]
+  }
+}

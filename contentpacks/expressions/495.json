@@ -1,0 +1,133 @@
+{
+  "title": "Asking for help pitching a tent",
+  "context": "Ask someone to hold the pole steady while you stake the tent to the ground.",
+  "content": {
+    "bestLine": "Can you hold this pole steady for me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hold the pole for a second",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the pole steady",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you stabilize the pole?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to hold this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just hold it in place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it upright for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold the pole firm",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, hold this pole",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you grab this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold steady, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just hold it for a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a hand here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold this pole, please",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "Can you [hold/steady] the [pole/tent]?",
+        "options": [
+          "hold",
+          "steady",
+          "pole",
+          "tent"
+        ],
+        "meaning": "request for assistance"
+      },
+      {
+        "template": "I need [you/someone] to [hold/keep] the [pole/tent] [steady/upright]",
+        "options": [
+          "you",
+          "someone",
+          "hold",
+          "keep",
+          "pole",
+          "tent",
+          "steady",
+          "upright"
+        ],
+        "meaning": "request for help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for help",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you hold this pole for me?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, sure thing"
+          }
+        ]
+      },
+      {
+        "description": "Asking a stranger for help",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, can you hold this pole steady?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Okay, where do you need me to hold it?"
+          }
+        ]
+      }
+    ]
+  }
+}

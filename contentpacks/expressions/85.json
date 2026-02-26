@@ -1,0 +1,140 @@
+{
+  "title": "Talking to a child guest",
+  "context": "Speak in a friendly and encouraging way to a young visitor.",
+  "content": {
+    "bestLine": "Hi, how are you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your day going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite thing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How old are you now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're so much fun to talk to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like your smile",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's so cool!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm glad you're here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really funny",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play a game?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's awesome!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I like your shirt",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "My name is [options], what's yours?",
+        "options": [
+          "John",
+          "Emily",
+          "David"
+        ],
+        "meaning": "introducing oneself"
+      },
+      {
+        "template": "I like [options] too!",
+        "options": [
+          "ice cream",
+          "playing outside",
+          "reading books"
+        ],
+        "meaning": "showing shared interest"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Hi, how are you today?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm good, thanks"
+          },
+          {
+            "speaker": "Adult",
+            "text": "That's great! What's your favorite thing to do?"
+          }
+        ]
+      },
+      {
+        "description": "Finding common ground",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "I like playing games, do you?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yeah, I like playing games too!"
+          },
+          {
+            "speaker": "Adult",
+            "text": "That's awesome! What's your favorite game?"
+          }
+        ]
+      }
+    ]
+  }
+}

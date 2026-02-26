@@ -1,0 +1,173 @@
+{
+  "title": "Explaining that you have been busy",
+  "context": "Let the other person know you have had a lot of work or things to do.",
+  "content": {
+    "bestLine": "I've been really busy lately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've had a lot on my plate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Things have been keeping me busy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been quite occupied",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My schedule has been full",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been tied up with work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life has been keeping me busy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had a lot to do lately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been pretty busy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've been crazy busy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Things have been insane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been running around like crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've had my hands full",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been super busy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life has been wild",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been on the go nonstop",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been slammed with work",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've had a significant workload",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My responsibilities have been keeping me busy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been engaged in several projects",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My schedule has been quite demanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been focused on meeting deadlines",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've had a lot of commitments to attend to",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been [options] with work",
+        "options": [
+          "really busy",
+          "pretty occupied",
+          "quite engaged"
+        ],
+        "meaning": "explaining busyness"
+      },
+      {
+        "template": "My [options] has been keeping me busy",
+        "options": [
+          "schedule",
+          "workload",
+          "responsibilities"
+        ],
+        "meaning": "explaining busyness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I've been really busy lately, how about you?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a coworker",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, what's new with you?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I've had a lot on my plate with this new project, but it's going well"
+          }
+        ]
+      }
+    ]
+  }
+}

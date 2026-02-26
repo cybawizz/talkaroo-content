@@ -1,0 +1,173 @@
+{
+  "title": "Greetings for various times of the day",
+  "context": "Say hello using the correct time of day.",
+  "content": {
+    "bestLine": "Hello, how are you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, good morning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, good afternoon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, good evening",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Afternoon, hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Evening, hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's nice to see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, long time no see",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's it going",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, good morning",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, good afternoon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, good evening",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how was your day",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, it's great to see you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, buddy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, welcome",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, I'm glad you're here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening, it's nice to see you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm happy to have you here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, welcome to our meeting",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Good [time of day], [greeting]",
+        "options": [
+          "morning",
+          "afternoon",
+          "evening"
+        ],
+        "meaning": "A general greeting for different times of day"
+      },
+      {
+        "template": "Hello, [expression]",
+        "options": [
+          "how are you",
+          "it's nice to see you",
+          "I'm glad you're here"
+        ],
+        "meaning": "A greeting with a friendly expression"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A casual greeting between friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, what's up"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Not much, just got back from lunch"
+          }
+        ]
+      },
+      {
+        "description": "A formal greeting in a business setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Good morning, welcome to our meeting"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, it's nice to be here"
+          }
+        ]
+      }
+    ]
+  }
+}

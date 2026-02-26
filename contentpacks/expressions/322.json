@@ -1,0 +1,172 @@
+{
+  "title": "Cause and effect",
+  "context": "State that actions always have natural consequences.",
+  "content": {
+    "bestLine": "Every action has a natural consequence.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Actions have outcomes.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What you do affects what happens.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Consequences follow actions.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Every decision has a result.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your choices impact the outcome.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Actions lead to reactions.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cause and effect is real.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What you sow, you reap.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You gotta face the music.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What goes around comes around.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your actions will catch up to you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You'll get what's coming to you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do the crime, do the time.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You reap what you sow, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Karma's a thing.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your moves have consequences, bro.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Actions have repercussions.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Decisions yield outcomes.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Consequences are a direct result of actions.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to consider the effects of one's actions.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Every choice has a corresponding outcome.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The law of cause and effect applies universally.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If [options], then [consequence].",
+        "options": [
+          "you speed",
+          "you disobey rules"
+        ],
+        "meaning": "Cause and effect relationship"
+      },
+      {
+        "template": "Every [action] has a [consequence].",
+        "options": [
+          "decision",
+          "choice",
+          "move"
+        ],
+        "meaning": "Universal application of cause and effect"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Warning about reckless behavior",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Remember, every action has a consequence."
+          },
+          {
+            "speaker": "Teen",
+            "text": "I know, but I didn't think it would happen to me."
+          }
+        ]
+      },
+      {
+        "description": "Discussing responsibility",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "What you do in class will affect your grades."
+          },
+          {
+            "speaker": "Student",
+            "text": "So, if I study hard, I'll get good grades?"
+          }
+        ]
+      }
+    ]
+  }
+}

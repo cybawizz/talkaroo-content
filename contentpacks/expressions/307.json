@@ -1,0 +1,190 @@
+{
+  "title": "Knowing something after the fact",
+  "context": "Admit that you only realized the truth after it was too late.",
+  "content": {
+    "bestLine": "I only realized it after it was too late",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It didn't click until later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I found out afterwards",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It became clear later on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The truth came out later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I understood it in hindsight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It made sense after the fact",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The reality set in later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I grasped it too late",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It hit me later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I figured it out afterwards",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It dawned on me later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got it later on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It sank in later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I realized it too late",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It became obvious later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I caught on later",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The truth became apparent later",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I gained insight afterwards",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was evident later on",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The reality became clear later",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I acquired understanding later",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The situation became transparent later",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, I figured it out after it was too late",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Just what I needed, hindsight",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Yeah, because realizing it later helps",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] it after the fact",
+        "options": [
+          "realized",
+          "understood",
+          "figured out"
+        ],
+        "meaning": "to acknowledge something after it has happened"
+      },
+      {
+        "template": "It [options] on me later",
+        "options": [
+          "clicked",
+          "dawned",
+          "sank"
+        ],
+        "meaning": "to become aware of something after a period of time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends about a past situation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I had no idea what was going on until later"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I realized it after it was too late too"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and an employee about a project",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The truth became apparent later that we needed more resources"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand now, but I wish we had known earlier"
+          }
+        ]
+      }
+    ]
+  }
+}

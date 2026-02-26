@@ -1,0 +1,121 @@
+{
+  "title": "Getting your medical history",
+  "context": "Ask a patient if their family has a history of specific diseases.",
+  "content": {
+    "bestLine": "Does your family have a history of any major diseases?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is there a history of illness in your family?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any family health issues?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any diseases that run in your family?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about your family's medical history?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have any of your relatives had serious health problems?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a history of certain conditions in your family?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know of any health issues that are common in your family?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me about your family's medical background?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know about any hereditary conditions in your family.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please tell me about your family's health history.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any genetic disorders that I should be aware of?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide information about your family's illness history?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Does your family have a history of [options]?",
+        "options": [
+          "diabetes",
+          "heart disease",
+          "cancer"
+        ],
+        "meaning": "inquire about specific diseases"
+      },
+      {
+        "template": "Have you had any [options] in your family?",
+        "options": [
+          "close relatives",
+          "parents",
+          "siblings"
+        ],
+        "meaning": "ask about the relationship of affected family members"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Doctor asking about family medical history",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me about your family's medical history?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Yes, my father had heart disease and my mother has diabetes."
+          }
+        ]
+      },
+      {
+        "description": "Nurse inquiring about hereditary conditions",
+        "lines": [
+          {
+            "speaker": "Nurse",
+            "text": "Do you know of any genetic disorders that run in your family?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Actually, my sister has a genetic condition, but I'm not sure about the details."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Expressing trust in someone",
+  "context": "Assure someone that you completely trust them.",
+  "content": {
+    "bestLine": "I completely trust you with this.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have faith in you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can count on me trusting you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I believe in your abilities.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My trust is with you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in your judgment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have my full trust.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I trust your decision.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have trust in your actions.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I got your back.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I trust you completely.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best person for this.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I know I can count on you.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got faith in you, buddy.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're trustworthy, no doubt.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you all the way.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe you'll do the right thing.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have every confidence in you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my trust and support.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I trust your expertise in this matter.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your judgment is sound, I trust it.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am confident in your abilities.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are trustworthy and reliable.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you to handle this.",
+        "options": [
+          "trust",
+          "have faith in",
+          "believe in"
+        ],
+        "meaning": "Expressing trust in someone's ability"
+      },
+      {
+        "template": "You are [options] to me.",
+        "options": [
+          "someone I trust",
+          "very trustworthy",
+          "reliable"
+        ],
+        "meaning": "Stating trust in someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends where one expresses trust in the other.",
+        "lines": [
+          {
+            "speaker": "Alex",
+            "text": "I'm going out of town for a week, can you watch my dog?"
+          },
+          {
+            "speaker": "Sam",
+            "text": "Of course, I've got your back. I'll take good care of him."
+          }
+        ]
+      },
+      {
+        "description": "A workplace scenario where a manager expresses trust in an employee.",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I need someone to lead this project. Can I count on you?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, you can trust me to handle it. I won't let you down."
+          }
+        ]
+      }
+    ]
+  }
+}

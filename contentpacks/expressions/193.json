@@ -1,0 +1,173 @@
+{
+  "title": "Questions a babysitter might ask",
+  "context": "Ask the parents what time the kids need to go to sleep.",
+  "content": {
+    "bestLine": "What time should the kids go to sleep?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the bedtime routine?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do the kids need to be in bed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is bedtime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the kids' bedtime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the usual sleep schedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When should I put the kids to bed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time do the kids go to sleep?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share the bedtime details?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, what's bedtime around here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do the kiddos hit the hay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time should I tuck them in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's sleep time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the bedtime vibe?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do the kids wind down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time do they need to be asleep?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's the kids' bedtime routine?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the children's bedtime?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the designated sleep time for the kids?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate knowing the bedtime schedule.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time are the children expected to be in bed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you share the bedtime protocol?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the established bedtime routine?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time do the kids need to be [options]?",
+        "options": [
+          "in bed",
+          "asleep",
+          "tucked in"
+        ],
+        "meaning": "asking about bedtime"
+      },
+      {
+        "template": "Can you tell me the [options] bedtime?",
+        "options": [
+          "kids'",
+          "children's",
+          "usual"
+        ],
+        "meaning": "asking about bedtime details"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Babysitter asking parent about bedtime",
+        "lines": [
+          {
+            "speaker": "Babysitter",
+            "text": "What time should the kids go to sleep?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "They need to be in bed by 8 PM."
+          }
+        ]
+      },
+      {
+        "description": "Babysitter confirming bedtime routine",
+        "lines": [
+          {
+            "speaker": "Babysitter",
+            "text": "Just to confirm, what's the bedtime routine?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "We read them a book, brush their teeth, and then they go to sleep."
+          }
+        ]
+      }
+    ]
+  }
+}

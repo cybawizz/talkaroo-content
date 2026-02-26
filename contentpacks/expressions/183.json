@@ -1,0 +1,173 @@
+{
+  "title": "Asking where to buy art supplies",
+  "context": "Ask the craft store clerk where the watercolor paint or yarn is hidden.",
+  "content": {
+    "bestLine": "Where can I find the watercolor paint?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm looking for watercolor paint",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have yarn?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the art supplies?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help finding paint",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the craft section?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find a specific type of yarn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are the art supplies on sale?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry watercolor paper?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's the paint?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on the hunt for some yarn",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any good art supplies?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best paint for beginners?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any cool craft stuff?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for a new hobby, what do you recommend?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me find some inspiration?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the most popular art supply right now?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about your art supplies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please direct me to the watercolor paint?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of some high-quality yarn",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you carry a selection of art supplies for professionals?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me the craft section",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a specific type of paint, can you assist me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where can I find the [options]?",
+        "options": [
+          "watercolor paint",
+          "yarn",
+          "art supplies"
+        ],
+        "meaning": "asking for the location of a specific product"
+      },
+      {
+        "template": "Do you carry [options]?",
+        "options": [
+          "watercolor paper",
+          "craft supplies",
+          "paint"
+        ],
+        "meaning": "asking if a specific product is available"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for art supplies at a craft store",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Where can I find the watercolor paint?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Aisle 3, right next to the yarn"
+          }
+        ]
+      },
+      {
+        "description": "Asking for recommendations at an art store",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a new hobby, what do you recommend?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Have you considered painting? We have a great selection of watercolor paints"
+          }
+        ]
+      }
+    ]
+  }
+}

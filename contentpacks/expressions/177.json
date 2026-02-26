@@ -1,0 +1,171 @@
+{
+  "title": "Inquiring about someone's health",
+  "context": "Ask a person how they are feeling physically.",
+  "content": {
+    "bestLine": "How are you feeling today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your health?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you feeling okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your body holding up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any health concerns?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your physical condition?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you recovering well?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your overall health?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything alright physically?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up with your health?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You feeling alright?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's life treating your body?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any health issues?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look a bit off, you okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your health been lately?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Anything new with your health?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You taking care of yourself?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope you're in good health.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How is your physical health?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any medical concerns?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wish you continued good health.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How have you been feeling physically?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do to support your health?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How [options] you feeling?",
+        "options": [
+          "are",
+          "have you been"
+        ],
+        "meaning": "inquire about someone's health"
+      },
+      {
+        "template": "Is everything [options] with your health?",
+        "options": [
+          "alright",
+          "okay"
+        ],
+        "meaning": "ask about someone's well-being"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friendly inquiry about someone's health",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how are you feeling today?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm doing alright, thanks for asking."
+          }
+        ]
+      },
+      {
+        "description": "A concerned inquiry about someone's health",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You look a bit off, is everything okay?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm just a bit tired, that's all."
+          }
+        ]
+      }
+    ]
+  }
+}

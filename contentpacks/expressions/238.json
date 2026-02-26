@@ -1,0 +1,134 @@
+{
+  "title": "Haggling at a flea market",
+  "context": "Offer the vendor ten dollars less than the sticker price.",
+  "content": {
+    "bestLine": "I'll give you ten bucks less than the sticker price",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the lowest price you can offer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a better deal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a discount",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this price negotiable?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you throw in a discount?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best price you can give me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to make a lower offer",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How about we meet in the middle?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you cut me a break?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll give you a lower offer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the cheapest you can sell it for?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on a tight budget",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we work out a deal?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll give you [options] dollars less",
+        "options": [
+          "five",
+          "ten",
+          "fifteen"
+        ],
+        "meaning": "making a lower offer"
+      },
+      {
+        "template": "Can you sell it to me for [options]?",
+        "options": [
+          "twenty",
+          "thirty",
+          "forty"
+        ],
+        "meaning": "asking for a specific price"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Haggling over a vintage shirt",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I love this shirt, but it's a bit pricey"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "What do you think is a fair price?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll give you ten bucks less than the sticker price"
+          }
+        ]
+      },
+      {
+        "description": "Negotiating the price of a pair of shoes",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much are these shoes?"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "They're twenty dollars"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Can you give me a better deal?"
+          }
+        ]
+      }
+    ]
+  }
+}

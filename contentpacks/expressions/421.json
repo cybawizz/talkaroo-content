@@ -1,0 +1,173 @@
+{
+  "title": "Expressions meaning almost",
+  "context": "State that something was very close to happening but did not.",
+  "content": {
+    "bestLine": "It was so close, but didn't quite happen",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Almost made it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Came close",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Didn't quite happen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "So close, yet so far",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just missed it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Almost, but not quite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fell just short",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wasn't meant to be",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So close!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost had it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Barely missed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not quite there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Close call",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost made it happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So near, yet so far",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just out of reach",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Took an L",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Got robbed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Was this close",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Almost got it in",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Came up shorty",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "So close, no cigar",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I was [options] close to [goal]",
+        "options": [
+          "this",
+          "so",
+          "really"
+        ],
+        "meaning": "Expressing nearness to a goal"
+      },
+      {
+        "template": "It [options] happened",
+        "options": [
+          "almost",
+          "nearly",
+          "basically"
+        ],
+        "meaning": "Expressing that something almost occurred"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends talking about a close call",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I almost got into that concert"
+          },
+          {
+            "speaker": "B",
+            "text": "No way! What happened?"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers discussing a near-miss project",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We came so close to meeting the deadline"
+          },
+          {
+            "speaker": "B",
+            "text": "I know, it's frustrating. But we'll get 'em next time"
+          }
+        ]
+      }
+    ]
+  }
+}

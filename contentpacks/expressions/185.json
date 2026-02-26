@@ -1,0 +1,173 @@
+{
+  "title": "Asking to borrow a tool from a neighbor",
+  "context": "Politely ask the person next door if they own a power drill.",
+  "content": {
+    "bestLine": "Do you have a power drill I could borrow?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you own a power drill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I borrow a drill from you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a drill I can use?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a power drill, do you have one?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I borrow your power drill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a drill that I can borrow?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you lend me a power drill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a power drill, do you have one?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, got a drill I can borrow?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a drill lying around?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab your drill for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to borrow a drill, yours free?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a power drill I can use?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I swipe your drill for a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a drill I can borrow, dude?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing some DIY, can I use your drill?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if I might borrow your power drill.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a power drill that I could borrow?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would greatly appreciate it if I could use your drill.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I possibly borrow your power drill for a short while?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of a power drill, might I borrow yours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to lend me your power drill?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you have a [options]?",
+        "options": [
+          "power drill",
+          "drill",
+          "screwdriver"
+        ],
+        "meaning": "asking to borrow a tool"
+      },
+      {
+        "template": "Can I [options] your [options]?",
+        "options": [
+          "borrow",
+          "use",
+          "lend"
+        ],
+        "meaning": "requesting permission to use something"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to borrow a power drill from a neighbor",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, do you have a power drill I could borrow?"
+          },
+          {
+            "speaker": "Neighbor",
+            "text": "Yeah, I have one. What do you need it for?"
+          }
+        ]
+      },
+      {
+        "description": "Asking to borrow a power drill from a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, got a drill I can borrow?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I have one. You can come by and pick it up."
+          }
+        ]
+      }
+    ]
+  }
+}

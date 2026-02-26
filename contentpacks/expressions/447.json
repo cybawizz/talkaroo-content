@@ -1,0 +1,172 @@
+{
+  "title": "Setting personal boundaries",
+  "context": "Clearly tell a friend to stop asking about a sensitive topic.",
+  "content": {
+    "bestLine": "I'd rather not discuss that right now.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's talk about something else.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable discussing that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we change the subject?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer not to share that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a sensitive topic for me.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not ready to talk about that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on something else.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd rather not go into details.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can we drop it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not really up for talking about that.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's move on to something else.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, let's just forget it.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a bit too personal.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not really comfortable sharing that.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just leave it alone.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd rather not get into it.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if we could discuss something else.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not at liberty to discuss that topic.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would prefer to keep that information private.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us focus on a different matter.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not comfortable sharing that information.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would rather not engage in a discussion about that.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd rather [options] talk about something else.",
+        "options": [
+          "not",
+          "prefer not to"
+        ],
+        "meaning": "Setting a boundary"
+      },
+      {
+        "template": "Let's [options] the subject.",
+        "options": [
+          "change",
+          "drop",
+          "move on from"
+        ],
+        "meaning": "Redirecting the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Setting a boundary with a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "What's going on with you and your family?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'd rather not discuss that right now. Let's talk about something else."
+          }
+        ]
+      },
+      {
+        "description": "Redirecting the conversation",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "What happened at therapy?"
+          },
+          {
+            "speaker": "You",
+            "text": "Let's move on to something else. How was your week?"
+          }
+        ]
+      }
+    ]
+  }
+}

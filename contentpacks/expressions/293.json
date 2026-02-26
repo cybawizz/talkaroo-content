@@ -1,0 +1,189 @@
+{
+  "title": "Explaining why you canceled an order",
+  "context": "Tell customer service that you accidentally bought the wrong size.",
+  "content": {
+    "bestLine": "I accidentally bought the wrong size",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I ordered the wrong size",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wrong size was selected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a sizing error",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Incorrect size was purchased",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to cancel due to size issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Size mismatch, please cancel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I accidentally chose wrong size",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cancel due to incorrect size",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I got the wrong size, can I cancel?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wrong size, can you help me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I messed up the size, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I cancel? Wrong size",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to return, wrong size",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wrong size, what's the return process?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I made a mistake with the size",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cancel my order? Wrong size",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to inform you of a sizing error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please cancel my order due to incorrect size",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request cancellation due to size discrepancy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A sizing mistake was made, please assist with cancellation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am requesting cancellation due to an error in size selection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please cancel my order as the wrong size was selected",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] the wrong size",
+        "options": [
+          "ordered",
+          "got",
+          "selected"
+        ],
+        "meaning": "explaining the reason for cancellation"
+      },
+      {
+        "template": "Please cancel my order due to [options]",
+        "options": [
+          "a sizing error",
+          "incorrect size",
+          "size discrepancy"
+        ],
+        "meaning": "requesting cancellation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer explaining order cancellation",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need to cancel my order"
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "Okay, what seems to be the issue?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I accidentally bought the wrong size"
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "I'd be happy to help you with that. Let me just cancel the order for you"
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting return due to wrong size",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need to return an item"
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "What's the reason for the return?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I got the wrong size, can I get a refund or exchange?"
+          },
+          {
+            "speaker": "Customer Service",
+            "text": "Yes, of course. Let me assist you with the return process"
+          }
+        ]
+      }
+    ]
+  }
+}

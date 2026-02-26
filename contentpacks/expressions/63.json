@@ -1,0 +1,173 @@
+{
+  "title": "When someone is peaceful and content",
+  "context": "Observe that a person seems perfectly satisfied and peaceful.",
+  "content": {
+    "bestLine": "You seem really at peace today.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You look very relaxed.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've never seen you so calm.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be in a good place.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everything okay? You seem peaceful.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're glowing with contentment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can tell you're feeling satisfied.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your demeanor is very serene.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be doing great.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you're so chill.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're looking super happy.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving the vibe you're giving off.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You seem really carefree today.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your secret? You seem so at peace.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're radiating good energy.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I can tell you're in a great mood.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking very content.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You appear to be in a state of tranquility.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I notice you seem particularly satisfied today.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your demeanor suggests a high level of contentment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be enjoying a sense of peace.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's clear you're feeling very fulfilled.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You exhibit a notable sense of serenity.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You seem [options] today.",
+        "options": [
+          "really at peace",
+          "very happy",
+          "super relaxed"
+        ],
+        "meaning": "Observing someone's peaceful state"
+      },
+      {
+        "template": "I've never seen you so [options].",
+        "options": [
+          "calm",
+          "content",
+          "serene"
+        ],
+        "meaning": "Commenting on someone's unusual peacefulness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You seem really at peace today."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I've been practicing meditation."
+          }
+        ]
+      },
+      {
+        "description": "Formal interaction",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I notice you seem particularly satisfied today."
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, I've been enjoying my work lately."
+          }
+        ]
+      }
+    ]
+  }
+}

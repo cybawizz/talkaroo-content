@@ -1,0 +1,225 @@
+{
+  "title": "Requesting silence (quick)",
+  "context": "Ask people to stop making noise immediately.",
+  "content": {
+    "bestLine": "Please be quiet now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Keep it down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please be quiet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some silence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you keep the noise down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate some quiet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from talking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it quiet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Silence, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, quiet down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you chill with the noise?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it on the down low",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Shh, be quiet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not so loud, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy on the noise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Quiet, please, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill with the talking",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate silence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please maintain a quiet atmosphere",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refrain from speaking?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to keep the noise level down",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a quiet environment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please observe silence",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, pipe down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, be quiet",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, silence please",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hush, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Vibes, quiet vibes",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Shhh, no noise",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Shut up now",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Can't you just be quiet?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop making so much noise",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just be quiet, okay?",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] the noise",
+        "options": [
+          "keep down",
+          "lower"
+        ],
+        "meaning": "requesting someone to reduce the noise level"
+      },
+      {
+        "template": "I need [options] to focus",
+        "options": [
+          "some silence",
+          "quiet"
+        ],
+        "meaning": "requesting a quiet environment to concentrate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting silence in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Please, let's keep the discussion quiet"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Sorry, I'll keep it down"
+          }
+        ]
+      },
+      {
+        "description": "Asking for silence in a library",
+        "lines": [
+          {
+            "speaker": "Librarian",
+            "text": "Shh, please refrain from talking"
+          },
+          {
+            "speaker": "Student",
+            "text": "Okay, sorry about that"
+          }
+        ]
+      }
+    ]
+  }
+}

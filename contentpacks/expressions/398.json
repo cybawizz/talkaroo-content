@@ -1,0 +1,173 @@
+{
+  "title": "Offering to make amends",
+  "context": "Ask how you can fix the problem you caused.",
+  "content": {
+    "bestLine": "How can I fix this for you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What can I do to make it right?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I fix the problem?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you need from me to move forward?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I make it up to you somehow?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I make things better?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way for me to make amends?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do to fix this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I start by apologizing and making it right?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad, how can I make it right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What can I do to make you happy again?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I turn this around?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I buy you a drink to make up for it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me make it up to you, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you say I do to fix this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really sorry, can I make it right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about I try to make it better?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, please let me know how I can rectify the situation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What steps can I take to make amends?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I provide a solution to this problem?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to offer a solution, may I proceed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apology, and let me know how I can improve the situation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What would you like me to do to resolve this issue?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How can I [options] to make it right?",
+        "options": [
+          "fix",
+          "make up for",
+          "rectify"
+        ],
+        "meaning": "Asking how to make amends"
+      },
+      {
+        "template": "What can I [options] to improve the situation?",
+        "options": [
+          "do",
+          "offer",
+          "provide"
+        ],
+        "meaning": "Asking how to provide a solution"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing and offering to make amends in a neutral setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really sorry for what happened."
+          },
+          {
+            "speaker": "Person B",
+            "text": "How can you make it right?"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing and offering to make amends in a formal setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I apologize for the mistake, please let me know how I can rectify the situation."
+          },
+          {
+            "speaker": "Client",
+            "text": "I appreciate your apology, please provide a solution to this problem."
+          }
+        ]
+      }
+    ]
+  }
+}

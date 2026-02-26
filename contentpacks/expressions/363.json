@@ -1,0 +1,205 @@
+{
+  "title": "Complaining about internet advertisements",
+  "context": "Complain that a video has too many unskippable commercials.",
+  "content": {
+    "bestLine": "This video has way too many unskippable ads",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Too many ads in this video",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't like all these commercials",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This video is mostly ads",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Unskippable ads are annoying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Too much advertising here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tired of these commercials",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is too much to watch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not worth watching with all these ads",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ugh, so many ads",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can't skip any of these commercials",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This video is all ads",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with these unskippable ads",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Too many interruptions",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not watching this with all these ads",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So annoying, can't even skip",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All ads, no content",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This vid is hella ad-heavy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey can't stand these unskippable ads",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey annoyed by all these commercials",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This video is straight fire... with ads",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, too many ads",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting this video due to ads",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me with these ads?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is ridiculous, all ads",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Unskippable ads are the worst",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I hate this video and all its ads",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Who thought this many ads was a good idea?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is a total ad dump",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with all these ads",
+        "options": [
+          "so done",
+          "tired",
+          "fed up"
+        ],
+        "meaning": "expressing frustration with ads"
+      },
+      {
+        "template": "This video has [options] too many ads",
+        "options": [
+          "way",
+          "totally",
+          "completely"
+        ],
+        "meaning": "complaining about the number of ads"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about a video with too many ads",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm trying to watch this video but it's all ads"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Ugh, I know, right? I tried watching it yesterday and it was the same"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a family member about ads on a streaming service",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I hate how many unskippable ads there are on this streaming service"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, it's getting worse and worse"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Finding out a hotel guest's preferences",
+  "context": "Ask the customer if they prefer a king bed or two queens.",
+  "content": {
+    "bestLine": "Would you prefer a king bed or two queens?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you prefer one large bed or two smaller ones?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What type of bed do you like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "King or two queens?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which bed option do you prefer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "One king or two queens?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your bed preference?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you like a king or two queens?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which bed type do you like best?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you like a room with a king-sized bed or two queen-sized beds?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please select your preferred bed type.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a bed preference, sir/ma'am?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We offer king and two queen bed options.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Which accommodation best suits your needs?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "King or two queen beds are available.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Would you like a [options] bed?",
+        "options": [
+          "king",
+          "two queens"
+        ],
+        "meaning": "Asking about bed preference"
+      },
+      {
+        "template": "Do you prefer [options]?",
+        "options": [
+          "one large bed",
+          "two smaller beds"
+        ],
+        "meaning": "Inquiring about bed type"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Hotel Reception",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Welcome to our hotel. Would you prefer a king bed or two queens?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I'll take a king bed, please."
+          }
+        ]
+      },
+      {
+        "description": "Booking Inquiry",
+        "lines": [
+          {
+            "speaker": "Travel Agent",
+            "text": "What type of bed do you like?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I prefer two queens."
+          }
+        ]
+      }
+    ]
+  }
+}

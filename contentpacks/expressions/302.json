@@ -1,0 +1,173 @@
+{
+  "title": "When you do not understand a foreign visitor",
+  "context": "Politely explain you cannot understand a visitor's language.",
+  "content": {
+    "bestLine": "I'm sorry, I don't speak your language.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't understand.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak English?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with that language.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a translator?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble understanding.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you write it down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't speak your language fluently.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there someone who can interpret?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No idea what you're saying.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you dumb it down for me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lost, can you explain again?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have Google Translate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting it, can you try again?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can someone help us out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so confused, can you start over?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me get someone who speaks your language.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, I don't speak your language.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please speak in English?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not proficient in your language.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like me to find an interpreter?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty understanding your language.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a language service we can use?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] speak your language.",
+        "options": [
+          "don't",
+          "can't",
+          "don't really"
+        ],
+        "meaning": "I don't understand your language."
+      },
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "speak English",
+          "write it down",
+          "use a translator"
+        ],
+        "meaning": "I need help understanding you."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A foreign visitor approaches you and starts speaking in their native language.",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "Bonjour, comment ça va?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm sorry, I don't speak French. Can you speak English?"
+          }
+        ]
+      },
+      {
+        "description": "You're trying to help a foreign visitor, but you don't understand their language.",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "¿Dónde está...?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not familiar with Spanish. Let me get someone who can help us."
+          }
+        ]
+      }
+    ]
+  }
+}

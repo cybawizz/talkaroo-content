@@ -1,0 +1,158 @@
+{
+  "title": "Starting a conversation on a dating app",
+  "context": "Send the first message to someone you matched with online.",
+  "content": {
+    "bestLine": "Hey, how's it going?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what's up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, nice to match with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your day going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your week?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm [name]",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yooo, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, nice profile",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's new?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, hi!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, no cap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good fam?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, lowkey excited to match",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Yooo, what's poppin'?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hey, [options]",
+        "options": [
+          "what's good",
+          "how's it going",
+          "what's up"
+        ],
+        "meaning": "starting a conversation"
+      },
+      {
+        "template": "Hi, [options]",
+        "options": [
+          "how are you",
+          "what's new",
+          "how's life"
+        ],
+        "meaning": "starting a conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Match",
+            "text": "I'm good, thanks! How about you?"
+          }
+        ]
+      },
+      {
+        "description": "Showing interest",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, nice profile"
+          },
+          {
+            "speaker": "Match",
+            "text": "Thanks! I saw that we have some common interests"
+          }
+        ]
+      }
+    ]
+  }
+}

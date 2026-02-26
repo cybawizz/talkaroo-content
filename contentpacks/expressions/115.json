@@ -1,0 +1,173 @@
+{
+  "title": "Complimenting someone's outfit",
+  "context": "Ask a friend where they actually bought that stylish dress.",
+  "content": {
+    "bestLine": "Where did you get that dress, it's so cute!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's a great dress, where's it from?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love your outfit, where did you buy it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your dress is really stylish, what store is it from?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look great, where did you get that dress?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That dress is beautiful, where's the store?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving your fashion sense, where's the dress from?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your outfit is on point, what's the store?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have great taste, where did you buy the dress?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "OMG, that dress is everything! Where'd you get it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with your dress, where's it from?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're rocking that dress, what store is it from?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That dress is fire, where did you cop it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need that dress in my life, where'd you get it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking sharp, what's the story behind the dress?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving the vibe of that dress, where's it from?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That dress is dope, where did you find it?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, that dress is everything! Where'd you scoop it?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed with your dress, where's it from?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're serving looks in that dress, what's the tea?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That dress is straight fire, where'd you get it?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need that dress in my wardrobe, where'd you cop it?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're looking hella cute, what's the story behind the dress?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I love your [options], where did you get it?",
+        "options": [
+          "dress",
+          "outfit",
+          "style"
+        ],
+        "meaning": "asking about the origin of someone's clothing"
+      },
+      {
+        "template": "You're [options] in that dress, what store is it from?",
+        "options": [
+          "rocking",
+          "killing",
+          "slaying"
+        ],
+        "meaning": "complimenting someone's appearance and asking about the store"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complimenting a friend's outfit",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Where did you get that dress, it's so cute!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Thanks, I got it at a thrift store downtown."
+          }
+        ]
+      },
+      {
+        "description": "Asking about someone's fashion sense",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I love your outfit, where did you buy it?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Thanks, I got it at a local boutique."
+          }
+        ]
+      }
+    ]
+  }
+}

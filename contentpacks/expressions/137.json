@@ -1,0 +1,148 @@
+{
+  "title": "Stating it is exactly noon or midnight",
+  "context": "State that the clock has exactly struck twelve.",
+  "content": {
+    "bestLine": "It's exactly twelve o'clock.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The time is twelve.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's twelve o'clock sharp.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The clock says twelve.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's high noon.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Midnight has struck.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is exactly twelve.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's twelve on the dot.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's noon time!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Midnight, baby!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's twelve, dude.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Noon has arrived.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for lunch!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock struck twelve.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The hour is twelve.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is precisely twelve o'clock.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time has reached twelve.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have reached the noon hour.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] o'clock.",
+        "options": [
+          "twelve",
+          "noon",
+          "midnight"
+        ],
+        "meaning": "stating the exact time"
+      },
+      {
+        "template": "The time is [options].",
+        "options": [
+          "twelve",
+          "noon",
+          "midnight"
+        ],
+        "meaning": "stating the exact time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends meeting for lunch",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, it's noon. Ready for lunch?"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Yeah, I'm starving. Let's go."
+          }
+        ]
+      },
+      {
+        "description": "A manager starting a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "It's precisely twelve o'clock. Let's begin the meeting."
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, sir. I'm ready."
+          }
+        ]
+      }
+    ]
+  }
+}

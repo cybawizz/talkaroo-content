@@ -1,0 +1,173 @@
+{
+  "title": "Requesting information from a telephone solicitor",
+  "context": "Ask a telemarketer for more details about the product they are selling.",
+  "content": {
+    "bestLine": "Can you tell me more about the product?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the product about?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide more details?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does it work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the benefits?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it available now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a demo?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a trial?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So what's the deal with this product?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me the lowdown",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's it gonna help me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the catch?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it worth the money?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me an example?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How does it compare to others?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a discount?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you elaborate on the product's features?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate more information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the product's specifications?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a detailed description?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a product brochure available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I schedule a follow-up call?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you tell me more about [options]?",
+        "options": [
+          "the product",
+          "the service",
+          "the offer"
+        ],
+        "meaning": "requesting more information"
+      },
+      {
+        "template": "How does [options] work?",
+        "options": [
+          "the product",
+          "the technology",
+          "the process"
+        ],
+        "meaning": "asking for an explanation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting more information",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you tell me more about the product?"
+          },
+          {
+            "speaker": "Telemarketer",
+            "text": "Yes, of course. The product is a state-of-the-art device that..."
+          }
+        ]
+      },
+      {
+        "description": "Asking for a demo",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get a demo of the product?"
+          },
+          {
+            "speaker": "Telemarketer",
+            "text": "Absolutely. Let me schedule a demo for you at your convenience."
+          }
+        ]
+      }
+    ]
+  }
+}

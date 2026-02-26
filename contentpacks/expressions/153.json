@@ -1,0 +1,173 @@
+{
+  "title": "Questions for a librarian",
+  "context": "Ask a library worker where to find a specific book.",
+  "content": {
+    "bestLine": "Where can I find this book?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you help me find a book?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a specific title.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where is the fiction section?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have this book on shelf?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get directions to the book?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this book available here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I find books on this topic?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What floor is the book on?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's this book at?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you show me where this is?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need help finding a book.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys have this book?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where would I find this title?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point me to the book?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the book on the shelf now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me track it down?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you assist me in locating a book?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate help finding this title.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where might I find this particular book?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the book currently available in the library?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide directions to the book's location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for a specific book, can you help?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where is the [options] section?",
+        "options": [
+          "fiction",
+          "non-fiction",
+          "biography"
+        ],
+        "meaning": "Asking for the location of a specific book section"
+      },
+      {
+        "template": "Can you help me find a book on [options]?",
+        "options": [
+          "history",
+          "science",
+          "art"
+        ],
+        "meaning": "Requesting assistance in finding a book on a particular subject"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a librarian for help finding a book",
+        "lines": [
+          {
+            "speaker": "Patron",
+            "text": "Excuse me, I'm looking for a book."
+          },
+          {
+            "speaker": "Librarian",
+            "text": "What's the title of the book you're looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting directions to a book's location",
+        "lines": [
+          {
+            "speaker": "Patron",
+            "text": "Where can I find books on photography?"
+          },
+          {
+            "speaker": "Librarian",
+            "text": "The photography books are on the third floor, aisle 5."
+          }
+        ]
+      }
+    ]
+  }
+}

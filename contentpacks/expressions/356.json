@@ -1,0 +1,216 @@
+{
+  "title": "Celebrating a new client signing",
+  "context": "Tell your network that you just landed a massive new contract.",
+  "content": {
+    "bestLine": "Just landed a massive new contract!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm excited to announce a new partnership",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've secured a new client",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A new contract is in place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our team has landed a new deal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to working with our new client",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're expanding our client base",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A new agreement has been reached",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our company is growing with a new contract",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just scored a huge new client",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're stoked to have a new project",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm psyched about our new partnership",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got a new gig lined up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Our team is thrilled about the new contract",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so excited to start working with our new client",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're going to crush this new project",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This new contract is a game-changer",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We are pleased to announce a new client partnership",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our company has successfully secured a new contract",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A new agreement has been formally established",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We look forward to collaborating with our new client",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our team is committed to delivering exceptional results for our new client",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This new contract represents a significant opportunity for growth",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "We just landed a sick new client",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This new contract is straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "We're low-key excited about our new partnership",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Our new client is a total boss",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "We're gonna kill it with this new project",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We [options] a new client",
+        "options": [
+          "just landed",
+          "are excited to announce",
+          "have successfully secured"
+        ],
+        "meaning": "to express excitement and confirmation of a new client"
+      },
+      {
+        "template": "This new contract is [options]",
+        "options": [
+          "a game-changer",
+          "a significant opportunity",
+          "straight fire"
+        ],
+        "meaning": "to express enthusiasm and importance of the new contract"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Celebrating with a team member",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, have you heard the news?"
+          },
+          {
+            "speaker": "Emily",
+            "text": "No, what's up?"
+          },
+          {
+            "speaker": "John",
+            "text": "We just landed a massive new contract!"
+          },
+          {
+            "speaker": "Emily",
+            "text": "That's amazing! Congratulations!"
+          }
+        ]
+      },
+      {
+        "description": "Sharing the news with a friend",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "What's new with you?"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "I just got a new client and I'm super excited"
+          },
+          {
+            "speaker": "Mike",
+            "text": "That's awesome! What's the project about?"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "It's a big one, and I think it's going to be a lot of fun"
+          }
+        ]
+      }
+    ]
+  }
+}

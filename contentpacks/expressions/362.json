@@ -1,0 +1,158 @@
+{
+  "title": "Bragging about buying your first house",
+  "context": "Tell your friends that you finally closed on a starter home in the suburbs.",
+  "content": {
+    "bestLine": "I just closed on my starter home in the suburbs!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm a homeowner now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just bought my first house",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I own a house in the suburbs",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My first home is a reality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the keys to my new home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all moved in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dream of homeownership came true",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm officially a homeowner, yo!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just copped my first crib",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living the dream in my new pad",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My new house is lit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so hyped to be a homeowner",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My first home is everything I wanted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm never leaving my new house",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key a homeowner now",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I just scored my first digs",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My new spot is fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key excited to be a homeowner",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My first home is a major key",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] to be a homeowner",
+        "options": [
+          "so stoked",
+          "super excited",
+          "beyond thrilled"
+        ],
+        "meaning": "expressing enthusiasm for being a homeowner"
+      },
+      {
+        "template": "My new house is [options]",
+        "options": [
+          "amazing",
+          "awesome",
+          "everything I wanted"
+        ],
+        "meaning": "describing the new home in a positive way"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "talking to friends about the new house",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I just closed on my starter home in the suburbs!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's amazing, congrats! What's it like?"
+          }
+        ]
+      },
+      {
+        "description": "showing off the new house",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Welcome to my new pad, guys!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "This is incredible, you must be so proud"
+          }
+        ]
+      }
+    ]
+  }
+}

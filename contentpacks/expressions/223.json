@@ -1,0 +1,173 @@
+{
+  "title": "Questions a customer might ask",
+  "context": "Ask a salesperson a question about a product's price or features.",
+  "content": {
+    "bestLine": "How much does this cost?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the price of this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about this product?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much is this item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the features of this product?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some information about this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the difference between this and that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this on sale?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any discounts available?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much for this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with this product?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any discounts on this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a better price?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best way to use this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is this a good deal?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a better price if I buy two?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any bundles or packages?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide me with the pricing information for this item?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about the features of this product.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the cost of this product, and are there any discounts available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in purchasing this item, could you please provide me with more information?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please explain the differences between this product and other similar products?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know more about the warranty and return policy for this product.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you tell me about [options]?",
+        "options": [
+          "this product",
+          "the features",
+          "the price"
+        ],
+        "meaning": "asking for information"
+      },
+      {
+        "template": "Do you have any [options] available?",
+        "options": [
+          "discounts",
+          "deals",
+          "promotions"
+        ],
+        "meaning": "asking for discounts"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking salesperson about product price",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much does this cost?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "This item is $50."
+          }
+        ]
+      },
+      {
+        "description": "Customer asking salesperson about product features",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What are the features of this product?"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "This product has a 4K resolution, Wi-Fi connectivity, and a 12-hour battery life."
+          }
+        ]
+      }
+    ]
+  }
+}

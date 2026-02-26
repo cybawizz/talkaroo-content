@@ -1,0 +1,137 @@
+{
+  "title": "Screening a phone call",
+  "context": "Ask the caller for their name before transferring them to the boss.",
+  "content": {
+    "bestLine": "May I have your name, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me who's calling?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who is this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I know your name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What can I call you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How may I address you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you identify yourself?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who's on the line?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have the pleasure of knowing your name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please state your name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know who I'm speaking with.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your name, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I ask for your identification?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Who is calling, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is not available.",
+        "options": [
+          "boss",
+          "supervisor"
+        ],
+        "meaning": "The person you're asking for is not available."
+      },
+      {
+        "template": "Can you please [options]?",
+        "options": [
+          "hold for a moment",
+          "wait briefly"
+        ],
+        "meaning": "Asking the caller to wait."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic screening",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Hello, how can I help you?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Hi, I'd like to speak with the boss."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "May I have your name, please?"
+          }
+        ]
+      },
+      {
+        "description": "Formal screening",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Good morning, this is [Company]. How may I assist you?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Good morning. I need to speak with the supervisor."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Could you please state your name?"
+          }
+        ]
+      }
+    ]
+  }
+}

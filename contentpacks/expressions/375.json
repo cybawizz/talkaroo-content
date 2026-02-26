@@ -1,0 +1,173 @@
+{
+  "title": "Blaming something on fate or destiny",
+  "context": "State that something happened because it was meant to be.",
+  "content": {
+    "bestLine": "It was meant to be",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It was meant to happen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fate had other plans",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was just destiny",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Things work out as they should",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's all part of the plan",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life has its own way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Some things are just meant to be",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The universe has its own timing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It was gonna happen anyway",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fate's got a weird sense of humor",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Destiny's a crazy thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all good, it was meant to be",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life's too short to worry about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Things work out, you know?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's just how the cookie crumbles",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can't fight fate, dude",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's all gucci, fate's got this",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Destiny's low-key in control",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Fate's got the wheel, bro",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's meant to be, no cap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The universe is just vibin'",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Fate's got a plan, and it's fire",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It was [options] to happen",
+        "options": [
+          "meant",
+          "always going",
+          "supposed"
+        ],
+        "meaning": "Fate or destiny played a role"
+      },
+      {
+        "template": "Fate's got [options] plans",
+        "options": [
+          "other",
+          "big",
+          "crazy"
+        ],
+        "meaning": "Fate has unexpected or surprising plans"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a recent event",
+        "lines": [
+          {
+            "speaker": "Alex",
+            "text": "I'm so sorry it didn't work out"
+          },
+          {
+            "speaker": "Sam",
+            "text": "It was meant to be, don't worry about it"
+          }
+        ]
+      },
+      {
+        "description": "A person reflecting on their life",
+        "lines": [
+          {
+            "speaker": "Narrator",
+            "text": "I used to think I was in control"
+          },
+          {
+            "speaker": "Narrator",
+            "text": "But now I realize, it's all part of the plan"
+          }
+        ]
+      }
+    ]
+  }
+}

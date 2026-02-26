@@ -1,0 +1,173 @@
+{
+  "title": "Sharing a screen on a video call",
+  "context": "Announce that you are presenting a document to the group.",
+  "content": {
+    "bestLine": "I'm going to share a document with you now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's take a look at this document",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll share my screen now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's the document we need to review",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sharing a file with you now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me show you this on my screen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll present this document to the group",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's the information we discussed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go over this document together",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Check out this doc I'm sharing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna share my screen real quick",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's take a gander at this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll throw this up on the screen",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Here's the thing I wanted to show you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me just share this with you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm sharing this with the group now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Take a look at what I've got here",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will now present the document to the group",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please review the document I am sharing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The document is now being shared with the group",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will proceed to share the relevant information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The document is available for your review",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am sharing the document with the group at this time",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] now",
+        "options": [
+          "share a document",
+          "present the information",
+          "show you something"
+        ],
+        "meaning": "to announce an action"
+      },
+      {
+        "template": "Let's [options] the [options]",
+        "options": [
+          "review",
+          "go over",
+          "take a look at"
+        ],
+        "meaning": "to suggest an action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sharing a document on a video call",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "I'm going to share a document with you now"
+          },
+          {
+            "speaker": "Participant",
+            "text": "Okay, I see it"
+          }
+        ]
+      },
+      {
+        "description": "Presenting information on a video call",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Let's take a look at this document"
+          },
+          {
+            "speaker": "Participant",
+            "text": "What page are we on?"
+          }
+        ]
+      }
+    ]
+  }
+}

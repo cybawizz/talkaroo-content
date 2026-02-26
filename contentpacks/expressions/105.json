@@ -1,0 +1,131 @@
+{
+  "title": "Expressing sympathy for someone's misfortune",
+  "context": "Tell someone that you are sorry they went through a bad experience.",
+  "content": {
+    "bestLine": "I'm so sorry you had to go through that.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That sounds really tough.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sorry to hear that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's really unfortunate.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel bad for you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That must have been difficult.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's too bad.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sorry you're going through this.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I offer my condolences.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret to hear that.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My sympathies are with you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you the best during this difficult time.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] you had to go through that.",
+        "options": [
+          "sorry",
+          "sad",
+          "upset"
+        ],
+        "meaning": "Expressing sympathy"
+      },
+      {
+        "template": "That sounds [options].",
+        "options": [
+          "really tough",
+          "very difficult",
+          "extremely challenging"
+        ],
+        "meaning": "Showing empathy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sympathy conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm so sorry to hear about your loss."
+          },
+          {
+            "speaker": "B",
+            "text": "Thanks, it's been tough."
+          }
+        ]
+      },
+      {
+        "description": "Sympathy conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I feel bad for you, that must have been really difficult."
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, it was. But thanks for listening."
+          }
+        ]
+      }
+    ]
+  }
+}

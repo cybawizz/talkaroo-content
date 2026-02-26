@@ -1,0 +1,173 @@
+{
+  "title": "Explaining ghosting",
+  "context": "Tell someone that you just completely stopped replying to their texts forever.",
+  "content": {
+    "bestLine": "I just stopped replying to your texts",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I stopped responding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't mean to ignore you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I just needed space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wasn't feeling the conversation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't know how to respond",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I took a break from texting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I lost interest in talking",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I ghosted you, sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wasn't feeling the vibe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I needed a break from you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't wanna talk anymore",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was too busy for you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just stopped caring",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't know what to say",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was over the conversation",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I dipped on you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was low-key done",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I high-key ignored you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was ghosting hard",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was on some other stuff",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I didn't feel the chat",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] responding to your texts",
+        "options": [
+          "stopped",
+          "quit",
+          "ceased"
+        ],
+        "meaning": "to stop responding"
+      },
+      {
+        "template": "I was [options] with the conversation",
+        "options": [
+          "done",
+          "over",
+          "finished"
+        ],
+        "meaning": "to be finished with the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining ghosting to someone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, why did you stop responding to my texts?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I just stopped replying, I didn't mean to ignore you"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing for ghosting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I feel like you ghosted me, what happened?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm sorry, I was going through a lot and I didn't know how to respond"
+          }
+        ]
+      }
+    ]
+  }
+}

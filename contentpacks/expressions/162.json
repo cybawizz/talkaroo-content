@@ -1,0 +1,245 @@
+{
+  "title": "Questioning someone's sanity",
+  "context": "Ask someone if they have lost their mind regarding a decision.",
+  "content": {
+    "bestLine": "Have you lost your mind?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you serious?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is that a joke?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not following your logic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That doesn't make sense to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you might be mistaken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you reconsider?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, what's wrong with you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Are you kidding me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's crazy talk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can't be serious",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's gotten into you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have you gone nuts?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not right",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, think about it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bruh, what's good with you?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You trippin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's hella crazy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You must be trollin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's poppin' in that head of yours?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You lost your marbles",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great idea, genius",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most brilliant thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be a mastermind",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed by your logic",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's not a terrible idea at all",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're a regular Einstein",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you out of your mind?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "What's wrong with you, man?",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You're insane",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "That's the stupidest thing I've ever heard",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get a grip, dude",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You need to get your head checked",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Have you [options] your mind?",
+        "options": [
+          "lost",
+          "blown",
+          "fried"
+        ],
+        "meaning": "questioning someone's sanity"
+      },
+      {
+        "template": "You must be [options] to think that",
+        "options": [
+          "joking",
+          "kidding",
+          "out of your mind"
+        ],
+        "meaning": "expressing disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend questioning friend's decision",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, are you serious about quitting your job?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I'm done with it. I'm going to travel the world"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Have you lost your mind? That's a huge risk"
+          }
+        ]
+      },
+      {
+        "description": "Coworker questioning colleague's idea",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "I don't think that's a good idea. It's too expensive"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I think it's worth the investment. We can make it work"
+          },
+          {
+            "speaker": "Coworker 1",
+            "text": "You can't be serious. That's not a viable solution"
+          }
+        ]
+      }
+    ]
+  }
+}

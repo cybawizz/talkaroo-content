@@ -1,0 +1,173 @@
+{
+  "title": "Questions for a pharmacist",
+  "context": "Ask a pharmacist about the side effects of a medication.",
+  "content": {
+    "bestLine": "What are the common side effects of this medication?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you tell me about potential side effects?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know about the side effects.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the possible side effects of this drug?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How might this medication affect me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any common side effects I should know about?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you list the potential side effects for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about side effects, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What should I expect in terms of side effects?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, what's the deal with side effects?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, can you fill me in on the side effects?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm a bit worried about side effects, what can happen?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What kind of side effects are people usually getting?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the lowdown on side effects?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How bad can the side effects be?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Are the side effects really that bad?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the worst that could happen with side effects?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about the potential side effects?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could discuss the side effects with me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the documented side effects of this medication?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in learning about the possible adverse effects.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with a list of known side effects?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the safety profile of this drug.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What are the [options] side effects of this medication?",
+        "options": [
+          "common",
+          "possible",
+          "known"
+        ],
+        "meaning": "inquiring about side effects"
+      },
+      {
+        "template": "Can you tell me about the [options] effects of this drug?",
+        "options": [
+          "potential",
+          "adverse",
+          "documented"
+        ],
+        "meaning": "asking about medication effects"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about side effects",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm picking up my prescription. What are the common side effects of this medication?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "The most common side effects include nausea, dizziness, and headache. Would you like me to explain any of these in more detail?"
+          }
+        ]
+      },
+      {
+        "description": "Patient inquiring about medication safety",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I'm concerned about the safety of my new medication. Can you please inform me about the potential side effects?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "Of course, let me go over the safety profile with you. The medication is generally well-tolerated, but some people may experience certain side effects."
+          }
+        ]
+      }
+    ]
+  }
+}

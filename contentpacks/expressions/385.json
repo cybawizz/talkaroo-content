@@ -1,0 +1,149 @@
+{
+  "title": "Claiming the rights to a toy",
+  "context": "Help children resolve who had a toy first.",
+  "content": {
+    "bestLine": "Let's find out who had it first",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Who had the toy first?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take turns",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to share",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you had it first",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's ask a grown-up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can play together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not fair to fight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find a solution",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, who got it first?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's flip a coin",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can have it next",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's yours",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's play nice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can take turns",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's just a toy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be friends",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] the toy",
+        "options": [
+          "share",
+          "take turns with",
+          "find out who had first"
+        ],
+        "meaning": "resolving ownership"
+      },
+      {
+        "template": "I think [options] had it first",
+        "options": [
+          "you",
+          "I",
+          "we"
+        ],
+        "meaning": "claiming ownership"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two children arguing over a toy",
+        "lines": [
+          {
+            "speaker": "Child 1",
+            "text": "I had it first!"
+          },
+          {
+            "speaker": "Child 2",
+            "text": "No, I did!"
+          },
+          {
+            "speaker": "Adult",
+            "text": "Let's find out who had it first"
+          }
+        ]
+      },
+      {
+        "description": "A child asking to play with a toy",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "Can I play with that toy?"
+          },
+          {
+            "speaker": "Other Child",
+            "text": "No, it's mine!"
+          },
+          {
+            "speaker": "Adult",
+            "text": "Let's take turns"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Asking the time of day (quick)",
+  "context": "Ask someone what time it currently is.",
+  "content": {
+    "bestLine": "What's the current time?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What time is it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the time now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have the time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is it currently?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me the current time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the current hour?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got the time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time you got?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time check, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the time looking?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the time from you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the haps on the time?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please tell me the time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me the time.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the current time, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about the current time?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's the time [options]?",
+        "options": [
+          "now",
+          "currently",
+          "at the moment"
+        ],
+        "meaning": "asking for the current time"
+      },
+      {
+        "template": "Can you tell me the time [options]?",
+        "options": [
+          "please",
+          "if you don't mind",
+          "if you could"
+        ],
+        "meaning": "politely asking for the time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a stranger for the time",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, what's the time?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "It's 3:45 PM."
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend for the time",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, got the time?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, it's almost 5. We should head out soon."
+          }
+        ]
+      }
+    ]
+  }
+}

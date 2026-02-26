@@ -1,0 +1,173 @@
+{
+  "title": "Telling how you have been doing - neutral",
+  "context": "Tell someone you have been doing okay.",
+  "content": {
+    "bestLine": "I've been doing okay, thanks",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm doing alright",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not bad, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everything's been good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting by",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life's been treating me well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hanging in there",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm good, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not much, just chillin'",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been doin' alright",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life's been good, can't complain",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm livin' the dream",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just taking it one day at a time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doin' pretty well, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All good, just busy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm doing well, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Everything is fine, thanks",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been doing quite well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My life has been going smoothly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pleased to report I'm doing well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "All is well, thank you for asking",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been [options]",
+        "options": [
+          "doing great",
+          "doing well",
+          "doing alright"
+        ],
+        "meaning": "expressing a positive or neutral state"
+      },
+      {
+        "template": "Life's been [options]",
+        "options": [
+          "good",
+          "treatin' me well",
+          "interesting"
+        ],
+        "meaning": "expressing a positive or neutral experience"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic small talk",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How have you been?"
+          },
+          {
+            "speaker": "B",
+            "text": "I've been doing okay, thanks"
+          }
+        ]
+      },
+      {
+        "description": "Slightly more in-depth small talk",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What's new with you?"
+          },
+          {
+            "speaker": "B",
+            "text": "Not much, just work and life. You know how it is"
+          }
+        ]
+      }
+    ]
+  }
+}

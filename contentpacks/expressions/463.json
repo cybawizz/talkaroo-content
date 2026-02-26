@@ -1,0 +1,176 @@
+{
+  "title": "Unfollowing someone on social media",
+  "context": "Explain why you chose to delete or block a user online.",
+  "content": {
+    "bestLine": "I'm taking a break from your posts",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your posts aren't for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm limiting my online interactions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm focusing on other things",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your content isn't my cup of tea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to reduce my screen time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to prioritize my own content",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a break from social media",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Your posts are kinda annoying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good without your updates",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your stuff isn't my vibe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to declutter my feed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your posts are too much for me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a break from your drama",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your content is too negative",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just not feeling your posts",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm ghosting your posts",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Your feed is whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key blocking you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Your content is extra",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key done with your posts",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] your posts",
+        "options": [
+          "taking a break from",
+          "done with",
+          "over"
+        ],
+        "meaning": "explaining why you're unfollowing someone"
+      },
+      {
+        "template": "Your [options] is [options]",
+        "options": [
+          "too much",
+          "not my thing",
+          "negative"
+        ],
+        "meaning": "giving a reason for unfollowing someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Unfollowing someone due to annoying posts",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm unfollowing you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Why? What's wrong?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Your posts are kinda annoying, sorry"
+          }
+        ]
+      },
+      {
+        "description": "Unfollowing someone due to negative content",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm taking a break from your posts"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong with my posts?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "They're just too negative for me"
+          }
+        ]
+      }
+    ]
+  }
+}

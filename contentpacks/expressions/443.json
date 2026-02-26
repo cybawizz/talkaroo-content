@@ -1,0 +1,131 @@
+{
+  "title": "Expressing grief at a funeral",
+  "context": "Tell a grieving friend that you are deeply sorry for their loss.",
+  "content": {
+    "bestLine": "I'm deeply sorry for your loss",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My condolences",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My heart goes out to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to hear about your loss",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My thoughts are with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm thinking of you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you comfort",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept my condolences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer my sincerest sympathies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My deepest condolences to you and your family",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry for your loss",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I express my condolences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My heart goes out to you and your loved ones",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] are with you",
+        "options": [
+          "thoughts",
+          "prayers",
+          "condolences"
+        ],
+        "meaning": "expressing sympathy"
+      },
+      {
+        "template": "I'm [options] for your loss",
+        "options": [
+          "deeply sorry",
+          "so sorry",
+          "truly sorry"
+        ],
+        "meaning": "apologizing for the loss"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a grieving friend at a funeral",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm deeply sorry for your loss"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Thank you for coming"
+          }
+        ]
+      },
+      {
+        "description": "Expressing condolences to a grieving family member",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Please accept my condolences"
+          },
+          {
+            "speaker": "Family Member",
+            "text": "Thank you for your kind words"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "title": "Asking for a professional reference",
+  "context": "Ask a former boss if you can list them as a contact on your resume.",
+  "content": {
+    "bestLine": "May I list you as a reference on my resume?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I use you as a reference?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be willing to vouch for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I list your name on my job applications?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I include your contact information?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be a professional reference for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you serve as a reference for my job search?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I mention your name to potential employers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use your name as a job reference?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would be grateful if you could serve as a professional reference.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have your permission to list you as a reference?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be willing to provide a professional endorsement?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could vouch for my skills and experience.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I include your name and contact information on my resume?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be honored if you would agree to be a professional reference.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "May I [options]?",
+        "options": [
+          "list you as a reference",
+          "use your name as a reference",
+          "include your contact information"
+        ],
+        "meaning": "requesting permission to use someone as a reference"
+      },
+      {
+        "template": "Would you be willing to [options]?",
+        "options": [
+          "serve as a professional reference",
+          "vouch for my skills and experience",
+          "provide a professional endorsement"
+        ],
+        "meaning": "requesting someone to act as a reference"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting a reference from a former boss",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I hope you're doing well. I'm reaching out because I'm currently looking for a new job and I was wondering if I could list you as a professional reference?"
+          },
+          {
+            "speaker": "Former Boss",
+            "text": "Of course, I'd be happy to serve as a reference for you. What kind of job are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Asking a former supervisor for a reference",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I wanted to touch base with you about my job search. Would you be willing to provide a professional reference for me?"
+          },
+          {
+            "speaker": "Former Supervisor",
+            "text": "Yes, I'd be happy to help. What's the best way for me to provide the reference?"
+          }
+        ]
+      }
+    ]
+  }
+}

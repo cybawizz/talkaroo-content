@@ -1,0 +1,171 @@
+{
+  "title": "Entertaining guests",
+  "context": "Suggest a fun group activity for your visitors to do.",
+  "content": {
+    "bestLine": "Let's play a game, who's in?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What do you like to do for fun?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can play a board game",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about we watch a movie?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want to play cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can have a game night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of music do you like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can have a karaoke party",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Who's up for a game night?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this party started!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should play some video games",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about we have a movie marathon?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can play some pool or ping-pong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have a dance party",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can play some sports",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Y'all down to play some games?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get turnt up!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We should low-key play some video games",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "How about we have a sick movie night?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We can get this lit!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have a dope time",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] tonight",
+        "options": [
+          "play games",
+          "watch a movie",
+          "have a party"
+        ],
+        "meaning": "suggesting a fun activity"
+      },
+      {
+        "template": "Who's [options] for [activity]?",
+        "options": [
+          "down",
+          "up",
+          "in"
+        ],
+        "meaning": "asking if someone wants to participate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host suggesting a game night",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hey guys, what do you want to do tonight?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I don't know, what did you have in mind?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Let's play a game, who's in?"
+          }
+        ]
+      },
+      {
+        "description": "Guests discussing activity options",
+        "lines": [
+          {
+            "speaker": "Guest 1",
+            "text": "I'm so down for a movie night"
+          },
+          {
+            "speaker": "Guest 2",
+            "text": "Yeah, or we could play some video games"
+          },
+          {
+            "speaker": "Guest 3",
+            "text": "Let's do both, we can have a marathon!"
+          }
+        ]
+      }
+    ]
+  }
+}

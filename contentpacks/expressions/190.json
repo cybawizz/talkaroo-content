@@ -1,0 +1,173 @@
+{
+  "title": "Questions asked of a hotel clerk",
+  "context": "Ask the front desk what time the pool or gym opens.",
+  "content": {
+    "bestLine": "What time does the pool open?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are the pool hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the gym open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the pool schedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the fitness center open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When can I use the pool?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the hours for the gym?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the pool open now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the pool hours?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what time's the pool open?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When can I hit the gym?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the scoop on pool hours?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you tell me when the fitness center is open?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How late is the pool open?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "When does the gym close?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is the pool open yet?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What time does the gym open up?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the pool hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me when the gym opens.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the operating hours for the fitness center?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly provide me with the pool schedule?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the hours of operation for the gym.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about the pool hours?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time does the [options] open?",
+        "options": [
+          "pool",
+          "gym",
+          "fitness center"
+        ],
+        "meaning": "Asking about the opening time of a hotel facility"
+      },
+      {
+        "template": "Can you tell me the [options] hours?",
+        "options": [
+          "pool",
+          "gym",
+          "fitness center"
+        ],
+        "meaning": "Requesting information about the hours of operation for a hotel facility"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest asking about pool hours",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, what time does the pool open?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "The pool opens at 8 AM and closes at 10 PM."
+          }
+        ]
+      },
+      {
+        "description": "Guest inquiring about gym hours",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Excuse me, when does the gym open?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "The gym is open 24 hours a day, but the fitness center staff is only available from 8 AM to 8 PM."
+          }
+        ]
+      }
+    ]
+  }
+}

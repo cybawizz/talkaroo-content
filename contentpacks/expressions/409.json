@@ -1,0 +1,171 @@
+{
+  "title": "Encouraging someone to relax (quick)",
+  "context": "Give a simple instruction to take it easy.",
+  "content": {
+    "bestLine": "Take it easy, okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Relax, everything is fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a deep breath",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down, it's okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just chill for a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's going to be alright",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Slow down, you're doing great",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, relax",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this, just breathe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hang loose",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just roll with it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey, calm down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Vibes are good, relax",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, take it easy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ghost the stress",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Slay the anxiety",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it movin', don't stress",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Take [options] and relax",
+        "options": [
+          "a deep breath",
+          "a break",
+          "it easy"
+        ],
+        "meaning": "calm down"
+      },
+      {
+        "template": "Just [options] for a minute",
+        "options": [
+          "chill",
+          "relax",
+          "breathe"
+        ],
+        "meaning": "take a moment to calm down"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend encouraging friend to relax",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, you seem stressed"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I am. Thanks for noticing"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Take it easy, okay? Let's grab a coffee"
+          }
+        ]
+      },
+      {
+        "description": "Coworker encouraging colleague to take a break",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "You've been working non-stop"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I know, I just need to finish this"
+          },
+          {
+            "speaker": "Coworker 1",
+            "text": "Take a break, you can finish it later. You need to relax"
+          }
+        ]
+      }
+    ]
+  }
+}

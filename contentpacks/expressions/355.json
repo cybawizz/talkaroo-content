@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging a workout partner",
+  "context": "Tell your friend to push hard and finish their last set of exercises.",
+  "content": {
+    "bestLine": "You got this, finish strong!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Keep going, you're almost done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your set, you can do it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Push through, it's the last one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay focused, you're nearly there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give it your all, last set",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing great, keep it up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Almost there, don't give up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep pushing, you're strong",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, finish this set!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're killing it, keep going!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Last one, let's do this!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't stop now, you're on fire!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give it everything, last set!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're so close, don't quit!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's finish this, you got this!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "One more set, you can do it!",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, crush this last set!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey, you're a beast, finish strong!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Slay this last set, you got this!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, you're doing great, keep it up!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Bet, you're gonna crush this last set!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lit, you're on fire, keep going!",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] finish this set!",
+        "options": [
+          "can",
+          "will",
+          "got this"
+        ],
+        "meaning": "Encouragement to complete the set"
+      },
+      {
+        "template": "Let's [options] this last set!",
+        "options": [
+          "crush",
+          "kill",
+          "finish"
+        ],
+        "meaning": "Encouragement to complete the set together"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Workout partner encouragement",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "You got this, finish strong!"
+          },
+          {
+            "speaker": "Workout Partner",
+            "text": "Thanks, I needed that!"
+          }
+        ]
+      },
+      {
+        "description": "Gym buddy motivation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Come on, finish this set!"
+          },
+          {
+            "speaker": "Gym Buddy",
+            "text": "Alright, let's do this!"
+          }
+        ]
+      }
+    ]
+  }
+}

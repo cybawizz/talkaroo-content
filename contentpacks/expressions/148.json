@@ -1,0 +1,181 @@
+{
+  "title": "Offering general good wishes",
+  "context": "Wish someone luck or happiness in the future.",
+  "content": {
+    "bestLine": "I wish you all the best",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Good luck to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you success",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All the best to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you happiness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care and good luck",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hope everything works out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You deserve all the best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sending you positive thoughts",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Good luck, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this, wish you luck",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fingers crossed for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you an awesome day",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're gonna do great, good luck",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sending you good vibes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hope you have a blast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wish you all the happiness",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I wish you continued success",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my best wishes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I extend to you my sincerest wishes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you a prosperous future",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer you my warmest congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May you achieve great things",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I wish you [options] in your future endeavors",
+        "options": [
+          "all the best",
+          "success",
+          "happiness"
+        ],
+        "meaning": "Expressing good wishes for someone's future"
+      },
+      {
+        "template": "May you have [options] always",
+        "options": [
+          "good luck",
+          "success",
+          "happiness"
+        ],
+        "meaning": "Wishing someone ongoing good fortune"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend is starting a new job",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I heard you're starting your new job tomorrow"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm really nervous but excited. Wish me luck"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Of course, I wish you all the best. You're going to do great"
+          }
+        ]
+      },
+      {
+        "description": "A family member is going on a trip",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have a safe trip and enjoy your vacation"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I'm looking forward to it. Wish me a good time"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I wish you an amazing time and lots of wonderful memories"
+          }
+        ]
+      }
+    ]
+  }
+}

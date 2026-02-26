@@ -1,0 +1,173 @@
+{
+  "title": "Stating that someone is wrong",
+  "context": "Tell the other person that their facts or opinions are incorrect.",
+  "content": {
+    "bestLine": "I disagree, that's not accurate",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's not correct",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're mistaken",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not entirely true",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not what I've heard",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my understanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's been a mistake",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That's just not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're totally off base",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think so",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not how it is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're mistaken, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not buying that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just wrong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I gotta disagree",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not in line with the facts",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think there may be an error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not an accurate representation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with your assessment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not supported by evidence",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with that statement",
+        "options": [
+          "disagree",
+          "don't agree",
+          "have to disagree"
+        ],
+        "meaning": "expressing disagreement"
+      },
+      {
+        "template": "That's [options] true",
+        "options": [
+          "not entirely",
+          "not completely",
+          "just not"
+        ],
+        "meaning": "expressing disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Disagreeing with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think the best pizza is from Domino's"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I disagree, I think it's from Pizza Hut"
+          }
+        ]
+      },
+      {
+        "description": "Disagreeing with a colleague",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I think we should invest in this new project"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I must respectfully disagree, I think it's too risky"
+          }
+        ]
+      }
+    ]
+  }
+}

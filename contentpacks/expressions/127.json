@@ -1,0 +1,163 @@
+{
+  "title": "Arranging for a babysitter",
+  "context": "Call someone to ask if they can watch your kids tonight.",
+  "content": {
+    "bestLine": "Can you watch the kids tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you free to babysit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have time to watch the kids?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help with childcare tonight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is babysitting an option for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind watching the kids for a bit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your help with the kids tonight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be available to babysit?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you watch the kiddos?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to babysit tonight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you do me a solid and watch the kids?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a favor, can you babysit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You free to hang out with the kids tonight?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you to watch the kids for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about babysitting duties tonight?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if you could provide childcare tonight.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be available to babysit this evening?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require babysitting services for tonight, can you assist?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you possibly watch the children tonight?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to arrange for a babysitter, are you available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I request your assistance with babysitting tonight?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the kids tonight?",
+        "options": [
+          "watch",
+          "babysit",
+          "hang out with"
+        ],
+        "meaning": "asking for babysitting help"
+      },
+      {
+        "template": "I need [options] for the kids, can you help?",
+        "options": [
+          "a babysitter",
+          "someone to watch them",
+          "childcare"
+        ],
+        "meaning": "requesting babysitting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for babysitting help",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you watch the kids tonight?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I'm free. What time were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Asking a family member for babysitting help",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Mom, I need a favor. Can you babysit tonight?"
+          },
+          {
+            "speaker": "Mom",
+            "text": "Of course, dear. I'd be happy to help."
+          }
+        ]
+      }
+    ]
+  }
+}

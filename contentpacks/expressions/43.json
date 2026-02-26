@@ -1,0 +1,173 @@
+{
+  "title": "Hosting a potluck dinner",
+  "context": "Tell your friends to bring their favorite side dish or dessert to your house.",
+  "content": {
+    "bestLine": "Bring your favorite side dish or dessert to share",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please bring a dish to pass",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What side dish can you bring?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're having a potluck, what's your favorite dish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bring something to share with the group",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your go-to potluck dish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please contribute to the potluck with a dish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're counting on your culinary skills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bring enough for everyone to try some",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Bring your fave dish to share",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your specialty?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're having a potluck, yay!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bring something delicious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm craving your famous [dish]",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make this a potluck to remember",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your dish is always the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't forget to bring a dish to share",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You are invited to bring a dish to share",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please contribute a side dish or dessert",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We would appreciate it if you could bring a dish",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A potluck dinner is planned, please bring a dish",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your participation in the potluck is appreciated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We look forward to tasting your culinary creation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Bring your [options] to share",
+        "options": [
+          "favorite dish",
+          "specialty",
+          "famous recipe"
+        ],
+        "meaning": "Contribute to the potluck with a dish"
+      },
+      {
+        "template": "We're having a potluck, please [options]",
+        "options": [
+          "bring a dish",
+          "contribute a side dish",
+          "share your favorite recipe"
+        ],
+        "meaning": "Participate in the potluck by bringing a dish"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend to a potluck dinner",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hey, we're having a potluck dinner at my place, want to come?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That sounds like fun, what can I bring?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing potluck details with a guest",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "So, what dish are you planning to bring to the potluck?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I was thinking of bringing my famous lasagna, is that okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

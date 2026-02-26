@@ -1,0 +1,125 @@
+{
+  "title": "A postal clerk greeting a customer",
+  "context": "Say hello to a person walking up to the post office counter.",
+  "content": {
+    "bestLine": "Hello, how can I help you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, what can I do for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to the post office.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what brings you here today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, do you need any help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how can I assist you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what do you need to mail?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, how may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to the United States Post Office.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, what can I help you with?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm here to help you with your mailing needs.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, how can I help you today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what service can I provide for you?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options]?",
+        "options": [
+          "how can I help you",
+          "what brings you here",
+          "what do you need"
+        ],
+        "meaning": "Greeting and offering assistance"
+      },
+      {
+        "template": "Hi, [options].",
+        "options": [
+          "welcome to the post office",
+          "I'm here to help you"
+        ],
+        "meaning": "Friendly greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple greeting and transaction",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "Hello, how can I help you today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need to mail a package."
+          }
+        ]
+      },
+      {
+        "description": "Greeting with a question",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "Hello, what can I do for you?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need to buy some stamps."
+          }
+        ]
+      }
+    ]
+  }
+}

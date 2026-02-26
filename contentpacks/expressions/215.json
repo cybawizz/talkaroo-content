@@ -1,0 +1,173 @@
+{
+  "title": "Asking about the rest room location",
+  "context": "Ask a server or employee where the bathrooms are located.",
+  "content": {
+    "bestLine": "Excuse me, where is the restroom?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where is the bathroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where the restroom is?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to use the restroom, where is it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the restrooms located?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use the restroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the bathroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a restroom nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you direct me to the restroom?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Where's the bathroom?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a restroom around here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta go, where's the restroom?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I pee?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is there a bathroom close by?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me where the restroom is?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to use the bathroom, where is it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the loo?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please direct me to the restroom?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to use the restroom, where is it located?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, could you tell me where the bathroom is?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I use the restroom, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to use the facilities, where are they?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please show me where the restroom is?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, where is the [options]?",
+        "options": [
+          "restroom",
+          "bathroom",
+          "facilities"
+        ],
+        "meaning": "asking about the location of the restroom"
+      },
+      {
+        "template": "Can you [options] me to the restroom?",
+        "options": [
+          "direct",
+          "show",
+          "tell"
+        ],
+        "meaning": "asking for directions to the restroom"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a server for the restroom location",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, where is the restroom?"
+          },
+          {
+            "speaker": "Server",
+            "text": "It's just down that hallway, second door on your left."
+          }
+        ]
+      },
+      {
+        "description": "Asking a bartender for the restroom location",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Where's the bathroom?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "It's in the back, just past the pool table."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "A barber asking about a haircut",
+  "context": "Ask a male client if the sides should be buzzed or faded.",
+  "content": {
+    "bestLine": "Should I buzz or fade the sides?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How would you like the sides?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want a fade or a buzz?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What style are you thinking for the sides?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I use clippers or scissors?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How short do you want the sides?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a preferred length?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like a trim or a cut?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I style the sides for you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Fade or buzz, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your vibe for the sides?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You want it tight or loose?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your hair game today?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You feelin' a fade or a buzz?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your style, bro?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You want me to go short or long?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the plan for your hair?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you prefer a fade or a buzz cut?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like your hair styled today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your preferred method for the sides?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Should I proceed with a trim or a cut?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I assist you with your haircut?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What style would you like me to achieve?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I can [options] the sides for you",
+        "options": [
+          "buzz",
+          "fade",
+          "trim"
+        ],
+        "meaning": "offering haircut options"
+      },
+      {
+        "template": "Would you like a [options] on the sides?",
+        "options": [
+          "fade",
+          "buzz",
+          "trim"
+        ],
+        "meaning": "asking for haircut preference"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Barber asking about haircut style",
+        "lines": [
+          {
+            "speaker": "Barber",
+            "text": "Should I buzz or fade the sides?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I think I'd like a fade, please."
+          }
+        ]
+      },
+      {
+        "description": "Barber discussing haircut options",
+        "lines": [
+          {
+            "speaker": "Barber",
+            "text": "What style are you thinking for the sides?"
+          },
+          {
+            "speaker": "Client",
+            "text": "I'm not sure, what do you recommend?"
+          }
+        ]
+      }
+    ]
+  }
+}

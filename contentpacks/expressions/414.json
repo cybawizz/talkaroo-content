@@ -1,0 +1,166 @@
+{
+  "title": "Encouraging someone to keep working",
+  "context": "Motivate a tired coworker to push through to the end of the shift.",
+  "content": {
+    "bestLine": "You're almost there, let's finish strong",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Keep going, you're doing great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're almost at the end",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a little longer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're making good progress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's push through together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The end is in sight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay focused, we're almost done",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, you got this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's crush the rest of the shift",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're so close, don't give up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm rooting for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're in this together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's finish strong and go home",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing awesome, keep it up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate your diligence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain our productivity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're nearing the end of our shift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your hard work is valued",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's ensure a smooth finish",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] to the end",
+        "options": [
+          "push",
+          "make it",
+          "go strong"
+        ],
+        "meaning": "Encouraging someone to finish strong"
+      },
+      {
+        "template": "You're [options] the finish line",
+        "options": [
+          "almost at",
+          "nearing",
+          "close to"
+        ],
+        "meaning": "Motivating someone to keep going"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker is tired and wants to take a break",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I know you're tired, but let's push through to the end"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I don't know if I can make it"
+          },
+          {
+            "speaker": "You",
+            "text": "You're doing great, just a little longer"
+          }
+        ]
+      },
+      {
+        "description": "Coworker is struggling with a task",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Do you need help with that?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Yeah, I'm just really struggling"
+          },
+          {
+            "speaker": "You",
+            "text": "Let's work on it together, we can get it done"
+          }
+        ]
+      }
+    ]
+  }
+}

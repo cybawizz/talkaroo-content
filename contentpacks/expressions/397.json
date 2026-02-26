@@ -1,0 +1,135 @@
+{
+  "title": "Offering a very polite apology",
+  "context": "Formally say sorry in a highly respectful manner.",
+  "content": {
+    "bestLine": "I sincerely apologize for the inconvenience",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry about that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I regret the mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apology",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sorry to hear that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My fault, sorry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the trouble",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for the delay",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I offer my sincerest apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please forgive me for the mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I deeply regret the inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for any distress caused",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies for the oversight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I humbly apologize for the error",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I [options] apologize for [options]",
+        "options": [
+          "sincerely",
+          "deeply",
+          "truly"
+        ],
+        "meaning": "expressing regret"
+      },
+      {
+        "template": "Please [options] me for [options]",
+        "options": [
+          "accept my apology",
+          "forgive",
+          "excuse"
+        ],
+        "meaning": "requesting forgiveness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Formal apology in a professional setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I sincerely apologize for the inconvenience"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Thank you for acknowledging the issue"
+          }
+        ]
+      },
+      {
+        "description": "Formal apology in a personal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I offer my sincerest apologies for my mistake"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I appreciate your apology, let's move forward"
+          }
+        ]
+      }
+    ]
+  }
+}

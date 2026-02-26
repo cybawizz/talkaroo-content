@@ -1,0 +1,175 @@
+{
+  "title": "Questions about your guests",
+  "context": "Ask friendly questions to learn more about the people visiting you.",
+  "content": {
+    "bestLine": "What brings you here tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How was your week?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are you from?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite hobby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you traveled recently?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your job like?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any fun plans?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you know our host?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do for fun?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have you seen any good movies?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of music do you like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any pets?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite food?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a pleasure to meet you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How do you do?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you to this event?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your profession?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Have you had a chance to travel recently?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your interests outside of work?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What do you like to [options]?",
+        "options": [
+          "do",
+          "eat",
+          "watch",
+          "read"
+        ],
+        "meaning": "showing interest in someone's preferences"
+      },
+      {
+        "template": "Have you [options]?",
+        "options": [
+          "traveled",
+          "moved",
+          "changed jobs",
+          "learned something new"
+        ],
+        "meaning": "asking about someone's experiences"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I'm good, thanks. How about you?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for common interests",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "What do you like to do in your free time?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I like to hike and read. How about you?"
+          }
+        ]
+      }
+    ]
+  }
+}

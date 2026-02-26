@@ -1,0 +1,203 @@
+{
+  "title": "Encouraging someone to be less aggressive",
+  "context": "Ask someone to stop acting hostile or confrontational.",
+  "content": {
+    "bestLine": "Let's take a step back and calm down.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's talk about this calmly.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we should calm down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find a peaceful solution.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss this without yelling?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen, let's talk calmly.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break and calm down.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to help, let's calm down first.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on finding a solution together.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's not fight about this.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we just calm down and talk?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want to argue, let's calm down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a deep breath and start over.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not trying to fight, let's calm down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just relax and talk about this.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we please just calm down?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I suggest we calm down and discuss this.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's approach this situation calmly.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend we take a step back and calm down.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we please refrain from aggressive behavior?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose we calm down and find a resolution.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a calm and respectful tone.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, chill out, let's talk.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep it cool, no need to fight.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Can we vibe out and calm down?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tryin' to keep it peaceful, let's calm down.",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and calm down.",
+        "options": [
+          "take a step back",
+          "talk about this",
+          "find a solution"
+        ],
+        "meaning": "encouraging calmness"
+      },
+      {
+        "template": "Can we [options] and discuss this?",
+        "options": [
+          "calm down",
+          "relax",
+          "take a deep breath"
+        ],
+        "meaning": "requesting a calm conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calming down a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, let's take a step back and calm down."
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'm just really upset about this."
+          },
+          {
+            "speaker": "You",
+            "text": "I understand, but let's talk about it calmly."
+          }
+        ]
+      },
+      {
+        "description": "Calming down a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, let's calm down and discuss this."
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Mind your own business."
+          },
+          {
+            "speaker": "You",
+            "text": "I'm just trying to help, let's keep it peaceful."
+          }
+        ]
+      }
+    ]
+  }
+}

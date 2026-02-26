@@ -1,0 +1,158 @@
+{
+  "title": "After you have greeted someone",
+  "context": "Keep the conversation going right after saying hello.",
+  "content": {
+    "bestLine": "How's your day going so far?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's new with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your week?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you traveled anywhere exciting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite hobby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind lately?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's life treating you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new and exciting?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready for the weekend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any fun plans?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your morning?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite thing to do on a Friday?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope you're doing well.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How are things at work?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What's been the highlight of your week?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have you had a chance to relax lately?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do in your free time?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [options] going?",
+        "options": [
+          "day",
+          "week",
+          "month"
+        ],
+        "meaning": "Asking about someone's current experience"
+      },
+      {
+        "template": "What do you like to do for [options]?",
+        "options": [
+          "fun",
+          "relaxation",
+          "adventure"
+        ],
+        "meaning": "Asking about someone's leisure activities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual Conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hi, how's it going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm doing well, thanks. Just got back from a trip."
+          }
+        ]
+      },
+      {
+        "description": "Workplace Conversation",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "Hello, how was your weekend?"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "It was good, thanks. I'm looking forward to this week's projects."
+          }
+        ]
+      }
+    ]
+  }
+}

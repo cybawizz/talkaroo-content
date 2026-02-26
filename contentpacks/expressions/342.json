@@ -1,0 +1,158 @@
+{
+  "title": "Concerning rigidity of character",
+  "context": "Describe a person who refuses to change their mind.",
+  "content": {
+    "bestLine": "They're really stubborn and never budge.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They have a fixed mindset.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their opinions are set in stone.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not open to new ideas.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They refuse to consider alternatives.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their views are unyielding.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're resistant to change.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They have a rigid perspective.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They're super stubborn.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They never back down.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're really hard-headed.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They won't budge an inch.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're stuck in their ways.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're not willing to compromise.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're pretty pig-headed.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "They exhibit a notable lack of flexibility.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Their stance is unwavering.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They demonstrate a rigid adherence to their views.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They are unyielding in their convictions.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They show a strong resistance to change.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They're [options] about their opinions.",
+        "options": [
+          "really stubborn",
+          "very firm",
+          "quite rigid"
+        ],
+        "meaning": "They refuse to change their mind."
+      },
+      {
+        "template": "They [options] to new ideas.",
+        "options": [
+          "aren't open",
+          "are closed",
+          "refuse to listen"
+        ],
+        "meaning": "They are not willing to consider alternative perspectives."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends about a third friend's stubbornness.",
+        "lines": [
+          {
+            "speaker": "Alex",
+            "text": "I'm telling you, they're really stubborn."
+          },
+          {
+            "speaker": "Sam",
+            "text": "I know, they never back down."
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and an employee about the employee's inflexibility.",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I've noticed you're not open to new ideas."
+          },
+          {
+            "speaker": "Employee",
+            "text": "I just like to do things my way."
+          }
+        ]
+      }
+    ]
+  }
+}

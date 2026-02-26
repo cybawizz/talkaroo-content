@@ -1,0 +1,174 @@
+{
+  "title": "Taking leave of someone",
+  "context": "Tell someone that you are leaving them now.",
+  "content": {
+    "bestLine": "I'm heading out now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm leaving now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm off now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be on my way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice seeing you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm rolling out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dipping out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm splitting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must be off",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for my departure",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I bid you adieu",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must depart",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure meeting you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] now",
+        "options": [
+          "heading out",
+          "leaving",
+          "off",
+          "taking off"
+        ],
+        "meaning": "leaving the current location"
+      },
+      {
+        "template": "It's time for me to [options]",
+        "options": [
+          "go",
+          "leave",
+          "depart"
+        ],
+        "meaning": "indicating the need to leave"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm heading out now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, catch you later"
+          }
+        ]
+      },
+      {
+        "description": "Leaving a meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I must be off"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you for coming"
+          }
+        ]
+      }
+    ]
+  }
+}

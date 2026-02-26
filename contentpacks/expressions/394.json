@@ -1,0 +1,176 @@
+{
+  "title": "Recommending a skincare routine",
+  "context": "Tell your friend that a specific face wash completely cleared your skin.",
+  "content": {
+    "bestLine": "This face wash completely cleared my skin!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've seen great results with this face wash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It really helped clear my skin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I recommend this face wash for acne",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This face wash is gentle and effective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been using it for weeks with great results",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's worth trying for clear skin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My skin looks amazing since using this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I found this face wash",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, this face wash is a game changer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm obsessed with this face wash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's literally the best thing for my skin",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gotta try this face wash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I swear by this face wash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's so good for acne and stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been raving about this face wash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You should totally get this face wash",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This face wash is lowkey amazing",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella obsessed with this face wash",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's lit for clear skin",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You need this face wash in your life, fam",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a total skin saver",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead serious, this face wash works",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been using [options] face wash",
+        "options": [
+          "this",
+          "the new"
+        ],
+        "meaning": "recommendation"
+      },
+      {
+        "template": "This face wash is [options] for clear skin",
+        "options": [
+          "amazing",
+          "great",
+          "awesome"
+        ],
+        "meaning": "endorsement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for skincare advice",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, what's your secret to clear skin?"
+          },
+          {
+            "speaker": "You",
+            "text": "Honestly, it's this face wash I've been using. It completely cleared my skin!"
+          }
+        ]
+      },
+      {
+        "description": "Discussing skincare routines",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I've been using this face wash for weeks and I'm so glad I found it"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Really? What's so special about it?"
+          },
+          {
+            "speaker": "You",
+            "text": "It's just really gentle and effective. I recommend it for anyone with acne"
+          }
+        ]
+      }
+    ]
+  }
+}

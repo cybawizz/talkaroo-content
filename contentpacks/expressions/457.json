@@ -1,0 +1,164 @@
+{
+  "title": "Encouraging someone to finish a drink",
+  "context": "Enlist someone to drink up and finish their beverage.",
+  "content": {
+    "bestLine": "Finish your drink, it's on me!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You should finish that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't leave it behind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go ahead and finish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's almost gone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a little left",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish up, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't waste it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Drink up, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Finish that drink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, finish it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You got this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Down the hatch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Last sip",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be shy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Chug it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Kill that drink",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Finish that bad boy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Drink it like you mean it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Get it down",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Why don't you [options] your drink?",
+        "options": [
+          "finish",
+          "down"
+        ],
+        "meaning": "encouraging someone to finish their drink"
+      },
+      {
+        "template": "You should [options] that drink",
+        "options": [
+          "finish",
+          "kill"
+        ],
+        "meaning": "suggesting someone finish their drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend encouraging another to finish their drink",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You should finish that"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I'm good, thanks"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Come on, it's on me!"
+          }
+        ]
+      },
+      {
+        "description": "A bartender reminding a customer to finish their drink",
+        "lines": [
+          {
+            "speaker": "Bartender",
+            "text": "You've got a little left"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Oh, right"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Finish up, please"
+          }
+        ]
+      }
+    ]
+  }
+}

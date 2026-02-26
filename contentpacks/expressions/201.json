@@ -1,0 +1,173 @@
+{
+  "title": "Asking a match to meet in person",
+  "context": "Ask someone you are messaging on an app if they want to get coffee.",
+  "content": {
+    "bestLine": "Want to grab coffee sometime?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like to meet in person?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you free to meet up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we meet for coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to meet you in person.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about we grab coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to meet up for a drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you interested in meeting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we plan a meetup?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna grab coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to hang out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's grab a coffee!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to meet up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's meet up!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to get coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about we meet?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to invite you for coffee.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It would be nice to meet in person.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose we meet for a cup of coffee.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care to meet?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suggest we meet for coffee.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It would be a pleasure to meet you.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options]?",
+        "options": [
+          "grab coffee",
+          "meet up",
+          "hang out"
+        ],
+        "meaning": "Asking to meet in person"
+      },
+      {
+        "template": "How about [options]?",
+        "options": [
+          "coffee",
+          "a drink",
+          "meeting up"
+        ],
+        "meaning": "Suggesting to meet"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a match to meet for coffee",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Want to grab coffee sometime?"
+          },
+          {
+            "speaker": "Match",
+            "text": "That sounds great! When were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Suggesting a meetup",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "How about we meet up for a drink?"
+          },
+          {
+            "speaker": "Match",
+            "text": "I'd love to! What's your favorite spot?"
+          }
+        ]
+      }
+    ]
+  }
+}

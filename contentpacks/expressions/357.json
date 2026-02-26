@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging someone to be prudent",
+  "context": "Advise someone to be careful and make safe choices.",
+  "content": {
+    "bestLine": "Be careful and think it through",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Consider all options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Think before acting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Weigh the pros and cons",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take your time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be cautious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Look before you leap",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make informed decisions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Proceed with care",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't rush into it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill and think",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be smart about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be reckless",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Think it over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't jump to conclusions",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Exercise caution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Pursue a prudent course",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Make wise decisions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Act with diligence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Be mindful of consequences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a thoughtful approach",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Be [options] and think it through",
+        "options": [
+          "careful",
+          "smart",
+          "wise"
+        ],
+        "meaning": "Encouraging prudence"
+      },
+      {
+        "template": "Don't [options] into it",
+        "options": [
+          "rush",
+          "jump",
+          "leap"
+        ],
+        "meaning": "Advising caution"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend offering advice",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, be careful and think it through before making a decision"
+          },
+          {
+            "speaker": "You",
+            "text": "Thanks, I will consider all options"
+          }
+        ]
+      },
+      {
+        "description": "Mentor giving guidance",
+        "lines": [
+          {
+            "speaker": "Mentor",
+            "text": "Remember to exercise caution and pursue a prudent course"
+          },
+          {
+            "speaker": "You",
+            "text": "I'll keep that in mind and make wise decisions"
+          }
+        ]
+      }
+    ]
+  }
+}

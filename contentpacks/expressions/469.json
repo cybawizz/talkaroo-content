@@ -1,0 +1,173 @@
+{
+  "title": "Expressing surprise about an event",
+  "context": "Show great shock that something unexpected occurred.",
+  "content": {
+    "bestLine": "I'm completely blown away by this news!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is unexpected",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't see this coming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a surprise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shocked by this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is astonishing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taken aback",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is unbelievable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stunned by this news",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way, this is crazy!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totally surprised",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is insane!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't expect this at all",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is wild!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm shocked, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a total surprise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm freaked out by this",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is lit!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella surprised",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is straight fire!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key shocked",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a whole mood",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead, this is crazy!",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] by this news",
+        "options": [
+          "shocked",
+          "stunned",
+          "blown away"
+        ],
+        "meaning": "expressing surprise"
+      },
+      {
+        "template": "This is [options]!",
+        "options": [
+          "crazy",
+          "wild",
+          "insane"
+        ],
+        "meaning": "expressing surprise"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a surprise party",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm completely blown away by this surprise party!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? I didn't see it coming either!"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers discussing a surprise announcement",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm shocked by this news, I didn't expect it at all"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, it's a total surprise. I'm still trying to process it"
+          }
+        ]
+      }
+    ]
+  }
+}

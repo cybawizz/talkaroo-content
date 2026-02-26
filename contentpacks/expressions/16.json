@@ -1,0 +1,173 @@
+{
+  "title": "When you have just been introduced to someone",
+  "context": "Say hello politely after learning someone's name for the first time.",
+  "content": {
+    "bestLine": "Hello, nice to meet you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, nice to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm glad we met",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's nice to meet you too",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, welcome to the group",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm happy to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, it's great to finally meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, nice to make your acquaintance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, how's it going?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, nice to meet you too",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, long time no see",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, it's great to meet you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, I've heard a lot about you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, welcome to the team",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, it's nice to finally meet you in person",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Hello, it's a pleasure to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good day, nice to make your acquaintance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm honored to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, it's nice to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm pleased to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, nice to meet you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, my name is [options]",
+        "options": [
+          "John",
+          "Emily",
+          "Michael"
+        ],
+        "meaning": "introducing oneself"
+      },
+      {
+        "template": "Hi, I'm [options] from [options]",
+        "options": [
+          "sales",
+          "marketing",
+          "IT"
+        ],
+        "meaning": "introducing oneself with a profession"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction between two people",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hello, nice to meet you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Hi, nice to meet you too"
+          }
+        ]
+      },
+      {
+        "description": "Introduction in a professional setting",
+        "lines": [
+          {
+            "speaker": "Boss",
+            "text": "Hello, I'm your new supervisor"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Hello, nice to meet you"
+          }
+        ]
+      }
+    ]
+  }
+}

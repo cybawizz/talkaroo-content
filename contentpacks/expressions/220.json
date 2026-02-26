@@ -1,0 +1,183 @@
+{
+  "title": "Questions about delivering pizza",
+  "context": "Ask the customer for their address and how they are paying.",
+  "content": {
+    "bestLine": "What's your address and how would you like to pay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get your address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like to pay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your delivery address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pay with card or cash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need your address for delivery.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How will you be paying today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have your address please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your preferred payment method?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Where do you want it delivered?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How you gonna pay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your address, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You paying with card or cash?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need your address, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the payment gonna work?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where you at, and how you paying?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me your address?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide your address?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What method of payment will you be using?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require your address for delivery purposes.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How would you like to settle your bill?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have your address, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your preferred method of payment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need your [options] to complete the order.",
+        "options": [
+          "address",
+          "payment method"
+        ],
+        "meaning": "Requesting necessary information"
+      },
+      {
+        "template": "Can you [options] so I can process your payment?",
+        "options": [
+          "give me your address",
+          "tell me your payment method"
+        ],
+        "meaning": "Asking for payment and address"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer orders pizza and provides address and payment method",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to order a pizza."
+          },
+          {
+            "speaker": "Staff",
+            "text": "What's your address and how would you like to pay?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "My address is 123 Main St, and I'll pay with card."
+          }
+        ]
+      },
+      {
+        "description": "Customer is asked for address and payment method",
+        "lines": [
+          {
+            "speaker": "Staff",
+            "text": "Can I get your address for delivery?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It's 456 Elm St."
+          },
+          {
+            "speaker": "Staff",
+            "text": "And how would you like to pay?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'll pay with cash."
+          }
+        ]
+      }
+    ]
+  }
+}

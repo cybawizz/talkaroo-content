@@ -1,0 +1,131 @@
+{
+  "title": "Questions a doctor asks of a patient",
+  "context": "Ask a patient where their pain is located and what is wrong.",
+  "content": {
+    "bestLine": "Where is your pain located?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's bothering you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point to the pain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where does it hurt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the source of your discomfort?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe your pain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the pain constant or intermittent?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long have you been experiencing pain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you rate your pain level?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please indicate the location of your pain?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to assess your condition, where is the pain?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To better understand your symptoms, can you describe the pain?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What seems to be the cause of your discomfort?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide more details about your pain?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to evaluate your condition, where is the pain located?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the pain?",
+        "options": [
+          "point to",
+          "describe",
+          "indicate the location of"
+        ],
+        "meaning": "Asking for pain location"
+      },
+      {
+        "template": "What's [options] with your [body part]?",
+        "options": [
+          "wrong",
+          "bothering",
+          "happening"
+        ],
+        "meaning": "Inquiring about a specific body part"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Doctor asking about pain location",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Where is your pain located?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "It's in my lower back."
+          }
+        ]
+      },
+      {
+        "description": "Doctor inquiring about pain details",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Can you describe your pain?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "It's a sharp, stabbing pain that comes and goes."
+          }
+        ]
+      }
+    ]
+  }
+}

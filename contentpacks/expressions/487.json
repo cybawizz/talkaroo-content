@@ -1,0 +1,173 @@
+{
+  "title": "Special requests at a hotel",
+  "context": "Ask the front desk to send extra towels or pillows to your room.",
+  "content": {
+    "bestLine": "Can I get extra towels and pillows sent to my room?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need more towels",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send extra pillows?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like more towels and pillows",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some extra linens?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I require additional towels",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you bring more pillows to my room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need extra towels and pillows ASAP",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I request more towels and pillows?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get more towels?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with extra pillows?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of towels, can I get more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you send up some extra linens?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some more pillows, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some extra towels and stuff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you bring me more towels?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna need more pillows, thanks",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate extra towels and pillows",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please send extra linens to my room?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require additional towels and pillows, please",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request extra towels and pillows?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request extra towels and pillows",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you arrange for extra towels and pillows to be sent to my room?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] sent to my room?",
+        "options": [
+          "extra towels",
+          "more pillows",
+          "additional linens"
+        ],
+        "meaning": "requesting extra items"
+      },
+      {
+        "template": "I need [options] ASAP",
+        "options": [
+          "more towels",
+          "extra pillows",
+          "some extra linens"
+        ],
+        "meaning": "requesting urgent assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest requests extra towels and pillows at the front desk",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, I'm in room 304. Can I get extra towels and pillows sent to my room?"
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Absolutely, I'll send someone up with extra towels and pillows right away"
+          }
+        ]
+      },
+      {
+        "description": "Guest calls the front desk to request extra linens",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Hi, I need some extra towels and pillows in my room. Can you send some up?"
+          },
+          {
+            "speaker": "Front Desk",
+            "text": "Yes, of course. I'll have housekeeping bring some extra linens to your room"
+          }
+        ]
+      }
+    ]
+  }
+}

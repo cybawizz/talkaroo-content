@@ -1,0 +1,152 @@
+{
+  "title": "Encouraging someone to end a dispute",
+  "context": "Advise two people who are fighting to apologize and move on.",
+  "content": {
+    "bestLine": "Let's apologize and move forward",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's time to forgive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's put this behind us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should move on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Forgiveness is key",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's start fresh",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's okay to apologize",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can work through this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, let it go",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just say sorry already",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, forgive each other",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just move on, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not worth fighting over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just apologize and be done with it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I suggest we apologize and move forward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's resolve this amicably",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Forgiveness is essential in this situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should strive to understand each other",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and move on",
+        "options": [
+          "apologize",
+          "forgive",
+          "forget"
+        ],
+        "meaning": "Encouraging forgiveness"
+      },
+      {
+        "template": "We should [options] this dispute",
+        "options": [
+          "end",
+          "resolve",
+          "settle"
+        ],
+        "meaning": "Encouraging resolution"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends encouraging each other to apologize",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, I'm sorry about what happened"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "No, I'm sorry, I overreacted"
+          }
+        ]
+      },
+      {
+        "description": "A manager encouraging two employees to resolve a dispute",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Let's talk this through and find a resolution"
+          },
+          {
+            "speaker": "Employee 1",
+            "text": "I apologize for my part in this"
+          },
+          {
+            "speaker": "Employee 2",
+            "text": "I appreciate that, let's move forward"
+          }
+        ]
+      }
+    ]
+  }
+}

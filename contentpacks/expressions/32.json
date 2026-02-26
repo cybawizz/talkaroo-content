@@ -1,0 +1,173 @@
+{
+  "title": "Telling how you have been doing - negative",
+  "context": "Tell someone you have not been doing well lately.",
+  "content": {
+    "bestLine": "To be honest, I've been struggling lately",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've been having a tough time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Things haven't been going great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not doing my best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's been a challenging period",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm facing some difficulties",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life has been a bit rough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going through a tough spot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not everything is okay",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've been having a rough patch",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Things have been pretty meh",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not doing amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's been a crazy time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dealing with some stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life has been kinda tough",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going through a thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not my best days",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've been experiencing some difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My situation has been somewhat challenging",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not performing at my best",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's been a trying time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm facing certain obstacles",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My current state is not ideal",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been [options] lately",
+        "options": [
+          "struggling",
+          "having a tough time",
+          "dealing with some issues"
+        ],
+        "meaning": "Expressing a negative state"
+      },
+      {
+        "template": "Things have been [options] for me",
+        "options": [
+          "pretty rough",
+          "not great",
+          "challenging"
+        ],
+        "meaning": "Describing a difficult situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how have you been?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "To be honest, I've been struggling lately"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a coworker",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "How's everything going?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I've been experiencing some difficulties, but I'm managing"
+          }
+        ]
+      }
+    ]
+  }
+}

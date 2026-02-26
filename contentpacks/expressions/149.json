@@ -1,0 +1,155 @@
+{
+  "title": "Applying for an online degree",
+  "context": "Ask an admissions counselor if the entire master's program is virtual.",
+  "content": {
+    "bestLine": "Is the entire master's program available online?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I complete the program online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is online learning an option?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much of the program is virtual?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer a fully online master's program?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take all my classes online?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the program entirely virtual?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any on-campus requirements?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does the online program work?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me about the online components of the program?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the virtual aspects of the master's program.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to complete the program entirely through online coursework?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What percentage of the program can be completed online?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any requirements that necessitate physical presence on campus?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in learning more about your online master's program.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [program/degree] [completely/entirely] [online/virtual]?",
+        "options": [
+          "program",
+          "degree",
+          "completely",
+          "entirely",
+          "online",
+          "virtual"
+        ],
+        "meaning": "Asking about the online nature of a program"
+      },
+      {
+        "template": "Can I [take/complete] [all/my] [classes/courses] [online/virtually]?",
+        "options": [
+          "take",
+          "complete",
+          "all",
+          "my",
+          "classes",
+          "courses",
+          "online",
+          "virtually"
+        ],
+        "meaning": "Inquiring about online course availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial Inquiry",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "Hello, I'm interested in the master's program."
+          },
+          {
+            "speaker": "Admissions Counselor",
+            "text": "Great, how can I assist you?"
+          },
+          {
+            "speaker": "Applicant",
+            "text": "Is the entire master's program available online?"
+          },
+          {
+            "speaker": "Admissions Counselor",
+            "text": "Yes, our program is fully online."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Questions",
+        "lines": [
+          {
+            "speaker": "Applicant",
+            "text": "That's great. Are there any on-campus requirements?"
+          },
+          {
+            "speaker": "Admissions Counselor",
+            "text": "No, the program is designed to be completed entirely online."
+          },
+          {
+            "speaker": "Applicant",
+            "text": "How does the online program work?"
+          },
+          {
+            "speaker": "Admissions Counselor",
+            "text": "We use a learning management system for course materials and discussions."
+          }
+        ]
+      }
+    ]
+  }
+}

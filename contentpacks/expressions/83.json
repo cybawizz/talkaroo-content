@@ -1,0 +1,173 @@
+{
+  "title": "Opening topics of conversation",
+  "context": "Bring up an interesting subject to get people talking.",
+  "content": {
+    "bestLine": "How was your week?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your weekend?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you like to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you traveled anywhere?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite hobby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your family?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite book?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready for the weekend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your plan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to grab coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your day going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, how are you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you're doing well.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your week?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's nice to meet you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to speaking with you.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Have you [options]?",
+        "options": [
+          "traveled anywhere",
+          "read any good books",
+          "seen any good movies"
+        ],
+        "meaning": "Asking about someone's experiences"
+      },
+      {
+        "template": "What do you think about [options]?",
+        "options": [
+          "the latest news",
+          "the new restaurant",
+          "the upcoming event"
+        ],
+        "meaning": "Asking for someone's opinion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with a stranger",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hi, how's it going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm doing well, thanks. How about you?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a coworker",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "How was your weekend?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "It was good, thanks. I went hiking. How about you?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Asking about shipping times",
+  "context": "Ask the seller if the item will arrive before the weekend.",
+  "content": {
+    "bestLine": "Will it arrive before the weekend?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the estimated delivery time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does shipping take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will it arrive this week?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the shipping timeline?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you estimate the arrival date?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How soon can I expect it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to get it before Friday?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "When can I get it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How soon will it ship?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Will it be here by the weekend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with shipping?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a shipping update?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it coming this week or next?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's the shipping looking?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide a shipping estimate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the anticipated delivery date?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could inform me about the shipping schedule.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Will the item be delivered before the weekend?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly provide a shipping timeline?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Will it arrive before [day]?",
+        "options": [
+          "the weekend",
+          "Friday",
+          "next week"
+        ],
+        "meaning": "asking about shipping time"
+      },
+      {
+        "template": "What's the [shipping/info]?",
+        "options": [
+          "shipping time",
+          "delivery info",
+          "arrival date"
+        ],
+        "meaning": "asking about shipping details"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Buyer asking about shipping time",
+        "lines": [
+          {
+            "speaker": "Buyer",
+            "text": "Hi, will this item arrive before the weekend?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "Yes, it should arrive by Friday."
+          }
+        ]
+      },
+      {
+        "description": "Buyer inquiring about shipping details",
+        "lines": [
+          {
+            "speaker": "Buyer",
+            "text": "What's the shipping timeline for this product?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "It usually takes 3-5 business days to arrive."
+          }
+        ]
+      }
+    ]
+  }
+}

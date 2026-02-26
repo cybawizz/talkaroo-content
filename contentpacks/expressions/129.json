@@ -1,0 +1,173 @@
+{
+  "title": "Asking about the time that a bar closes",
+  "context": "Ask an employee what time the establishment shuts down for the night.",
+  "content": {
+    "bestLine": "What time do you close tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your closing time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you shut down?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you close?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When are you open until?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your hours of operation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you stop serving?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is last call?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you lock up?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What time you guys close?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's closing time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How late are you open?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time's last call?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do you kick us out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What time do you shut down shop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How late can we stay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's the party over?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please tell me your closing time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you officially close?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about your hours of operation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "At what time do you cease serving patrons?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time is your establishment scheduled to close?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me of your closing procedures?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time do you [options]?",
+        "options": [
+          "close",
+          "shut down",
+          "lock up"
+        ],
+        "meaning": "asking about closing time"
+      },
+      {
+        "template": "When do you [options]?",
+        "options": [
+          "stop serving",
+          "kick us out",
+          "close up shop"
+        ],
+        "meaning": "asking about closing time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking an employee about closing time",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time do you close tonight?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "We close at 2 AM."
+          }
+        ]
+      },
+      {
+        "description": "Customer asking an employee about last call",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time's last call?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Last call is at 1:30 AM."
+          }
+        ]
+      }
+    ]
+  }
+}

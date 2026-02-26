@@ -1,0 +1,181 @@
+{
+  "title": "Sending a child to bed",
+  "context": "Tell a kid that it is late and time to go to sleep.",
+  "content": {
+    "bestLine": "It's late, time for bed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's bedtime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to sleep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go to bed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's late, sleep time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get some rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sleepy time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for a nap",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, bedtime",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to hit the hay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's catch some Z's",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's sleepy time, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get to bed, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Nighty night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to snooze",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get cozy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is time for bed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please go to sleep",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime has arrived",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is late, please retire",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sleep is necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please get some rest",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] time for bed",
+        "options": [
+          "late",
+          "sleepy",
+          "bed"
+        ],
+        "meaning": "time to go to sleep"
+      },
+      {
+        "template": "Let's [options] to bed",
+        "options": [
+          "go",
+          "get",
+          "head"
+        ],
+        "meaning": "time to go to sleep"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent reminding child of bedtime",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "It's late, time for bed"
+          },
+          {
+            "speaker": "Child",
+            "text": "But I'm not tired"
+          },
+          {
+            "speaker": "Parent",
+            "text": "You need to get some rest"
+          }
+        ]
+      },
+      {
+        "description": "Parent using a gentle tone",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Hey, sleepy time, kiddo"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, mom"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Let's get cozy"
+          }
+        ]
+      }
+    ]
+  }
+}

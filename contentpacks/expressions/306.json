@@ -1,0 +1,173 @@
+{
+  "title": "Directing movers with furniture",
+  "context": "Tell professional movers exactly which room to place the heavy couch.",
+  "content": {
+    "bestLine": "Please put the couch in the living room",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Put the couch in the living room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The couch goes in the living room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Living room is where the couch goes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Couch needs to be in the living room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you put the couch in the living room?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The living room is for the couch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Place the couch in the living room",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Couch placement is in the living room",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you guys put the couch in the living room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Living room, okay? That's where the couch goes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just put the couch in the living room, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Couch is for the living room, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Put that couch in the living room for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Living room, couch, got it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The big couch goes in the living room",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you move the couch to the living room?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could place the couch in the living room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The couch is designated for the living room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure the couch is placed in the living room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The living room is the intended location for the couch",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please direct the movers to put the couch in the living room?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential that the couch be placed in the living room",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please put the [options] in the [location]",
+        "options": [
+          "couch",
+          "bed",
+          "table"
+        ],
+        "meaning": "Directing movers to place furniture in specific rooms"
+      },
+      {
+        "template": "The [options] needs to be in the [location]",
+        "options": [
+          "couch",
+          "armchair",
+          "desk"
+        ],
+        "meaning": "Specifying the correct location for furniture"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Directing movers to place the couch in the living room",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Please put the couch in the living room"
+          },
+          {
+            "speaker": "Mover",
+            "text": "Okay, got it. Living room, right?"
+          }
+        ]
+      },
+      {
+        "description": "Confirming the location of the couch with the movers",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Can you confirm where you're putting the couch?"
+          },
+          {
+            "speaker": "Mover",
+            "text": "Yes, we're putting it in the living room as instructed"
+          }
+        ]
+      }
+    ]
+  }
+}

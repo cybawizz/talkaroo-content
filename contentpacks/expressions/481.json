@@ -1,0 +1,175 @@
+{
+  "title": "Concerning passing food at the table",
+  "context": "Politely ask someone to hand you a dish that is out of reach.",
+  "content": {
+    "bestLine": "Could you pass the potatoes, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you hand me the bread?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have some of that, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have the salad?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you pass the vegetables?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like some of that, thank you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pass the dish, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have some more, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you hand me that, please?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Pass the potatoes, would ya?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you grab me that plate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take some of that, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hand me the rolls?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pass it over, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you get me some of that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have a bit of that, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you slide that over?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you be so kind as to pass the meat?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could pass the bread.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request the salad?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please pass the vegetables?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like some of that, if you please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you mind passing the dish?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you pass the [options]?",
+        "options": [
+          "potatoes",
+          "bread",
+          "salad",
+          "vegetables"
+        ],
+        "meaning": "requesting food at the table"
+      },
+      {
+        "template": "I'll have some [options], please.",
+        "options": [
+          "potatoes",
+          "bread",
+          "salad",
+          "vegetables"
+        ],
+        "meaning": "requesting food at the table"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting food at a family dinner",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "Can you pass the potatoes, please?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Here you go, sweetie."
+          }
+        ]
+      },
+      {
+        "description": "Requesting food at a formal dinner",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Would you be so kind as to pass the meat?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Of course, here you are."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Discussing astrology and horoscopes",
+  "context": "Ask a coworker what their sign is and if they believe in the stars.",
+  "content": {
+    "bestLine": "What's your sign, do you believe in the stars?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your zodiac sign?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you follow astrology?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm curious about your sign",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you into horoscopes?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think about astrology?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you read your daily horoscope?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've always been interested in zodiac signs",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your sign accurate for you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's your sign?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you believe in that astrology stuff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a total astrology nerd",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your horoscope say today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love reading about zodiac signs",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you a true Scorpio?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you think the stars align for us?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so into astrology right now",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What's your sign, bruh?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You a believer in the zodiac?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key into astrology",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good with your horoscope?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You feel like your sign is accurate?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key obsessed with zodiac signs",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's your [sign/horoscope] like?",
+        "options": [
+          "sign",
+          "horoscope"
+        ],
+        "meaning": "Asking about someone's zodiac sign or horoscope"
+      },
+      {
+        "template": "Do you [believe in/follow] [astrology/the zodiac]?",
+        "options": [
+          "believe in",
+          "follow",
+          "astrology",
+          "the zodiac"
+        ],
+        "meaning": "Asking about someone's beliefs or interests in astrology"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworkers discussing astrology",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "What's your sign, do you believe in the stars?"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I'm a Scorpio, and yeah, I think there's something to it"
+          }
+        ]
+      },
+      {
+        "description": "Friends talking about horoscopes",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, what's your horoscope say today?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "It says I'll have a great day, and I'm feeling pretty positive about it"
+          }
+        ]
+      }
+    ]
+  }
+}

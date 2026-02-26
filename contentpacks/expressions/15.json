@@ -1,0 +1,158 @@
+{
+  "title": "Introducing someone to someone else",
+  "context": "Tell two people who do not know each other what their names are.",
+  "content": {
+    "bestLine": "Hi, I'd like you to meet",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me introduce you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like you to meet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you met",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is my friend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want you to meet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Say hello to",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, this is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You guys should meet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna introduce you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So, this is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should meet my friend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come meet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want you to meet my buddy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a pleasure to introduce you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I introduce you to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to introduce you to my colleague",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please meet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Allow me to introduce you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hi, I'm [name]",
+        "options": [
+          "John",
+          "Emily",
+          "Michael"
+        ],
+        "meaning": "introducing oneself"
+      },
+      {
+        "template": "This is my [relationship]",
+        "options": [
+          "friend",
+          "coworker",
+          "classmate"
+        ],
+        "meaning": "introducing someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introducing a friend to a coworker",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'd like you to meet my friend, John"
+          },
+          {
+            "speaker": "John",
+            "text": "Hi, nice to meet you"
+          }
+        ]
+      },
+      {
+        "description": "Introducing a colleague to a client",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "May I introduce you to my colleague, Emily"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Hello, it's a pleasure to meet you"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "Describing additional unspecified people or things",
+  "context": "Refer generally to other items or folks that are also included.",
+  "content": {
+    "bestLine": "There are also others included",
+    "groups": {
+      "neutral": [
+        {
+          "text": "as well as others",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "in addition to them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "along with others",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "including some others",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "plus some more",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "among them are others",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "there are others too",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "also included are others",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "and some other folks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "plus a few more people",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "there are some others too",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "along with some friends",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "we've also got others",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "and then there are others",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "some other people are included",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "others are part of it too",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "in addition to these individuals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "there are also other parties involved",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "including other persons of interest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "others are also included in this group",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "along with other relevant individuals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "we also have other stakeholders",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "there are [options] others",
+        "options": [
+          "also",
+          "some",
+          "a few"
+        ],
+        "meaning": "referring to additional unspecified people or things"
+      },
+      {
+        "template": "[options] others are included",
+        "options": [
+          "some",
+          "a few",
+          "several"
+        ],
+        "meaning": "describing additional unspecified people or things"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Describing additional people in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "We have a few team members attending the meeting"
+          },
+          {
+            "speaker": "Jane",
+            "text": "And there are also some others included, like stakeholders and investors"
+          }
+        ]
+      },
+      {
+        "description": "Explaining additional items in a list",
+        "lines": [
+          {
+            "speaker": "Bob",
+            "text": "I've got a list of items to pick up from the store"
+          },
+          {
+            "speaker": "Alice",
+            "text": "Okay, what else is on the list, besides milk and eggs?"
+          },
+          {
+            "speaker": "Bob",
+            "text": "Well, there are some other things, like bread and cereal"
+          }
+        ]
+      }
+    ]
+  }
+}

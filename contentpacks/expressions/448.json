@@ -1,0 +1,131 @@
+{
+  "title": "Politely ending an online dating conversation",
+  "context": "Tell a match that you do not feel a connection and say goodbye.",
+  "content": {
+    "bestLine": "I think we want different things, so it's best we part ways",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't feel a connection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice chatting with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you all the best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we're not a match",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not working out for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to have to pass",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think we're compatible",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't think we click",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem cool, but not for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just not feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think we want different things",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's been real, but I'm out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna have to ghost you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not my type",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you, but I don't think we're a match",
+        "options": [
+          "like",
+          "enjoy talking to",
+          "think you're cool"
+        ],
+        "meaning": "polite letdown"
+      },
+      {
+        "template": "It's [options] for me to keep chatting",
+        "options": [
+          "not working out",
+          "not feeling right",
+          "time to move on"
+        ],
+        "meaning": "ending conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple letdown",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I think we want different things, so it's best we part ways"
+          },
+          {
+            "speaker": "Match",
+            "text": "Okay, I understand. Good luck!"
+          }
+        ]
+      },
+      {
+        "description": "Friendly but clear",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "You seem cool, but not for me. I wish you all the best!"
+          },
+          {
+            "speaker": "Match",
+            "text": "No worries, thanks for being honest. You too!"
+          }
+        ]
+      }
+    ]
+  }
+}

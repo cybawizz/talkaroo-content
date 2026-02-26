@@ -1,0 +1,173 @@
+{
+  "title": "Frustration with a child's behavior",
+  "context": "Express annoyance that a kid is not listening and acting badly.",
+  "content": {
+    "bestLine": "I'm really frustrated that you're not listening",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need you to listen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please pay attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting frustrated",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's try again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to help you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm disappointed",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's find a solution",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, listen up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on with you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm at my wit's end",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Let's get it together",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so frustrated with you",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Can you please focus?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to help you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's start over",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I expect you to listen",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Please refrain from interrupting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am disappointed in your behavior",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let us try to resolve this issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require your attention",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "We need to work together",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] that you're not listening",
+        "options": [
+          "really frustrated",
+          "very disappointed",
+          "extremely annoyed"
+        ],
+        "meaning": "expressing frustration"
+      },
+      {
+        "template": "Let's [options] and try again",
+        "options": [
+          "take a break",
+          "start over",
+          "find a solution"
+        ],
+        "meaning": "suggesting a new approach"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent and child conversation",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "I'm really frustrated that you're not listening"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm sorry, I'll try to do better"
+          }
+        ]
+      },
+      {
+        "description": "Teacher and student conversation",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "I expect you to listen and follow instructions"
+          },
+          {
+            "speaker": "Student",
+            "text": "Yes, I'll try to pay attention"
+          }
+        ]
+      }
+    ]
+  }
+}

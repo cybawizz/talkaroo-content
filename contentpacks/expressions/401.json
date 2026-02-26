@@ -1,0 +1,173 @@
+{
+  "title": "Feeling that you are not wanted",
+  "context": "Express sadness or frustration that people do not want you around.",
+  "content": {
+    "bestLine": "I feel like I'm not wanted here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel unwelcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "People seem to avoid me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I belong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like an outsider",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling included",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It seems like I'm not needed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like I'm in the way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "People don't seem to want me around",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm feeling pretty unwanted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's like I'm invisible",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just not feeling the love",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "People are basically ignoring me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm starting to feel like a ghost",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's clear I'm not wanted here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just a nuisance to everyone",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like I'm just taking up space",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing feelings of exclusion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It appears that my presence is not desired",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am sensing a lack of acceptance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like an unwelcome guest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My presence seems to be unwarranted",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not feeling valued or appreciated",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I feel [options] when I'm around people",
+        "options": [
+          "unwanted",
+          "unwelcome",
+          "invisible"
+        ],
+        "meaning": "feeling unwanted or excluded"
+      },
+      {
+        "template": "It's like I'm [options] to everyone",
+        "options": [
+          "a ghost",
+          "invisible",
+          "a nuisance"
+        ],
+        "meaning": "feeling ignored or unwanted"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about feeling unwanted",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I've been feeling really unwanted lately"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's going on? Why do you feel that way?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a family member about feeling excluded",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I feel like I'm not part of the family anymore"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's not true, we love you and want you to be part of our lives"
+          }
+        ]
+      }
+    ]
+  }
+}

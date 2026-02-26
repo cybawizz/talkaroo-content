@@ -1,0 +1,173 @@
+{
+  "title": "Concerning romantic attraction",
+  "context": "Tell someone that you have romantic feelings for them.",
+  "content": {
+    "bestLine": "I've developed feelings for you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think I might like you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're really special to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel a connection with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been thinking about you a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I care about you deeply",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You mean a lot to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in getting to know you better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel drawn to you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm really into you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're my type",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got a crush on you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love spending time with you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're so cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We vibe really well",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we could be great together",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key obsessed with you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're my bae",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I've got the hots for you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm simpin' for you",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "We'd be a great pair",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you",
+        "options": [
+          "love",
+          "like",
+          "care about"
+        ],
+        "meaning": "expressing affection"
+      },
+      {
+        "template": "You're [options] to me",
+        "options": [
+          "special",
+          "important",
+          "amazing"
+        ],
+        "meaning": "expressing admiration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A casual conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I've been thinking about you a lot lately"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, yeah? What about me?"
+          }
+        ]
+      },
+      {
+        "description": "A heartfelt confession",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I have to tell you something - I've developed feelings for you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I had no idea, but I have to admit, I've felt a connection too"
+          }
+        ]
+      }
+    ]
+  }
+}

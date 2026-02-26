@@ -1,0 +1,173 @@
+{
+  "title": "Ending a conversation abruptly",
+  "context": "Stop talking suddenly and leave quickly but politely.",
+  "content": {
+    "bestLine": "Excuse me, I have to run",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm going to take off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice talking to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should get going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nice meeting you, bye",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to leave now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day, bye",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Peace out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm rolling out",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure speaking with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a prior commitment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should be on my way",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you'll excuse me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have to attend to something",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, I have to [options]",
+        "options": [
+          "go",
+          "run",
+          "take a call"
+        ],
+        "meaning": "ending a conversation abruptly"
+      },
+      {
+        "template": "I'm [options], bye",
+        "options": [
+          "out of here",
+          "gone",
+          "leaving"
+        ],
+        "meaning": "ending a conversation abruptly"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ending a conversation abruptly with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I'm going to take off"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Okay, talk to you later"
+          }
+        ]
+      },
+      {
+        "description": "Ending a conversation abruptly with a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, I have to run"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Okay, have a great day"
+          }
+        ]
+      }
+    ]
+  }
+}

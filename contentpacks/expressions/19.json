@@ -1,0 +1,173 @@
+{
+  "title": "Expressing friendship",
+  "context": "Tell someone that you value them as a good friend.",
+  "content": {
+    "bestLine": "You're a great friend and I value you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm glad we're friends",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a good person to know",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate our friendship",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a great connection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to have you in my life",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're important to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I enjoy spending time with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our friendship means a lot",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're my buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're tight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my go-to person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stoked to have you as a friend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We have each other's backs",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm lucky to have you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I value our professional relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a valued colleague",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our collaboration is important",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for our working relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a key part of our team",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you as a friend",
+        "options": [
+          "appreciate",
+          "value",
+          "cherish"
+        ],
+        "meaning": "expressing friendship"
+      },
+      {
+        "template": "You're [options] to me",
+        "options": [
+          "important",
+          "special",
+          "a great friend"
+        ],
+        "meaning": "expressing friendship"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Expressing friendship in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm really glad we're friends"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Me too, you're a great person to have around"
+          }
+        ]
+      },
+      {
+        "description": "Expressing friendship in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I wanted to take a moment to express my appreciation for our working relationship"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel the same way, our collaboration has been very valuable"
+          }
+        ]
+      }
+    ]
+  }
+}

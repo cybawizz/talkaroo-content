@@ -1,0 +1,172 @@
+{
+  "title": "Describing a panic attack",
+  "context": "Tell a doctor or friend that your chest was tight and you could not breathe.",
+  "content": {
+    "bestLine": "My chest was tight and I couldn't breathe",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I had a tight chest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Breathing was difficult",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I felt like I was suffocating",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "My chest felt constricted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I had trouble catching my breath",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I felt a heavy weight on my chest",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I was short of breath",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My breathing was labored",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I was freaking out and couldn't breathe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My chest was super tight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I felt like I was going to pass out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was having a major panic attack",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I couldn't catch my breath",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was hyperventilating",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My heart was racing and I couldn't breathe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I felt like I was losing control",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I experienced a sudden onset of dyspnea",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My chest felt constricted and I had difficulty breathing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suffered from a panic attack with respiratory distress",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I had a severe anxiety episode with breathing difficulties",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "My breathing became labored and I felt anxious",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I experienced a sudden and intense fear response with respiratory symptoms",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My chest felt [options] and I couldn't breathe",
+        "options": [
+          "tight",
+          "constricted",
+          "heavy"
+        ],
+        "meaning": "describing a panic attack"
+      },
+      {
+        "template": "I was having a [options] attack and couldn't catch my breath",
+        "options": [
+          "panic",
+          "anxiety"
+        ],
+        "meaning": "describing a panic attack"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "telling a doctor about a panic attack",
+        "lines": [
+          {
+            "speaker": "patient",
+            "text": "My chest was tight and I couldn't breathe"
+          },
+          {
+            "speaker": "doctor",
+            "text": "Can you tell me more about what happened?"
+          }
+        ]
+      },
+      {
+        "description": "telling a friend about a panic attack",
+        "lines": [
+          {
+            "speaker": "friend",
+            "text": "Hey, what's wrong? You look really upset"
+          },
+          {
+            "speaker": "patient",
+            "text": "I just had a panic attack and I couldn't breathe"
+          }
+        ]
+      }
+    ]
+  }
+}

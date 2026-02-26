@@ -1,0 +1,173 @@
+{
+  "title": "A preface to making a statement",
+  "context": "Politely introduce that you are about to speak your mind.",
+  "content": {
+    "bestLine": "I'd like to share my thoughts on this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like to say something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If I may speak",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to add",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me share my thoughts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have something to say",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If I could interject",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to contribute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me chime in",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So here's what I think",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna say it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get real",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Honestly, I think",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just gonna say",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My two cents is",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I gotta say something",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I be real for a sec",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to express my opinion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If I may be so bold",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to offer my thoughts",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is my pleasure to share",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe it is worth noting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If I may interject with respect",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] say that",
+        "options": [
+          "want to",
+          "need to",
+          "have to"
+        ],
+        "meaning": "expressing necessity to speak"
+      },
+      {
+        "template": "Let me [options] share my thoughts",
+        "options": [
+          "briefly",
+          "honestly",
+          "openly"
+        ],
+        "meaning": "requesting permission to speak"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction to a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I'd like to start by saying"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Please, go ahead"
+          }
+        ]
+      },
+      {
+        "description": "Informal conversation",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "So here's what I think"
+          },
+          {
+            "speaker": "Emily",
+            "text": "I'm listening"
+          }
+        ]
+      }
+    ]
+  }
+}

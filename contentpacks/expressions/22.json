@@ -1,0 +1,158 @@
+{
+  "title": "Leaving a place",
+  "context": "Announce that you are exiting the building or area.",
+  "content": {
+    "bestLine": "I'm heading out now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm leaving now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exiting the building",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be on my way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out of here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking off",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm bouncing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See ya",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Laters",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm ghosting",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dipping",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm rolling out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm splitting",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm booking it",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] now",
+        "options": [
+          "leaving",
+          "heading out",
+          "taking off"
+        ],
+        "meaning": "announcing departure"
+      },
+      {
+        "template": "See you [options]",
+        "options": [
+          "later",
+          "soon",
+          "tomorrow"
+        ],
+        "meaning": "bidding farewell"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm heading out now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, see you later"
+          }
+        ]
+      },
+      {
+        "description": "Leaving a meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm exiting the meeting"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Alright, thanks for coming"
+          }
+        ]
+      }
+    ]
+  }
+}

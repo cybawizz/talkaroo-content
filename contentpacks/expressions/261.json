@@ -1,0 +1,163 @@
+{
+  "title": "Various conversational phrases",
+  "context": "Use a filler phrase to transition between topics.",
+  "content": {
+    "bestLine": "Anyway, moving on to the next point",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's move on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Switching gears",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "On a related note",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "In any case",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To change the subject",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Moving forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "On a different note",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So yeah",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Moving right along",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Anyhoo",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "By the way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "On to the next thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So then",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That reminds me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "In conclusion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To proceed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Moving on to the next topic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To transition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "In any event",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To continue",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] to the next point",
+        "options": [
+          "move",
+          "proceed",
+          "transition"
+        ],
+        "meaning": "to change the subject"
+      },
+      {
+        "template": "On a [options] note",
+        "options": [
+          "related",
+          "different",
+          "separate"
+        ],
+        "meaning": "to introduce a new topic"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Transitioning between topics in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Anyway, moving on to the next point"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Right, so what's the plan for the upcoming project?"
+          }
+        ]
+      },
+      {
+        "description": "Changing the subject in a casual conversation",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "So yeah, I'm done with that topic"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Okay, so what's new with you?"
+          }
+        ]
+      }
+    ]
+  }
+}

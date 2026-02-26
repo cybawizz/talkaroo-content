@@ -1,0 +1,195 @@
+{
+  "title": "When you feel completely out of place",
+  "context": "Admit that you feel very awkward and do not belong in a certain group.",
+  "content": {
+    "bestLine": "I feel really awkward here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure I fit in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This isn't my scene",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel out of place",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know anyone here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit awkward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't belong here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is not my crowd",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable here",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so out of place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know what I'm doing here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is weird for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling super awkward",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I'm supposed to be here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally out of my element",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just not feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready to bail",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm not familiar with this group",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit disconnected",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I'm a good fit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not confident in this setting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling somewhat out of place",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella out of place",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is whack for me",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key awkward",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm high-key out of here",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I feel [options] in this situation",
+        "options": [
+          "awkward",
+          "out of place",
+          "uncomfortable"
+        ],
+        "meaning": "expressing discomfort"
+      },
+      {
+        "template": "I'm [options] that I don't belong",
+        "options": [
+          "starting to think",
+          "getting the feeling",
+          "pretty sure"
+        ],
+        "meaning": "expressing doubt about belonging"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about feeling out of place",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm feeling really out of place here"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong? You seem fine"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a stranger about feeling awkward",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, I'm feeling a bit awkward"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, sorry to hear that. Is everything okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

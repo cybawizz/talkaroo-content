@@ -1,0 +1,173 @@
+{
+  "title": "When a timepiece is not accurate",
+  "context": "Explain that your clock or watch is showing the wrong time.",
+  "content": {
+    "bestLine": "My watch is showing the wrong time",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The clock is off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My timepiece is inaccurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is incorrect",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My watch is fast",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is slow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think my clock is wrong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time on my watch is wrong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My clock is not showing the right time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My watch is all wrong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is out of whack",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think my timepiece is messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My clock is way off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The time on my phone is wrong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My watch is running slow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pretty sure my clock is incorrect",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock on my wall is wrong",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "My timepiece is not accurate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is not showing the correct time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe my watch is malfunctioning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time on my device is incorrect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My clock requires adjustment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The timepiece is not functioning properly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is showing the wrong time",
+        "options": [
+          "watch",
+          "clock",
+          "timepiece"
+        ],
+        "meaning": "The time on my device is incorrect"
+      },
+      {
+        "template": "I think my [options] is [options]",
+        "options": [
+          "fast",
+          "slow",
+          "wrong"
+        ],
+        "meaning": "The time on my device is not accurate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for the correct time",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What time is it?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "My watch says 3:45, but I think it's wrong"
+          }
+        ]
+      },
+      {
+        "description": "Correcting someone's time",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's 4:00"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, my clock says 3:30. I guess it's not accurate"
+          }
+        ]
+      }
+    ]
+  }
+}

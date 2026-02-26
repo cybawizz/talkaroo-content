@@ -1,0 +1,173 @@
+{
+  "title": "When someone is anxious and under stress",
+  "context": "Acknowledge that another person looks worried or stressed.",
+  "content": {
+    "bestLine": "You seem really worried, is everything okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You look stressed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything alright?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need some help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be under a lot of pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I do something to support you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking a bit anxious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something bothering you?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, you okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking pretty stressed out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on, you seem really worried",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, you need to chill",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're freaking out, aren't you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you want to talk about it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem really anxious, is everything alright?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want me to help you out?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've noticed you seem quite anxious",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something troubling you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be under a significant amount of stress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to discuss the matter further?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to offer my support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps we could explore ways to alleviate your stress",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You seem [options] today",
+        "options": [
+          "really worried",
+          "quite anxious",
+          "very stressed"
+        ],
+        "meaning": "Expressing concern for someone's emotional state"
+      },
+      {
+        "template": "Is everything [options]?",
+        "options": [
+          "alright",
+          "okay",
+          "going well"
+        ],
+        "meaning": "Inquiring about someone's well-being"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend noticing another friend's anxiety",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, you seem really worried. Is everything okay?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I'm just having a tough day. Thanks for noticing."
+          }
+        ]
+      },
+      {
+        "description": "A colleague expressing concern for a coworker",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I've noticed you seem quite anxious lately. Is there something troubling you?"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Actually, yes. I'm dealing with a lot of pressure from this project. Thanks for asking."
+          }
+        ]
+      }
+    ]
+  }
+}

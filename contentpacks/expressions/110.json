@@ -1,0 +1,173 @@
+{
+  "title": "Acknowledging someone's gratitude",
+  "context": "Politely reply when another person says thank you.",
+  "content": {
+    "bestLine": "You're welcome",
+    "groups": {
+      "neutral": [
+        {
+          "text": "No problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was my pleasure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Anytime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Glad I could help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No worries",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No biggie",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sure thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Anytime, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No sweat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy peasy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You're most welcome",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was my honor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, it was nothing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm glad I could assist",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "No cap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Bet",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ain't no thing",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] welcome",
+        "options": [
+          "most",
+          "more than"
+        ],
+        "meaning": "polite response"
+      },
+      {
+        "template": "It was [options]",
+        "options": [
+          "my pleasure",
+          "no problem"
+        ],
+        "meaning": "acknowledging gratitude"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Responding to thanks in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thanks for helping me move"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No problem, happy to help"
+          }
+        ]
+      },
+      {
+        "description": "Responding to thanks in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thank you for your assistance"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're most welcome, it was my pleasure"
+          }
+        ]
+      }
+    ]
+  }
+}

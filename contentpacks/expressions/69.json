@@ -1,0 +1,158 @@
+{
+  "title": "Saying good-bye",
+  "context": "Tell someone farewell as you leave.",
+  "content": {
+    "bestLine": "It was great seeing you, I'll catch you later",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm heading out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll talk to you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you around",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll see you later",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Peace out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See you tomorrow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good one",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It was a pleasure meeting you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I bid you farewell",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be in touch soon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great evening",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was great speaking with you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "See you [options]",
+        "options": [
+          "later",
+          "soon",
+          "tomorrow"
+        ],
+        "meaning": "goodbye"
+      },
+      {
+        "template": "I'm [options]",
+        "options": [
+          "heading out",
+          "outta here",
+          "leaving"
+        ],
+        "meaning": "goodbye"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm heading out, it was great seeing you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, same to you, catch you later"
+          }
+        ]
+      },
+      {
+        "description": "Saying goodbye to a colleague",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'll talk to you soon, have a great day"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You too, bye for now"
+          }
+        ]
+      }
+    ]
+  }
+}

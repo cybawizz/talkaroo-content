@@ -1,0 +1,171 @@
+{
+  "title": "Stating the time is a quarter to the hour",
+  "context": "Tell someone it is fifteen minutes before the next hour.",
+  "content": {
+    "bestLine": "It's a quarter to the hour",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's 15 minutes to the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A quarter to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "15 minutes before the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's almost the hour, just 15 minutes left",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've got 15 minutes until the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a quarter to, let's get going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is 15 minutes to the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're 15 minutes away from the hour",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's a quarter til",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost time, just 15 minutes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "15 to the hour, let's roll",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're running a bit behind, it's a quarter to",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time's ticking, 15 minutes to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a quarter to, hurry up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get moving, it's almost the hour",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got 15 minutes, come on",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is currently a quarter to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have 15 minutes remaining until the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is now 15 minutes to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is a quarter to the hour, please be aware",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are approaching the hour, with 15 minutes to spare",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is now 15 minutes before the hour",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] to the hour",
+        "options": [
+          "a quarter",
+          "15 minutes"
+        ],
+        "meaning": "stating the time is a quarter to the hour"
+      },
+      {
+        "template": "We've got [options] until the hour",
+        "options": [
+          "15 minutes",
+          "a quarter of an hour"
+        ],
+        "meaning": "stating the time is a quarter to the hour"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What time is it?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's a quarter to the hour"
+          }
+        ]
+      },
+      {
+        "description": "A manager reminding an employee of a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Remember, the meeting is at the top of the hour"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Got it, it's a quarter to, I'll be right there"
+          }
+        ]
+      }
+    ]
+  }
+}

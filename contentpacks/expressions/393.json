@@ -1,0 +1,173 @@
+{
+  "title": "Praising a relaxing yoga class",
+  "context": "Tell the instructor that their stretching session totally fixed your mood.",
+  "content": {
+    "bestLine": "Your class totally fixed my mood, thanks!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That was really relaxing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel much better now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The stretching really helped",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I took this class",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a great instructor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This class was just what I needed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel very calm now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The atmosphere was perfect",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That class was amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You totally fixed my mood",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so relaxed now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This was the best yoga class ever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I needed that so badly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best yoga instructor",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like a new person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was incredibly relaxing",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate the excellent instruction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The class was very beneficial",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I found the stretching to be very helpful",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have a very calming presence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The class was well-structured and enjoyable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your expertise in yoga instruction",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your class [options] my mood",
+        "options": [
+          "totally fixed",
+          "really improved",
+          "completely changed"
+        ],
+        "meaning": "The class had a significant positive impact on my mood"
+      },
+      {
+        "template": "I [options] the stretching session",
+        "options": [
+          "really enjoyed",
+          "found very helpful",
+          "appreciated"
+        ],
+        "meaning": "I had a positive experience with the stretching session"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student praises the instructor after class",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Your class totally fixed my mood, thanks!"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "You're welcome, I'm glad you enjoyed it"
+          }
+        ]
+      },
+      {
+        "description": "Student talks to the instructor about the benefits of the class",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "I feel so much better now, the stretching really helped"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "That's great to hear, I'm glad the class was beneficial for you"
+          }
+        ]
+      }
+    ]
+  }
+}

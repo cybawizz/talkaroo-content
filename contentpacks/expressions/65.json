@@ -1,0 +1,119 @@
+{
+  "title": "A hotel desk clerk greeting a guest",
+  "context": "Welcome a traveler to the lobby of your hotel.",
+  "content": {
+    "bestLine": "Hello, welcome to our hotel. How can I assist you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our hotel.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I help you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how can I assist?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, how are you today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good day, welcome to our hotel.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to have you here.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome, I'll be happy to assist you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good morning, how can I help?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to our establishment.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, welcome to [options].",
+        "options": [
+          "our hotel",
+          "our establishment"
+        ],
+        "meaning": "Greeting"
+      },
+      {
+        "template": "How can I [options] you?",
+        "options": [
+          "assist",
+          "help"
+        ],
+        "meaning": "Offering assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple greeting",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Hello, welcome to our hotel."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Hi, thanks. I have a reservation."
+          }
+        ]
+      },
+      {
+        "description": "Greeting with assistance",
+        "lines": [
+          {
+            "speaker": "Clerk",
+            "text": "Hello, welcome to our hotel. How can I assist you?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Hi, I need to check in please."
+          }
+        ]
+      }
+    ]
+  }
+}

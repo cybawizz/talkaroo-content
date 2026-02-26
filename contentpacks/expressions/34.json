@@ -1,0 +1,205 @@
+{
+  "title": "Telling how you have been doing - positive",
+  "context": "Tell someone you have been doing very well.",
+  "content": {
+    "bestLine": "I've been doing very well, thanks!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm doing great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everything's good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life's been good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All's well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Things are going well",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm killing it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Life's awesome",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on a roll",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Everything's cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing awesome",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on top of the world",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Things are going great",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm doing exceptionally well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My life is going smoothly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been doing very well, thank you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Everything is proceeding as planned",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pleased with my progress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My situation is favorable",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key crushing it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key doing great",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living my best life",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, no cap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Life's fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm vibing",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been [options] lately",
+        "options": [
+          "doing great",
+          "on a roll",
+          "killing it"
+        ],
+        "meaning": "expressing positive experiences"
+      },
+      {
+        "template": "Life's been [options] to me",
+        "options": [
+          "good",
+          "great",
+          "amazing"
+        ],
+        "meaning": "expressing gratitude for positive experiences"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual conversation with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I've been doing very well, thanks! How about you?"
+          }
+        ]
+      },
+      {
+        "description": "Formal conversation with a colleague",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hello, how are you doing today?"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "I'm doing exceptionally well, thank you for asking. How about you?"
+          }
+        ]
+      }
+    ]
+  }
+}

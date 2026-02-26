@@ -1,0 +1,173 @@
+{
+  "title": "Simple forgiveness (quick)",
+  "context": "Quickly say that you accept someone's apology.",
+  "content": {
+    "bestLine": "It's okay, I accept your apology",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I forgive you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No problem, let's move on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, thanks for apologizing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All good, apology accepted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your apology",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just forget about it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Water under the bridge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No hard feelings",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No biggie, I'm over it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm cool, thanks for saying sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Forget about it, I'm good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All good, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, I forgive you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just move on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not mad, let's chill",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I accept your apology",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for apologizing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your apology is appreciated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I forgive you and let's move forward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your apology is accepted, let's put this behind us",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I value our relationship and accept your apology",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] your apology",
+        "options": [
+          "accept",
+          "appreciate",
+          "forgive"
+        ],
+        "meaning": "Expressing forgiveness"
+      },
+      {
+        "template": "Let's [options] and move on",
+        "options": [
+          "forget about it",
+          "put this behind us",
+          "just move on"
+        ],
+        "meaning": "Moving past the issue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend forgiving friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, I'm sorry for what I did"
+          },
+          {
+            "speaker": "B",
+            "text": "It's okay, I accept your apology"
+          }
+        ]
+      },
+      {
+        "description": "Coworker forgiving coworker",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I apologize for my mistake earlier"
+          },
+          {
+            "speaker": "B",
+            "text": "Thank you for apologizing, let's just move forward"
+          }
+        ]
+      }
+    ]
+  }
+}

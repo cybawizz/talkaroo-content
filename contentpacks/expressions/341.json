@@ -1,0 +1,205 @@
+{
+  "title": "Describing a boring person",
+  "context": "Talk about someone who is extremely dull to be around.",
+  "content": {
+    "bestLine": "They're so dull, I'd rather watch paint dry",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They're not very interesting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I find them quite boring",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They don't have much to say",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not very engaging",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I get bored when they talk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They lack enthusiasm",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're not very entertaining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I struggle to stay awake around them",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They're super boring",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with their conversations",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They put me to sleep",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're not fun to be around",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a coffee after talking to them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're so dull, it's painful",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd rather do chores than hang out with them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They suck the life out of me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "They're hella boring",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "They're a total snooze fest",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key asleep when they talk",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "They're extra dull",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "They're a buzzkill",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "They're so basic",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, they're so fascinating",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so excited to talk to them",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "They're the life of the party",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on the edge of my seat when they speak",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "They're so witty and charming",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I could listen to them all day",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They're [options] to be around",
+        "options": [
+          "so boring",
+          "not very interesting",
+          "dull"
+        ],
+        "meaning": "describing someone as boring"
+      },
+      {
+        "template": "I [options] when they talk",
+        "options": [
+          "fall asleep",
+          "get bored",
+          "tune out"
+        ],
+        "meaning": "expressing boredom when someone speaks"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking about a boring person",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so bored when they talk"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? They're so dull"
+          }
+        ]
+      },
+      {
+        "description": "Describing a boring experience",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I went to their party and it was so boring"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, they're not very good at hosting events"
+          }
+        ]
+      }
+    ]
+  }
+}

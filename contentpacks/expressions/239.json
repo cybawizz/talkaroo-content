@@ -1,0 +1,173 @@
+{
+  "title": "Asking for help with a difficult game level",
+  "context": "Ask a friend how to beat a really hard boss or puzzle.",
+  "content": {
+    "bestLine": "How do I beat this tough boss?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you help me with this level?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck on this part, what do I do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get past this obstacle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best strategy for this level?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a hint?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble with this puzzle, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I defeat this enemy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the solution to this challenge?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I'm stuck on this level, help!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do I beat this crazy hard boss?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so stuck, can you walk me through it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the cheat code for this level?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you show me how to do it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totally lost, can you help me out?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do I get past this stupid obstacle?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a tip?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, what's good? How do I beat this level?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella stuck, can you help a bro out?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's the 411 on this level?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Can you spit some knowledge my way?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm lowkey stuck, can you help?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's the tea on this level?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How do I [options] this level?",
+        "options": [
+          "beat",
+          "get past",
+          "solve"
+        ],
+        "meaning": "asking for help with a specific level"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "this level",
+          "this puzzle",
+          "this boss"
+        ],
+        "meaning": "asking for general help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for help with a difficult level",
+        "lines": [
+          {
+            "speaker": "Player",
+            "text": "Hey, I'm stuck on this level. Can you help me?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What's going on? What's giving you trouble?"
+          }
+        ]
+      },
+      {
+        "description": "Asking a gaming community for help with a challenging boss",
+        "lines": [
+          {
+            "speaker": "Player",
+            "text": "I'm having trouble with this boss. Does anyone have any tips?"
+          },
+          {
+            "speaker": "Community Member",
+            "text": "Yeah, try using this strategy and see if it works for you"
+          }
+        ]
+      }
+    ]
+  }
+}

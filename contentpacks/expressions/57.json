@@ -1,0 +1,161 @@
+{
+  "title": "Discussing a yoga or fitness class",
+  "context": "Talk about how difficult the instructor was today.",
+  "content": {
+    "bestLine": "That instructor was tough today, huh?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The instructor was quite demanding.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Today's class was more challenging than usual.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I found the instructor to be very strict.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The class was harder than I expected.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The instructor pushed us to our limits.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling the burn after that class.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The instructor was tough, but fair.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That class was insane!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The instructor was a total beast.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dying after that workout.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The instructor was super tough today.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't think I'd make it through that class.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was the hardest class I've taken.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so sore after that workout.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That class was lit!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The instructor was low-key brutal.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella sore after that workout.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That class was straight fire.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The instructor was a total savage.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The instructor was [options] today.",
+        "options": [
+          "tough",
+          "demanding",
+          "strict",
+          "brutal"
+        ],
+        "meaning": "describing the instructor's teaching style"
+      },
+      {
+        "template": "I'm [options] after that workout.",
+        "options": [
+          "dying",
+          "sore",
+          "exhausted",
+          "wiped out"
+        ],
+        "meaning": "expressing the physical aftermath of the workout"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing the class with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how was your yoga class today?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It was tough! The instructor was really demanding."
+          }
+        ]
+      },
+      {
+        "description": "Complaining about the class with a coworker",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Ugh, I'm so sore after that fitness class.",
+            "register": "informal"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? The instructor was a total beast!"
+          }
+        ]
+      }
+    ]
+  }
+}

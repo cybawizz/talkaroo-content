@@ -1,0 +1,129 @@
+{
+  "title": "Questions a waiter or waitress might ask",
+  "context": "Ask the customers if they are ready to order or need more time.",
+  "content": {
+    "bestLine": "Can I take your order now?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you ready to order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I put in your order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need more time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you all set to order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take your order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to order yet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I put your order in?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need a few more minutes?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have the pleasure of taking your order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you prepared to place your order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I proceed with taking your order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it convenient for you to order at this time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I take your order now, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you ready to proceed with your order?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] your order?",
+        "options": [
+          "take",
+          "put in"
+        ],
+        "meaning": "Asking if the customer is ready to order"
+      },
+      {
+        "template": "Do you need [options] to order?",
+        "options": [
+          "more time",
+          "a few more minutes"
+        ],
+        "meaning": "Asking if the customer needs additional time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Waiter asking if customers are ready to order",
+        "lines": [
+          {
+            "speaker": "Waiter",
+            "text": "Can I take your order now?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, we're ready. I'll have the steak."
+          }
+        ]
+      },
+      {
+        "description": "Waiter checking if customers need more time",
+        "lines": [
+          {
+            "speaker": "Waiter",
+            "text": "Do you need a few more minutes to decide?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, please. We're not quite ready yet."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Expressions about spending money",
+  "context": "Use a common idiom to describe being broke or being rich.",
+  "content": {
+    "bestLine": "I'm broke, living paycheck to paycheck",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm on a tight budget",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Expenses are adding up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to cut back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Money is scarce",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm watching my spending",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Funds are limited",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being frugal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Costs are high",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm broke as a joke",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living large",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ballin' on a budget",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low on cash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm splurging",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling flush",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm pinching pennies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm treating myself",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm straight fire, got the dough",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella rich",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm lowkey broke",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm highkey ballin'",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting my wallet",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm turnt up, got the money",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about my expenses",
+        "options": [
+          "worried",
+          "excited",
+          "careless"
+        ],
+        "meaning": "expressing emotions about spending money"
+      },
+      {
+        "template": "I'm living [options] and loving it",
+        "options": [
+          "large",
+          "frugally",
+          "paycheck to paycheck"
+        ],
+        "meaning": "describing one's financial situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their financial situations",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so broke, I had to cancel my plans"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, I'm living paycheck to paycheck too"
+          }
+        ]
+      },
+      {
+        "description": "A person trying to convince their friend to spend money",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Come on, let's splurge and have some fun"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I don't know, I'm trying to be frugal"
+          }
+        ]
+      }
+    ]
+  }
+}

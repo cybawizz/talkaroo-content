@@ -1,0 +1,173 @@
+{
+  "title": "Noticing that someone looks happy",
+  "context": "Point out that another person seems very joyous right now.",
+  "content": {
+    "bestLine": "You seem really happy today, what's going on?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You look happy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can tell you're in a good mood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed you're smiling a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be very joyful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can see you're feeling upbeat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have a great energy about you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's nice to see you so happy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's got you so stoked?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're beaming, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love your vibe today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You seem like you're on top of the world",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's putting that big smile on your face?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're glowing, what's your secret?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting good vibes from you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you're having the best day ever",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You seem to be in high spirits",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed your positive demeanor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be very pleased",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a pleasure to see you so happy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have a very upbeat attitude today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I can tell you're feeling very satisfied",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] today",
+        "options": [
+          "seem happy",
+          "look great",
+          "appear joyful"
+        ],
+        "meaning": "noticing someone's happiness"
+      },
+      {
+        "template": "I [options] you're in a good mood",
+        "options": [
+          "can tell",
+          "notice",
+          "sense"
+        ],
+        "meaning": "commenting on someone's mood"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Noticing a friend's happiness",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You seem really happy today, what's going on?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I just got some great news"
+          }
+        ]
+      },
+      {
+        "description": "Commenting on a coworker's mood",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You appear to be in high spirits today"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I'm just feeling very positive about our current project"
+          }
+        ]
+      }
+    ]
+  }
+}

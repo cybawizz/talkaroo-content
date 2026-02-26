@@ -1,0 +1,173 @@
+{
+  "title": "Bragging about fixing something yourself",
+  "context": "Proudly tell your spouse that you repaired the sink without a plumber.",
+  "content": {
+    "bestLine": "I fixed the sink all by myself!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I managed to fix the sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is working again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I repaired the sink without help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is fixed now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was able to fix the sink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is working properly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I fixed the sink myself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sink is no longer leaking",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I nailed it, fixed the sink!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Yeah, I fixed the sink myself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The sink's all fixed, no plumber needed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I did it, fixed the sink without help",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Fixed the sink, feels great",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No plumber required, I fixed it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm handy, fixed the sink myself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The sink's good as new, I fixed it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I crushed it, fixed the sink!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Yaaas, I fixed the sink, no cap",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The sink's all gucci, I fixed it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I low-key fixed the sink myself",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No plumber needed, I'm the real MVP",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I fixed the sink, and it's straight fire",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] fixed the sink",
+        "options": [
+          "managed to",
+          "was able to",
+          "finally"
+        ],
+        "meaning": "expressing ability to fix the sink"
+      },
+      {
+        "template": "The sink is [options] now",
+        "options": [
+          "working",
+          "fixed",
+          "good as new"
+        ],
+        "meaning": "describing the result of fixing the sink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Telling spouse about fixing the sink",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I fixed the sink all by myself!"
+          },
+          {
+            "speaker": "Spouse",
+            "text": "Wow, that's amazing! How did you do it?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the fix with spouse",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I was able to fix the sink without a plumber"
+          },
+          {
+            "speaker": "Spouse",
+            "text": "That's so cool! You're really handy"
+          }
+        ]
+      }
+    ]
+  }
+}

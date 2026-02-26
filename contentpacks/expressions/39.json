@@ -1,0 +1,205 @@
+{
+  "title": "Describing an energetic person",
+  "context": "Discuss someone who is incredibly lively and full of energy.",
+  "content": {
+    "bestLine": "She's always buzzing with energy",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They have a lot of energy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "She's very lively",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He's always on the go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're really enthusiastic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "She has a dynamic personality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He's full of life",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're very vibrant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "She's always upbeat",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "She's a total ball of energy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's always hyped",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're super peppy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "She's got a ton of spunk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's always bouncing off the walls",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They're really stoked",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "She's a firecracker",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He's always pumped up",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "She exhibits a high level of enthusiasm",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "He has a very energetic demeanor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They possess a great deal of vitality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "She displays a remarkable amount of dynamism",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "He has a very lively personality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They are extremely motivated",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "She's low-key a energy bomb",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He's hella hyped",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "They're totes energetic",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "She's a total go-getter",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He's always turnt up",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "They're super extra",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "She's [options] with energy",
+        "options": [
+          "always buzzing",
+          "full of",
+          "bouncing with"
+        ],
+        "meaning": "describing someone's energetic personality"
+      },
+      {
+        "template": "He's [options] all the time",
+        "options": [
+          "on the go",
+          "hyped",
+          "pumped up"
+        ],
+        "meaning": "describing someone's constant energy levels"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Describing a friend's energetic personality",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have you met Sarah?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, she's always buzzing with energy!"
+          }
+        ]
+      },
+      {
+        "description": "Talking about a coworker's enthusiasm",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "How's the new project going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's going great, thanks to John's high energy levels!"
+          }
+        ]
+      }
+    ]
+  }
+}

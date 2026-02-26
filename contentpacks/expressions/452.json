@@ -1,0 +1,236 @@
+{
+  "title": "Protecting your property",
+  "context": "Firmly command someone not to touch the things that you own.",
+  "content": {
+    "bestLine": "Hands off, that's mine!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please don't touch that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's my property",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer you not touch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That belongs to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your hands off",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't touch my stuff",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Respect my belongings",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, don't touch that!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's mine, hands off!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't mess with my things",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep your hands to yourself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not yours to touch",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Back off, it's mine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't even think about it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's my stuff, don't touch",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must ask you not to touch that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That is my personal property",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please refrain from touching my belongings",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you didn't touch",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That item is not for public use",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please respect my private property",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Don't even get it twisted, that's mine",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep your grubby hands off",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's my ish, don't touch",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be touchin' my stuff, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's mine, foo', don't touch",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Get your damn hands off!",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Don't you dare touch that!",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That's mine, and if you touch it, you're dead to me",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Touch that and you'll regret it",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Keep your filthy hands off my property",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Don't touch my [options]",
+        "options": [
+          "stuff",
+          "things",
+          "property",
+          "belongings"
+        ],
+        "meaning": "Firmly telling someone not to touch your belongings"
+      },
+      {
+        "template": "That's mine, [options]!",
+        "options": [
+          "hands off",
+          "don't touch",
+          "back off"
+        ],
+        "meaning": "Assertively claiming ownership and warning someone not to touch"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend reaches for your phone",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, don't touch that!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What's the big deal?"
+          },
+          {
+            "speaker": "You",
+            "text": "It's mine, and I don't want you touching it"
+          }
+        ]
+      },
+      {
+        "description": "A stranger tries to take your bag",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Get your hands off my bag!"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "I was just trying to help"
+          },
+          {
+            "speaker": "You",
+            "text": "I don't need your help, and I want you to leave my property alone"
+          }
+        ]
+      }
+    ]
+  }
+}

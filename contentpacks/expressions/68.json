@@ -1,0 +1,166 @@
+{
+  "title": "Convincing friends to get midnight pizza",
+  "context": "Beg your tired group to walk three blocks for a slice of cheese pizza.",
+  "content": {
+    "bestLine": "Come on, it's just three blocks for a slice of heaven",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's get some pizza",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I could go for a slice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not that far",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can walk it off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just one slice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It'll be fun",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We deserve it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, pizza sounds amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go get some grub",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so down for pizza",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's just a short walk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, it'll be a blast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can't sleep on empty stomachs",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pizza is the answer",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, pizza time",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's roll for some slices",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella hungry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's lit, let's go",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Pizza is life",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] for pizza",
+        "options": [
+          "go",
+          "head",
+          "roll"
+        ],
+        "meaning": "suggestion to get pizza"
+      },
+      {
+        "template": "We [options] need pizza",
+        "options": [
+          "totally",
+          "really",
+          "definitely"
+        ],
+        "meaning": "emphasis on the need for pizza"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Convincing a friend to get pizza",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Dude, I'm starving"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Me too, but I'm tired"
+          },
+          {
+            "speaker": "You",
+            "text": "Come on, it's just three blocks for a slice of heaven"
+          }
+        ]
+      },
+      {
+        "description": "Group decision to get pizza",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Who's up for some midnight pizza?"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "I am!"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Me too, let's go"
+          }
+        ]
+      }
+    ]
+  }
+}

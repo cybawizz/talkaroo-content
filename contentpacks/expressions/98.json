@@ -1,0 +1,189 @@
+{
+  "title": "Instructions about keeping a secret",
+  "context": "Tell someone clearly that they cannot tell anyone else.",
+  "content": {
+    "bestLine": "This is just between you and me, okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Keep this to yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't share this with anyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is confidential",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep this quiet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a secret",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mention this to anyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep this under wraps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is just between us",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't go blabbing this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it on the down low",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a secret, got it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't spill the beans",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep this to yourself, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is just between you and me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't breathe a word",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep this on the quiet",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please keep this confidential",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This information is not to be shared",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must keep this private",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Discretion is required here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain confidentiality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a matter of secrecy",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's keep [options] quiet",
+        "options": [
+          "this",
+          "it",
+          "the secret"
+        ],
+        "meaning": "request to keep something secret"
+      },
+      {
+        "template": "This is [options], okay?",
+        "options": [
+          "just between us",
+          "a secret",
+          "confidential"
+        ],
+        "meaning": "emphasizing the need for secrecy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend to friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I have a secret to tell you"
+          },
+          {
+            "speaker": "B",
+            "text": "Okay, what is it?"
+          },
+          {
+            "speaker": "A",
+            "text": "But you have to promise not to tell anyone"
+          },
+          {
+            "speaker": "B",
+            "text": "I promise, this is just between you and me"
+          }
+        ]
+      },
+      {
+        "description": "Boss to employee",
+        "lines": [
+          {
+            "speaker": "Boss",
+            "text": "I need to share some confidential information with you"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Of course, I understand"
+          },
+          {
+            "speaker": "Boss",
+            "text": "Please keep this to yourself, it's very important"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I will, don't worry"
+          }
+        ]
+      }
+    ]
+  }
+}

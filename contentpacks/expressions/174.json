@@ -1,0 +1,173 @@
+{
+  "title": "Asking if a food truck takes card",
+  "context": "Ask the street vendor if they only accept cash or if you can tap to pay.",
+  "content": {
+    "bestLine": "Do you take card or is it cash only?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you accept credit cards?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is card payment available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with my card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you take card or cash?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is tap to pay an option?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my debit card?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a card reader?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is card payment accepted here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You take card, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I just tap to pay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys take card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is card okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I pay with card?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You accept card, yeah?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Card or cash, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use my card here?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Do you accept payment by card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know if card payment is an option.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me if you take card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to pay with a credit card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have the facility to accept card payments?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to inquire about your payment methods.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you take [options]?",
+        "options": [
+          "card",
+          "cash",
+          "mobile payments"
+        ],
+        "meaning": "Asking about payment methods"
+      },
+      {
+        "template": "Can I pay with [options]?",
+        "options": [
+          "card",
+          "cash",
+          "phone"
+        ],
+        "meaning": "Inquiring about payment options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about payment methods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you take card or is it cash only?"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "We take both, but there's a small fee for card payments."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about tap to pay",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I just tap to pay?"
+          },
+          {
+            "speaker": "Vendor",
+            "text": "Yes, we have contactless payment available."
+          }
+        ]
+      }
+    ]
+  }
+}

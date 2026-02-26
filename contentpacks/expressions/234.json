@@ -1,0 +1,159 @@
+{
+  "title": "Posing questions to children",
+  "context": "Ask a child simple questions about their age or favorite things.",
+  "content": {
+    "bestLine": "How old are you now?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your age?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How old are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite color?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you like ice cream?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite toy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many siblings do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite game?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you like playing outside?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, kiddo?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How old are you now, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite thing to do?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you like playing with friends?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you like watching cartoons?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite animal?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "What's your favorite [options]?",
+        "options": [
+          "color",
+          "food",
+          "game",
+          "animal"
+        ],
+        "meaning": "Asking about preferences"
+      },
+      {
+        "template": "How many [options] do you have?",
+        "options": [
+          "siblings",
+          "pets",
+          "toys"
+        ],
+        "meaning": "Asking about quantities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about age and interests",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "How old are you now?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm 7 years old."
+          },
+          {
+            "speaker": "Adult",
+            "text": "What's your favorite thing to do?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I like playing with Legos."
+          }
+        ]
+      },
+      {
+        "description": "Asking about favorite things",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "What's your favorite color?"
+          },
+          {
+            "speaker": "Child",
+            "text": "My favorite color is blue."
+          },
+          {
+            "speaker": "Adult",
+            "text": "What's your favorite food?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I like pizza."
+          }
+        ]
+      }
+    ]
+  }
+}

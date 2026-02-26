@@ -1,0 +1,172 @@
+{
+  "title": "Giving thanks for hospitality",
+  "context": "Thank a host for welcoming you into their home or event.",
+  "content": {
+    "bestLine": "Thanks so much for having me over!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thank you for your hospitality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your welcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for having me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a great host",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your kindness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for making me feel at home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your generosity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the warm welcome",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks for having me over, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so glad I came",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're an awesome host",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the good times",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I had a blast, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really cool for having me over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Thanks for being such a great host",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I owe you one, thanks",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you for your gracious hospitality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate the invitation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a wonderful host",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the lovely evening",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your kindness and generosity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for making me feel welcome",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for [option]",
+        "options": [
+          "having me over",
+          "the invitation",
+          "your hospitality"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "I [option] your [option]",
+        "options": [
+          "appreciate",
+          "am grateful for"
+        ],
+        "meaning": "expressing thanks"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest thanks host for dinner",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Thanks so much for having me over!"
+          },
+          {
+            "speaker": "Host",
+            "text": "You're welcome, I'm glad you could make it"
+          }
+        ]
+      },
+      {
+        "description": "Guest thanks host for party",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I had a blast, thanks for the party!"
+          },
+          {
+            "speaker": "Host",
+            "text": "I'm glad you had fun, you're welcome"
+          }
+        ]
+      }
+    ]
+  }
+}

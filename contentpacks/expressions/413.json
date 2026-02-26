@@ -1,0 +1,173 @@
+{
+  "title": "Trying to make a marriage work",
+  "context": "State your commitment to fixing your broken relationship.",
+  "content": {
+    "bestLine": "I'm committed to making our marriage work",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's work together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to fix this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can get through this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's find a solution",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I care about our marriage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to communicate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm willing to try",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all in on this marriage",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's do this together",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not giving up on us",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We can make this work",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm committed to you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's figure this out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love you and I'm not quitting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're in this together",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am dedicated to our marriage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us work together to resolve our issues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am committed to finding a solution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our marriage is a priority to me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am willing to seek counseling",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us move forward together",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] our marriage",
+        "options": [
+          "am committed to",
+          "care about",
+          "want to fix"
+        ],
+        "meaning": "expressing commitment to the marriage"
+      },
+      {
+        "template": "Let's [options] together",
+        "options": [
+          "work through this",
+          "find a solution",
+          "move forward"
+        ],
+        "meaning": "expressing willingness to work together"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A couple discussing their commitment to their marriage",
+        "lines": [
+          {
+            "speaker": "Husband",
+            "text": "I'm committed to making our marriage work"
+          },
+          {
+            "speaker": "Wife",
+            "text": "I'm willing to try, but we need to communicate better"
+          }
+        ]
+      },
+      {
+        "description": "A couple seeking counseling",
+        "lines": [
+          {
+            "speaker": "Counselor",
+            "text": "Let's work together to find a solution"
+          },
+          {
+            "speaker": "Husband",
+            "text": "I'm all in on this marriage, I don't want to give up"
+          }
+        ]
+      }
+    ]
+  }
+}

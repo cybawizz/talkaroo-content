@@ -1,0 +1,148 @@
+{
+  "title": "Stating that something is settled",
+  "context": "Declare that a decision is final and will not be changed.",
+  "content": {
+    "bestLine": "It's final, no further discussion",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The decision is made",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's settled then",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've reached a conclusion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The matter is closed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's been decided",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're in agreement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The issue is resolved",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's a done deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're good to go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all set",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No more discussion",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got a consensus",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's settled, let's move on",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The decision is final",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have reached a conclusion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The matter has been resolved",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The agreement is binding",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] that we [action]",
+        "options": [
+          "settled",
+          "agreed",
+          "decided"
+        ],
+        "meaning": "The decision is final"
+      },
+      {
+        "template": "We've [options] the issue",
+        "options": [
+          "resolved",
+          "settled",
+          "closed"
+        ],
+        "meaning": "The matter is closed"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Meeting conclusion",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "It's final, no further discussion"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Alright, let's move on then"
+          }
+        ]
+      },
+      {
+        "description": "Informal agreement",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "It's a done deal, right?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, we're good to go"
+          }
+        ]
+      }
+    ]
+  }
+}

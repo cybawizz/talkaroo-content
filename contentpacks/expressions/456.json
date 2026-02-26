@@ -1,0 +1,181 @@
+{
+  "title": "Encouraging someone to drink",
+  "context": "Enthusiastically push a friend to take a shot or finish their beverage.",
+  "content": {
+    "bestLine": "Come on, just one more shot!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's finish our drinks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for another round",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have another if you do",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should get another drink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about one more beer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the party going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm buying the next round",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't leave yet, it's early",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Shot time, buddy!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Drink up, let's go!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You only live once, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get wild!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's on me, let's drink!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a party pooper",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's keep it lit!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You in?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, let's get turnt!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey need another drink",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Let's get this party started!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Savage, finish your drink!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, let's drink!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Let's get jiggy with it!",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] another drink",
+        "options": [
+          "get",
+          "have",
+          "grab"
+        ],
+        "meaning": "encouraging someone to drink"
+      },
+      {
+        "template": "It's time to [options]!",
+        "options": [
+          "get wild",
+          "party",
+          "drink up"
+        ],
+        "meaning": "encouraging someone to let loose"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging a friend to take a shot",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Come on, just one more shot!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I don't know, I'm getting tired"
+          },
+          {
+            "speaker": "Person A",
+            "text": "It's on me, let's drink!"
+          }
+        ]
+      },
+      {
+        "description": "Encouraging a friend to finish their drink",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let's finish our drinks"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm good, I'll just leave it"
+          },
+          {
+            "speaker": "Person A",
+            "text": "No way, you have to finish it!"
+          }
+        ]
+      }
+    ]
+  }
+}

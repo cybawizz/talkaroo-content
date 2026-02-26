@@ -1,0 +1,175 @@
+{
+  "title": "Describing something very white",
+  "context": "State that an object is extremely bright and white.",
+  "content": {
+    "bestLine": "It's incredibly bright and white.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's very white.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The color is extremely white.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It has a brilliant white color.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The object is pure white.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a radiant white.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The white is very intense.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It appears very white.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The color is snowy white.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's super white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The thing is really white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's crazy white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's blindingly white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's white as can be.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's ridiculously white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's amazingly white.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's incredibly white.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The object exhibits a high degree of whiteness.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It displays a brilliant white hue.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The coloration is predominantly white.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It presents a very white appearance.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The white color is exceptionally vivid.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It has a remarkably white coloration.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] white.",
+        "options": [
+          "incredibly",
+          "really",
+          "super",
+          "amazingly"
+        ],
+        "meaning": "describing something as very white"
+      },
+      {
+        "template": "The [options] is very white.",
+        "options": [
+          "object",
+          "thing",
+          "item",
+          "color"
+        ],
+        "meaning": "describing the whiteness of an object or color"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a new painting.",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's incredibly bright and white."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, it's really eye-catching."
+          }
+        ]
+      },
+      {
+        "description": "A customer and salesperson discussing a product.",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for something very white."
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "This product has a brilliant white color."
+          }
+        ]
+      }
+    ]
+  }
+}

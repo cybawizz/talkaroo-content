@@ -1,0 +1,173 @@
+{
+  "title": "Praising someone's handmade art",
+  "context": "Tell a friend that the sweater they knitted is beautiful and looks professional.",
+  "content": {
+    "bestLine": "Your sweater is beautiful and looks professional",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The sweater looks great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love the color of your sweater",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're really talented with knitting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sweater is very well made",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm impressed by your knitting skills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sweater is perfect for the season",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have a great eye for design",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sweater is cozy and stylish",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That sweater is awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a knitting rockstar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so jealous of your knitting skills",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The sweater is super cute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really creative with your knitting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love the way the sweater fits",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should sell your knitted stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The sweater is amazing, great job",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That sweater is fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a total knitting boss",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The sweater is lowkey perfect",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're killing the knitting game",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The sweater is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a knitting genius, no cap",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your [options] is beautiful",
+        "options": [
+          "sweater",
+          "knitting",
+          "craft"
+        ],
+        "meaning": "Expressing admiration for someone's handmade art"
+      },
+      {
+        "template": "You're really [options] with your knitting",
+        "options": [
+          "talented",
+          "creative",
+          "skilled"
+        ],
+        "meaning": "Praising someone's knitting skills"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend praising another friend's knitted sweater",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I love your sweater, it's so beautiful"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Thanks, I just finished knitting it yesterday"
+          }
+        ]
+      },
+      {
+        "description": "Person complimenting a stranger's handmade art",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "Excuse me, but your sweater is amazing. You made it yourself?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Yes, I did. Thank you for noticing"
+          }
+        ]
+      }
+    ]
+  }
+}

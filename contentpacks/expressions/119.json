@@ -1,0 +1,171 @@
+{
+  "title": "Banking hours",
+  "context": "Ask what time the bank opens or closes.",
+  "content": {
+    "bestLine": "What time does the bank open?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are the bank's hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the bank close?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the bank open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the bank's hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the bank's schedule?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When is the bank open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the bank's operating hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the bank's hours?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What time does the bank open today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When does the bank close today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, what's the bank's schedule?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time can I get to the bank?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the bank open now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the bank's hours like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me when the bank closes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the bank open tomorrow?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the bank's operating hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the bank's hours of operation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the bank's business hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me when the bank is open for business?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the bank's schedule for the day.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the bank close today, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time does the bank [options]?",
+        "options": [
+          "open",
+          "close"
+        ],
+        "meaning": "inquire about bank hours"
+      },
+      {
+        "template": "Can you tell me the bank's [options]?",
+        "options": [
+          "hours",
+          "schedule"
+        ],
+        "meaning": "ask about bank operating hours"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about bank hours",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time does the bank open?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "The bank opens at 9 AM."
+          }
+        ]
+      },
+      {
+        "description": "Customer asking about bank schedule",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you tell me the bank's hours?"
+          },
+          {
+            "speaker": "Bank Representative",
+            "text": "Yes, the bank is open from 9 AM to 5 PM, Monday through Friday."
+          }
+        ]
+      }
+    ]
+  }
+}

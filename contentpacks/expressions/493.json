@@ -1,0 +1,173 @@
+{
+  "title": "Squeezing through a crowd at a concert",
+  "context": "Politely ask people to move so you can get closer to the stage.",
+  "content": {
+    "bestLine": "Excuse me, can I squeeze in here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you please move a bit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I get through here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, can I pass?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I move up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I squeeze in here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pardon me, can I get closer?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make some space?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I join you up front?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I slip in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind if I move up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I wiggle in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got room for one more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I squeeze through?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it cool if I move closer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a bit closer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind shifting a bit?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, can I get up in here?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Got space for a homie?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can a dude get closer?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind if I roll up?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I vibe up front?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it all good if I move up?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, can I [options]?",
+        "options": [
+          "squeeze in",
+          "get closer",
+          "move up"
+        ],
+        "meaning": "asking to move closer"
+      },
+      {
+        "template": "Is it [options] if I move closer?",
+        "options": [
+          "cool",
+          "okay",
+          "all good"
+        ],
+        "meaning": "asking for permission to move closer"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to move closer at a concert",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, can I squeeze in here?"
+          },
+          {
+            "speaker": "Other concert-goer",
+            "text": "Yeah, sure thing. There's room up front."
+          }
+        ]
+      },
+      {
+        "description": "Asking to move closer with a bit of hesitation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, mind if I move up? I promise I won't block your view."
+          },
+          {
+            "speaker": "Other concert-goer",
+            "text": "Nah, it's all good. Come on through."
+          }
+        ]
+      }
+    ]
+  }
+}

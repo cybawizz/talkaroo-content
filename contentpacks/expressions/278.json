@@ -1,0 +1,158 @@
+{
+  "title": "Explaining a complicated board game",
+  "context": "Patiently teach your friends the complex rules to a new tabletop game.",
+  "content": {
+    "bestLine": "Let's break it down step by step",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Okay, so first we need to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The goal is to collect points",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We take turns rolling the dice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Each player has their own deck",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game ends when one player wins",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's review the rules together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any questions so far?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So yeah, it's kinda like this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta strategize your moves",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all about the dice rolls, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just remember, it's all about fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry if you mess up, we all do",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get started and figure it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll show you my favorite strategy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "To commence, let's establish the rules",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The objective is to accumulate the most points",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Players take turns in a clockwise direction",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Each participant is responsible for their own gameplay",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The game concludes when a winner is determined",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] the rules",
+        "options": [
+          "review",
+          "go over",
+          "break down"
+        ],
+        "meaning": "to explain the rules"
+      },
+      {
+        "template": "The goal is to [options] points",
+        "options": [
+          "collect",
+          "accumulate",
+          "earn"
+        ],
+        "meaning": "to achieve the game's objective"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining the game to a new player",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Okay, so first we need to understand the rules"
+          },
+          {
+            "speaker": "Student",
+            "text": "Yeah, I've never played this game before"
+          }
+        ]
+      },
+      {
+        "description": "Discussing strategy with an experienced player",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "I think we should focus on collecting points"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "But what about blocking our opponents?"
+          }
+        ]
+      }
+    ]
+  }
+}

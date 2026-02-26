@@ -1,0 +1,173 @@
+{
+  "title": "Getting someone's attention",
+  "context": "Interrupt to get someone to look at you, or listen.",
+  "content": {
+    "bestLine": "Hey, can I talk to you for a second?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your attention?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, got a minute?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I interrupt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to interrupt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you look at me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to talk to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have your attention?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yo, can I talk to you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, got a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you listen for a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can I ask you something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, what are you doing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get your ear for a minute?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, may I have a word?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to speak with you for a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I interrupt your conversation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to discuss something with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you spare a moment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate your attention",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hey [options], can I talk to you?",
+        "options": [
+          "buddy",
+          "man",
+          "friend"
+        ],
+        "meaning": "informal way to get someone's attention"
+      },
+      {
+        "template": "Excuse me [options], may I have a word?",
+        "options": [
+          "sir",
+          "ma'am",
+          "excuse me"
+        ],
+        "meaning": "formal way to get someone's attention"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Getting someone's attention in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can I talk to you for a second?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's up?"
+          }
+        ]
+      },
+      {
+        "description": "Getting someone's attention in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, may I have a word?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Of course, what can I do for you?"
+          }
+        ]
+      }
+    ]
+  }
+}

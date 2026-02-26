@@ -1,0 +1,173 @@
+{
+  "title": "Asking to be trusted",
+  "context": "Request that someone places their faith or confidence in you.",
+  "content": {
+    "bestLine": "Please trust me on this one",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need you to trust me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have your trust?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Trust me, I've got this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm asking you to trust me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please have faith in me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to earn your trust",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you trust my judgment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worthy of your trust",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Trust me, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back, trust me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just trust me on this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm asking you to believe in me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a little faith, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I promise I won't let you down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just trust my instincts?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've earned your trust, right?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I request that you trust me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I assure you, I'm trustworthy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please place your confidence in me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm asking for your trust and faith",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to earning your trust",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a reliable and trustworthy individual",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you to trust me",
+        "options": [
+          "need",
+          "want",
+          "ask"
+        ],
+        "meaning": "requesting trust"
+      },
+      {
+        "template": "Please [options] your trust in me",
+        "options": [
+          "place",
+          "put",
+          "have"
+        ],
+        "meaning": "asking for trust"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm telling you, I've got this under control"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, I trust you"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I need you to trust my judgment on this project"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I do trust you, and I'll support your decision"
+          }
+        ]
+      }
+    ]
+  }
+}

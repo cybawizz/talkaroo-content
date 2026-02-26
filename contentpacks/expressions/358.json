@@ -1,0 +1,181 @@
+{
+  "title": "Giving advice to someone whose life is too busy",
+  "context": "Suggest that someone should slow down and rest.",
+  "content": {
+    "bestLine": "You should slow down and rest",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Take a break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need to slow down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Rest is essential",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't overexert yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take some time off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Prioritize your well-being",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You deserve a rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Slow down and breathe",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're moving too fast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a load off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Relax, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You need to unwind",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Slow your roll",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a step back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I recommend taking a break",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You should prioritize self-care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to manage your workload",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suggest taking some time to rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You need to maintain a healthy balance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I advise you to slow down",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You should [options] and rest",
+        "options": [
+          "slow down",
+          "take a break",
+          "step back"
+        ],
+        "meaning": "suggesting someone should slow down"
+      },
+      {
+        "template": "I think you need to [options] your life",
+        "options": [
+          "slow down",
+          "take control of",
+          "re-evaluate"
+        ],
+        "meaning": "advising someone to re-assess their life"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend giving advice",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You've been working non-stop, you should slow down"
+          },
+          {
+            "speaker": "Person",
+            "text": "I know, but I have so much to do"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's exactly why you need to take a break, you're burning out"
+          }
+        ]
+      },
+      {
+        "description": "Manager giving advice",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I've noticed you've been taking on a lot of projects, I recommend prioritizing your well-being"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I appreciate your concern, but I don't want to fall behind"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Your health is more important, take some time to rest and we'll adjust your workload"
+          }
+        ]
+      }
+    ]
+  }
+}

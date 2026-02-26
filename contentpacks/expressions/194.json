@@ -1,0 +1,205 @@
+{
+  "title": "Asking someone's intentions",
+  "context": "Directly ask a person what they are secretly planning to do.",
+  "content": {
+    "bestLine": "What's your plan here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are you thinking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share your intentions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you plan to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I ask what you're planning?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your goal here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are you trying to achieve?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your objective?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the plan, dude?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on in that head of yours?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Spill the beans, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's cooking in your brain?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the haps, buddy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your story?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me the lowdown",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the scoop?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please share your intentions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could disclose your plans",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your objectives?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you outline your strategy?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your proposed course of action?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know your thoughts on the matter",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I'm sure it's nothing, but what's your plan?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dying to know, what's your secret?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Do tell, what's the master plan?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure it's totally innocent, but what are you up to?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I can only imagine, what's your intention?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, share your brilliant plan",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's your [option] here?",
+        "options": [
+          "plan",
+          "goal",
+          "objective"
+        ],
+        "meaning": "asking someone's intentions"
+      },
+      {
+        "template": "Can you share your [option]?",
+        "options": [
+          "thoughts",
+          "feelings",
+          "intentions"
+        ],
+        "meaning": "asking someone to disclose their plans"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend about their plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's your plan for tonight?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I was thinking of going to the movies"
+          }
+        ]
+      },
+      {
+        "description": "Asking a colleague about their project",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's your objective with this project?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm trying to increase sales by 10%"
+          }
+        ]
+      }
+    ]
+  }
+}

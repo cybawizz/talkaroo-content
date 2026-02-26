@@ -1,0 +1,173 @@
+{
+  "title": "On disappearance",
+  "context": "State that a person or object has suddenly vanished.",
+  "content": {
+    "bestLine": "They've suddenly vanished.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The person is nowhere to be found.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The object has disappeared.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't locate them.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's gone missing.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They seem to have vanished.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The item is no longer here.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've lost track of them.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not where we left it.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They're gone, just like that.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I have no idea where they are.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The thing just disappeared.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can't find them anywhere.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It vanished into thin air.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're nowhere to be seen.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I haven't seen them since.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like they never existed.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The individual has gone missing.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The object is no longer in our possession.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are unable to locate them.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The item has been misplaced.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They appear to have disappeared suddenly.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have lost contact with them.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They [options] without warning.",
+        "options": [
+          "vanished",
+          "disappeared",
+          "went missing"
+        ],
+        "meaning": "sudden disappearance"
+      },
+      {
+        "template": "The [options] is nowhere to be found.",
+        "options": [
+          "person",
+          "object",
+          "item"
+        ],
+        "meaning": "something or someone has disappeared"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two people about a missing person.",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have you seen John?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, I haven't seen him since yesterday. He's vanished."
+          }
+        ]
+      },
+      {
+        "description": "A conversation between two people about a missing object.",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Where's my phone?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I haven't seen it. It's like it disappeared into thin air."
+          }
+        ]
+      }
+    ]
+  }
+}

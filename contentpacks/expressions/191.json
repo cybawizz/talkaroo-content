@@ -1,0 +1,132 @@
+{
+  "title": "House-cleaner to employer",
+  "context": "Ask the homeowner where the vacuum or cleaning supplies are kept.",
+  "content": {
+    "bestLine": "Where are the cleaning supplies?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where's the vacuum?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the cleaning closet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need the mop and bucket.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do you keep the broom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to clean the floors?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use the dishwasher?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the trash bags?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a preferred cleaning product?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you direct me to the cleaning supplies?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me where the vacuum is.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where might I find the cleaning equipment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require access to the cleaning closet.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to tell me where the mop is?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the location of the cleaning supplies.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where is the [options]?",
+        "options": [
+          "vacuum",
+          "mop",
+          "broom",
+          "cleaning supplies"
+        ],
+        "meaning": "asking for the location of a specific cleaning tool"
+      },
+      {
+        "template": "Can you show me the [options]?",
+        "options": [
+          "cleaning closet",
+          "laundry room",
+          "kitchen"
+        ],
+        "meaning": "requesting a tour of a specific area"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "House-cleaner asking for cleaning supplies",
+        "lines": [
+          {
+            "speaker": "House-cleaner",
+            "text": "Where are the cleaning supplies?"
+          },
+          {
+            "speaker": "Employer",
+            "text": "They're in the closet downstairs."
+          }
+        ]
+      },
+      {
+        "description": "House-cleaner asking for specific cleaning tool",
+        "lines": [
+          {
+            "speaker": "House-cleaner",
+            "text": "Where's the vacuum?"
+          },
+          {
+            "speaker": "Employer",
+            "text": "It's in the hallway closet."
+          }
+        ]
+      }
+    ]
+  }
+}

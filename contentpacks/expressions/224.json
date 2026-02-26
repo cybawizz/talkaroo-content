@@ -1,0 +1,131 @@
+{
+  "title": "Questions a salesperson might ask",
+  "context": "Ask a customer exactly what they are looking to buy.",
+  "content": {
+    "bestLine": "What can I help you find today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What brings you in today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I assist you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are you looking for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help you with something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your shopping list?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I help you today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you need help with?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I show you something?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I inquire about your shopping needs?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I be of assistance to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What product are you interested in purchasing?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I provide you with information on our products?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I provide you with excellent service today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What can I help you find in our store?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm looking for [options]",
+        "options": [
+          "a gift",
+          "something to wear",
+          "a new phone"
+        ],
+        "meaning": "customer is looking for a specific product"
+      },
+      {
+        "template": "Can you show me [options]?",
+        "options": [
+          "the latest collection",
+          "the sale items",
+          "the best sellers"
+        ],
+        "meaning": "customer wants to see specific products"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Salesperson asking a customer what they are looking for",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Hi, what brings you in today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a new pair of shoes."
+          }
+        ]
+      },
+      {
+        "description": "Salesperson offering assistance to a customer",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "Can I help you with something?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'm looking for a gift for my sister."
+          }
+        ]
+      }
+    ]
+  }
+}

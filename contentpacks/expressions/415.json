@@ -1,0 +1,173 @@
+{
+  "title": "Concerning nostalgia",
+  "context": "Express happy memories and longing for the past.",
+  "content": {
+    "bestLine": "I miss the good old days",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have fond memories",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The past was simpler",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I remember when",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Those were the days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel nostalgic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The good old days",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I miss my childhood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Simpler times were better",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so nostalgic",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The old days were lit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I miss my teens",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Those were the best years",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I could go back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The past was more fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling nostalgic today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love looking at old photos",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have a strong sense of nostalgia",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The past holds a special place",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I reflect on my memories fondly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Nostalgia is a powerful emotion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate my past experiences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The good old days were memorable",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I miss [options]",
+        "options": [
+          "the good old days",
+          "my childhood",
+          "my teens"
+        ],
+        "meaning": "expressing nostalgia"
+      },
+      {
+        "template": "The [options] were [options]",
+        "options": [
+          "simpler",
+          "more fun",
+          "better"
+        ],
+        "meaning": "comparing the past to the present"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking about childhood memories",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I miss my childhood"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know what you mean, those were the best years"
+          }
+        ]
+      },
+      {
+        "description": "Discussing nostalgia",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm feeling nostalgic today"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's making you feel that way?"
+          }
+        ]
+      }
+    ]
+  }
+}

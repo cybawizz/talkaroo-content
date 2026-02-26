@@ -1,0 +1,173 @@
+{
+  "title": "Expressing physical intimacy",
+  "context": "Discuss physical affection and intimacy with a partner.",
+  "content": {
+    "bestLine": "I love it when we cuddle together",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel close to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should spend more time together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I enjoy our physical connection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Being with you feels right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I value our intimacy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a strong physical bond",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel comfortable with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our physical relationship is important to me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're so cute when we're together",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love how we can just chill",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You make me feel all warm inside",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so down for some cuddles",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my favorite person to be around",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like we just click",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love our late-night conversations",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my person",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're my bae",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed with you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're my ride or die",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so extra when we're together",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're my everything",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella into you",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I love it when we [options]",
+        "options": [
+          "cuddle",
+          "kiss",
+          "hold hands"
+        ],
+        "meaning": "expressing physical affection"
+      },
+      {
+        "template": "You make me feel [options]",
+        "options": [
+          "happy",
+          "loved",
+          "comfortable"
+        ],
+        "meaning": "expressing emotional intimacy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A couple discussing their physical intimacy",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I love it when we cuddle together"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Me too, it makes me feel so close to you"
+          }
+        ]
+      },
+      {
+        "description": "A couple expressing their physical affection",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're so cute when we're together"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're my favorite person to be around"
+          }
+        ]
+      }
+    ]
+  }
+}

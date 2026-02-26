@@ -1,0 +1,208 @@
+{
+  "title": "Asking someone to wait (quick)",
+  "context": "Ask someone to pause and hold on for a moment.",
+  "content": {
+    "bestLine": "Just a minute, please",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you wait a moment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold on for a second",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a minute, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait a minute, okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bear with me for a moment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hang on a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait just a moment",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you wait up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill for a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just hang loose",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a tick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wait for a hot second",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold up a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Slow down, I need a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold on a bit?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I request a brief pause?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate a moment's wait",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please wait for a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you could wait briefly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to pause for a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please hold for a moment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lemme get back to you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hit pause for a sec",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill, I got this",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hold up, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me a hot sec",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] for a minute?",
+        "options": [
+          "wait",
+          "hold on",
+          "hang in there"
+        ],
+        "meaning": "asking someone to pause"
+      },
+      {
+        "template": "I need to [options] for a moment",
+        "options": [
+          "pause",
+          "stop",
+          "take a break"
+        ],
+        "meaning": "requesting a brief pause"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to wait in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can you wait up?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's going on?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Just need to check something real quick"
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to wait in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "May I request a brief pause?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Of course, what's the matter?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I need to review some information before proceeding"
+          }
+        ]
+      }
+    ]
+  }
+}

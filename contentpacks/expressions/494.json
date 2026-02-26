@@ -1,0 +1,173 @@
+{
+  "title": "Offering help to someone",
+  "context": "Ask someone if they need assistance with a task or problem.",
+  "content": {
+    "bestLine": "Do you need help with that?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I assist you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need any help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need a hand?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want some assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I lend a hand?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need help, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want me to help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You need a hand?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can help with that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me know if you need help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer my assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require any aid?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if I can assist",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can help you with?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to provide support",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you need help with [options]?",
+        "options": [
+          "that",
+          "this",
+          "it"
+        ],
+        "meaning": "offering assistance"
+      },
+      {
+        "template": "Can I [options] for you?",
+        "options": [
+          "help",
+          "assist",
+          "lend a hand"
+        ],
+        "meaning": "providing aid"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering help to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, do you need help with that?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm having some trouble"
+          }
+        ]
+      },
+      {
+        "description": "Offering help in a formal setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Is there anything I can help you with?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Actually, yes, I need help with this project"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "title": "General greetings",
+  "context": "Say hello in a standard, everyday way.",
+  "content": {
+    "bestLine": "Hello, how are you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what's up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, what's new?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, how's your day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, long time no see!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's nice to meet you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's everything?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up, buddy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, how's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yo, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, how was your weekend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's your day going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, how are you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to meet you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon, how can I help you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, welcome to our office.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening, how was your day?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm glad you're here.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, what's good?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Hey, no cap, how's it going?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Ayy, how's life?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Hey, what's the tea?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Yooo, what's up?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, how's your [day/week/month]?",
+        "options": [
+          "day",
+          "week",
+          "month"
+        ],
+        "meaning": "Asking about someone's time period"
+      },
+      {
+        "template": "Hi, what's new with [you/us]?",
+        "options": [
+          "you",
+          "us"
+        ],
+        "meaning": "Asking about someone's updates"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends meeting at a coffee shop",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm good, just got back from a trip. How about you?"
+          }
+        ]
+      },
+      {
+        "description": "A job interview",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Good morning, welcome to our office."
+          },
+          {
+            "speaker": "Candidate",
+            "text": "Thank you, it's nice to be here."
+          }
+        ]
+      }
+    ]
+  }
+}

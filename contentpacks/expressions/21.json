@@ -1,0 +1,173 @@
+{
+  "title": "Beginning a therapy session",
+  "context": "Tell your counselor that you had a very stressful week.",
+  "content": {
+    "bestLine": "I've had a really tough week and I'm feeling overwhelmed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's been a stressful week",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling really overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been under a lot of pressure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This week has been really tough for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to cope with stress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to talk about my week",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's been a difficult week emotionally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling drained and stressed",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've had the worst week ever",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so stressed out right now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This week has been a total nightmare",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling really burnt out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just want to talk about my crazy week",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've been dealing with a lot of drama",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so overwhelmed and stressed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to vent about my week",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've experienced a significant amount of stress this week",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm seeking support for my emotional well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This week has presented several challenges for me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in discussing my stress management options",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've been struggling to manage my workload and stress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for guidance on coping with stress and anxiety",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've been feeling [options] all week",
+        "options": [
+          "overwhelmed",
+          "stressed",
+          "anxious"
+        ],
+        "meaning": "expressing emotional state"
+      },
+      {
+        "template": "This week has been [options] for me",
+        "options": [
+          "really tough",
+          "incredibly stressful",
+          "emotionally draining"
+        ],
+        "meaning": "describing a difficult experience"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a therapy session",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I've had a really tough week and I'm feeling overwhelmed"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "I'm here to listen and support you, can you tell me more about what's been going on?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing stress and anxiety",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I've been feeling really stressed out and anxious all week"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "That sounds really challenging, have you tried any stress management techniques or would you like to explore some options together?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "title": "Being amazed by an AI generated image",
+  "context": "Tell someone that you cannot believe the fake photo was made by a computer.",
+  "content": {
+    "bestLine": "This fake photo is insane, it was made by a computer!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't believe this image is fake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This photo looks so real",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The AI generated this image",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to tell it's not real",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The computer made this image",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is an impressive fake photo",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm surprised by the quality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The AI did a great job",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This fake photo is crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm blown away by this image",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This AI is insane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This photo is so cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love how realistic it looks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The computer nailed it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is some next level stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm amazed by the details",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This fake photo is lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The AI is lowkey a genius",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This image is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella impressed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "The computer is a beast",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This photo is dope",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This [options] photo is [options]",
+        "options": [
+          "fake",
+          "AI generated",
+          "insane",
+          "cool",
+          "lit"
+        ],
+        "meaning": "Expressing amazement at the photo"
+      },
+      {
+        "template": "I'm [options] by the [options]",
+        "options": [
+          "blown away",
+          "amazed",
+          "impressed",
+          "AI",
+          "computer",
+          "image"
+        ],
+        "meaning": "Expressing surprise at the photo"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing an AI generated image",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "This fake photo is insane, it was made by a computer!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? The AI is so advanced"
+          }
+        ]
+      },
+      {
+        "description": "A person showing an AI generated image to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Check out this photo, it's AI generated"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Wow, that's so cool! I wouldn't have known it was fake"
+          }
+        ]
+      }
+    ]
+  }
+}

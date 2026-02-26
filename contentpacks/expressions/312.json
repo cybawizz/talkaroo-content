@@ -1,0 +1,173 @@
+{
+  "title": "Difficulties with seeing clearly",
+  "context": "Inform others that you are unable to see something because it is blurry.",
+  "content": {
+    "bestLine": "I'm having trouble seeing that, it's a bit blurry",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's hard to see",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble focusing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's blurry to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can't see it clearly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My vision is a bit fuzzy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not seeing it well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not in focus",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty seeing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm blind to that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's all fuzzy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have my glasses on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to make out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not seeing squat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a blur",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get my eyes checked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a hard time seeing it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing visual difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The image is not clear",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble discerning the details",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My vision is impaired",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require corrective lenses",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The object is not in focus",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having trouble seeing [object] because it's [adjective]",
+        "options": [
+          "book",
+          "picture",
+          "words"
+        ],
+        "meaning": "expressing difficulty seeing something"
+      },
+      {
+        "template": "My [body part] are having trouble [verb] [object]",
+        "options": [
+          "eyes",
+          "glasses",
+          "brain"
+        ],
+        "meaning": "explaining visual difficulties"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for clarification",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's that say?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm having trouble seeing it, it's a bit blurry"
+          }
+        ]
+      },
+      {
+        "description": "Explaining visual difficulties",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you see that?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, it's hard to see. I think I need to get my eyes checked"
+          }
+        ]
+      }
+    ]
+  }
+}

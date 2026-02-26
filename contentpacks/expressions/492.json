@@ -1,0 +1,153 @@
+{
+  "title": "Asking an Uber driver to stop for food",
+  "context": "Beg your driver to pull through a fast-food lane on the way to your house.",
+  "content": {
+    "bestLine": "Can you please pull through the drive-thru?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Could we make a quick stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starving, can we grab something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind stopping for a snack?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we swing by a fast food place?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a bite to eat, can we stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if we make a quick food stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pull over at the next food place?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to grab a snack, can we stop?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we hit the drive-thru?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so hungry, can we grab something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pull over for a sec?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get some food, I'm starving!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we make a pit stop for snacks?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some grub, can we stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can we swing by McDonald's?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dying over here, can we get food?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, can we roll through the drive-thru?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella hungry, can we cop some food?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "pull through the drive-thru",
+          "stop for a snack",
+          "swing by a fast food place"
+        ],
+        "meaning": "requesting a food stop"
+      },
+      {
+        "template": "I'm [options], can we [options]?",
+        "options": [
+          "starving",
+          "so hungry",
+          "dying"
+        ],
+        "meaning": "expressing hunger and requesting a food stop"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Polite request",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Excuse me, can you please pull through the drive-thru?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Sure thing, what do you want to get?"
+          }
+        ]
+      },
+      {
+        "description": "Informal request",
+        "lines": [
+          {
+            "speaker": "Passenger",
+            "text": "Hey, can we hit the drive-thru?"
+          },
+          {
+            "speaker": "Driver",
+            "text": "Yeah, sure. What's good?"
+          }
+        ]
+      }
+    ]
+  }
+}

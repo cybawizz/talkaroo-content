@@ -1,0 +1,172 @@
+{
+  "title": "Apologizing to someone you have bothered",
+  "context": "Say sorry for bumping into or mildly inconveniencing someone.",
+  "content": {
+    "bestLine": "Sorry to bother you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Excuse me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pardon me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to disturb",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Apologies for the inconvenience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to interrupt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My fault, sorry",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, sorry about that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to bug you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My bad, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to bother you, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry about the hassle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, sorry though",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to cut in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry, my mistake",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the disturbance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret the inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to have troubled you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My sincerest apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for any disruption",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sorry to [options] you",
+        "options": [
+          "bother",
+          "disturb",
+          "interrupt"
+        ],
+        "meaning": "apologizing for mildly inconveniencing someone"
+      },
+      {
+        "template": "My [options] for the [options]",
+        "options": [
+          "inconvenience",
+          "hassle"
+        ],
+        "meaning": "expressing regret for causing trouble"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing after bumping into someone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Oh, I'm so sorry! Are you okay?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm fine. Just a little startled."
+          }
+        ]
+      },
+      {
+        "description": "Apologizing for interrupting a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Sorry to interrupt, may I join in?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Of course, please do."
+          }
+        ]
+      }
+    ]
+  }
+}

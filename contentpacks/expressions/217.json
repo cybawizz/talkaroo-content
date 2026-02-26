@@ -1,0 +1,173 @@
+{
+  "title": "Asking what's available at a bar",
+  "context": "Ask the bartender what beers they have on tap or what specials they offer.",
+  "content": {
+    "bestLine": "What beers do you have on tap?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see your menu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on tap today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any specials?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of beer do you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about your drinks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your selection like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What can I get here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's good here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any cool beers?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the special of the day?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a beer list?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's on draft?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's popular here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any deals?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What can you recommend?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please tell me about your beverages?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know about your beer selection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What options do you have available?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about your daily specials?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me about your drinks menu?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in knowing what you have to offer.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] do you have?",
+        "options": [
+          "beers",
+          "drinks",
+          "specials"
+        ],
+        "meaning": "Asking about available options"
+      },
+      {
+        "template": "Can you tell me about your [options]?",
+        "options": [
+          "menu",
+          "beer list",
+          "daily specials"
+        ],
+        "meaning": "Requesting information about the bar's offerings"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about beers",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What beers do you have on tap?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "We have a variety of IPAs, lagers, and stouts."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about specials",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have any specials today?"
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Yes, we have a happy hour special from 5 to 7 PM."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Difficulty in hearing",
+  "context": "Ask the speaker to talk louder because you cannot hear them clearly.",
+  "content": {
+    "bestLine": "Could you please speak up?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm having trouble hearing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak louder?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't quite catch that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you repeat that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Speak up, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not hearing you clearly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you talk louder?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a hard time hearing you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you speak up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not hearing you, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you talk louder, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What was that? Speak up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't hear you, can you repeat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak up a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble hearing you, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, talk louder, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Would you mind speaking louder?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty hearing you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please speak at a higher volume?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't quite hear that, could you repeat?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not hearing you clearly, could you speak up?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, could you talk louder?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [options] speak up?",
+        "options": [
+          "please",
+          "kindly"
+        ],
+        "meaning": "asking to speak louder"
+      },
+      {
+        "template": "I'm having trouble [options] hearing you",
+        "options": [
+          "a little",
+          "a lot"
+        ],
+        "meaning": "difficulty in hearing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking to speak louder in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Could you please speak up? I'm having trouble hearing you"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Sorry about that, let me try again"
+          }
+        ]
+      },
+      {
+        "description": "Asking to speak louder in a casual conversation",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "Hey, can you speak up? I didn't quite catch that"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Oh, sorry about that. Let me repeat myself"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "title": "Statements made about infidelity",
+  "context": "Confess to cheating or confront a partner about being unfaithful.",
+  "content": {
+    "bestLine": "I need to talk to you about us, something's not right",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel like we need to discuss our relationship",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about what's going on between us?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed some changes in our relationship",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to be honest with you about my feelings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we should discuss our commitment to each other",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've been feeling uncertain about our future together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we have an open and honest conversation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know what's going on with you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to discuss our relationship in a candid manner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential that we address the issues in our relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe it is crucial that we have an open and honest conversation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if we could discuss our commitment to each other",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is imperative that we address the problems in our relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think it would be beneficial for us to have a frank discussion",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] about our relationship",
+        "options": [
+          "need to talk",
+          "want to discuss",
+          "feel uncertain"
+        ],
+        "meaning": "Expressing a desire to discuss the relationship"
+      },
+      {
+        "template": "I think we [options] to each other",
+        "options": [
+          "need to be honest",
+          "should be committed",
+          "must be faithful"
+        ],
+        "meaning": "Expressing a need for honesty or commitment in the relationship"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting a partner about infidelity",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I need to talk to you about us, something's not right"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's going on? What are you talking about?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the future of the relationship",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think we need to discuss our commitment to each other"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I agree, I've been feeling uncertain about our future together"
+          }
+        ]
+      }
+    ]
+  }
+}

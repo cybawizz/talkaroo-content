@@ -1,0 +1,205 @@
+{
+  "title": "Promising to keep a secret",
+  "context": "Assure someone that their information is safe with you.",
+  "content": {
+    "bestLine": "Your secret is safe with me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I won't tell anyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This stays between us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll keep it confidential",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry, I've got your back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My lips are sealed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll never repeat it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is just between you and me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I promise not to share",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I gotchu, it's a secret",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't even worry about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's on the down low",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I won't breathe a word",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can trust me with this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it to the grave",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is just between friends",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not gonna spill",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I assure you, it's confidential",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will maintain discretion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This will remain private",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will not disclose this information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my word, it's a secret",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will keep this in strict confidence",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's all good, I'm low-key",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm high-key keeping this secret",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No cap, this stays between us",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting this convo, it's a secret",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This is a tea-free zone",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm keeping it on the hush",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] keep your secret",
+        "options": [
+          "promise to",
+          "swear to",
+          "pledge to"
+        ],
+        "meaning": "assuring someone you'll keep their secret"
+      },
+      {
+        "template": "This is [options] between us",
+        "options": [
+          "just",
+          "only",
+          "strictly"
+        ],
+        "meaning": "emphasizing the secrecy of the information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for secrecy",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, can I tell you a secret?"
+          },
+          {
+            "speaker": "You",
+            "text": "Of course, I'll keep it confidential"
+          }
+        ]
+      },
+      {
+        "description": "Coworker sharing confidential information",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "I need to tell you something, but you have to promise not to tell anyone"
+          },
+          {
+            "speaker": "You",
+            "text": "I promise, I'll maintain discretion"
+          }
+        ]
+      }
+    ]
+  }
+}

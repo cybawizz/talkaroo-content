@@ -1,0 +1,173 @@
+{
+  "title": "Concerning ears or hearing",
+  "context": "Discuss a physical ringing or popping sensation in your ears.",
+  "content": {
+    "bestLine": "I've got this weird ringing in my ears",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My ears are ringing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hear a popping sound",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a noise in my ear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing ear discomfort",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My ears feel plugged",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a strange sensation in my ear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My hearing feels off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having ear issues",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My ears are freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got this crazy ringing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My ears are doing this weird popping thing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting this annoying ear noise",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My ears feel like they're going crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got ear problems, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My hearing is all messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm experiencing some weird ear stuff",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing tinnitus",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My ears are affected by a ringing sensation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having issues with my hearing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My ears are sensitive to noise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing ear discomfort due to a popping sound",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My ears require medical attention",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My ears are [options]",
+        "options": [
+          "ringing",
+          "popping",
+          "feeling weird"
+        ],
+        "meaning": "describing ear sensations"
+      },
+      {
+        "template": "I'm experiencing [options] in my ears",
+        "options": [
+          "discomfort",
+          "pain",
+          "a strange sensation"
+        ],
+        "meaning": "describing ear issues"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a doctor about ear issues",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I've been experiencing this weird ringing in my ears"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you describe the sensation in more detail?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing ear problems with a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "My ears are freaking out, I don't know what's going on"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Maybe you should see a doctor, that sounds really annoying"
+          }
+        ]
+      }
+    ]
+  }
+}

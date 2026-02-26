@@ -1,0 +1,158 @@
+{
+  "title": "Encouraging someone to believe you",
+  "context": "Urge someone to accept that you are telling the truth.",
+  "content": {
+    "bestLine": "I'm telling you the truth, I swear",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm being honest with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Trust me, I'm not lying",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm speaking from the heart",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My words are genuine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not making this up",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm telling you the truth",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being truthful with you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I'm not lying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dead serious",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I swear on my life",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not messing with you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm keeping it real",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not joking around",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm being straight up with you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I assure you, I'm telling the truth",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm being completely honest with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My statement is genuine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm speaking with utmost sincerity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confident in what I'm saying",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] you the truth",
+        "options": [
+          "promise",
+          "swear",
+          "assure"
+        ],
+        "meaning": "to convince someone of one's honesty"
+      },
+      {
+        "template": "My [options] is genuine",
+        "options": [
+          "word",
+          "statement",
+          "intention"
+        ],
+        "meaning": "to emphasize one's sincerity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm telling you, I saw it with my own eyes"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I trust you, but I need proof"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I assure you, the company is committed to your growth"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I appreciate your honesty, I'll work harder"
+          }
+        ]
+      }
+    ]
+  }
+}

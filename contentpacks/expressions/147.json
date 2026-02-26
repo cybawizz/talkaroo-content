@@ -1,0 +1,173 @@
+{
+  "title": "Regarding order and procedure",
+  "context": "Explain the correct sequence of steps for a process.",
+  "content": {
+    "bestLine": "First, we need to follow the steps in order",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's do this step by step",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should follow the sequence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The correct order is important",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please follow the procedure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go through the steps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to do this in order",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The order of steps matters",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's follow the guidelines",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just do it one step at a time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't skip any steps",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take it one step at a time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We gotta follow the order",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mess up the sequence",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get it done step by step",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just follow the steps, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should do this in the right order",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is essential to follow the prescribed order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The sequence of steps must be adhered to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure that the procedure is followed correctly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The correct sequence of steps is crucial",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is vital to follow the established guidelines",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The order of operations must be respected",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "First, [options], then [options]",
+        "options": [
+          "we prepare",
+          "we start",
+          "we begin"
+        ],
+        "meaning": "sequence of steps"
+      },
+      {
+        "template": "The correct order is [options]",
+        "options": [
+          "step 1, step 2, step 3",
+          "first, second, third",
+          "A, B, C"
+        ],
+        "meaning": "sequence of steps"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining the correct sequence of steps",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "First, we need to follow the steps in order"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Got it, what's the first step?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the importance of sequence",
+        "lines": [
+          {
+            "speaker": "Instructor",
+            "text": "The order of steps is crucial"
+          },
+          {
+            "speaker": "Student",
+            "text": "Why is that?"
+          }
+        ]
+      }
+    ]
+  }
+}

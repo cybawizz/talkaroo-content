@@ -1,0 +1,160 @@
+{
+  "title": "When someone is being repetitious",
+  "context": "Tell someone that they have already said the same thing multiple times.",
+  "content": {
+    "bestLine": "You've already mentioned that a few times",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We've covered that already",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you've said that before",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's been mentioned already",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've discussed that point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm familiar with that information",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've made that point clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've been over that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you already said that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we got it the first time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're repeating yourself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're on the same page, no need to repeat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm with you, no need to rehash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got it, no need to say it again",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe that point has been made",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We've already addressed that issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm aware of your position on that matter",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We've covered that topic previously",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I hadn't heard that before",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for repeating yourself, I forgot",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We've [options] that already",
+        "options": [
+          "discussed",
+          "covered",
+          "gone over"
+        ],
+        "meaning": "The topic has been previously addressed"
+      },
+      {
+        "template": "I [options] you've made your point",
+        "options": [
+          "think",
+          "believe",
+          "understand"
+        ],
+        "meaning": "The speaker acknowledges the point has been made"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation where someone is being repetitious",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm telling you, it's really important"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You've already mentioned that a few times"
+          }
+        ]
+      },
+      {
+        "description": "A conversation where someone is being repetitious in a formal setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I believe that point has been made"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, sorry about that"
+          }
+        ]
+      }
+    ]
+  }
+}

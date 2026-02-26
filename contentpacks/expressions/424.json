@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging someone to be patient and take things slowly",
+  "context": "Advise someone not to rush a process.",
+  "content": {
+    "bestLine": "Take your time, it's worth the wait",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't rush it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take it slow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be patient",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No need to hurry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take it one step at a time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go at your own pace",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't force it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Chill, it'll happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't stress about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a deep breath",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Relax, it's okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, just take your time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It'll all work out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just go with the flow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't rush into it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I advise you to proceed with caution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to take your time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Patience is key in this situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's approach this methodically",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Rushing into it would be unwise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A measured approach is best",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and see what happens",
+        "options": [
+          "take it slow",
+          "go with the flow",
+          "be patient"
+        ],
+        "meaning": "encouraging patience"
+      },
+      {
+        "template": "Don't [options], it's not worth it",
+        "options": [
+          "rush into it",
+          "force it",
+          "hurry"
+        ],
+        "meaning": "advising against rushing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend encouraging friend to be patient",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm so frustrated with this, I just want to get it done"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, but take your time, it's worth the wait"
+          }
+        ]
+      },
+      {
+        "description": "Manager advising employee to take it slow",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I know you're eager to finish the project, but let's approach this methodically"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, I'll try to be more patient"
+          }
+        ]
+      }
+    ]
+  }
+}

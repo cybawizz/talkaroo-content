@@ -1,0 +1,173 @@
+{
+  "title": "Stating categorical disagreement",
+  "context": "State that you completely and entirely disagree with something.",
+  "content": {
+    "bestLine": "I completely disagree with that",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't agree at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree entirely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not in my view",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I see it differently",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not how I see it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a different perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I disagree",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way I agree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally against that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not on my watch",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't buy that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's just not true",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not having it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No chance I agree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I strongly disagree",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must express my disagreement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That is not in line with my views",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I do not concur",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My opinion differs significantly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That perspective is not one I share",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] disagree with that",
+        "options": [
+          "completely",
+          "totally",
+          "strongly"
+        ],
+        "meaning": "Expressing categorical disagreement"
+      },
+      {
+        "template": "That's [options] not true",
+        "options": [
+          "just",
+          "simply",
+          "not at all"
+        ],
+        "meaning": "Stating disagreement with a statement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informal conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think that's a great idea"
+          },
+          {
+            "speaker": "B",
+            "text": "No way, I completely disagree"
+          }
+        ]
+      },
+      {
+        "description": "Formal meeting",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "The proposal on the table seems sound"
+          },
+          {
+            "speaker": "Member",
+            "text": "I must respectfully disagree, I have significant concerns"
+          }
+        ]
+      }
+    ]
+  }
+}

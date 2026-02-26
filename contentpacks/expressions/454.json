@@ -1,0 +1,173 @@
+{
+  "title": "Expressing reluctance",
+  "context": "Show that you are hesitating or do not want to do something.",
+  "content": {
+    "bestLine": "I'm not sure I'm comfortable with that",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm hesitant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd rather not",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm unsure about this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know if I can",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not feeling up to it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer not to",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on the fence",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't wanna",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not really into it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm kinda hesitant",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd rather chill",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not up for it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna pass",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have some reservations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not entirely comfortable",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd prefer to decline",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm unsure if I can commit",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I have some concerns",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to reconsider",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about this",
+        "options": [
+          "hesitant",
+          "unsure",
+          "not feeling up to it"
+        ],
+        "meaning": "expressing reluctance"
+      },
+      {
+        "template": "I'd [options] to [verb]",
+        "options": [
+          "rather not",
+          "prefer not to",
+          "like to avoid"
+        ],
+        "meaning": "expressing reluctance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking to hang out",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, wanna grab coffee?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not sure, I'm kinda hesitant"
+          }
+        ]
+      },
+      {
+        "description": "Boss asking for a task",
+        "lines": [
+          {
+            "speaker": "Boss",
+            "text": "Can you take on this project?"
+          },
+          {
+            "speaker": "You",
+            "text": "I have some reservations, can we discuss it further?"
+          }
+        ]
+      }
+    ]
+  }
+}

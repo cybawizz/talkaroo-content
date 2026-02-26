@@ -1,0 +1,173 @@
+{
+  "title": "Setting a sleep boundary",
+  "context": "Tell your partner that the television needs to be turned off by ten.",
+  "content": {
+    "bestLine": "Can we turn off the TV by 10?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "TV off by 10, okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's turn off the TV at 10.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we keep the TV off after 10?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to turn off the TV by 10.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about we turn off the TV at 10?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make it a rule: TV off by 10.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we turn off the TV at 10 sharp?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need the TV off by 10 for sleep.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we turn off the TV by 10?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "TV's gotta be off by 10, dude.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's shut off the TV at 10, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn off the TV by 10, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm turning off the TV at 10, cool?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the TV off after 10, deal?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "TV off at 10, or I'm sleeping elsewhere.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Turn off the TV by 10, or I'll do it.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if the TV were off by 10.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's establish a 10 PM TV curfew.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please turn off the TV by 10?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential that the TV is off by 10 for my rest.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a quiet environment after 10 PM.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make sure the TV is turned off at 10 sharp.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can we turn off the [options] by 10?",
+        "options": [
+          "TV",
+          "lights",
+          "electronics"
+        ],
+        "meaning": "Setting a sleep boundary"
+      },
+      {
+        "template": "Let's keep the [options] off after 10.",
+        "options": [
+          "TV",
+          "music",
+          "noise"
+        ],
+        "meaning": "Establishing a quiet environment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Setting a sleep boundary with a partner",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can we turn off the TV by 10?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, that sounds good. I'm tired anyway."
+          }
+        ]
+      },
+      {
+        "description": "Discussing sleep boundaries with a roommate",
+        "lines": [
+          {
+            "speaker": "Roommate 1",
+            "text": "I need the TV off by 10 for sleep. Is that okay with you?"
+          },
+          {
+            "speaker": "Roommate 2",
+            "text": "That's fine. I can watch my shows earlier or use headphones."
+          }
+        ]
+      }
+    ]
+  }
+}

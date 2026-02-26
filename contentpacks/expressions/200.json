@@ -1,0 +1,173 @@
+{
+  "title": "Asking what time the main band plays",
+  "context": "Ask the venue staff when the headliner will go on stage.",
+  "content": {
+    "bestLine": "What time does the headliner go on stage?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "When does the main band play?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the schedule for the headliner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me when the main act starts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the headlining performance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When should I expect the main band to play?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know the set time for the headliner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the timing for the main concert?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the schedule for tonight's show?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "When's the headliner on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the band go on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's the main event?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a set time for the headliner?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When are they playing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with the headliner's start time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When does the concert actually start?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer till the main band plays?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the headliner's start time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate knowing when the main band is scheduled to play.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the designated time for the headlining performance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with the evening's performance schedule?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am wondering if you could tell me when the main concert begins.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the headliner expected to take the stage?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time does the [options] play?",
+        "options": [
+          "headliner",
+          "main band",
+          "band"
+        ],
+        "meaning": "Asking for the performance time of a specific act"
+      },
+      {
+        "template": "When is the [options] scheduled?",
+        "options": [
+          "main event",
+          "headliner",
+          "concert"
+        ],
+        "meaning": "Inquiring about the timing of a particular event or performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking venue staff about the headliner's playtime",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, what time does the headliner go on stage?"
+          },
+          {
+            "speaker": "Staff",
+            "text": "The main band is scheduled to play at 9 PM."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about the concert schedule",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can you tell me when the main act starts?"
+          },
+          {
+            "speaker": "Staff",
+            "text": "Yes, the headliner is set to perform at 10:30 PM. There are a couple of opening acts before that."
+          }
+        ]
+      }
+    ]
+  }
+}

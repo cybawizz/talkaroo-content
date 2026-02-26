@@ -1,0 +1,173 @@
+{
+  "title": "Asking for directions to a specific place",
+  "context": "Ask a local how to get to a famous landmark or store.",
+  "content": {
+    "bestLine": "Excuse me, how do I get to the Empire State Building?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you tell me how to get to the mall?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for the library, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the city center?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where is the nearest subway station?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me directions to the museum?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to find the post office, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How far is it to the airport?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me the way to the park?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how do I get to Times Square?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know where the nearest Starbucks is?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find the best pizza place, can you help?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the beach from here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where the closest grocery store is?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a good spot to grab lunch, any suggestions?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know how to get to the stadium?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me directions to the nearest gas station?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide me with directions to the financial district?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me how to get to the convention center.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me in finding the location of the city hall?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am trying to locate the nearest embassy, can you help?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with information on how to get to the airport?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the best way to get to the downtown area.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How do I get to [options]?",
+        "options": [
+          "the city center",
+          "the airport",
+          "the museum"
+        ],
+        "meaning": "asking for directions to a specific location"
+      },
+      {
+        "template": "Can you tell me where [options] is?",
+        "options": [
+          "the nearest subway station",
+          "the post office",
+          "the library"
+        ],
+        "meaning": "asking for the location of a specific place"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a local for directions to a famous landmark",
+        "lines": [
+          {
+            "speaker": "Tourist",
+            "text": "Excuse me, how do I get to the Statue of Liberty?"
+          },
+          {
+            "speaker": "Local",
+            "text": "You can take the subway to Bowling Green and then walk to the ferry terminal."
+          }
+        ]
+      },
+      {
+        "description": "Asking a store employee for directions to a specific store",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can you tell me where the nearest Apple store is?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, it's just a few blocks away. You can walk down this street and turn left at the intersection."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Praising a language learning app",
+  "context": "Tell a friend that Talkaroo is the best way to practice speaking English.",
+  "content": {
+    "bestLine": "Talkaroo is the best way to practice speaking English",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I highly recommend Talkaroo",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Talkaroo is a great tool",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's really helpful for English practice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've seen significant improvement with Talkaroo",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Talkaroo is perfect for language learners",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an excellent resource",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think Talkaroo is the best option",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's very effective for speaking practice",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You gotta try Talkaroo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talkaroo is awesome for English practice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's so much fun to use",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with Talkaroo",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You'll love Talkaroo, trust me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's the best app for language learners",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talkaroo is a game changer",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hooked on Talkaroo",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Talkaroo is lit for English practice",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's lowkey the best app ever",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Talkaroo is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totes obsessed with Talkaroo",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think [options] is the best way to practice speaking English",
+        "options": [
+          "Talkaroo",
+          "language learning apps",
+          "online resources"
+        ],
+        "meaning": "expressing opinion"
+      },
+      {
+        "template": "[options] is perfect for [options]",
+        "options": [
+          "Talkaroo",
+          "language learners",
+          "English practice"
+        ],
+        "meaning": "making a recommendation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for language learning app recommendation",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, what's the best way to practice speaking English?"
+          },
+          {
+            "speaker": "You",
+            "text": "Talkaroo is the best way to practice speaking English, trust me"
+          }
+        ]
+      },
+      {
+        "description": "Discussing language learning apps",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Have you tried any good language learning apps lately?"
+          },
+          {
+            "speaker": "You",
+            "text": "Yeah, I've been using Talkaroo and it's amazing"
+          }
+        ]
+      }
+    ]
+  }
+}

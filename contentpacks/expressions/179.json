@@ -1,0 +1,121 @@
+{
+  "title": "Asking about classroom examinations",
+  "context": "Inquire about the format or date of an upcoming test.",
+  "content": {
+    "bestLine": "What's the format of the upcoming test?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "When is the next exam?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How will the test be structured?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about the exam format?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What date is the test scheduled for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long will the exam be?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will the test be multiple choice?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any sample questions available?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you inform me about the test schedule?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate information on the exam format.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the details of the upcoming examination?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide me with the test date and time.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I prepare for the test?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's the [options] of the test?",
+        "options": [
+          "format",
+          "date",
+          "time"
+        ],
+        "meaning": "inquire about test details"
+      },
+      {
+        "template": "Can you tell me about the [options]?",
+        "options": [
+          "exam structure",
+          "test format",
+          "assessment details"
+        ],
+        "meaning": "request information about the test"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asking instructor about test format",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Excuse me, what's the format of the upcoming test?"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "It will be a multiple-choice exam with a few short-answer questions."
+          }
+        ]
+      },
+      {
+        "description": "Classmates discussing test date",
+        "lines": [
+          {
+            "speaker": "Student 1",
+            "text": "When is the next exam?"
+          },
+          {
+            "speaker": "Student 2",
+            "text": "I think it's scheduled for next Friday."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Describing family relationships",
+  "context": "Explain how you are related to someone in your extended family.",
+  "content": {
+    "bestLine": "I'm her first cousin once removed.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm related to her through my mom.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're distant cousins.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a part of her extended family.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "She's my aunt's daughter.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We share a set of great-grandparents.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm her brother's son.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're related through marriage.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "She's my first cousin twice removed.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "She's my cuz.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're like sisters.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm her favorite nephew.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're family, but not close.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "She's my mom's sister's kid.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We hang out at family gatherings.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm her brother from another mother.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're related, but I don't know how.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am her first cousin once removed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are related through a common ancestor.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "She is my aunt's daughter by marriage.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am a member of her extended family.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We share a familial connection.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am her paternal cousin.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm her [options] cousin.",
+        "options": [
+          "first",
+          "second",
+          "third"
+        ],
+        "meaning": "describing familial relationship"
+      },
+      {
+        "template": "We're related through [options].",
+        "options": [
+          "my mom",
+          "my dad",
+          "marriage"
+        ],
+        "meaning": "explaining familial connection"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introducing a family member",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "This is my cousin, Sarah."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Nice to meet you, I'm her first cousin once removed."
+          }
+        ]
+      },
+      {
+        "description": "Explaining a family relationship",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "How are you related to John?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm his brother's son, so we're first cousins."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Answers to how you found out",
+  "context": "Explain the source of your information or how you learned a secret.",
+  "content": {
+    "bestLine": "I found out from a reliable source",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I heard it from someone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was mentioned online",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I read it in an article",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A friend told me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I saw it on social media",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was on the news",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I found out through research",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Someone shared it with me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My buddy spilled the beans",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got the scoop from a friend",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I overheard it somewhere",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's all over the internet",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Someone leaked it to me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I stumbled upon it online",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I have my ways of finding out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just say I have sources",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was informed by a colleague",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was disclosed in a meeting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I obtained the information from a report",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A trusted source provided the details",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was announced officially",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I accessed the information through official channels",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I found out [options] that",
+        "options": [
+          "through a friend",
+          "online",
+          "from a reliable source"
+        ],
+        "meaning": "explaining how information was obtained"
+      },
+      {
+        "template": "It was [options] that",
+        "options": [
+          "mentioned in a conversation",
+          "posted on social media",
+          "reported in the news"
+        ],
+        "meaning": "explaining the source of information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining how you found out about a secret",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "How did you find out about the surprise party?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I heard it from someone who was invited."
+          }
+        ]
+      },
+      {
+        "description": "Directing the conversation to the source of information",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's the latest news on the project?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I read it in an article that it's going to be launched soon."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Signaling the end of a conversation",
+  "context": "Politely hint that you need to stop talking soon.",
+  "content": {
+    "bestLine": "I should probably get going soon",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It was nice talking to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running a bit behind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should catch up again soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to make a call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's getting late",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should let you go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've talked enough for now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna take off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna bail",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must be going",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure speaking with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have another commitment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should excuse myself",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must attend to something else",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] soon",
+        "options": [
+          "should get going",
+          "need to leave",
+          "have to run"
+        ],
+        "meaning": "signal the end of a conversation"
+      },
+      {
+        "template": "It's [options] to go",
+        "options": [
+          "time",
+          "getting late",
+          "almost time"
+        ],
+        "meaning": "hint that the conversation should end"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ending a conversation with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I should probably get going soon"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, talk to you later"
+          }
+        ]
+      },
+      {
+        "description": "Ending a conversation with a colleague",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I must be going, I have another meeting"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Alright, thanks for chatting with me"
+          }
+        ]
+      }
+    ]
+  }
+}

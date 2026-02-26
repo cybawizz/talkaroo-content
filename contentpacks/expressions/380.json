@@ -1,0 +1,172 @@
+{
+  "title": "The sense of touch",
+  "context": "Describe how cold or rough an object feels when you hold it.",
+  "content": {
+    "bestLine": "This object feels really cold to the touch.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's quite chilly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The surface is rough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can feel the texture",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's smooth to the touch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The object is icy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The material feels coarse",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It has a gentle feel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The surface is freezing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This thing is freezing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's super rough",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting frostbite",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's got a weird texture",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This feels like ice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's kinda prickly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's smooth like silk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This object is rock hard",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The object has a low temperature",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The surface exhibits roughness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I can discern the texture",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The material feels smooth",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The object is at a freezing point",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The surface has a coarse feel",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [options] feels [adjective]",
+        "options": [
+          "object",
+          "surface",
+          "material"
+        ],
+        "meaning": "describing the sense of touch"
+      },
+      {
+        "template": "It's [adjective] to the [options]",
+        "options": [
+          "touch",
+          "feel"
+        ],
+        "meaning": "describing the sense of touch"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two people discussing the sense of touch",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "This object feels really cold to the touch."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, it's freezing. I can feel the chill."
+          }
+        ]
+      },
+      {
+        "description": "A person describing the sense of touch to another",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "The surface is rough and coarse."
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know what you mean. It's like touching sandpaper."
+          }
+        ]
+      }
+    ]
+  }
+}

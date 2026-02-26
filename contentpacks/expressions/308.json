@@ -1,0 +1,173 @@
+{
+  "title": "Explaining that you are not ready to order",
+  "context": "Tell the server you need a few more minutes to look at the menu.",
+  "content": {
+    "bestLine": "Just a few more minutes, please.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a bit more time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a few minutes?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not ready to order yet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just looking at the menu",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need a little more time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Still deciding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a few minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not quite ready",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just a sec, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not ready yet, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Still checking it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a bit, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just browsing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost there, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just one more minute",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have a few more minutes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a bit more time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Not prepared to order yet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to review the menu further",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you give me a few minutes?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am still perusing the menu",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I have [options] to look at the menu?",
+        "options": [
+          "a few minutes",
+          "a bit more time",
+          "some more time"
+        ],
+        "meaning": "requesting more time to decide"
+      },
+      {
+        "template": "I'm [options] to order, can you come back?",
+        "options": [
+          "not ready",
+          "still deciding",
+          "not quite ready"
+        ],
+        "meaning": "informing the server of unreadiness to order"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for more time",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Just a few more minutes, please."
+          },
+          {
+            "speaker": "Server",
+            "text": "Of course, take your time."
+          }
+        ]
+      },
+      {
+        "description": "Customer informing the server of unreadiness",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "Are you ready to order?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Not quite yet, still looking."
+          }
+        ]
+      }
+    ]
+  }
+}

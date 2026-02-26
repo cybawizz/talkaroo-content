@@ -1,0 +1,173 @@
+{
+  "title": "Information about an event",
+  "context": "Ask a theater employee about the seating or venue rules.",
+  "content": {
+    "bestLine": "What's the seating arrangement like for this show?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get some information about the venue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does seating work here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the rules for this event?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a specific seating chart?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about the theater's layout?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any specific rules I should know about?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I find my seat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the policy on food and drink?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the deal with seating?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "So, how does seating work here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any tips on where to sit?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the vibe like in the theater?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I sneak in some snacks?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's the view from the back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it okay to take pictures?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best way to get to my seat?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about the seating arrangements?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide me with information about the venue.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the specific rules and regulations for this event?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please direct me to the seating chart?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know more about the theater's policies.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any specific guidelines I should be aware of?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's the [option] like for this show?",
+        "options": [
+          "seating arrangement",
+          "view",
+          "sound quality"
+        ],
+        "meaning": "Asking about a specific aspect of the event"
+      },
+      {
+        "template": "Can I [option] in the theater?",
+        "options": [
+          "take pictures",
+          "use my phone",
+          "bring food"
+        ],
+        "meaning": "Asking about a specific rule or policy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about seating at the box office",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for information about the seating for tonight's show."
+          },
+          {
+            "speaker": "Box Office Employee",
+            "text": "Absolutely, let me show you the seating chart."
+          }
+        ]
+      },
+      {
+        "description": "Asking about venue rules from an usher",
+        "lines": [
+          {
+            "speaker": "Theatergoer",
+            "text": "Excuse me, are there any rules I should know about before the show starts?"
+          },
+          {
+            "speaker": "Usher",
+            "text": "Yes, please turn off your phone and refrain from taking pictures during the performance."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Describing your lover",
+  "context": "Talk affectionately about your romantic partner to friends.",
+  "content": {
+    "bestLine": "My partner is amazing, I'm so lucky",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm really happy with my partner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My partner is very supportive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love spending time with my partner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My partner is my best friend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel so comfortable with my partner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My partner makes me laugh",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for my partner",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My partner is the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with my partner",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My partner is my person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so into my partner",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My partner is amazing in every way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love my partner to death",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My partner is my everything",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "My partner is lowkey perfect",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella in love with my partner",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My partner is my bae",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ride or die for my partner",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My partner is goals",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm simpin' for my partner",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My partner is [adjective]",
+        "options": [
+          "amazing",
+          "awesome",
+          "incredible"
+        ],
+        "meaning": "describing partner positively"
+      },
+      {
+        "template": "I'm [adverb] in love with my partner",
+        "options": [
+          "totally",
+          "completely",
+          "utterly"
+        ],
+        "meaning": "expressing strong feelings"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about partner",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'm good, just got back from a date with my partner. They're amazing!"
+          }
+        ]
+      },
+      {
+        "description": "Sharing feelings with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm so happy with my partner, I feel like the luckiest person alive"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's awesome, you two are meant to be!"
+          }
+        ]
+      }
+    ]
+  }
+}

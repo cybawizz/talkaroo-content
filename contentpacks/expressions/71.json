@@ -1,0 +1,158 @@
+{
+  "title": "Congratulating a college graduate",
+  "context": "Tell a student how proud you are that they finally received their diploma.",
+  "content": {
+    "bestLine": "I'm beyond proud of you for earning your diploma!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Congratulations on your graduation!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You must be thrilled to have finished college.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so happy for your achievement.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a huge accomplishment for you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've worked hard for this moment.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm honored to have seen you grow.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your dedication has paid off.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, congrats on graduating!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You did it! I'm so proud of you.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's awesome, you're finally done!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stoked for you, grad!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You must be relieved it's over.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Now the real world awaits!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This calls for a celebration!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept my warmest congratulations.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your academic achievement is truly commendable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer you my sincerest praise on this occasion.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This milestone marks the beginning of a promising future.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your perseverance has yielded outstanding results.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] you graduated!",
+        "options": [
+          "proud",
+          "happy",
+          "thrilled"
+        ],
+        "meaning": "Expressing pride and happiness for the graduate's achievement."
+      },
+      {
+        "template": "You've [options] your college journey!",
+        "options": [
+          "completed",
+          "finished",
+          "mastered"
+        ],
+        "meaning": "Acknowledging the completion of the graduate's college education."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A heartfelt conversation between a parent and their child who just graduated.",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "I'm beyond proud of you for earning your diploma!"
+          },
+          {
+            "speaker": "Graduate",
+            "text": "Thanks, Mom. It means a lot coming from you."
+          }
+        ]
+      },
+      {
+        "description": "A friend congratulating another friend on their graduation.",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Dude, congrats on graduating! We should celebrate."
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Absolutely, let's plan something for this weekend."
+          }
+        ]
+      }
+    ]
+  }
+}

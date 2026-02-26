@@ -1,0 +1,135 @@
+{
+  "title": "Lawn-care worker to employer",
+  "context": "Ask the homeowner if they want the grass clippings bagged up.",
+  "content": {
+    "bestLine": "Do you want me to bag the grass clippings?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Should I bag the clippings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want the clippings bagged?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I leave the clippings or bag them?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you prefer for the grass clippings?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need the clippings bagged up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should the grass clippings be bagged?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bag the grass for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want the lawn clippings disposed of?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Would you like the grass clippings bagged and disposed of?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it your preference to have the lawn clippings bagged?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Shall I collect the grass clippings in bags for you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require the grass clippings to be bagged after mowing?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you prefer the clippings to be left on the lawn or bagged?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is bagging the grass clippings part of your lawn care preferences?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Do you want me to [options] the grass clippings?",
+        "options": [
+          "bag",
+          "leave",
+          "dispose of"
+        ],
+        "meaning": "Asking about the preferred disposal method for grass clippings"
+      },
+      {
+        "template": "Should the [options] be [options]?",
+        "options": [
+          "grass clippings",
+          "lawn clippings",
+          "clippings"
+        ],
+        "meaning": "Inquiring about the preferred action for lawn clippings"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Lawn-care worker asking about bagging grass clippings",
+        "lines": [
+          {
+            "speaker": "Lawn-care worker",
+            "text": "Do you want me to bag the grass clippings?"
+          },
+          {
+            "speaker": "Employer",
+            "text": "Yes, please. I prefer them bagged."
+          }
+        ]
+      },
+      {
+        "description": "Employer instructing lawn-care worker on clippings disposal",
+        "lines": [
+          {
+            "speaker": "Employer",
+            "text": "Remember to bag the grass clippings after you mow."
+          },
+          {
+            "speaker": "Lawn-care worker",
+            "text": "Will do. I'll make sure to bag them up for you."
+          }
+        ]
+      }
+    ]
+  }
+}

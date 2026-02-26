@@ -1,0 +1,158 @@
+{
+  "title": "Preparing to leave a host or hostess",
+  "context": "Gather your things and start saying goodbye to the host.",
+  "content": {
+    "bestLine": "It was great catching up, I should get going",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm going to head out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should probably leave",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's getting late",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an early start tomorrow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for having me over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll see you later",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "See you around",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna roll",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Peace out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It was a pleasure visiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your hospitality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a prior commitment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to depart",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] now",
+        "options": [
+          "head out",
+          "get going",
+          "leave"
+        ],
+        "meaning": "leaving the host"
+      },
+      {
+        "template": "It was [options] meeting you",
+        "options": [
+          "great",
+          "nice",
+          "good"
+        ],
+        "meaning": "expressing gratitude"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a host",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "It was great catching up, I should get going"
+          },
+          {
+            "speaker": "Host",
+            "text": "Okay, it was nice having you over"
+          }
+        ]
+      },
+      {
+        "description": "Leaving a party",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'm going to head out, thanks for the party"
+          },
+          {
+            "speaker": "Host",
+            "text": "No problem, drive safe"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Asking about transportation to a place",
+  "context": "Ask someone if you should take a bus or a train to your destination.",
+  "content": {
+    "bestLine": "Should I take the bus or train to get there?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the best way to get to the city center?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the downtown area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the train or bus faster to my destination?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the most convenient way to get to the neighborhood?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I take public transportation to get there?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to get to the city by bus or train?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best option for getting to the area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I use the bus or train to get to my destination?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the best way to get to the city?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do I take the bus or train to get downtown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the easiest way to get to the neighborhood?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me how to get to the area?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the bus or train better to get to the city center?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the downtown area without a car?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the fastest way to get to the city by public transportation?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Should I grab the bus or train to get to my destination?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please advise me on the best transportation option?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the most efficient way to get to the city center.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the recommended mode of transportation to the downtown area?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking information on the best way to get to the neighborhood.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with directions on how to get to the area by public transportation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on whether to take the bus or train to get to my destination.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Should I take the [options] to get to the city?",
+        "options": [
+          "bus",
+          "train"
+        ],
+        "meaning": "asking about transportation options"
+      },
+      {
+        "template": "What's the best way to get to the [options]?",
+        "options": [
+          "city center",
+          "downtown area",
+          "neighborhood"
+        ],
+        "meaning": "asking about directions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for transportation advice",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, how do I get to the city center?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You can take either the bus or the train, both are convenient."
+          }
+        ]
+      },
+      {
+        "description": "Discussing transportation options",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not sure whether to take the bus or train to get to the downtown area."
+          },
+          {
+            "speaker": "Person B",
+            "text": "The train is usually faster, but the bus is more affordable."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Describing a place that is difficult to find",
+  "context": "Warn someone that a location is hidden and easy to miss.",
+  "content": {
+    "bestLine": "It's a bit tricky to find, so pay attention to the directions.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The location is not well-marked.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You might miss it if you're not careful.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit of a hidden gem.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The entrance is easy to overlook.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure to look for the small sign.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's tucked away in a quiet corner.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll need to keep an eye out for it.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The location is not immediately visible.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's super easy to miss, so keep your eyes peeled.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta know where to look, or you'll drive right by.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's kinda hidden, but trust me, it's worth finding.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just look for the tiny alleyway, and you'll find it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry if you get lost, it's a tough spot to find.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not exactly on the main road, so be careful.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You might need to circle around the block to find it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your phone's GPS handy, just in case.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please be advised that the location can be difficult to find.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to follow the directions carefully to avoid missing the location.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The location is situated in a quiet area, and the entrance is not immediately apparent.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We recommend allowing extra time to find the location, as it may require some navigation.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The location is not prominently marked, so please be vigilant when approaching the area.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is crucial to pay attention to the surrounding environment to ensure you arrive at the correct location.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The location is [options] to find.",
+        "options": [
+          "easy to miss",
+          "hard to spot",
+          "simple to locate"
+        ],
+        "meaning": "Warning someone that a location is difficult to find"
+      },
+      {
+        "template": "You'll need to [options] to find the place.",
+        "options": [
+          "keep your eyes peeled",
+          "look carefully",
+          "follow the directions closely"
+        ],
+        "meaning": "Advising someone to be careful when searching for a location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Giving directions to a hidden location",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's a bit tricky to find, so pay attention to the directions."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, got it. What's the first landmark I should look for?"
+          }
+        ]
+      },
+      {
+        "description": "Warning someone about a hard-to-find location",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You might miss it if you're not careful. It's tucked away in a quiet corner."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Alright, I'll keep an eye out. Thanks for the warning!"
+          }
+        ]
+      }
+    ]
+  }
+}

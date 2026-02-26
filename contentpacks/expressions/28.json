@@ -1,0 +1,135 @@
+{
+  "title": "A very formal preface to a statement",
+  "context": "Formally introduce your next sentences in a serious setting.",
+  "content": {
+    "bestLine": "It is with great importance that I address the following",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I would like to begin by saying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To start, I will discuss",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My statement will be as follows",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I will now present my thoughts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The following will be discussed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I will commence by stating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To introduce my point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I will start with the following",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "It is my pleasure to introduce",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am honored to present the following",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The subsequent statement will be",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will proceed with the formal announcement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is with great respect that I say",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will formally declare the following",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I [options] introduce the following",
+        "options": [
+          "am pleased to",
+          "am honored to",
+          "will proceed to"
+        ],
+        "meaning": "Formal introduction"
+      },
+      {
+        "template": "It is [options] that I address the following",
+        "options": [
+          "with great importance",
+          "with great respect",
+          "my duty to"
+        ],
+        "meaning": "Formal preface"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Formal introduction in a meeting",
+        "lines": [
+          {
+            "speaker": "Chairman",
+            "text": "It is with great importance that I address the following"
+          },
+          {
+            "speaker": "Chairman",
+            "text": "The subsequent statement will be regarding our quarterly report"
+          }
+        ]
+      },
+      {
+        "description": "Formal introduction in a speech",
+        "lines": [
+          {
+            "speaker": "Speaker",
+            "text": "I am honored to present the following"
+          },
+          {
+            "speaker": "Speaker",
+            "text": "My statement will be focused on the current state of our industry"
+          }
+        ]
+      }
+    ]
+  }
+}

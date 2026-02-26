@@ -1,0 +1,148 @@
+{
+  "title": "Stating the time is approximate",
+  "context": "Give a general guess about what time it is.",
+  "content": {
+    "bestLine": "It's around 3, I think.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's approximately 5 o'clock.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd say it's around 2.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is roughly 4.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's about 1, give or take.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's around 6 or so.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is around 7, I believe.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's roughly 8 o'clock.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's like 3, I guess.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm thinking it's around 4-ish.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's probably around 5 or 6.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd say it's around 2-ish.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's around 1, I think.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's roughly 7, give or take.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The time is approximately 3 o'clock.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I estimate it's around 4.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's roughly 5, to the best of my knowledge.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The current time is around 6, I believe.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] o'clock.",
+        "options": [
+          "around 3",
+          "approximately 5",
+          "roughly 4"
+        ],
+        "meaning": "stating an approximate time"
+      },
+      {
+        "template": "I think it's [options].",
+        "options": [
+          "around 2",
+          "about 1",
+          "roughly 7"
+        ],
+        "meaning": "expressing uncertainty about the time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their plans.",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What time is it?"
+          },
+          {
+            "speaker": "B",
+            "text": "It's around 3, I think."
+          }
+        ]
+      },
+      {
+        "description": "A manager and employee discussing a meeting time.",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "What time do you think it is?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "The time is approximately 4 o'clock."
+          }
+        ]
+      }
+    ]
+  }
+}

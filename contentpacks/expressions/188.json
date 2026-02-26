@@ -1,0 +1,173 @@
+{
+  "title": "General questions for a rental agent",
+  "context": "Ask the landlord about the neighborhood and building amenities.",
+  "content": {
+    "bestLine": "What's the neighborhood like around here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's the area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What amenities are nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the building secure?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any local parks?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the noise level?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is parking available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the average rent price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are utilities included?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, what's the vibe around here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any cool amenities?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is the neighborhood safe at night?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Where's the closest grocery store?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I have a gym in the building?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's the Wi-Fi?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Are there any events in the area?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a tour of the building?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you describe the local environment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What amenities does the building offer?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the building equipped with security features?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any nearby recreational facilities?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the typical rent for this area?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are utilities included in the rent?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the [option] nearby?",
+        "options": [
+          "park",
+          "store",
+          "gym"
+        ],
+        "meaning": "asking about local amenities"
+      },
+      {
+        "template": "What's the [option] like?",
+        "options": [
+          "neighborhood",
+          "building",
+          "area"
+        ],
+        "meaning": "inquiring about the environment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Rental agent and client discussing neighborhood",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "What's the neighborhood like around here?"
+          },
+          {
+            "speaker": "Rental Agent",
+            "text": "It's a very safe and quiet area, with a park just a block away."
+          }
+        ]
+      },
+      {
+        "description": "Rental agent and client discussing building amenities",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "What amenities does the building offer?"
+          },
+          {
+            "speaker": "Rental Agent",
+            "text": "We have a gym, pool, and community room, as well as secure parking and a doorman."
+          }
+        ]
+      }
+    ]
+  }
+}

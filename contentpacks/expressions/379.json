@@ -1,0 +1,200 @@
+{
+  "title": "Identifying a strong smell",
+  "context": "Comment on a very noticeable or strange odor in the room.",
+  "content": {
+    "bestLine": "Something smells really bad in here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "There's a strong smell",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I smell something weird",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's that odor?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It smells like something's burning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I notice a strange smell",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something doesn't smell right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a bad smell in here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I smell something unpleasant",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, it smells",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This room smells gross",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's that stench?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It smells like trash in here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Something smells off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This place reeks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting a weird smell",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It smells like something's rotten",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I detect a strong odor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a noticeable smell in the room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The air in here smells unpleasant",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I smell something unusual",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The room has a distinct odor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed a strong smell",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's hella stinky in here",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This room is straight fire...with the smell",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good with the smell?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It smells like a dumpster in here",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting a whiff of something wild",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It smells like [options]",
+        "options": [
+          "something's burning",
+          "trash",
+          "rotten food"
+        ],
+        "meaning": "something smells bad"
+      },
+      {
+        "template": "There's a [options] smell in here",
+        "options": [
+          "strong",
+          "weird",
+          "unpleasant"
+        ],
+        "meaning": "noticing a smell"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two people noticing a smell",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you smell that?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, it smells like something's burning"
+          }
+        ]
+      },
+      {
+        "description": "Someone commenting on a smell to a group",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "Guys, it smells really bad in here"
+          },
+          {
+            "speaker": "Group Member",
+            "text": "I know, right? It's like something died"
+          }
+        ]
+      }
+    ]
+  }
+}

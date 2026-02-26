@@ -1,0 +1,173 @@
+{
+  "title": "Refusing to be emotionally dumped on",
+  "context": "Tell a friend that you do not have the energy to hear their drama right now.",
+  "content": {
+    "bestLine": "I'm not in the right headspace to talk about that right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need some time to focus on myself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling up to a heavy conversation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about this later?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to prioritize my own emotional well-being",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have the emotional bandwidth for this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's catch up when I'm feeling more centered",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a break from intense conversations",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My plate is full, can we talk later?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm good, let's hang out another time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not really feeling talkative today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we grab coffee when I'm feeling more myself?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to keep things light for now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's touch base when I've got more energy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking it easy, let's catch up soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on emotional overload, can we talk later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a mental health day, can we hang out another time?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm currently unavailable for a discussion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require some time to attend to personal matters",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not in a suitable state to engage in conversation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must prioritize my own well-being at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unable to participate in a lengthy conversation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to focus on my own emotional recovery",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] right now",
+        "options": [
+          "not feeling up to it",
+          "on emotional overload",
+          "trying to focus on myself"
+        ],
+        "meaning": "I'm not in the right state to talk"
+      },
+      {
+        "template": "Can we [options]?",
+        "options": [
+          "catch up later",
+          "talk about this another time",
+          "hang out when I'm feeling better"
+        ],
+        "meaning": "I'm not available to talk now"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Refusing emotional dumping from a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, I need to talk to you about something that's been bothering me"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not really feeling up to a heavy conversation right now, can we talk about it later?"
+          }
+        ]
+      },
+      {
+        "description": "Setting boundaries with a family member",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "You always have time for your friends, but never for me"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm trying to prioritize my own emotional well-being, and I need some space right now"
+          }
+        ]
+      }
+    ]
+  }
+}

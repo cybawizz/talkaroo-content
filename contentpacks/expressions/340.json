@@ -1,0 +1,175 @@
+{
+  "title": "Stating your disagreement with a proposition",
+  "context": "Say that you do not support a suggested plan.",
+  "content": {
+    "bestLine": "I don't think that's the best approach",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure I agree",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have some reservations",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a different view",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't support that idea",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't think that'll work",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not gonna fly",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not on board with that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't see it that way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not down with that",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's a good idea",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have some concerns about that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's the best course of action",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to propose an alternative",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that aligns with our goals",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I don't think [option] is the best [option]",
+        "options": [
+          "approach",
+          "idea",
+          "plan",
+          "solution"
+        ],
+        "meaning": "expressing disagreement with a proposition"
+      },
+      {
+        "template": "I [option] disagree with [option]",
+        "options": [
+          "respectfully",
+          "strongly",
+          "somewhat",
+          "mildly"
+        ],
+        "meaning": "expressing disagreement with a proposition"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Disagreeing with a friend's plan",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Let's go to the movies tonight"
+          },
+          {
+            "speaker": "You",
+            "text": "I don't think that's the best idea, I have an early meeting tomorrow"
+          }
+        ]
+      },
+      {
+        "description": "Disagreeing with a colleague's proposal",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "We should invest in this new project"
+          },
+          {
+            "speaker": "You",
+            "text": "I respectfully disagree, I think we should focus on our current priorities"
+          }
+        ]
+      }
+    ]
+  }
+}

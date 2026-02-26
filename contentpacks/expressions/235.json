@@ -1,0 +1,139 @@
+{
+  "title": "Asking a friend for their WiFi password",
+  "context": "Ask the host what the network completely long random code is.",
+  "content": {
+    "bestLine": "What's your WiFi password?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get the WiFi code?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the network password?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I connect to your WiFi?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share your WiFi password?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the WiFi password here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have the WiFi code please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get online here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the password for your network?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the WiFi password?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab your WiFi code?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the WiFi password, dude?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with the WiFi?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the password, man?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get on your WiFi?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the code for your WiFi?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share the WiFi password with me?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get the [options]?",
+        "options": [
+          "WiFi code",
+          "network password"
+        ],
+        "meaning": "asking for WiFi password"
+      },
+      {
+        "template": "What's the [options]?",
+        "options": [
+          "WiFi password",
+          "network code"
+        ],
+        "meaning": "asking for WiFi password"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for WiFi password",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's the WiFi password?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "It's 12345678"
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend for WiFi password in a different way",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can I get on your WiFi?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, the password is password123"
+          }
+        ]
+      }
+    ]
+  }
+}

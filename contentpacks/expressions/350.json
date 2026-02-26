@@ -1,0 +1,173 @@
+{
+  "title": "Expressing death",
+  "context": "Use an idiom or polite phrase to state that someone has passed away.",
+  "content": {
+    "bestLine": "My condolences, they've passed away",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They've passed on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've lost them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're no longer with us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They've gone to rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their time has come",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They've left us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll miss them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They're at peace",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They're gone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We lost them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They passed away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're no longer here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're at rest",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll remember them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're in a better place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're free now",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is with great sadness that we announce their passing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They have departed this life",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We mourn the loss of our loved one",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They have gone to their eternal rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We offer our condolences to the family",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "They will be deeply missed",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] has passed away",
+        "options": [
+          "condolences",
+          "sympathies",
+          "regrets"
+        ],
+        "meaning": "expressing death"
+      },
+      {
+        "template": "We've [options] our loved one",
+        "options": [
+          "lost",
+          "mourned",
+          "remembered"
+        ],
+        "meaning": "expressing death"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Expressing condolences",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sorry to hear about your loss"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, they will be deeply missed"
+          }
+        ]
+      },
+      {
+        "description": "Announcing a death",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It is with great sadness that we announce the passing of our loved one"
+          },
+          {
+            "speaker": "Person B",
+            "text": "My condolences to the family"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Stating strong disagreement",
+  "context": "Firmly state that you think an idea is wrong.",
+  "content": {
+    "bestLine": "I strongly disagree with that idea",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't think that's right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a different view",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not accurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't see it that way",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That's just not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't buy that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's crazy talk",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "No way, I disagree",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not how I see it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not on board with that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a bad idea",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think so",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a viable option",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree with that assessment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a feasible solution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a differing opinion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not in line with my thinking",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with that idea",
+        "options": [
+          "strongly disagree",
+          "don't agree",
+          "disagree"
+        ],
+        "meaning": "expressing disagreement"
+      },
+      {
+        "template": "That's [options]",
+        "options": [
+          "not right",
+          "not true",
+          "not accurate"
+        ],
+        "meaning": "expressing disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Strong disagreement in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I think we should invest in this project"
+          },
+          {
+            "speaker": "Jane",
+            "text": "I strongly disagree with that idea"
+          }
+        ]
+      },
+      {
+        "description": "Disagreement in a casual conversation",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "I think that movie is great"
+          },
+          {
+            "speaker": "Emily",
+            "text": "No way, I disagree, it's boring"
+          }
+        ]
+      }
+    ]
+  }
+}

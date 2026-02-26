@@ -1,0 +1,213 @@
+{
+  "title": "Encouraging someone to stop stalling and do something",
+  "context": "Tell someone to hurry up and take action instead of waiting.",
+  "content": {
+    "bestLine": "Let's get this done already",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's time to take action",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should get started",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't wait any longer",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "It's now or never",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's make a decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to take the first step",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get moving",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's holding you back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's do this thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to stop stalling",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this party started",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make it happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No more waiting, let's go",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Let's roll with it",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Time to get this bread",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's turnt up and go",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, let's get moving",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's dip and get it done",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "It's go time, let's move",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, you're really taking your time",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm impressed by your stalling skills",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Let's just wait forever, sounds good",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure nothing bad will happen if we wait",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really making progress by doing nothing",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Let's just put it off until tomorrow",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and get it done",
+        "options": [
+          "get moving",
+          "roll with it",
+          "make it happen"
+        ],
+        "meaning": "encouraging action"
+      },
+      {
+        "template": "It's time to [options] and stop waiting",
+        "options": [
+          "take action",
+          "get started",
+          "make a decision"
+        ],
+        "meaning": "encouraging action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend encouraging friend to take action",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Come on, let's go"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I don't know, I'm not sure"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Let's just do it, we can't wait any longer"
+          }
+        ]
+      },
+      {
+        "description": "Coworker encouraging coworker to meet a deadline",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "We need to get this done today"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "I'm still working on it"
+          },
+          {
+            "speaker": "Coworker 1",
+            "text": "Let's work together and finish it now"
+          }
+        ]
+      }
+    ]
+  }
+}

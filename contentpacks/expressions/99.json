@@ -1,0 +1,173 @@
+{
+  "title": "Introducing a secret",
+  "context": "Let someone know that you have confidential information to share.",
+  "content": {
+    "bestLine": "I've got something to tell you, but keep it on the down low",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I have some confidential information",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep this between us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to share something with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is just between you and me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trusting you with this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep this to yourself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sharing this with you in confidence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep this quiet",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got a secret to share",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gotta promise not to tell",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is just for your ears",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm spilling the beans",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it on the down low",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is hush-hush",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trusting you with a secret",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't go repeating this",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I've got the tea",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is lowkey a secret",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Keep it on the DL",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm about to spill the tea",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is a secret, fam",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't go running your mouth",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've got [options] to share with you",
+        "options": [
+          "a secret",
+          "some news",
+          "a surprise"
+        ],
+        "meaning": "sharing confidential information"
+      },
+      {
+        "template": "Let's keep [options] between us",
+        "options": [
+          "this",
+          "it",
+          "the secret"
+        ],
+        "meaning": "requesting confidentiality"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sharing a secret with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I've got something to tell you, but keep it on the down low"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I won't say anything, what is it?"
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to keep a secret",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can I trust you with a secret?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Of course, I won't tell anyone"
+          }
+        ]
+      }
+    ]
+  }
+}

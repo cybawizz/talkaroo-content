@@ -1,0 +1,173 @@
+{
+  "title": "When you are overworked and doing too much",
+  "context": "State that you have too many tasks and are exhausted.",
+  "content": {
+    "bestLine": "I have too many tasks and I'm exhausted",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Too much on my plate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exhausted from work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need to prioritize tasks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feeling burnt out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Too many responsibilities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at my limit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need a break from work",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm super stressed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Too much to handle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running on empty",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need to chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Feeling totally drained",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm maxed out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need some me time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fried",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing workload overload",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My task list is excessive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling fatigued from work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require task prioritization",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm reaching my productivity limit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to reevaluate my workload",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have [options] tasks to complete",
+        "options": [
+          "too many",
+          "a lot of",
+          "multiple"
+        ],
+        "meaning": "feeling overwhelmed"
+      },
+      {
+        "template": "I'm feeling [options] from work",
+        "options": [
+          "exhausted",
+          "drained",
+          "stressed"
+        ],
+        "meaning": "expressing fatigue"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a manager about workload",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm feeling overwhelmed with my current tasks"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Let's prioritize them together"
+          }
+        ]
+      },
+      {
+        "description": "Discussing burnout with a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm so stressed out from work"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "You should take a break and relax"
+          }
+        ]
+      }
+    ]
+  }
+}

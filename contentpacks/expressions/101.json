@@ -1,0 +1,173 @@
+{
+  "title": "Lacking an ear for music",
+  "context": "Admit that you have no musical talent or rhythm whatsoever.",
+  "content": {
+    "bestLine": "I'm tone deaf, sorry",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't have a musical bone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Music isn't my thing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not musically inclined",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have rhythm",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not good at music",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Music isn't my forte",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a good ear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not musical at all",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm totally tone deaf",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I suck at music",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not exactly musical",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a clue about music",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm rhythmically challenged",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a music person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really bad at singing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't have a musical ear",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I lack musical ability",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not skilled in music",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't possess musical talent",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not adept at music",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a musical background",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not proficient in music",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] at music",
+        "options": [
+          "bad",
+          "terrible",
+          "awful"
+        ],
+        "meaning": "admitting lack of musical talent"
+      },
+      {
+        "template": "I don't have a [options] for music",
+        "options": [
+          "good ear",
+          "musical bone",
+          "clue"
+        ],
+        "meaning": "admitting lack of musical talent"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Admitting lack of musical talent in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you play any musical instruments?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, I'm not musical at all. I don't have a good ear for music."
+          }
+        ]
+      },
+      {
+        "description": "Talking about musical talent in a group setting",
+        "lines": [
+          {
+            "speaker": "Person C",
+            "text": "I'm really into music. I play the guitar and sing."
+          },
+          {
+            "speaker": "Person D",
+            "text": "That's cool. I'm not musical at all. I'm tone deaf, sorry."
+          }
+        ]
+      }
+    ]
+  }
+}

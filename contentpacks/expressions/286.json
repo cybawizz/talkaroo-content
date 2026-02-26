@@ -1,0 +1,128 @@
+{
+  "title": "Explaining an employment gap",
+  "context": "Tell an interviewer why you took a year off from working.",
+  "content": {
+    "bestLine": "I took a year off to recharge and refocus my career goals",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I needed a break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was burned out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wanted to travel",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I was caring for a family member",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was pursuing further education",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was reevaluating my career path",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was dealing with personal issues",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I took a sabbatical to reassess my goals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was on a temporary leave of absence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was pursuing professional development",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was addressing personal and family matters",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was taking time to focus on my well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was exploring new career opportunities",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I took a year off to [options]",
+        "options": [
+          "recharge",
+          "refocus",
+          "travel",
+          "pursue further education"
+        ],
+        "meaning": "explaining employment gap"
+      },
+      {
+        "template": "I was [options] during my time off",
+        "options": [
+          "caring for a family member",
+          "dealing with personal issues",
+          "pursuing professional development"
+        ],
+        "meaning": "providing context for employment gap"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Interviewer asks about employment gap",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Can you explain the gap in your employment history?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I took a year off to recharge and refocus my career goals"
+          }
+        ]
+      },
+      {
+        "description": "Candidate provides additional context",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "What did you do during that time?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I was pursuing further education and traveling to broaden my perspective"
+          }
+        ]
+      }
+    ]
+  }
+}

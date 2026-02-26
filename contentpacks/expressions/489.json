@@ -1,0 +1,172 @@
+{
+  "title": "Instructions for a house-cleaner",
+  "context": "Tell the cleaning person to focus on the bathrooms and kitchen today.",
+  "content": {
+    "bestLine": "Please focus on the bathrooms and kitchen today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Clean the bathrooms and kitchen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Today's tasks are bathrooms and kitchen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Focus on the bathrooms and kitchen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bathrooms and kitchen are the priority",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure to clean the bathrooms and kitchen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathrooms and kitchen need attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please clean the bathrooms and kitchen thoroughly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bathrooms and kitchen are the main focus",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you hit the bathrooms and kitchen?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Today's chores are bathrooms and kitchen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just focus on the bathrooms and kitchen, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bathrooms and kitchen are the top priority",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure you get the bathrooms and kitchen clean",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take care of the bathrooms and kitchen?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathrooms and kitchen need some love",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just get the bathrooms and kitchen done",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could focus on the bathrooms and kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathrooms and kitchen require attention today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure the bathrooms and kitchen are cleaned thoroughly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The priority for today is the bathrooms and kitchen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to clean the bathrooms and kitchen today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathrooms and kitchen are the main areas of focus",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [option] the bathrooms and kitchen",
+        "options": [
+          "clean",
+          "focus on",
+          "take care of"
+        ],
+        "meaning": "request to prioritize bathrooms and kitchen"
+      },
+      {
+        "template": "The [option] need attention today",
+        "options": [
+          "bathrooms and kitchen",
+          "kitchen and bathrooms"
+        ],
+        "meaning": "indicate priority areas"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "House-cleaner instructions",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Please focus on the bathrooms and kitchen today"
+          },
+          {
+            "speaker": "House-cleaner",
+            "text": "Okay, got it"
+          }
+        ]
+      },
+      {
+        "description": "Confirming priorities",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "What are you going to clean first?"
+          },
+          {
+            "speaker": "House-cleaner",
+            "text": "The bathrooms and kitchen, like you asked"
+          }
+        ]
+      }
+    ]
+  }
+}

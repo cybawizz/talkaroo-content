@@ -1,0 +1,173 @@
+{
+  "title": "Concerning additional servings of food",
+  "context": "Ask if you can have seconds or another plate of food.",
+  "content": {
+    "bestLine": "Can I have seconds?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "May I have another serving?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like some more, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a bit more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have another plate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have some more, thank you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have another helping?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I get seconds?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm still hungry, can I have more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab another plate?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take some more, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a little more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not done yet, can I have more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some more food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love some more, please.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I request an additional serving?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate another plate.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have a bit more, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have another helping, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request more food.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have an additional serving?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I have [options]?",
+        "options": [
+          "seconds",
+          "some more",
+          "another plate"
+        ],
+        "meaning": "requesting additional food"
+      },
+      {
+        "template": "May I have [options]?",
+        "options": [
+          "another serving",
+          "a bit more",
+          "another helping"
+        ],
+        "meaning": "requesting additional food politely"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting seconds at a family dinner",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "Can I have seconds?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Of course, dear. Help yourself."
+          }
+        ]
+      },
+      {
+        "description": "Asking for more food at a formal dinner",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "May I request an additional serving?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Certainly, let me get you some more."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "title": "Special information about lodgings",
+  "context": "Tell a tenant where to park their car or throw away trash.",
+  "content": {
+    "bestLine": "Please park in the designated lot and dispose of trash in the bins provided.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Park in the lot to your left.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Trash cans are located near the elevator.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Parking is available on a first-come basis.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please throw away your trash before checking out.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The parking lot is monitored by security cameras.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Recycling bins are available in the lobby.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please do not leave trash in the hallways.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Parking fees are waived for hotel guests.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Guest parking is available in the designated lot.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please dispose of trash in the receptacles provided.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Parking and trash facilities are available for your convenience.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We kindly request that you refrain from littering.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Parking and trash information is available at the front desk.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please follow the posted signs for parking and trash disposal.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [option] your [item] in the [location].",
+        "options": [
+          "park",
+          "throw away"
+        ],
+        "meaning": "Directing someone to park or dispose of trash"
+      },
+      {
+        "template": "The [location] is [option] for your [purpose].",
+        "options": [
+          "parking lot",
+          "trash cans"
+        ],
+        "meaning": "Providing information about parking or trash facilities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Hotel staff providing parking and trash information to a guest",
+        "lines": [
+          {
+            "speaker": "Hotel Staff",
+            "text": "Hello, welcome to our hotel. Please park in the designated lot and dispose of trash in the bins provided."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thank you, where are the trash cans located?"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "The trash cans are located near the elevator on each floor."
+          }
+        ]
+      },
+      {
+        "description": "Hotel staff reminding a guest about parking and trash policies",
+        "lines": [
+          {
+            "speaker": "Hotel Staff",
+            "text": "Reminder, parking is available on a first-come basis and please do not leave trash in the hallways."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Okay, got it. What about recycling?"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "Recycling bins are available in the lobby."
+          }
+        ]
+      }
+    ]
+  }
+}

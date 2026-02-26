@@ -1,0 +1,173 @@
+{
+  "title": "Asking a friend to pet sit",
+  "context": "Ask someone if they can feed your cat while you are out of town.",
+  "content": {
+    "bestLine": "Can you feed my cat while I'm away?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Will you feed my cat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take care of my cat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need someone to feed my cat.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pet sit for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you look after my cat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for someone to feed my cat.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help with my cat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with cat care.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you feed my kitty?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you watch my cat for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going out of town, can you feed my cat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take care of my fur baby?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a favor, can you feed my cat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pet sit for me while I'm away?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can you look after my cat?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to be out of town, can you help with my cat?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require someone to feed my cat.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide cat care services?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of a pet sitter.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Will you be able to feed my cat?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for someone to take care of my cat.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist with cat care?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] my cat?",
+        "options": [
+          "feed",
+          "watch",
+          "take care of"
+        ],
+        "meaning": "requesting help with cat care"
+      },
+      {
+        "template": "I need someone to [options] my cat.",
+        "options": [
+          "feed",
+          "look after",
+          "care for"
+        ],
+        "meaning": "requesting help with cat care"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "asking a friend to pet sit",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can you feed my cat while I'm away?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I'd be happy to help!"
+          }
+        ]
+      },
+      {
+        "description": "asking a friend to pet sit with details",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm going out of town for a week, can you take care of my cat?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What do I need to do?"
+          }
+        ]
+      }
+    ]
+  }
+}

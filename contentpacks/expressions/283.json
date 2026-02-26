@@ -1,0 +1,173 @@
+{
+  "title": "Basic instructions to a babysitter",
+  "context": "Tell the person watching your children the basic house rules.",
+  "content": {
+    "bestLine": "Please follow our house rules for the kids' safety",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Clean up after meals",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the living room tidy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Help with laundry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Supervise homework time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Encourage outdoor play",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Maintain a quiet bedtime routine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Prepare healthy snacks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Respect our home's quiet hours",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Keep the place tidy, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help with dinner?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure the kids do their homework",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the noise down after 9",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just a heads up, we recycle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Feel free to use the kitchen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "If you need anything, just ask",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your help with the kids",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please adhere to our household schedule",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require your assistance with meal preparation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to maintain a clean and safe environment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We expect your cooperation in ensuring the children's well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please respect our home's rules and regulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your professionalism and discretion",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] the kids",
+        "options": [
+          "help with",
+          "supervise",
+          "entertain"
+        ],
+        "meaning": "requesting assistance with childcare"
+      },
+      {
+        "template": "Remember to [options] the living room",
+        "options": [
+          "clean",
+          "tidy",
+          "organize"
+        ],
+        "meaning": "requesting maintenance of a clean environment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction to house rules",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Hi, thanks for watching the kids. We have a few house rules to keep everything running smoothly."
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "No problem, I'd be happy to follow them. What are they?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing household chores",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "We try to keep the place tidy. Can you help with laundry and dishes?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Yeah, of course. I'll make sure to take care of those tasks."
+          }
+        ]
+      }
+    ]
+  }
+}

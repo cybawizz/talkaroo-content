@@ -1,0 +1,173 @@
+{
+  "title": "Noting digressions in a conversation",
+  "context": "Politely point out that the conversation has gone off-topic.",
+  "content": {
+    "bestLine": "Let's get back on track",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's focus on the topic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think we're getting off track",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we refocus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's stay on subject",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get back to the point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're straying from the topic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it relevant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we please stay focused?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, let's get back on track",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we're losing the thread",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about something else later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's not get too sidetracked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm losing the plot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we refocus, guys?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it on topic, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think we're going off on a tangent",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Let's return to the agenda",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe we're deviating from the topic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we please stay on track?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain our focus",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to bring us back to the subject",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're getting a bit off course",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] back to the topic",
+        "options": [
+          "get",
+          "stay",
+          "keep"
+        ],
+        "meaning": "refocus on the conversation"
+      },
+      {
+        "template": "I think we're [options] off track",
+        "options": [
+          "getting",
+          "going",
+          "straying"
+        ],
+        "meaning": "noting a digression in the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Noting a digression in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I think we're getting off track"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Let's get back to the agenda"
+          }
+        ]
+      },
+      {
+        "description": "Refocusing a conversation with friends",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "Dude, let's get back on track"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Yeah, let's focus on the topic"
+          }
+        ]
+      }
+    ]
+  }
+}

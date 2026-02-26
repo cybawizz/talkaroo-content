@@ -1,0 +1,181 @@
+{
+  "title": "Being assertive",
+  "context": "Firmly state your boundaries and stand up for yourself.",
+  "content": {
+    "bestLine": "I understand your point, but I disagree.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not comfortable with that.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we find a compromise?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some space.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's discuss this further.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to think about it.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not okay with me.",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way, that's not happening.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, thanks for asking.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about this later?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some time to think.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not cool with me.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm out of here.",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I respectfully disagree.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I suggest an alternative?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if...",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not comfortable with that proposal.",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I would like to discuss this further.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not in agreement.",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] that idea.",
+        "options": [
+          "love",
+          "hate",
+          "am unsure about"
+        ],
+        "meaning": "Expressing opinion"
+      },
+      {
+        "template": "Can we [options]?",
+        "options": [
+          "talk about it",
+          "think about it",
+          "discuss it"
+        ],
+        "meaning": "Requesting discussion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asserting boundaries with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm not comfortable with that."
+          },
+          {
+            "speaker": "Friend",
+            "text": "What's wrong?"
+          },
+          {
+            "speaker": "You",
+            "text": "I just don't think it's a good idea."
+          }
+        ]
+      },
+      {
+        "description": "Being assertive in a meeting",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I respectfully disagree."
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Why do you think that?"
+          },
+          {
+            "speaker": "You",
+            "text": "I have some concerns about the proposal."
+          }
+        ]
+      }
+    ]
+  }
+}

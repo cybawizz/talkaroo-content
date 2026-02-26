@@ -1,0 +1,173 @@
+{
+  "title": "Decluttering a closet",
+  "context": "Decide out loud which old shirts to throw away or donate.",
+  "content": {
+    "bestLine": "I'm keeping the good ones, donating the rest",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Which shirts are still in good condition?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think I'll donate these old shirts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's sort them into keep and donate piles",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This one is still nice, I'll keep it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I haven't worn this in years, it's gone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can give these to charity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting rid of all the stained ones",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you think this shirt is worth keeping?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ditch the ugly ones, keep the cool ones",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over these old shirts, bye",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get rid of the ones that are so last season",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm keeping the ones that are still fire",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "These shirts are so played out, donate them",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm only keeping the ones that make me look good",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get rid of the ones with holes, duh",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep the ones that are still on trend",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Lowkey keeping the comfy ones, highkey ditching the rest",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Slay the fashion game, get rid of the whack shirts",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "No cap, these shirts are straight fire or trash",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting these old shirts, they're so extra",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Sis, these shirts are so last season, bye",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm only keeping the ones that are turnt",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm keeping the [options] shirts",
+        "options": [
+          "good",
+          "cool",
+          "comfy"
+        ],
+        "meaning": "deciding which shirts to keep"
+      },
+      {
+        "template": "Let's get rid of the [options] ones",
+        "options": [
+          "ugly",
+          "old",
+          "stained"
+        ],
+        "meaning": "deciding which shirts to donate or throw away"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Deciding which shirts to keep or donate",
+        "lines": [
+          {
+            "speaker": "Person 1",
+            "text": "Which shirts do you think we should keep?"
+          },
+          {
+            "speaker": "Person 2",
+            "text": "I think we should keep the ones that are still in good condition"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the fate of old shirts",
+        "lines": [
+          {
+            "speaker": "Person 1",
+            "text": "I'm so over these old shirts, let's donate them"
+          },
+          {
+            "speaker": "Person 2",
+            "text": "But what about the ones that are still cool?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "title": "Expressing dullness and boredom",
+  "context": "Complain that you are completely and utterly bored by an event.",
+  "content": {
+    "bestLine": "I'm so bored, this is dragging on forever",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This is not holding my attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit uninterested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This event is not engaging me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble staying focused",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The presentation is quite dull",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not finding this entertaining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a bit of a snooze fest",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is so boring",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dying of boredom",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This event is a total drag",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we leave already?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is putting me to sleep",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need something more exciting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm finding this presentation underwhelming",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The event is not meeting my expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing a lack of engagement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The content is not sufficiently stimulating",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty maintaining interest",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This is hella boring",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key dying over here",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This event is whack",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, this is the most exciting thing I've ever seen",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm having the time of my life",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] bored",
+        "options": [
+          "so",
+          "incredibly",
+          "extremely"
+        ],
+        "meaning": "expressing high levels of boredom"
+      },
+      {
+        "template": "This event is [options]",
+        "options": [
+          "a total drag",
+          "underwhelming",
+          "not engaging"
+        ],
+        "meaning": "describing an uninteresting event"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend during an event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so bored, this is dragging on forever"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? I'm having trouble staying awake"
+          }
+        ]
+      },
+      {
+        "description": "Discussing an event with a colleague",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I found the presentation underwhelming"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Yes, I was expecting more engaging content"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "title": "Announcing an upcoming punishment",
+  "context": "Tell a person that there will be consequences for their bad actions.",
+  "content": {
+    "bestLine": "There will be consequences for your actions.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You will face consequences.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Consequences are coming.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your actions have consequences.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll have to face the music.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There will be a price to pay.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll have to deal with the fallout.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Consequences are inevitable.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can't avoid the consequences.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're gonna get in trouble.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You'll be sorry.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "There's gonna be a reckoning.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're in for a world of trouble.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're gonna face the consequences.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're in trouble now.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're gonna get what's coming to you.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're gonna regret this.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You will be held accountable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There will be disciplinary action.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Consequences will be imposed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will face disciplinary measures.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There will be repercussions.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will be subject to penalties.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're gonna get busted.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're in for a beatdown.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're gonna get served.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're gonna get taken down.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're in for a world of hurt.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] face consequences.",
+        "options": [
+          "will",
+          "might",
+          "could"
+        ],
+        "meaning": "There will be consequences for your actions."
+      },
+      {
+        "template": "Your actions have [options] consequences.",
+        "options": [
+          "serious",
+          "severe",
+          "dire"
+        ],
+        "meaning": "Your actions will have significant consequences."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Announcing consequences in a neutral tone",
+        "lines": [
+          {
+            "speaker": "Authority figure",
+            "text": "There will be consequences for your actions."
+          },
+          {
+            "speaker": "Individual",
+            "text": "What do you mean?"
+          }
+        ]
+      },
+      {
+        "description": "Announcing consequences in an informal tone",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "You're gonna get in trouble for that."
+          },
+          {
+            "speaker": "Individual",
+            "text": "I don't care."
+          }
+        ]
+      }
+    ]
+  }
+}

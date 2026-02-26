@@ -1,0 +1,205 @@
+{
+  "title": "Saying the obvious",
+  "context": "Point out a fact that everybody already knows is true.",
+  "content": {
+    "bestLine": "That's pretty obvious, don't you think?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's clear to everyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a given",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We all know that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a fact",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Obviously",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a no-brainer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's common knowledge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everyone agrees on that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, that's a no-brainer",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Duh, that's obvious",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's a total given",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We all know that already",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not rocket science",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just common sense",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I mean, it's pretty clear",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can't deny that",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a well-established fact",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a widely accepted truth",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can all agree on that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a matter of public record",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a universally acknowledged principle",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's an undeniable reality",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, what a shocking revelation",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for stating the obvious",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's a real newsflash",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I was totally unaware of that",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a brilliant observation",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be a genius to figure that out",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] that [fact]",
+        "options": [
+          "clear",
+          "obvious",
+          "apparent"
+        ],
+        "meaning": "pointing out a fact"
+      },
+      {
+        "template": "We all know that [options]",
+        "options": [
+          "it's true",
+          "it's a fact",
+          "it's obvious"
+        ],
+        "meaning": "stating a shared understanding"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a movie",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I think the ending was pretty obvious"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Yeah, I knew what was going to happen from the start"
+          }
+        ]
+      },
+      {
+        "description": "A manager and employee discussing a project",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "It's clear that we need to meet the deadline"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Absolutely, we all know how important it is"
+          }
+        ]
+      }
+    ]
+  }
+}

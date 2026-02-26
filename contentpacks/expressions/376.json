@@ -1,0 +1,148 @@
+{
+  "title": "Concerning excellent vision",
+  "context": "Compliment someone on their incredibly sharp eyesight.",
+  "content": {
+    "bestLine": "You have incredibly sharp eyesight!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Your vision is really sharp",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have great eyesight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your eyes are very perceptive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can see really well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your vision is impressive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have a keen eye",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your sight is excellent",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, your eyesight is insane!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can see like a hawk!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your vision is crazy good",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You have eagle eyes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can spot anything",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your eyes are super sharp",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You possess exceptional visual acuity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your eyesight is truly impressive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have outstanding vision",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your visual perception is excellent",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You have [options] eyesight",
+        "options": [
+          "incredibly sharp",
+          "amazing",
+          "exceptional"
+        ],
+        "meaning": "complimenting someone's vision"
+      },
+      {
+        "template": "Your vision is [options]",
+        "options": [
+          "really sharp",
+          "great",
+          "impressive"
+        ],
+        "meaning": "describing someone's eyesight"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complimenting a friend's vision",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You have incredibly sharp eyesight!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I guess I've just always had good vision"
+          }
+        ]
+      },
+      {
+        "description": "Discussing excellent vision in a formal setting",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "You possess exceptional visual acuity"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Thank you, doctor. I've always taken care of my eyes"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Questions about transportation convenience",
+  "context": "Ask if the apartment is close to a subway or bus stop.",
+  "content": {
+    "bestLine": "Is the apartment close to a subway or bus stop?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How close is the apartment to public transportation?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the apartment near a subway or bus stop?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the closest transportation option to the apartment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you walk to the subway or bus from the apartment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to the city center from the apartment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any bus or subway stops nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is public transportation easily accessible from the apartment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to get to the nearest subway or bus stop?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Is the apartment close to the subway?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I walk to the bus stop from here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How far is the nearest transportation hub?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do I need a car to get around from the apartment?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the apartment near a major bus route?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find the closest subway stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How convenient is the apartment for public transportation?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any transportation options nearby?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about the proximity of the apartment to public transportation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if the apartment is conveniently located near a subway or bus stop.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the transportation options available near the apartment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could provide me with information about the nearest transportation hub.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the apartment situated in a location that is easily accessible by public transportation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with directions to the nearest subway or bus stop from the apartment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is the apartment close to a [options] stop?",
+        "options": [
+          "subway",
+          "bus"
+        ],
+        "meaning": "Asking about transportation convenience"
+      },
+      {
+        "template": "How do I get to the [options] from the apartment?",
+        "options": [
+          "city center",
+          "nearest subway",
+          "bus stop"
+        ],
+        "meaning": "Asking about transportation options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest asking about transportation convenience",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Is the apartment close to a subway or bus stop?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Yes, it's just a 5-minute walk to the nearest subway stop."
+          }
+        ]
+      },
+      {
+        "description": "Guest inquiring about transportation options",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "How do I get to the city center from the apartment?"
+          },
+          {
+            "speaker": "Host",
+            "text": "You can take the bus from the stop just outside the apartment building. It's about a 20-minute ride."
+          }
+        ]
+      }
+    ]
+  }
+}

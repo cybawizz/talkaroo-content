@@ -1,0 +1,200 @@
+{
+  "title": "Saying good night (quick)",
+  "context": "Wish someone well as they go to bed.",
+  "content": {
+    "bestLine": "Sleep tight, see you tomorrow",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Good night, rest well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good night's sleep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nighty night, take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get some rest, see you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you a good night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy, good night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All the best, good night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sweet dreams, good night",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Night dude, catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later, get some sleep",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good night, don't let the bed bugs bite",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sleep tight, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Nighty night, sleep well",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get some z's, see you tomorrow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later, gator, good night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good night, have sweet dreams",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good evening, have a restful night",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I bid you good night",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you a peaceful night's sleep",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good night, I hope you sleep well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure, good night",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you a good night's rest",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "G'night, homie",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Nighty night, snooze tight",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Later, skater, catch you on the flip side",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Good night, don't be a stranger",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Night night, sleep tight, don't let the haters bite",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Good night, [options]",
+        "options": [
+          "sleep tight",
+          "rest well",
+          "have sweet dreams"
+        ],
+        "meaning": "Wishing someone a good night's sleep"
+      },
+      {
+        "template": "I'm off to [options], good night",
+        "options": [
+          "bed",
+          "sleep",
+          "dreamland"
+        ],
+        "meaning": "Saying good night and leaving"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying good night to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm heading to bed"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Alright, sleep tight, see you tomorrow"
+          }
+        ]
+      },
+      {
+        "description": "Saying good night in a formal setting",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "It was a pleasure having you, good night"
+          },
+          {
+            "speaker": "Guest",
+            "text": "The pleasure was mine, thank you, good night"
+          }
+        ]
+      }
+    ]
+  }
+}

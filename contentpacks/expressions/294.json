@@ -1,0 +1,171 @@
+{
+  "title": "Explaining the rules of campsite",
+  "context": "Tell your group that they must throw away trash so bears do not come.",
+  "content": {
+    "bestLine": "Throw away trash to avoid bears",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Keep the site clean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dispose of trash properly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bears are attracted to food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the area tidy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Trash can attract wildlife",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up after meals",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep a clean campsite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't leave trash behind",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, throw away your trash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it clean, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bears will come if we don't clean up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be a litterbug",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep the site bear-free",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up, it's not that hard",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's not attract any bears",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Throw away your garbage",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is essential to dispose of trash properly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must maintain a clean campsite",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Bears are a concern if we don't clean up",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's adhere to the campsite rules",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Proper waste disposal is crucial",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must keep the area free of trash",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If we [options], bears will come",
+        "options": [
+          "don't throw away trash",
+          "leave food out"
+        ],
+        "meaning": "Consequence of not following campsite rules"
+      },
+      {
+        "template": "Let's [options] to avoid bears",
+        "options": [
+          "keep the site clean",
+          "throw away trash"
+        ],
+        "meaning": "Action to take to prevent bears from coming"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining campsite rules to a group",
+        "lines": [
+          {
+            "speaker": "Leader",
+            "text": "Remember, we need to throw away trash to avoid bears"
+          },
+          {
+            "speaker": "Group Member",
+            "text": "Got it, I'll make sure to clean up after meals"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the importance of campsite cleanliness",
+        "lines": [
+          {
+            "speaker": "Camper 1",
+            "text": "I don't want to attract any bears to our site"
+          },
+          {
+            "speaker": "Camper 2",
+            "text": "Exactly, let's keep the area tidy and throw away trash"
+          }
+        ]
+      }
+    ]
+  }
+}

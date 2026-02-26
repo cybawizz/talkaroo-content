@@ -1,0 +1,180 @@
+{
+  "title": "Claiming that something is easy to understand",
+  "context": "Tell someone that a concept or instruction is very simple.",
+  "content": {
+    "bestLine": "It's really straightforward",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's easy to understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is simple",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just follow the steps",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not complicated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll get it quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a breeze",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry, it's easy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Piece of cake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Super easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No big deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy peasy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Simple as can be",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A walk in the park",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't sweat it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "This is a straightforward process",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a simple concept",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The instructions are clear",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You should have no trouble understanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's an easy task",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, it's incredibly complicated",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure you'll figure it out",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It's not like it's rocket science",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure it's a real challenge",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's as [options] as can be",
+        "options": [
+          "easy",
+          "simple",
+          "straightforward"
+        ],
+        "meaning": "something is very easy to understand"
+      },
+      {
+        "template": "You just need to [options]",
+        "options": [
+          "follow the steps",
+          "read the instructions",
+          "pay attention"
+        ],
+        "meaning": "something is easy to do if you follow the rules"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining a simple concept to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I don't get it"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's really straightforward, just follow the steps"
+          }
+        ]
+      },
+      {
+        "description": "Explaining a simple concept in a formal setting",
+        "lines": [
+          {
+            "speaker": "Instructor",
+            "text": "This is a straightforward process"
+          },
+          {
+            "speaker": "Student",
+            "text": "Okay, I think I understand"
+          }
+        ]
+      }
+    ]
+  }
+}

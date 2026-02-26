@@ -1,0 +1,173 @@
+{
+  "title": "Giving sincere thanks",
+  "context": "Tell someone that you are deeply grateful for their major help.",
+  "content": {
+    "bestLine": "Thank you so much for your huge help!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I really appreciate your help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for all your support",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your assistance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've been a big help to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your kindness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for being there for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm thankful for your guidance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your help means a lot to me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks a ton for your help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I owe you one for this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a lifesaver",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so grateful for your support",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for having my back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate you looking out for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You've been amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for being an awesome friend",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am deeply grateful for your assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your significant contribution",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your professional help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your support has been invaluable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am thankful for your expertise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your guidance has been greatly appreciated",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for [options]",
+        "options": [
+          "your help",
+          "being there",
+          "your support"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "I appreciate [options]",
+        "options": [
+          "your kindness",
+          "your guidance",
+          "your assistance"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Expressing thanks to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thanks so much for helping me move"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No problem, happy to help"
+          }
+        ]
+      },
+      {
+        "description": "Expressing thanks to a colleague",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I really appreciate your help on this project"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're welcome, it was a team effort"
+          }
+        ]
+      }
+    ]
+  }
+}

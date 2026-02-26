@@ -1,0 +1,173 @@
+{
+  "title": "A car dealer finding out what you want",
+  "context": "Ask a customer what kind of vehicle they are looking to buy.",
+  "content": {
+    "bestLine": "What kind of vehicle are you looking for today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What brings you to our dealership?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can we help you find a car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your ideal vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you looking for something specific?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your budget for a new car?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a preferred make or model?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many passengers will the car need to seat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you interested in a sedan or SUV?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's on your mind for a new ride?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Looking for something cool?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Need a new set of wheels?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your dream car?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to take a look around?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a favorite car brand?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Looking for something fast?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to test drive something?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I inquire about your vehicle preferences?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to assist you in finding a car.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me about your ideal vehicle?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have a wide range of vehicles available.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I ask about your budget for a new car?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any specific features in mind?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are you looking for a [options]?",
+        "options": [
+          "sedan",
+          "SUV",
+          "truck"
+        ],
+        "meaning": "inquire about vehicle type"
+      },
+      {
+        "template": "Do you have a preferred [options]?",
+        "options": [
+          "make",
+          "model",
+          "color"
+        ],
+        "meaning": "inquire about vehicle preferences"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial greeting and inquiry",
+        "lines": [
+          {
+            "speaker": "Dealer",
+            "text": "Hi there! What brings you to our dealership today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi! I'm looking for a new car."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up questions",
+        "lines": [
+          {
+            "speaker": "Dealer",
+            "text": "What kind of vehicle are you interested in?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm not sure yet. Can you show me some options?"
+          }
+        ]
+      }
+    ]
+  }
+}

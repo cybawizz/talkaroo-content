@@ -1,0 +1,158 @@
+{
+  "title": "Expressions used by a repair service operator",
+  "context": "Ask the customer to describe exactly what is broken on their phone line.",
+  "content": {
+    "bestLine": "Can you describe the issue with your phone line?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's not working on your phone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I assist you with your phone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What seems to be the problem?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me more about the issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How is your phone not functioning?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's happening when you try to use it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the problem in detail?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, what's going on with your phone?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with your phone line?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your phone acting up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's not cool with your phone?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you fill me in on the phone issue?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the story with your phone?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's your phone experience been?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please describe the issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate it if you could explain the problem.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide more details about the issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I assist you with your phone concern?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please elaborate on the problem you're experiencing.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] about the issue?",
+        "options": [
+          "describe",
+          "explain",
+          "elaborate"
+        ],
+        "meaning": "request for more information"
+      },
+      {
+        "template": "How is your phone [options]?",
+        "options": [
+          "not working",
+          "acting up",
+          "functioning"
+        ],
+        "meaning": "inquiry about phone behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial Question",
+        "lines": [
+          {
+            "speaker": "Operator",
+            "text": "Hello, can you describe the issue with your phone line?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, it's not connecting to the internet."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Question",
+        "lines": [
+          {
+            "speaker": "Operator",
+            "text": "Can you tell me more about what's happening when you try to connect?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It just says 'no connection available'."
+          }
+        ]
+      }
+    ]
+  }
+}

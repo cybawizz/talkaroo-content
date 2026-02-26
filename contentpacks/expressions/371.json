@@ -1,0 +1,197 @@
+{
+  "title": "Concerning futility",
+  "context": "Explain that trying to fix a problem is a complete waste of time.",
+  "content": {
+    "bestLine": "It's a total waste of time trying to fix this.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not worth the effort.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The problem is too complex.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should focus on other things.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not feasible to fix.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The issue is too deeply rooted.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're just spinning our wheels.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a lost cause.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should cut our losses.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's a total lost cause.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't bother trying to fix it.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a waste of time and energy.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're beating a dead horse.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's never gonna work.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just move on.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a fool's errand.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're throwing good money after bad.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The endeavor is not viable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a worthwhile investment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The problem is intractable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should allocate resources elsewhere.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project is not feasible.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're experiencing diminishing returns.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's a total bust.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Don't even bother.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a wild goose chase.",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "We're on a fool's mission.",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] trying to fix this.",
+        "options": [
+          "a total waste of time",
+          "not worth the effort"
+        ],
+        "meaning": "expressing futility"
+      },
+      {
+        "template": "We're [options] our time.",
+        "options": [
+          "wasting",
+          "throwing away"
+        ],
+        "meaning": "expressing futility"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation between two colleagues",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I don't think we should try to fix this."
+          },
+          {
+            "speaker": "Jane",
+            "text": "I agree, it's a total waste of time."
+          }
+        ]
+      },
+      {
+        "description": "Conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I think we should focus on other projects."
+          },
+          {
+            "speaker": "Employee",
+            "text": "But what about this one? Can't we just fix it?"
+          },
+          {
+            "speaker": "Manager",
+            "text": "It's not feasible. We're just spinning our wheels."
+          }
+        ]
+      }
+    ]
+  }
+}

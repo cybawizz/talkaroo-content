@@ -1,0 +1,158 @@
+{
+  "title": "Expressing acceptance",
+  "context": "Say that you accept a plan or idea.",
+  "content": {
+    "bestLine": "That sounds like a great plan to me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I agree with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That works for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on board with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm okay with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That sounds good to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I accept that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yeah, that's cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm down with that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's awesome, let's do it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sounds like a plan to me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so on board",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a great idea, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go for it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I concur with that proposal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That meets with my approval",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I accept that suggestion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That is a viable option",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I agree to that plan",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] that idea",
+        "options": [
+          "agree with",
+          "accept",
+          "am okay with"
+        ],
+        "meaning": "expressing acceptance"
+      },
+      {
+        "template": "That [options] to me",
+        "options": [
+          "sounds good",
+          "seems like a great plan",
+          "looks fine"
+        ],
+        "meaning": "expressing acceptance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Accepting a plan",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let's go to the beach this weekend"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That sounds like a great plan to me"
+          }
+        ]
+      },
+      {
+        "description": "Accepting a suggestion",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "We should try that new restaurant"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm on board with that"
+          }
+        ]
+      }
+    ]
+  }
+}

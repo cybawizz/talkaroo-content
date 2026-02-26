@@ -1,0 +1,173 @@
+{
+  "title": "Asking about the location of the bathroom",
+  "context": "Politely ask a host where you can find their toilet.",
+  "content": {
+    "bestLine": "Excuse me, where's the restroom?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where is the bathroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you point me to the toilet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to use the restroom, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the bathroom?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the bathroom nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you show me where the bathroom is?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for the restroom.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the bathroom located?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Where's the loo?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a bathroom around here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I gotta go, where's the bathroom?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Where can I pee?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "Is there a bathroom close by?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where the bathroom is?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to find the restroom, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the john?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you direct me to the restroom?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to use the bathroom, please.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where is the restroom located, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to visit the restroom, excuse me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you show me to the bathroom, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require the use of the restroom.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, where's the [options]?",
+        "options": [
+          "bathroom",
+          "restroom",
+          "toilet"
+        ],
+        "meaning": "asking for the location of the bathroom"
+      },
+      {
+        "template": "Could you [options] me to the [options]?",
+        "options": [
+          "point",
+          "show",
+          "direct"
+        ],
+        "meaning": "asking for directions to the bathroom"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking the host for the bathroom",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Excuse me, where's the restroom?"
+          },
+          {
+            "speaker": "Host",
+            "text": "It's just down the hall, second door on your left."
+          }
+        ]
+      },
+      {
+        "description": "Asking a stranger for the bathroom",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, could you tell me where the bathroom is?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, it's just around the corner, you can't miss it."
+          }
+        ]
+      }
+    ]
+  }
+}

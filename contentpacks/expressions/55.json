@@ -1,0 +1,173 @@
+{
+  "title": "Excusing oneself from the table",
+  "context": "Politely ask permission to leave after finishing eating.",
+  "content": {
+    "bestLine": "May I be excused?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm done, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I get up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finished eating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all set",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I leave the table?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had enough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you, I'm done",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Later, guys",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time for me to roll",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm done eating, bye",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "See you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm full, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gotta go, guys",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I be excused, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe I'm finished",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, I'm done",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've completed my meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I rise from the table?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finished, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "May I [options]?",
+        "options": [
+          "be excused",
+          "get up",
+          "leave the table"
+        ],
+        "meaning": "asking permission to leave the table"
+      },
+      {
+        "template": "I'm [options], thanks",
+        "options": [
+          "done",
+          "finished",
+          "all set"
+        ],
+        "meaning": "informing others that you're finished eating"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Excusing oneself from the table",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "May I be excused?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Yes, you may"
+          }
+        ]
+      },
+      {
+        "description": "Asking to leave the table",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'm finished, thank you"
+          },
+          {
+            "speaker": "Host",
+            "text": "You're welcome, please feel free to get up"
+          }
+        ]
+      }
+    ]
+  }
+}

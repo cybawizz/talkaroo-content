@@ -1,0 +1,131 @@
+{
+  "title": "Instructions about feeding and bedtime",
+  "context": "Tell the babysitter exactly when to feed the kids and put them to bed.",
+  "content": {
+    "bestLine": "Please feed the kids at 6 PM and put them to bed at 8 PM.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Feed them at 6",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime is 8 PM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Kids need dinner at 6",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Put them to bed on time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "6 PM is dinner time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime routine starts at 7:30",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sure they eat at 6",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lights out at 8 PM",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please ensure the children are fed at 6 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime is strictly 8 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The children's dinner schedule is 6 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Adhere to the bedtime routine",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The kids' bedtime is 8 PM sharp",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Follow the scheduled dinner and bedtime",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please feed the kids at [time] and put them to bed at [bedtime].",
+        "options": [
+          "6 PM",
+          "7 PM",
+          "8 PM"
+        ],
+        "meaning": "Specify feeding and bedtime"
+      },
+      {
+        "template": "The kids need to be in bed by [time] after dinner at [dinner time].",
+        "options": [
+          "8 PM",
+          "9 PM",
+          "10 PM"
+        ],
+        "meaning": "Emphasize bedtime after dinner"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Babysitter instructions",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please feed the kids at 6 PM and put them to bed at 8 PM."
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "Got it, 6 PM dinner and 8 PM bedtime."
+          }
+        ]
+      },
+      {
+        "description": "Confirming schedule",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "What time will you feed and put the kids to bed?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "6 PM for dinner and 8 PM for bedtime, as scheduled."
+          }
+        ]
+      }
+    ]
+  }
+}

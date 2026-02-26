@@ -1,0 +1,205 @@
+{
+  "title": "Expressing encouragement",
+  "context": "Give someone positive words to motivate them.",
+  "content": {
+    "bestLine": "You got this, keep going!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're doing great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep up the good work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I believe in you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're on the right track",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay positive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's going to be okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're strong and capable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't give up",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're crushing it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm rooting for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep pushing forward",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're almost there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a rockstar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't worry, you've got this",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You're making excellent progress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have every confidence in you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your efforts are appreciated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing a superb job",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please keep up the good work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a valuable asset",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, you're killing it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're low-key amazing",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're high-key crushing it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, you're doing great",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a real MVP",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options]!",
+        "options": [
+          "doing great",
+          "amazing",
+          "awesome"
+        ],
+        "meaning": "expressing encouragement"
+      },
+      {
+        "template": "I [options] you!",
+        "options": [
+          "believe in",
+          "support",
+          "root for"
+        ],
+        "meaning": "expressing support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend encouraging friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You're doing great, keep it up!"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Thanks, I really appreciate it"
+          }
+        ]
+      },
+      {
+        "description": "Manager encouraging employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "You're making excellent progress, keep up the good work"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Thank you, I'll keep working hard"
+          }
+        ]
+      }
+    ]
+  }
+}

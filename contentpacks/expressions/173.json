@@ -1,0 +1,143 @@
+{
+  "title": "Asking when a meal will be ready",
+  "context": "Ask the person cooking how much longer until dinnertime.",
+  "content": {
+    "bestLine": "How much longer until dinner?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the estimated time for dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer until we eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When will dinner be ready?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is dinner almost ready?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How soon will we be eating?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When can we expect to eat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long until dinner is served?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "When's dinner?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much longer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost ready?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the holdup?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dinner soon?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it coming along?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Getting close?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do we eat?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "How [option] until dinner?",
+        "options": [
+          "much longer",
+          "long"
+        ],
+        "meaning": "asking about the time until dinner"
+      },
+      {
+        "template": "Is dinner [option]?",
+        "options": [
+          "ready yet",
+          "almost ready"
+        ],
+        "meaning": "inquiring about the status of dinner"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A family member asking about dinner",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "How much longer until dinner?"
+          },
+          {
+            "speaker": "Cook",
+            "text": "About 20 minutes."
+          }
+        ]
+      },
+      {
+        "description": "A child asking about dinner",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "When's dinner?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Soon, sweetie. Just a few more minutes."
+          }
+        ]
+      }
+    ]
+  }
+}

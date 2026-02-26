@@ -1,0 +1,173 @@
+{
+  "title": "Inviting someone on a hike",
+  "context": "Ask a friend if they want to drive to the mountains and walk the trails.",
+  "content": {
+    "bestLine": "Want to drive to the mountains and hike this weekend?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's go for a hike",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm planning a hike, want to join?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about a mountain hike?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to go hiking with me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going hiking, care to join?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hike this weekend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to explore the trails?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about a hike in the mountains?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, let's go hiking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, want to hit the trails?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get outdoors and hike",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who's up for a hike?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go on an adventure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to come hiking with me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hike and enjoy nature",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, let's go for a hike this weekend",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, let's hike",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this hike lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Who's down for a hike?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's crush some trails",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hike squad, assemble",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get weird in the woods",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options] this weekend?",
+        "options": [
+          "go hiking",
+          "drive to the mountains",
+          "explore the trails"
+        ],
+        "meaning": "inviting someone on a hike"
+      },
+      {
+        "template": "Let's [options] and enjoy the outdoors",
+        "options": [
+          "go for a hike",
+          "hit the trails",
+          "get some exercise"
+        ],
+        "meaning": "suggesting a hike"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend on a hike",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, want to go hiking this weekend?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, that sounds like fun. Where were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing hike plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I was thinking we could drive to the mountains and hike some trails"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That sounds awesome. What time were you thinking of leaving?"
+          }
+        ]
+      }
+    ]
+  }
+}

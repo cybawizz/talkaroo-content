@@ -1,0 +1,213 @@
+{
+  "title": "Encouraging someone not to be overexcited",
+  "context": "Tell someone to calm down and relax their energy.",
+  "content": {
+    "bestLine": "Hey, calm down and take a deep breath",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Relax, it's okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Calm down, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Slow down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just breathe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Settle down",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, calm down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, relax",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a chill pill",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Calm your jets",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Whoa, slow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just calm down, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy, tiger",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Calm down, buddy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, chill",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, calm down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey, relax",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, calm down",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Bet, take it easy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sis, calm down",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, great job getting so worked up",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Oh, I'm so impressed by your excitement",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Calm down, I'm sure it's not that serious",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Geez, take a deep breath or something",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Whoa, slow down, you're gonna hurt yourself",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure your freakout is totally justified",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Calm down, [options]",
+        "options": [
+          "it's okay",
+          "everything will be fine",
+          "you're getting too worked up"
+        ],
+        "meaning": "to encourage someone to relax"
+      },
+      {
+        "template": "Take a [options] and calm down",
+        "options": [
+          "deep breath",
+          "step back",
+          "break"
+        ],
+        "meaning": "to suggest someone take a moment to relax"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend to friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Dude, calm down"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm just so excited!"
+          },
+          {
+            "speaker": "A",
+            "text": "I know, but you're gonna wear yourself out"
+          }
+        ]
+      },
+      {
+        "description": "Parent to child",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Hey, calm down and take a deep breath"
+          },
+          {
+            "speaker": "Child",
+            "text": "But whyyyy?!"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Because you're getting too worked up, sweetie"
+          }
+        ]
+      }
+    ]
+  }
+}

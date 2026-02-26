@@ -1,0 +1,158 @@
+{
+  "title": "Ending a telephone conversation",
+  "context": "Say goodbye before hanging up the phone.",
+  "content": {
+    "bestLine": "It was great talking to you, goodbye",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Talk to you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bye for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice talking to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Goodbye for now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See ya",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bye buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good one",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Laters",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Goodbye, have a great day",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure speaking with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will talk soon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Goodbye, thank you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It was [options] talking to you",
+        "options": [
+          "great",
+          "nice",
+          "good"
+        ],
+        "meaning": "expressing a positive sentiment before ending the conversation"
+      },
+      {
+        "template": "Have a [options] day",
+        "options": [
+          "great",
+          "good",
+          "wonderful"
+        ],
+        "meaning": "wishing the other person a positive day before ending the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friendly conversation ending",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It was great talking to you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You too, talk to you soon"
+          }
+        ]
+      },
+      {
+        "description": "Formal conversation ending",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thank you for your time"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're welcome, goodbye"
+          }
+        ]
+      }
+    ]
+  }
+}

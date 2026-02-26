@@ -1,0 +1,173 @@
+{
+  "title": "Questions asked of a tailor",
+  "context": "Ask a tailor how much it costs to alter a piece of clothing.",
+  "content": {
+    "bestLine": "How much would it cost to alter this?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the alteration fee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the cost?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much for alterations?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the price for altering this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a quote for alterations?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much will it cost to fix this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your alteration price?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you alter this and how much?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much to fix this up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the damage for alterations?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a deal on alterations?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much to make it fit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What'll it cost to get this altered?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a good price?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much for a quick fix?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a ballpark figure, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the alteration cost?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could quote me a price.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your standard alteration fee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you inform me about the cost of alterations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in knowing the price for altering this item.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to provide a quote for the alterations?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How much to [options]?",
+        "options": [
+          "alter",
+          "fix",
+          "change"
+        ],
+        "meaning": "Asking for the cost of a specific alteration service"
+      },
+      {
+        "template": "Can you [options] the cost?",
+        "options": [
+          "tell me",
+          "give me",
+          "quote me"
+        ],
+        "meaning": "Requesting the tailor to provide the cost of alterations"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer inquiring about alteration costs",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to get this dress altered. How much would it cost?"
+          },
+          {
+            "speaker": "Tailor",
+            "text": "Let me take a look. The alteration fee would be around $20 to $30 depending on the work needed."
+          }
+        ]
+      },
+      {
+        "description": "Customer negotiating the price of alterations",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "That sounds a bit high. Can you give me a better price?"
+          },
+          {
+            "speaker": "Tailor",
+            "text": "I can offer you a discount. How about $15 to $25?"
+          }
+        ]
+      }
+    ]
+  }
+}

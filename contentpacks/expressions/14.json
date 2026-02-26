@@ -1,0 +1,200 @@
+{
+  "title": "Asking someone how things are going",
+  "context": "Ask someone for an update on their life.",
+  "content": {
+    "bestLine": "How's life treating you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your day so far?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on in your life?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How have you been?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's new and exciting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you, man?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your week been?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on, friend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's good?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "How do you do?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you're doing well.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How have you been lately?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you professionally?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your work going?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I trust you're doing well.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Ayy, how's it going?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the tea?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "How's life, G?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's [option]?",
+        "options": [
+          "life",
+          "everything",
+          "your day"
+        ],
+        "meaning": "Asking about someone's general well-being"
+      },
+      {
+        "template": "What's [option] with you?",
+        "options": [
+          "new",
+          "going on",
+          "happening"
+        ],
+        "meaning": "Inquiring about updates or changes in someone's life"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual greeting between friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Not bad, just got back from a trip. You?"
+          }
+        ]
+      },
+      {
+        "description": "Formal introduction at a networking event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hello, I'm John. How do you do?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm doing well, thanks. Nice to meet you, John."
+          }
+        ]
+      }
+    ]
+  }
+}

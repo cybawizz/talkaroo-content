@@ -1,0 +1,110 @@
+{
+  "title": "Religious expressions (quick)",
+  "context": "Use a common religious idiom to show shock or relief.",
+  "content": {
+    "bestLine": "Thank God!",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "Praise the Lord!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "God is good!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank heaven!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bless his heart!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Amen to that!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hallelujah!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "Geez Louise!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Lord have mercy!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Good grief!",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Thank [options]!",
+        "options": [
+          "God",
+          "heaven",
+          "the Lord"
+        ],
+        "meaning": "expressing relief or gratitude"
+      },
+      {
+        "template": "[options] be praised!",
+        "options": [
+          "God",
+          "the Lord",
+          "Jesus"
+        ],
+        "meaning": "expressing admiration or appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends reacting to a narrow escape",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Wow, that was close! Thank God we're safe!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Amen to that! I know, right? My heart is still racing."
+          }
+        ]
+      },
+      {
+        "description": "A person expressing relief after receiving good news",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "Praise the Lord! I just got the job I've been praying for!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That's amazing! Congratulations! God is good indeed."
+          }
+        ]
+      }
+    ]
+  }
+}

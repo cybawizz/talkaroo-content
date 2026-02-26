@@ -1,0 +1,158 @@
+{
+  "title": "Asking a hardware store clerk for help",
+  "context": "Ask an employee which type of nail is best for hanging drywall.",
+  "content": {
+    "bestLine": "What type of nail is best for hanging drywall?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need nails for drywall",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What nails do you recommend?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with drywall nails?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for drywall nails",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best nail for drywall?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have nails for drywall?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me drywall nails?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what nails are good for drywall?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hanging drywall, what nails do I need?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any good nails for drywall?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best nail for hanging drywall?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some nails for a drywall project",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find drywall nails?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of nails are best for drywall?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require nails for a drywall installation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you recommend nails for drywall?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of nails suitable for drywall",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What type of nail is recommended for drywall?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about nails for drywall",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] nails are best for drywall?",
+        "options": [
+          "type",
+          "kind",
+          "sort"
+        ],
+        "meaning": "asking for recommendation"
+      },
+      {
+        "template": "I need [options] nails for drywall",
+        "options": [
+          "some",
+          "a few",
+          "the right"
+        ],
+        "meaning": "requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for help with drywall nails",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for nails for a drywall project"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "What type of drywall are you using?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting a recommendation for drywall nails",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What nails do you recommend for hanging drywall?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "We recommend using coarse thread drywall nails"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "title": "When departing",
+  "context": "Express final thanks and goodbyes as you walk out the door.",
+  "content": {
+    "bestLine": "Thanks, have a great day!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "See you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bye for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice meeting you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll talk to you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you around",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See ya",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It was a pleasure meeting you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day, sir/ma'am",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your hospitality",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "See you [options]",
+        "options": [
+          "later",
+          "soon",
+          "around"
+        ],
+        "meaning": "goodbye"
+      },
+      {
+        "template": "Have a [options] day",
+        "options": [
+          "great",
+          "good",
+          "nice"
+        ],
+        "meaning": "farewell"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm heading out, see you later"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, catch you later, have a great day"
+          }
+        ]
+      },
+      {
+        "description": "Leaving a formal meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thank you for your time, I appreciate it"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're welcome, it was a pleasure meeting you"
+          }
+        ]
+      }
+    ]
+  }
+}

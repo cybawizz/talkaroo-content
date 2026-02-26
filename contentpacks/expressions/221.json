@@ -1,0 +1,125 @@
+{
+  "title": "Questions asked of a restaurant customer",
+  "context": "Ask a diner how they are enjoying their meal so far.",
+  "content": {
+    "bestLine": "How's everything tasting so far?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your meal?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoying your food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your meal okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your dining experience?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything to your liking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the food?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope your meal is satisfactory.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How do you find your dining experience?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything meeting your expectations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I trust your meal is enjoyable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How is the quality of your meal?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [option]?",
+        "options": [
+          "meal",
+          "food",
+          "dining experience"
+        ],
+        "meaning": "Inquiring about the customer's enjoyment"
+      },
+      {
+        "template": "Is everything [option]?",
+        "options": [
+          "okay",
+          "to your liking",
+          "satisfactory"
+        ],
+        "meaning": "Checking if the customer is satisfied"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic Inquiry",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "How's everything tasting so far?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It's great, thank you."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Question",
+        "lines": [
+          {
+            "speaker": "Server",
+            "text": "How's your meal?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It's good, but the steak is a bit overcooked."
+          },
+          {
+            "speaker": "Server",
+            "text": "I apologize for that. Let me see what I can do."
+          }
+        ]
+      }
+    ]
+  }
+}

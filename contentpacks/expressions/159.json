@@ -1,0 +1,173 @@
+{
+  "title": "Asking about two-factor authentication",
+  "context": "Ask tech support how to set up an extra security code on your account.",
+  "content": {
+    "bestLine": "How do I set up two-factor authentication on my account?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the process for enabling 2FA?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with two-factor authentication?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I add an extra security code?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to secure my account with 2FA?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get assistance with setting up two-factor auth?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I make my account more secure with 2FA?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the steps for enabling two-factor authentication?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you walk me through the 2FA setup process?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how do I get 2FA going on my account?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me figure out this two-factor thing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up with setting up an extra security code?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I make my account super secure with 2FA?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any tips for setting up two-factor auth?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me how to do the 2FA thing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get this 2FA stuff working on my account?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the easiest way to set up two-factor authentication?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to enable two-factor authentication on my account.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please assist me with setting up 2FA?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the procedures for implementing two-factor authentication?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require guidance on setting up an additional security code.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can I enhance my account's security with two-factor authentication?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate assistance with configuring two-factor auth.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How do I [options] my account with 2FA?",
+        "options": [
+          "set up",
+          "secure",
+          "protect"
+        ],
+        "meaning": "enabling two-factor authentication"
+      },
+      {
+        "template": "Can you help me with [options] authentication?",
+        "options": [
+          "two-factor",
+          "2FA",
+          "extra security code"
+        ],
+        "meaning": "requesting assistance with two-factor authentication"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking tech support for help with 2FA",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Hi, I need help setting up two-factor authentication on my account."
+          },
+          {
+            "speaker": "Tech Support",
+            "text": "I'd be happy to assist you with that. Can you please tell me what type of device you're using?"
+          }
+        ]
+      },
+      {
+        "description": "Requesting guidance on 2FA setup",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "How do I enable two-factor authentication on my account?"
+          },
+          {
+            "speaker": "Tech Support",
+            "text": "To set up 2FA, you'll need to go to your account settings and click on the security tab. From there, you can follow the prompts to enable 2FA."
+          }
+        ]
+      }
+    ]
+  }
+}

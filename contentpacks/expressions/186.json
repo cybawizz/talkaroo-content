@@ -1,0 +1,172 @@
+{
+  "title": "Questions for a hospital patient",
+  "context": "Ask a sick friend how they are feeling or what they need.",
+  "content": {
+    "bestLine": "How are you feeling today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your condition?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your status?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How are you doing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need anything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something I can get you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the treatment going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you in any pain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I help with something?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up, feeling better?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's life in here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need anything from me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You doing alright?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab you something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your night?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You look better today!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope you're feeling better.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is your treatment proceeding as expected?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require any assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you a speedy recovery.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if you need anything.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How are you [options] today?",
+        "options": [
+          "feeling",
+          "doing"
+        ],
+        "meaning": "inquire about the patient's condition"
+      },
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "anything",
+          "something",
+          "help"
+        ],
+        "meaning": "offer assistance to the patient"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend visiting a patient",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, how are you doing today?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "I'm feeling a bit better, thanks."
+          }
+        ]
+      },
+      {
+        "description": "A family member checking in on a relative",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "How's the treatment going? Is everything okay?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Yes, everything is going smoothly. Thanks for asking."
+          }
+        ]
+      }
+    ]
+  }
+}

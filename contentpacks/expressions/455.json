@@ -1,0 +1,179 @@
+{
+  "title": "Making the best of a bad situation",
+  "context": "Encourage looking on the bright side of a negative event.",
+  "content": {
+    "bestLine": "Let's focus on the positives here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not ideal, but we can make it work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's look on the bright side",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can learn from this experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's an opportunity for growth",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get through this together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Every cloud has a silver lining",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make the most of it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not the end of the world",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, at least we're in this together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's try to find the upside",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not so bad, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can make this work, somehow",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I guess it's not all bad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just roll with it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's better than nothing, I suppose",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll figure it out, don't worry",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We must focus on the positive aspects",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to maintain a optimistic outlook",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We will make the best of this situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is crucial to find the silver lining",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must capitalize on this opportunity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is vital to remain positive and focused",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "When [options] goes wrong, we can still [options]",
+        "options": [
+          "life",
+          "things",
+          "plans",
+          "make it right",
+          "learn from it",
+          "move on"
+        ],
+        "meaning": "Finding the positive in a negative situation"
+      },
+      {
+        "template": "Every [options] has a [options]",
+        "options": [
+          "cloud",
+          "silver lining",
+          "problem",
+          "solution",
+          "difficulty",
+          "opportunity"
+        ],
+        "meaning": "Finding the positive in a negative situation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends trying to make the best of a bad situation",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm so frustrated with this situation"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, but let's try to find the upside. We can learn from this experience"
+          }
+        ]
+      },
+      {
+        "description": "A manager trying to motivate their team",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I know things aren't going as planned, but we must focus on the positive aspects"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "You're right, let's make the most of it"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "title": "Asking someone to stop being unpleasant",
+  "context": "Politely ask a person to change their negative or angry attitude.",
+  "content": {
+    "bestLine": "Could you please calm down and let's talk about this?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd appreciate it if you could tone it down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's try to have a respectful conversation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling uncomfortable with your tone",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we find a more positive way to discuss this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to resolve this issue amicably",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on finding a solution",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with your behavior",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we start over and try to be more civil?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out and let's talk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you please stop being so negative?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just relax and discuss this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting frustrated with your attitude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we just get along and talk about this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're being really harsh, can you tone it down?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's try to be more positive and find a solution",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't appreciate your tone, can you change it?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could refrain from being confrontational",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a professional demeanor and discuss this issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finding your behavior to be unproductive, can we start over?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we focus on finding a resolution rather than placing blame?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe it would be beneficial to approach this conversation with a calm and respectful attitude",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together to find a mutually beneficial solution",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I'm so glad you're being so pleasant and cooperative",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm really enjoying this conversation, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can you please continue to be as charming and delightful as you are now?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed with your ability to be rude and condescending",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Let's just keep going with this lovely conversation, it's been so much fun",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're being really helpful and constructive, please continue",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you please [options] and let's talk about this?",
+        "options": [
+          "calm down",
+          "stop being negative",
+          "be more respectful"
+        ],
+        "meaning": "asking someone to change their behavior"
+      },
+      {
+        "template": "I'm feeling [options] with your tone, can we [options]?",
+        "options": [
+          "uncomfortable",
+          "frustrated",
+          "annoyed"
+        ],
+        "meaning": "expressing discomfort with someone's behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to stop being unpleasant in a neutral tone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'd appreciate it if you could tone it down"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sorry, I got a bit carried away"
+          }
+        ]
+      },
+      {
+        "description": "Asking someone to stop being unpleasant in an informal tone",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Dude, chill out and let's talk"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, sorry about that"
+          }
+        ]
+      }
+    ]
+  }
+}

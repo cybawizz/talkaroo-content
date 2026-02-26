@@ -1,0 +1,172 @@
+{
+  "title": "Expressions about drinking additional drinks",
+  "context": "Suggest to your friends that you all order another round of alcohol.",
+  "content": {
+    "bestLine": "Let's get another round, shall we?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How about another drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should get another round",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's order another drink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who's up for another round?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we get another drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about we get another round?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have another drink",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We could use another round",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Another round, yeah?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's grab another drink",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who's in for another round?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time for another drink, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's do another round",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Another drink sounds good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How about another beer?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the drinks coming",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Let's get lit again",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Another round, bro?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Y'all ready for another?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep it going",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Who's down for another?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this party started again",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's get [options] again",
+        "options": [
+          "another round",
+          "another drink"
+        ],
+        "meaning": "suggesting another round of drinks"
+      },
+      {
+        "template": "Who's [options] for another?",
+        "options": [
+          "in",
+          "down",
+          "up"
+        ],
+        "meaning": "asking if others want another drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Suggesting another round at a bar",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Let's get another round, shall we?"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "Sounds good to me"
+          }
+        ]
+      },
+      {
+        "description": "Ordering another round at a restaurant",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "How about we get another round?"
+          },
+          {
+            "speaker": "Emily",
+            "text": "I'm in, what's everyone else having?"
+          }
+        ]
+      }
+    ]
+  }
+}

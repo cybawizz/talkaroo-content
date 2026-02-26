@@ -1,0 +1,200 @@
+{
+  "title": "Expressing stress or anxiety",
+  "context": "Tell someone that you are feeling overwhelmed or worried.",
+  "content": {
+    "bestLine": "I'm feeling really overwhelmed right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling stressed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling anxious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a break",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling tired",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling burnt out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some help",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so stressed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm losing it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on edge",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm about to snap",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling drained",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm running on empty",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing high levels of stress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling overwhelmed with work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to cope",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in need of support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling anxious about the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finding it difficult to manage my workload",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella stressed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key freaking out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key anxious",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling turnt up",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting because I'm stressed",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm feeling [options] right now",
+        "options": [
+          "stressed",
+          "anxious",
+          "overwhelmed"
+        ],
+        "meaning": "expressing current emotional state"
+      },
+      {
+        "template": "I need [options] to cope",
+        "options": [
+          "a break",
+          "some help",
+          "support"
+        ],
+        "meaning": "expressing need for assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm feeling really overwhelmed right now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong? Do you want to talk about it?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a manager",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm experiencing high levels of stress with my workload"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Let's discuss possible solutions to help you manage your tasks"
+          }
+        ]
+      }
+    ]
+  }
+}

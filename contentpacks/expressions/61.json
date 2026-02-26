@@ -1,0 +1,180 @@
+{
+  "title": "Describing a carefree person",
+  "context": "Talk about someone who clearly has absolutely no worries in life.",
+  "content": {
+    "bestLine": "She's always so relaxed and happy",
+    "groups": {
+      "neutral": [
+        {
+          "text": "No worries at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Completely stress-free",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Always smiling",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Never seems to fret",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Has a great attitude",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Very laid-back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Seems to take things easy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "She's got no cares",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Always chillin'",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Never gets worked up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lives life to the fullest",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Has a blast every day",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No stress, no fuss",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just goes with the flow",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "She exhibits a carefree demeanor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Always appears relaxed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Seems to be without worries",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Has a very positive outlook",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Conducts herself with ease",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "She's totes stress-free",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Livin' her best life",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, she's always chill",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey, she's got it together",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "She's [options] and always happy",
+        "options": [
+          "relaxed",
+          "carefree",
+          "stress-free"
+        ],
+        "meaning": "Describing someone with no worries"
+      },
+      {
+        "template": "[options] person, always smiling",
+        "options": [
+          "Carefree",
+          "Stress-free",
+          "Happy-go-lucky"
+        ],
+        "meaning": "Describing someone with a positive attitude"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking about a friend's carefree nature",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Have you met Sarah?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, she's always so relaxed and happy"
+          }
+        ]
+      },
+      {
+        "description": "Describing a colleague's positive attitude",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How's John doing?"
+          },
+          {
+            "speaker": "B",
+            "text": "He's doing great, always seems to take things easy"
+          }
+        ]
+      }
+    ]
+  }
+}

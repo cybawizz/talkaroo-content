@@ -1,0 +1,173 @@
+{
+  "title": "Repeating what you have said",
+  "context": "Say your previous sentence again so the listener completely understands.",
+  "content": {
+    "bestLine": "Let me repeat that for you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "To clarify, I said",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "As I mentioned earlier",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just to repeat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To make it clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me say that again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "As I was saying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To reiterate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "In other words",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, like I said",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just to recap",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me try that again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So, basically",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To sum it up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Like I mentioned",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just to make sure",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "So, to clarify",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "To restate my point",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If I may reiterate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me rephrase that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "As previously stated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To clarify my position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "In order to ensure understanding",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let me [options] that",
+        "options": [
+          "repeat",
+          "rephrase",
+          "say again"
+        ],
+        "meaning": "to repeat for clarity"
+      },
+      {
+        "template": "As I [options]",
+        "options": [
+          "mentioned",
+          "said",
+          "stated"
+        ],
+        "meaning": "to refer back to previous statement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Repeating for clarity in a conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Let me repeat that for you"
+          },
+          {
+            "speaker": "B",
+            "text": "Okay, I didn't quite catch it"
+          }
+        ]
+      },
+      {
+        "description": "Reiterating a point in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "To restate my point, we need to focus on sales"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand now, thank you for clarifying"
+          }
+        ]
+      }
+    ]
+  }
+}

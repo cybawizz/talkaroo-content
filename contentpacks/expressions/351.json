@@ -1,0 +1,175 @@
+{
+  "title": "Expressing differences between people",
+  "context": "State that everyone has their own unique preferences.",
+  "content": {
+    "bestLine": "Everyone has their own unique preferences",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We all have different tastes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "People have varying opinions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Individual preferences vary",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Differences are what make us unique",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everyone has their own style",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Our preferences are what set us apart",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Variety is the spice of life",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We all see things from different perspectives",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're all about different things",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "People like what they like",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all about personal preference",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've all got our own thing going on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Everyone's got their own vibe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's cool that we're all different",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We all have our own Vibe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's what makes life interesting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Individual preferences are inherently unique",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "People exhibit diverse tastes and opinions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Differences in preference are a natural aspect of human diversity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential to respect individual differences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Variations in personal taste are to be expected",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Acknowledging differences is crucial for effective communication",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think [options] is great, but you might prefer [options]",
+        "options": [
+          "coffee",
+          "tea",
+          "books",
+          "movies"
+        ],
+        "meaning": "Acknowledging differences in preference"
+      },
+      {
+        "template": "What [options] do you like?",
+        "options": [
+          "music",
+          "hobbies",
+          "food",
+          "sports"
+        ],
+        "meaning": "Asking about someone's preferences"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their different preferences",
+        "lines": [
+          {
+            "speaker": "Alice",
+            "text": "I love reading books in my free time"
+          },
+          {
+            "speaker": "Bob",
+            "text": "I'm more of a movie person myself, but that's what makes life interesting"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers respecting each other's differences",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I know we all have different work styles, and that's okay"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Exactly, it's what makes our team so diverse and strong"
+          }
+        ]
+      }
+    ]
+  }
+}

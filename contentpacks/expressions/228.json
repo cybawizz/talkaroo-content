@@ -1,0 +1,119 @@
+{
+  "title": "Questions a postal clerk might ask",
+  "context": "Ask a customer what is inside the package they are mailing.",
+  "content": {
+    "bestLine": "What's inside the package you're mailing today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's in the package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me what you're sending?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the contents of this package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything fragile in the package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of item are you mailing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I ask what's inside?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the package contain?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please disclose the package contents?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know what you're sending for shipping purposes.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the nature of the items in the package?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "For shipping records, what is inside the package?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please inform me of the package's contents.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's [option] the package?",
+        "options": [
+          "in",
+          "inside"
+        ],
+        "meaning": "inquire about package contents"
+      },
+      {
+        "template": "Can you tell me what [option] package contains?",
+        "options": [
+          "the",
+          "this"
+        ],
+        "meaning": "ask about package details"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer Interaction",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "What's inside the package you're mailing today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It's a gift for my sister."
+          }
+        ]
+      },
+      {
+        "description": "Detailed Inquiry",
+        "lines": [
+          {
+            "speaker": "Postal Clerk",
+            "text": "Could you please disclose the package contents?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "It's a book and some clothes."
+          }
+        ]
+      }
+    ]
+  }
+}

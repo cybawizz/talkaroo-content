@@ -1,0 +1,173 @@
+{
+  "title": "Asking for forgiveness",
+  "context": "Ask someone to forgive you for hurting them.",
+  "content": {
+    "bestLine": "I'm deeply sorry for hurting you, can you forgive me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I apologize for my mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sorry for what I did",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please forgive me for my actions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I regret what happened",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sorry I hurt you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you find it in your heart to forgive me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was wrong and I'm sorry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you can forgive me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I'm really sorry for what I did",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel awful about what happened",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you ever forgive me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry I messed up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was a jerk and I'm sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I hope we can move past this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry for hurting you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't expect you to forgive me, but I'm sorry",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I offer my sincerest apologies for my actions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am deeply regretful for the harm I caused",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I humbly request your forgiveness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apology for my mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am committed to making things right",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you can find it in your heart to pardon me",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] for what I did",
+        "options": [
+          "am sorry",
+          "regret",
+          "apologize"
+        ],
+        "meaning": "expressing remorse"
+      },
+      {
+        "template": "Can you [options] me for my mistake?",
+        "options": [
+          "forgive",
+          "pardon",
+          "excuse"
+        ],
+        "meaning": "requesting forgiveness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A casual conversation between friends",
+        "lines": [
+          {
+            "speaker": "Alex",
+            "text": "Hey, I'm really sorry for what I did"
+          },
+          {
+            "speaker": "Sam",
+            "text": "I appreciate your apology, let's talk about what happened"
+          }
+        ]
+      },
+      {
+        "description": "A formal apology in a workplace setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I offer my sincerest apologies for the mistake"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Thank you for acknowledging the error, let's discuss how to prevent it in the future"
+          }
+        ]
+      }
+    ]
+  }
+}

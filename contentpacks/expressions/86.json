@@ -1,0 +1,163 @@
+{
+  "title": "Inviting someone to a local show",
+  "context": "Ask a friend to come watch a small indie band play at a bar.",
+  "content": {
+    "bestLine": "Want to catch that new indie band at the bar tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I heard a great band is playing downtown.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a concert at the local bar this weekend.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A friend recommended a new band playing nearby.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I found out about a cool music event happening soon.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to attend a live music performance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's a show at the bar that I think you'd enjoy.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm planning to see a band perform live, want to join?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, there's a sick band playing at the bar tonight!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gotta come see this band with me, they're awesome!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm going to a concert this weekend, you in?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to grab a drink and check out some live music?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "There's a cool band playing at the bar, we should go!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I heard about a great show happening, want to come?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's go see some music and hang out!",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, let's roll to that fire concert tonight!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Lowkey need you to come see this dope band with me!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's gonna be a lit show, you should totes come!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella down to see some live music, you in?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Let's get turnt up and go see that band!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This concert is gonna be straight fire, don't miss it!",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options]?",
+        "options": [
+          "catch a concert",
+          "see a band",
+          "check out some live music"
+        ],
+        "meaning": "inviting someone to a music event"
+      },
+      {
+        "template": "I'm [options], want to join?",
+        "options": [
+          "going to a show",
+          "seeing a band",
+          "attending a concert"
+        ],
+        "meaning": "inviting someone to a music event"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend to a concert",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Want to catch that new indie band at the bar tonight?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I've been listening to their album nonstop!"
+          }
+        ]
+      },
+      {
+        "description": "Discussing plans to see a band",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I heard a great band is playing downtown, want to come?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Definitely, when and where is the show?"
+          }
+        ]
+      }
+    ]
+  }
+}

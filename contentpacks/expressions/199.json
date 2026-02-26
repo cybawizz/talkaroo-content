@@ -1,0 +1,158 @@
+{
+  "title": "Asking for the setlist after a show",
+  "context": "Ask a roadie or security guard if you can keep the paper song list.",
+  "content": {
+    "bestLine": "Can I keep the setlist, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is the setlist available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a copy of the setlist?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have an extra setlist?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I see the setlist?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a setlist I can take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the setlist?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to have the setlist.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind if I take the setlist?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I grab the setlist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got an extra setlist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I score a setlist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind if I take a setlist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a setlist from you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Any chance I can get the setlist?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd really appreciate the setlist.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with the setlist?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, can I cop the setlist?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a setlist to spare, dude?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get that setlist, pls?",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] the setlist?",
+        "options": [
+          "get",
+          "keep",
+          "have"
+        ],
+        "meaning": "Asking for permission to take the setlist"
+      },
+      {
+        "template": "Is there a [options] setlist?",
+        "options": [
+          "free",
+          "extra",
+          "available"
+        ],
+        "meaning": "Inquiring about the availability of a setlist"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a roadie for the setlist",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can I grab the setlist?"
+          },
+          {
+            "speaker": "Roadie",
+            "text": "Yeah, sure thing. Let me just finish packing up."
+          }
+        ]
+      },
+      {
+        "description": "Requesting the setlist from a security guard",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, can I get a copy of the setlist?"
+          },
+          {
+            "speaker": "Security Guard",
+            "text": "I'm not sure, let me check with the stage manager."
+          }
+        ]
+      }
+    ]
+  }
+}

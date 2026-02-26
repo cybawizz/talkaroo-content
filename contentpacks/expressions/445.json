@@ -1,0 +1,173 @@
+{
+  "title": "Checking in on a quiet friend",
+  "context": "Ask someone gently if they are feeling depressed or anxious.",
+  "content": {
+    "bestLine": "Hey, is everything okay? You've been quiet lately.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How are you feeling today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything alright?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem a bit down, want to talk?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I've noticed you're not yourself, what's going on?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you want to talk about what's bothering you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen if you need someone to talk to.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can trust me with whatever is on your mind.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something specific that's been stressing you out?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's going on? You're being really quiet.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, is everything okay? You seem off.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, do you want to grab coffee and talk about what's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've noticed you're not yourself lately, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can tell me anything, I'm here for you.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to talk about what's been bothering you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen, no judgment.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything alright, you've been acting weird?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I wanted to check in with you and see how you're doing.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something that's been causing you distress?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've noticed you seem a bit subdued, is everything okay?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "If you're willing, I'd like to discuss what's been going on with you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please know that you can confide in me if you need to.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about your well-being, can we talk about it?",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I've noticed you've been [options] lately, is everything okay?",
+        "options": [
+          "quiet",
+          "distant",
+          "preoccupied"
+        ],
+        "meaning": "Expressing concern for the person's well-being"
+      },
+      {
+        "template": "You seem [options], want to talk about what's going on?",
+        "options": [
+          "down",
+          "stressed",
+          "overwhelmed"
+        ],
+        "meaning": "Asking the person if they want to discuss their feelings"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking in on a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, is everything okay? You've been quiet lately."
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I'm just stressed with work and stuff."
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend if they want to talk",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Want to talk about what's been bothering you?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I don't know, I just feel really overwhelmed right now."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Asking for a secret family recipe",
+  "context": "Beg your grandmother to tell you how she makes her famous dessert.",
+  "content": {
+    "bestLine": "Grandma, please share your famous dessert recipe with me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you share your recipe?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you make your dessert?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to learn your recipe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the recipe from you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your secret ingredient?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you teach me how to make it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to make it just like you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you write down the recipe?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the deal with your dessert?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you spill the beans on your recipe?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dying to know your secret",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, grandma, share the love",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wanna make it just like yours",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the magic ingredient?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hook me up with the recipe?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm begging you, share the recipe",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Spill the tea, grandma",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good with your dessert?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me the 411 on your recipe",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key obsessed with your dessert",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the scoop?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the haps with your secret ingredient?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] your recipe?",
+        "options": [
+          "share",
+          "give me",
+          "write down"
+        ],
+        "meaning": "asking for the recipe"
+      },
+      {
+        "template": "I want to make it [options] like you",
+        "options": [
+          "just",
+          "exactly",
+          "similar to"
+        ],
+        "meaning": "asking for guidance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking grandma for the recipe",
+        "lines": [
+          {
+            "speaker": "Grandchild",
+            "text": "Grandma, can you share your famous dessert recipe with me?"
+          },
+          {
+            "speaker": "Grandma",
+            "text": "Well, I'm not sure I'm ready to share it with anyone yet"
+          }
+        ]
+      },
+      {
+        "description": "Persuading grandma to share the recipe",
+        "lines": [
+          {
+            "speaker": "Grandchild",
+            "text": "Come on, grandma, I promise I'll make it just like you"
+          },
+          {
+            "speaker": "Grandma",
+            "text": "Okay, fine. But you have to promise not to share it with anyone else"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Approaching someone you are attracted to",
+  "context": "Confidently start a conversation with someone you are interested in.",
+  "content": {
+    "bestLine": "Hi, I'm [name], how's it going?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your day?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love your scarf, where's it from?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Excuse me, is this seat taken?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you come here often?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm [name], nice to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your week?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite thing about this place?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so down for [activity], want to join?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You seem cool, can I buy you a drink?",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "What do you like to do for fun?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love your style, where do you shop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to grab coffee sometime?",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're low-key awesome, wanna hang?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella down for [activity], you in?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're giving me all the feels, wanna chat?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're totes adorbs, can I get your number?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hi, I'm [name], [options]",
+        "options": [
+          "how's it going?",
+          "what's up?",
+          "nice to meet you"
+        ],
+        "meaning": "introduction"
+      },
+      {
+        "template": "I love your [item], [options]",
+        "options": [
+          "where's it from?",
+          "it's so cool!",
+          "you have great taste!"
+        ],
+        "meaning": "compliment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation at a coffee shop",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm [name], how's it going?"
+          },
+          {
+            "speaker": "Other person",
+            "text": "I'm good, thanks. Just grabbing a coffee before work."
+          },
+          {
+            "speaker": "You",
+            "text": "Same here, I love their coffee. What do you do?"
+          }
+        ]
+      },
+      {
+        "description": "Approaching someone at a party",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's up? I'm [name]"
+          },
+          {
+            "speaker": "Other person",
+            "text": "Not much, just enjoying the music. I'm [name]"
+          },
+          {
+            "speaker": "You",
+            "text": "Nice to meet you, [name]. What brings you to this party?"
+          }
+        ]
+      }
+    ]
+  }
+}

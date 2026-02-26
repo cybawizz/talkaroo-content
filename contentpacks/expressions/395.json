@@ -1,0 +1,269 @@
+{
+  "title": "Protecting your privacy",
+  "context": "Tell someone clearly that your personal life does not concern them.",
+  "content": {
+    "bestLine": "My personal life is none of your business",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd rather not discuss that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's private information",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable sharing that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep this conversation professional",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd prefer not to talk about it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something I'm willing to discuss",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My personal life is off-limits",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not at liberty to discuss that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Mind your own biz",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not your concern, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's my private stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't pry, okay?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sharing that with you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep out of my personal life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not your problem, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not talking about that",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must insist on privacy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's confidential information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not at liberty to disclose that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain professional boundaries",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must decline to comment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a personal matter, not for discussion",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Don't get all up in my grill",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's my biz, not yours",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it on the low, a'ight?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be all nosy, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's on a need-to-know basis, and you don't need to know",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind your own, homie",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I'm so sure you need to know that",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, pry away",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I live for sharing my personal life with strangers",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You must be an expert on my life, so tell me more",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm just dying to discuss my private life with you",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Do go on, I'm fascinated by your interest in my business",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Butt out, it's none of your damn business",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Get out of my face with that question",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I don't get paid to share my life with you",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "You think you're entitled to know? Newsflash: you're not",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Back off, pal, this doesn't concern you",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Don't even think about asking me that again",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] is private",
+        "options": [
+          "life",
+          "business",
+          "affairs"
+        ],
+        "meaning": "Setting personal boundaries"
+      },
+      {
+        "template": "I'm not [options] to discuss that",
+        "options": [
+          "comfortable",
+          "willing",
+          "at liberty"
+        ],
+        "meaning": "Declining to share personal information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Setting boundaries with a coworker",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "So, what's going on with you and your partner?"
+          },
+          {
+            "speaker": "You",
+            "text": "My personal life is none of your business, let's keep it professional"
+          }
+        ]
+      },
+      {
+        "description": "Declining to share personal info with a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "What happened with you and your ex?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'd rather not discuss that, let's catch up on something else"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Expressing ignorance (quick)",
+  "context": "Honestly admit that you do not know the answer.",
+  "content": {
+    "bestLine": "I honestly don't know the answer",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unsure about that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I haven't a clue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have an answer",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's unknown to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not aware of that",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No idea",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I have no clue",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not a clue",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm drawing a blank",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a clue what you're talking about",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No clue whatsoever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stumped",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got me",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm not aware of the answer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't possess that information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with that topic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have the knowledge to answer that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That information is not available to me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not in a position to answer that",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "IDK",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No idea, dude",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm clueless, bro",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] know the answer",
+        "options": [
+          "don't",
+          "do not",
+          "don't really"
+        ],
+        "meaning": "expressing ignorance"
+      },
+      {
+        "template": "That's [options] to me",
+        "options": [
+          "unknown",
+          "a mystery",
+          "not clear"
+        ],
+        "meaning": "expressing lack of knowledge"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you know what time the movie starts?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm not sure, let me check"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a customer and a sales representative",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can you tell me about the new product?"
+          },
+          {
+            "speaker": "Sales Representative",
+            "text": "I'm not familiar with that product, let me find out more information for you"
+          }
+        ]
+      }
+    ]
+  }
+}

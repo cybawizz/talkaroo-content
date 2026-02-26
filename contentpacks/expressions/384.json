@@ -1,0 +1,173 @@
+{
+  "title": "Stating that you expected something",
+  "context": "Say that you are not surprised because you predicted the event.",
+  "content": {
+    "bestLine": "I'm not surprised, I saw it coming",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I expected as much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was only a matter of time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not surprised at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's exactly what I thought would happen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I anticipated this outcome",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was predictable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I knew it was coming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's no surprise to me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I knew it was gonna happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not shocked at all",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It was bound to happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I saw it coming a mile away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's about time, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not even surprised",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It was only a matter of when",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I figured as much",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I anticipated this result",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a predictable outcome",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I expected this to occur",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is not surprising to me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I had forecasted this event",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a likely consequence",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] it was going to happen",
+        "options": [
+          "knew",
+          "figured",
+          "expected"
+        ],
+        "meaning": "expressing predictability"
+      },
+      {
+        "template": "It was [options] that this would occur",
+        "options": [
+          "only a matter of time",
+          "predictable",
+          "likely"
+        ],
+        "meaning": "expressing inevitability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing a predictable event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not surprised by the news"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I knew it was going to happen"
+          }
+        ]
+      },
+      {
+        "description": "Reacting to an expected outcome",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I expected as much"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It was only a matter of time, right?"
+          }
+        ]
+      }
+    ]
+  }
+}

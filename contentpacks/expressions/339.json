@@ -1,0 +1,173 @@
+{
+  "title": "Stating your concurrence",
+  "context": "Say that you share the exact same opinion on a topic.",
+  "content": {
+    "bestLine": "I completely agree with you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I share your opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're on the same page",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have the same view",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's my thoughts exactly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I concur with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My opinion aligns with yours",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I see it the same way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have a shared perspective",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm with you on that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Totally agree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Same here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel the same way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're preaching to the choir",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on the same wavelength",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's my two cents too",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I couldn't agree more",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am in complete agreement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We share a common viewpoint",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My stance is identical to yours",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I concur entirely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Our opinions coincide",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I fully support your perspective",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with you",
+        "options": [
+          "agree",
+          "concur",
+          "see eye to eye"
+        ],
+        "meaning": "expressing agreement"
+      },
+      {
+        "template": "We [options] the same opinion",
+        "options": [
+          "share",
+          "have",
+          "hold"
+        ],
+        "meaning": "stating shared viewpoint"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informal conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think the new policy is a great idea"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm with you on that, it's about time for a change"
+          }
+        ]
+      },
+      {
+        "description": "Formal meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I propose we implement the new strategy"
+          },
+          {
+            "speaker": "Team Leader",
+            "text": "I am in complete agreement, it aligns with our company goals"
+          }
+        ]
+      }
+    ]
+  }
+}

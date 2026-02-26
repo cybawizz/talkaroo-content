@@ -1,0 +1,173 @@
+{
+  "title": "Asking someone for a date",
+  "context": "Politely ask a person if they would like to go out with you.",
+  "content": {
+    "bestLine": "Would you like to grab coffee with me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd love to take you out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to go on a date?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I take you out sometime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you like to meet up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to get to know you better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we go out for dinner?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we could have fun together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to try a new restaurant?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, wanna hang out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You free to grab drinks?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to catch a movie?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm game for anything, you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should totally go out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You up for an adventure?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's grab brunch this weekend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to play mini golf?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have the pleasure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be honored to take you out",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you care to join me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to invite you to dinner",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Shall we schedule a meeting?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be delighted to escort you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options] this weekend?",
+        "options": [
+          "go for a hike",
+          "try a new restaurant",
+          "see a movie"
+        ],
+        "meaning": "asking someone to spend time together"
+      },
+      {
+        "template": "I'd love to [options] with you",
+        "options": [
+          "go out for coffee",
+          "play a game",
+          "go for a walk"
+        ],
+        "meaning": "expressing interest in spending time with someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "asking someone out on a date",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, want to grab coffee with me?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'd love to, when were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "asking someone out on a formal date",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "May I have the pleasure of taking you out to dinner?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'd be delighted, thank you for asking"
+          }
+        ]
+      }
+    ]
+  }
+}

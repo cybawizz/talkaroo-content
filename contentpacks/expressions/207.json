@@ -1,0 +1,134 @@
+{
+  "title": "Asking who a caller wants to talk to",
+  "context": "Ask the person on the phone which employee they are trying to reach.",
+  "content": {
+    "bestLine": "Who can I connect you with today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Who are you trying to reach?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I connect you with someone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who's calling, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the name of the person you're calling for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who would you like to speak with?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me who you're trying to reach?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who is the call for?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "May I inquire as to who you are trying to reach?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To whom would you like to speak?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide the name of the person you wish to speak with?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Who is the intended recipient of your call?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd be happy to connect you with the appropriate person. May I ask who that is?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me the name of the person you are trying to contact?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Can I connect you with [options]?",
+        "options": [
+          "someone",
+          "the manager",
+          "a representative"
+        ],
+        "meaning": "Asking who the caller wants to talk to"
+      },
+      {
+        "template": "Who is [options]?",
+        "options": [
+          "calling",
+          "on the line",
+          "trying to reach"
+        ],
+        "meaning": "Asking for the caller's identity or intended recipient"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple inquiry",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Hello, who can I connect you with today?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "I'd like to speak with John, please."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up question",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Who are you trying to reach?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "I'm not sure. Can you tell me who handles customer service?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "That would be our customer service department. Let me connect you with them."
+          }
+        ]
+      }
+    ]
+  }
+}

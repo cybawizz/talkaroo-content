@@ -1,0 +1,173 @@
+{
+  "title": "Explaining a workout routine",
+  "context": "Tell a friend what muscle groups you are exercising today.",
+  "content": {
+    "bestLine": "I'm hitting legs and chest today",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm working on my upper body",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Today's focus is on cardio",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exercising my core muscles",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My routine includes strength training",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm targeting my lower body",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a full-body workout planned",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing a mix of weights and cardio",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My workout includes flexibility exercises",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm crushing legs today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting a sick arm day in",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm all about that cardio life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lifting heavy today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling the burn in my core",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm pushing myself to new limits",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm all about gains today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting my sweat on",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key doing a leg day",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key crushing this workout",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting turnt up in the gym",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm about to get swole",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm trying to get them gains, bruh",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm lit in the gym today",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm working on my [options]",
+        "options": [
+          "upper body",
+          "lower body",
+          "core"
+        ],
+        "meaning": "explaining workout routine"
+      },
+      {
+        "template": "Today's focus is on [options]",
+        "options": [
+          "cardio",
+          "strength training",
+          "flexibility"
+        ],
+        "meaning": "explaining workout routine"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "explaining workout routine to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, what's your workout routine like today?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm hitting legs and chest, want to join me?"
+          }
+        ]
+      },
+      {
+        "description": "discussing workout goals",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What are you trying to achieve with your workout?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm trying to build muscle and increase my endurance"
+          }
+        ]
+      }
+    ]
+  }
+}

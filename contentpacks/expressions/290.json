@@ -1,0 +1,173 @@
+{
+  "title": "Explaining the need for a mental health day",
+  "context": "Call into work because you are exhausted and overwhelmed.",
+  "content": {
+    "bestLine": "I'm taking a mental health day, I'm exhausted",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need a day to recharge",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take care of myself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling my best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a day to relax",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling burned out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to prioritize my well-being",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a day to focus on my mental health",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so done, I need a day off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling super stressed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a mental health day, ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm taking a day to chill",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not okay, I need a day",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling really overwhelmed, I need a break",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a day to get my head together",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm taking a day to prioritize my mental health",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am requesting a mental health day",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take a day to address my well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am experiencing burnout and need a day off",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a day to focus on my mental health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am taking a day to recharge and prioritize my health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take a day to manage my stress and anxiety",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm taking a [options] day",
+        "options": [
+          "mental health",
+          "sick",
+          "personal"
+        ],
+        "meaning": "taking a day off for personal reasons"
+      },
+      {
+        "template": "I need a day to [options]",
+        "options": [
+          "recharge",
+          "relax",
+          "focus on my mental health"
+        ],
+        "meaning": "taking a day off to prioritize one's well-being"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling in to work to request a mental health day",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "Hi, I'm not feeling well and I need to take a mental health day"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Okay, take care of yourself and let me know if you need anything"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the need for a mental health day with a manager",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm feeling overwhelmed and I think I need to take a day off to focus on my mental health"
+          },
+          {
+            "speaker": "Manager",
+            "text": "That's understandable, let's discuss how we can support you and make sure you have the time you need"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Returning to school after an absence",
+  "context": "Explain to a teacher why a student was missing from class the previous day.",
+  "content": {
+    "bestLine": "I was absent due to personal reasons, sorry for the inconvenience.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I had a personal issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wasn't feeling well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I had a family emergency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was out sick",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I had to take care of something",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was absent due to illness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I had a personal appointment",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I regret my absence yesterday",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was unable to attend class",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I had an unforeseen circumstance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for missing class",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I had a legitimate reason for absence",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was indisposed and unable to attend",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I was [options] and couldn't attend class",
+        "options": [
+          "sick",
+          "out of town",
+          "dealing with a personal issue"
+        ],
+        "meaning": "explaining absence due to various reasons"
+      },
+      {
+        "template": "I apologize for [options] and will catch up on the material",
+        "options": [
+          "missing class",
+          "not being able to attend",
+          "being absent"
+        ],
+        "meaning": "apologizing for absence and committing to catch up"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student explaining absence to teacher",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "I was absent due to personal reasons, sorry for the inconvenience."
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Okay, let's discuss how you can catch up on the material you missed."
+          }
+        ]
+      },
+      {
+        "description": "Student apologizing for absence and committing to catch up",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "I apologize for missing class yesterday, I had a family emergency."
+          },
+          {
+            "speaker": "Teacher",
+            "text": "I understand, please let me know if you need any help catching up on the assignments."
+          }
+        ]
+      }
+    ]
+  }
+}

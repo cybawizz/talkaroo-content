@@ -1,0 +1,237 @@
+{
+  "title": "Asking in disbelief or disagreement",
+  "context": "Ask a question that shows you cannot believe what you just heard.",
+  "content": {
+    "bestLine": "Are you kidding me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That can't be right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not following",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That doesn't make sense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confused",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you clarify?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't get it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way, that's crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're joking, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's insane",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't believe you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, that's not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You've got to be kidding me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's ridiculous",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm having trouble understanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide more context?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's an interesting perspective",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to clarify",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain your reasoning?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What the actual heck?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's wildin' out",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're trollin' me, right?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That's hella crazy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead, that's insane",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're messin' with me",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, sure, that makes total sense",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so convinced",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most ridiculous thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm shocked, just shocked",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You expect me to believe that?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's hilarious, thanks for the laugh",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] expect me to believe that?",
+        "options": [
+          "seriously",
+          "honestly",
+          "really"
+        ],
+        "meaning": "expressing disbelief"
+      },
+      {
+        "template": "That's [options] crazy",
+        "options": [
+          "totally",
+          "completely",
+          "utterly"
+        ],
+        "meaning": "expressing outrage"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking in disbelief",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I just got tickets to see my favorite band"
+          },
+          {
+            "speaker": "B",
+            "text": "No way, that's amazing! How did you manage that?"
+          }
+        ]
+      },
+      {
+        "description": "Coworker asking in disagreement",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think we should change our marketing strategy"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm not sure I agree, can you explain your reasoning?"
+          }
+        ]
+      }
+    ]
+  }
+}

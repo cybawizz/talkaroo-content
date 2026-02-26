@@ -1,0 +1,173 @@
+{
+  "title": "Expressing family solidarity",
+  "context": "State that family members must always protect and support each other.",
+  "content": {
+    "bestLine": "We've got each other's backs, no matter what.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Family sticks together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We support each other",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Family is everything",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're in this together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Family comes first",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've got each other",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "United we stand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Family is our rock",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're a team, fam",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got your back, sis",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're all in this together, bro",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Family for life",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can count on me, fam",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're a package deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back, no matter what",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Family members must support one another",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's our duty to protect each other",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Family solidarity is essential",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must prioritize family unity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Family comes first, always",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We owe it to each other to be supportive",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We [options] each other",
+        "options": [
+          "support",
+          "protect",
+          "have each other's backs"
+        ],
+        "meaning": "Family solidarity"
+      },
+      {
+        "template": "Family is [options]",
+        "options": [
+          "everything",
+          "our rock",
+          "our team"
+        ],
+        "meaning": "Family importance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Family conversation",
+        "lines": [
+          {
+            "speaker": "Mom",
+            "text": "We're all in this together, kids."
+          },
+          {
+            "speaker": "Son",
+            "text": "I know, Mom. We've got each other's backs."
+          }
+        ]
+      },
+      {
+        "description": "Siblings talking",
+        "lines": [
+          {
+            "speaker": "Sister",
+            "text": "I've got your back, bro."
+          },
+          {
+            "speaker": "Brother",
+            "text": "Thanks, sis. That means a lot to me."
+          }
+        ]
+      }
+    ]
+  }
+}

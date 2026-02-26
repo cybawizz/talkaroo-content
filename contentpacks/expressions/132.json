@@ -1,0 +1,200 @@
+{
+  "title": "Going to bed for the night",
+  "context": "Announce that you are tired and are going to sleep.",
+  "content": {
+    "bestLine": "I'm tired, going to sleep",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm going to bed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for sleep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm heading to bed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Going to get some rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tired, night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Off to sleep",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bedtime for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Getting some shut-eye",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm beat, going to sleep",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gonna crash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to hit the hay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm exhausted, night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Going night-night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done, going to bed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sleep time, yay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Tired, going to sleep",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm retiring for the night",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to sleep",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to get some rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling fatigued, goodnight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm off to bed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get some sleep",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm ghosting, going to sleep",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Tired af, night",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sleep mode activated",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm outta here, going to sleep",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Nighty night, peeps",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] going to sleep",
+        "options": [
+          "tired",
+          "exhausted",
+          "done"
+        ],
+        "meaning": "announcing sleep"
+      },
+      {
+        "template": "Time for [options]",
+        "options": [
+          "bed",
+          "sleep",
+          "rest"
+        ],
+        "meaning": "indicating bedtime"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodnight to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm tired, going to sleep"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Night, get some rest"
+          }
+        ]
+      },
+      {
+        "description": "Announcing bedtime to family",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "I'm heading to bed, kids"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, night mom"
+          }
+        ]
+      }
+    ]
+  }
+}

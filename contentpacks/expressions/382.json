@@ -1,0 +1,177 @@
+{
+  "title": "Gossiping about a terrible date",
+  "context": "Tell your friends that the person you met online was completely boring.",
+  "content": {
+    "bestLine": "He was so boring, I almost fell asleep",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The date was uneventful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't find him interesting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The conversation was dull",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't click with him",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The date was a disappointment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't enjoy his company",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He seemed unengaging",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wouldn't go out with him again",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "He was a total snooze",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was so bored out of my mind",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He had nothing going on",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I couldn't wait to leave",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He was super dull",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't feel any chemistry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He was a total waste of time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'd rather stay home than go out with him",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "He was hella boring",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was low-key checking my watch",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He was extra cringy",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was so done with the date",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "He was a total buzzkill",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I needed a drink after that date",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I was [options] during the date",
+        "options": [
+          "bored out of my mind",
+          "checking my watch",
+          "waiting for it to end"
+        ],
+        "meaning": "The date was unenjoyable"
+      },
+      {
+        "template": "He was [options] the whole time",
+        "options": [
+          "talking about himself",
+          "being super awkward",
+          "trying too hard"
+        ],
+        "meaning": "The person was uninteresting or annoying"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about the date",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, how was your date last night?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "It was so boring, I almost fell asleep"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the date with a group of friends",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm telling you, he was hella boring"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "What did he talk about?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just himself, the whole time"
+          }
+        ]
+      }
+    ]
+  }
+}

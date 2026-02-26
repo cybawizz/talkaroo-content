@@ -1,0 +1,173 @@
+{
+  "title": "Validating someone's feelings",
+  "context": "Tell someone that their anger or sadness makes complete sense.",
+  "content": {
+    "bestLine": "Your feelings make complete sense to me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's a totally normal reaction",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can see why you'd feel that way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your emotions are valid",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's understandable to feel angry/sad",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have every right to feel that way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen and support you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your feelings are justified",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It makes sense that you're feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I totally get why you're upset",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That sucks, and I'm sorry you're going through it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone in feeling that way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for you, and I care",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a really tough spot to be in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can imagine how you'd feel that way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing the best you can, and that's okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not going anywhere, I'm here to support you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your emotional response is understandable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I acknowledge the validity of your feelings",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's clear that you're experiencing a difficult time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to provide support and guidance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your feelings are a natural consequence of the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to helping you navigate this challenge",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I can [options] why you'd feel that way",
+        "options": [
+          "understand",
+          "see",
+          "imagine"
+        ],
+        "meaning": "showing empathy and understanding"
+      },
+      {
+        "template": "Your feelings are [options]",
+        "options": [
+          "valid",
+          "justified",
+          "normal"
+        ],
+        "meaning": "validating someone's emotions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend supporting a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I'm so angry about what happened"
+          },
+          {
+            "speaker": "Supportive Friend",
+            "text": "I totally get why you're upset, that's a really tough spot to be in"
+          }
+        ]
+      },
+      {
+        "description": "Therapist and client",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I feel so sad and overwhelmed all the time"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "I acknowledge the validity of your feelings, and I'm here to help you work through them"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Introducing your dog before introducing yourself",
+  "context": "Say your pet's name to a stranger at the park before giving your own.",
+  "content": {
+    "bestLine": "This is Max",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm with Max",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Max is my dog",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is my dog Max",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Max is here with me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog's name is Max",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have Max with me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Max is my companion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is Max, my pet",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, this is Max",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Max is my buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got Max here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Max is my doggo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is my pup Max",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Max is with me today",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hanging out with Max",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Max is my little dude",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What's up, this is Max",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Max is my homie",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm chillin' with Max",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Max is my fur baby",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is Max, my G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Max is my main man",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This is [options]",
+        "options": [
+          "Max",
+          "my dog",
+          "my pet"
+        ],
+        "meaning": "introducing your dog"
+      },
+      {
+        "template": "I'm here with [options]",
+        "options": [
+          "Max",
+          "my dog",
+          "my buddy"
+        ],
+        "meaning": "introducing your dog"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction at the park",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "This is Max"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Hi Max, nice to meet you"
+          }
+        ]
+      },
+      {
+        "description": "Casual introduction",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I'm with Max"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Oh, hi! What's Max's breed?"
+          }
+        ]
+      }
+    ]
+  }
+}

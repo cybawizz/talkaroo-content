@@ -1,0 +1,173 @@
+{
+  "title": "Starting an informal conversation",
+  "context": "Begin chatting casually with someone.",
+  "content": {
+    "bestLine": "How's your day going so far?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, what's new?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your week?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was your weekend?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yooo, how's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sup dude?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your day?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, long time no see!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey excited to see you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey need coffee",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, how's life?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Salty about the weekend",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Savage mode activated",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [options]?",
+        "options": [
+          "day",
+          "week",
+          "month"
+        ],
+        "meaning": "Asking about someone's recent experiences"
+      },
+      {
+        "template": "What's [options]?",
+        "options": [
+          "new",
+          "good",
+          "poppin'"
+        ],
+        "meaning": "Asking about someone's life or interests"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's good?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Not much, just got back from a trip"
+          }
+        ]
+      },
+      {
+        "description": "Starting a conversation with a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "I'm good, thanks. Just waiting for my coffee"
+          }
+        ]
+      }
+    ]
+  }
+}

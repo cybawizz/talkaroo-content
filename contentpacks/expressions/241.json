@@ -1,0 +1,131 @@
+{
+  "title": "Dropping an online college course",
+  "context": "Tell your professor you are too busy at work and must withdraw.",
+  "content": {
+    "bestLine": "I need to withdraw due to work commitments.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm too busy with work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My schedule is overwhelming",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to prioritize my job",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have enough time for the course",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My work hours have increased",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm finding it hard to balance work and study",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have too many work commitments",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to focus on my career",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to inform you that I must withdraw",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Due to unforeseen work circumstances, I must withdraw",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am compelled to prioritize my professional obligations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must withdraw from the course due to work-related constraints",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for any inconvenience, but I must withdraw",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have made the difficult decision to withdraw from the course",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need to [options] due to work",
+        "options": [
+          "withdraw",
+          "drop the course",
+          "take a break"
+        ],
+        "meaning": "explaining the reason for withdrawing"
+      },
+      {
+        "template": "My work [options] has increased, so I must withdraw",
+        "options": [
+          "hours",
+          "commitments",
+          "responsibilities"
+        ],
+        "meaning": "providing a specific reason for withdrawing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student emailing the professor",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Dear Professor, I regret to inform you that I must withdraw from the course due to unforeseen work circumstances."
+          },
+          {
+            "speaker": "Professor",
+            "text": "I understand, please let me know if there's anything I can do to support you in the future."
+          }
+        ]
+      },
+      {
+        "description": "Student meeting with the professor",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Professor, I'm finding it hard to balance work and study, so I've decided to withdraw from the course."
+          },
+          {
+            "speaker": "Professor",
+            "text": "I appreciate your honesty, let's discuss possible alternatives for the future."
+          }
+        ]
+      }
+    ]
+  }
+}

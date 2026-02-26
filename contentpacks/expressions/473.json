@@ -1,0 +1,135 @@
+{
+  "title": "Asking for a paper extension",
+  "context": "Politely ask your online instructor for three extra days to finish writing.",
+  "content": {
+    "bestLine": "I need a three-day extension to complete the paper",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I have more time to finish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to extend the deadline?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a bit more time to complete it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me an extra few days?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running behind schedule",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a short extension?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some extra time to finish",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there any way to get an extension?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I respectfully request a three-day extension",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate an extension to complete the paper",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you consider granting me a short extension?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am requesting a brief extension to finish the assignment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a few extra days to complete the paper",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking an extension to submit my paper",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I need [options] more days to finish",
+        "options": [
+          "a few",
+          "three",
+          "some"
+        ],
+        "meaning": "requesting extra time"
+      },
+      {
+        "template": "Can you [options] the deadline?",
+        "options": [
+          "extend",
+          "push back",
+          "delay"
+        ],
+        "meaning": "asking for a deadline change"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asking instructor for an extension",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Hi, I'm having some trouble finishing the paper on time"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "What's going on? Do you need an extension?"
+          }
+        ]
+      },
+      {
+        "description": "Instructor offering an extension",
+        "lines": [
+          {
+            "speaker": "Instructor",
+            "text": "How much more time do you think you'll need?"
+          },
+          {
+            "speaker": "Student",
+            "text": "Just a few more days, please"
+          }
+        ]
+      }
+    ]
+  }
+}

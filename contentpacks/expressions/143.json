@@ -1,0 +1,173 @@
+{
+  "title": "Stating the time is ten minutes to the hour",
+  "context": "Tell someone it is exactly ten minutes until the new hour.",
+  "content": {
+    "bestLine": "It's ten minutes to the hour",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Ten minutes to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's almost time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've got ten minutes left",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The hour is almost here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes until the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's ten to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're ten minutes away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is almost up",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Ten minutes, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost time, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've got ten, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's ten to, let's roll",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes, ready or not",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The hour is just around the corner",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're running out of time, ten minutes left",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes, are you ready?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is ten minutes to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have ten minutes remaining",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is ten minutes to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes until the scheduled time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are ten minutes away from the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is almost time, ten minutes to go",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] to the hour",
+        "options": [
+          "ten minutes",
+          "almost time",
+          "just about time"
+        ],
+        "meaning": "stating the time is close to the hour"
+      },
+      {
+        "template": "We've got [options] left",
+        "options": [
+          "ten minutes",
+          "a few minutes",
+          "not much time"
+        ],
+        "meaning": "stating the remaining time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What time is it?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's ten minutes to the hour"
+          }
+        ]
+      },
+      {
+        "description": "A manager reminding an employee of a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We have a meeting in ten minutes"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, I'll be right there"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "title": "Questions for a lifeguard",
+  "context": "Ask the pool attendant if diving is allowed in the deep end.",
+  "content": {
+    "bestLine": "Is diving allowed in the deep end?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I dive in the deep end?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is diving permitted?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the rule on diving?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you dive in the deep end?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the deep end open for diving?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are dives allowed in this pool?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the diving rules here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I jump in the deep end?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I dive in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is diving cool?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You guys allow diving?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we dive in the deep end?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Diving okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I cannonball?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it okay to jump in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You allow diving, right?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to know if diving is allowed.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please inform me about diving rules?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are diving activities permitted in this pool?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me about diving regulations.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is diving in the deep end authorized?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly advise on the diving policy?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is [option] allowed in the deep end?",
+        "options": [
+          "diving",
+          "jumping",
+          "cannonballs"
+        ],
+        "meaning": "Asking about specific activities"
+      },
+      {
+        "template": "What are the rules for [option]?",
+        "options": [
+          "diving",
+          "pool usage",
+          "deep end access"
+        ],
+        "meaning": "Inquiring about general or specific rules"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Inquiry",
+        "lines": [
+          {
+            "speaker": "Pool Visitor",
+            "text": "Hi, is diving allowed in the deep end?"
+          },
+          {
+            "speaker": "Lifeguard",
+            "text": "Yes, but please make sure you follow the safety guidelines posted."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Questioning",
+        "lines": [
+          {
+            "speaker": "Pool Visitor",
+            "text": "Can I dive in the deep end?"
+          },
+          {
+            "speaker": "Lifeguard",
+            "text": "Yes, you can. However, we have a few rules to ensure everyone's safety."
+          },
+          {
+            "speaker": "Pool Visitor",
+            "text": "What are the rules?"
+          },
+          {
+            "speaker": "Lifeguard",
+            "text": "You need to enter the water feet first, and no diving is allowed near the edges or when the deep end is closed."
+          }
+        ]
+      }
+    ]
+  }
+}

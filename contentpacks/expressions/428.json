@@ -1,0 +1,158 @@
+{
+  "title": "Expressing support for someone",
+  "context": "Tell someone that you are there for them and support their choices.",
+  "content": {
+    "bestLine": "I'm here for you, no matter what",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm here to support you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can count on me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I support your decision",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're good, I'm here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all about supporting you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can always come to me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm your biggest fan",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe in you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're in this together",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am committed to supporting you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my full support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here to provide assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I support your choices",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You can rely on me",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm here to [options]",
+        "options": [
+          "support you",
+          "help you",
+          "listen to you"
+        ],
+        "meaning": "expressing support"
+      },
+      {
+        "template": "You can [options] me",
+        "options": [
+          "always come to",
+          "count on",
+          "talk to"
+        ],
+        "meaning": "expressing support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend supporting a friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, I'm here for you"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Thanks, I really appreciate it"
+          }
+        ]
+      },
+      {
+        "description": "Manager supporting an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I support your decision"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Thank you, that means a lot to me"
+          }
+        ]
+      }
+    ]
+  }
+}

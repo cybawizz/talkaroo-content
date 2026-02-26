@@ -1,0 +1,205 @@
+{
+  "title": "Feeling cool or cold",
+  "context": "Complain heavily about feeling freezing or chilly.",
+  "content": {
+    "bestLine": "I'm absolutely freezing in here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's really cold today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit chilly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The temperature is quite low",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a bit cold",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit nippy outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not warm enough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The air is quite cool",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shivering a bit",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Brr, I'm so cold",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm freezing my butt off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's freaking cold in here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm chilled to the bone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm colder than ice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This cold is killing me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a heater ASAP",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm turning into an ice cube",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing a bit of cold discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The temperature seems to be quite low",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a chill in the air",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit cool in this room",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling warm enough",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The ambient temperature is quite cool",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella cold, dude",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's straight up freezing in here",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key turning into ice",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This cold is no joke, fam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a hot cup of joe, stat",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm high-key cold, bruh",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] outside",
+        "options": [
+          "freezing",
+          "chilly",
+          "cold"
+        ],
+        "meaning": "describing the temperature"
+      },
+      {
+        "template": "I'm [options] and need a [options]",
+        "options": [
+          "cold",
+          "freezing",
+          "chilly"
+        ],
+        "meaning": "expressing discomfort and seeking relief"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining about the cold with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so cold, I can barely feel my fingers"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? It's freezing in here"
+          }
+        ]
+      },
+      {
+        "description": "Talking about the cold weather with a coworker",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's really cold today, isn't it?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I'm feeling a bit chilly myself"
+          }
+        ]
+      }
+    ]
+  }
+}

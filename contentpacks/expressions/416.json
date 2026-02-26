@@ -1,0 +1,269 @@
+{
+  "title": "When someone says something outrageous",
+  "context": "React strongly to an offensive or unbelievable statement.",
+  "content": {
+    "bestLine": "Are you kidding me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's not true",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think so",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's incorrect",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure about that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not accurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm skeptical",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're joking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's insane",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't believe you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's ridiculous",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I strongly disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's unacceptable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shocked",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not acceptable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm appalled",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's outrageous",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What the heck",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That's wild",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No cap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That's straight up crazy",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dead",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That's lit",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh wow, that's amazing",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "That's so cool",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so impressed",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just great",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "Just what I needed",
+          "register": "sarcastic",
+          "risk": "medium"
+        },
+        {
+          "text": "That's perfect",
+          "register": "sarcastic",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you stupid",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That's idiotic",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're crazy",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Shut up",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "That's bulls**t",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're an idiot",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] that statement",
+        "options": [
+          "don't believe",
+          "can't accept",
+          "strongly disagree with"
+        ],
+        "meaning": "expressing disbelief or disagreement"
+      },
+      {
+        "template": "That's [options]",
+        "options": [
+          "not true",
+          "not right",
+          "not acceptable"
+        ],
+        "meaning": "expressing disagreement or disapproval"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reacting to an outrageous statement",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I just got a ticket for parking in a no-parking zone"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Are you kidding me? That's ridiculous!"
+          }
+        ]
+      },
+      {
+        "description": "Expressing disagreement",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think the new policy is a great idea"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I strongly disagree, that's not acceptable"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "When something is unimportant",
+  "context": "State that a minor issue does not matter right now.",
+  "content": {
+    "bestLine": "It's not a big deal right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Not a priority",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on something else",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not crucial",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can skip it for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No need to worry about it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a major concern",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's table it for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a key issue",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't sweat it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No biggie",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not a huge deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let it go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's no problem",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Forget about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's okay to skip it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's not a significant issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can defer it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a high priority",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can put it on hold",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not essential",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We can revisit it later",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] to worry about it",
+        "options": [
+          "not worth",
+          "not necessary"
+        ],
+        "meaning": "it's not important"
+      },
+      {
+        "template": "Let's [options] it for now",
+        "options": [
+          "skip",
+          "forget",
+          "put on hold"
+        ],
+        "meaning": "let's ignore it for now"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Team lead and team member discussing a minor issue",
+        "lines": [
+          {
+            "speaker": "Team Lead",
+            "text": "I don't think this is a big deal"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Yeah, let's focus on something else"
+          }
+        ]
+      },
+      {
+        "description": "Manager and employee discussing a project detail",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "It's not a priority, let's table it for now"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, got it"
+          }
+        ]
+      }
+    ]
+  }
+}

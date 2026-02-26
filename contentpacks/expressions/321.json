@@ -1,0 +1,149 @@
+{
+  "title": "Explaining the rules of a video game",
+  "context": "Tell a beginner the basic controls and goals of the game.",
+  "content": {
+    "bestLine": "Use the controller to move and jump",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The goal is to reach the end",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need to collect coins",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Avoid obstacles and enemies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use the map to navigate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have three lives",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The game ends when you run out of lives",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can restart from the last checkpoint",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Try to beat your high score",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just move and jump, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Grab those coins, they're important",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't get hit by the bad guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Check the map, it helps",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got this, just keep trying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, you can restart",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Beat your score, it's a challenge",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have fun, it's a game",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "To [option], press [button]",
+        "options": [
+          "jump",
+          "move",
+          "shoot"
+        ],
+        "meaning": "Explaining controls"
+      },
+      {
+        "template": "The goal is to [option] the [object]",
+        "options": [
+          "collect",
+          "destroy",
+          "reach"
+        ],
+        "meaning": "Explaining objectives"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining the game to a beginner",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Okay, so you use the controller to move and jump"
+          },
+          {
+            "speaker": "Beginner",
+            "text": "Got it, what's the goal?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "The goal is to reach the end of the level and collect as many coins as you can"
+          }
+        ]
+      },
+      {
+        "description": "Giving tips to a beginner",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Remember to avoid obstacles and enemies, they'll hurt you"
+          },
+          {
+            "speaker": "Beginner",
+            "text": "Okay, what if I get hit?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Don't worry, you have three lives, just restart from the last checkpoint"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Special instructions for a fast-food clerk",
+  "context": "Ask to remove or add a specific ingredient to your burger.",
+  "content": {
+    "bestLine": "Can I get no mayo on my burger?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get no pickles?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have no cheese, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you add lettuce?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No tomato, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get extra onions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like no bacon.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Add avocado, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold the mustard?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I ditch the mayo?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No sauce for me, thanks.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Throw some extra cheese on there.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Nix the onions, please.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good without the lettuce.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Add some jalapenos, please.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make it a double patty?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No big deal, just no pickles.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to request no mayonnaise.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please add some extra lettuce?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could hold the cheese.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a modification to the burger?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to order a burger with no tomato.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please make sure there is no bacon?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] on my burger?",
+        "options": [
+          "no mayo",
+          "extra cheese",
+          "no pickles"
+        ],
+        "meaning": "Requesting a modification to the burger"
+      },
+      {
+        "template": "I'll have [options], please.",
+        "options": [
+          "no sauce",
+          "add avocado",
+          "no onions"
+        ],
+        "meaning": "Requesting a modification to the burger"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for no mayo",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get no mayo on my burger?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Sure, I can do that. Anything else?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking for extra cheese",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get extra cheese on my burger?"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Yes, I can add extra cheese. Would you like cheddar or American?"
+          }
+        ]
+      }
+    ]
+  }
+}

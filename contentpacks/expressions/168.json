@@ -1,0 +1,173 @@
+{
+  "title": "Asking questions about an event",
+  "context": "Ask a box office employee what time the show begins.",
+  "content": {
+    "bestLine": "What time does the show start tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the start time for the show?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the event begin?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the showtime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the performance tonight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When does the show start?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the beginning time of the event?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the start time for tonight's show?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the event start?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what time's the show?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time are they opening the doors?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When's the show supposed to start?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with the start time?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a start time for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time does it kick off?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When does the fun begin?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time should I get here for the show?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please tell me the start time of the performance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the scheduled start time for tonight's event?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could inform me of the showtime.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What time is the event slated to begin?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly provide me with the start time of the show?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the commencement time for the event tonight?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time does the [options] start?",
+        "options": [
+          "show",
+          "event",
+          "performance"
+        ],
+        "meaning": "asking for the start time of an event"
+      },
+      {
+        "template": "When does the [options] begin?",
+        "options": [
+          "show",
+          "event",
+          "night"
+        ],
+        "meaning": "asking for the start time of an event"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a box office employee for the showtime",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time does the show start tonight?"
+          },
+          {
+            "speaker": "Box Office Employee",
+            "text": "The show starts at 8 PM."
+          }
+        ]
+      },
+      {
+        "description": "Asking for the start time at the event entrance",
+        "lines": [
+          {
+            "speaker": "Attendee",
+            "text": "Hey, what time's the show?"
+          },
+          {
+            "speaker": "Event Staff",
+            "text": "The doors open at 7 PM, and the show starts at 8 PM."
+          }
+        ]
+      }
+    ]
+  }
+}

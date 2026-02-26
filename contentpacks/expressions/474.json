@@ -1,0 +1,173 @@
+{
+  "title": "Explaining that you will attend to someone soon",
+  "context": "Tell someone to wait briefly and you will help them next.",
+  "content": {
+    "bestLine": "Just a minute, I'll be right with you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll be with you in a moment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just a minute, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll attend to you shortly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bear with me for a second",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be right there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just give me a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll help you in just a minute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please wait for a moment",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hang on a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be with you in a bit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just a minute, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me a minute, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll get to you in a minute",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just chill for a sec",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll be right with you, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold up, I'll be there in a minute",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'll attend to you immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please wait for just a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be with you shortly, sir/ma'am",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll assist you in just a moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please bear with me for a brief moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be happy to help you in a minute",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll be with you in [options]",
+        "options": [
+          "a minute",
+          "just a moment",
+          "a bit"
+        ],
+        "meaning": "wait briefly"
+      },
+      {
+        "template": "Please [options] for a moment",
+        "options": [
+          "wait",
+          "bear with me",
+          "hold on"
+        ],
+        "meaning": "wait briefly"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer approaches a store clerk",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I need some help"
+          },
+          {
+            "speaker": "Clerk",
+            "text": "Just a minute, I'll be right with you"
+          }
+        ]
+      },
+      {
+        "description": "Coworker asks for assistance",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Can you help me with this?"
+          },
+          {
+            "speaker": "You",
+            "text": "Hang on a sec, I'll be right there"
+          }
+        ]
+      }
+    ]
+  }
+}

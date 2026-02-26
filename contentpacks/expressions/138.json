@@ -1,0 +1,173 @@
+{
+  "title": "Stating the time is a quarter past the hour",
+  "context": "Tell someone that it is fifteen minutes past the hour.",
+  "content": {
+    "bestLine": "It's a quarter past the hour.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's 15 minutes past the hour.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is a quarter past.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's quarter past the hour now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're 15 minutes in.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a quarter after the hour.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The current time is 15 minutes past.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's 15 past.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A quarter of an hour has passed.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's a quarter past, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're 15 minutes in, guys.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's quarter after, let's go.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "15 minutes have passed, already.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a bit past the hour.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We've got 15 minutes down.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's about a quarter past.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Time's flying, it's 15 past.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The current time is a quarter past the hour.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is now 15 minutes past the hour.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are currently at a quarter past.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is 15 minutes past the hour, precisely.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It has been 15 minutes since the hour.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The hour has passed by a quarter.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] past the hour.",
+        "options": [
+          "a quarter",
+          "15 minutes",
+          "quarter of an hour"
+        ],
+        "meaning": "stating the time is a quarter past the hour"
+      },
+      {
+        "template": "We're [options] into the hour.",
+        "options": [
+          "15 minutes",
+          "a quarter of an hour",
+          "quarter past"
+        ],
+        "meaning": "indicating 15 minutes have passed since the start of the hour"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their schedule",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What time do we need to leave?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's a quarter past the hour, so we should head out soon."
+          }
+        ]
+      },
+      {
+        "description": "A manager informing an employee about a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The meeting is scheduled to start at the top of the hour, but it's already a quarter past."
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the delay, let's get started right away."
+          }
+        ]
+      }
+    ]
+  }
+}

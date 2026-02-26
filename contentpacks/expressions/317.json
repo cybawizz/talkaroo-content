@@ -1,0 +1,177 @@
+{
+  "title": "Explaining facial recognition to a parent",
+  "context": "Show your mom or dad how to unlock their new smartphone by looking at it.",
+  "content": {
+    "bestLine": "Just look at your phone to unlock it",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Look at the screen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Face the camera",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It will recognize you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No need to touch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just glance at it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The phone will unlock",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's easy to use",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Try it now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Give it a look",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Check it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's pretty cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just stare at it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It will know it's you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No password needed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like magic",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give it a try",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please look at the screen",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The device will recognize your face",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This feature provides added security",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To unlock, simply face the camera",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The phone will then grant access",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This technology is highly advanced",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "To unlock your phone, [options]",
+        "options": [
+          "just look at it",
+          "give it a glance",
+          "face the camera"
+        ],
+        "meaning": "explaining how to unlock a phone with facial recognition"
+      },
+      {
+        "template": "The phone will [options] when it sees your face",
+        "options": [
+          "unlock",
+          "recognize you",
+          "open up"
+        ],
+        "meaning": "describing the outcome of facial recognition"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A parent asking their child to explain facial recognition",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "How do I unlock this phone?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Just look at the screen, Mom"
+          }
+        ]
+      },
+      {
+        "description": "A child explaining facial recognition to their parent",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "Okay, Dad, you have to look at the camera"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Like this?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yes, exactly! The phone will recognize your face"
+          }
+        ]
+      }
+    ]
+  }
+}

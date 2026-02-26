@@ -1,0 +1,173 @@
+{
+  "title": "Stating the time is ten minutes past the hour",
+  "context": "Tell someone it is strictly ten minutes past.",
+  "content": {
+    "bestLine": "It's ten past the hour",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's ten past",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes past the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is ten past",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's 10 past",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ten past the hour exactly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The current time is ten past",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's ten minutes after the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is now ten past",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's ten past, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten past, yeah",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's 10 past, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten minutes past, easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's ten past, no worries",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten past, got it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's ten past, simple",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ten past, that's it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The time is ten past the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is now ten minutes past",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The current time is ten past",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to inform you it's ten past",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The hour is now ten minutes past",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It has just gone ten past",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] past the hour",
+        "options": [
+          "ten",
+          "five",
+          "twenty"
+        ],
+        "meaning": "stating the time"
+      },
+      {
+        "template": "The time is [options] past",
+        "options": [
+          "now",
+          "currently",
+          "exactly"
+        ],
+        "meaning": "specifying the current time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing the time",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, what's the time?"
+          },
+          {
+            "speaker": "Mike",
+            "text": "It's ten past the hour"
+          }
+        ]
+      },
+      {
+        "description": "A manager informing an employee about a meeting time",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The meeting starts at ten past the hour"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Got it, I'll be there on time"
+          }
+        ]
+      }
+    ]
+  }
+}

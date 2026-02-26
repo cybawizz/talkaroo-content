@@ -1,0 +1,173 @@
+{
+  "title": "Verifying your route when traveling",
+  "context": "Ask someone if you are currently walking in the right direction.",
+  "content": {
+    "bestLine": "Am I heading in the right direction?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is this the way to downtown?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me if I'm on the right track?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do I need to turn anywhere soon?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Am I close to the city center?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this street part of the main route?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I keep walking straight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you confirm I'm going the right way?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How far am I from the nearest landmark?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, is this the right way to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you think I'm headed in the right direction?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any idea if I'm on the right path?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind telling me if I'm close to where I need to be?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Should I just keep walking and see where I end up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you live around here? Can you help me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally lost, can you point me in the right direction?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, do you know where I am?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse me, could you please tell me if I'm on the correct route?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could confirm my direction.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me if I am approaching my destination?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible for you to direct me to the nearest major intersection?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am trying to get to the city center, could you advise me on the best route?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to tell me if I am walking in the right direction?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Am I [options] the right way?",
+        "options": [
+          "heading",
+          "going",
+          "walking"
+        ],
+        "meaning": "Asking for confirmation of the direction"
+      },
+      {
+        "template": "Can you tell me if I'm [options]?",
+        "options": [
+          "on the right track",
+          "close to my destination",
+          "near the city center"
+        ],
+        "meaning": "Seeking information about the current location or direction"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a passerby for directions",
+        "lines": [
+          {
+            "speaker": "Traveler",
+            "text": "Excuse me, am I heading in the right direction?"
+          },
+          {
+            "speaker": "Passerby",
+            "text": "Yes, you're on the right track. Just keep walking straight for about three blocks."
+          }
+        ]
+      },
+      {
+        "description": "Confirming directions with a local",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "Hi, I'm trying to get to the city center. Can you tell me if I'm on the right path?"
+          },
+          {
+            "speaker": "Local",
+            "text": "Actually, you need to turn left up ahead. I can give you a map if you'd like."
+          }
+        ]
+      }
+    ]
+  }
+}

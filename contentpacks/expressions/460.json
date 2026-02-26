@@ -1,0 +1,171 @@
+{
+  "title": "Turning someone down",
+  "context": "Politely but firmly reject a person's romantic advances.",
+  "content": {
+    "bestLine": "I appreciate your interest, but I don't feel the same way",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm flattered, but not interested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think we're a good match",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not looking for a relationship right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think you're great, but not for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to focus on myself right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't feel a romantic connection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hope we can still be friends",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you all the best",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm not feeling it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're cool, but not my type",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to keep things casual",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think we'd work out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just not interested in dating right now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You deserve someone who's really into you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I hope you understand",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's just stay friends",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to inform you that I'm not interested",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your interest, but I must decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think a romantic relationship would be suitable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish to maintain a professional relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I'm not available for a relationship",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you can understand my position",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] think we're a good match",
+        "options": [
+          "don't",
+          "don't really"
+        ],
+        "meaning": "polite rejection"
+      },
+      {
+        "template": "I'm [options] looking for someone like you",
+        "options": [
+          "not",
+          "not really"
+        ],
+        "meaning": "gentle letdown"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Turning someone down at a social event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I've really enjoyed getting to know you tonight"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I appreciate your interest, but I don't feel the same way"
+          }
+        ]
+      },
+      {
+        "description": "Rejecting someone's romantic advances at work",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "I was wondering if you'd like to grab dinner sometime?"
+          },
+          {
+            "speaker": "You",
+            "text": "I appreciate the invitation, but I don't think it's a good idea to mix work and personal life"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Asking about running routes",
+  "context": "Ask a local where the best paved trail or park is located.",
+  "content": {
+    "bestLine": "Where's the best paved trail around here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's a good running route nearby?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a new place to run.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know any good parks for running?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find a safe running trail?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are some popular running spots?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a new running route, any suggestions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any good jogging trails around here?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's a cool place to run?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so over my usual running route.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you run around here? Where do you go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a new running buddy, know any routes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best running trail in the area?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want to mix up my running routine, any ideas?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you recommend a suitable running route?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking a new location for my daily run.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have information on local running trails?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on the best running paths.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where's a good [option] to run?",
+        "options": [
+          "trail",
+          "park",
+          "route"
+        ],
+        "meaning": "Asking for a running location"
+      },
+      {
+        "template": "I'm looking for a [option] place to jog.",
+        "options": [
+          "new",
+          "safe",
+          "popular"
+        ],
+        "meaning": "Seeking a running spot"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a local for running route advice",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, do you know any good running trails around here?"
+          },
+          {
+            "speaker": "Local",
+            "text": "Actually, there's a great paved trail just a few blocks from here."
+          }
+        ]
+      },
+      {
+        "description": "Discussing running routes with a fellow runner",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I'm looking for a new running route. Do you have any favorites?"
+          },
+          {
+            "speaker": "Fellow Runner",
+            "text": "Yeah, I really like the trail by the lake. It's scenic and not too crowded."
+          }
+        ]
+      }
+    ]
+  }
+}

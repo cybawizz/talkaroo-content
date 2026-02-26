@@ -1,0 +1,173 @@
+{
+  "title": "Stating simple disagreement or refusal",
+  "context": "Say that you do not agree.",
+  "content": {
+    "bestLine": "I don't agree with that",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't think so",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I agree",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a different view",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't see it that way",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not my perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Nah, I don't think so",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not how I see it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta disagree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not my cup of tea",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's right",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here if that's the case",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No way, I don't agree",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not in line with my thoughts",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a differing opinion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't concur",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My perspective is different",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must disagree",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] agree with that",
+        "options": [
+          "don't",
+          "can't",
+          "won't"
+        ],
+        "meaning": "disagreement"
+      },
+      {
+        "template": "That's [options] what I think",
+        "options": [
+          "not",
+          "never",
+          "not exactly"
+        ],
+        "meaning": "disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple disagreement",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think that's a great idea"
+          },
+          {
+            "speaker": "B",
+            "text": "I don't agree, I think it's a bad idea"
+          }
+        ]
+      },
+      {
+        "description": "Disagreement in a discussion",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I believe we should take this approach"
+          },
+          {
+            "speaker": "B",
+            "text": "I respectfully disagree, I think we should consider other options"
+          }
+        ]
+      }
+    ]
+  }
+}

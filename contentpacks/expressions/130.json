@@ -1,0 +1,173 @@
+{
+  "title": "Getting ready to do homework",
+  "context": "Announce that it is time to start studying or doing school assignments.",
+  "content": {
+    "bestLine": "Time to start on that homework",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's get started on our assignments",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to begin our homework",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should start on our schoolwork now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Homework time has arrived",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on our studies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's homework time, let's get to it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to start our homework now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make a start on our homework",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Homework time, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this homework done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to hit the books",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's crush this homework",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Homework, let's do this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to get our study on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make homework fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get homework out of the way",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is time to commence our homework",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must begin our assignments now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us proceed with our schoolwork",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is imperative that we start our homework",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should initiate our study session",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is essential that we begin our homework now",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] our homework",
+        "options": [
+          "start",
+          "finish",
+          "do"
+        ],
+        "meaning": "begin or complete homework"
+      },
+      {
+        "template": "It's time to [options] our schoolwork",
+        "options": [
+          "start",
+          "begin",
+          "commence"
+        ],
+        "meaning": "initiate homework or study session"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student and parent discussing homework",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Time to start on that homework"
+          },
+          {
+            "speaker": "Student",
+            "text": "Okay, I'll get my books"
+          }
+        ]
+      },
+      {
+        "description": "Two students planning a study session",
+        "lines": [
+          {
+            "speaker": "Student 1",
+            "text": "Let's get started on our assignments"
+          },
+          {
+            "speaker": "Student 2",
+            "text": "Yeah, I'll meet you at the library"
+          }
+        ]
+      }
+    ]
+  }
+}

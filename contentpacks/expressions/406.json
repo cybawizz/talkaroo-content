@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging someone not to be offended",
+  "context": "Ask someone not to take a comment personally.",
+  "content": {
+    "bestLine": "Don't take it personally, okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's not take this to heart",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not meant to be personal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't let it bother you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's just a comment, forget it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No offense was intended",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move past this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be offended, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It wasn't a personal attack",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't sweat it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No big deal, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't take it to heart, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all good, don't worry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill, it's not personal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let it go, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be upset, it's cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Forget about it, man",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please, do not take offense",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was not intended to be personal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us focus on the issue, not personalities",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I assure you, no disrespect was meant",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain a professional tone",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to keep the discussion civil",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Don't [options] it",
+        "options": [
+          "take",
+          "make",
+          "let"
+        ],
+        "meaning": "Avoid taking something personally"
+      },
+      {
+        "template": "Let's [options] this",
+        "options": [
+          "move past",
+          "forget",
+          "put behind us"
+        ],
+        "meaning": "Moving forward from a potentially offensive comment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A brief conversation encouraging someone not to be offended",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Don't take it personally, okay?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm trying not to, but it's hard"
+          }
+        ]
+      },
+      {
+        "description": "A more formal conversation about not taking offense",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Please, do not take offense to the feedback"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'll try to keep it professional, thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

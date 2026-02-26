@@ -1,0 +1,152 @@
+{
+  "title": "Concerning smoking in a restaurant",
+  "context": "Ask if the restaurant has a designated area for smoking.",
+  "content": {
+    "bestLine": "Do you have a smoking section?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is smoking allowed here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a smoking area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I smoke in here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a designated smoking section?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I smoke?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you allow smoking on the patio?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is smoking permitted in the bar?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I grab a smoke in here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a smoking spot?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Where's the smoking area?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind if I smoke?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it cool to smoke outside?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have an outdoor smoking section?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you direct me to the smoking lounge?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know if smoking is permitted.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a designated area for smoking?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about your smoking policy?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is [smoking/smoke] [allowed/permitting] [here/in the restaurant]?",
+        "options": [
+          "smoking",
+          "smoke",
+          "allowed",
+          "permitting",
+          "here",
+          "in the restaurant"
+        ],
+        "meaning": "Asking about smoking policy"
+      },
+      {
+        "template": "Where can I [smoke/have a cigarette] [in/outside]?",
+        "options": [
+          "smoke",
+          "have a cigarette",
+          "in",
+          "outside"
+        ],
+        "meaning": "Asking about smoking location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about smoking area",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, do you have a smoking section?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we have a patio area where smoking is allowed."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about smoking policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to know if smoking is permitted in the bar."
+          },
+          {
+            "speaker": "Bartender",
+            "text": "Smoking is not allowed inside, but you can smoke outside on the patio."
+          }
+        ]
+      }
+    ]
+  }
+}

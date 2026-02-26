@@ -1,0 +1,173 @@
+{
+  "title": "Explaining a phishing email",
+  "context": "Point out to a coworker that the email asking for passwords is completely fake.",
+  "content": {
+    "bestLine": "This email is totally fake, don't give out your password",
+    "groups": {
+      "neutral": [
+        {
+          "text": "This email is not legitimate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be cautious with password requests",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a phishing attempt",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do not respond to this email",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a scam, ignore it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not a real email, don't worry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Fake email, do not engage",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is not a genuine request",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, this email is a total scam",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't fall for this phishing thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This email is sketchy, don't respond",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a fake email, just delete it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful, this is a phishing attempt",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't give out your password, it's a trap",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This email is not cool, don't engage",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just ignore this email, it's not legit",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "This email is a phishing attempt, please disregard",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do not provide your password, it's a security risk",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This email is not an official request",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be cautious with email requests",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a fraudulent email, do not respond",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a security threat, please ignore",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This email is a [options] attempt",
+        "options": [
+          "phishing",
+          "scam",
+          "fraudulent"
+        ],
+        "meaning": "The email is not legitimate"
+      },
+      {
+        "template": "Do not [options] to this email",
+        "options": [
+          "respond",
+          "engage",
+          "react"
+        ],
+        "meaning": "Ignore the email"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker explaining phishing email",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Hey, have you seen this email?"
+          },
+          {
+            "speaker": "You",
+            "text": "Yes, it's a phishing attempt, don't worry about it"
+          }
+        ]
+      },
+      {
+        "description": "Manager warning employees about phishing",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Remember, never give out your password via email"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Got it, I'll be careful"
+          }
+        ]
+      }
+    ]
+  }
+}

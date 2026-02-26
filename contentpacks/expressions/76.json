@@ -1,0 +1,156 @@
+{
+  "title": "Inviting someone to dance (quick)",
+  "context": "Ask someone if they would like to dance with you.",
+  "content": {
+    "bestLine": "Want to dance with me?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like to dance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Care to dance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to dance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have this dance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dance with me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shall we dance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Will you dance with me?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna dance?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, dance with me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You up for a dance?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's dance!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dance with me, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to hit the dance floor?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come dance with me!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Wanna get this party started?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You feel like dancing?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's turn up!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Dance battle?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Get on the floor!",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options]?",
+        "options": [
+          "dance",
+          "hit the dance floor"
+        ],
+        "meaning": "inviting someone to dance"
+      },
+      {
+        "template": "Let's [options]!",
+        "options": [
+          "dance",
+          "get this party started"
+        ],
+        "meaning": "suggesting to dance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting someone to dance at a party",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Want to dance?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, sure!"
+          }
+        ]
+      },
+      {
+        "description": "Inviting someone to dance at a wedding",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "May I have this dance?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'd love to!"
+          }
+        ]
+      }
+    ]
+  }
+}

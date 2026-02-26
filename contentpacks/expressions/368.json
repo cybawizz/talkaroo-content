@@ -1,0 +1,173 @@
+{
+  "title": "Bragging about a stock market gain",
+  "context": "Excitedly tell everyone that your stock portfolio skyrocketed today.",
+  "content": {
+    "bestLine": "My portfolio just skyrocketed today!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I had a great day in the market",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My stocks are doing really well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm up significantly today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The market was kind to me today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pleased with my portfolio's performance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My investments are paying off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had a successful day trading",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The stock market is treating me well",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm killing it in the market",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My stocks are on fire today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just made a killing in the market",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm on a hot streak",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My portfolio is crushing it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm raking it in today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The market is my friend today",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm making bank",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key crushing the market",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My stocks are straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm high-key making that dough",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The market is turnt up for me",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting them bags",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My portfolio is lit",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] just skyrocketed today!",
+        "options": [
+          "portfolio",
+          "stocks",
+          "investments"
+        ],
+        "meaning": "excitedly sharing a stock market gain"
+      },
+      {
+        "template": "I'm [options] in the market today!",
+        "options": [
+          "killing it",
+          "on fire",
+          "crushing it"
+        ],
+        "meaning": "boastfully describing a successful day trading"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Bragging to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "My portfolio just skyrocketed today!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's amazing! What's your secret?"
+          }
+        ]
+      },
+      {
+        "description": "Sharing with a colleague",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I had a great day in the market"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Congratulations! I'm still trying to figure it out"
+          }
+        ]
+      }
+    ]
+  }
+}

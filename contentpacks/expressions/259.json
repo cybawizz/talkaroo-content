@@ -1,0 +1,181 @@
+{
+  "title": "Requesting that the speaker get to the point",
+  "context": "Ask the person talking to stop rambling and say the important part.",
+  "content": {
+    "bestLine": "Can you please get to the point?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the main idea?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you summarize?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the key point?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you be more direct?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What do you want to say?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you get straight to it?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the bottom line?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you cut to the chase?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Spit it out already",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "What's the big idea?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the short version?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get to the good stuff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you wrap it up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the point of all this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you just say it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, get to it",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please be more concise?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the primary objective?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a summary?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the key takeaway?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you state your point clearly?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the main message?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "get to the point",
+          "be more direct",
+          "summarize"
+        ],
+        "meaning": "Requesting the speaker to be more concise"
+      },
+      {
+        "template": "What's the [options]?",
+        "options": [
+          "main idea",
+          "key point",
+          "bottom line"
+        ],
+        "meaning": "Asking for the primary objective or key takeaway"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friendly conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "So, I was thinking about this and that..."
+          },
+          {
+            "speaker": "B",
+            "text": "Can you please get to the point?"
+          },
+          {
+            "speaker": "A",
+            "text": "Oh, right. Sorry about that. The main idea is..."
+          }
+        ]
+      },
+      {
+        "description": "Formal meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Can you provide a summary of your proposal?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, of course. The key point is..."
+          },
+          {
+            "speaker": "Manager",
+            "text": "Thank you. That's much clearer."
+          }
+        ]
+      }
+    ]
+  }
+}

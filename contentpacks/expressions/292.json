@@ -1,0 +1,177 @@
+{
+  "title": "Telling someone where the bathroom is",
+  "context": "Give a guest clear directions to the nearest bathroom.",
+  "content": {
+    "bestLine": "The bathroom is just down the hall to your left.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The restroom is down the hall.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll find the bathroom just through that door.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom is located at the end of the hallway.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To find the bathroom, head down the hall and turn left.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom is straight down the hall, second door on the right.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If you need the restroom, it's just down the hallway.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom is the first door on your right down the hall.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can find the bathroom by going down the hall and turning right.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Bathroom's down the hall, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Just head down the hall, you'll see it.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom's right down that way.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta go down the hall to get to the bathroom.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bathroom's the second door on your left down the hall.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "If you need to pee, the bathroom's down the hall.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The loo's just down the hallway, mate.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Go down the hall, and you'll find the bathroom on your right.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The restroom facilities are located down the hallway.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will find the bathroom at the end of the hall to your left.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To access the bathroom, please proceed down the hall.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The bathroom is situated down the hallway, second door to the right.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you require the restroom, it is located down the hall.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You can locate the bathroom by walking down the hallway and turning left.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The bathroom is [location] the hall.",
+        "options": [
+          "down",
+          "up",
+          "at the end of"
+        ],
+        "meaning": "direction to the bathroom"
+      },
+      {
+        "template": "To find the bathroom, [action] down the hall and [direction].",
+        "options": [
+          "head",
+          "go",
+          "walk"
+        ],
+        "meaning": "giving directions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host giving directions to a guest",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Can I help you with something?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, where's the bathroom?"
+          },
+          {
+            "speaker": "Host",
+            "text": "The bathroom is just down the hall to your left."
+          }
+        ]
+      },
+      {
+        "description": "Guest asking for the bathroom location",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Excuse me, where's the restroom?"
+          },
+          {
+            "speaker": "Host",
+            "text": "You'll find it down the hall, second door on the right."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Instructions to a lawn-care worker",
+  "context": "Tell the gardener exactly which weeds or plants to pull.",
+  "content": {
+    "bestLine": "Please remove the dandelions and thistles from the lawn.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Remove the weeds around the garden",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pull out the unwanted plants",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take out the weeds near the flowers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get rid of the thistles and dandelions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Remove the weeds from the entire lawn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pull the weeds that are over 6 inches tall",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Remove the weeds that are near the sidewalk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take out the weeds that are choking out the grass",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yank out those pesky weeds",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get those dandelions outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pull the weeds, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take out the trash, I mean weeds",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Weed whack the whole lawn",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get rid of those nasty thistles",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Clean up the yard, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make the lawn look nice, pull those weeds",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please remove the unwanted vegetation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could remove the weeds",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please eradicate the thistles and dandelions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is necessary to remove the weeds from the lawn",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I request that you remove the weeds and debris",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure the lawn is free of weeds and unwanted plants",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Remove the [options] from the lawn",
+        "options": [
+          "weeds",
+          "thistles",
+          "dandelions"
+        ],
+        "meaning": "instructing the gardener to remove specific plants"
+      },
+      {
+        "template": "Please [options] the unwanted plants",
+        "options": [
+          "pull",
+          "remove",
+          "take out"
+        ],
+        "meaning": "requesting the gardener to remove unwanted plants"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Gardener arrives at the house",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Hi, please remove the dandelions and thistles from the lawn"
+          },
+          {
+            "speaker": "Gardener",
+            "text": "Okay, I'll get right on that"
+          }
+        ]
+      },
+      {
+        "description": "Gardener is unsure what to remove",
+        "lines": [
+          {
+            "speaker": "Gardener",
+            "text": "Which weeds should I remove?"
+          },
+          {
+            "speaker": "Homeowner",
+            "text": "Please remove the thistles and dandelions, they're the ones with the yellow flowers"
+          }
+        ]
+      }
+    ]
+  }
+}

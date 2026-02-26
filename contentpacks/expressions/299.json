@@ -1,0 +1,184 @@
+{
+  "title": "Describing your pet's personality",
+  "context": "Tell a friend that your cat or dog is crazy, lazy, or incredibly smart.",
+  "content": {
+    "bestLine": "My cat is literally crazy!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My pet is very energetic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is quite lazy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My cat is incredibly smart",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My pet has a unique personality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is really playful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My cat is very affectionate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My pet is quite stubborn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is very loyal",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My cat is bonkers!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog is super lazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My cat is a genius",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My pet is totally crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My dog is such a goofball",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My cat is so sassy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My pet is really quirky",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My dog is my little buddy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "My cat is hella crazy!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My dog is lowkey lazy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My cat is straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My pet is totes insane",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "My dog is my ride or die",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My cat is savage",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [pet] is [adjective]",
+        "options": [
+          "crazy",
+          "lazy",
+          "smart",
+          "playful",
+          "affectionate"
+        ],
+        "meaning": "describing pet's personality"
+      },
+      {
+        "template": "My [pet] is [adjective] because [reason]",
+        "options": [
+          "energetic",
+          "stubborn",
+          "loyal",
+          "quirky"
+        ],
+        "meaning": "explaining pet's behavior"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about your pet",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "My cat is literally crazy!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What do you mean?"
+          },
+          {
+            "speaker": "You",
+            "text": "She's always running around and knocking things over"
+          }
+        ]
+      },
+      {
+        "description": "Describing your pet's personality to a stranger",
+        "lines": [
+          {
+            "speaker": "Stranger",
+            "text": "What's your pet like?"
+          },
+          {
+            "speaker": "You",
+            "text": "My dog is really lazy, but he's also very loyal"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "That's cool, I've always wanted a lazy dog"
+          }
+        ]
+      }
+    ]
+  }
+}

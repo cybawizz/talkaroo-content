@@ -1,0 +1,181 @@
+{
+  "title": "Offering someone help and advice",
+  "context": "Kindly offer your assistance or guidance to someone struggling.",
+  "content": {
+    "bestLine": "How can I assist you right now?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you need any help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to support you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's troubling you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I do something for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone in this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How are you feeling today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me know if you need anything",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You okay, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a hand with something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to talk about it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all ears",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's grab coffee and chat",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer my assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to provide support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know how I can help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm available to discuss your concerns",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My door is open if you need to talk",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to helping you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I can [options] to help you",
+        "options": [
+          "listen",
+          "offer advice",
+          "provide resources"
+        ],
+        "meaning": "offering assistance"
+      },
+      {
+        "template": "You're not alone in [options]",
+        "options": [
+          "this struggle",
+          "feeling this way",
+          "dealing with this"
+        ],
+        "meaning": "offering support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering help to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's going on?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'm just feeling really overwhelmed"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm here to listen, want to talk about it?"
+          }
+        ]
+      },
+      {
+        "description": "Providing support in a formal setting",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "May I offer my assistance?"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "I'm having trouble with this project"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm available to discuss your concerns and provide guidance"
+          }
+        ]
+      }
+    ]
+  }
+}

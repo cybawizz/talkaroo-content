@@ -1,0 +1,205 @@
+{
+  "title": "Concerning strength",
+  "context": "Describe how tough or powerful someone is.",
+  "content": {
+    "bestLine": "They're incredibly powerful",
+    "groups": {
+      "neutral": [
+        {
+          "text": "very strong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "quite powerful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "physically fit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "has a lot of strength",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "is very capable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "can handle tough tasks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "has great endurance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "is really tough",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "super strong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "a total beast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "can lift anything",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "is a powerhouse",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "has tons of energy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "can handle anything",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "is really buff",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "has a lot of muscle",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "exceptionally strong",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "possesses great physical strength",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "demonstrates remarkable endurance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "has a high level of physical fitness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "is very capable and strong",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "exhibits impressive physical power",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "is a total boss",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "can crush it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "is hella strong",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "has got this",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "can take on anything",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They're [options] strong",
+        "options": [
+          "really",
+          "incredibly",
+          "exceptionally"
+        ],
+        "meaning": "describing someone's strength"
+      },
+      {
+        "template": "This person is [options] powerful",
+        "options": [
+          "very",
+          "quite",
+          "extremely"
+        ],
+        "meaning": "describing someone's power"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends talking about a third friend's strength",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Have you seen John lift weights?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, he's incredibly strong"
+          }
+        ]
+      },
+      {
+        "description": "A coach talking to an athlete about their performance",
+        "lines": [
+          {
+            "speaker": "Coach",
+            "text": "You're doing great, you're really powerful out there"
+          },
+          {
+            "speaker": "Athlete",
+            "text": "Thanks, coach, I've been working hard"
+          }
+        ]
+      }
+    ]
+  }
+}

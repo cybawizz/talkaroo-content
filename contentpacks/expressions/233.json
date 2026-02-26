@@ -1,0 +1,131 @@
+{
+  "title": "Asking questions at the service counter",
+  "context": "Ask a store manager for help with a return or issue.",
+  "content": {
+    "bestLine": "Excuse me, I need help with a return.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get some assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question about this product.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the store manager?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with a purchase.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to speak with a manager.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a problem with my order.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate assistance with a return.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please help me with this transaction?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance from a store manager.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to report an issue with my purchase.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I speak with a customer service representative?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request help with a product exchange.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need help with [options].",
+        "options": [
+          "a return",
+          "a refund",
+          "a product exchange"
+        ],
+        "meaning": "Requesting assistance with a specific issue"
+      },
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "help me with this product",
+          "assist me with a return",
+          "provide me with a refund"
+        ],
+        "meaning": "Requesting help or assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for help with a return",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, I need help with a return."
+          },
+          {
+            "speaker": "Store Manager",
+            "text": "Of course, what seems to be the issue with your purchase?"
+          }
+        ]
+      },
+      {
+        "description": "Customer asking to speak with a manager",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'd like to speak with a manager, please."
+          },
+          {
+            "speaker": "Store Employee",
+            "text": "Let me call my manager for you. Can you please tell me what's wrong?"
+          }
+        ]
+      }
+    ]
+  }
+}

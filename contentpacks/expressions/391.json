@@ -1,0 +1,173 @@
+{
+  "title": "Giving and receiving",
+  "context": "State the principle that relationships require compromise from both sides.",
+  "content": {
+    "bestLine": "We both need to give in a bit.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Finding middle ground is key.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Relationships require mutual understanding.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Compromise is essential for harmony.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to meet in the middle.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Both sides must be willing to listen.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give and take is crucial.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Respectful dialogue is necessary.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Understanding each other's views matters.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Let's find a compromise, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We gotta meet halfway.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we just agree to disagree?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm willing to listen if you are.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work this out together.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We can't both be right, so let's compromise.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, let's find a middle ground.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's about finding a balance.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Mutual concession is vital for success.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A balanced approach is necessary.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Compromise is the foundation of strong relationships.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Effective communication requires flexibility.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Collaborative problem-solving is key.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Finding common ground is essential.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We need to [options] to move forward.",
+        "options": [
+          "compromise",
+          "find common ground",
+          "meet in the middle"
+        ],
+        "meaning": "The necessity of compromise for progress."
+      },
+      {
+        "template": "A relationship without [options] is unlikely to succeed.",
+        "options": [
+          "compromise",
+          "mutual respect",
+          "open communication"
+        ],
+        "meaning": "The importance of compromise and respect in relationships."
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A couple discussing their differences.",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I feel like we're not seeing eye to eye."
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, but let's try to find a compromise."
+          }
+        ]
+      },
+      {
+        "description": "Colleagues negotiating a project plan.",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We need to find a middle ground that works for everyone."
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Agreed, let's discuss the options and see what we can compromise on."
+          }
+        ]
+      }
+    ]
+  }
+}

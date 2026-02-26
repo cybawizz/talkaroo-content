@@ -1,0 +1,198 @@
+{
+  "title": "Leaving things as they are",
+  "context": "Advise someone not to mess with a situation and leave it alone.",
+  "content": {
+    "bestLine": "Just leave it as is",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't touch it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let it be",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No need to change",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it the same",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Leave it alone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mess with it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's fine as it is",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't bother with it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just chill",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let sleeping dogs lie",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't rock the boat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Leave well enough alone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't fix what ain't broke",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just leave it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's best to leave it as is",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "No alterations are necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's maintain the status quo",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not necessary to make changes",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should leave it unchanged",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Don't go there",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Leave it be, G",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Ain't broke, don't fix",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Just let it ride",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mess with the vibe",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it movin'",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let [options] be",
+        "options": [
+          "it",
+          "them",
+          "things"
+        ],
+        "meaning": "Leave things alone"
+      },
+      {
+        "template": "Don't [options] with it",
+        "options": [
+          "touch",
+          "mess",
+          "bother"
+        ],
+        "meaning": "Leave it alone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend advising another friend",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I think you should just leave it alone"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "But I want to make some changes"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Trust me, it's better to leave it as is"
+          }
+        ]
+      },
+      {
+        "description": "Coworker advising colleague",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "I wouldn't touch that if I were you"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "Why not?"
+          },
+          {
+            "speaker": "Coworker 1",
+            "text": "It's working fine as it is, let's not fix what ain't broke"
+          }
+        ]
+      }
+    ]
+  }
+}

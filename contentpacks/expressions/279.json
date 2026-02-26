@@ -1,0 +1,197 @@
+{
+  "title": "Explaining that a DIY project failed",
+  "context": "Admit that you completely ruined the paint job and need a professional.",
+  "content": {
+    "bestLine": "I completely messed up the paint job, I need a pro",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The paint job didn't turn out well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a mistake with the paint",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project didn't go as planned",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to start the paint job over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The paint job is beyond repair",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should have hired a professional",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The paint job is a disaster",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not skilled enough for this project",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I totally messed up the paint job",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The paint job is a hot mess",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get a pro to fix this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so bad at DIY projects",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This paint job is a lost cause",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I should've just paid someone to do it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm never doing a DIY project again",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm such a failure at DIY",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I butchered the paint job",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "The paint job is whack",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I need a pro to bail me out",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hella bad at DIY",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This paint job is a total fail",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I should've just paid someone to do it, G",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] the paint job",
+        "options": [
+          "messed up",
+          "ruined",
+          "butchered"
+        ],
+        "meaning": "admitting failure"
+      },
+      {
+        "template": "I need a [options] to fix this",
+        "options": [
+          "pro",
+          "professional",
+          "expert"
+        ],
+        "meaning": "admitting need for help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Admitting failure to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I totally messed up the paint job"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What happened?"
+          },
+          {
+            "speaker": "You",
+            "text": "I don't know, I just can't seem to get it right"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Maybe you should just hire a pro to fix it"
+          },
+          {
+            "speaker": "You",
+            "text": "Yeah, I think you're right"
+          }
+        ]
+      },
+      {
+        "description": "Admitting failure to a family member",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm so bad at DIY projects"
+          },
+          {
+            "speaker": "Family Member",
+            "text": "What's wrong with the paint job?"
+          },
+          {
+            "speaker": "You",
+            "text": "I just can't seem to get it to look right"
+          },
+          {
+            "speaker": "Family Member",
+            "text": "Maybe you should just start over"
+          },
+          {
+            "speaker": "You",
+            "text": "I think I'll just hire someone to do it for me"
+          }
+        ]
+      }
+    ]
+  }
+}

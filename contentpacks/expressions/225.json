@@ -1,0 +1,173 @@
+{
+  "title": "Trying on clothing",
+  "context": "Ask an employee where the fitting rooms are located.",
+  "content": {
+    "bestLine": "Where are the fitting rooms?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you show me the fitting rooms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to try this on, where are the fitting rooms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the dressing rooms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you direct me to the fitting area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where are the try-on rooms?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to try this on, can you help me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where do I go to try on clothes?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some help finding the fitting rooms?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's the dressing room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point me to the try-on room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's a good place to try this on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a fitting room I can use?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I change into this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a place I can try on this outfit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me find a dressing room?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the best place to try this on?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please direct me to the fitting rooms?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could show me the dressing area.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where might I find the try-on facilities?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require assistance in locating the fitting rooms.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to point me to the dressing rooms?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to try on this item, could you help me find a fitting room?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where [options] the fitting rooms?",
+        "options": [
+          "are",
+          "can I find",
+          "do you have"
+        ],
+        "meaning": "Asking for the location of the fitting rooms"
+      },
+      {
+        "template": "Could you [options] me to the dressing area?",
+        "options": [
+          "direct",
+          "show",
+          "point"
+        ],
+        "meaning": "Requesting assistance to find the dressing area"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for fitting rooms",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, where are the fitting rooms?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "The fitting rooms are just down that aisle, to your left."
+          }
+        ]
+      },
+      {
+        "description": "Customer needing help with try-on",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I need to try this on, can you help me find a fitting room?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Of course, let me show you where they are. Right this way, please."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "title": "Feeling warm or hot",
+  "context": "Complain heavily about the intense heat of the weather or room.",
+  "content": {
+    "bestLine": "It's ridiculously hot in here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling warm",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a bit hot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The temperature is high",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sweating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's warm outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The heat is unbearable",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need some air",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's sweltering",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's crazy hot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm melting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like a sauna",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm dying from the heat",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's ridiculously hot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a fan",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's boiling",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so hot",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The temperature is quite high",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some discomfort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The heat is somewhat oppressive",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I believe it's time to adjust the thermostat",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The room is warm",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit overheated",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's hella hot",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's lit in here",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key melting",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a hot mess",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] hot",
+        "options": [
+          "really",
+          "incredibly",
+          "extremely"
+        ],
+        "meaning": "emphasizing the intensity of the heat"
+      },
+      {
+        "template": "I'm [options] from the heat",
+        "options": [
+          "dying",
+          "melting",
+          "suffering"
+        ],
+        "meaning": "expressing discomfort due to the heat"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complaining about the heat with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's ridiculously hot in here"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, I'm melting"
+          }
+        ]
+      },
+      {
+        "description": "Talking about the heat in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "The temperature is quite high"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I believe it's time to adjust the thermostat"
+          }
+        ]
+      }
+    ]
+  }
+}

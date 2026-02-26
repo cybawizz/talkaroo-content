@@ -1,0 +1,200 @@
+{
+  "title": "Expressing extreme busyness",
+  "context": "Tell someone that you have too many things to do right now.",
+  "content": {
+    "bestLine": "I have too many things to do right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm extremely busy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My plate is full",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a lot on my hands",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm overwhelmed with tasks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm slammed with work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have too much to handle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at maximum capacity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm completely booked",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm crazy busy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm up to my neck in work",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm buried under tasks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running around like crazy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm swamped with stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in way over my head",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally overwhelmed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm barely keeping up",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have a heavy workload",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fully committed at the moment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have multiple priorities to attend to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing a high volume of tasks",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm operating at full capacity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a significant amount of work to complete",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella busy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key overwhelmed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key stressed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosted by my schedule",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm extra busy",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I have [options] things to do",
+        "options": [
+          "too many",
+          "a lot of",
+          "multiple"
+        ],
+        "meaning": "expressing extreme busyness"
+      },
+      {
+        "template": "I'm [options] with work",
+        "options": [
+          "slammed",
+          "swamped",
+          "buried"
+        ],
+        "meaning": "expressing extreme busyness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two colleagues",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey, can you help me with this project?"
+          },
+          {
+            "speaker": "Emily",
+            "text": "I'm extremely busy right now, can it wait?"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Can you take on this new task?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm already at maximum capacity, can we discuss priorities?"
+          }
+        ]
+      }
+    ]
+  }
+}

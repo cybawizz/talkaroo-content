@@ -1,0 +1,202 @@
+{
+  "title": "Expressing extreme fright or fear",
+  "context": "Tell people around you that you are terrified or very scared.",
+  "content": {
+    "bestLine": "I'm terrified right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm really scared",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is frightening",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling fearful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is terrifying",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm extremely afraid",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a state of panic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing extreme fear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm very frightened",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is crazy scary",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so afraid right now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totally terrified",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having a panic attack",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really spooked",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm scared out of my wits",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm shaking with fear",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing intense fear",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This situation is causing me distress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a sense of trepidation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in a state of extreme anxiety",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm frightened by the circumstances",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing a high level of fear",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella scared",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is lowkey terrifying",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm highkey freaking out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totes terrified",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm deadass scared",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] scared",
+        "options": [
+          "really",
+          "extremely",
+          "very",
+          "totally"
+        ],
+        "meaning": "expressing varying levels of fear"
+      },
+      {
+        "template": "This is [options] terrifying",
+        "options": [
+          "really",
+          "extremely",
+          "very",
+          "crazy"
+        ],
+        "meaning": "expressing intense fear"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Expressing fear in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really scared of this situation"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong? Why are you so afraid?"
+          }
+        ]
+      },
+      {
+        "description": "Responding to someone's fear",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm freaking out right now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Hey, it's okay. I'm here for you. Let's get through this together"
+          }
+        ]
+      }
+    ]
+  }
+}

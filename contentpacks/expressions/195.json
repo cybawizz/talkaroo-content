@@ -1,0 +1,131 @@
+{
+  "title": "An employer questioning an applicant",
+  "context": "Ask a candidate challenging questions during a job interview.",
+  "content": {
+    "bestLine": "What are your strengths and weaknesses?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you tell me about yourself?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Why do you want this job?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are your long-term goals?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How would you handle a difficult situation?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What do you know about our company?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Why are you leaving your current job?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give an example of your work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you prioritize tasks?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "What relevant experience do you have?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe your management style?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do you stay current in your field?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your expectations for this role?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a reference?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think are the most important qualities for this position?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] would you bring to this role?",
+        "options": [
+          "skills",
+          "experience",
+          "perspective"
+        ],
+        "meaning": "inquiry about candidate's qualifications"
+      },
+      {
+        "template": "Can you give an example of a time when [options]?",
+        "options": [
+          "you overcame a challenge",
+          "you worked in a team",
+          "you had to make a difficult decision"
+        ],
+        "meaning": "request for specific anecdote"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Employer asking about candidate's experience",
+        "lines": [
+          {
+            "speaker": "Employer",
+            "text": "Can you tell me about your previous work experience?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "Yes, I have been working in the industry for five years."
+          }
+        ]
+      },
+      {
+        "description": "Employer asking about candidate's goals",
+        "lines": [
+          {
+            "speaker": "Employer",
+            "text": "What are your long-term career goals?"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I hope to become a leader in my field and make significant contributions."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Explaining a delayed text response",
+  "context": "Apologize for taking several hours to reply to a message.",
+  "content": {
+    "bestLine": "Sorry for the delay, just got your message",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry for the late response",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just saw your message, sorry for delay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Apologies for not responding sooner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got held up, sorry for late reply",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry I didn't get back to you sooner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just got a chance to respond, sorry for wait",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies for the delayed response",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for taking so long to get back",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, sorry I'm just getting back to you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just saw your msg, sorry for the delay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry I've been MIA, just got your text",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, sorry for the late response, been busy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just got a chance to respond, sorry bout that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry I didn't hit you back sooner, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, sorry for the wait, just got your message",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry I've been out of touch, just got back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the delay in my response",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies for the late reply",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret not responding sooner, thank you for waiting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for any inconvenience caused by my delayed response",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your patience, I apologize for the wait",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for not responding in a timely manner",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sorry for the [delay/late response/wait]",
+        "options": [
+          "delay",
+          "late response",
+          "wait"
+        ],
+        "meaning": "Apologizing for taking time to respond"
+      },
+      {
+        "template": "Just [saw/got] your message, sorry for the [delay/late response]",
+        "options": [
+          "saw",
+          "got"
+        ],
+        "meaning": "Explaining the reason for the delayed response"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing for a delayed response in a casual conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, where have you been? I sent you a message hours ago"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Sorry, I just saw your message, I've been really busy"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing for a delayed response in a formal setting",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I sent you a message yesterday and haven't heard back, is everything okay?"
+          },
+          {
+            "speaker": "Service Provider",
+            "text": "I apologize for the delay in my response, I'll get back to you right away"
+          }
+        ]
+      }
+    ]
+  }
+}

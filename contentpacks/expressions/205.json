@@ -1,0 +1,173 @@
+{
+  "title": "Asking permission to pet an animal",
+  "context": "Politely ask an owner if their dog is friendly before touching it.",
+  "content": {
+    "bestLine": "Is your dog friendly?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "May I pet your dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay to touch your dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I give your dog a pat?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your dog approachable?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind if I pet your dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it safe to pet your dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I interact with your dog?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your dog socialized?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I give your pup a belly rub?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is your dog cool with strangers?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Mind if I say hi to your dog?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I play with your dog?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is your dog friendly with kids?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I take a selfie with your dog?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is your dog okay with being petted?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I give your dog a treat?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if I could pet your dog?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would it be acceptable to touch your dog?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have permission to interact with your dog?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it permissible to give your dog a pat?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to ask if your dog is approachable?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I request to pet your dog, please?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is your dog [options]?",
+        "options": [
+          "friendly",
+          "socialized",
+          "approachable"
+        ],
+        "meaning": "Asking about the dog's temperament"
+      },
+      {
+        "template": "May I [options] your dog?",
+        "options": [
+          "pet",
+          "touch",
+          "give a belly rub to"
+        ],
+        "meaning": "Requesting permission to interact with the dog"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Approaching a dog owner in a park",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, is your dog friendly?"
+          },
+          {
+            "speaker": "Dog Owner",
+            "text": "Yes, she is. You can pet her."
+          }
+        ]
+      },
+      {
+        "description": "Meeting a dog owner at a party",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm [Your Name]. May I pet your dog?"
+          },
+          {
+            "speaker": "Dog Owner",
+            "text": "I'm [Dog Owner's Name]. Yes, you can. His name is Max."
+          }
+        ]
+      }
+    ]
+  }
+}

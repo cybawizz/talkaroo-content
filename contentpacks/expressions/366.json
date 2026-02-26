@@ -1,0 +1,204 @@
+{
+  "title": "Discussing an artist selling out",
+  "context": "Complain that a band changed their style just to make more money.",
+  "content": {
+    "bestLine": "They totally sold out, their new sound is so fake",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Their music has changed significantly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a fan of their new direction",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The band's style has become more commercial",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their new album lacks the edge of their previous work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The artist's priorities seem to have shifted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I miss their old sound",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their music is now more mainstream",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The band has lost their originality",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They've totally gone mainstream",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't recognize their new sound",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're just making music for the money now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Their new album is a total disappointment",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They've lost their edge",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so over their new music",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "They're just trying to fit in now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Their music is so generic now",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "They've sold out, bruh",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Their new sound is hella lame",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "They're just chasing that dough now",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Their music is straight fire... said no one",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "They've gone full mainstream, yo",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Their new album is a total banger... not",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, another album that sounds just like everything else",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, they're so original now",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so impressed by their new commercial sound",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "They've really stayed true to their roots... said no one",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Their music is still so edgy and unique",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They've [options] their sound",
+        "options": [
+          "sold out",
+          "gone mainstream",
+          "lost their edge"
+        ],
+        "meaning": "changed their music style for financial gain"
+      },
+      {
+        "template": "Their music is [options] now",
+        "options": [
+          "so commercial",
+          "totally generic",
+          "just like everything else"
+        ],
+        "meaning": "their music has become less original and more mainstream"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a band's new album",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Have you heard their new album?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, it's so different from their old stuff. They've totally sold out."
+          }
+        ]
+      },
+      {
+        "description": "A group of people talking about a band's change in style",
+        "lines": [
+          {
+            "speaker": "Person 1",
+            "text": "I don't get why they had to change their sound"
+          },
+          {
+            "speaker": "Person 2",
+            "text": "They probably did it for the money"
+          },
+          {
+            "speaker": "Person 3",
+            "text": "Yeah, their new music is so mainstream now. It's like they're trying to fit in or something."
+          }
+        ]
+      }
+    ]
+  }
+}

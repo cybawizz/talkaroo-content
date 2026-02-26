@@ -1,0 +1,175 @@
+{
+  "title": "Reporting strange physical responses",
+  "context": "Tell a doctor or friend that you are shivering or suddenly sweating.",
+  "content": {
+    "bestLine": "I'm suddenly sweating and feeling really cold",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling a bit chilly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the sweats",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body is shivering",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing cold sweats",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling really cold all of a sudden",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My skin is breaking out in sweat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting the chills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My body temperature is dropping",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freezing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sweating bullets",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the shakes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having a hot flash",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting the sweats something fierce",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My body is freaking out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all sweaty and gross",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shivering like crazy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing sudden chills",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having an unusual sweating episode",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My body is exhibiting symptoms of hypothermia",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a sudden drop in body temperature",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm presenting with cold sweats and shivering",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm undergoing a physiological response to stress",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] and feeling really [options]",
+        "options": [
+          "sweating",
+          "shivering",
+          "cold",
+          "hot"
+        ],
+        "meaning": "reporting physical symptoms"
+      },
+      {
+        "template": "My body is [options] and I'm feeling [options]",
+        "options": [
+          "breaking out in sweat",
+          "shivering",
+          "cold",
+          "uncomfortable"
+        ],
+        "meaning": "describing physical sensations"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "telling a doctor about symptoms",
+        "lines": [
+          {
+            "speaker": "patient",
+            "text": "I'm suddenly sweating and feeling really cold"
+          },
+          {
+            "speaker": "doctor",
+            "text": "Can you tell me more about what you're experiencing?"
+          }
+        ]
+      },
+      {
+        "description": "telling a friend about symptoms",
+        "lines": [
+          {
+            "speaker": "friend1",
+            "text": "I'm freezing and I don't know why"
+          },
+          {
+            "speaker": "friend2",
+            "text": "Maybe you should go see a doctor or something"
+          }
+        ]
+      }
+    ]
+  }
+}

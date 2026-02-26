@@ -1,0 +1,125 @@
+{
+  "title": "Asking what streaming service something is on",
+  "context": "Ask a friend if a movie is on Netflix, Hulu, or something else.",
+  "content": {
+    "bestLine": "Is that movie on Netflix or Hulu?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What streaming service is it on?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it available on Netflix?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I find it on Hulu?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which platform has it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it on Amazon Prime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I stream it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What service is it streaming on?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Is it on Netflix or something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I watch it on Hulu?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's it streaming on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is that on Amazon or Netflix?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's it streaming?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you stream it on Disney+?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Is it on [options]?",
+        "options": [
+          "Netflix",
+          "Hulu",
+          "Amazon Prime"
+        ],
+        "meaning": "Asking about the streaming service"
+      },
+      {
+        "template": "Where can I find it on [options]?",
+        "options": [
+          "streaming services",
+          "online platforms"
+        ],
+        "meaning": "Asking about availability"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking about a movie",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, is that new movie on Netflix?"
+          },
+          {
+            "speaker": "You",
+            "text": "No, I think it's on Hulu. Let me check."
+          }
+        ]
+      },
+      {
+        "description": "Asking about a TV show",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What service is that show streaming on?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "It's on Amazon Prime, I think."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Networking at a shared office",
+  "context": "Introduce yourself to the freelancer sitting next to you.",
+  "content": {
+    "bestLine": "Hi, I'm [Your Name], nice to meet you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello, how's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm new here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your day so far?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm [Your Name], welcome to the space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've seen you around, thought I'd say hi",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you like the office so far?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hi, I'm [Your Name], nice to meet you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your story, what do you do?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I love your laptop sticker, what's it from?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Want to grab a coffee and chat?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to get some work done, but it's nice to meet you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you come here often?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, I'm [Your Name]",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's a pleasure to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm [Your Name], a freelancer in [field]",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to the office, I'm happy to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking forward to getting to know you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hi, I'm [name] and I [verb] in [field]",
+        "options": [
+          "code",
+          "design",
+          "write"
+        ],
+        "meaning": "introduction"
+      },
+      {
+        "template": "What do you think of [topic]?",
+        "options": [
+          "the office",
+          "the city",
+          "the industry"
+        ],
+        "meaning": "conversation starter"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Introduction and small talk",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm [Your Name], nice to meet you"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "Hi, I'm [Freelancer's Name], nice to meet you too"
+          }
+        ]
+      },
+      {
+        "description": "Asking about work",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What brings you to this office?"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "I'm working on a project for a client, how about you?"
+          }
+        ]
+      }
+    ]
+  }
+}

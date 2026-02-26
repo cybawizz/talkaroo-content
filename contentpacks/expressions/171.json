@@ -1,0 +1,173 @@
+{
+  "title": "Asking for an explanation",
+  "context": "Request that someone explain a situation or idea more clearly.",
+  "content": {
+    "bestLine": "Can you explain that in simpler terms?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you clarify that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't understand, can you explain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break it down for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I follow, can you elaborate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me an example?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does that work exactly?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain it in more detail?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to understand that better, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the deal with that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you dumb it down for me?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's that supposed to work?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the lowdown?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lost, can you explain it again?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the story behind that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you make it simpler?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you walk me through it?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide a detailed explanation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could clarify that point.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide an example to illustrate your point?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble understanding, could you explain it again?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you elaborate on that concept?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a clearer explanation.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you explain [options]?",
+        "options": [
+          "that",
+          "it",
+          "this concept"
+        ],
+        "meaning": "Requesting an explanation"
+      },
+      {
+        "template": "I don't understand [options], can you help?",
+        "options": [
+          "this",
+          "that",
+          "what you mean"
+        ],
+        "meaning": "Asking for clarification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a teacher for an explanation",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Can you explain that again?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Of course, let me try to simplify it."
+          }
+        ]
+      },
+      {
+        "description": "Asking a colleague for clarification",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I'm not sure I follow, can you elaborate?"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Sure, let me give you an example."
+          }
+        ]
+      }
+    ]
+  }
+}

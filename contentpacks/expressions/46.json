@@ -1,0 +1,173 @@
+{
+  "title": "Returning a favor or good deed",
+  "context": "Thank someone and repay a kindness they showed you.",
+  "content": {
+    "bestLine": "Thanks so much for your help, I owe you one!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thank you for your kindness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a lifesaver",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your support",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for being there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your generosity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've been a huge help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for looking out for me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks buddy, I owe you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so grateful, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You saved my bacon, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate it, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for having my back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a legend, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in your debt, thanks",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you for your assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your courtesy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my sincere gratitude",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am indebted to you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your kindness and support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help and guidance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for [options]",
+        "options": [
+          "your help",
+          "being there",
+          "your support"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "I appreciate [options]",
+        "options": [
+          "your kindness",
+          "your generosity",
+          "your assistance"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Returning a favor in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, thanks for helping me move"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No problem, happy to help"
+          }
+        ]
+      },
+      {
+        "description": "Returning a favor in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I wanted to express my gratitude for your assistance"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You're welcome, it was my pleasure"
+          }
+        ]
+      }
+    ]
+  }
+}

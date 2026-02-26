@@ -1,0 +1,179 @@
+{
+  "title": "Giving a child instructions for television watching",
+  "context": "Tell a child to turn down the TV or turn it off.",
+  "content": {
+    "bestLine": "Please turn down the TV or turn it off now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Turn the TV down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn off the TV",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lower the volume",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to stop watching",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn it off now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "TV time is over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please turn it down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's quiet time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, turn it down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time to shut it off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you turn it off?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take a break",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Turn the volume down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's getting late",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's do something else",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you please turn it off?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I need you to turn off the TV",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time to discontinue watching",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please adjust the volume to zero",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to conclude TV time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require you to turn it off now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's necessary to turn off the TV",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the TV?",
+        "options": [
+          "turn off",
+          "turn down"
+        ],
+        "meaning": "asking the child to stop or reduce TV watching"
+      },
+      {
+        "template": "It's time to [options] the TV",
+        "options": [
+          "turn off",
+          "stop watching"
+        ],
+        "meaning": "telling the child that TV time is over"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent asking child to turn off the TV",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please turn off the TV"
+          },
+          {
+            "speaker": "Child",
+            "text": "But why?"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Because it's getting late and it's time for bed"
+          }
+        ]
+      },
+      {
+        "description": "Parent asking child to turn down the TV",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Can you turn it down?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Thank you, I appreciate it"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "title": "Concerning the impossible",
+  "context": "Tell your boss that a requested task literally cannot be done.",
+  "content": {
+    "bestLine": "It's literally not feasible with our current resources",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It can't be done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not possible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't make it work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not feasible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We don't have the capability",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's beyond our scope",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can't achieve that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not viable",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way we can do that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not gonna happen",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not set up for that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a no-go",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We can't pull it off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not in the cards",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're not equipped for that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not gonna work out",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is not a viable option",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We do not have the necessary resources",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is not feasible at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are not capable of completing that task",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is not a realistic goal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We do not have the expertise to accomplish that",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We can't [options] with our current resources",
+        "options": [
+          "do that",
+          "make it work",
+          "achieve that"
+        ],
+        "meaning": "expressing inability to complete a task"
+      },
+      {
+        "template": "It's not [options] for us to complete that task",
+        "options": [
+          "feasible",
+          "viable",
+          "possible"
+        ],
+        "meaning": "expressing impossibility of completing a task"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Informing the boss of an impossible task",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I've reviewed the project requirements, and I have to say, it's literally not feasible with our current resources"
+          },
+          {
+            "speaker": "Boss",
+            "text": "What do you mean? Can't we just work harder to get it done?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand where you're coming from, but we're talking about a fundamental limitation here. We just don't have the capability to make it work"
+          }
+        ]
+      },
+      {
+        "description": "Discussing an impossible task with a team member",
+        "lines": [
+          {
+            "speaker": "Team Member",
+            "text": "Hey, have you started working on that new project task yet?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Actually, I've been looking into it, and I think we need to reassess. It's just not viable for us to complete that task"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Really? What makes you say that?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Well, we're talking about a scope that's beyond our current expertise and resources. We'd need to bring in external help or significantly adjust our approach"
+          }
+        ]
+      }
+    ]
+  }
+}

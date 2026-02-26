@@ -1,0 +1,173 @@
+{
+  "title": "Simple agreement",
+  "context": "Say that you agree directly.",
+  "content": {
+    "bestLine": "I completely agree with you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I agree",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's correct",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That makes sense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I see what you mean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I concur",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's true",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yeah, I'm with you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Totally agree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the same page",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's so true",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm down with that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're spot on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got your back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I agree entirely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a valid point",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I concur with your assessment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your statement is accurate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I support your position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your opinion is well-founded",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with you",
+        "options": [
+          "agree",
+          "concur",
+          "see eye to eye"
+        ],
+        "meaning": "showing agreement"
+      },
+      {
+        "template": "You're [options]",
+        "options": [
+          "right",
+          "correct",
+          "spot on"
+        ],
+        "meaning": "expressing agreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple agreement in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think we should go to the beach"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I completely agree with you"
+          }
+        ]
+      },
+      {
+        "description": "Agreement in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I propose we increase the budget for marketing"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I agree entirely, it's a good strategy"
+          }
+        ]
+      }
+    ]
+  }
+}

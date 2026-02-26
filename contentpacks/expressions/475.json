@@ -1,0 +1,173 @@
+{
+  "title": "Special orders in a bakery",
+  "context": "Request a custom cake or specific large order from a bakery.",
+  "content": {
+    "bestLine": "I'd like to order a custom cake for a special occasion.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get a cake with custom design?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a cake for a large group.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer custom cake orders?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a unique cake design.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make a cake for a wedding?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want a cake with a specific flavor.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any cake specials?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a cake for a birthday party.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get a custom cake?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a cake that's totally unique.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with a custom cake?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm looking for a cake that's off the menu.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make a cake with a fun design?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want a cake that's gonna blow minds.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a cake with a crazy flavor?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a cake that's gonna feed a crowd.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to place a custom cake order.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with a special cake request?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require a cake for a formal event.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a custom cake quote?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need a cake that meets specific dietary requirements.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you create a custom cake design for me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to order a [options] cake.",
+        "options": [
+          "custom",
+          "wedding",
+          "birthday"
+        ],
+        "meaning": "Requesting a specific type of cake"
+      },
+      {
+        "template": "Can you make a cake with [options]?",
+        "options": [
+          "custom design",
+          "specific flavor",
+          "unique ingredients"
+        ],
+        "meaning": "Asking about custom cake options"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting a custom cake",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'd like to order a custom cake for my sister's birthday."
+          },
+          {
+            "speaker": "Baker",
+            "text": "What kind of design are you looking for?"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about custom cake options",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you offer custom cake orders?"
+          },
+          {
+            "speaker": "Baker",
+            "text": "Yes, we do. What kind of cake are you looking for?"
+          }
+        ]
+      }
+    ]
+  }
+}

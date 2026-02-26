@@ -1,0 +1,173 @@
+{
+  "title": "Asking questions at a post office",
+  "context": "Ask a postal clerk how long a package will take to arrive.",
+  "content": {
+    "bestLine": "How long will it take for this package to arrive?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the delivery time for this package?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does shipping usually take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the estimated arrival time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the expected delivery date?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many days will it take to arrive?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the typical shipping time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you estimate the arrival time?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long will it take to get there?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How long till it gets there?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the wait time?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How many days is shipping?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When can I expect it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long's the delivery?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When will it arrive?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How long does it take to ship?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the shipping time?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of the estimated delivery time?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me the expected arrival date.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the anticipated shipping time for this package?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with an estimated time of arrival?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know the projected delivery date.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the standard delivery time for this type of package?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How long will it take for [options] to arrive?",
+        "options": [
+          "this package",
+          "my package",
+          "the package"
+        ],
+        "meaning": "asking about delivery time"
+      },
+      {
+        "template": "What's the [options] time for this package?",
+        "options": [
+          "delivery",
+          "shipping",
+          "arrival"
+        ],
+        "meaning": "asking about delivery time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about delivery time",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How long will it take for this package to arrive?"
+          },
+          {
+            "speaker": "Postal Clerk",
+            "text": "It will take 3-5 business days."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about shipping time",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's the typical shipping time?"
+          },
+          {
+            "speaker": "Postal Clerk",
+            "text": "It usually takes 2-3 days, but it depends on the destination."
+          }
+        ]
+      }
+    ]
+  }
+}

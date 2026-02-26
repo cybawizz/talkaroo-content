@@ -1,0 +1,207 @@
+{
+  "title": "Asking about the alertness of someone",
+  "context": "Check if someone is paying attention or fully awake.",
+  "content": {
+    "bestLine": "Are you awake?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you paying attention?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you awake?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you with me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you alert?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you focused?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you awake now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you coherent?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you aware of your surroundings?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You awake?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You with it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You awake now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You paying attention?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You alert?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You on it?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You straight?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You good to go?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You woke?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You turnt up?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You on point?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You all there?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, you're awake now?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, you're so alert",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Great, you're finally paying attention",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Awesome, you're coherent again",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Good job, you're awake",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're so focused, wow",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are you [options]?",
+        "options": [
+          "awake",
+          "asleep",
+          "alert",
+          "focused"
+        ],
+        "meaning": "Checking someone's alertness"
+      },
+      {
+        "template": "You [options]?",
+        "options": [
+          "good",
+          "okay",
+          "awake",
+          "straight"
+        ],
+        "meaning": "Informal way of checking someone's alertness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking someone's alertness in a neutral setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Are you awake?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm fine"
+          }
+        ]
+      },
+      {
+        "description": "Checking someone's alertness in an informal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You okay?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm good"
+          }
+        ]
+      }
+    ]
+  }
+}

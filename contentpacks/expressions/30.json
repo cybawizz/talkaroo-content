@@ -1,0 +1,207 @@
+{
+  "title": "Expressing your state of health and happiness",
+  "context": "Tell someone how you are feeling generally.",
+  "content": {
+    "bestLine": "I'm doing great, thanks for asking!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing alright",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm healthy and happy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in good spirits",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling positive",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm doing awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on top of the world",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living my best life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving every minute",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm stoked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm psyched",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm doing exceptionally well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in excellent health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling very satisfied",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pleased with my situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for my well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fortunate to be healthy",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key happy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key excited",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella good",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totes fine",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm killing it",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] today",
+        "options": [
+          "good",
+          "great",
+          "amazing",
+          "awesome"
+        ],
+        "meaning": "expressing a positive state of mind"
+      },
+      {
+        "template": "I'm feeling [options] about life",
+        "options": [
+          "positive",
+          "optimistic",
+          "happy",
+          "satisfied"
+        ],
+        "meaning": "expressing a favorable outlook"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A casual conversation between friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how's it going?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm doing great, thanks for asking!"
+          }
+        ]
+      },
+      {
+        "description": "A formal introduction at a business meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hello, it's nice to meet you"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Likewise, I'm doing exceptionally well, thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

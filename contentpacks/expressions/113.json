@@ -1,0 +1,173 @@
+{
+  "title": "Giving thanks for a gift",
+  "context": "Express gratitude after receiving a present from someone.",
+  "content": {
+    "bestLine": "Thank you so much for the gift!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thanks for the gift",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate the present",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for thinking of me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your gift",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your kindness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm thankful for your generosity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the thoughtful gift",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your thoughtfulness",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks so much!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love the gift!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks a ton!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so grateful!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for the awesome gift!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're amazing!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for being so thoughtful!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am deeply grateful for your gift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your generous gift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your thoughtfulness and kindness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my sincere thanks for the gift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am thankful for your consideration and gift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your exceptional generosity",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for the [options] gift!",
+        "options": [
+          "beautiful",
+          "thoughtful",
+          "generous"
+        ],
+        "meaning": "Expressing gratitude for a gift"
+      },
+      {
+        "template": "I [options] appreciate your gift!",
+        "options": [
+          "really",
+          "truly",
+          "deeply"
+        ],
+        "meaning": "Showing appreciation for a gift"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Receiving a gift from a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I got you a gift!"
+          },
+          {
+            "speaker": "You",
+            "text": "Thank you so much! I love it!"
+          }
+        ]
+      },
+      {
+        "description": "Receiving a gift from a family member",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "I wanted to get you something special"
+          },
+          {
+            "speaker": "You",
+            "text": "Thanks, Mom/Dad! It's beautiful!"
+          }
+        ]
+      }
+    ]
+  }
+}

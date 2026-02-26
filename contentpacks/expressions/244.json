@@ -1,0 +1,173 @@
+{
+  "title": "Promising to make an extra effort",
+  "context": "Assure someone that you will try much harder to succeed.",
+  "content": {
+    "bestLine": "I'll definitely try much harder this time",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll put in extra effort",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll do my best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try harder next time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make sure to succeed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll give it my all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll work harder to achieve it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll put in more time and effort",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll strive to do better",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'll crush it this time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll give it a shot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try my bestest",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll put my heart into it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll go all out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll make it happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll do whatever it takes",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll get it done no matter what",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will exert additional effort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will strive to excel",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will dedicate more time and resources",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will ensure successful completion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will take extra measures to succeed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will apply myself more diligently",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll [options] to make it happen",
+        "options": [
+          "try harder",
+          "put in extra effort",
+          "do my best"
+        ],
+        "meaning": "assuring extra effort"
+      },
+      {
+        "template": "I'll [options] this time around",
+        "options": [
+          "get it right",
+          "do better",
+          "succeed"
+        ],
+        "meaning": "promising improvement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation between a manager and an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I'm concerned about the project's progress"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'll definitely try much harder this time"
+          }
+        ]
+      },
+      {
+        "description": "Conversation between friends",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You didn't do well on the test"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I'll study harder next time, I promise"
+          }
+        ]
+      }
+    ]
+  }
+}

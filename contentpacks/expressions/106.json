@@ -1,0 +1,173 @@
+{
+  "title": "Offering physical comfort",
+  "context": "Offer a hug or physical support to someone who is upset.",
+  "content": {
+    "bestLine": "Do you need a hug?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm here for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me give you a hug",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I give you a hug?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry, here's a hug",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want a hug?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hug it out",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got you, physically and emotionally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Come here, I've got a hug for you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hug?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a squeeze?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a big hug for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get a group hug going",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like you need a hug",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sending you a virtual hug",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I squeeze you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hugs all around",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I offer you a hug?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to offer you a consolatory hug",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my condolences and a hug",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "If you'd like, I can offer a hug",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to offer support, including a hug",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A hug is sometimes the best comfort",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I give you a [options]?",
+        "options": [
+          "hug",
+          "squeeze",
+          "big hug"
+        ],
+        "meaning": "Offering physical comfort"
+      },
+      {
+        "template": "I've got a [options] for you",
+        "options": [
+          "hug",
+          "big hug",
+          "squeeze"
+        ],
+        "meaning": "Offering physical comfort"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend offering a hug",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, I'm so sorry to hear that. Do you need a hug?"
+          },
+          {
+            "speaker": "Person",
+            "text": "Yeah, that would be great. Thanks."
+          }
+        ]
+      },
+      {
+        "description": "Coworker offering a hug",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "I'm really sorry about what happened. If you'd like, I can offer a hug."
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Thank you, that's very kind of you. I think I'll take you up on that."
+          }
+        ]
+      }
+    ]
+  }
+}

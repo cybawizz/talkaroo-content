@@ -1,0 +1,173 @@
+{
+  "title": "Expressing rejection",
+  "context": "Firmly reject an offer or idea.",
+  "content": {
+    "bestLine": "I appreciate the offer, but I'll have to decline",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not interested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That doesn't work for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have to pass",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not at this time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think so",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll decline",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Nah, I'm good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not my thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll skip it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not interested",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm passing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No way",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I must refuse",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I decline the offer",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must politely decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not in a position to accept",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must say no",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] decline",
+        "options": [
+          "appreciate the offer but",
+          "regret to",
+          "must"
+        ],
+        "meaning": "reject an offer"
+      },
+      {
+        "template": "That [options] work for me",
+        "options": [
+          "doesn't",
+          "won't",
+          "isn't going to"
+        ],
+        "meaning": "reject an idea"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Rejecting an invitation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Want to go to the movies tonight?"
+          },
+          {
+            "speaker": "B",
+            "text": "I appreciate the offer, but I'll have to decline"
+          }
+        ]
+      },
+      {
+        "description": "Rejecting a proposal",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think we should invest in this project"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm afraid I must refuse, it's not a good fit for our company"
+          }
+        ]
+      }
+    ]
+  }
+}

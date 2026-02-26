@@ -1,0 +1,157 @@
+{
+  "title": "Confirming that you are paying attention",
+  "context": "Assure the speaker that you are actively listening to them.",
+  "content": {
+    "bestLine": "I'm all ears, please go on",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm listening",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please continue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm following",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Yes, I'm listening",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm paying attention",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hit me with it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Lay it on me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm all in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go for it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ready when you are",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hear it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bring it on",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm giving you my full attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please proceed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm attentive and ready",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm focused on what you're saying",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] to what you're saying",
+        "options": [
+          "all ears",
+          "fully attentive"
+        ],
+        "meaning": "confirming attention"
+      },
+      {
+        "template": "Please [options] with what you were saying",
+        "options": [
+          "go on",
+          "continue",
+          "proceed"
+        ],
+        "meaning": "requesting continuation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confirming attention in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I'd like to discuss the new project"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm all ears, please go on"
+          }
+        ]
+      },
+      {
+        "description": "Confirming attention in a conversation",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "I've been having a tough week"
+          },
+          {
+            "speaker": "Listener",
+            "text": "I'm listening, please continue"
+          }
+        ]
+      }
+    ]
+  }
+}

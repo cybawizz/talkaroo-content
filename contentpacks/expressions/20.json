@@ -1,0 +1,173 @@
+{
+  "title": "Asking for podcast recommendations",
+  "context": "Ask friends what audio shows they listen to during their commute.",
+  "content": {
+    "bestLine": "What podcasts do you listen to on your commute?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What do you like to listen to on the way to work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for new podcasts, do you have any favorites?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your go-to podcast for daily listening?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend any good podcasts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some new podcast ideas, what do you listen to?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What podcasts are you currently listening to?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any favorite podcasts you'd like to share?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find new podcasts, can you help me out?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what podcasts are you into?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any good podcast recs?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite podcast right now?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so bored with my current podcasts, help!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you listen to on your daily commute?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some new podcast ideas, what's good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with some podcast recommendations?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What podcasts are you obsessed with right now?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate any podcast recommendations you might have.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please suggest some podcasts?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for new podcasts to listen to, do you have any suggestions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What podcasts do you think are worth listening to?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know what podcasts you enjoy listening to.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you recommend some podcasts for me to try?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [options] do you like to listen to?",
+        "options": [
+          "podcasts",
+          "audio shows",
+          "commute music"
+        ],
+        "meaning": "Asking for recommendations"
+      },
+      {
+        "template": "I'm looking for [options], can you help?",
+        "options": [
+          "new podcasts",
+          "podcast recommendations",
+          "something new to listen to"
+        ],
+        "meaning": "Requesting assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for podcast recommendations",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what podcasts are you into?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'm really into true crime podcasts right now."
+          }
+        ]
+      },
+      {
+        "description": "Discussing podcasts with a coworker",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What do you like to listen to on your commute?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "I'm a big fan of comedy podcasts, they make my morning drive more enjoyable."
+          }
+        ]
+      }
+    ]
+  }
+}

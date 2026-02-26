@@ -1,0 +1,173 @@
+{
+  "title": "Telling the doctor what happened",
+  "context": "Explain the exact event that caused your injury today.",
+  "content": {
+    "bestLine": "I slipped and fell on my knee",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I got hurt at work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It happened this morning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was running and tripped",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I fell down the stairs",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I got into an accident",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I injured my back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was in a car crash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hurt my ankle",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I messed up my knee",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I had a crazy accident",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wiped out on my bike",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got hurt playing sports",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I fell off a ladder",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I slipped on ice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I got into a fender bender",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I hurt my shoulder",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I experienced a workplace injury",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was involved in a vehicular accident",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suffered a sports-related injury",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I had a fall at home",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was injured in a public place",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I experienced a medical emergency",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] my [body part]",
+        "options": [
+          "hurt",
+          "injured",
+          "damaged"
+        ],
+        "meaning": "to explain an injury"
+      },
+      {
+        "template": "I was [options] when it happened",
+        "options": [
+          "running",
+          "walking",
+          "driving"
+        ],
+        "meaning": "to describe the circumstances of an injury"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Patient explaining an injury to a doctor",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I slipped and fell on my knee"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Can you tell me more about what happened?"
+          }
+        ]
+      },
+      {
+        "description": "Patient describing the circumstances of an injury",
+        "lines": [
+          {
+            "speaker": "Patient",
+            "text": "I was running and tripped on a rock"
+          },
+          {
+            "speaker": "Doctor",
+            "text": "And did you feel any pain immediately after the fall?"
+          }
+        ]
+      }
+    ]
+  }
+}

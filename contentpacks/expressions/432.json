@@ -1,0 +1,134 @@
+{
+  "title": "Forgiving someone formally",
+  "context": "Politely tell someone that their apology is accepted in a serious setting.",
+  "content": {
+    "bestLine": "I accept your apology",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's alright",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No worries",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's alright",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I accept your apology",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your apology is accepted",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I forgive you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your regret is acknowledged",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your remorse",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your apology is acknowledged",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "I [options] your apology",
+        "options": [
+          "accept",
+          "appreciate",
+          "acknowledge"
+        ],
+        "meaning": "Formal acceptance of apology"
+      },
+      {
+        "template": "Your [options] is [options]",
+        "options": [
+          "accepted",
+          "acknowledged"
+        ],
+        "meaning": "Formal acknowledgment of apology"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Formal apology acceptance",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm sorry for what I did"
+          },
+          {
+            "speaker": "B",
+            "text": "I accept your apology"
+          }
+        ]
+      },
+      {
+        "description": "Formal regret acknowledgment",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I regret my actions"
+          },
+          {
+            "speaker": "B",
+            "text": "Your regret is acknowledged"
+          }
+        ]
+      }
+    ]
+  }
+}

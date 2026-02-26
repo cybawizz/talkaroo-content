@@ -1,0 +1,173 @@
+{
+  "title": "Supporting sustainable fashion",
+  "context": "State that you only buy organically made or recycled clothing.",
+  "content": {
+    "bestLine": "I only buy organically made or recycled clothing",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I prefer eco-friendly clothing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Organic clothes are my go-to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I opt for recycled fashion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sustainable fashion is my style",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I choose clothing with a clear conscience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eco-conscious fashion is the way to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I support brands with sustainable practices",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Recycled and organic clothing only for me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all about that sustainable life",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Recycled clothes are where it's at",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to reduce my fashion footprint",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Organic clothing is my jam",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love thrift shopping for unique pieces",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sustainable fashion is the future",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all about eco-friendly fashion",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I only buy clothes that are good for the planet",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I adhere to a sustainable fashion philosophy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Organically made clothing is my preference",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I prioritize eco-friendly fashion choices",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Recycled materials are essential in my wardrobe",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I support sustainable fashion practices",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My fashion choices reflect my environmental values",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] buy sustainable clothing",
+        "options": [
+          "only",
+          "always",
+          "prefer to"
+        ],
+        "meaning": "emphasis on sustainable fashion choice"
+      },
+      {
+        "template": "My style is [options] sustainable fashion",
+        "options": [
+          "all about",
+          "focused on",
+          "inspired by"
+        ],
+        "meaning": "description of personal fashion style"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation with a friend about fashion choices",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm trying to reduce my fashion footprint"
+          },
+          {
+            "speaker": "Person B",
+            "text": "That's great! I've been buying more organic clothing lately"
+          }
+        ]
+      },
+      {
+        "description": "Discussion with a colleague about sustainable fashion",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "I prioritize eco-friendly fashion choices"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I've been looking into recycled materials for my wardrobe"
+          }
+        ]
+      }
+    ]
+  }
+}

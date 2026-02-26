@@ -1,0 +1,173 @@
+{
+  "title": "Arguing about the facts",
+  "context": "Argue that the details being discussed are not true.",
+  "content": {
+    "bestLine": "That's not true, let's look at the evidence",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure that's accurate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we verify that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's been a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's check the facts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That doesn't add up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need more information",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's look at the data",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way, that's not true",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think so",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're kidding, right?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not right",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I disagree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get real",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, that's not true",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must respectfully disagree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The evidence suggests otherwise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think there may be an error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's review the facts",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced by the argument",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The data does not support that claim",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] that's true",
+        "options": [
+          "don't think",
+          "don't believe",
+          "disagree"
+        ],
+        "meaning": "expressing disagreement"
+      },
+      {
+        "template": "Let's [options] the facts",
+        "options": [
+          "look at",
+          "examine",
+          "review"
+        ],
+        "meaning": "suggesting a review of the facts"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A discussion about a fact",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm telling you, it's true"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I don't think that's accurate, let me show you the evidence"
+          }
+        ]
+      },
+      {
+        "description": "A disagreement about a fact",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "That's not true, it's been proven false"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I disagree, I've seen the data and it supports the claim"
+          }
+        ]
+      }
+    ]
+  }
+}

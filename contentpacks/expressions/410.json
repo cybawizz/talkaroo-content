@@ -1,0 +1,195 @@
+{
+  "title": "When someone is cold and unfeeling",
+  "context": "Point out that a person is acting without emotion or sympathy.",
+  "content": {
+    "bestLine": "You seem really cold about this, what's going on?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You appear to be unemotional",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I sense a lack of empathy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem detached from the situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting much emotional response from you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're coming across as quite aloof",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to understand your emotional stance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be holding back your feelings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure how you feel about this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you're being really cold",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not exactly overflowing with emotion",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's wrong, you seem really distant",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not really reacting to this, are you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You seem kinda numb to the whole thing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting a major chill from you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're not exactly warm and fuzzy about this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on, you seem really unfeeling",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, you're so emotional about this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I can really feel the love and care from you",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're not cold at all, nope",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm getting all the feels from you, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're the epitome of emotional intelligence",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're not being insensitive at all",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "You're being really heartless",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You don't care about anyone but yourself",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're completely devoid of emotion",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "You're not even human, you're so cold",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You seem [options] about this",
+        "options": [
+          "cold",
+          "unfeeling",
+          "distant"
+        ],
+        "meaning": "The person is not showing emotion"
+      },
+      {
+        "template": "I'm getting a [options] vibe from you",
+        "options": [
+          "chill",
+          "cold",
+          "negative"
+        ],
+        "meaning": "The person is giving off an unfavorable emotional impression"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation where someone is being cold and unfeeling",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You seem really cold about this, what's going on?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I don't know what you're talking about, I'm fine"
+          }
+        ]
+      },
+      {
+        "description": "A conversation where someone is trying to understand the other person's emotional stance",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm trying to understand your emotional stance on this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm just not really feeling anything about it, okay?"
+          }
+        ]
+      }
+    ]
+  }
+}

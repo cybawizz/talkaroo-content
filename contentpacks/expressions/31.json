@@ -1,0 +1,153 @@
+{
+  "title": "Inviting a friend for a drink or coffee",
+  "context": "Ask someone if they want to get a beverage together.",
+  "content": {
+    "bestLine": "Want to grab a coffee?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Would you like to get a drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going for coffee, care to join?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's catch up over a cup of coffee.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How about we grab a drink sometime?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to get a coffee with you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Want to meet for a coffee?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's go for a coffee and chat.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wanna grab a coffee?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, let's get a drink!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm buying, you in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hang out and get a coffee.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You free to grab a drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Coffee sounds good, you in?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to come over for a coffee?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, coffee?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey need a coffee, you?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey craving coffee, wanna come?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sip sip hooray, you in?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Want to [options]?",
+        "options": [
+          "grab a coffee",
+          "get a drink",
+          "hang out"
+        ],
+        "meaning": "Asking someone to spend time together"
+      },
+      {
+        "template": "I'm [options], you?",
+        "options": [
+          "buying",
+          "getting coffee",
+          "going for a drink"
+        ],
+        "meaning": "Inviting someone to join in an activity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend for coffee",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, want to grab a coffee?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, that sounds great! When were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Making plans for a drink",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm going for a drink, care to join?"
+          },
+          {
+            "speaker": "B",
+            "text": "Sure, where did you have in mind?"
+          }
+        ]
+      }
+    ]
+  }
+}

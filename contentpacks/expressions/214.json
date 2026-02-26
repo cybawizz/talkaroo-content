@@ -1,0 +1,173 @@
+{
+  "title": "Asking about specific menu items",
+  "context": "Ask the server what ingredients are in a certain dish.",
+  "content": {
+    "bestLine": "What's in the special of the day?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you tell me about this dish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What ingredients are in this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to know what's in this sauce.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is this dish gluten-free?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a list of ingredients?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the main ingredient in this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm allergic to nuts, what's in this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe this dish to me?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the deal with this dish?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any specials with [meat/veggies]?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm craving something with [ingredient], got that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get something with [ingredient]?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's in this burger?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is this vegan?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any dishes with [ingredient]?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me about the ingredients in this dish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could describe the components of this meal.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the primary ingredients in this culinary offering?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in knowing the contents of this dish, could you enlighten me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with a detailed list of ingredients in this dish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the ingredients used in the preparation of this meal.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's in the [dish name]?",
+        "options": [
+          "special of the day",
+          "burger",
+          "salad"
+        ],
+        "meaning": "asking about ingredients"
+      },
+      {
+        "template": "Can I get something with [ingredient]?",
+        "options": [
+          "chicken",
+          "vegetables",
+          "gluten-free"
+        ],
+        "meaning": "requesting a specific ingredient"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about ingredients",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's in the special of the day?"
+          },
+          {
+            "speaker": "Server",
+            "text": "It's a chicken dish with vegetables and a side of rice."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting a specific ingredient",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get something with chicken?"
+          },
+          {
+            "speaker": "Server",
+            "text": "Yes, we have a chicken burger or a chicken salad."
+          }
+        ]
+      }
+    ]
+  }
+}

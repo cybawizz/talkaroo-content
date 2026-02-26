@@ -1,0 +1,173 @@
+{
+  "title": "Asking for a diner's opinion",
+  "context": "Ask your friend or date how their meal tastes.",
+  "content": {
+    "bestLine": "How's your meal tasting?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your meal okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything tasting?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is your dish good?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's your dinner?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything to your liking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the flavor?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it what you expected?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How's the grub?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What do you think of the food?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it yummy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your burger?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the pizza good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the verdict on the meal?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's it going down?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is it delish?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "How do you find your meal?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the cuisine to your satisfaction?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How is the quality of the food?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything meeting your expectations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How would you rate the dish?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is the meal up to par?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [options]?",
+        "options": [
+          "meal",
+          "food",
+          "dinner"
+        ],
+        "meaning": "Ask about the diner's opinion"
+      },
+      {
+        "template": "Is your [options] good?",
+        "options": [
+          "dish",
+          "burger",
+          "pizza"
+        ],
+        "meaning": "Ask about a specific food item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual dinner conversation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "How's your meal tasting?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "It's really good, thanks!"
+          }
+        ]
+      },
+      {
+        "description": "Formal dinner conversation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "How do you find your meal?"
+          },
+          {
+            "speaker": "Date",
+            "text": "It's excellent, thank you for asking."
+          }
+        ]
+      }
+    ]
+  }
+}

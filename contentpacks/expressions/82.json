@@ -1,0 +1,173 @@
+{
+  "title": "Mingling at a party",
+  "context": "Start a casual conversation while walking around a social event.",
+  "content": {
+    "bestLine": "How's your night going so far?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nice to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think of the party?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love the music here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you tried the food?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a great venue",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This party is lit",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so down for this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's grab a drink",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love your outfit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite song?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to dance?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, this party is fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key excited",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This party is turnt",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hanging out",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Let's vibe out",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [options]?",
+        "options": [
+          "night",
+          "week",
+          "day"
+        ],
+        "meaning": "Asking about someone's experience"
+      },
+      {
+        "template": "I love your [options]",
+        "options": [
+          "outfit",
+          "style",
+          "energy"
+        ],
+        "meaning": "Giving a compliment"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with someone you just met",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Other person",
+            "text": "I'm good, thanks. How about you?"
+          }
+        ]
+      },
+      {
+        "description": "Talking to someone you know at a party",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "What's up? How's life?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Not much, just enjoying the party. You?"
+          }
+        ]
+      }
+    ]
+  }
+}

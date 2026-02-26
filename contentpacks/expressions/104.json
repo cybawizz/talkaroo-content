@@ -1,0 +1,172 @@
+{
+  "title": "Comforting someone who is distressed",
+  "context": "Offer soothing words to calm down someone who is crying or extremely upset.",
+  "content": {
+    "bestLine": "I'm here for you, take your time",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's really tough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry to hear that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This must be very difficult",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My thoughts are with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That sounds incredibly challenging",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can imagine how you feel",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a tough situation",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone in this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that's awful",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really sorry you're going through this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's crazy, I'm here for you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're doing the best you can",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This too shall pass",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get through this together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's really rough, hang in there",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got your back",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I offer my sincerest condolences",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my deepest sympathies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a unfortunate situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry to hear about your loss",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my full support during this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret to hear about your difficulties",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] you're going through this",
+        "options": [
+          "really sorry",
+          "so sorry",
+          "truly sorry"
+        ],
+        "meaning": "expressing sympathy"
+      },
+      {
+        "template": "You're [options] alone in this",
+        "options": [
+          "not",
+          "never"
+        ],
+        "meaning": "offering support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Comforting a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I just lost my job"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm so sorry to hear that, you're not alone"
+          }
+        ]
+      },
+      {
+        "description": "Supporting a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm really struggling with this project"
+          },
+          {
+            "speaker": "B",
+            "text": "We'll get through this together, let's break it down"
+          }
+        ]
+      }
+    ]
+  }
+}

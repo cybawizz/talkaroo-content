@@ -1,0 +1,205 @@
+{
+  "title": "Expressing surprise at meeting someone",
+  "context": "Show surprise when you bump into someone unexpectedly.",
+  "content": {
+    "bestLine": "Wow, what a surprise running into you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I didn't expect to see you here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What a coincidence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so surprised to see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a surprise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wasn't expecting to run into you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are you doing here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a pleasant surprise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm surprised to see you here",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wow, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Long time no see!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't know you'd be here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is crazy!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I ran into you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I was just thinking about you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a pleasure to see you again",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm delighted to run into you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a lovely surprise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't expect to encounter you here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's great to see you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm surprised and pleased to see you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What's good?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Yooo, what's up?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This is lit!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key surprised to see you",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm high-key excited to see you",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] see you here",
+        "options": [
+          "wasn't expecting to",
+          "didn't think I'd",
+          "am surprised to"
+        ],
+        "meaning": "expressing surprise at meeting someone"
+      },
+      {
+        "template": "What a [options] surprise!",
+        "options": [
+          "pleasant",
+          "lovely",
+          "nice"
+        ],
+        "meaning": "expressing delight at meeting someone"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Running into a friend at a store",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Wow, what a surprise running into you!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, what are you doing here?"
+          }
+        ]
+      },
+      {
+        "description": "Encountering a colleague at a conference",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's great to see you, I didn't expect to run into you here"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Likewise, what brings you to this conference?"
+          }
+        ]
+      }
+    ]
+  }
+}

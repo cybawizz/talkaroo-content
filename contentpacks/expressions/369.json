@@ -1,0 +1,173 @@
+{
+  "title": "Refusing to lend money to relatives",
+  "context": "Firmly tell a family member that you cannot give them cash.",
+  "content": {
+    "bestLine": "I'm not in a position to lend you money right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not comfortable lending money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to prioritize my own finances",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not able to lend you cash",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to say no to lending money",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not in a financial position to help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't lend money to family members",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to focus on my own financial goals",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm a bit strapped for cash myself",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think it's a good idea to mix money and family",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to get my own finances in order",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't want to put our relationship in a weird spot",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not really in a position to help out financially",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need to prioritize my own financial stability",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't want to lend money and then have it be awkward",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just not comfortable with lending money to family",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret that I am unable to provide financial assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must prioritize my own financial obligations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not in a financial position to lend money at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must decline your request for a loan",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am not authorized to lend money to family members",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must prioritize my own financial well-being",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] lend you money",
+        "options": [
+          "am not able to",
+          "cannot",
+          "am unable to"
+        ],
+        "meaning": "refusing to lend money"
+      },
+      {
+        "template": "I need to [options] my own finances",
+        "options": [
+          "prioritize",
+          "focus on",
+          "get in order"
+        ],
+        "meaning": "explaining reason for not lending money"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Refusing to lend money to a family member",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "Can you lend me some money?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not in a position to lend you money right now"
+          }
+        ]
+      },
+      {
+        "description": "Explaining reason for not lending money",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "Why can't you lend me money?"
+          },
+          {
+            "speaker": "You",
+            "text": "I need to prioritize my own financial goals and I'm not in a position to lend money"
+          }
+        ]
+      }
+    ]
+  }
+}

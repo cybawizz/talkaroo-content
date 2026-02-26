@@ -1,0 +1,173 @@
+{
+  "title": "Asking about pet adoption",
+  "context": "Ask an animal shelter worker how the rescue process works.",
+  "content": {
+    "bestLine": "How does the rescue process work here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the adoption process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I adopt a pet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain the rescue process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the steps to adopt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does adoption take?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's involved in adopting a pet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you walk me through the adoption process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get started with adopting?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "So, how do I adopt a furry friend?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with adopting a pet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I make a pet mine?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me about the adoption process?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna adopt a pet, what's next?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How does adopting work here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the adoption procedure like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some info on adopting a pet?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please explain the adoption procedure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about the pet adoption process.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the necessary steps to adopt a pet?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide information on adopting a pet from this shelter?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in adopting a pet, what is the process?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is involved in the adoption process at this shelter?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How does [option] work?",
+        "options": [
+          "the rescue process",
+          "adoption",
+          "the shelter"
+        ],
+        "meaning": "Asking about the process or system"
+      },
+      {
+        "template": "What's the [option] to adopt?",
+        "options": [
+          "process",
+          "procedure",
+          "steps"
+        ],
+        "meaning": "Asking about the necessary steps"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about pet adoption at a shelter",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "Hi, I'm interested in adopting a pet. How does the rescue process work here?"
+          },
+          {
+            "speaker": "Shelter Worker",
+            "text": "Well, first you need to fill out an application, then we'll discuss what kind of pet is best for you."
+          }
+        ]
+      },
+      {
+        "description": "Inquiring about adoption procedure",
+        "lines": [
+          {
+            "speaker": "Potential Adopter",
+            "text": "Could you please explain the adoption procedure?"
+          },
+          {
+            "speaker": "Shelter Staff",
+            "text": "Of course, we start with an application, followed by a meet and greet with the pet, and then finalize the adoption."
+          }
+        ]
+      }
+    ]
+  }
+}

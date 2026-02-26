@@ -1,0 +1,173 @@
+{
+  "title": "Bribing friends to help you move",
+  "context": "Offer your friends pizza and beer if they help you carry heavy boxes.",
+  "content": {
+    "bestLine": "Help me move and I'll buy you pizza and beer",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I could use some help with moving",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be willing to lend a hand?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll provide food and drinks if you help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together to get this done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help with this move",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We can make it a fun day with food and drinks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll owe you one if you help me out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me know if you're free to help",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, want to help me move and grab some pizza?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll buy you a beer if you help me carry this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this move done and then chill",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll hook you up with food and drinks if you help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, it'll be fun, I promise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll return the favor someday, I swear",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make this move a party",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You in? I'll provide the snacks",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, help a buddy out and let's get this move done",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I got your back, and your beer, if you help me move",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get turnt up and move this stuff",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll low-key owe you one if you help me out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's gonna be a lit move, don't miss out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Help me move and I'll hook you up with the good stuff",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Help me move and I'll [options]",
+        "options": [
+          "buy you pizza",
+          "get you beer",
+          "owe you one"
+        ],
+        "meaning": "offering incentives for help"
+      },
+      {
+        "template": "Let's [options] and then [options]",
+        "options": [
+          "get this move done",
+          "carry these boxes",
+          "finish this task"
+        ],
+        "meaning": "suggesting a plan and a reward"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend for help with moving",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, want to help me move and grab some pizza?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Sure, what time were you thinking?"
+          }
+        ]
+      },
+      {
+        "description": "Negotiating help with moving",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'll buy you a beer if you help me carry this"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Deal, but you owe me two beers if I help with the couch"
+          }
+        ]
+      }
+    ]
+  }
+}

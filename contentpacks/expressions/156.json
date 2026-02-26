@@ -1,0 +1,173 @@
+{
+  "title": "Asking to borrow a charger",
+  "context": "Ask a coworker if they have a spare laptop charger you can use.",
+  "content": {
+    "bestLine": "Do you have a spare charger I could borrow?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I use your charger?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have an extra charger?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I borrow a charger?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a spare charger available?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you lend me a charger?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a charger to spare?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a charger, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a charger I can use?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got a charger I can borrow?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I grab your charger?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need to borrow a charger, thanks!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You got a spare charger?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I use your laptop charger?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Borrow your charger for a bit?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Charger, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind if I borrow a charger?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I was wondering if I could borrow a charger.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a charger that I could use temporarily?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I possibly borrow a laptop charger from you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if I could use your charger.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to borrow a charger from someone?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of a charger, could you assist me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could I [options] a charger?",
+        "options": [
+          "borrow",
+          "use",
+          "have"
+        ],
+        "meaning": "Asking to use someone's charger"
+      },
+      {
+        "template": "Do you have a [options] charger?",
+        "options": [
+          "spare",
+          "extra",
+          "laptop"
+        ],
+        "meaning": "Asking if someone has a charger available"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a coworker for a charger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, do you have a spare charger I could borrow?"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Yes, I have an extra one right here."
+          }
+        ]
+      },
+      {
+        "description": "Asking a coworker for a charger in a formal setting",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, I was wondering if I could borrow a charger from you."
+          },
+          {
+            "speaker": "Coworker",
+            "text": "Of course, let me just unplug it from my laptop."
+          }
+        ]
+      }
+    ]
+  }
+}

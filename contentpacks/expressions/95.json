@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging remarks from a salesperson",
+  "context": "Tell a customer that a piece of clothing looks great on them.",
+  "content": {
+    "bestLine": "That looks great on you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You look good in that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a great choice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It suits you well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to love it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's perfect for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look fantastic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a great fit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll get lots of compliments",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That's so you!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You rock that outfit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's totally your style",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to turn heads",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's an awesome choice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You look amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's perfect for a night out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You'll love wearing it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "That's a excellent selection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You look very stylish",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a great choice for any occasion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You'll receive many compliments",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a perfect fit for you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You look very elegant",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options] in that!",
+        "options": [
+          "great",
+          "amazing",
+          "fantastic"
+        ],
+        "meaning": "expressing admiration"
+      },
+      {
+        "template": "That's a [options] choice!",
+        "options": [
+          "great",
+          "excellent",
+          "perfect"
+        ],
+        "meaning": "expressing approval"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Salesperson encouraging a customer",
+        "lines": [
+          {
+            "speaker": "Salesperson",
+            "text": "That looks great on you!"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Really? You think so?"
+          }
+        ]
+      },
+      {
+        "description": "Salesperson and customer discussing an outfit",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm not sure about this outfit"
+          },
+          {
+            "speaker": "Salesperson",
+            "text": "You look fantastic in it! It's perfect for a night out"
+          }
+        ]
+      }
+    ]
+  }
+}

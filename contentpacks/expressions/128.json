@@ -1,0 +1,173 @@
+{
+  "title": "Asking for permission to leave a place",
+  "context": "Politely ask a host or boss if you can exit.",
+  "content": {
+    "bestLine": "May I excuse myself now?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm going to head out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should probably leave",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to take off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I leave now?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll get going then",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for me to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should get going",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna bail",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See you around",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later, all",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I have your permission to leave?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I request to exit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "With your permission, I'll depart",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to excuse myself",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I be excused?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "May I [options] now?",
+        "options": [
+          "leave",
+          "go",
+          "exit"
+        ],
+        "meaning": "asking for permission to leave"
+      },
+      {
+        "template": "I'm going to [options]",
+        "options": [
+          "head out",
+          "take off",
+          "get going"
+        ],
+        "meaning": "informing someone of your departure"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a host for permission to leave a party",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "May I excuse myself now?"
+          },
+          {
+            "speaker": "Host",
+            "text": "Yes, of course, it was great having you"
+          }
+        ]
+      },
+      {
+        "description": "Asking a boss for permission to leave work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "May I leave now, I've finished my tasks"
+          },
+          {
+            "speaker": "Boss",
+            "text": "Yes, you're free to go"
+          }
+        ]
+      }
+    ]
+  }
+}

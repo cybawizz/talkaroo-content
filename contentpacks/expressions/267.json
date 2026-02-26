@@ -1,0 +1,200 @@
+{
+  "title": "Encouraging an explanation",
+  "context": "Prompt someone to continue telling a story or providing reasons.",
+  "content": {
+    "bestLine": "Can you tell me more about that?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What happened next?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did that work out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you elaborate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested, please continue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What led you to that conclusion?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did you come up with that idea?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me an example?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to hear more about it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the rest of the story?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going so far?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Tell me more about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm curious, what happened?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me the details",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the scoop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Fill me in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna hear more",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide further explanation?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate more information",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please elaborate on that point",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide additional context?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in hearing more",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you clarify that for me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Spill the beans",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me the lowdown",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the tea?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Dish out the details",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Fill me in, fam",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] about that?",
+        "options": [
+          "tell me more",
+          "elaborate",
+          "explain"
+        ],
+        "meaning": "requesting more information"
+      },
+      {
+        "template": "I'm [options] to hear more",
+        "options": [
+          "interested",
+          "curious",
+          "excited"
+        ],
+        "meaning": "expressing interest in the conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for more information",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm going to the store"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's the plan when you get there?"
+          }
+        ]
+      },
+      {
+        "description": "Coworker asking for clarification",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The project is due soon"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Can you provide more context about the deadline?"
+          }
+        ]
+      }
+    ]
+  }
+}

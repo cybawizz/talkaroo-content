@@ -1,0 +1,131 @@
+{
+  "title": "Asking for clarification in a classroom",
+  "context": "Ask a professor to re-explain a complicated topic.",
+  "content": {
+    "bestLine": "Could you explain that concept again?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I didn't quite catch that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain it differently?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to hear that again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you clarify that point?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble following",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give an example?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate further explanation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you elaborate on that concept?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am unclear about the meaning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you mind rephrasing that?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require additional clarification",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide more context?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [options] that concept?",
+        "options": [
+          "explain",
+          "elaborate",
+          "repeat"
+        ],
+        "meaning": "requesting clarification"
+      },
+      {
+        "template": "I'm having trouble [options] that idea",
+        "options": [
+          "understanding",
+          "following",
+          "grasping"
+        ],
+        "meaning": "expressing confusion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asks professor for clarification",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Excuse me, professor. Could you explain that concept again?"
+          },
+          {
+            "speaker": "Professor",
+            "text": "Of course. Let me try to clarify it for you."
+          }
+        ]
+      },
+      {
+        "description": "Student requests additional information",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "I'm not sure I understand the application of that theory. Can you give an example?"
+          },
+          {
+            "speaker": "Professor",
+            "text": "Yes, certainly. Let me provide an illustration to help clarify the concept."
+          }
+        ]
+      }
+    ]
+  }
+}

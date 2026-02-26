@@ -1,0 +1,180 @@
+{
+  "title": "Greeting a person you haven't seen in a long time",
+  "context": "Say hello and show surprise that it has been so long.",
+  "content": {
+    "bestLine": "Wow, it's been ages!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello, long time no see",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how have you been?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's great to see you again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Long time no talk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nice to run into you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's been too long",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Great to catch up with you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up, it's been forever!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey, long time no chat!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Wow, you're back!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's so good to see you!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Where have you been?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've missed you!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's amazing to run into you",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a pleasure to see you again",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's been a while",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm delighted to meet you again",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's great to reconnect with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome back, it's great to see you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yooo, what's good?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Ain't seen you in a hot minute!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's poppin'?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Long time, no see, G!",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's been [options] since we last met",
+        "options": [
+          "ages",
+          "a while",
+          "too long"
+        ],
+        "meaning": "expressing surprise at the time passed"
+      },
+      {
+        "template": "I [options] see you again",
+        "options": [
+          "am thrilled to",
+          "am happy to",
+          "am delighted to"
+        ],
+        "meaning": "expressing happiness at the reunion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Running into an old friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Wow, it's been ages!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, what have you been up to?"
+          }
+        ]
+      },
+      {
+        "description": "Reuniting with a colleague",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "It's great to see you again"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Likewise, how was your trip?"
+          }
+        ]
+      }
+    ]
+  }
+}

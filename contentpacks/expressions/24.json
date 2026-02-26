@@ -1,0 +1,175 @@
+{
+  "title": "Simple good-byes",
+  "context": "Say a very brief goodbye.",
+  "content": {
+    "bestLine": "See you later",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Goodbye",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bye for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a good day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll talk to you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice talking to you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See ya",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Laters",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll hit you up later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Peace out",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good day",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure speaking with you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I bid you farewell",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Until next time",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Ttyl",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Cya",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "L8r",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "See you [options]",
+        "options": [
+          "later",
+          "soon",
+          "tomorrow"
+        ],
+        "meaning": "goodbye"
+      },
+      {
+        "template": "I'll [options] you [options]",
+        "options": [
+          "call",
+          "text",
+          "email"
+        ],
+        "meaning": "goodbye"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple goodbye",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "See you later"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Bye"
+          }
+        ]
+      },
+      {
+        "description": "Informal goodbye",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Later dude"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Catch you later"
+          }
+        ]
+      }
+    ]
+  }
+}

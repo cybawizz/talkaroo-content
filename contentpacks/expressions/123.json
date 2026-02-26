@@ -1,0 +1,232 @@
+{
+  "title": "Telling someone to hurry",
+  "context": "Push a coworker to speed up because time is running out.",
+  "content": {
+    "bestLine": "We need this done ASAP",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's pick up the pace",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time is of the essence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're on a deadline",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speed it up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to hurry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move faster",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is ticking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're running out of time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hurry up, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get moving",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're almost out of time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pick it up, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hustle",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time's running out, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make it happen",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "We must expedite the process",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Time is of the essence, please hurry",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are operating under a tight deadline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I urge you to accelerate your work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to meet the scheduled deadline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please increase your pace",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, step it up",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this done, pronto",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Time's tickin', homie",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hurry up, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "We're on a tight clock, fam",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's move, ASAP",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, we've got all the time in the world",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Take your time, I'm sure the deadline will wait",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm loving the pace we're going at",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "We're not in a hurry or anything",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Let's just take a break, we've got plenty of time",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We need to [options] to meet the deadline",
+        "options": [
+          "hurry",
+          "speed up",
+          "work faster"
+        ],
+        "meaning": "emphasizing the importance of time"
+      },
+      {
+        "template": "Time is [options], let's go",
+        "options": [
+          "running out",
+          "of the essence",
+          "ticking away"
+        ],
+        "meaning": "creating a sense of urgency"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker conversation",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "We need this done ASAP"
+          },
+          {
+            "speaker": "Jane",
+            "text": "I'm on it, don't worry"
+          }
+        ]
+      },
+      {
+        "description": "Manager and employee conversation",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We're running out of time, can you speed it up?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, I'll work faster"
+          }
+        ]
+      }
+    ]
+  }
+}

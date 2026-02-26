@@ -1,0 +1,181 @@
+{
+  "title": "When you do not understand what was said",
+  "context": "Tell the speaker that you did not comprehend their words.",
+  "content": {
+    "bestLine": "I didn't quite catch that, could you repeat?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not sure I understood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you explain again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't quite get that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you clarify?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not following",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you say that again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't catch that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Huh, what was that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you run that by me again?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I didn't quite hear you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What did you just say?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you speak up?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I missed that, can you repeat?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you explain it simpler?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm lost, can you start over?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize, I didn't understand",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please rephrase that?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could repeat that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble following, could you clarify?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't quite grasp that, could you explain again?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please speak more slowly?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I didn't [options] that",
+        "options": [
+          "catch",
+          "hear",
+          "understand"
+        ],
+        "meaning": "not understanding what was said"
+      },
+      {
+        "template": "Could you [options]?",
+        "options": [
+          "repeat that",
+          "explain again",
+          "speak up"
+        ],
+        "meaning": "asking for clarification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for clarification in a conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm going to the store"
+          },
+          {
+            "speaker": "B",
+            "text": "I didn't quite catch that, could you repeat?"
+          },
+          {
+            "speaker": "A",
+            "text": "I said I'm going to the store"
+          }
+        ]
+      },
+      {
+        "description": "Asking for clarification in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The project deadline is next Friday"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I apologize, I didn't understand. Could you please rephrase that?"
+          },
+          {
+            "speaker": "Manager",
+            "text": "The project needs to be completed by next Friday"
+          }
+        ]
+      }
+    ]
+  }
+}

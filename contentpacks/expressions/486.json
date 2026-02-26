@@ -1,0 +1,149 @@
+{
+  "title": "Asking someone to hold a flashlight",
+  "context": "Instruct a helper exactly where to point the light while you work.",
+  "content": {
+    "bestLine": "Can you shine the light right here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hold the light over this area",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you shine the light here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need the light on this spot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Point the light at this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you light up this part?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Shine the light on this section",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need light on this area",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold the light steady?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you shine it here?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you light this up for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just point it at this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Shine it right here, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hold the light for me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Light up this spot, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just shine it here, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me some light here?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you shine the light [where]?",
+        "options": [
+          "here",
+          "there",
+          "on this spot"
+        ],
+        "meaning": "Requesting light in a specific location"
+      },
+      {
+        "template": "I need the light [where] to [do something]",
+        "options": [
+          "on this area",
+          "on that part",
+          "over here"
+        ],
+        "meaning": "Requesting light for a specific task"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking someone to hold a flashlight while working",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can you shine the light right here?"
+          },
+          {
+            "speaker": "Helper",
+            "text": "Where exactly?"
+          },
+          {
+            "speaker": "You",
+            "text": "Just on this spot, thanks"
+          }
+        ]
+      },
+      {
+        "description": "Requesting light adjustment",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can you hold the light steady?"
+          },
+          {
+            "speaker": "Helper",
+            "text": "Like this?"
+          },
+          {
+            "speaker": "You",
+            "text": "Yes, that's perfect"
+          }
+        ]
+      }
+    ]
+  }
+}

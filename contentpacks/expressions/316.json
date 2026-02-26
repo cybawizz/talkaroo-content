@@ -1,0 +1,128 @@
+{
+  "title": "Making sure a child understands",
+  "context": "Ask a kid directly to confirm they heard your instructions.",
+  "content": {
+    "bestLine": "Did you hear me okay?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you understand?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you clear on that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is that clear?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know what to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you sure you understand?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that back?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You got all that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make sense?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You clear on everything?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You hear me?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That make sense to you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You good with that?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Did you [options]?",
+        "options": [
+          "hear me",
+          "understand"
+        ],
+        "meaning": "Confirming understanding"
+      },
+      {
+        "template": "Are you [options]?",
+        "options": [
+          "clear",
+          "sure"
+        ],
+        "meaning": "Checking clarity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confirming understanding after giving instructions",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Pick up your toys and put them away."
+          },
+          {
+            "speaker": "Adult",
+            "text": "Did you hear me okay?"
+          }
+        ]
+      },
+      {
+        "description": "Ensuring a child understands a task",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Can you feed the dog for me?"
+          },
+          {
+            "speaker": "Adult",
+            "text": "You got all that?"
+          }
+        ]
+      }
+    ]
+  }
+}

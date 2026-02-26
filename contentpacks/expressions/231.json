@@ -1,0 +1,156 @@
+{
+  "title": "Questions a smoker might ask",
+  "context": "Ask for permission to smoke or for a light.",
+  "content": {
+    "bestLine": "May I have a light, please?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I smoke here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is smoking allowed?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a light?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I smoke outside?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a smoking area?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you spare a light?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind if I smoke?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got a light?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I bum a cigarette?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind if I smoke?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You got a spare?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have a puff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You smoking?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got an extra?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I request a light?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is smoking permitted in this area?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide a light?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if I might smoke outside?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, do you have a lighter?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "May I [options]?",
+        "options": [
+          "have a light",
+          "smoke here"
+        ],
+        "meaning": "asking for permission"
+      },
+      {
+        "template": "Do you [options]?",
+        "options": [
+          "have a lighter",
+          "mind if I smoke"
+        ],
+        "meaning": "requesting assistance or permission"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a stranger for a light",
+        "lines": [
+          {
+            "speaker": "Smoker",
+            "text": "Excuse me, do you have a light?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Yes, I do. Here you go."
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend if they mind smoking",
+        "lines": [
+          {
+            "speaker": "Smoker",
+            "text": "Mind if I smoke?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Not at all, go ahead."
+          }
+        ]
+      }
+    ]
+  }
+}

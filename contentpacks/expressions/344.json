@@ -1,0 +1,173 @@
+{
+  "title": "Concerning unity",
+  "context": "State that being together makes the group stronger.",
+  "content": {
+    "bestLine": "Together we're unstoppable",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Unity makes us stronger",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're better together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "United we stand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Strength in numbers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Together is better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're stronger as one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Unity is power",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Together we thrive",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We got this together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Teamwork makes the dream work",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're a team",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Together forever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're in this together",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "United we win",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're stronger as a team",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Together we can do anything",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Unity is essential for success",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Collaboration is key",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Together we achieve more",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Unity is the foundation of strength",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We're more effective together",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Unity is crucial for progress",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Together we [options]",
+        "options": [
+          "can do anything",
+          "are unstoppable",
+          "thrive"
+        ],
+        "meaning": "Emphasizing the strength of unity"
+      },
+      {
+        "template": "We're [options] together",
+        "options": [
+          "stronger",
+          "better",
+          "more effective"
+        ],
+        "meaning": "Highlighting the benefits of unity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I'm so glad we're doing this together"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Me too, we're stronger as a team"
+          }
+        ]
+      },
+      {
+        "description": "A team meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Unity is essential for our success"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "I agree, together we can achieve more"
+          }
+        ]
+      }
+    ]
+  }
+}

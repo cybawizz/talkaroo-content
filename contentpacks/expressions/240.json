@@ -1,0 +1,174 @@
+{
+  "title": "Asking a barber to fix a mistake",
+  "context": "Politely tell the stylist that the sides are uneven and need touching up.",
+  "content": {
+    "bestLine": "The sides are a bit uneven, can you touch them up?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The sides don't match, can you fix it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think the sides are uneven, can you check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you even out the sides for me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The length is off on the sides, can you fix it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like the sides to be even, can you do that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take a look at the sides and fix the mistake?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sides are a bit off, can you trim them again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not happy with the sides, can you redo them?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you fix the sides? They're uneven.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you touch up the sides? They're a bit off.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I think you missed a spot on the sides, can you get it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The sides are kinda uneven, can you even them out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you go back and fix the mistake on the sides?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not loving the sides, can you redo them?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you take another look at the sides and fix it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The sides are a bit messy, can you clean them up?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could adjust the sides.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The sides appear to be uneven, could you correct it?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request that you revisit the sides and make adjustments.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please ensure the sides are even and symmetrical?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I believe the sides require additional attention, could you attend to it?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be grateful if you could make the necessary corrections to the sides.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] the sides?",
+        "options": [
+          "touch up",
+          "fix",
+          "even out",
+          "trim"
+        ],
+        "meaning": "requesting the barber to correct the mistake"
+      },
+      {
+        "template": "I'd like the [options] to be [options].",
+        "options": [
+          "sides",
+          "length",
+          "style"
+        ],
+        "meaning": "specifying the desired outcome"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking the barber to fix the mistake",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "The sides are a bit uneven, can you touch them up?"
+          },
+          {
+            "speaker": "Barber",
+            "text": "I apologize for the mistake, let me fix it for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting the barber to redo the sides",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'm not happy with the sides, can you redo them?"
+          },
+          {
+            "speaker": "Barber",
+            "text": "Of course, I'll redo the sides to your satisfaction."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Asking if a friend is having a baby",
+  "context": "Politely and excitedly ask someone if they are pregnant.",
+  "content": {
+    "bestLine": "Are you expecting a baby?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you pregnant?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a baby on the way?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you having a child?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a new addition coming?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you going to be a parent?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a bun in the oven?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Is a baby on the horizon?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You preggo?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got a baby coming?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Having a kid?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Baby on board?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You guys having a baby?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a little one on the way?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You expecting?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You knocked up?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Got a mini-me coming?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Baby bump?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are you [options] a baby?",
+        "options": [
+          "having",
+          "expecting"
+        ],
+        "meaning": "asking about pregnancy"
+      },
+      {
+        "template": "Do you have a [options] on the way?",
+        "options": [
+          "baby",
+          "child",
+          "little one"
+        ],
+        "meaning": "asking about pregnancy"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual conversation",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, I noticed you've been acting different lately. Are you expecting a baby?"
+          },
+          {
+            "speaker": "You",
+            "text": "Actually, yes! We're having a baby girl!"
+          }
+        ]
+      },
+      {
+        "description": "Excited question",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Oh my gosh, are you pregnant?!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, we just found out! We're so excited!"
+          }
+        ]
+      }
+    ]
+  }
+}

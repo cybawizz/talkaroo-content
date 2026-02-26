@@ -1,0 +1,148 @@
+{
+  "title": "Announcing your arrival for an appointment",
+  "context": "Let the reception desk know that you have arrived for your meeting.",
+  "content": {
+    "bestLine": "I'm here for my appointment",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've arrived for my meeting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to see someone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My appointment is now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm checking in for my appointment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've arrived at the office",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here for my scheduled meeting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've arrived for my consultation",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, I'm here for my appointment",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I've arrived",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to meet with someone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My meeting is now, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here, what's next?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I've arrived for my appointment",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have arrived for my scheduled appointment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here to meet with your representative",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have arrived at the office for my meeting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am here for my consultation, as scheduled",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm here for my [options] appointment",
+        "options": [
+          "scheduled",
+          "meeting",
+          "consultation"
+        ],
+        "meaning": "announcing arrival for a specific type of appointment"
+      },
+      {
+        "template": "I've arrived at the [options] office",
+        "options": [
+          "doctor's",
+          "lawyer's",
+          "company"
+        ],
+        "meaning": "announcing arrival at a specific type of office"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Announcing arrival at the reception desk",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm here for my appointment"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Okay, let me just check the schedule. Can you please have a seat?"
+          }
+        ]
+      },
+      {
+        "description": "Announcing arrival over the phone",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I've arrived for my meeting"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Great, I'll let them know you're here. Please hold for just a moment."
+          }
+        ]
+      }
+    ]
+  }
+}

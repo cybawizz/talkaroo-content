@@ -1,0 +1,173 @@
+{
+  "title": "A preface to asking a question",
+  "context": "Politely introduce that you are about to ask something.",
+  "content": {
+    "bestLine": "Excuse me, may I ask something?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I ask you something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you mind if I ask a question?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to ask something if you don't mind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it okay if I ask you something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was wondering if I could ask you a question",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could I ask for your input on something?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I ask you something?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a question for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help me out with a question?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm curious about something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a sec to answer a question?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a question for ya",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mind if I pick your brain about something?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate the opportunity to ask a question",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I pose a question to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to inquire about something if I may",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly assist me with a question?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question that I would like to ask if you are available",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to answer a question for me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Could you [options] about something?",
+        "options": [
+          "help me out",
+          "tell me",
+          "explain to me"
+        ],
+        "meaning": "asking for information or clarification"
+      },
+      {
+        "template": "I'm [options] about something and I was wondering if you could [options]",
+        "options": [
+          "curious",
+          "confused",
+          "unsure"
+        ],
+        "meaning": "expressing a need for information or guidance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a question in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me, may I ask something?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Of course, please go ahead"
+          }
+        ]
+      },
+      {
+        "description": "Asking a question in an informal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, can I ask you something?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, what's up?"
+          }
+        ]
+      }
+    ]
+  }
+}

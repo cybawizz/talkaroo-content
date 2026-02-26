@@ -1,0 +1,116 @@
+{
+  "title": "Asking about injuries received in an accident",
+  "context": "Ask a crash victim if they can feel their legs or where it hurts.",
+  "content": {
+    "bestLine": "Can you feel your legs?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you hurt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where does it hurt?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you move?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you feel any pain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you stand up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any injuries?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Can you assess your injuries?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require medical attention?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you experiencing any discomfort?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe your condition?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "feel your legs",
+          "move",
+          "stand up"
+        ],
+        "meaning": "Asking about physical ability"
+      },
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "any injuries",
+          "pain",
+          "discomfort"
+        ],
+        "meaning": "Asking about injuries or pain"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking about injuries after a car accident",
+        "lines": [
+          {
+            "speaker": "Rescuer",
+            "text": "Can you feel your legs?"
+          },
+          {
+            "speaker": "Victim",
+            "text": "Yes, I think so."
+          }
+        ]
+      },
+      {
+        "description": "Assessing injuries at the scene",
+        "lines": [
+          {
+            "speaker": "Paramedic",
+            "text": "Where does it hurt?"
+          },
+          {
+            "speaker": "Victim",
+            "text": "My head and chest."
+          }
+        ]
+      }
+    ]
+  }
+}

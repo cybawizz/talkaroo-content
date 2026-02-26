@@ -1,0 +1,205 @@
+{
+  "title": "Making plans to keep in touch with someone",
+  "context": "Tell the other person you want to talk to them again later.",
+  "content": {
+    "bestLine": "Let's catch up again soon",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Talk to you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We should talk again soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll talk to you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's talk again later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be in touch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll talk soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep in touch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll call you later",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hit me up later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's hang out soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll text you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We should grab coffee soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's catch up soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll give you a call later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll talk later, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's talk soon, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I look forward to speaking with you again",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's schedule a follow-up conversation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be in touch with you soon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should touch base again soon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to continue our conversation later",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's keep the conversation going",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Let's vibe again soon",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll holla at you later",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "We should link up soon",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's get this conversation going again",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll hit you up on the flip side",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "We'll catch up on the low",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] again soon",
+        "options": [
+          "catch up",
+          "talk",
+          "hang out"
+        ],
+        "meaning": "making plans to keep in touch"
+      },
+      {
+        "template": "I'll [options] you [options]",
+        "options": [
+          "call",
+          "text",
+          "hit up"
+        ],
+        "meaning": "making plans to communicate"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parting ways with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Let's catch up again soon"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'd like that. I'll text you later"
+          }
+        ]
+      },
+      {
+        "description": "Ending a business meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I look forward to speaking with you again"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Likewise. Let's schedule a follow-up conversation"
+          }
+        ]
+      }
+    ]
+  }
+}

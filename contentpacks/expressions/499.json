@@ -1,0 +1,173 @@
+{
+  "title": "Requesting attention from a waiter",
+  "context": "Politely signal the server to come over to your table.",
+  "content": {
+    "bestLine": "Excuse me, can I get some help here?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get the check?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some assistance.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to order now.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refill?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have a question about the menu.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you come here for a moment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some more water.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can we get some service?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you grab me another beer?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ready to order, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get the bill, please?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need some more napkins.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you take this away?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like some ketchup, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we get some more bread?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate your assistance.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please attend to our table?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am ready to place my order.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could I have the check, please?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require some additional condiments.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please refill my glass?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options]?",
+        "options": [
+          "the check",
+          "some help",
+          "a refill"
+        ],
+        "meaning": "requesting something from the waiter"
+      },
+      {
+        "template": "I need [options].",
+        "options": [
+          "some assistance",
+          "a menu",
+          "more water"
+        ],
+        "meaning": "requesting help or an item from the waiter"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Requesting the check",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get the check, please?"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "Right away, sir."
+          }
+        ]
+      },
+      {
+        "description": "Requesting help with the menu",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I have a question about the menu."
+          },
+          {
+            "speaker": "Waiter",
+            "text": "What can I help you with?"
+          }
+        ]
+      }
+    ]
+  }
+}

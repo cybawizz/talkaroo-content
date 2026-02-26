@@ -1,0 +1,181 @@
+{
+  "title": "Explaining a digital detox",
+  "context": "Tell people you will not be checking your phone or emails all weekend.",
+  "content": {
+    "bestLine": "I'm taking a digital detox, no phone or emails all weekend",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll be offline all weekend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No phone or emails for me this weekend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a break from technology",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I won't be checking my phone or emails",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm disconnecting for the weekend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No digital devices for me this weekend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a digital detox",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be back online on Monday",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm going off the grid for the weekend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No phone, no emails, no stress",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a tech break",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch up with you on Monday",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ditching my phone for the weekend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a digital cleanse",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No digital distractions for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unplugging for the weekend",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will be unavailable by phone and email over the weekend",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am taking a temporary leave from technology",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will not be checking my phone or emails until Monday",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am observing a digital detox over the weekend",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be offline and unavailable until Monday",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am taking a break from digital communications",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm taking a [options] detox",
+        "options": [
+          "digital",
+          "tech",
+          "social media"
+        ],
+        "meaning": "explaining a digital detox"
+      },
+      {
+        "template": "I'll be [options] for the weekend",
+        "options": [
+          "offline",
+          "unavailable",
+          "disconnected"
+        ],
+        "meaning": "explaining a digital detox"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining a digital detox to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm taking a digital detox this weekend"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, cool! What does that mean?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I won't be checking my phone or emails until Monday"
+          }
+        ]
+      },
+      {
+        "description": "Explaining a digital detox to a colleague",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I will be unavailable by phone and email over the weekend"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, got it. Is everything okay?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Yes, I'm just taking a break from technology"
+          }
+        ]
+      }
+    ]
+  }
+}

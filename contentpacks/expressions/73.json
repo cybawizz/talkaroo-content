@@ -1,0 +1,173 @@
+{
+  "title": "Welcoming a new baby",
+  "context": "Tell exhausted parents that their newborn child is absolutely beautiful.",
+  "content": {
+    "bestLine": "Your baby is absolutely beautiful",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The baby is so cute",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Congratulations on your new arrival",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your baby is adorable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You must be thrilled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The baby is precious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to parenthood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your baby is lovely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is such an exciting time",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Oh my gosh, the baby is gorgeous",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm beyond happy for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Your little one is perfect",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to be amazing parents",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The baby is so sweet",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so in love with the baby",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is the best news ever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to rock this parenting thing",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept my warmest congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your baby is a true blessing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you all the best with your new baby",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a momentous occasion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your baby is a precious gift",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer you my sincerest congratulations",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Your baby is [options] beautiful",
+        "options": [
+          "absolutely",
+          "really",
+          "so"
+        ],
+        "meaning": "expressing admiration for the baby"
+      },
+      {
+        "template": "I'm [options] happy for you",
+        "options": [
+          "beyond",
+          "so",
+          "incredibly"
+        ],
+        "meaning": "expressing joy for the new parents"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Meeting the new baby for the first time",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Oh, the baby is gorgeous"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Thank you, we're so in love with them"
+          }
+        ]
+      },
+      {
+        "description": "Welcoming the new baby at a hospital visit",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "Congratulations on your new arrival"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Thanks, we're thrilled to finally meet our little one"
+          }
+        ]
+      }
+    ]
+  }
+}

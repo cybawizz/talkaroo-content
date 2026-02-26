@@ -1,0 +1,173 @@
+{
+  "title": "Describing a place that is a long way away",
+  "context": "State clearly that a location is not close by at all.",
+  "content": {
+    "bestLine": "It's really far from here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Not close by at all",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A long way away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Quite a distance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Far from here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not nearby",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pretty far off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A considerable distance away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nowhere near us",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Super far away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Like, really far",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A total hike",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Way out there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not even close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A long haul",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Really far off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Nowhere close",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Considerably distant",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A significant distance away",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Not in close proximity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Far removed from here",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "At a considerable remove",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Distant from our location",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] from here",
+        "options": [
+          "really far",
+          "a long way",
+          "quite a distance"
+        ],
+        "meaning": "describing a location as far away"
+      },
+      {
+        "template": "The [options] is [options]",
+        "options": [
+          "really far away",
+          "not close by",
+          "distant"
+        ],
+        "meaning": "describing the distance of a place"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Describing a city to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have you been to New York?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, it's really far from here"
+          }
+        ]
+      },
+      {
+        "description": "Explaining a neighborhood to a colleague",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "Where is the new office located?"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "It's a considerable distance from our current location"
+          }
+        ]
+      }
+    ]
+  }
+}

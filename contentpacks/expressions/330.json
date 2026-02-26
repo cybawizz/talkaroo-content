@@ -1,0 +1,173 @@
+{
+  "title": "Expressing refusal",
+  "context": "Say that you will not do something that was asked of you.",
+  "content": {
+    "bestLine": "I'm afraid I won't be able to do that",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I won't be able to do that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not possible for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not able to do that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I won't be able to help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something I can do",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I must decline",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I won't be able to participate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not an option for me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't think I can do that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not gonna work for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not really up for that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think that's a good idea",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna have to pass",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something I'm comfortable with",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think I'll be able to make it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not really my thing",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to inform you that I won't be able to do that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a feasible option for me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I must respectfully decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something I'm authorized to do",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I won't be able to accommodate that request",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not in line with my responsibilities",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] do that",
+        "options": [
+          "won't be able to",
+          "can't",
+          "don't think I can"
+        ],
+        "meaning": "expressing refusal"
+      },
+      {
+        "template": "That's [options] for me",
+        "options": [
+          "not possible",
+          "not an option",
+          "not something I'm comfortable with"
+        ],
+        "meaning": "expressing refusal"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Refusing a request from a friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, can you help me move this weekend?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm afraid I won't be able to do that"
+          }
+        ]
+      },
+      {
+        "description": "Refusing a request from a coworker",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Can you take on this project for me?"
+          },
+          {
+            "speaker": "You",
+            "text": "I regret to inform you that I won't be able to do that"
+          }
+        ]
+      }
+    ]
+  }
+}

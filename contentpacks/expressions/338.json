@@ -1,0 +1,172 @@
+{
+  "title": "Stating that you understand",
+  "context": "Confirm that you comprehend what they are saying.",
+  "content": {
+    "bestLine": "I understand what you're saying",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That makes sense",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I see what you mean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I comprehend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I follow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Understood",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yeah, I get it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Totally understand",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the same page",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No problem, I get it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you on that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That makes total sense",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I hear you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, I understand",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I understand your point",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a valid perspective",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your insight",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I comprehend your position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your explanation is clear",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I acknowledge your viewpoint",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] what you're saying",
+        "options": [
+          "understand",
+          "get",
+          "see"
+        ],
+        "meaning": "showing comprehension"
+      },
+      {
+        "template": "That [options] sense to me",
+        "options": [
+          "makes",
+          "doesn't make"
+        ],
+        "meaning": "expressing agreement or disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Basic understanding",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm going to the store"
+          },
+          {
+            "speaker": "B",
+            "text": "I understand what you're saying"
+          }
+        ]
+      },
+      {
+        "description": "Informal conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I love playing soccer"
+          },
+          {
+            "speaker": "B",
+            "text": "Yeah, I get it, it's a great sport"
+          }
+        ]
+      }
+    ]
+  }
+}

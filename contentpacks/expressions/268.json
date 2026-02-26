@@ -1,0 +1,203 @@
+{
+  "title": "When someone does not understand you",
+  "context": "Clarify your own point when the listener is confused.",
+  "content": {
+    "bestLine": "Let me try that again",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think there's been a misunderstanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I explain it differently?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me rephrase that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I was clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To clarify, what I meant was",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps I can try again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me start over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for the confusion",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No, wait, let me try again",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think we got our wires crossed",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get that across differently?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let me break it down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not explaining it right, sorry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hang on, let me reexplain",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I messed up the explanation",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's start fresh",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for any confusion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To ensure clarity, let me restate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Perhaps a different explanation is in order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me provide further clarification",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to revisit my previous statement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "For the sake of clarity, let me try again",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, I guess I wasn't clear enough",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Let me try to dumb it down",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Apparently, I need to explain it again",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'll try to use smaller words",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let me [options] that again",
+        "options": [
+          "try to explain",
+          "explain",
+          "say"
+        ],
+        "meaning": "To reattempt an explanation"
+      },
+      {
+        "template": "I think there's been a [options]",
+        "options": [
+          "misunderstanding",
+          "miscommunication",
+          "mix-up"
+        ],
+        "meaning": "To acknowledge a confusion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation where one person doesn't understand the other",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm going to the store"
+          },
+          {
+            "speaker": "B",
+            "text": "What store?"
+          },
+          {
+            "speaker": "A",
+            "text": "Let me try that again, I'm going to the grocery store"
+          }
+        ]
+      },
+      {
+        "description": "A conversation where one person needs to clarify their point",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think we should go left"
+          },
+          {
+            "speaker": "B",
+            "text": "Why?"
+          },
+          {
+            "speaker": "A",
+            "text": "To clarify, if we go left, we'll avoid traffic"
+          }
+        ]
+      }
+    ]
+  }
+}

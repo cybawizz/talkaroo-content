@@ -1,0 +1,213 @@
+{
+  "title": "Explaining harsh justice",
+  "context": "State that a severe punishment is completely deserved.",
+  "content": {
+    "bestLine": "They got what was coming to them",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The punishment fits the crime",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Justice has been served",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They faced the consequences",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The law was upheld",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They were held accountable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The punishment was fair",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They got what they deserved",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The system worked",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They had it coming",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They got what was coming to them",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They messed up, now they pay",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They learned their lesson",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They got busted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They faced the music",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They got in trouble",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They paid the price",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The punishment was justified",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The perpetrator was held accountable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The law was enforced",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The consequences were severe",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The punishment was proportionate",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The justice system prevailed",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, what a shame",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "They're so unlucky",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What a terrible punishment",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I feel so bad for them",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "They're really suffering",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It's just not fair",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "They [options] their punishment",
+        "options": [
+          "deserved",
+          "earned",
+          "got"
+        ],
+        "meaning": "They received the punishment they deserved"
+      },
+      {
+        "template": "The [options] was [options]",
+        "options": [
+          "punishment",
+          "consequence",
+          "result"
+        ],
+        "meaning": "The outcome was fair"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining harsh justice to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I know it's harsh, but they deserved it"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I don't know, it seems really unfair"
+          },
+          {
+            "speaker": "Person A",
+            "text": "They broke the law, now they face the consequences"
+          }
+        ]
+      },
+      {
+        "description": "Discussing punishment in a formal setting",
+        "lines": [
+          {
+            "speaker": "Judge",
+            "text": "The punishment will be severe"
+          },
+          {
+            "speaker": "Lawyer",
+            "text": "We understand, your honor"
+          },
+          {
+            "speaker": "Judge",
+            "text": "The law must be upheld"
+          }
+        ]
+      }
+    ]
+  }
+}

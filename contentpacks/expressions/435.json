@@ -1,0 +1,213 @@
+{
+  "title": "Being completely resigned to life",
+  "context": "Accept out loud that a difficult situation simply cannot be changed.",
+  "content": {
+    "bestLine": "I guess this is just how it is now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's out of my hands",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've done all I can",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is my reality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to accept it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It is what it is",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at a loss",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is my life now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've come to terms",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whatever, it's fine",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good with it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not much I can do",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's all good",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm over it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Life goes on",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "No use crying",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just how it is",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I acknowledge the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's beyond my control",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've accepted the circumstances",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm resigned to the fact",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a reality I must face",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've come to accept it",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh joy, just what I needed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just great, another thing to deal with",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so thrilled",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just peachy",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so happy about it",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Just what I wanted",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with the situation",
+        "options": [
+          "am fine",
+          "am good",
+          "have come to terms"
+        ],
+        "meaning": "acceptance"
+      },
+      {
+        "template": "It's [options] for me",
+        "options": [
+          "not going to change",
+          "out of my hands",
+          "just how it is"
+        ],
+        "meaning": "resignation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation with a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm so done with this"
+          },
+          {
+            "speaker": "B",
+            "text": "I know, me too. But what can we do?"
+          },
+          {
+            "speaker": "A",
+            "text": "Nothing, I guess. It is what it is"
+          }
+        ]
+      },
+      {
+        "description": "Conversation with a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I've been trying to change things, but it's not working"
+          },
+          {
+            "speaker": "B",
+            "text": "Sometimes you just have to accept it and move on"
+          },
+          {
+            "speaker": "A",
+            "text": "You're right. I've come to accept it"
+          }
+        ]
+      }
+    ]
+  }
+}

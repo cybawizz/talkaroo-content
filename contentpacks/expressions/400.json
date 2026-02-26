@@ -1,0 +1,173 @@
+{
+  "title": "Sincere apologies",
+  "context": "Deeply apologize for making a significant mistake.",
+  "content": {
+    "bestLine": "I'm deeply sorry for my mistake",
+    "groups": {
+      "neutral": [
+        {
+          "text": "My apologies",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was wrong",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry about that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I regret my actions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please forgive me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I made a mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My fault entirely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm truly sorry",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My apologies, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel terrible",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry about it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was really wrong",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry, buddy",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize sincerely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret my error",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My apologies for the mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer my sincerest apologies",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] for my mistake",
+        "options": [
+          "apologize",
+          "am sorry",
+          "regret"
+        ],
+        "meaning": "expressing remorse"
+      },
+      {
+        "template": "Please [options] me",
+        "options": [
+          "forgive",
+          "excuse",
+          "pardon"
+        ],
+        "meaning": "requesting forgiveness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apology between friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really sorry for what I did"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I appreciate your apology, let's move forward"
+          }
+        ]
+      },
+      {
+        "description": "Apology in a workplace setting",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the error, it won't happen again"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Thank you for taking responsibility, let's review the process"
+          }
+        ]
+      }
+    ]
+  }
+}

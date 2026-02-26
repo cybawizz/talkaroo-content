@@ -1,0 +1,135 @@
+{
+  "title": "Asking about grades",
+  "context": "Politely ask an instructor how you performed on a specific test.",
+  "content": {
+    "bestLine": "Could you tell me how I did on the test?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How did I perform on the test?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What was my score on the exam?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share my test results?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many points did I get on the test?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What was my grade on the assignment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get my test score from you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did I do on the recent test?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me my current grade?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could inform me of my test results.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide me with my grade on the exam?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request my test score, if possible.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about my performance on the recent test?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would be grateful if you could share my test results with me.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me of my current grade?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Could you tell me how I did on the [test/assignment/exam]?",
+        "options": [
+          "test",
+          "assignment",
+          "exam"
+        ],
+        "meaning": "asking about grades"
+      },
+      {
+        "template": "I would like to know my [score/grade/results] on the [test/assignment/exam].",
+        "options": [
+          "score",
+          "grade",
+          "results"
+        ],
+        "meaning": "requesting specific grade information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asking instructor about test results",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Excuse me, professor. Could you tell me how I did on the test?"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "Let me check. Ah yes, you scored an 85%. Good job!"
+          }
+        ]
+      },
+      {
+        "description": "Student inquiring about current grade",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Hi professor, I was wondering if you could tell me my current grade in the class?"
+          },
+          {
+            "speaker": "Instructor",
+            "text": "Of course. You're currently at a B+, but that could change depending on your performance on the final exam."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Asking if someone speaks a particular language",
+  "context": "Inquire if a person knows how to speak another language.",
+  "content": {
+    "bestLine": "Do you speak English?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Do you speak English?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak Spanish?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know French?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you fluent in German?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you understand Italian?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you communicate in Chinese?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you speak Portuguese?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you proficient in Japanese?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You speak English, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know any Spanish?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak French at all?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're not fluent in German, are you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you have any Italian language skills?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you get by in Chinese?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You don't speak Portuguese, do you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Are you okay with speaking Japanese?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Do you possess language skills in English?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you proficient in the Spanish language?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a working knowledge of French?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you fluent in the German language?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any experience with the Italian language?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you capable of communicating in Chinese?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you speak [options]?",
+        "options": [
+          "English",
+          "Spanish",
+          "French",
+          "German",
+          "Italian",
+          "Chinese",
+          "Portuguese",
+          "Japanese"
+        ],
+        "meaning": "Asking if someone speaks a particular language"
+      },
+      {
+        "template": "Can you communicate in [options]?",
+        "options": [
+          "English",
+          "Spanish",
+          "French",
+          "German",
+          "Italian",
+          "Chinese",
+          "Portuguese",
+          "Japanese"
+        ],
+        "meaning": "Asking if someone can communicate in a particular language"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a stranger if they speak English",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you speak English?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I do. How can I help you?"
+          }
+        ]
+      },
+      {
+        "description": "Asking a friend if they know any Spanish",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you know any Spanish?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I took a few classes in college. What do you need help with?"
+          }
+        ]
+      }
+    ]
+  }
+}

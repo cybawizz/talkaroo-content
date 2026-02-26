@@ -1,0 +1,205 @@
+{
+  "title": "Expressing a sudden bad feeling",
+  "context": "Tell someone you have a strong instinct that something is wrong.",
+  "content": {
+    "bestLine": "I have a bad feeling about this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Something feels off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting a bad vibe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This doesn't feel right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got a bad feeling",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Something's not adding up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm sensing a problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is making me uneasy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit apprehensive",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I've got a weird feeling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is freaking me out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting the heebie-jeebies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Something's bugging me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling hinky about this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This doesn't sit right with me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having second thoughts",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My gut's telling me no",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have some concerns",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This situation is troubling me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing some unease",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have a sense of trepidation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is causing me some apprehension",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a bit uneasy about this",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm getting the ick",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "This is giving me the creeps",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key freaking out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is hella sketchy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key uncomfortable",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is sus",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about this",
+        "options": [
+          "getting a bad feeling",
+          "feeling uneasy",
+          "having second thoughts"
+        ],
+        "meaning": "expressing a sudden bad feeling"
+      },
+      {
+        "template": "This [options] me",
+        "options": [
+          "is freaking me out",
+          "is giving me the creeps",
+          "is making me uncomfortable"
+        ],
+        "meaning": "expressing a sudden bad feeling"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Expressing a sudden bad feeling to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm getting a bad feeling about this"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong? What's going on?"
+          }
+        ]
+      },
+      {
+        "description": "Expressing a sudden bad feeling in a formal setting",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I have some concerns about this project"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Can you elaborate on what's troubling you?"
+          }
+        ]
+      }
+    ]
+  }
+}

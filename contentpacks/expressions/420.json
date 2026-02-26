@@ -1,0 +1,173 @@
+{
+  "title": "When you do not know what to say",
+  "context": "Admit honestly that you are completely speechless right now.",
+  "content": {
+    "bestLine": "Honestly, I'm completely speechless right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't know what to say",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at a loss for words",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure how to respond",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm speechless",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have any words",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm without words",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unsure what to say",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm lost for words",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm totally speechless",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I have no idea what to say",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stumped",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm drawing a blank",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm clueless",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck for words",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tongue-tied",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at a total loss",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm unable to articulate a response",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm without a suitable reply",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not prepared to comment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at a loss for a suitable response",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unsure how to respond appropriately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm without a comment at this time",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for words",
+        "options": [
+          "speechless",
+          "lost",
+          "at a loss"
+        ],
+        "meaning": "unable to think of what to say"
+      },
+      {
+        "template": "I [options] know what to say",
+        "options": [
+          "don't",
+          "am not sure",
+          "am unsure"
+        ],
+        "meaning": "lack of knowledge or certainty about how to respond"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Admitting speechlessness in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What do you think about the recent news?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Honestly, I'm completely speechless right now"
+          }
+        ]
+      },
+      {
+        "description": "Responding to a question with admission of speechlessness",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Can you tell us about your experience?"
+          },
+          {
+            "speaker": "Interviewee",
+            "text": "I'm at a loss for words, but I'll try my best to share my thoughts"
+          }
+        ]
+      }
+    ]
+  }
+}

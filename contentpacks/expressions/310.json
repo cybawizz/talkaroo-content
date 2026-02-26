@@ -1,0 +1,130 @@
+{
+  "title": "Talking to a child's teacher",
+  "context": "Discuss your child's academic progress with their school instructor.",
+  "content": {
+    "bestLine": "How is my child doing in your class?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the homework policy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we review the syllabus?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's the class pace?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the strengths and weaknesses?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any areas of concern?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share some feedback?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can we support their learning?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I'd appreciate an update on my child's performance.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you discuss their academic standing?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the key areas of focus for the semester?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How can we work together to ensure their success?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any additional resources you recommend?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we schedule regular progress updates?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "My child is [options] in your class.",
+        "options": [
+          "struggling",
+          "excelling",
+          "improving"
+        ],
+        "meaning": "Expressing concern or pride about the child's performance"
+      },
+      {
+        "template": "What can we do to [options] their learning?",
+        "options": [
+          "support",
+          "enhance",
+          "improve"
+        ],
+        "meaning": "Asking for suggestions to help the child's academic growth"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial meeting with the teacher",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Hi, thank you for meeting with me. How is my child doing in your class?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "They're doing well, but there are some areas where they need improvement. Let me show you their progress report."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up meeting to discuss progress",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "I appreciate the update last time. Have you seen any improvements since then?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Yes, they've been working hard and it shows in their grades. However, we still need to work on their homework completion."
+          }
+        ]
+      }
+    ]
+  }
+}

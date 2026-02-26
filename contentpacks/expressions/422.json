@@ -1,0 +1,118 @@
+{
+  "title": "General exclamations (quick)",
+  "context": "Use a very short expression to show strong sudden emotion.",
+  "content": {
+    "bestLine": "Oh my god!",
+    "groups": {
+      "neutral": [],
+      "informal": [
+        {
+          "text": "Whoa!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Wow!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Crazy!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Unbelievable!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Amazing!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Incredible!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [],
+      "slang": [
+        {
+          "text": "Yaaas!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What the...",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Damn!",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Geez!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Dang!",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options]!",
+        "options": [
+          "god",
+          "gosh",
+          "goodness"
+        ],
+        "meaning": "strong sudden emotion"
+      },
+      {
+        "template": "[options]!",
+        "options": [
+          "wow",
+          "whoa",
+          "crazy"
+        ],
+        "meaning": "strong sudden emotion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend's surprising news",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I just got tickets to the concert!"
+          },
+          {
+            "speaker": "B",
+            "text": "Whoa! That's amazing!"
+          }
+        ]
+      },
+      {
+        "description": "Unexpected event",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The firework just exploded!"
+          },
+          {
+            "speaker": "B",
+            "text": "Yaaas! That was insane!"
+          }
+        ]
+      }
+    ]
+  }
+}

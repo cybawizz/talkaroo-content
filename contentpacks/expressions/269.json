@@ -1,0 +1,221 @@
+{
+  "title": "When you do not understand someone",
+  "context": "State clearly that you are confused by what was just said.",
+  "content": {
+    "bestLine": "I'm not sure I understand, can you explain?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you clarify that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't catch that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not following",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm confused",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you simplify that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't understand",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Huh, what was that?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you dumb it down?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I have no idea what you mean",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me an example?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm lost, can you explain?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What do you mean by that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you break it down?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not getting it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please elaborate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate clarification",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you repeat that for me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having trouble understanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide more context?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require further explanation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What's good, I didn't catch that",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you hit me with that again?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm hella confused",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you keep it 100?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the tea?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the lowdown?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] that?",
+        "options": [
+          "explain",
+          "repeat",
+          "clarify"
+        ],
+        "meaning": "asking for clarification"
+      },
+      {
+        "template": "I'm [options] about that",
+        "options": [
+          "confused",
+          "lost",
+          "unsure"
+        ],
+        "meaning": "expressing confusion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking for clarification in a conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm going to the store"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's good, I didn't catch that"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I said I'm going to the store"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Oh, okay, can you pick up some milk?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for clarification in a formal setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We need to increase productivity"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Could you please elaborate?"
+          },
+          {
+            "speaker": "Manager",
+            "text": "We need to find ways to work more efficiently"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand, thank you for clarifying"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Expressions used by an assistance operator",
+  "context": "Ask the customer what city and business name they are searching for.",
+  "content": {
+    "bestLine": "What city and business are you looking for?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you tell me the city and business name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What city and business are you searching for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the city and business name, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide the city and business you're looking for?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the city and business name you need help with?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me the city and business name, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for the city and business name, can you help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What city and business should I search for?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the city and business name?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require the city and business name to assist you.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To better assist you, what city and business are you looking for?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide the city and business name so I can help.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What city and business name should I search for to assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need the city and business name to provide accurate information.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What [location] and [business] are you looking for?",
+        "options": [
+          "city",
+          "town",
+          "area"
+        ],
+        "meaning": "Asking for specific location and business"
+      },
+      {
+        "template": "Can you provide the [location] and [business] name?",
+        "options": [
+          "city",
+          "state",
+          "zip code"
+        ],
+        "meaning": "Requesting detailed location and business information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Example conversation",
+        "lines": [
+          {
+            "speaker": "Operator",
+            "text": "Thank you for calling. What city and business are you looking for?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm looking for a restaurant in New York City."
+          }
+        ]
+      },
+      {
+        "description": "Another example conversation",
+        "lines": [
+          {
+            "speaker": "Operator",
+            "text": "Hello. Can you tell me the city and business name you're searching for?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I'm looking for a coffee shop in Los Angeles."
+          }
+        ]
+      }
+    ]
+  }
+}

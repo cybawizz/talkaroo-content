@@ -1,0 +1,163 @@
+{
+  "title": "Expressions used with friends about drinks",
+  "context": "Ask your friends what they are drinking tonight.",
+  "content": {
+    "bestLine": "What's your drink of choice tonight?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What are you drinking?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get you a drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drink order?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want a drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your poison?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "What can I get you to drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drink tonight?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's in your cup?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You getting a drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your go-to drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to grab a drink?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What are you sipping on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You drinking anything good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your drink of choice?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "What's your jam?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You sippin' on something?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "What's in your glass?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You getting turnt?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's your drink on tap?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You drinking anything lit?",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's your [options] tonight?",
+        "options": [
+          "drink",
+          "poison",
+          "go-to"
+        ],
+        "meaning": "asking about someone's drink choice"
+      },
+      {
+        "template": "You want to [options]?",
+        "options": [
+          "grab a drink",
+          "get a drink",
+          "have a beer"
+        ],
+        "meaning": "asking if someone wants to get a drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a friend about their drink",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What's your drink of choice tonight?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm thinking of getting a beer. Want one?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing drinks with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What are you sipping on?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Just a gin and tonic. You?"
+          }
+        ]
+      }
+    ]
+  }
+}

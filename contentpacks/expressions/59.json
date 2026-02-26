@@ -1,0 +1,175 @@
+{
+  "title": "When someone is in good health",
+  "context": "Compliment someone on looking very fit and healthy today.",
+  "content": {
+    "bestLine": "You look incredibly fit and healthy today!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You seem to be in great shape.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking very healthy.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be doing well.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your health is really showing.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have a great glow about you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you're taking good care of yourself.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your fitness is impressive.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be feeling well.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're looking super fit!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really rocking that healthy vibe.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dude, you're in amazing shape!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're glowing, what's your secret?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you've been hitting the gym.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking healthier than ever!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You must be doing something right, you look great!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're really taking care of yourself, it shows!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You appear to be in excellent physical condition.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your health and wellness are truly commendable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are a shining example of good health.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your dedication to fitness is evident.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You present yourself as a picture of health.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your overall wellness is impressive.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options] today!",
+        "options": [
+          "great",
+          "amazing",
+          "incredible",
+          "fantastic"
+        ],
+        "meaning": "Complimenting someone's appearance and health"
+      },
+      {
+        "template": "You must be [options] to look so [options].",
+        "options": [
+          "working out",
+          "eating well",
+          "taking care of yourself",
+          "doing something right"
+        ],
+        "meaning": "Inferring someone's habits based on their appearance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You look incredibly fit and healthy today!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I've been trying to eat better and exercise more."
+          }
+        ]
+      },
+      {
+        "description": "Formal introduction",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "It's great to meet you, you appear to be in excellent physical condition."
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, I prioritize my health and wellness."
+          }
+        ]
+      }
+    ]
+  }
+}

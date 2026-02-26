@@ -1,0 +1,173 @@
+{
+  "title": "Expressing despair and emptiness",
+  "context": "Describe a severe feeling of emotional numbness and hopelessness.",
+  "content": {
+    "bestLine": "I feel completely empty and hopeless right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm feeling really down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to cope",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel emotionally numb",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going through a tough time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling hopeless",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to find meaning",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so done with everything",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling really meh",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just going through the motions",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling empty inside",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just not feeling it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling really lost",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to care",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm just feeling really down",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing a significant amount of emotional distress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to maintain a positive outlook",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling a profound sense of emptiness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having difficulty finding meaning in my life",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm experiencing a lack of emotional fulfillment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling to cope with my emotions",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm feeling [options] right now",
+        "options": [
+          "empty",
+          "hopeless",
+          "overwhelmed"
+        ],
+        "meaning": "expressing emotional distress"
+      },
+      {
+        "template": "I'm struggling to [options]",
+        "options": [
+          "cope",
+          "find meaning",
+          "care"
+        ],
+        "meaning": "expressing difficulty with emotional regulation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about feelings of despair",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I feel completely empty and hopeless right now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm here for you, what's going on?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing emotional numbness with a therapist",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm feeling really down and empty inside"
+          },
+          {
+            "speaker": "Therapist",
+            "text": "Can you tell me more about what you're experiencing?"
+          }
+        ]
+      }
+    ]
+  }
+}

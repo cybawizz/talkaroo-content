@@ -1,0 +1,173 @@
+{
+  "title": "Discussing furniture or carpeting",
+  "context": "Comment on the decor, furniture, or rugs in a room.",
+  "content": {
+    "bestLine": "I love the new couch, it really ties the room together",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The decor in here is nice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like the color of the walls",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The furniture is very modern",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The carpet looks newly installed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The room has a cozy atmosphere",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The lighting is well done",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The room is very well decorated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like the style of the room",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This couch is so comfy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving the vibe in here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The rug is really cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The furniture is awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This room is my favorite",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The decor is on point",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm digging the colors",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The room feels really homey",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The interior design is impressive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The furniture is of high quality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The room has a sophisticated ambiance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The decor is tastefully done",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The room is well appointed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The lighting is expertly designed",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] the [object]",
+        "options": [
+          "love",
+          "like",
+          "enjoy"
+        ],
+        "meaning": "expressing positive sentiment towards an object"
+      },
+      {
+        "template": "The [object] is [adjective]",
+        "options": [
+          "couch",
+          "rug",
+          "room"
+        ],
+        "meaning": "describing an object with an adjective"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a living room",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I love the new couch, it really ties the room together"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? It's so comfy"
+          }
+        ]
+      },
+      {
+        "description": "A guest complimenting a host's home",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Your home is beautifully decorated"
+          },
+          {
+            "speaker": "Host",
+            "text": "Thank you, we just renovated the living room"
+          }
+        ]
+      }
+    ]
+  }
+}

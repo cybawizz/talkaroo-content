@@ -1,0 +1,175 @@
+{
+  "title": "Asking for extra hot sauce",
+  "context": "Ask the worker to give you five packets of the spiciest salsa.",
+  "content": {
+    "bestLine": "Can I get five packets of your spiciest salsa?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like extra hot sauce, please.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me more hot sauce?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some extra salsa.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I have five hot sauce packets?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get some extra hot sauce?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd appreciate more hot sauce.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide extra hot sauce?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take five packets of hot sauce.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I get some extra hot sauce?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hook me up with more salsa?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need some more heat, can I get extra?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got any extra hot sauce I can grab?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I score some extra hot sauce?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna need some more hot sauce, please.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a bunch of hot sauce?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take a ton of hot sauce, thanks.",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, can I cop some extra hot sauce?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hit me with some extra salsa, G.",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low on hot sauce, can you refill me?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you spit some extra hot sauce my way?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need that fire, can I get extra?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you bless me with some extra hot sauce?",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] packets of hot sauce?",
+        "options": [
+          "five",
+          "a few",
+          "some",
+          "a bunch"
+        ],
+        "meaning": "requesting a specific amount of hot sauce"
+      },
+      {
+        "template": "I need [options] hot sauce, please.",
+        "options": [
+          "more",
+          "some",
+          "a lot",
+          "extra"
+        ],
+        "meaning": "requesting additional hot sauce"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for extra hot sauce",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get five packets of your spiciest salsa?"
+          },
+          {
+            "speaker": "Worker",
+            "text": "Sure thing, I'll grab those for you."
+          }
+        ]
+      },
+      {
+        "description": "Customer requesting hot sauce in a casual tone",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hey, can I get some extra hot sauce?"
+          },
+          {
+            "speaker": "Worker",
+            "text": "Yeah, I've got you covered. Here you go."
+          }
+        ]
+      }
+    ]
+  }
+}

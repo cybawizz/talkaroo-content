@@ -1,0 +1,195 @@
+{
+  "title": "Showing disbelief",
+  "context": "Express that you cannot believe what you just saw or heard.",
+  "content": {
+    "bestLine": "No way, that's unbelievable",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't believe it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's hard to believe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not buying it",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "That's unbelievable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm shocked",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's astonishing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stunned",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "No way, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's crazy talk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't think so",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get out of here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's wild",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not convinced",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's insane",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That's hella weird",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dead, that's crazy",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's lowkey insane",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting that idea",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm shook",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, that's totally believable",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Yeah, right, sure",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most ridiculous thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so convinced",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's a totally normal thing to say",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not rolling my eyes at all",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] believe that",
+        "options": [
+          "don't",
+          "can't",
+          "won't"
+        ],
+        "meaning": "expressing disbelief"
+      },
+      {
+        "template": "That's [options] crazy",
+        "options": [
+          "totally",
+          "completely",
+          "utterly"
+        ],
+        "meaning": "expressing shock"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a surprising news story",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Did you hear about the new discovery?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No way, that's unbelievable"
+          }
+        ]
+      },
+      {
+        "description": "A person reacting to a shocking video",
+        "lines": [
+          {
+            "speaker": "Person",
+            "text": "What the...? That's insane!"
+          },
+          {
+            "speaker": "Person",
+            "text": "I'm shook"
+          }
+        ]
+      }
+    ]
+  }
+}

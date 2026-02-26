@@ -1,0 +1,187 @@
+{
+  "title": "Refusing a telephone solicitor",
+  "context": "Firmly tell a telemarketer that you absolutely do not want to buy anything.",
+  "content": {
+    "bestLine": "I'm not interested, please remove my number.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not buying anything.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not interested, thanks.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't want to purchase.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "No, thank you.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a buyer.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not a good time.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on a do-not-call list.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Nah, I'm good.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No way, thanks.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not into that.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not my thing.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll pass.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No thanks, dude.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm busy, bye.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm not interested in purchasing.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I decline your offer.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a potential buyer.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must refuse.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not authorized to buy.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Hard pass.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Not gonna happen.",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Nope, not interested.",
+          "register": "slang",
+          "risk": "low"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Don't call me again.",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Leave me alone.",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] buy from you.",
+        "options": [
+          "don't want to",
+          "won't",
+          "can't"
+        ],
+        "meaning": "refusal to purchase"
+      },
+      {
+        "template": "I'm [options] interested.",
+        "options": [
+          "not",
+          "never",
+          "not at all"
+        ],
+        "meaning": "lack of interest"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple Refusal",
+        "lines": [
+          {
+            "speaker": "Telemarketer",
+            "text": "Hello, are you interested in our product?"
+          },
+          {
+            "speaker": "You",
+            "text": "No, thank you."
+          }
+        ]
+      },
+      {
+        "description": "Firm Refusal",
+        "lines": [
+          {
+            "speaker": "Telemarketer",
+            "text": "Can I interest you in our special offer?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not interested, please remove my number."
+          }
+        ]
+      }
+    ]
+  }
+}

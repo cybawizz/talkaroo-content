@@ -1,0 +1,173 @@
+{
+  "title": "Quitting a difficult hobby",
+  "context": "Admit that learning to play the guitar is too hard and you are giving up.",
+  "content": {
+    "bestLine": "I'm done with guitar, it's just too tough",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I've decided to stop playing guitar",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Guitar isn't for me, I'm moving on",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not making progress, so I'm quitting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to try something new",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've had enough of struggling with guitar",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My interest in guitar has faded",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm putting my guitar away for good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Guitar practice is no longer for me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so done with guitar, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Guitar is just not my thing, I'm out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm throwing in the towel, guitar wins",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm over guitar, time to move on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Guitar is too hard, I'm peaceing out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done trying to be a guitar hero",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Guitar is not my jam, I'm quitting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hanging up my guitar for good",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm ghosting guitar, it's whack",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Guitar is lowkey too hard, I'm out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm done with guitar, it's played out",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Guitar is not lit, I'm moving on",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm finna quit guitar, it's a wrap",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Guitar is not my vibe, I'm peacing out",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with guitar",
+        "options": [
+          "done",
+          "over",
+          "through"
+        ],
+        "meaning": "quitting guitar"
+      },
+      {
+        "template": "Guitar is [options] for me",
+        "options": [
+          "too hard",
+          "not my thing",
+          "not worth it"
+        ],
+        "meaning": "giving up on guitar"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about quitting guitar",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm done with guitar, it's just too tough"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I knew it was a challenge, but I'm sad to see you go"
+          }
+        ]
+      },
+      {
+        "description": "Explaining to a family member why you're quitting guitar",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I've decided to stop playing guitar, it's not for me"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, well, what do you want to try next?"
+          }
+        ]
+      }
+    ]
+  }
+}

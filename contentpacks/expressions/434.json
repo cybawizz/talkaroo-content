@@ -1,0 +1,173 @@
+{
+  "title": "Asking why someone looks unhappy",
+  "context": "Ask a person what happened to make them look so sad today.",
+  "content": {
+    "bestLine": "What's wrong, you look really sad today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You seem upset",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything okay?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look unhappy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear troubled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is something bothering you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's wrong?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You okay, man?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's eating at you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you've lost your last friend",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Dude, what's wrong?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem really down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's bothering you, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You look like you're carrying the weight of the world",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've noticed you seem upset",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything all right?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be troubled",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm concerned about your well-being",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something I can do to help?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be experiencing some distress",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options] today",
+        "options": [
+          "sad",
+          "unhappy",
+          "troubled"
+        ],
+        "meaning": "expressing concern for someone's emotional state"
+      },
+      {
+        "template": "Is [options] bothering you?",
+        "options": [
+          "something",
+          "anything",
+          "everything"
+        ],
+        "meaning": "asking about the source of someone's unhappiness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A concerned friend asking about someone's unhappiness",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, what's wrong? You look really sad today"
+          },
+          {
+            "speaker": "Person",
+            "text": "I just had a tough day, that's all"
+          }
+        ]
+      },
+      {
+        "description": "A coworker inquiring about a colleague's well-being",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "I've noticed you seem upset. Is everything all right?"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Yeah, I'm just dealing with some personal issues. Thanks for asking"
+          }
+        ]
+      }
+    ]
+  }
+}

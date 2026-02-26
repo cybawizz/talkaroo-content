@@ -1,0 +1,175 @@
+{
+  "title": "Asking about the location of some place",
+  "context": "Call a business to get directions to their exact address.",
+  "content": {
+    "bestLine": "Can you give me directions to your location?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How do I get to your store?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to get to your office?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide me with directions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I find your location?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me directions over the phone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get to your building?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you help me with directions?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how do I get to your place?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a quick directions?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's the best way to get to you guys?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the easiest way to find you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you just give me directions real quick?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do I get to your shop?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you help a guy out with directions?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the best route to take to get to you?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide me with directions to your location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could give me directions to your office.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you offer me guidance on how to get to your store?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am in need of directions to your establishment.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be so kind as to provide me with directions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require directions to your location, please.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you give me directions to your [location]?",
+        "options": [
+          "office",
+          "store",
+          "building"
+        ],
+        "meaning": "Requesting directions to a specific location"
+      },
+      {
+        "template": "How do I get to your [location] from [starting point]?",
+        "options": [
+          "office",
+          "store",
+          "building",
+          "downtown",
+          "highway"
+        ],
+        "meaning": "Requesting directions from a specific starting point"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Calling a business to ask for directions",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm trying to get to your store. Can you give me directions?"
+          },
+          {
+            "speaker": "Business",
+            "text": "Yes, of course. We're located on Main Street. If you're coming from the highway, take the exit for Main Street and head east for about a mile."
+          }
+        ]
+      },
+      {
+        "description": "Asking for directions to a business over the phone",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hello, I need to get to your office. Can you provide me with directions?"
+          },
+          {
+            "speaker": "Business",
+            "text": "Certainly. Our office is located in the downtown area. If you're using a GPS, our address is 123 Main Street. If you're coming from the north, take the highway and exit at Main Street."
+          }
+        ]
+      }
+    ]
+  }
+}

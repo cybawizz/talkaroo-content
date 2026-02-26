@@ -1,0 +1,146 @@
+{
+  "title": "When your moving about may bother someone",
+  "context": "Politely apologize while moving past someone in a tight space.",
+  "content": {
+    "bestLine": "Excuse me, sorry to squeeze by",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sorry to bother you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Pardon me, coming through",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to squeeze by",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "May I get by, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, sorry to disturb",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to intrude, excuse me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, sorry to bump you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Excuse me, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry to squeeze past",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I slip by?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry to get in your way",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Excuse me, sorry about that",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for the inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Excuse me, please let me pass",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry to disturb you, sir/ma'am",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I have your permission to pass?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, [options]",
+        "options": [
+          "sorry to bother you",
+          "sorry to disturb"
+        ],
+        "meaning": "polite apology"
+      },
+      {
+        "template": "Sorry to [options]",
+        "options": [
+          "squeeze by",
+          "bump you"
+        ],
+        "meaning": "apology for physical contact"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing to a stranger in a tight space",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Excuse me, sorry to squeeze by"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "It's okay, go ahead"
+          }
+        ]
+      },
+      {
+        "description": "Apologizing to a coworker in a tight space",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I apologize for the inconvenience"
+          },
+          {
+            "speaker": "Coworker",
+            "text": "No problem, I'm just getting a file"
+          }
+        ]
+      }
+    ]
+  }
+}

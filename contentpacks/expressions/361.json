@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about the job market",
+  "context": "Complain that every company wants five years of experience for entry-level jobs.",
+  "content": {
+    "bestLine": "Every company wants five years of experience for entry-level jobs, it's crazy",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Most companies require too much experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm tired of seeing five years of experience required",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The job market is tough for new graduates",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Experience requirements are really high",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to get a job without experience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Companies should consider training new employees",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The job market is not friendly to newcomers",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I wish companies would give people a chance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's wild that they want five years of experience for an entry-level job",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so done with these crazy experience requirements",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The job market is hella tough right now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get a job, but it's hard without experience",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Companies are being super unrealistic",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I just want a chance to prove myself",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's frustrating to see these experience requirements everywhere",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm starting to think I'll never get a job",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's lowkey ridiculous that they want five years of experience",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm highkey frustrated with the job market",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Companies are being extra with these experience requirements",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to get a job, but it's a whole thing",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "The job market is a mess, fam",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just trying to get my foot in the door",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Every company wants [options] years of experience",
+        "options": [
+          "five",
+          "three",
+          "two"
+        ],
+        "meaning": "complaining about experience requirements"
+      },
+      {
+        "template": "I'm so [options] with the job market",
+        "options": [
+          "done",
+          "frustrated",
+          "tired"
+        ],
+        "meaning": "expressing frustration with the job market"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about job search",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so frustrated with the job market"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, every company wants five years of experience for entry-level jobs"
+          }
+        ]
+      },
+      {
+        "description": "Discussing job search with a career counselor",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm having trouble finding a job without experience"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's tough, but we can work on building your skills and experience to make you a more competitive candidate"
+          }
+        ]
+      }
+    ]
+  }
+}

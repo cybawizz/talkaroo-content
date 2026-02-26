@@ -1,0 +1,158 @@
+{
+  "title": "Making friends at a bar or cafe",
+  "context": "Start a friendly conversation with a stranger at a social venue.",
+  "content": {
+    "bestLine": "Mind if I join you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How's your day going?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm waiting for a friend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is a great spot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you come here often?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love the atmosphere",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you think of the music?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This coffee is amazing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I found this place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to grab a drink?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm [name], by the way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your favorite drink here?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, this place is lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "What's good?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key hungover",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This coffee is fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's grab a drink and vibe",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [name], and you are [options]",
+        "options": [
+          "a friend",
+          "a stranger",
+          "a local"
+        ],
+        "meaning": "introduction"
+      },
+      {
+        "template": "Want to [options] and get to know each other?",
+        "options": [
+          "grab a drink",
+          "take a walk",
+          "get some food"
+        ],
+        "meaning": "invitation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with a stranger",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Mind if I join you?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Not at all, please do"
+          }
+        ]
+      },
+      {
+        "description": "Finding common ground",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I love this song, what about you?"
+          },
+          {
+            "speaker": "Stranger",
+            "text": "Yeah, it's one of my favorites"
+          }
+        ]
+      }
+    ]
+  }
+}

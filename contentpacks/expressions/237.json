@@ -1,0 +1,173 @@
+{
+  "title": "Asking about a store's return policy",
+  "context": "Ask if you can get cash back or only store credit.",
+  "content": {
+    "bestLine": "Can I get a cash refund or just store credit?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's your return policy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer cash back or store credit?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do returns work here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I exchange or get a refund?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What if I want to return something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have a return policy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I return an item?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a refund or exchange?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I return this for cash?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the deal with returns here?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get store credit or cash back?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's the return policy work?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I exchange it for something else?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What if I don't like it?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I return it for a refund?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How do I get my money back?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about your return policy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please explain your return procedure?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What options are available for returning an item?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate information on your refund policy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you clarify your store's return and exchange policies?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the process for initiating a return?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] for this?",
+        "options": [
+          "a cash refund",
+          "store credit",
+          "an exchange"
+        ],
+        "meaning": "Asking about return policy options"
+      },
+      {
+        "template": "What's your policy on [options]?",
+        "options": [
+          "returns",
+          "exchanges",
+          "refunds"
+        ],
+        "meaning": "Inquiring about store policies"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about return policy",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can I get a cash refund or just store credit?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "We offer store credit or an exchange within 30 days of purchase."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about return procedure",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's your return policy?"
+          },
+          {
+            "speaker": "Sales Associate",
+            "text": "You can return an item within 30 days for a full refund or exchange it for something else."
+          }
+        ]
+      }
+    ]
+  }
+}

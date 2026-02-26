@@ -1,0 +1,173 @@
+{
+  "title": "Describing a place that is distant",
+  "context": "Explain that a destination requires a very long drive or flight.",
+  "content": {
+    "bestLine": "It's a really long drive from here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "quite a distance away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "a long way from here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "far from the city",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "not close by",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "a bit of a trek",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "pretty far off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "on the other side of town",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "a long commute",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "super far away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "a crazy long drive",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "out in the sticks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "way out there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "a haul to get to",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "really far from everything",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "in the middle of nowhere",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "a long way to travel",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "considerably distant",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "a significant distance away",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "located far from the city center",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "not in close proximity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "a substantial commute",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "situated at a considerable distance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "it's [options] from here",
+        "options": [
+          "a really long drive",
+          "quite a distance",
+          "a bit of a trek"
+        ],
+        "meaning": "describing distance"
+      },
+      {
+        "template": "you'll need to [options] to get there",
+        "options": [
+          "drive for hours",
+          "take a long flight",
+          "commute for a while"
+        ],
+        "meaning": "explaining travel requirements"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "explaining distance to a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How far is it to the beach?"
+          },
+          {
+            "speaker": "B",
+            "text": "It's a really long drive from here, but worth it"
+          }
+        ]
+      },
+      {
+        "description": "describing a commute to a coworker",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How long does it take you to get to work?"
+          },
+          {
+            "speaker": "B",
+            "text": "It's about an hour and a half, the traffic is terrible"
+          }
+        ]
+      }
+    ]
+  }
+}

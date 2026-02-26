@@ -1,0 +1,173 @@
+{
+  "title": "Giving instructions to someone you've lent something to",
+  "context": "Tell someone to take good care of an item you let them borrow.",
+  "content": {
+    "bestLine": "Please take good care of this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Be careful with this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care of it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Handle with care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep it safe",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use it wisely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Treat it well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Watch out for it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep an eye on it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Don't break it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy with this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be gentle with it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't mess it up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it in one piece",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't lose it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take care of my stuff",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be kind to it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please handle with care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I entrust this to you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Take responsibility for it",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Ensure its safe return",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Treat it with respect",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Use it properly",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [options] of this",
+        "options": [
+          "take care",
+          "be careful with",
+          "handle with care"
+        ],
+        "meaning": "to ask someone to be careful with an item"
+      },
+      {
+        "template": "I [options] you to take care of this",
+        "options": [
+          "trust",
+          "ask",
+          "request"
+        ],
+        "meaning": "to ask someone to take care of an item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Lending a book to a friend",
+        "lines": [
+          {
+            "speaker": "Lender",
+            "text": "Please take good care of this book"
+          },
+          {
+            "speaker": "Borrower",
+            "text": "Don't worry, I'll return it in the same condition"
+          }
+        ]
+      },
+      {
+        "description": "Lending a tool to a colleague",
+        "lines": [
+          {
+            "speaker": "Lender",
+            "text": "Handle with care, it's a sensitive tool"
+          },
+          {
+            "speaker": "Borrower",
+            "text": "Got it, I'll be careful"
+          }
+        ]
+      }
+    ]
+  }
+}

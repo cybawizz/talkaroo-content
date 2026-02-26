@@ -1,0 +1,173 @@
+{
+  "title": "Agreeing with a speaker",
+  "context": "State that you support the point the current speaker is making.",
+  "content": {
+    "bestLine": "I completely agree with you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That's a great point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I see what you mean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You make a good argument",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you on that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That makes sense to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I share your opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're absolutely right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I concur with you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Totally agree",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yeah, that's true",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm on the same page",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're spot on",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel the same way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's so true",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm with you all the way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You nailed it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I strongly agree",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your point is well-taken",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I concur with your assessment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You make a compelling argument",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I support your position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your perspective is valid",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with you",
+        "options": [
+          "agree",
+          "concur",
+          "see eye to eye"
+        ],
+        "meaning": "showing agreement"
+      },
+      {
+        "template": "You're [options] on that",
+        "options": [
+          "absolutely right",
+          "spot on",
+          "correct"
+        ],
+        "meaning": "expressing agreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Agreeing in a conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I think we should try a new approach"
+          },
+          {
+            "speaker": "B",
+            "text": "I completely agree with you"
+          }
+        ]
+      },
+      {
+        "description": "Showing agreement in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I propose we increase our marketing budget"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I strongly agree, that's a great idea"
+          }
+        ]
+      }
+    ]
+  }
+}

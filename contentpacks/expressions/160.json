@@ -1,0 +1,173 @@
+{
+  "title": "Questions asked of departing guests",
+  "context": "Ask your guests if they have all their belongings before they leave.",
+  "content": {
+    "bestLine": "Do you have everything before you head out?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Got everything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All set to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have all your stuff?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to head out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Everything okay to leave?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All good to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got your keys and phone?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Need anything before you leave?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You good to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got all your junk?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "All packed up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to roll?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't forget your stuff!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You forget anything?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Double-check your pockets?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a hand with anything?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Do you have all your personal belongings?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything you need before departing?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure you have all your items.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We want to make sure you have everything.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you confirm you have all your possessions?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Before you leave, do you need anything?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "everything",
+          "all your belongings",
+          "your keys and phone"
+        ],
+        "meaning": "Asking about possessions"
+      },
+      {
+        "template": "Are you [options]?",
+        "options": [
+          "all set",
+          "ready to go",
+          "good to leave"
+        ],
+        "meaning": "Asking about readiness to leave"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host asking guest about belongings",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Do you have everything before you head out?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yeah, I think so. Thanks for checking!"
+          }
+        ]
+      },
+      {
+        "description": "Friend reminding friend about belongings",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You good to go? Got all your stuff?"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Yeah, I'm all set. Thanks for reminding me!"
+          }
+        ]
+      }
+    ]
+  }
+}

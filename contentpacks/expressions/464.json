@@ -1,0 +1,153 @@
+{
+  "title": "Declining an invitation to join an MLM",
+  "context": "Politely tell a high school friend you will not join their pyramid scheme.",
+  "content": {
+    "bestLine": "I appreciate the offer, but I'm not interested in joining.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not interested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have to pass",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not my thing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, thanks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Not for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll decline",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate your offer, but I must decline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not interested in participating",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think it's a good fit for me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with the business model",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have to politely decline",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, another pyramid scheme",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure it's a totally legitimate opportunity",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'd love to lose all my money",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Sign me up for the inevitable financial ruin",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm thrilled to be recruited",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This sounds like a fantastic way to waste my time",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [adjective] about joining",
+        "options": [
+          "not interested",
+          "not comfortable",
+          "not sure"
+        ],
+        "meaning": "Declining the invitation"
+      },
+      {
+        "template": "I [verb] to join",
+        "options": [
+          "don't want to",
+          "can't",
+          "won't"
+        ],
+        "meaning": "Declining the invitation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Declining an MLM invitation from a high school friend",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, I've been making a lot of money with this new business opportunity and I thought you might be interested"
+          },
+          {
+            "speaker": "You",
+            "text": "I appreciate the offer, but I'm not interested in joining"
+          }
+        ]
+      },
+      {
+        "description": "Declining an MLM invitation from a stranger",
+        "lines": [
+          {
+            "speaker": "Stranger",
+            "text": "Hi, I'm with a great company that can help you make a lot of money"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm not interested, thanks"
+          }
+        ]
+      }
+    ]
+  }
+}

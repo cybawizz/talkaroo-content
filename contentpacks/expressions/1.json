@@ -1,0 +1,190 @@
+{
+  "title": "When someone sneezes (quick)",
+  "context": "Politely say bless you when a person sneezes near you.",
+  "content": {
+    "bestLine": "Bless you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Bless you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel better",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hope you're okay",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Feel better soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you health",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Bless you, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gesundheit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hope you're not getting sick",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Feel better, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get well soon, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No worries, hope you're okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You alright?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Excuse you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Bless you, sir/ma'am",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you're feeling well",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please take care of yourself",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you good health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you a speedy recovery",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Bless up",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Achoo to you too",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Sneeze on, sneeze off",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Bless you [options]",
+        "options": [
+          "sir",
+          "ma'am",
+          "dude"
+        ],
+        "meaning": "Expressing goodwill after a sneeze"
+      },
+      {
+        "template": "Hope you're [options]",
+        "options": [
+          "okay",
+          "feeling better",
+          "not getting sick"
+        ],
+        "meaning": "Showing concern after a sneeze"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Responding to a sneeze in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Excuse me"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Bless you, sir"
+          }
+        ]
+      },
+      {
+        "description": "Responding to a sneeze in an informal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Achoo!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Bless you, dude"
+          }
+        ]
+      }
+    ]
+  }
+}

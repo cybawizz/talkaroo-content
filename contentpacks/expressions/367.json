@@ -1,0 +1,158 @@
+{
+  "title": "Praising a live performance",
+  "context": "Tell your friend that the band sounded amazing tonight.",
+  "content": {
+    "bestLine": "The band sounded amazing tonight!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "They had a great sound",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The performance was excellent",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I loved their energy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The music was incredible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "They played all their hits",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The crowd loved them",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Their stage presence was awesome",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "They killed it tonight!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was a sick show!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so hyped after that concert",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The band was on fire!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I had the best time ever",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "They totally rocked out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That was an epic performance",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "They low-key crushed it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That concert was straight fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead after that show",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The band was turnt up",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "That was a lit performance",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "The [band] was [adjective] tonight!",
+        "options": [
+          "amazing",
+          "incredible",
+          "awesome"
+        ],
+        "meaning": "Expressing admiration for a live performance"
+      },
+      {
+        "template": "I [verb] the [band]'s [noun]!",
+        "options": [
+          "loved",
+          "enjoyed",
+          "hated"
+        ],
+        "meaning": "Sharing an opinion about a live performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend discussing a concert",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "The band sounded amazing tonight!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? They killed it!"
+          }
+        ]
+      },
+      {
+        "description": "Friends sharing opinions",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I loved their energy"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, they were on fire!"
+          }
+        ]
+      }
+    ]
+  }
+}

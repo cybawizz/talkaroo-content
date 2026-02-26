@@ -1,0 +1,200 @@
+{
+  "title": "Announcing a nap",
+  "context": "Tell others that you are going to lie down for a short sleep.",
+  "content": {
+    "bestLine": "I'm going to take a quick nap",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm going to rest for a bit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to lie down for a while",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a short nap",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to sleep for a bit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to recharge with a nap",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to take a break and rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling tired, I'll take a nap",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to get some rest now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna crash for a bit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking a snooze",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna grab a quick nap",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna catch some Z's",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna rest my eyes for a bit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna take a power nap",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna snooze for a bit",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna get some shut-eye",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I will be taking a short rest period",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am going to take a brief nap",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be unavailable for a short time due to rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am taking a scheduled break to rest",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be resting for a short duration",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am going to take a short period of sleep",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm gonna zonk out for a bit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna catch some winks",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna get my snooze on",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna pass out for a bit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna get some beauty sleep",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] for a bit",
+        "options": [
+          "rest",
+          "sleep",
+          "recharge"
+        ],
+        "meaning": "take a nap"
+      },
+      {
+        "template": "I'm [options] for a while",
+        "options": [
+          "going to sleep",
+          "taking a nap",
+          "resting"
+        ],
+        "meaning": "taking a break to rest"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Announcing a nap to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm going to take a quick nap"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, I'll let you sleep"
+          }
+        ]
+      },
+      {
+        "description": "Announcing a nap at work",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm going to take a short break to rest"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Okay, take your break"
+          }
+        ]
+      }
+    ]
+  }
+}

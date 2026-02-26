@@ -1,0 +1,173 @@
+{
+  "title": "When you do not speak a particular language",
+  "context": "Explain that you do not know how to speak someone else's language.",
+  "content": {
+    "bestLine": "I don't speak that language, sorry.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not fluent in that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't speak that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not proficient in that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't understand that language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That language is not my native language",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable speaking that language",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I don't speak that language, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No idea what that language is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not good at that language",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know what you're saying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you speak English?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm lost when it comes to that language",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That language is Greek to me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not fluent, sorry",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm not proficient in that language",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't speak that language, I apologize",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not familiar with the nuances of that language",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a strong understanding of that language",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable communicating in that language",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would need an interpreter for that language",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I don't speak [options]",
+        "options": [
+          "English",
+          "Spanish",
+          "French"
+        ],
+        "meaning": "language barrier"
+      },
+      {
+        "template": "I'm not fluent in [options]",
+        "options": [
+          "Mandarin",
+          "Arabic",
+          "Japanese"
+        ],
+        "meaning": "language limitation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Language barrier conversation",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you speak Spanish?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No, I don't speak Spanish, sorry."
+          }
+        ]
+      },
+      {
+        "description": "Asking for help with language",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Can you help me with this French text?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm not fluent in French, but I can try to help you."
+          }
+        ]
+      }
+    ]
+  }
+}

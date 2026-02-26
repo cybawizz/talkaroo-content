@@ -1,0 +1,124 @@
+{
+  "title": "A car dealer greeting a customer",
+  "context": "Welcome a potential buyer onto the car dealership lot.",
+  "content": {
+    "bestLine": "Hello, welcome to our dealership. How can I help you today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi, how are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to our lot.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I show you some cars?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you in today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I assist you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Looking for a new vehicle?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have some great deals today.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning, welcome to our dealership.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to help you find a car.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I provide you with some information?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have a wide selection of vehicles.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How may I assist you in your car search?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if you need any help.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello, [options] to our dealership.",
+        "options": [
+          "welcome",
+          "thanks for visiting"
+        ],
+        "meaning": "greeting"
+      },
+      {
+        "template": "Can I [options] you with something?",
+        "options": [
+          "help",
+          "assist"
+        ],
+        "meaning": "offer assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial greeting",
+        "lines": [
+          {
+            "speaker": "Dealer",
+            "text": "Hello, welcome to our dealership. How can I help you today?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Hi, just looking around."
+          }
+        ]
+      },
+      {
+        "description": "Follow-up question",
+        "lines": [
+          {
+            "speaker": "Dealer",
+            "text": "What type of car are you interested in?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm not sure, something with good gas mileage."
+          }
+        ]
+      }
+    ]
+  }
+}

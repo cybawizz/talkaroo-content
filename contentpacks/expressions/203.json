@@ -1,0 +1,132 @@
+{
+  "title": "Asking a financial advisor for help",
+  "context": "Ask a professional how to start investing in a retirement fund.",
+  "content": {
+    "bestLine": "How do I start investing in a retirement fund?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I want to start saving for retirement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to invest for retirement?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for retirement investment advice",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I start a retirement fund?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are my options for retirement investing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with retirement planning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you guide me on retirement investing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in learning about retirement funds",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "I would like to inquire about retirement investment options",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide guidance on starting a retirement fund?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking professional advice on retirement investing",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the recommended steps for investing in a retirement fund?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate your expertise on retirement planning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you assist me with setting up a retirement investment portfolio?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I want to start [options] for retirement",
+        "options": [
+          "saving",
+          "investing",
+          "planning"
+        ],
+        "meaning": "expressing interest in starting retirement preparations"
+      },
+      {
+        "template": "Can you help me with [options]?",
+        "options": [
+          "retirement investing",
+          "retirement planning",
+          "starting a retirement fund"
+        ],
+        "meaning": "requesting assistance with retirement-related tasks"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Initial Consultation",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "Hello, I'm interested in starting a retirement fund"
+          },
+          {
+            "speaker": "Financial Advisor",
+            "text": "That's a great decision. What's your current financial situation like?"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up Discussion",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "I've been thinking about my retirement goals. What options do I have for investing?"
+          },
+          {
+            "speaker": "Financial Advisor",
+            "text": "We can discuss various investment strategies. Let me explain a few options to you."
+          }
+        ]
+      }
+    ]
+  }
+}

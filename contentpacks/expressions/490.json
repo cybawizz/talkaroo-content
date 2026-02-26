@@ -1,0 +1,182 @@
+{
+  "title": "Offering care to a sick person",
+  "context": "Ask someone who is feeling unwell if they need any medicine or soup.",
+  "content": {
+    "bestLine": "Do you need any medicine or soup?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get you something?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need any help?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything I can do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you want some water?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Should I call a doctor?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I pick up some meds?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need some rest?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a prescription?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, you okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need some chicken soup?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want me to grab some meds?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You should take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can make you some tea",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need a blanket?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Feel better soon, okay?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I assist you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require medical attention?",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I can arrange for a doctor's visit",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "Please let me know how I can help",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there a specific medication needed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make sure to check in on you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Do you need [options]?",
+        "options": [
+          "medicine",
+          "soup",
+          "water",
+          "rest"
+        ],
+        "meaning": "offering help"
+      },
+      {
+        "template": "Can I get you [options]?",
+        "options": [
+          "something to drink",
+          "a blanket",
+          "some food"
+        ],
+        "meaning": "providing comfort"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking in on a sick friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, how are you feeling?"
+          },
+          {
+            "speaker": "B",
+            "text": "I'm not great, thanks for asking"
+          },
+          {
+            "speaker": "A",
+            "text": "Do you need any medicine or soup?"
+          }
+        ]
+      },
+      {
+        "description": "Offering help to a family member",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Mom, do you need anything?"
+          },
+          {
+            "speaker": "B",
+            "text": "Actually, I could use some water"
+          },
+          {
+            "speaker": "A",
+            "text": "I'll get you a glass, and do you want some medicine too?"
+          }
+        ]
+      }
+    ]
+  }
+}

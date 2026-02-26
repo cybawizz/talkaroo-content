@@ -1,0 +1,205 @@
+{
+  "title": "Getting someone to listen to you",
+  "context": "Demand that someone pays close attention to your words.",
+  "content": {
+    "bestLine": "Listen carefully to what I'm about to say",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please pay attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to focus",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you hear me out?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me make one thing clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to make sure you understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is important, so listen up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need your full attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please give me your attention",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, listen up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just hear me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to tell you something",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pay attention for a sec",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need you to focus, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just listen to what I'm saying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm talking to you, so listen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, pay attention",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate your attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please give me your full attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to bring something to your attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential that you listen carefully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require your undivided attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please listen attentively to what I'm about to say",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I'm sure you're just dying to hear what I have to say",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, continue to ignore me",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure my words are just the most fascinating thing you've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I can tell you're just on the edge of your seat",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you're giving me your undivided attention",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, do go on ignoring me, it's really helpful",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Listen [options] to what I'm saying",
+        "options": [
+          "carefully",
+          "up",
+          "to me"
+        ],
+        "meaning": "Demanding attention"
+      },
+      {
+        "template": "I need you to [options] to my words",
+        "options": [
+          "pay attention",
+          "listen",
+          "focus"
+        ],
+        "meaning": "Demanding attention"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Getting someone's attention in a meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Excuse me, can I have your attention?"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Yes, what is it?"
+          }
+        ]
+      },
+      {
+        "description": "Demanding attention from a friend",
+        "lines": [
+          {
+            "speaker": "Mike",
+            "text": "Hey, listen up, I need to tell you something"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "What's going on?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Talking to someone else's dog at a park",
+  "context": "Happily greet and praise a stranger's cute puppy.",
+  "content": {
+    "bestLine": "Oh, you're so cute!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi there little dog",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a good boy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're so fluffy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love your collar",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're very friendly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm glad we met",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're adorable",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey pup, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're such a cutie",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love your wagging tail",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're so much fun",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a dog lover",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so happy to see you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my new friend",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yo, pup!",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're off the chain",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key obsessed with you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're the real MVP",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key excited to meet you",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're so [options]",
+        "options": [
+          "cute",
+          "fun",
+          "friendly"
+        ],
+        "meaning": "expressing admiration"
+      },
+      {
+        "template": "I [options] your [options]",
+        "options": [
+          "love",
+          "like"
+        ],
+        "meaning": "expressing affection"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Meeting a puppy at the park",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Oh, you're so cute!"
+          },
+          {
+            "speaker": "Dog Owner",
+            "text": "Thanks, his name is Max"
+          }
+        ]
+      },
+      {
+        "description": "Playing with a puppy at the park",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "You're such a cutie, Max!"
+          },
+          {
+            "speaker": "Dog Owner",
+            "text": "I know, right? He loves playing fetch"
+          }
+        ]
+      }
+    ]
+  }
+}

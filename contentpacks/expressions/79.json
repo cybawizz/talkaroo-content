@@ -1,0 +1,173 @@
+{
+  "title": "Discussing self-care routines",
+  "context": "Talk about taking a long bath or reading a book to de-stress.",
+  "content": {
+    "bestLine": "I unwind with a long bath or a good book",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Taking a bath helps me relax",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Reading is my go-to stress reliever",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I enjoy taking some me-time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Self-care is essential for my well-being",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I prioritize my mental health",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A long bath soothes my mind and body",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Getting lost in a book calms me down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I make time for activities that bring me joy",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all about that self-care life",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Baths are my happy place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a total bookworm",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love unwinding with a good read",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Self-care Sundays are the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all about relaxation mode",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I prioritize my chill time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a fan of me-time",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key obsessed with baths",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key stressed without my self-care",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm all about that zen life",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting stress with my self-care routine",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm living my best life with self-care",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm savage about my me-time",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] to relax",
+        "options": [
+          "take a bath",
+          "read a book",
+          "listen to music"
+        ],
+        "meaning": "ways to unwind"
+      },
+      {
+        "template": "My self-care routine includes [options]",
+        "options": [
+          "taking a bath",
+          "reading a book",
+          "practicing yoga"
+        ],
+        "meaning": "self-care activities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing self-care routines with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so stressed out, I need to relax"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I feel you, I unwind with a long bath or a good book"
+          }
+        ]
+      },
+      {
+        "description": "Talking about self-care with a family member",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I've been feeling overwhelmed lately"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Maybe you should try taking some me-time, like reading a book or taking a bath"
+          }
+        ]
+      }
+    ]
+  }
+}

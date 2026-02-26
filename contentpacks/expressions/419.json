@@ -1,0 +1,239 @@
+{
+  "title": "Expressing strong anger",
+  "context": "Loudly declare that you are absolutely furious about what just happened.",
+  "content": {
+    "bestLine": "I am absolutely furious about what just happened!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm extremely upset",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is unacceptable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm very angry",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is outrageous",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm fed up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is infuriating",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at my wit's end",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is ridiculous",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so pissed off",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is crap",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm freaking out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is messed up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm losing my cool",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is insane",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm getting heated",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a joke",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm extremely displeased",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a serious issue",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply concerned",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is unacceptable behavior",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outraged",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a grave mistake",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella angry",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is whack",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key furious",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is straight fire",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm salty",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "This is a hot mess",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Are you kidding me?",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is bulls**t",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm furious, you idiot",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is a disaster",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I'm done with this",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "This is ridiculous, shut up",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] about this",
+        "options": [
+          "furious",
+          "angry",
+          "upset",
+          "pissed off"
+        ],
+        "meaning": "expressing strong emotions"
+      },
+      {
+        "template": "This is [options]",
+        "options": [
+          "unacceptable",
+          "ridiculous",
+          "outrageous",
+          "insane"
+        ],
+        "meaning": "expressing strong disagreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Confronting someone about their actions",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm absolutely furious about what you did!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong with you? I didn't do anything wrong."
+          }
+        ]
+      },
+      {
+        "description": "Expressing frustration to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so angry about what happened today."
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's going on? Tell me about it."
+          }
+        ]
+      }
+    ]
+  }
+}

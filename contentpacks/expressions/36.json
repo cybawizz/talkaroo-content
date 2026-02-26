@@ -1,0 +1,132 @@
+{
+  "title": "Meeting children",
+  "context": "Say hello in a friendly, gentle way to a young child.",
+  "content": {
+    "bestLine": "Hi, how are you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hello there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, I'm happy to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, young friend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's your name?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, it's nice to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how are you doing today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello, I'm glad we met",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey there, kiddo",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, how's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, I'm so happy to meet you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi, what's your favorite thing?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, you're so cool",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "Hello, my name is [options]",
+        "options": [
+          "John",
+          "Emily",
+          "David"
+        ],
+        "meaning": "introducing oneself"
+      },
+      {
+        "template": "Hi, I'm [options] years old",
+        "options": [
+          "5",
+          "7",
+          "10"
+        ],
+        "meaning": "talking about age"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Meeting a child for the first time",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Hi, how are you?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm good, thanks"
+          }
+        ]
+      },
+      {
+        "description": "Talking to a child at a playground",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Hey, what's your favorite thing to do here?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I like to swing"
+          }
+        ]
+      }
+    ]
+  }
+}

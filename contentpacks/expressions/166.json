@@ -1,0 +1,131 @@
+{
+  "title": "A police officer seeking information",
+  "context": "Ask a witness what the suspect looked like and which way they ran.",
+  "content": {
+    "bestLine": "Can you describe the suspect and which way they ran?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What did the suspect look like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Which direction did they go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you describe the person?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What was the suspect wearing?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did they run or walk away?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me what happened?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What did you see?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a description?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please describe the suspect?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "In which direction did the individual flee?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide a detailed description?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What was the suspect's attire?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Did the suspect exit the scene on foot?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recount what you witnessed?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you describe the [options]?",
+        "options": [
+          "suspect",
+          "person",
+          "individual"
+        ],
+        "meaning": "Requesting a description"
+      },
+      {
+        "template": "Which way did the [options] go?",
+        "options": [
+          "suspect",
+          "person",
+          "individual"
+        ],
+        "meaning": "Asking for direction"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Police officer asking a witness for information",
+        "lines": [
+          {
+            "speaker": "Police Officer",
+            "text": "Can you describe the suspect and which way they ran?"
+          },
+          {
+            "speaker": "Witness",
+            "text": "He was a tall male, wearing a black jacket, and ran down the street."
+          }
+        ]
+      },
+      {
+        "description": "Police officer seeking more information from a witness",
+        "lines": [
+          {
+            "speaker": "Police Officer",
+            "text": "What did the suspect look like?"
+          },
+          {
+            "speaker": "Witness",
+            "text": "He had a beard and was wearing a hat."
+          }
+        ]
+      }
+    ]
+  }
+}

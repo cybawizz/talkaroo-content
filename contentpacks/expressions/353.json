@@ -1,0 +1,158 @@
+{
+  "title": "Attitudes toward spending money",
+  "context": "State your personal philosophy on saving or wasting cash.",
+  "content": {
+    "bestLine": "I believe in saving for the future, not wasting cash.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Saving is a good habit.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I try to budget my expenses.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Money doesn't grow on trees.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to prioritize needs over wants.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Being frugal is a virtue.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd rather save than splurge.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Financial discipline is key.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm all about saving that dough.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be a spendthrift, dude.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm trying to cut back on expenses.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's be smart about money.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not made of money, you know.",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Saving is my superpower.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't waste your cash, bro.",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Fiscal responsibility is crucial.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's imperative to manage expenses effectively.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Prudent financial planning is essential.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I adhere to a strict budget.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Financial prudence is a valuable trait.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] my money.",
+        "options": [
+          "save",
+          "spend",
+          "invest"
+        ],
+        "meaning": "expressing attitude towards money management"
+      },
+      {
+        "template": "It's [options] to save for the future.",
+        "options": [
+          "wise",
+          "prudent",
+          "essential"
+        ],
+        "meaning": "emphasizing the importance of saving"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing expenses with a friend",
+        "lines": [
+          {
+            "speaker": "Alex",
+            "text": "I'm trying to cut back on expenses. Want to join me?"
+          },
+          {
+            "speaker": "Sam",
+            "text": "Yeah, I'm in. Let's make a budget and stick to it."
+          }
+        ]
+      },
+      {
+        "description": "Talking about financial priorities with a family member",
+        "lines": [
+          {
+            "speaker": "May",
+            "text": "I think we should prioritize saving for the future."
+          },
+          {
+            "speaker": "John",
+            "text": "I agree, but we also need to enjoy life. Let's find a balance."
+          }
+        ]
+      }
+    ]
+  }
+}

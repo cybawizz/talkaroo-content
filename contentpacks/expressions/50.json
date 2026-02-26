@@ -1,0 +1,158 @@
+{
+  "title": "Saying good-bye to departing guests",
+  "context": "Wish your friends a safe trip as they leave your house.",
+  "content": {
+    "bestLine": "Have a safe trip home",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Have a good one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All the best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be careful out there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice having you over",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Have a blast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Drive safe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get home safe",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It was a pleasure having you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you have a safe journey",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be careful on the road",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you a pleasant trip",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Goodbye and good luck",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Have a [adjective] trip",
+        "options": [
+          "safe",
+          "good",
+          "great"
+        ],
+        "meaning": "Wish someone a pleasant journey"
+      },
+      {
+        "template": "It was [adjective] having you [verb]",
+        "options": [
+          "nice",
+          "great",
+          "wonderful"
+        ],
+        "meaning": "Express appreciation for someone's visit"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Have a safe trip home"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Thanks, I had a great time"
+          }
+        ]
+      },
+      {
+        "description": "Saying goodbye to a family member",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "I'll see you soon, be careful on the road"
+          },
+          {
+            "speaker": "Host",
+            "text": "You too, drive safe"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "title": "Encouraging someone to be more sensible",
+  "context": "Advise someone to use logic and make a smarter choice.",
+  "content": {
+    "bestLine": "Let's think this through logically",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Consider the facts",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Think it over",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be reasonable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Look at the evidence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Use your head",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make an informed decision",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Weigh the options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Think critically",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, be smart",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Think about it, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Get real",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Be sensible, man",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Use your brain",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't do something stupid",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Chill and think",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I advise you to reconsider",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's approach this logically",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's essential to think critically",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We should evaluate the options carefully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A rational decision is necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's analyze the situation",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Wow, that's a great idea, said no one ever",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really thinking this through, aren't you?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm sure that'll end well",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "What could possibly go wrong?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're a genius, I'm sure",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "That's the most sensible thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] this situation",
+        "options": [
+          "think through",
+          "approach logically",
+          "evaluate carefully"
+        ],
+        "meaning": "to consider the situation carefully"
+      },
+      {
+        "template": "I [options] you to reconsider",
+        "options": [
+          "advise",
+          "urge",
+          "suggest"
+        ],
+        "meaning": "to recommend someone to think again"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend trying to convince another friend to make a sensible decision",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Come on, let's think this through"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I don't know, it seems like a good idea"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Really? You're not considering the consequences"
+          }
+        ]
+      },
+      {
+        "description": "Manager advising an employee to make a rational decision",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Let's approach this situation logically"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm not sure, I just want to get it done"
+          },
+          {
+            "speaker": "Manager",
+            "text": "I understand, but we need to think critically about the potential outcomes"
+          }
+        ]
+      }
+    ]
+  }
+}

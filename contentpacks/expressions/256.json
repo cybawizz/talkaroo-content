@@ -1,0 +1,163 @@
+{
+  "title": "Inviting someone to talk",
+  "context": "Ask someone to open up and share their thoughts with you.",
+  "content": {
+    "bestLine": "Can you tell me what's on your mind?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What do you think about this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd love to hear your thoughts.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share your perspective?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you feel about that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your take on this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in your opinion.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you open up to me?",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up, want to talk about it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can we chat about this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all ears, what's going on?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want to grab coffee and talk?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to listen, what's on your mind?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's catch up, what's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk about what's bothering you?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'd appreciate your insight on this matter.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please share your thoughts with me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in hearing your perspective.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Would you be willing to discuss this further?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I value your opinion, can you share it with me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we schedule a meeting to talk about this?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options] about this?",
+        "options": [
+          "tell me",
+          "share with me",
+          "open up about"
+        ],
+        "meaning": "asking someone to share their thoughts"
+      },
+      {
+        "template": "I'm [options] to hear your thoughts.",
+        "options": [
+          "interested",
+          "eager",
+          "looking forward"
+        ],
+        "meaning": "expressing interest in someone's opinion"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Inviting a friend to talk",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, can we talk about what's been going on?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah, I've been wanting to talk to you about that."
+          }
+        ]
+      },
+      {
+        "description": "Asking a colleague for their opinion",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'd appreciate your insight on this project."
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Sure, I'd be happy to share my thoughts."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "title": "A guest announcing departure",
+  "context": "Tell your host that it is time for you to go home.",
+  "content": {
+    "bestLine": "I should probably get going now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's time for me to head home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should probably get going now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to take off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was great visiting, but I should go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've got to get going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time for me to leave",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm heading out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should be on my way",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later, guys, I'm outta here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna bounce",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Time for me to roll",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm peacing out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm ghosting",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm heading home, see you soon",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I must be on my way",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for my departure",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I bid you farewell",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must depart",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure, but I must go",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] now",
+        "options": [
+          "heading out",
+          "taking off",
+          "leaving"
+        ],
+        "meaning": "announcing departure"
+      },
+      {
+        "template": "It's [options] for me to go",
+        "options": [
+          "time",
+          "getting late"
+        ],
+        "meaning": "indicating it's time to leave"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Guest announcing departure to host",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I should probably get going now"
+          },
+          {
+            "speaker": "Host",
+            "text": "Okay, it was great having you over"
+          }
+        ]
+      },
+      {
+        "description": "Informal departure announcement",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Later, guys, I'm outta here"
+          },
+          {
+            "speaker": "Host",
+            "text": "See you later, have a good night"
+          }
+        ]
+      }
+    ]
+  }
+}

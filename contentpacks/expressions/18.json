@@ -1,0 +1,173 @@
+{
+  "title": "Commenting on the uniqueness of someone",
+  "context": "Tell someone that they are a very special or unique person.",
+  "content": {
+    "bestLine": "You're one of a kind, and that's amazing",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're very special",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've never met anyone like you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You have a unique perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're an original",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love your individuality",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You stand out in a crowd",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a breath of fresh air",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a true one-off",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're awesome, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I met you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a total rockstar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're one of my favorite people",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're so cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love hanging out with you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a unique snowflake",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You possess a distinct charm",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your individuality is admirable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have a certain je ne sais quoi",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a truly exceptional person",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your uniqueness is an asset",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You bring a fresh perspective",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] and that's what makes you special",
+        "options": [
+          "amazing",
+          "incredible",
+          "unique"
+        ],
+        "meaning": "expressing admiration for someone's uniqueness"
+      },
+      {
+        "template": "I love [options] about you",
+        "options": [
+          "your sense of humor",
+          "your kindness",
+          "your individuality"
+        ],
+        "meaning": "expressing appreciation for someone's qualities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Commenting on someone's uniqueness in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You're so cool, I love your style"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I try to be myself"
+          }
+        ]
+      },
+      {
+        "description": "Expressing admiration for someone's uniqueness in a formal setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You possess a distinct charm, it's truly admirable"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, that means a lot to me"
+          }
+        ]
+      }
+    ]
+  }
+}

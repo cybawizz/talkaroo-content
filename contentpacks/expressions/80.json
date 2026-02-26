@@ -1,0 +1,173 @@
+{
+  "title": "Apologizing for being a bad host",
+  "context": "Say sorry for not being more attentive or prepared for guests.",
+  "content": {
+    "bestLine": "Sorry I've been a terrible host, can I get you a drink?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm so sorry for the mess",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please forgive the chaos",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I feel awful for not being more prepared",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for not being more attentive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I hope you're doing okay despite my hosting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bear with me, I'm still getting things together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sorry for the inconvenience",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try to do better",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad for being a lame host",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry I've been MIA, let me grab you a drink",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm really sorry for the disorganization",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel like I've been a pretty bad host so far",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I make it up to you with some food or something?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Sorry for not being more on top of things",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna try to step up my hosting game",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "My apologies for the lack of snacks",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I apologize for any inconvenience",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my apologies for the disarray",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret not being more prepared for your visit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply sorry for my lack of attentiveness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make sure to be more considerate in the future",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for any discomfort caused",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sorry for [options]",
+        "options": [
+          "being a bad host",
+          "not being prepared",
+          "the mess"
+        ],
+        "meaning": "Apologizing for hosting mistakes"
+      },
+      {
+        "template": "I feel [options] for [options]",
+        "options": [
+          "awful",
+          "terrible",
+          "bad"
+        ],
+        "meaning": "Expressing regret for hosting mistakes"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host apologizing to a guest",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Sorry I've been a terrible host, can I get you a drink?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "No need to apologize, I'm just happy to be here"
+          }
+        ]
+      },
+      {
+        "description": "Host apologizing for the mess",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "I'm so sorry for the mess, please forgive the chaos"
+          },
+          {
+            "speaker": "Guest",
+            "text": "It's okay, I've seen worse"
+          }
+        ]
+      }
+    ]
+  }
+}

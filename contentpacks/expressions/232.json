@@ -1,0 +1,141 @@
+{
+  "title": "Asking to share a family account",
+  "context": "Ask your parents or partner if you can be added to their streaming plan.",
+  "content": {
+    "bestLine": "Can I get added to your streaming plan?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you add me to your account?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to join your plan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I be added as a user?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get access to your account?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you share your login with me?",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Is there room for one more on your plan?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get included in your subscription?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I join your streaming service?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can I hop on your Netflix?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you add me to your Hulu?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanna get on your Disney+",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I chill on your streaming plan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got room for one more on your plan?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I crash on your subscription?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, can I use your login?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get in on your family plan?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options] on your plan?",
+        "options": [
+          "added",
+          "included",
+          "joined"
+        ],
+        "meaning": "asking to be added to someone's subscription"
+      },
+      {
+        "template": "Is it cool if I [options] your streaming service?",
+        "options": [
+          "use",
+          "share",
+          "join"
+        ],
+        "meaning": "asking permission to use someone's streaming service"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a parent to add you to their plan",
+        "lines": [
+          {
+            "speaker": "Child",
+            "text": "Hey Mom, can I get added to your Netflix?"
+          },
+          {
+            "speaker": "Mom",
+            "text": "Sure thing, sweetie. I'll add you right now."
+          }
+        ]
+      },
+      {
+        "description": "Asking a partner to share their account",
+        "lines": [
+          {
+            "speaker": "Partner 1",
+            "text": "Hey, can I get on your Hulu?"
+          },
+          {
+            "speaker": "Partner 2",
+            "text": "Yeah, I can add you to my plan. Let me just log in real quick."
+          }
+        ]
+      }
+    ]
+  }
+}

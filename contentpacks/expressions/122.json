@@ -1,0 +1,205 @@
+{
+  "title": "Conveying urgency",
+  "context": "Tell your team that it is extremely important to finish immediately.",
+  "content": {
+    "bestLine": "We need this done ASAP, it's extremely urgent",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Finish as soon as possible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Complete this immediately",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need this done now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's crucial we finish today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wrap this up quickly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time is of the essence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're on a tight deadline",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this done immediately",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Get it done pronto",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hurry up and finish",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this wrapped up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need this ASAP",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move, people",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Finish it already",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's taking so long?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is imperative we complete this immediately",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We require immediate completion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Time is critical, let's finish now",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must meet this deadline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Immediate action is necessary",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to expedite the process",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Let's get this done, stat",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We're on a deadline, yo",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Hurry up, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's roll, ASAP",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We need this done, like now",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Come on, let's move, fam",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We need [options] done immediately",
+        "options": [
+          "this",
+          "it",
+          "the project"
+        ],
+        "meaning": "Conveying urgency for immediate completion"
+      },
+      {
+        "template": "Let's [options] and finish this",
+        "options": [
+          "get moving",
+          "hurry up",
+          "roll"
+        ],
+        "meaning": "Encouraging the team to work faster"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Team leader urging the team to finish a project",
+        "lines": [
+          {
+            "speaker": "Team Leader",
+            "text": "We need this done ASAP, it's extremely urgent"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Got it, I'm on it"
+          }
+        ]
+      },
+      {
+        "description": "Colleagues discussing a deadline",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "We're on a tight deadline, let's move"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I know, I'm almost done"
+          }
+        ]
+      }
+    ]
+  }
+}

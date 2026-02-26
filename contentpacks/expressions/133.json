@@ -1,0 +1,148 @@
+{
+  "title": "Concerning a child's homework",
+  "context": "Ask a child if they have finished their school assignments.",
+  "content": {
+    "bestLine": "Have you finished your homework yet?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Is your homework done?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you finished your assignments?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did you complete your homework?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are your school tasks finished?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have you done all your homework?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is all your homework complete?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did you get your homework done?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, got your homework done?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up with your homework?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You finish your homework?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's your homework coming along?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You done with your homework yet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much homework do you have left?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Have you completed all your assignments?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know if your homework is finished.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please tell me if you have finished your homework?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are all your school tasks up to date?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Have you [options] your homework?",
+        "options": [
+          "finished",
+          "done",
+          "completed"
+        ],
+        "meaning": "Asking about the completion of homework"
+      },
+      {
+        "template": "Is your [options] homework finished?",
+        "options": [
+          "math",
+          "science",
+          "English"
+        ],
+        "meaning": "Asking about the completion of specific homework"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent asking about homework",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Have you finished your homework yet?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Not yet, I still have some left to do."
+          }
+        ]
+      },
+      {
+        "description": "Teacher inquiring about assignments",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Have you completed all your assignments for today?"
+          },
+          {
+            "speaker": "Student",
+            "text": "Yes, I finished them during class."
+          }
+        ]
+      }
+    ]
+  }
+}

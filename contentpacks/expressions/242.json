@@ -1,0 +1,180 @@
+{
+  "title": "Describing a harsh reprimand",
+  "context": "Explain to someone that you were badly scolded for a mistake.",
+  "content": {
+    "bestLine": "I got ripped apart for that mistake",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I was scolded for my error",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My mistake was criticized",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I received a stern warning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My actions were reprimanded",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I was told off for my mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I faced a harsh rebuke",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My behavior was admonished",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I got chewed out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was totally blasted",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I caught some flak",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got in trouble big time",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was yelled at",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I got a serious talking-to",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I was called out for it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I got roasted",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was dragged for it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I got clowned",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was low-key destroyed",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I got read for filth",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, I just got the nicest lecture",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I was so gently reminded of my mistake",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I just love being scolded",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It was a super fun conversation",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I got [options] for my mistake",
+        "options": [
+          "yelled at",
+          "scolded",
+          "ripped apart"
+        ],
+        "meaning": "to describe a harsh reprimand"
+      },
+      {
+        "template": "My [options] was criticized",
+        "options": [
+          "behavior",
+          "actions",
+          "decision"
+        ],
+        "meaning": "to explain a mistake and its consequences"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about a harsh reprimand",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I got ripped apart for that mistake"
+          },
+          {
+            "speaker": "B",
+            "text": "What happened?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a mistake with a colleague",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I was scolded for my error"
+          },
+          {
+            "speaker": "B",
+            "text": "Don't worry, we all make mistakes"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "When you are deeply sad or depressed",
+  "context": "Confess to someone that you are feeling a heavy sense of depression.",
+  "content": {
+    "bestLine": "I'm feeling really overwhelmed and sad right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm not feeling my best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm struggling with my emotions",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling a bit down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not okay, and I need help",
+          "register": "neutral",
+          "risk": "high"
+        },
+        {
+          "text": "I'm feeling really sad and alone",
+          "register": "neutral",
+          "risk": "high"
+        },
+        {
+          "text": "I'm having a tough time coping",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling overwhelmed and stressed",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure how to deal with this",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm really struggling right now",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling super down and sad",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm having a rough day, emotionally",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling really overwhelmed and anxious",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm not doing great, to be honest",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling lost and alone",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm really struggling to cope",
+          "register": "informal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm feeling like I'm at my breaking point",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm experiencing significant emotional distress",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm struggling with my mental health",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm feeling overwhelmed and in need of support",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having difficulty managing my emotions",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm in need of professional help and guidance",
+          "register": "formal",
+          "risk": "high"
+        },
+        {
+          "text": "I'm experiencing a significant decline in my mental well-being",
+          "register": "formal",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm feeling [options] today",
+        "options": [
+          "really sad",
+          "overwhelmed",
+          "anxious"
+        ],
+        "meaning": "expressing current emotional state"
+      },
+      {
+        "template": "I'm struggling with [options]",
+        "options": [
+          "my emotions",
+          "my mental health",
+          "my relationships"
+        ],
+        "meaning": "expressing challenges and difficulties"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about feelings",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, I'm feeling really overwhelmed and sad right now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm here for you, what's going on?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing mental health with a professional",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm experiencing significant emotional distress and I need help"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm here to support you, can you tell me more about what you're going through?"
+          }
+        ]
+      }
+    ]
+  }
+}

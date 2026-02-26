@@ -1,0 +1,279 @@
+{
+  "title": "Being pushed to the limit of patience",
+  "context": "Warn someone that you are completely out of patience with them.",
+  "content": {
+    "bestLine": "I've had enough, stop pushing me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm at my limit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need some space",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling overwhelmed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've reached my breaking point",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm completely exhausted",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a break from this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running out of patience",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I've had enough of this",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm done with this conversation",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a time-out from you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so over this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you just stop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at my wit's end",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got nothing left to give",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm tapped out, dude",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I'm afraid I've reached my limit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must insist you stop",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm experiencing extreme frustration",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I require some personal space",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've exhausted all avenues",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "I must take a step back",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella done with this",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're pushing my buttons, bruh",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key furious",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key annoyed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a major chill pill",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're stressing me out, G",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, great, just what I needed",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, I'm so impressed with your behavior",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for pushing me to the edge",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm having the time of my life, said no one",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "You're really testing my patience, good job",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad we're having this conversation",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Back off, now",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop pushing me, idiot",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't care about your problems",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Leave me alone, jerk",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I've had it with you",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Get out of my face",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] with this",
+        "options": [
+          "done",
+          "over",
+          "sick",
+          "tired"
+        ],
+        "meaning": "I've reached my limit"
+      },
+      {
+        "template": "You're [options] my patience",
+        "options": [
+          "pushing",
+          "testing",
+          "trying",
+          "wearing thin"
+        ],
+        "meaning": "You're exhausting my patience"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A conversation between two friends",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so done with this conversation"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's wrong, why are you so upset?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "You're pushing my buttons, just stop"
+          }
+        ]
+      },
+      {
+        "description": "A conversation between a manager and employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I'm afraid I've reached my limit with your performance"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I understand, what can I do to improve?"
+          },
+          {
+            "speaker": "Manager",
+            "text": "I need to see significant changes, or I'll have to take further action"
+          }
+        ]
+      }
+    ]
+  }
+}

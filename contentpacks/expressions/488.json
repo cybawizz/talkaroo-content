@@ -1,0 +1,173 @@
+{
+  "title": "Employer to lawn-care worker",
+  "context": "Ask the landscaper to trim the bushes and cut the grass short.",
+  "content": {
+    "bestLine": "Please trim the bushes and cut the grass short",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Trim the bushes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cut the grass short",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care of the lawn",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Mow and trim please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lawn needs attention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you trim and mow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Get the lawn in shape",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please tidy up the yard",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you trim the bushes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cut the grass real short",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take care of the lawn, okay",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Mow and trim, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lawn's getting out of hand",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give the yard a trim",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get the lawn looking nice",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give the bushes a haircut",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I need the bushes trimmed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please ensure the grass is cut short",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The lawn requires attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could mow and trim",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The yard needs to be maintained",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please take care of the lawn care",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [option] the lawn",
+        "options": [
+          "mow",
+          "trim",
+          "take care of"
+        ],
+        "meaning": "request for lawn maintenance"
+      },
+      {
+        "template": "Can you [option] the bushes",
+        "options": [
+          "trim",
+          "cut back",
+          "prune"
+        ],
+        "meaning": "request for bush maintenance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Employer requesting lawn care",
+        "lines": [
+          {
+            "speaker": "Employer",
+            "text": "Please trim the bushes and cut the grass short"
+          },
+          {
+            "speaker": "Lawn-care worker",
+            "text": "Yes, I'll take care of it"
+          }
+        ]
+      },
+      {
+        "description": "Employer following up on lawn care",
+        "lines": [
+          {
+            "speaker": "Employer",
+            "text": "Did you get a chance to mow and trim the lawn"
+          },
+          {
+            "speaker": "Lawn-care worker",
+            "text": "Not yet, but I'll do it today"
+          }
+        ]
+      }
+    ]
+  }
+}

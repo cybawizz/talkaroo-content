@@ -1,0 +1,200 @@
+{
+  "title": "Commenting on extreme happiness",
+  "context": "Discuss how incredibly delighted and joyful someone appears to be.",
+  "content": {
+    "bestLine": "You seem incredibly delighted and joyful today!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You look really happy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can see you're in a great mood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You appear to be very joyful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your smile is contagious",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be on cloud nine",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've never seen you so happy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're beaming with joy",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your happiness is palpable",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're so stoked, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving your vibe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're totally thrilled, aren't you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your excitement is infectious",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're on top of the world, huh?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've never seen you so pumped",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're living your best life",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your joy is off the charts",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You appear to be in excellent spirits",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I notice you're exhibiting a high level of enthusiasm",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your demeanor suggests you're extremely pleased",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You seem to be experiencing a great deal of joy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your happiness is evident in your body language",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're displaying a remarkable amount of enthusiasm",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're hella happy, bro",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're low-key thrilled, high-key excited",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're totes on cloud nine, dude",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're vibin' on a whole other level",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You're straight-up ecstatic, bro",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] so happy today!",
+        "options": [
+          "seem",
+          "look",
+          "appear"
+        ],
+        "meaning": "expressing delight at someone's happiness"
+      },
+      {
+        "template": "I've [options] seen you so [options]",
+        "options": [
+          "never",
+          "rarely",
+          "hardly"
+        ],
+        "meaning": "commenting on the rarity of someone's extreme happiness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Commenting on a friend's happiness",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You seem incredibly delighted and joyful today!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I just got some amazing news!"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a colleague's enthusiasm",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You appear to be in excellent spirits today"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I'm just really excited about this new project"
+          }
+        ]
+      }
+    ]
+  }
+}

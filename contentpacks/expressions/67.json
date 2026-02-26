@@ -1,0 +1,173 @@
+{
+  "title": "When the parents return",
+  "context": "Ask the babysitter how the kids behaved while you were gone.",
+  "content": {
+    "bestLine": "How were the kids while we were out?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How was everything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did the kids do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Were the kids good?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was their behavior?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did they behave?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How was the evening?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Were there any issues?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How did it go?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's the scoop?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How'd it go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Were they angels?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Did they drive you crazy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How was the crew?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What happened while we were out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Were they good for you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How'd the kids do?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I trust everything was in order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How did the children behave?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Were there any difficulties?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I hope the evening was uneventful?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your experience with the kids?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Did everything go smoothly?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How were the kids [options]?",
+        "options": [
+          "while we were out",
+          "today",
+          "this evening"
+        ],
+        "meaning": "inquire about kids' behavior"
+      },
+      {
+        "template": "Did the kids [options]?",
+        "options": [
+          "behave",
+          "have fun",
+          "get into trouble"
+        ],
+        "meaning": "ask about kids' actions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent returning home",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Hey, how was everything?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "It was good, they were a bit restless but we managed."
+          }
+        ]
+      },
+      {
+        "description": "Parent asking about kids' behavior",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "So, how did the kids do while we were out?"
+          },
+          {
+            "speaker": "Babysitter",
+            "text": "They were great, we had a movie night and they loved it."
+          }
+        ]
+      }
+    ]
+  }
+}

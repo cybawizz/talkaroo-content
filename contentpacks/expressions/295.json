@@ -1,0 +1,173 @@
+{
+  "title": "Explaining difficulty in a new job",
+  "context": "Admit to your boss that you are struggling to learn your new tasks.",
+  "content": {
+    "bestLine": "I'm having trouble learning some tasks, can we discuss?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need help with this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we review the process?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm having some difficulty",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide more context?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to clarify some points",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I improve my performance?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm really struggling with this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me a hand?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not getting it, can you explain?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a bit more guidance",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we go over it again?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm having a tough time keeping up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you show me an example?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not sure what I'm doing wrong",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am experiencing difficulties with the task",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide additional training?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate clarification on the process",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am having trouble meeting the expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you offer guidance on how to improve?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a review of my performance",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm having trouble with [options]",
+        "options": [
+          "this task",
+          "understanding the process",
+          "meeting the deadline"
+        ],
+        "meaning": "expressing difficulty with a specific aspect of the job"
+      },
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "explain it again",
+          "provide more context",
+          "give me an example"
+        ],
+        "meaning": "requesting help or clarification from the boss"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Employee asking for help from the boss",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "Hi, I'm having trouble with this task. Can you explain it again?"
+          },
+          {
+            "speaker": "Boss",
+            "text": "Of course, let me go over it with you again."
+          }
+        ]
+      },
+      {
+        "description": "Employee discussing performance with the boss",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I'm not sure I'm meeting the expectations. Can we review my performance?"
+          },
+          {
+            "speaker": "Boss",
+            "text": "Let's take a look at your progress and see where you need improvement."
+          }
+        ]
+      }
+    ]
+  }
+}

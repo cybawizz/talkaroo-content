@@ -1,0 +1,173 @@
+{
+  "title": "Eating lunch on a park bench",
+  "context": "Tell a coworker the weather is too nice to sit inside and eat.",
+  "content": {
+    "bestLine": "It's too nice to eat inside, let's grab a bite out here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The weather is perfect for eating outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love eating lunch in the park",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a beautiful day to eat outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat on the bench, it's nice out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The sun is out, let's eat outside",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eating outside is great on days like this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm glad we decided to eat out here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The park is a great place to eat lunch",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, it's too nice to eat inside",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's ditch the office and eat outside",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so down to eat lunch in the park",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a sick day to eat outside, bro",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's grab some food and eat on the bench",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Eating outside is the best, especially on days like this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving this weather, let's eat outside",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's make the most of this nice day and eat out here",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The weather is ideal for eating outside",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I suggest we eat lunch on the park bench",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It would be pleasant to eat outside today",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take advantage of the nice weather and eat outside",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Eating outside can be a nice change of pace",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I propose we eat lunch in the park",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] outside, let's eat on the bench",
+        "options": [
+          "nice",
+          "beautiful",
+          "perfect"
+        ],
+        "meaning": "The weather is good, let's eat outside"
+      },
+      {
+        "template": "Let's [options] and eat outside",
+        "options": [
+          "ditch the office",
+          "take a break",
+          "grab some food"
+        ],
+        "meaning": "Let's take a break and eat outside"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworkers deciding to eat lunch outside",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "It's too nice to eat inside, let's grab a bite out here"
+          },
+          {
+            "speaker": "Emily",
+            "text": "I'm so down to eat lunch in the park"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers discussing the weather and eating outside",
+        "lines": [
+          {
+            "speaker": "Michael",
+            "text": "The weather is perfect for eating outside"
+          },
+          {
+            "speaker": "Sarah",
+            "text": "Let's take advantage of it and eat on the bench"
+          }
+        ]
+      }
+    ]
+  }
+}

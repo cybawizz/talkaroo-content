@@ -1,0 +1,157 @@
+{
+  "title": "Concerning a child's manners",
+  "context": "Remind a kid to say please and thank you.",
+  "content": {
+    "bestLine": "Remember, please and thank you go a long way!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Don't forget to say please",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you is magic",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good manners are important",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please and thank you, every time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be polite, say please and thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Manners make the difference",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Say please, it's only polite",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you shows appreciation",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, don't forget please and thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Be cool, say please and thank you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's just good manners, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Please and thank you, it's the way to be",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome, now say thank you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Manners are cool, use them",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Please and thanks, every single time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's polite to say please and thank you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Remember to say [options] when you want something",
+        "options": [
+          "please",
+          "thank you",
+          "please and thank you"
+        ],
+        "meaning": "Polite requests"
+      },
+      {
+        "template": "Using [options] shows good manners",
+        "options": [
+          "please",
+          "thank you",
+          "both"
+        ],
+        "meaning": "Importance of manners"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent reminding child to say please and thank you",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Don't forget to say please when you ask for something"
+          },
+          {
+            "speaker": "Child",
+            "text": "I want a cookie, please"
+          },
+          {
+            "speaker": "Parent",
+            "text": "That's great! And when you get it?"
+          },
+          {
+            "speaker": "Child",
+            "text": "Thank you"
+          }
+        ]
+      },
+      {
+        "description": "Teacher encouraging good manners in the classroom",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Remember, class, please and thank you are important"
+          },
+          {
+            "speaker": "Student",
+            "text": "Yes, ma'am. May I have a pencil, please?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Here you go. And?"
+          },
+          {
+            "speaker": "Student",
+            "text": "Thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

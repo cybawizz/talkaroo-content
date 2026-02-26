@@ -1,0 +1,162 @@
+{
+  "title": "A direct preface to a statement",
+  "context": "Informally announce that you are going to give your opinion.",
+  "content": {
+    "bestLine": "Here's my two cents",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "In my opinion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It seems to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "From my perspective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "If you ask me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Personally",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "As I see it",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Honestly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To be real",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My take is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna say",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Here's the thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just saying",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "For what it's worth",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "IMO",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "TBH",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Lowkey",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Highkey",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "No cap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Fam, I think",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] it's",
+        "options": [
+          "gonna say",
+          "thinking"
+        ],
+        "meaning": "expressing opinion"
+      },
+      {
+        "template": "[options] to me",
+        "options": [
+          "it seems",
+          "it looks",
+          "it appears"
+        ],
+        "meaning": "sharing perspective"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Casual conversation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What do you think about the new movie?"
+          },
+          {
+            "speaker": "B",
+            "text": "Honestly, I think it's overrated"
+          }
+        ]
+      },
+      {
+        "description": "Friendly discussion",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I'm thinking of trying that new restaurant"
+          },
+          {
+            "speaker": "B",
+            "text": "Lowkey, I've heard mixed reviews"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Reading confusing assembly instructions",
+  "context": "Complain that the flat-pack furniture manual makes zero sense.",
+  "content": {
+    "bestLine": "This manual makes zero sense",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm having trouble understanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The instructions are unclear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with assembly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The manual is confusing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't get it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can someone explain?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stuck on this step",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The instructions are vague",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This is crazy confusing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so lost",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's going on with this manual?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got no idea what to do",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This is ridiculous",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm never buying flat-pack again",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can't they make it simpler?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm about to lose my mind",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This manual is whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella confused",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "What's good with this instructions?",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm low-key frustrated",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "This is straight up confusing",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting this manual",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh great, another clear instruction",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Wow, this is so easy to understand",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how vague this is",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This manual is a joke, right?",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad I spent money on this",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Thanks for the headache",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] understand the instructions",
+        "options": [
+          "don't",
+          "can't"
+        ],
+        "meaning": "expressing confusion"
+      },
+      {
+        "template": "This manual is [options]",
+        "options": [
+          "so confusing",
+          "ridiculous",
+          "a joke"
+        ],
+        "meaning": "expressing frustration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about the confusing instructions",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm having trouble with this manual"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What's not making sense?"
+          }
+        ]
+      },
+      {
+        "description": "Complaining to a customer service representative",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "This manual is ridiculous"
+          },
+          {
+            "speaker": "Representative",
+            "text": "I apologize, let me help you with that"
+          }
+        ]
+      }
+    ]
+  }
+}

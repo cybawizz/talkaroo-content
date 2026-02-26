@@ -1,0 +1,173 @@
+{
+  "title": "Stating when you will return home",
+  "context": "Tell your host exactly what time you expect to be back.",
+  "content": {
+    "bestLine": "I'll be back by 10 PM",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll return at 10",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My return time is 10 PM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm coming back at 10",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be home by 10",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My expected return is 10 PM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I plan to return at 10",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll get back at 10 PM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My return is scheduled for 10",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'll be back later, around 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See you at 10 PM",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm heading back at 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll catch you at 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll roll in at 10 PM",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be home in time for 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll swing by at 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll meet you at 10 PM",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I anticipate returning at 10 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My scheduled return time is 10 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will return to the residence at 10 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I expect to arrive back at 10 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "My return is planned for 10 PM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will be back at the designated time of 10 PM",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll be back at [time]",
+        "options": [
+          "10 PM",
+          "11 AM",
+          "5 PM"
+        ],
+        "meaning": "stating return time"
+      },
+      {
+        "template": "My return time is [time]",
+        "options": [
+          "10 PM",
+          "11 AM",
+          "5 PM"
+        ],
+        "meaning": "specifying return time"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Host asking about return time",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "What time will you be back?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "I'll be back by 10 PM"
+          }
+        ]
+      },
+      {
+        "description": "Guest informing host about return time",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "I'll be back at 10 PM"
+          },
+          {
+            "speaker": "Host",
+            "text": "Okay, see you then"
+          }
+        ]
+      }
+    ]
+  }
+}

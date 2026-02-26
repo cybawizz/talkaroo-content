@@ -1,0 +1,173 @@
+{
+  "title": "Concerning a deceptively difficult task",
+  "context": "Observe that a project looks easy but is actually very hard.",
+  "content": {
+    "bestLine": "This project looks simple, but trust me, it's a beast",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not as easy as it seems",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's more to it than meets the eye",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't underestimate this project",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It requires more effort than you think",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a challenging task, despite its appearance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be fooled by its simplicity",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It has hidden complexities",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not a cakewalk",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This project is a total sleeper",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's way harder than it looks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't get too comfortable, it's a tough one",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a wolf in sheep's clothing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's gonna be a grind",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not all sunshine and rainbows",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a tough nut to crack",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a challenge, for sure",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The project presents unforeseen challenges",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It requires a significant amount of effort",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The task is more complex than it initially appears",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It demands a high level of dedication",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project has hidden difficulties",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is not a straightforward task",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This project is [options] than it looks",
+        "options": [
+          "harder",
+          "easier",
+          "more complex"
+        ],
+        "meaning": "The project has hidden challenges"
+      },
+      {
+        "template": "Don't [options] the project's simplicity",
+        "options": [
+          "underestimate",
+          "overestimate",
+          "judge"
+        ],
+        "meaning": "The project is more difficult than it appears"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two colleagues discussing a project",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "I don't think this project is going to be that hard"
+          },
+          {
+            "speaker": "Emily",
+            "text": "Trust me, it's a beast. It looks simple, but it's actually very complex"
+          }
+        ]
+      },
+      {
+        "description": "A manager warning a new employee about a project",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "This project may seem easy, but it's actually quite challenging"
+          },
+          {
+            "speaker": "New Employee",
+            "text": "Okay, I'll be careful. What are some potential pitfalls I should watch out for?"
+          }
+        ]
+      }
+    ]
+  }
+}

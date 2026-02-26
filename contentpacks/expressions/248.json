@@ -1,0 +1,173 @@
+{
+  "title": "Describing a place that is not too far",
+  "context": "Tell someone that their destination is just a short walk away.",
+  "content": {
+    "bestLine": "It's just a short walk from here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Not too far away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Within walking distance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just around the corner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A short stroll away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Close by",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nearby",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A stone's throw away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Easy walking distance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Super close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just down the street",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A block or two away",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Real close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Right around the corner",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "A short walk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not a long hike",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Pretty much next door",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "In close proximity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Within a short walking distance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Located nearby",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Situated in the immediate area",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "A short distance away",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Easily accessible on foot",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] from here",
+        "options": [
+          "just a short walk",
+          "not too far",
+          "close by"
+        ],
+        "meaning": "describing proximity"
+      },
+      {
+        "template": "You can [options] to get there",
+        "options": [
+          "walk",
+          "take a short stroll",
+          "drive a short distance"
+        ],
+        "meaning": "describing how to reach a location"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Giving directions to a nearby location",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "How far is the park from here?"
+          },
+          {
+            "speaker": "B",
+            "text": "It's just a short walk from here"
+          }
+        ]
+      },
+      {
+        "description": "Describing the proximity of a store",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Is the grocery store close by?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yes, it's just around the corner"
+          }
+        ]
+      }
+    ]
+  }
+}

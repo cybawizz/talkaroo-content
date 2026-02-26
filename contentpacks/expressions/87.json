@@ -1,0 +1,200 @@
+{
+  "title": "Congratulating new parents",
+  "context": "Tell someone how happy you are that their baby was born.",
+  "content": {
+    "bestLine": "Huge congrats on the new baby!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Congratulations on your new baby",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so happy for you both",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Welcome to parenthood",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You must be thrilled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's amazing news",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really happy for your family",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This is such exciting news",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to be great parents",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yay, you guys are parents now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's so cool, congrats",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm beyond happy for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This is awesome news",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're gonna rock this parenting thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stoked for your new addition",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's amazing, congrats again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You two are going to be amazing parents",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept my warmest congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish you all the best with your new baby",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Congratulations on this joyous occasion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm delighted to hear the news",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my sincerest congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer you my best wishes",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Huge congrats, you guys are killing it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's lit, congrats on the new baby",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Yaaas, you're parents now",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey so happy for you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey excited for your new addition",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for you",
+        "options": [
+          "so happy",
+          "really happy",
+          "beyond happy"
+        ],
+        "meaning": "expressing happiness for the new parents"
+      },
+      {
+        "template": "Congratulations, you're going to be [options] parents",
+        "options": [
+          "amazing",
+          "great",
+          "awesome"
+        ],
+        "meaning": "expressing confidence in the new parents' abilities"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Congratulating new parents at a social gathering",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Huge congrats on the new baby!"
+          },
+          {
+            "speaker": "New Parent",
+            "text": "Thanks, we're so happy"
+          }
+        ]
+      },
+      {
+        "description": "Congratulating new parents over the phone",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I just heard the news, congratulations!"
+          },
+          {
+            "speaker": "New Parent",
+            "text": "Thanks, we're thrilled"
+          }
+        ]
+      }
+    ]
+  }
+}

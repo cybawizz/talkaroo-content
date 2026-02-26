@@ -1,0 +1,205 @@
+{
+  "title": "Concerning vision and belief",
+  "context": "State that you have to see something with your own eyes to believe it.",
+  "content": {
+    "bestLine": "I have to see it to believe it",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I need to see it for myself",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Seeing is believing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to see it with my own eyes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to believe without seeing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have to see it to know it's true",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Seeing is the only way to be sure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need visual proof",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Believing requires seeing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I gotta see it to believe it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta show me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to see it to trust it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Seeing is the only way I'll buy it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm a show-me kind of person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't tell me, show me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I want to see the real deal",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No see, no believe",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I require visual confirmation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Seeing is essential for verification",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must see it to ascertain its validity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Visual evidence is necessary for belief",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to witness it firsthand",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Seeing is the only way to confirm",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I need to cop a peek",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Show me the goods",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm talkin' see-it-to-believe-it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me a glimpse",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I need a visual",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, I need to see it",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] see it to [options]",
+        "options": [
+          "have to",
+          "need to",
+          "want to"
+        ],
+        "meaning": "require seeing to believe"
+      },
+      {
+        "template": "Seeing is [options]",
+        "options": [
+          "believing",
+          "the only way",
+          "essential"
+        ],
+        "meaning": "seeing is necessary for belief"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing a new product",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "I'm not sure about this new product"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I know, I have to see it to believe it"
+          }
+        ]
+      },
+      {
+        "description": "A manager and employee discussing a new project",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I need you to trust me on this one"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm sorry, but I need to see the data to confirm"
+          }
+        ]
+      }
+    ]
+  }
+}

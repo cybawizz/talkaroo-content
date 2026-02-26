@@ -1,0 +1,181 @@
+{
+  "title": "Encouraging someone to try something",
+  "context": "Push someone to attempt a new activity.",
+  "content": {
+    "bestLine": "You got this, just give it a shot",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Why not try it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's worth a try",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Give it a go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You might like it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It could be fun",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Just try it out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See how it goes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a chance",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Come on, try it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You only live once",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't be afraid",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go for it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It'll be a blast",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can do it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just do it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give it a whirl",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yolo, try it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lowkey try it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Highkey excited for you",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "No cap, it's fun",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Savage, you gotta try",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Lit, you'll love it",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "If [options] then try it",
+        "options": [
+          "you're feeling adventurous",
+          "you're bored",
+          "you want to learn"
+        ],
+        "meaning": "Encouraging someone to try something based on their situation"
+      },
+      {
+        "template": "You [options] try it",
+        "options": [
+          "should",
+          "have to",
+          "might as well"
+        ],
+        "meaning": "Encouraging someone to try something using different levels of obligation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend encouraging friend to try a new restaurant",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "You gotta try this new restaurant"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "I don't know, I've never had that kind of food"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "Come on, it's worth a try"
+          }
+        ]
+      },
+      {
+        "description": "Coach encouraging athlete to try a new move",
+        "lines": [
+          {
+            "speaker": "Coach",
+            "text": "You've got this, just give it a shot"
+          },
+          {
+            "speaker": "Athlete",
+            "text": "I'm not sure, I've never done it before"
+          },
+          {
+            "speaker": "Coach",
+            "text": "That's okay, you can do it"
+          }
+        ]
+      }
+    ]
+  }
+}

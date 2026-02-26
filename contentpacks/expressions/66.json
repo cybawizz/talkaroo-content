@@ -1,0 +1,148 @@
+{
+  "title": "Praising a house-cleaner",
+  "context": "Thank the maid or cleaner for making your home sparkle.",
+  "content": {
+    "bestLine": "You've made our home sparkle, thank you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Great job on the cleaning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The house looks wonderful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your hard work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing a fantastic job",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The place is spotless",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've made a big difference",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Awesome job, thanks!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a lifesaver",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The house is so clean now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know what I'd do without you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best cleaner ever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for making our home shine",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I appreciate your diligent work",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You've done an excellent job",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The cleaning is impeccable",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please accept my gratitude",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You've made our [options] sparkle",
+        "options": [
+          "home",
+          "house",
+          "apartment"
+        ],
+        "meaning": "expressing gratitude for cleaning"
+      },
+      {
+        "template": "Thanks for [options] the place",
+        "options": [
+          "cleaning",
+          "organizing",
+          "decorating"
+        ],
+        "meaning": "appreciating someone's help"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Praising a house cleaner",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "You've done a great job on the cleaning"
+          },
+          {
+            "speaker": "House Cleaner",
+            "text": "Thank you, I'm glad you're happy"
+          }
+        ]
+      },
+      {
+        "description": "Expressing gratitude",
+        "lines": [
+          {
+            "speaker": "Homeowner",
+            "text": "Thanks for making our home shine"
+          },
+          {
+            "speaker": "House Cleaner",
+            "text": "You're welcome, it was my pleasure"
+          }
+        ]
+      }
+    ]
+  }
+}

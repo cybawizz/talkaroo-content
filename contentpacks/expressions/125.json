@@ -1,0 +1,144 @@
+{
+  "title": "Stating when food will be ready",
+  "context": "Tell the family how many minutes until the meal is served.",
+  "content": {
+    "bestLine": "Dinner will be ready in 20 minutes",
+    "groups": {
+      "neutral": [
+        {
+          "text": "The meal will be served in 15 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Food is ready in 10 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll eat in about 20 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lunch will be ready soon, about 15 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner is 30 minutes away",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have 25 minutes until the meal is served",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The food will be ready in a half hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's 20 minutes until we eat",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Grub's ready in 10",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner's in 20, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Food's almost ready, like 15 minutes",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're eating in about 20, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lunch is ready soon, hang in there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dinner's coming, 30 minutes tops",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just 25 minutes until chow time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost time to eat, 20 minutes",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We'll eat in [options] minutes",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "meaning": "Specifying the time until the meal is served"
+      },
+      {
+        "template": "Dinner is ready in [options]",
+        "options": [
+          "a few minutes",
+          "10 minutes",
+          "about 20 minutes",
+          "half an hour"
+        ],
+        "meaning": "Informing the family about the meal's readiness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Mother informing the family about dinner",
+        "lines": [
+          {
+            "speaker": "Mother",
+            "text": "Dinner will be ready in 20 minutes"
+          },
+          {
+            "speaker": "Child",
+            "text": "Okay, thanks Mom"
+          }
+        ]
+      },
+      {
+        "description": "Father asking about lunch timing",
+        "lines": [
+          {
+            "speaker": "Father",
+            "text": "When's lunch?"
+          },
+          {
+            "speaker": "Mother",
+            "text": "We'll eat in about 15 minutes"
+          }
+        ]
+      }
+    ]
+  }
+}

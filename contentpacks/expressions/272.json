@@ -1,0 +1,173 @@
+{
+  "title": "Directing attention to an object",
+  "context": "Point out a specific thing and ask someone to look at it.",
+  "content": {
+    "bestLine": "Look at this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Check this out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Look over here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a look",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Notice this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Look at this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Observe this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "View this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, look",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Check it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Looky here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Gimme a sec, look",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Peep this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a gander",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Looky what we got",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Come check it",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please observe",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to direct your attention",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Notice this item",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Look at this example",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Examine this",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Consider this",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Look at [object]",
+        "options": [
+          "this",
+          "that",
+          "it"
+        ],
+        "meaning": "Direct attention to a specific object"
+      },
+      {
+        "template": "Check out [object]",
+        "options": [
+          "this thing",
+          "that item",
+          "it"
+        ],
+        "meaning": "Informal way to direct attention"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Directing attention in a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Look at this graph"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, I see it"
+          }
+        ]
+      },
+      {
+        "description": "Pointing out something in a casual setting",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Hey, look at this"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Whoa, that's cool"
+          }
+        ]
+      }
+    ]
+  }
+}

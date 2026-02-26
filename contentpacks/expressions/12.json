@@ -1,0 +1,158 @@
+{
+  "title": "After you have been introduced to someone",
+  "context": "Start a polite short conversation with someone you just met.",
+  "content": {
+    "bestLine": "How's your day going so far?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Nice to meet you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How are you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What brings you here?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm glad we met",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How's everything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's nice to meet you too",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've heard a lot about you",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How's it going?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey, how's life?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Long time no see",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's new with you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How was your week?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad we finally met",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's a pleasure to meet you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm delighted to make your acquaintance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How do you do?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm honored to meet you",
+          "register": "formal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's great to finally meet you in person",
+          "register": "formal",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How's your [day/week/month]?",
+        "options": [
+          "day",
+          "week",
+          "month"
+        ],
+        "meaning": "Asking about someone's recent experiences"
+      },
+      {
+        "template": "I [love/enjoy/admire] your [work/style/sense of humor]",
+        "options": [
+          "love",
+          "enjoy",
+          "admire"
+        ],
+        "meaning": "Expressing admiration or appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Starting a conversation with someone you just met",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hi, I'm glad we met"
+          },
+          {
+            "speaker": "Other person",
+            "text": "Likewise, how's your day going?"
+          }
+        ]
+      },
+      {
+        "description": "Responding to an introduction",
+        "lines": [
+          {
+            "speaker": "Mutual acquaintance",
+            "text": "I'd like you to meet..."
+          },
+          {
+            "speaker": "You",
+            "text": "Nice to meet you, how are you?"
+          }
+        ]
+      }
+    ]
+  }
+}

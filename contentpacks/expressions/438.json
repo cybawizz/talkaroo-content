@@ -1,0 +1,173 @@
+{
+  "title": "Expressing enthusiasm for life",
+  "context": "Loudly declare how excited and grateful you feel to be alive today.",
+  "content": {
+    "bestLine": "I'm so grateful to be alive today!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I feel alive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life is good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm thankful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Every day is a gift",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling blessed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Life is beautiful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Today is a new day",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm so stoked",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yay for life",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm living my best life",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life is awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm hyped",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Every day is a party",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm feeling alive",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Life is lit",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm low-key excited",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Life is fire",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm high-key grateful",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Today is a vibe",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm living my best",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Life is a mood",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] to be alive",
+        "options": [
+          "so grateful",
+          "super excited",
+          "really thankful"
+        ],
+        "meaning": "expressing enthusiasm for life"
+      },
+      {
+        "template": "Life is [options]",
+        "options": [
+          "good",
+          "beautiful",
+          "amazing"
+        ],
+        "meaning": "describing life positively"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so grateful to be alive today!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Me too! Every day is a gift"
+          }
+        ]
+      },
+      {
+        "description": "Sharing on social media",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm living my best life"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yay for life! You deserve it"
+          }
+        ]
+      }
+    ]
+  }
+}

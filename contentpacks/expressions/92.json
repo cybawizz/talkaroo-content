@@ -1,0 +1,173 @@
+{
+  "title": "Drinking toasts",
+  "context": "Say cheers and raise a glass to something or someone.",
+  "content": {
+    "bestLine": "Cheers to good friends!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's toast",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To good health",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cheers everyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To new beginnings",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Here's to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To a great night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's raise a glass",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "To friendship",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Cheers mate",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To an awesome time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this party started",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "To the best crew",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cheers to that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To many more adventures",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's drink to that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "To good times and good friends",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "To your health",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us toast",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To a successful evening",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To distinguished guests",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To a wonderful occasion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let us raise our glasses",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "To [options]",
+        "options": [
+          "good health",
+          "new beginnings",
+          "a great night"
+        ],
+        "meaning": "expressing a wish for something positive"
+      },
+      {
+        "template": "Let's [options] to [options]",
+        "options": [
+          "drink",
+          "raise a glass",
+          "toast"
+        ],
+        "meaning": "inviting others to join in a toast"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A group of friends toasting to a birthday",
+        "lines": [
+          {
+            "speaker": "Friend 1",
+            "text": "Let's toast to another year of life!"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Cheers to that!"
+          }
+        ]
+      },
+      {
+        "description": "Colleagues toasting to a successful project",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "To a job well done!"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "Hear, hear! Let's raise our glasses."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Stating the time is twenty minutes to the hour",
+  "context": "Tell someone it is twenty minutes until the next hour begins.",
+  "content": {
+    "bestLine": "It's twenty minutes to the hour",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Twenty minutes to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's twenty minutes before the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We have twenty minutes left",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is twenty minutes to",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Twenty minutes until the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's almost time, twenty minutes to go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're twenty minutes away from the hour",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Twenty to",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost time, twenty minutes left",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Twenty minutes, let's go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's twenty to the hour, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Twenty minutes, ready or not",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's wrap it up, twenty minutes to go",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is twenty minutes prior to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We have twenty minutes remaining before the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The current time is twenty minutes to the hour",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Twenty minutes until the top of the hour",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] to the hour",
+        "options": [
+          "twenty minutes",
+          "ten minutes",
+          "five minutes"
+        ],
+        "meaning": "stating the time until the next hour"
+      },
+      {
+        "template": "We have [options] left before the hour",
+        "options": [
+          "twenty minutes",
+          "thirty minutes",
+          "one hour"
+        ],
+        "meaning": "stating the time remaining until the next hour"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends discussing their plans",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What time do we need to leave?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's twenty minutes to the hour, let's get going"
+          }
+        ]
+      },
+      {
+        "description": "A manager informing employees about a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We have a meeting in twenty minutes, please get ready"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Okay, I'll be right there"
+          }
+        ]
+      }
+    ]
+  }
+}

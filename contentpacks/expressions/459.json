@@ -1,0 +1,172 @@
+{
+  "title": "Professing love",
+  "context": "Declare your deep love and affection for your partner.",
+  "content": {
+    "bestLine": "You're the love of my life",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I love you so much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You mean everything to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm deeply in love with you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're my soulmate",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I adore you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're my forever love",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all about you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My heart belongs to you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm crazy about you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm obsessed with you",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're my everything",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love you more than words",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're my favorite person",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm head over heels for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You make me happy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I have deep affection for you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are my beloved",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am devoted to you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are my partner in life",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I cherish you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You are my loved one",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My heart [options] for you",
+        "options": [
+          "beats",
+          "skips a beat"
+        ],
+        "meaning": "I love you"
+      },
+      {
+        "template": "You are my [options]",
+        "options": [
+          "everything",
+          "world",
+          "universe"
+        ],
+        "meaning": "You are my priority"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A romantic dinner",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You look beautiful tonight"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I love you"
+          }
+        ]
+      },
+      {
+        "description": "A surprise getaway",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I planned this trip just for us"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm so happy, I love you"
+          }
+        ]
+      }
+    ]
+  }
+}

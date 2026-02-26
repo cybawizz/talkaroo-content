@@ -1,0 +1,173 @@
+{
+  "title": "Stating that something is very clean",
+  "context": "Compliment how incredibly clean and tidy a place is.",
+  "content": {
+    "bestLine": "This place is spotless!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's very clean in here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The cleanliness is impressive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This space is well-maintained",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm amazed by how tidy it is",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The area is extremely clean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It looks like new in here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The cleanliness is top-notch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "This place is immaculate",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This place is crazy clean",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's super tidy in here",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've never seen it so clean",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You guys must have cleaned all night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "This room is sparkling",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm loving the cleanliness vibe",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's cleaner than my place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a cleaning rockstar",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The premises are exceptionally clean",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I commend the cleaning staff",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The facility is well-maintained and clean",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The cleanliness of this establishment is impressive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The area is sanitized and tidy",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The cleaning standards are high",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "This [options] is spotless",
+        "options": [
+          "place",
+          "room",
+          "house"
+        ],
+        "meaning": "Complimenting cleanliness"
+      },
+      {
+        "template": "I've never seen [options] so clean",
+        "options": [
+          "it",
+          "this place",
+          "the room"
+        ],
+        "meaning": "Expressing surprise at cleanliness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complimenting a friend's cleaning",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Wow, your apartment is spotless!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I cleaned all day yesterday"
+          }
+        ]
+      },
+      {
+        "description": "Complimenting a hotel's cleanliness",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "This hotel room is incredibly clean"
+          },
+          {
+            "speaker": "Hotel Staff",
+            "text": "Thank you, we take pride in our cleaning standards"
+          }
+        ]
+      }
+    ]
+  }
+}

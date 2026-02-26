@@ -1,0 +1,158 @@
+{
+  "title": "Stating you binge-watched a show",
+  "context": "Admit that you stayed up all night watching an entire season.",
+  "content": {
+    "bestLine": "I binge-watched the whole season in one night",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I watched the entire season",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I finished the show in one night",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I stayed up all night watching",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I watched all episodes back to back",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I completed the series in one sitting",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't sleep until I finished the show",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I marathoned the whole season",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I binge-watched like crazy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I stayed up all night bingeing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I watched the whole thing in one go",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so tired from binge-watching",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I just finished the whole season",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I pulled an all-nighter watching TV",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I watched all night and slept all day",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I low-key binge-watched all night",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was totes binge-watching",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I had a major binge-fest",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I went ham on that show",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I was on a binge-watching roll",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] the whole season",
+        "options": [
+          "binge-watched",
+          "watched",
+          "finished"
+        ],
+        "meaning": "completing a TV series in one night"
+      },
+      {
+        "template": "I stayed up all night [options]",
+        "options": [
+          "watching TV",
+          "binge-watching",
+          "streaming shows"
+        ],
+        "meaning": "staying awake all night to watch TV"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about binge-watching",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I binge-watched the whole season in one night"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No way, that's so cool! What did you think of the ending?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing a TV show with a coworker",
+        "lines": [
+          {
+            "speaker": "Coworker 1",
+            "text": "I finished the new season over the weekend"
+          },
+          {
+            "speaker": "Coworker 2",
+            "text": "Nice, I've been meaning to start it. Is it worth the hype?"
+          }
+        ]
+      }
+    ]
+  }
+}

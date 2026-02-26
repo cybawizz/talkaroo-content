@@ -1,0 +1,165 @@
+{
+  "title": "Promising never to repeat a particular mistake",
+  "context": "Assure someone that you will not do the bad thing again.",
+  "content": {
+    "bestLine": "I'll never do that again, I promise",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It won't happen again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make sure of it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was a one-time mistake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've learned from it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can trust me on this",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not going to happen again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm committed to doing better",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "My bad, it won't happen again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm really sorry, it was a mistake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try harder next time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was a dumb mistake",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel terrible about it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a one-time thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll make it right, I promise",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I assure you, it won't happen again",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize and guarantee improvement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That incident was an isolated mistake",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am committed to preventing similar errors",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have my word, it won't recur",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [promise/assure/guarantee] it won't happen again",
+        "options": [
+          "promise",
+          "assure",
+          "guarantee"
+        ],
+        "meaning": "assurance of not repeating a mistake"
+      },
+      {
+        "template": "I've [learned/from] my mistake and it won't happen again",
+        "options": [
+          "learned",
+          "learned from"
+        ],
+        "meaning": "acknowledgment of mistake and assurance of improvement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apology and assurance in a personal relationship",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm really sorry for what I did"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Just make sure it doesn't happen again"
+          },
+          {
+            "speaker": "Person A",
+            "text": "I promise it won't, I've learned from my mistake"
+          }
+        ]
+      },
+      {
+        "description": "Apology and assurance in a professional setting",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "I apologize for the error, it was my fault"
+          },
+          {
+            "speaker": "Manager",
+            "text": "See that it doesn't happen again"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I assure you, I've taken steps to prevent similar mistakes"
+          }
+        ]
+      }
+    ]
+  }
+}

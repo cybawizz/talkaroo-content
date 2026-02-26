@@ -1,0 +1,157 @@
+{
+  "title": "Commenting on a child's growth",
+  "context": "Remark on how much taller or older a child looks since you last saw them.",
+  "content": {
+    "bestLine": "You've grown so much since I last saw you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're getting taller every time I see you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I can see you've grown a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look older than I remember",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's amazing how fast you're growing up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've really shot up since last year",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I barely recognized you, you've grown so much",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're becoming a big kid now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wow, you've gotten so big!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're growing up to be a tall one, huh?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can barely believe how much you've grown",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking more grown-up every time I see you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's crazy how fast kids grow up, right?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're getting to be as tall as your mom/dad",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I swear, you've grown like a foot since last time",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You've exhibited significant growth since our last meeting",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I notice you've increased in height considerably",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your development is truly impressive",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's a pleasure to see you're growing and thriving",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're maturing into a fine young individual",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You've grown [options] since I last saw you",
+        "options": [
+          "so much",
+          "a lot",
+          "taller"
+        ],
+        "meaning": "commenting on a child's growth"
+      },
+      {
+        "template": "I [options] you've grown [options]",
+        "options": [
+          "can see",
+          "notice"
+        ],
+        "meaning": "acknowledging a child's growth"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A casual conversation with a child",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Hey, you've grown so much since I last saw you!"
+          },
+          {
+            "speaker": "Child",
+            "text": "Thanks, I've been eating a lot of food"
+          }
+        ]
+      },
+      {
+        "description": "A conversation at a family gathering",
+        "lines": [
+          {
+            "speaker": "Relative",
+            "text": "Wow, you're getting to be as tall as your mom"
+          },
+          {
+            "speaker": "Child",
+            "text": "I know, I've been growing really fast"
+          }
+        ]
+      }
+    ]
+  }
+}

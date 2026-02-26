@@ -1,0 +1,173 @@
+{
+  "title": "Preparing for an important event",
+  "context": "Ask someone if they are fully ready for a big day.",
+  "content": {
+    "bestLine": "Are you all set for today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Are you ready for this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything in place?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you feel prepared?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you all set?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got everything under control?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you good to go?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything left to do?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are you fully prepared?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You ready for this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All good to go?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You set?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Ready to roll?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All set, buddy?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You good?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's do this, ready?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Are you adequately prepared?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have you completed all necessary tasks?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is everything in order?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you ready to proceed?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Have you finalized your preparations?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you confident in your readiness?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Are you [options] for today?",
+        "options": [
+          "ready",
+          "all set",
+          "good to go"
+        ],
+        "meaning": "inquiry about readiness"
+      },
+      {
+        "template": "Is everything [options]?",
+        "options": [
+          "in place",
+          "under control",
+          "ready to go"
+        ],
+        "meaning": "inquiry about preparation status"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Checking in with a friend before a big event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, are you all set for today?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I'm good to go. Just need to pick up a few things."
+          }
+        ]
+      },
+      {
+        "description": "Confirming readiness with a colleague before a meeting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Are you ready to proceed with the presentation?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yes, I've finalized my preparations. Let's get started."
+          }
+        ]
+      }
+    ]
+  }
+}

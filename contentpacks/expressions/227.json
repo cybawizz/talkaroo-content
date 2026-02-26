@@ -1,0 +1,131 @@
+{
+  "title": "Questions a florist might ask",
+  "context": "Ask a customer where the flowers should be delivered.",
+  "content": {
+    "bestLine": "Where would you like the flowers delivered?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the delivery address?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where should we send the flowers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you provide the delivery location?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where would you like the bouquet delivered?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What address should we use for delivery?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can we deliver the flowers for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where to deliver the flowers?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best address for delivery?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please provide the delivery address?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where would you like the floral arrangement delivered?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the preferred delivery location?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To which address should we deliver the flowers?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please provide the delivery address for the flowers.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where should the flowers be delivered to?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where should [options] be delivered?",
+        "options": [
+          "the flowers",
+          "the bouquet",
+          "the arrangement"
+        ],
+        "meaning": "asking for delivery location"
+      },
+      {
+        "template": "Can you provide [options] for delivery?",
+        "options": [
+          "the address",
+          "the location",
+          "the destination"
+        ],
+        "meaning": "requesting delivery information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Florist asking customer for delivery location",
+        "lines": [
+          {
+            "speaker": "Florist",
+            "text": "Where would you like the flowers delivered?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "To my wife's office, please."
+          }
+        ]
+      },
+      {
+        "description": "Florist confirming delivery location with customer",
+        "lines": [
+          {
+            "speaker": "Florist",
+            "text": "Just to confirm, you'd like the bouquet delivered to your home?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, that's correct. Thank you."
+          }
+        ]
+      }
+    ]
+  }
+}

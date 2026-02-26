@@ -1,0 +1,205 @@
+{
+  "title": "Discussing a clothing trend",
+  "context": "Say that a popular new style looks ridiculous on everyone.",
+  "content": {
+    "bestLine": "That new style looks ridiculous on everyone",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not my favorite trend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think it suits most people",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The style is quite unflattering",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not a fan of the new fashion",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It doesn't seem to work for anyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think it's a questionable trend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Most people can't pull it off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's just not a good look",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That trend is so extra",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't get why people like it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's just not my vibe",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I think it's kinda ugly",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Not many people can rock it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a weird fashion choice",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm good without that trend",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's not really my style",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "That trend is hella whack",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's lowkey ugly",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm dead, that style is so extra",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a hot mess",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Not many people are serving looks",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a fashion don't",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, yeah, that trend is so flattering",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I love how it makes everyone look ridiculous",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It's not like it's a fashion disaster or anything",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so here for that trend",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "It's the best thing since sliced bread",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I bet it'll be a classic in no time",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I think [options] is a bad trend",
+        "options": [
+          "it",
+          "this style",
+          "the new fashion"
+        ],
+        "meaning": "expressing disagreement with a trend"
+      },
+      {
+        "template": "[options] just doesn't work",
+        "options": [
+          "that trend",
+          "the new style",
+          "this fashion"
+        ],
+        "meaning": "stating that a trend is unflattering"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Discussing a trend with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have you seen the new fashion trend?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, I think it's ridiculous on everyone"
+          }
+        ]
+      },
+      {
+        "description": "Talking about fashion with a stranger",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "What do you think of the new style?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Honestly, I don't think it suits most people"
+          }
+        ]
+      }
+    ]
+  }
+}

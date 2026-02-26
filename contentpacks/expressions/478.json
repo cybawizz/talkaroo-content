@@ -1,0 +1,173 @@
+{
+  "title": "Special instructions at a cafe",
+  "context": "Ask for specific changes like oat milk or extra syrup in your drink.",
+  "content": {
+    "bestLine": "Can I get oat milk instead of regular milk?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'd like extra syrup",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it less sweet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it with almond milk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get whipped cream on top?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a large size",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like it iced",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you add an extra shot?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it to go",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can I swap out the milk for oat milk?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Throw some extra syrup in there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a quad shot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take it with room for cream",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you make it skinny?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Add an extra pump of vanilla",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have it with coconut milk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Make it a mocha with extra chocolate",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate it if you could use oat milk",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please add an extra syrup to my drink?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to request a modification to my order",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you make sure my drink is prepared with almond milk?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to order a large coffee with specific instructions",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please prepare my drink with whipped cream on top",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I get [options]?",
+        "options": [
+          "oat milk",
+          "extra syrup",
+          "whipped cream"
+        ],
+        "meaning": "requesting a modification"
+      },
+      {
+        "template": "I'll have it [options]",
+        "options": [
+          "iced",
+          "with room for cream",
+          "with an extra shot"
+        ],
+        "meaning": "specifying preparation instructions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer requesting a modification",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Can I get oat milk instead of regular milk?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Absolutely, I can make that change for you"
+          }
+        ]
+      },
+      {
+        "description": "Customer specifying preparation instructions",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "I'll have it iced with extra syrup"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Okay, so that's an iced coffee with extra syrup, correct?"
+          }
+        ]
+      }
+    ]
+  }
+}

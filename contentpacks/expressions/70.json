@@ -1,0 +1,172 @@
+{
+  "title": "Saying good-bye informally",
+  "context": "Tell someone farewell in a casual and relaxed way.",
+  "content": {
+    "bestLine": "See you later, catch you around",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Have a good day",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice talking to you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take care",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "See you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bye for now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you later",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "All the best",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have a great day",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Later dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Catch you on the flip side",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See ya",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Talk to you soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Peace out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Laters",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See you around",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Laters, homie",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Aight, catch you later",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Peace",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "One love",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "Holla",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Toodles",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "See you [options]",
+        "options": [
+          "later",
+          "soon",
+          "around"
+        ],
+        "meaning": "goodbye"
+      },
+      {
+        "template": "Take [options]",
+        "options": [
+          "care",
+          "it easy"
+        ],
+        "meaning": "goodbye"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Saying goodbye to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "See you later, catch you around"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, later dude"
+          }
+        ]
+      },
+      {
+        "description": "Saying goodbye to a coworker",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Have a good day"
+          },
+          {
+            "speaker": "Person B",
+            "text": "You too, talk to you soon"
+          }
+        ]
+      }
+    ]
+  }
+}

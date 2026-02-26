@@ -1,0 +1,173 @@
+{
+  "title": "Throwing a retirement party",
+  "context": "Give a short speech honoring a coworker who is leaving the company forever.",
+  "content": {
+    "bestLine": "Congratulations on your retirement, you will be missed",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You deserve this retirement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We'll miss you around here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Enjoy your next chapter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your service",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You've earned your rest",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're sad to see you go",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wishing you happiness",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You will be remembered",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You're finally free",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We'll have to catch up soon",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're going to love retirement",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're going to miss you so much",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You deserve a break",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's stay in touch",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're an inspiration",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're excited for you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please accept our congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your dedication will be remembered",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We appreciate your years of service",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have been an invaluable asset",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We wish you a happy retirement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your contributions will not be forgotten",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Wishing you [options] in retirement",
+        "options": [
+          "all the best",
+          "happiness",
+          "success"
+        ],
+        "meaning": "expressing good wishes"
+      },
+      {
+        "template": "You will be [options] around here",
+        "options": [
+          "missed",
+          "remembered",
+          "appreciated"
+        ],
+        "meaning": "expressing admiration"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Coworker giving a speech",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Congratulations on your retirement, you will be missed"
+          },
+          {
+            "speaker": "Retiree",
+            "text": "Thank you, it's been a pleasure working with all of you"
+          }
+        ]
+      },
+      {
+        "description": "Manager giving a speech",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Please accept our congratulations on your retirement"
+          },
+          {
+            "speaker": "Retiree",
+            "text": "Thank you, I'm going to miss this place"
+          }
+        ]
+      }
+    ]
+  }
+}

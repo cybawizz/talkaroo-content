@@ -1,0 +1,173 @@
+{
+  "title": "Complaining about housing prices",
+  "context": "Complain to a friend that rent and home prices are way too high.",
+  "content": {
+    "bestLine": "Housing prices are insane right now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Rent is too high",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Housing costs are rising",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Prices are out of control",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's hard to afford a home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The market is expensive",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm worried about the cost",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Housing is unaffordable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The prices are overwhelming",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Rent is crazy high",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so done with these prices",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Housing is ridiculously expensive",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm struggling to pay rent",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The housing market is wild",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm over these high prices",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's tough to find a cheap place",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Housing costs are killing me",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Rent is hella high",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Housing is lowkey unaffordable",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm ghosting the housing market",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Prices are straight up ridiculous",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm salty about these prices",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Housing is a whole mess",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Housing prices are [options]",
+        "options": [
+          "too high",
+          "insane",
+          "out of control"
+        ],
+        "meaning": "complaining about high prices"
+      },
+      {
+        "template": "I'm [options] about the housing market",
+        "options": [
+          "done",
+          "over",
+          "salty"
+        ],
+        "meaning": "expressing frustration with the market"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about high rent",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so done with these rent prices"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I know, right? It's like they're pricing us out"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the housing market with a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Housing prices are insane right now"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Tell me about it. I'm struggling to find a place I can afford"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "title": "Encouraging children to eat",
+  "context": "Tell a kid to eat their food instead of playing with it.",
+  "content": {
+    "bestLine": "Please eat your food, not play with it",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Eat your meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Finish your food",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time to eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please eat",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Eat your dinner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's have a meal",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Food is ready",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "C'mon, eat up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's chow down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Eat, kiddo, eat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yum, food time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dig in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get some food in you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's eat already",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Food is waiting",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It's time for your meal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please consume your food",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's proceed with dinner",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your meal is served",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's dinner time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please eat your meal",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] our food",
+        "options": [
+          "eat",
+          "enjoy",
+          "finish"
+        ],
+        "meaning": "encouraging kids to eat"
+      },
+      {
+        "template": "It's time to [options]",
+        "options": [
+          "eat",
+          "have dinner",
+          "have a meal"
+        ],
+        "meaning": "telling kids it's time to eat"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Parent encouraging kid to eat",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Please eat your food, not play with it"
+          },
+          {
+            "speaker": "Kid",
+            "text": "I don't want to"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Let's eat together, it's fun"
+          }
+        ]
+      },
+      {
+        "description": "Parent reminding kid to finish meal",
+        "lines": [
+          {
+            "speaker": "Parent",
+            "text": "Finish your food, you're not done yet"
+          },
+          {
+            "speaker": "Kid",
+            "text": "I'm full"
+          },
+          {
+            "speaker": "Parent",
+            "text": "Just a few more bites, please"
+          }
+        ]
+      }
+    ]
+  }
+}

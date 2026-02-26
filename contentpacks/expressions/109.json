@@ -1,0 +1,141 @@
+{
+  "title": "Expressions used in children's games",
+  "context": "Say common playful phrases used when playing games with kids.",
+  "content": {
+    "bestLine": "Let's play a game, who's ready?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's get started",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Have fun playing",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Great job, keep going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's take turns",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Good luck, everyone",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's play together",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing well",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep trying, you got this",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Whoa, nice move",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yay, let's play",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're so close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Almost got it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Woohoo, good job",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's do it again",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a superstar",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's play [options]",
+        "options": [
+          "tag",
+          "hide and seek",
+          "soccer"
+        ],
+        "meaning": "suggesting a game to play"
+      },
+      {
+        "template": "You're [options]!",
+        "options": [
+          "amazing",
+          "awesome",
+          "doing great"
+        ],
+        "meaning": "praising the child's performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Encouraging a child during a game",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "You're doing so well, keep going!"
+          },
+          {
+            "speaker": "Child",
+            "text": "Yay, I'm having fun!"
+          }
+        ]
+      },
+      {
+        "description": "Starting a new game",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Let's play a game, who's ready?"
+          },
+          {
+            "speaker": "Child",
+            "text": "I am, I am! What game are we playing?"
+          }
+        ]
+      }
+    ]
+  }
+}

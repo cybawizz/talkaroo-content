@@ -1,0 +1,158 @@
+{
+  "title": "Bringing a conversation to an end",
+  "context": "Politely wrap up a casual conversation so you can leave.",
+  "content": {
+    "bestLine": "It was great catching up, I should get going",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I should probably get going",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's getting late, I'll talk to you soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I have an early start tomorrow",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It was nice talking to you, bye",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to grab a refill, nice meeting you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I should let you get back to your friends",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's time for me to head out",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna take off, it was great chatting",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm outta here, catch you later",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I should roll, nice hanging out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Later, dude, it was fun talking",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna go grab some fresh air",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm peacing out, it was real talking to you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting, just kidding, I'll talk to you soon",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe it's time for me to take my leave",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It was a pleasure speaking with you, I should be off",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have another commitment I must attend to",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate the conversation, I'll let you get back to your day",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I should be on my way, it was nice meeting you",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It was [options] talking to you",
+        "options": [
+          "great",
+          "nice",
+          "good"
+        ],
+        "meaning": "expressing a positive sentiment before leaving"
+      },
+      {
+        "template": "I should [options], it was [options] meeting you",
+        "options": [
+          "get going",
+          "head out",
+          "take off"
+        ],
+        "meaning": "polite way to end a conversation and leave"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ending a conversation with a new acquaintance",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "It was great catching up, I should get going"
+          },
+          {
+            "speaker": "Acquaintance",
+            "text": "Yeah, me too, nice meeting you"
+          }
+        ]
+      },
+      {
+        "description": "Wrapping up a conversation with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm gonna take off, it was great chatting"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Later, dude, talk to you soon"
+          }
+        ]
+      }
+    ]
+  }
+}

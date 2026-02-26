@@ -1,0 +1,171 @@
+{
+  "title": "Asking about store hours",
+  "context": "Ask a cashier what time the store opens and closes.",
+  "content": {
+    "bestLine": "What are your store hours today?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What time do you open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are your hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When do you close?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time does the store open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me your store hours?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your schedule today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "When are you open?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you close today?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what time do you guys open?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the store hours today?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do you open up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time are you closed?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me when you're open?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's your hours like?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "When do you guys close?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What time do you open tomorrow?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please inform me of your store hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your operating hours today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know your store's schedule.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you tell me when the store is open?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are your business hours?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know your store hours for today.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What time do you [options]?",
+        "options": [
+          "open",
+          "close"
+        ],
+        "meaning": "Asking store hours"
+      },
+      {
+        "template": "Can you tell me when the store is [options]?",
+        "options": [
+          "open",
+          "closed"
+        ],
+        "meaning": "Asking store hours"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking cashier about store hours",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What time do you open?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "We open at 9 AM."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about store schedule",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What are your store hours today?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "We're open from 9 AM to 9 PM."
+          }
+        ]
+      }
+    ]
+  }
+}

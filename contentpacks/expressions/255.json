@@ -1,0 +1,173 @@
+{
+  "title": "Encouraging someone to speak plainly",
+  "context": "Ask someone to be direct and stop beating around the bush.",
+  "content": {
+    "bestLine": "Can you please be direct?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Get to the point",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be straightforward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Say what you mean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Speak plainly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Don't beat around the bush",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "State your intention",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be honest with me",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Cut to the chase",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Spit it out",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give it to me straight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Don't sugarcoat it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Be real with me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lay it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Tell me like it is",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "No BS, okay?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would appreciate your candor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please be forthcoming",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I value your directness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's discuss this openly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your honesty is appreciated",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I prefer a straightforward approach",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can you [options]?",
+        "options": [
+          "please be direct",
+          "speak plainly",
+          "tell me straight"
+        ],
+        "meaning": "requesting plain speech"
+      },
+      {
+        "template": "Let's [options]",
+        "options": [
+          "get to the point",
+          "be honest",
+          "cut to the chase"
+        ],
+        "meaning": "encouraging direct conversation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking another friend to be direct",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hey, can you please be direct?"
+          },
+          {
+            "speaker": "B",
+            "text": "Okay, what's up?"
+          }
+        ]
+      },
+      {
+        "description": "Manager encouraging an employee to speak plainly",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I value your directness, please share your thoughts"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Alright, I think we should..."
+          }
+        ]
+      }
+    ]
+  }
+}

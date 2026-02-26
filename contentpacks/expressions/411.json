@@ -1,0 +1,190 @@
+{
+  "title": "Congratulating someone on an achievement",
+  "context": "Tell someone you are proud of their recent success or award.",
+  "content": {
+    "bestLine": "I'm so proud of your recent success!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Great job on your achievement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Congratulations on your success",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You must be thrilled",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's quite an accomplishment",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You deserve it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Well done",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wow, that's awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a rockstar",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm stoked for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's so cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're on fire",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good for you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm psyched for you",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Congratulations on your achievement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I offer you my sincerest congratulations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have earned this recognition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "This is a well-deserved honor",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am delighted to hear about your success",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, you crushed it",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a total boss",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "That's lit",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're killing the game",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key impressed",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're on a roll",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm [options] for you",
+        "options": [
+          "proud",
+          "happy",
+          "thrilled"
+        ],
+        "meaning": "expressing positive emotions"
+      },
+      {
+        "template": "You [options] deserve this",
+        "options": [
+          "totally",
+          "completely",
+          "absolutely"
+        ],
+        "meaning": "expressing strong agreement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Congratulating a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I heard about your award. Congratulations!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Thanks, I'm still in shock"
+          }
+        ]
+      },
+      {
+        "description": "Congratulating a colleague",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I wanted to reach out and congratulate you on your promotion"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Thank you, I appreciate your support"
+          }
+        ]
+      }
+    ]
+  }
+}

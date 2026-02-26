@@ -1,0 +1,177 @@
+{
+  "title": "Confirming receipt of a text message",
+  "context": "Ask someone if they received the photo or file you sent them.",
+  "content": {
+    "bestLine": "Did you get the photo I sent?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Did you receive the file?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Got the picture?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Was the attachment delivered?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did my message come through?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is the image visible?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Did you get my text with the photo?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Was the file sent successfully?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you see the attachment?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Got my pic?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Did u get the file?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "U get the msg?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Did my text come thru?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "See the photo?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Did u receive it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it there?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Did you successfully receive the attachment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I wanted to confirm receipt of the file.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please acknowledge the photo?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Was the message delivered to you?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate confirmation of receipt.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Did the file arrive?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Did you get the [options]?",
+        "options": [
+          "photo",
+          "file",
+          "message"
+        ],
+        "meaning": "Asking for confirmation of receipt"
+      },
+      {
+        "template": "Is the [options] visible?",
+        "options": [
+          "image",
+          "attachment",
+          "picture"
+        ],
+        "meaning": "Checking if the recipient can see the sent item"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple confirmation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Did you get the photo I sent?"
+          },
+          {
+            "speaker": "B",
+            "text": "Yes, I got it. Thanks!"
+          }
+        ]
+      },
+      {
+        "description": "Follow-up question",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Did you receive the file?"
+          },
+          {
+            "speaker": "B",
+            "text": "No, I didn't get it. Can you resend?"
+          },
+          {
+            "speaker": "A",
+            "text": "I'll send it again."
+          }
+        ]
+      }
+    ]
+  }
+}

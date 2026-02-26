@@ -1,0 +1,173 @@
+{
+  "title": "Praising an employee",
+  "context": "Give a worker excellent feedback for a job well done.",
+  "content": {
+    "bestLine": "You're doing a fantastic job, keep it up!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Great work on this project",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're really making progress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm impressed with your skills",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your efforts are paying off",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're a valuable team member",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your work is top-notch",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your hard work",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing a great job overall",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Awesome job, you're rocking it!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're crushing it, keep going!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so proud of you, great work!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're on fire, keep it up!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Your work is amazing, thanks!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're doing fantastically, keep it up!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving your progress, great job!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a superstar, keep shining!",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your performance is exceptional",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm pleased with your progress",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your work is of high quality",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're meeting expectations",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your contributions are valued",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're an asset to the team",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're doing a [options] job",
+        "options": [
+          "great",
+          "fantastic",
+          "amazing"
+        ],
+        "meaning": "praising the employee's work"
+      },
+      {
+        "template": "I'm [options] with your progress",
+        "options": [
+          "pleased",
+          "impressed",
+          "happy"
+        ],
+        "meaning": "expressing satisfaction with the employee's performance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Manager praising an employee",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "You're doing a fantastic job, keep it up!"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Thanks, I appreciate your feedback!"
+          }
+        ]
+      },
+      {
+        "description": "Coworker praising a colleague",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "You're crushing it, keep going!"
+          },
+          {
+            "speaker": "Colleague",
+            "text": "Thanks, you're doing great too!"
+          }
+        ]
+      }
+    ]
+  }
+}

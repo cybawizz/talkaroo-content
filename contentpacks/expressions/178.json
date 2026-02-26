@@ -1,0 +1,173 @@
+{
+  "title": "Asking about a classroom assignment",
+  "context": "Ask for details regarding homework or an upcoming paper.",
+  "content": {
+    "bestLine": "What's the deadline for the upcoming paper?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you explain the assignment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the homework for tonight?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I approach the paper?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the requirements for the project?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get more information on the assignment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How long does the paper need to be?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the topic of the next assignment?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any specific guidelines for the project?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, what's the deal with the homework?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Got any tips for the paper?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up with the assignment?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me the lowdown on the project?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How's the best way to tackle the paper?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Is the homework due soon?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get some help with the assignment?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the haps with the upcoming paper?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide more details on the assignment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate guidance on the paper.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the expectations for the project?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you clarify the requirements for the assignment?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am seeking additional information on the upcoming paper.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the preferred approach for the assignment?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's the [option] for the [assignment]?",
+        "options": [
+          "deadline",
+          "topic",
+          "length"
+        ],
+        "meaning": "asking for specific details"
+      },
+      {
+        "template": "Can you [option] me about the [assignment]?",
+        "options": [
+          "explain",
+          "guide",
+          "help"
+        ],
+        "meaning": "requesting assistance or clarification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asking teacher for clarification",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Excuse me, can you explain the assignment?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Yes, of course. The assignment is due next week and should be around 5 pages long."
+          }
+        ]
+      },
+      {
+        "description": "Classmates discussing the homework",
+        "lines": [
+          {
+            "speaker": "Classmate 1",
+            "text": "Hey, have you started the homework yet?"
+          },
+          {
+            "speaker": "Classmate 2",
+            "text": "No, I'm not sure what it's about. Can you fill me in?"
+          }
+        ]
+      }
+    ]
+  }
+}

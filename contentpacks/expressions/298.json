@@ -1,0 +1,173 @@
+{
+  "title": "Caring for pets",
+  "context": "Discuss feeding, walking, or maintaining a household pet.",
+  "content": {
+    "bestLine": "I need to feed my dog now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's the best food for cats?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I walk my dog every morning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How often should I clean the litter box?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My pet needs regular exercise",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's a good schedule for feeding my pet?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to take my dog to the vet",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How can I keep my pet healthy?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for a pet groomer",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna feed my pup now",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My cat's gotta eat, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm taking my dog for a walk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My pet's gotta get some exercise",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to care for my pet?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to get my dog to the park",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My pet's hungry, I gotta feed it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna give my pet a bath",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is essential to provide my pet with adequate nutrition",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must ensure my pet receives regular veterinary care",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Maintaining a clean and safe environment for my pet is crucial",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am responsible for providing my pet with a balanced diet",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is my duty to care for my pet's physical and emotional needs",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must establish a routine for feeding and exercising my pet",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I need to [options] my pet",
+        "options": [
+          "feed",
+          "walk",
+          "groom"
+        ],
+        "meaning": "caring for pet"
+      },
+      {
+        "template": "My pet [options] to be [options]",
+        "options": [
+          "needs",
+          "wants",
+          "has to"
+        ],
+        "meaning": "pet's needs"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Conversation between pet owner and veterinarian",
+        "lines": [
+          {
+            "speaker": "Pet Owner",
+            "text": "What's the best food for my cat?"
+          },
+          {
+            "speaker": "Veterinarian",
+            "text": "I recommend a high-quality commercial cat food"
+          }
+        ]
+      },
+      {
+        "description": "Conversation between two pet owners",
+        "lines": [
+          {
+            "speaker": "Pet Owner 1",
+            "text": "I'm taking my dog for a walk"
+          },
+          {
+            "speaker": "Pet Owner 2",
+            "text": "That's great, my dog needs exercise too"
+          }
+        ]
+      }
+    ]
+  }
+}

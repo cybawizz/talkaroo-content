@@ -1,0 +1,189 @@
+{
+  "title": "Attempting to put an end to a misunderstanding",
+  "context": "Make a final statement to resolve confusion and move forward.",
+  "content": {
+    "bestLine": "Let's clarify this once and for all.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think we have a misunderstanding",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we start over?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get on the same page",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I want to make sure we're clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you explain that again?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I understand",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's break it down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I think there's been a mix-up",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, I think we're on different wavelengths",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we just forget about it and move on?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so confused, can you help me out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's just start fresh",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel like we're talking in circles",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you give me an example?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm lost, can you explain it again?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get this straightened out",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I believe we have a misunderstanding that needs to be addressed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's review the facts and come to a mutual understanding",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to clarify the situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we schedule a meeting to discuss the issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I think it would be beneficial to revisit the topic",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's work together to find a solution",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] and move forward",
+        "options": [
+          "clear the air",
+          "start fresh",
+          "get on the same page"
+        ],
+        "meaning": "resolve the misunderstanding"
+      },
+      {
+        "template": "I think we need to [options] to understand each other",
+        "options": [
+          "talk it out",
+          "discuss the issue",
+          "review the facts"
+        ],
+        "meaning": "come to a mutual understanding"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends resolving a misunderstanding",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I think we have a misunderstanding"
+          },
+          {
+            "speaker": "Person B",
+            "text": "I'm not sure what you're talking about"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Let's start over and try to understand each other"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, I'm willing to listen"
+          }
+        ]
+      },
+      {
+        "description": "A manager and employee resolving a work-related misunderstanding",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I believe we have a misunderstanding that needs to be addressed"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I'm not sure what you're referring to"
+          },
+          {
+            "speaker": "Manager",
+            "text": "Let's review the facts and come to a mutual understanding"
+          },
+          {
+            "speaker": "Employee",
+            "text": "I appreciate your willingness to listen and clarify the situation"
+          }
+        ]
+      }
+    ]
+  }
+}

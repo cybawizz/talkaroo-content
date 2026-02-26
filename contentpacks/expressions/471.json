@@ -1,0 +1,173 @@
+{
+  "title": "Praising a small child",
+  "context": "Give enthusiastic compliments to a child for doing a good job.",
+  "content": {
+    "bestLine": "You did a great job, I'm so proud of you!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Good job!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing well.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like your work.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're very talented.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Excellent effort!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You should be proud.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Great job, keep it up!",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing a great job.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Way to go!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a rockstar!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so proud of you, kiddo!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're awesome!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Good work, sweetie!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I love what you did!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're amazing!",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Your performance is commendable.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have done an excellent job.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your efforts are appreciated.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have shown great skill.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your work is of high quality.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You should be proud of yourself.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options]!",
+        "options": [
+          "awesome",
+          "amazing",
+          "great"
+        ],
+        "meaning": "expressing praise"
+      },
+      {
+        "template": "I [options] your work!",
+        "options": [
+          "love",
+          "like",
+          "appreciate"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Praising a child for drawing a picture",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Wow, you drew a beautiful picture!"
+          },
+          {
+            "speaker": "Child",
+            "text": "Thanks! I worked hard on it."
+          }
+        ]
+      },
+      {
+        "description": "Praising a child for helping with chores",
+        "lines": [
+          {
+            "speaker": "Adult",
+            "text": "Thank you for helping me with the dishes!"
+          },
+          {
+            "speaker": "Child",
+            "text": "I'm happy to help!"
+          }
+        ]
+      }
+    ]
+  }
+}

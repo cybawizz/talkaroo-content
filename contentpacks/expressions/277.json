@@ -1,0 +1,158 @@
+{
+  "title": "A hairdresser giving instructions to a client",
+  "context": "Tell the person in your chair to tilt their head down.",
+  "content": {
+    "bestLine": "Please tilt your head down for me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Tilt your head down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you lean forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Lower your head",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bring your chin down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please lean down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Tilt forward",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Put your head down",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Can you duck down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just lean forward",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Tilt that head down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bring it down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Get your head down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Lean down for me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Dip your head",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I need you to tilt your head down",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please lower your head",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please lean forward",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I require you to put your head down",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please incline your head downward",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please [option] your head down",
+        "options": [
+          "tilt",
+          "lean",
+          "lower"
+        ],
+        "meaning": "requesting the client to move their head"
+      },
+      {
+        "template": "Can you [option] down",
+        "options": [
+          "duck",
+          "lean",
+          "put your head"
+        ],
+        "meaning": "asking the client to move their head down"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Hairdresser instructing client",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "Please tilt your head down for me"
+          },
+          {
+            "speaker": "Client",
+            "text": "Like this?"
+          }
+        ]
+      },
+      {
+        "description": "Hairdresser clarifying instruction",
+        "lines": [
+          {
+            "speaker": "Hairdresser",
+            "text": "Can you lean forward a bit more?"
+          },
+          {
+            "speaker": "Client",
+            "text": "Okay, is that good?"
+          }
+        ]
+      }
+    ]
+  }
+}

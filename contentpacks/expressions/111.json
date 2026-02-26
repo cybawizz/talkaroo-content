@@ -1,0 +1,175 @@
+{
+  "title": "Giving simple thanks (quick)",
+  "context": "Quickly tell someone you appreciate what they did.",
+  "content": {
+    "bestLine": "Thanks so much!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Thank you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks a lot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your help",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I owe you one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for everything",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Thanks dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I owe you",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks so much",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a lifesaver",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks buddy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Thank you very much",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm grateful for your assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thanks for your support",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I appreciate your help greatly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Thank you for your time",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Thanks a ton",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're the best",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so down for that",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Thanks for [options]",
+        "options": [
+          "your help",
+          "everything",
+          "being there"
+        ],
+        "meaning": "expressing gratitude"
+      },
+      {
+        "template": "I [options] your support",
+        "options": [
+          "appreciate",
+          "value",
+          "am grateful for"
+        ],
+        "meaning": "showing appreciation"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Quick thanks in a casual setting",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Thanks for helping me move"
+          },
+          {
+            "speaker": "Person B",
+            "text": "No problem, happy to help"
+          }
+        ]
+      },
+      {
+        "description": "Formal thanks in a professional setting",
+        "lines": [
+          {
+            "speaker": "Employee",
+            "text": "Thank you for the opportunity"
+          },
+          {
+            "speaker": "Manager",
+            "text": "You're welcome, you deserve it"
+          }
+        ]
+      }
+    ]
+  }
+}

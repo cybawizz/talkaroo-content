@@ -1,0 +1,173 @@
+{
+  "title": "Buying drinks with friends",
+  "context": "Offer to pay for the next round of drinks for your social group.",
+  "content": {
+    "bestLine": "I've got this round, what can I get you?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I get the next round?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Who's ready for another drink?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "My turn to buy, what do you want?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Next round is on me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What can I get for you all?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll take care of this round",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me get the next one",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's my turn to pay",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm buying, what do you need?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My round, what'll it be?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Who needs a refill?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Next one's on me, guys",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's everyone having?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got the next round covered",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let me grab the next one",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's on me this time",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I gotchu, what's good?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Next round's on me, homies",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Who's thirsty?",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm buying, y'all",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "What's poppin' for the next round?",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm treating, guys",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'll get the [options] round",
+        "options": [
+          "next",
+          "first",
+          "second"
+        ],
+        "meaning": "Offering to pay for a round of drinks"
+      },
+      {
+        "template": "Who needs a [options]?",
+        "options": [
+          "refill",
+          "drink",
+          "beer"
+        ],
+        "meaning": "Asking who wants another drink"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering to pay for drinks at a bar",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I've got this round, what can I get you?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Just a beer, thanks"
+          }
+        ]
+      },
+      {
+        "description": "Buying drinks at a restaurant",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "My turn to buy, what do you want?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I'll have another glass of wine"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "title": "Explaining that you witnessed an accident",
+  "context": "Tell a police officer exactly what you saw happen before the crash.",
+  "content": {
+    "bestLine": "I saw the car run the red light and hit another vehicle",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I witnessed an accident",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "A car crashed into another vehicle",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I saw the whole thing happen",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The accident occurred at the intersection",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "One car didn't stop at the red light",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicles collided",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm happy to provide a statement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I saw it with my own eyes",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I just saw a crazy accident",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "This car just ran a red light",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It was a pretty bad crash",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm still shaken up",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The car didn't even slow down",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It happened so fast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I feel bad for the people involved",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I hope everyone is okay",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am a witness to the accident",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The vehicle failed to stop at the red light",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I will provide a detailed account",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The accident was a result of reckless driving",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am willing to cooperate fully",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The incident occurred at approximately [time]",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I saw the [vehicle] [action] into [object]",
+        "options": [
+          "car",
+          "truck",
+          "bike"
+        ],
+        "meaning": "describing the accident"
+      },
+      {
+        "template": "The [vehicle] was traveling [direction] when it [action]",
+        "options": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ],
+        "meaning": "describing the events leading up to the accident"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Witness explaining the accident to a police officer",
+        "lines": [
+          {
+            "speaker": "Witness",
+            "text": "I saw the car run the red light and hit another vehicle"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "Can you tell me more about what you saw?"
+          }
+        ]
+      },
+      {
+        "description": "Witness providing additional details",
+        "lines": [
+          {
+            "speaker": "Witness",
+            "text": "The car was speeding and didn't even slow down"
+          },
+          {
+            "speaker": "Police Officer",
+            "text": "Did you see anyone injured in the accident?"
+          }
+        ]
+      }
+    ]
+  }
+}

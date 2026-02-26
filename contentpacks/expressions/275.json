@@ -1,0 +1,204 @@
+{
+  "title": "Expressing forgetfulness (quick)",
+  "context": "Admit that you cannot remember something.",
+  "content": {
+    "bestLine": "I'm sorry, I forgot",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't recall",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It slipped my mind",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I forgot to remember",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not coming to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm drawing a blank",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't remember that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's gone from my memory",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I totally forgot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "My mind is a blank",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I spaced it out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's on the tip of my tongue",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so sorry, I forgot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I have no idea",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It slipped my brain",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm forgetting what you said",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to say I've forgotten",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It has escaped my memory",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid I don't recall",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I apologize for my forgetfulness",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It's not within my recollection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I seem to have forgotten",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "I'm hella forgetful",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "My brain is mush",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so extra forgetful",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I got a brain fart",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm low-key forgetting",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] remember",
+        "options": [
+          "don't",
+          "can't",
+          "won't"
+        ],
+        "meaning": "expressing inability to recall"
+      },
+      {
+        "template": "It's [options] my mind",
+        "options": [
+          "on the tip of",
+          "slipped my",
+          "gone from"
+        ],
+        "meaning": "describing forgetfulness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Apologizing for forgetfulness",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm sorry, I forgot your birthday"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's okay, I know you're busy"
+          }
+        ]
+      },
+      {
+        "description": "Explaining forgetfulness",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm so sorry, I forgot to pick you up"
+          },
+          {
+            "speaker": "Person B",
+            "text": "What happened, did you just forget?"
+          },
+          {
+            "speaker": "Person A",
+            "text": "Yeah, it slipped my mind"
+          }
+        ]
+      }
+    ]
+  }
+}

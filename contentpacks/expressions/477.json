@@ -1,0 +1,213 @@
+{
+  "title": "Demanding to be given an object",
+  "context": "Forcefully ask a person to hand an item to you.",
+  "content": {
+    "bestLine": "Give me that now",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you hand me that?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need that item",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please give it to me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I require that object",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I have it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's mine, give it back",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "I need it now",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Hand it over",
+          "register": "neutral",
+          "risk": "medium"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, give me that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you pass it?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I gotta have it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give it here",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Come on, hand it over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I need it ASAP",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Give me that thing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's mine, give it",
+          "register": "informal",
+          "risk": "high"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Gimme that",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Hand it ovah",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm dyin' for that",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "Give it up",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "C'mon, gimme",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I gotta get that",
+          "register": "slang",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Give it to me now",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't care, give it",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Just hand it over",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Stop playing games, give it",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "I'm taking it",
+          "register": "rude",
+          "risk": "very high"
+        },
+        {
+          "text": "Give it or else",
+          "register": "rude",
+          "risk": "very high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Give me [object] now",
+        "options": [
+          "phone",
+          "keys",
+          "book"
+        ],
+        "meaning": "Demanding an object"
+      },
+      {
+        "template": "I need [object] ASAP",
+        "options": [
+          "help",
+          "information",
+          "item"
+        ],
+        "meaning": "Requesting something urgently"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Demanding a phone",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Give me that phone now"
+          },
+          {
+            "speaker": "B",
+            "text": "What's the hurry?"
+          },
+          {
+            "speaker": "A",
+            "text": "I need to make a call, just give it"
+          }
+        ]
+      },
+      {
+        "description": "Asking for a book",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Can you hand me that book?"
+          },
+          {
+            "speaker": "B",
+            "text": "Which one?"
+          },
+          {
+            "speaker": "A",
+            "text": "The one on the table, please"
+          }
+        ]
+      }
+    ]
+  }
+}

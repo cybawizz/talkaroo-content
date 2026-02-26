@@ -1,0 +1,177 @@
+{
+  "title": "Describing the availability of transportation",
+  "context": "Assure a renter that there are plenty of buses in the area.",
+  "content": {
+    "bestLine": "There are plenty of buses around here",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Buses are readily available",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can catch a bus easily",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Public transportation is convenient",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Buses run frequently in this area",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Getting around is no problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There are many bus stops nearby",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Transportation options are plentiful",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You won't have trouble finding a bus",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Buses are all over the place",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can grab a bus anytime",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's easy to get around without a car",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "There's a bus stop just down the street",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Public transportation is super convenient",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You'll have no problem catching a bus",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Buses are always coming and going",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Getting around is a breeze",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "There is an abundance of bus routes available",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Public transportation is readily accessible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The area is well-served by buses",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You will find it easy to use public transportation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "There are numerous bus stops in the vicinity",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Transportation options are comprehensive",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "There are [options] buses in the area",
+        "options": [
+          "many",
+          "plenty of",
+          "lots of"
+        ],
+        "meaning": "describing abundance of buses"
+      },
+      {
+        "template": "You can [options] a bus to get around",
+        "options": [
+          "easily catch",
+          "grab",
+          "hop on"
+        ],
+        "meaning": "describing ease of using buses"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Reassuring a renter about transportation",
+        "lines": [
+          {
+            "speaker": "Landlord",
+            "text": "Is there anything you're concerned about regarding the apartment?"
+          },
+          {
+            "speaker": "Renter",
+            "text": "Actually, I was wondering about public transportation in the area"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "There are plenty of buses around here, you won't have any trouble getting around"
+          }
+        ]
+      },
+      {
+        "description": "Discussing transportation with a potential renter",
+        "lines": [
+          {
+            "speaker": "Renter",
+            "text": "How's the public transportation in this area?"
+          },
+          {
+            "speaker": "Landlord",
+            "text": "It's very convenient, there are many bus stops nearby and buses run frequently"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "title": "Agreeing to something",
+  "context": "State that you accept or agree with a proposal.",
+  "content": {
+    "bestLine": "I'm on board with that",
+    "groups": {
+      "neutral": [
+        {
+          "text": "That sounds good",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I agree with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That works for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm okay with that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm in agreement",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's fine by me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I concur",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Yeah, that's cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm down with that",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's awesome, let's do it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sounds like a plan",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so on board",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That's a great idea, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's make it happen",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm totally agreeable",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I accept that proposal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That meets with my approval",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I concur with your assessment",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That is acceptable to me",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I agree to those terms",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That is a satisfactory arrangement",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] with that",
+        "options": [
+          "agree",
+          "am okay",
+          "concur"
+        ],
+        "meaning": "expressing agreement"
+      },
+      {
+        "template": "That [options] to me",
+        "options": [
+          "sounds good",
+          "is acceptable",
+          "meets with my approval"
+        ],
+        "meaning": "showing acceptance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Agreeing to a plan",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Do you want to go to the movies tonight?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Yeah, that sounds good to me"
+          }
+        ]
+      },
+      {
+        "description": "Accepting a proposal",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "We're offering you a position at our company"
+          },
+          {
+            "speaker": "Candidate",
+            "text": "I accept that proposal, thank you"
+          }
+        ]
+      }
+    ]
+  }
+}

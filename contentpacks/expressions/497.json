@@ -1,0 +1,157 @@
+{
+  "title": "Offering to help a caller",
+  "context": "Ask the person on the phone if there is anything else you can assist with.",
+  "content": {
+    "bestLine": "Is there anything else I can assist you with?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can I help with anything else?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need any further assistance?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something else I can help with?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Anything else I can do for you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I assist you with anything more?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any other questions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Is there anything more I can help you with?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Need help with something else?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got anything else I can help with?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Anything else you need help with?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Want me to help with something more?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I give you a hand with something else?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You need help with anything else?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I can help with something more, right?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Is there anything further I can assist you with?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I provide any additional assistance?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you require any more help from me?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is there something else I can help you with today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can I offer any further support?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Can I [options] with anything else?",
+        "options": [
+          "help",
+          "assist"
+        ],
+        "meaning": "Offering help"
+      },
+      {
+        "template": "Is there [options] you need help with?",
+        "options": [
+          "something",
+          "anything",
+          "something else"
+        ],
+        "meaning": "Asking for other needs"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Offering help at the end of a call",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Is there anything else I can assist you with?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "No, that's all. Thank you for your help."
+          }
+        ]
+      },
+      {
+        "description": "Providing additional assistance",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Can I help with anything else?"
+          },
+          {
+            "speaker": "Caller",
+            "text": "Actually, yes. I have another question."
+          }
+        ]
+      }
+    ]
+  }
+}

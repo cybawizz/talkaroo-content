@@ -1,0 +1,173 @@
+{
+  "title": "Approaching a deadline",
+  "context": "Point out that a major project summary vanishes in a few hours.",
+  "content": {
+    "bestLine": "The project summary is due in a few hours",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're running out of time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The deadline is near",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to finish soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Time is of the essence",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is ticking",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're on a tight schedule",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The project summary is due soon",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We need to hurry up",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're cutting it close",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The deadline is looming",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're running late",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We need to get moving",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time's running out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're almost out of time",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock is ticking down",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're in a time crunch",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "The deadline is rapidly approaching",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are facing a time-sensitive situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The project summary must be submitted promptly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are operating under a tight timeline",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The submission deadline is imminent",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We must complete the project summary expeditiously",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We have [options] hours left",
+        "options": [
+          "a few",
+          "only a couple",
+          "less than"
+        ],
+        "meaning": "time is running out"
+      },
+      {
+        "template": "The deadline is [options]",
+        "options": [
+          "today",
+          "tomorrow",
+          "in a few hours"
+        ],
+        "meaning": "time is of the essence"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Team lead reminding team members of the deadline",
+        "lines": [
+          {
+            "speaker": "Team Lead",
+            "text": "The project summary is due in a few hours"
+          },
+          {
+            "speaker": "Team Member",
+            "text": "Got it, I'm on it"
+          }
+        ]
+      },
+      {
+        "description": "Colleagues discussing the deadline",
+        "lines": [
+          {
+            "speaker": "Colleague 1",
+            "text": "We're running out of time"
+          },
+          {
+            "speaker": "Colleague 2",
+            "text": "I know, let's focus and get it done"
+          }
+        ]
+      }
+    ]
+  }
+}

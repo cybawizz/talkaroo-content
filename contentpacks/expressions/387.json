@@ -1,0 +1,168 @@
+{
+  "title": "Praising a vacuum robot",
+  "context": "Tell a friend that the little machine keeps your house completely clean.",
+  "content": {
+    "bestLine": "This little vacuum robot keeps my house spotless",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's really efficient",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The robot is very effective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It does a great job",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm impressed with its performance",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a game changer for cleaning",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The vacuum robot is reliable",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It keeps my floors clean",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love how it navigates",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "This thing is a beast",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm obsessed with my vacuum robot",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's so cool how it works",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I don't know what I'd do without it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a total lifesaver",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "The robot is amazing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's crazy how well it cleans",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so glad I got it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "This vacuum robot is fire",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's lowkey the best thing ever",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'm hella impressed",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a total boss",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "The robot is straight flames",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "My [options] keeps my house clean",
+        "options": [
+          "vacuum robot",
+          "little machine",
+          "cleaning buddy"
+        ],
+        "meaning": "expressing satisfaction with a cleaning device"
+      },
+      {
+        "template": "I [options] my vacuum robot",
+        "options": [
+          "love",
+          "adore",
+          "am obsessed with"
+        ],
+        "meaning": "expressing strong positive feelings towards a vacuum robot"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Talking to a friend about a vacuum robot",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I just got a new vacuum robot and it's amazing"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Really? What's so great about it?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing the benefits of a vacuum robot",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "This little machine keeps my house completely clean"
+          },
+          {
+            "speaker": "Friend",
+            "text": "That sounds incredible. I need to get one"
+          }
+        ]
+      }
+    ]
+  }
+}

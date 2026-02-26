@@ -1,0 +1,173 @@
+{
+  "title": "Coming to the point of the matter",
+  "context": "Stop making small talk and state the main reason you are speaking.",
+  "content": {
+    "bestLine": "Let's get to the point.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Let's focus on the issue",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the main point?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss the key topic?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get to the heart of the matter",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you want to talk about?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let's cut to the chase",
+          "register": "neutral",
+          "risk": "medium"
+        },
+        {
+          "text": "Can we be direct?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the main reason for this conversation?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Let's get real",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's up?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we talk turkey?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Let's ditch the small talk",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's on your mind?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's get down to business",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we be honest?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the real reason you're calling?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Let's proceed with the discussion",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we address the primary issue?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's focus on the agenda",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the main purpose of this meeting?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Let's move forward with the topic at hand",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can we discuss the key points?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Let's [options] the conversation",
+        "options": [
+          "focus",
+          "direct",
+          "move forward with"
+        ],
+        "meaning": "change the direction of the conversation"
+      },
+      {
+        "template": "Can we [options]?",
+        "options": [
+          "be direct",
+          "be honest",
+          "get to the point"
+        ],
+        "meaning": "request a change in the conversation style"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Changing the subject",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Let's get to the point."
+          },
+          {
+            "speaker": "B",
+            "text": "Okay, what's on your mind?"
+          }
+        ]
+      },
+      {
+        "description": "Asking for clarity",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "What's the main reason for this conversation?"
+          },
+          {
+            "speaker": "B",
+            "text": "I wanted to discuss the project timeline."
+          }
+        ]
+      }
+    ]
+  }
+}

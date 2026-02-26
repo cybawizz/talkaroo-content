@@ -1,0 +1,173 @@
+{
+  "title": "Finding things in a department store",
+  "context": "Ask a store employee where a specific department is located.",
+  "content": {
+    "bestLine": "Excuse me, where is the clothing department?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Where is the electronics department?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me where the shoes are?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for the home goods section.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know where the kids' section is?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where can I find the accessories department?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me where the jewelry is?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need to find the sporting goods department.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Where is the customer service desk?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, where's the video game section?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you guys have a toy section?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm trying to find the music department.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the best place to find some new clothes?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you point me to the movie section?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm looking for the book store part.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know where I can find some cool gadgets?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Where's the food court?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please direct me to the menswear department?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could tell me where the furniture department is located.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Where might I find the cosmetics counter?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am looking for the department that sells household appliances.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you kindly inform me of the location of the travel agency?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know where the pharmacy is situated.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Where is the [options] department?",
+        "options": [
+          "clothing",
+          "electronics",
+          "home goods"
+        ],
+        "meaning": "Asking for the location of a specific department"
+      },
+      {
+        "template": "Can you tell me where I can find [options]?",
+        "options": [
+          "shoes",
+          "toys",
+          "books"
+        ],
+        "meaning": "Requesting directions to a specific product or section"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking for the location of the clothing department",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, where is the clothing department?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "The clothing department is just down that aisle, on your left."
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about the location of the electronics department",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, can you tell me where the electronics department is?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Yes, it's on the second floor. You can take the escalator just over there."
+          }
+        ]
+      }
+    ]
+  }
+}

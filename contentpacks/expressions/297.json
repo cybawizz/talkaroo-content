@@ -1,0 +1,165 @@
+{
+  "title": "Explaining cryptocurrency to a beginner",
+  "context": "Tell a friend what Bitcoin is and how digital wallets work.",
+  "content": {
+    "bestLine": "Bitcoin is a digital currency stored in online wallets",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Bitcoin is a type of cryptocurrency",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Digital wallets store your Bitcoin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's like cash, but digital",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You can use it to buy things online",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bitcoin is decentralized, meaning no government controls it",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You need a digital wallet to store and use Bitcoin",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Bitcoin transactions are recorded on a public ledger",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a new way to think about money",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Bitcoin is like digital money",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can buy stuff online with it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like having cash in your pocket, but on your phone",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You gotta have a digital wallet to use it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Bitcoin is kinda like a secret money",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a new way to make payments",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can use it to buy video games or music",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like the money in your bank, but digital",
+          "register": "informal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Bitcoin is like [options]",
+        "options": [
+          "digital money",
+          "cash in your pocket",
+          "a new way to think about money"
+        ],
+        "meaning": "explaining Bitcoin in simple terms"
+      },
+      {
+        "template": "You can use Bitcoin to [options]",
+        "options": [
+          "buy stuff online",
+          "make payments",
+          "buy video games or music"
+        ],
+        "meaning": "explaining the uses of Bitcoin"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining Bitcoin to a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, have you heard of Bitcoin?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "No, what's that?"
+          },
+          {
+            "speaker": "You",
+            "text": "It's a digital currency, like money, but online"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh, cool! How does it work?"
+          },
+          {
+            "speaker": "You",
+            "text": "You need a digital wallet to store and use it"
+          }
+        ]
+      },
+      {
+        "description": "Explaining digital wallets",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "So, you know how you store your money in a bank?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Yeah..."
+          },
+          {
+            "speaker": "You",
+            "text": "A digital wallet is like that, but for Bitcoin"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I see! And how do I get one?"
+          },
+          {
+            "speaker": "You",
+            "text": "You can download a digital wallet app on your phone"
+          }
+        ]
+      }
+    ]
+  }
+}

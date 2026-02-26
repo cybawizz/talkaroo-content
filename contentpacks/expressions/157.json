@@ -1,0 +1,175 @@
+{
+  "title": "Asking about computer operation",
+  "context": "Ask a tech expert how to use a specific software program.",
+  "content": {
+    "bestLine": "How do I get started with this software?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you explain this program?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does this software work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the best way to use this?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me some examples?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I troubleshoot this issue?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the system requirements?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend some tutorials?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I customize the settings?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you help me with this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I make this thing work?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the easiest way to do this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a quick rundown?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I fix this glitch?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me some cool features?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I get the most out of this?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you walk me through this?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you provide an overview of this software?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I optimize the performance of this program?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What are the key features of this application?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you assist me with configuring the settings?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "How do I ensure compatibility with other systems?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you recommend best practices for using this software?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How do I [options] with this software?",
+        "options": [
+          "install",
+          "use",
+          "troubleshoot",
+          "customize"
+        ],
+        "meaning": "asking for help with a specific task"
+      },
+      {
+        "template": "Can you [options] me with this program?",
+        "options": [
+          "show",
+          "teach",
+          "guide",
+          "assist"
+        ],
+        "meaning": "requesting guidance or assistance"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a tech expert for help with a software program",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "Hi, I'm having trouble with this software. Can you help me?"
+          },
+          {
+            "speaker": "Tech Expert",
+            "text": "Of course, what seems to be the issue?"
+          }
+        ]
+      },
+      {
+        "description": "Discussing software features with a tech expert",
+        "lines": [
+          {
+            "speaker": "User",
+            "text": "What are some of the key features of this program?"
+          },
+          {
+            "speaker": "Tech Expert",
+            "text": "Well, it has a lot of great tools for data analysis and visualization."
+          }
+        ]
+      }
+    ]
+  }
+}

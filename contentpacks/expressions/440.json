@@ -1,0 +1,173 @@
+{
+  "title": "When you are helpless to help",
+  "context": "Admit that there is nothing more you can do to fix a situation.",
+  "content": {
+    "bestLine": "I've done all I can, sorry",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm out of options",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nothing more I can do",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's beyond my control",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've reached my limit",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unable to assist",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I've exhausted my resources",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "There's nothing left to try",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm at a loss for what to do",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm stuck, don't know what to do",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've tried everything, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm all out of ideas",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I feel helpless, sorry",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't know what to say",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I wish I could do more",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm running out of options",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure what to do next",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I've exhausted all avenues",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm unable to provide further assistance",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've reached the limits of my expertise",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not equipped to handle this situation",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I've done all that is within my power",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I regret that I can do no more",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] to help",
+        "options": [
+          "wish I could",
+          "want to",
+          "need to"
+        ],
+        "meaning": "expressing desire to help but unable to"
+      },
+      {
+        "template": "There's [options] I can do",
+        "options": [
+          "nothing",
+          "little",
+          "not much"
+        ],
+        "meaning": "admitting helplessness"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for help with a problem",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Can you help me with this?"
+          },
+          {
+            "speaker": "You",
+            "text": "I've done all I can, sorry"
+          }
+        ]
+      },
+      {
+        "description": "Colleague asking for assistance with a task",
+        "lines": [
+          {
+            "speaker": "Colleague",
+            "text": "Can you take a look at this?"
+          },
+          {
+            "speaker": "You",
+            "text": "I've exhausted all avenues, I'm afraid"
+          }
+        ]
+      }
+    ]
+  }
+}

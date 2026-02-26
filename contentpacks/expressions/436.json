@@ -1,0 +1,171 @@
+{
+  "title": "Encouraging someone who is unhappy",
+  "context": "Say positive things to cheer up a friend who is going through a tough time.",
+  "content": {
+    "bestLine": "You're strong and can get through this",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'm here for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That sounds tough",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm listening",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing great",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hang in there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I care about you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're not alone",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, you got this",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I've got your back",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing awesome",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Keep your chin up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to help",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're strong",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We'll get through this together",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "You're low-key amazing",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't be sad, G",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're high-key strong",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Keep it movin'",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "You're a boss",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "Don't sweat it",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] and can get through this",
+        "options": [
+          "strong",
+          "amazing",
+          "awesome"
+        ],
+        "meaning": "encouragement"
+      },
+      {
+        "template": "I'm [options] for you",
+        "options": [
+          "here",
+          "rooting",
+          "cheering"
+        ],
+        "meaning": "support"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend is feeling down",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's wrong?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I just had a bad day"
+          },
+          {
+            "speaker": "You",
+            "text": "You're strong and can get through this"
+          }
+        ]
+      },
+      {
+        "description": "Friend is feeling overwhelmed",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Dude, you got this"
+          },
+          {
+            "speaker": "Friend",
+            "text": "I don't know, it's just too much"
+          },
+          {
+            "speaker": "You",
+            "text": "We'll get through this together"
+          }
+        ]
+      }
+    ]
+  }
+}

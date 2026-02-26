@@ -1,0 +1,132 @@
+{
+  "title": "Canceling plans to stay home and watch a movie",
+  "context": "Tell a friend you would rather stay on the couch tonight.",
+  "content": {
+    "bestLine": "I'm gonna stay on the couch tonight",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I think I'll pass tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not feeling up to going out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need a night in",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to take it easy tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll have to rain check",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just going to stay home",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not really in the mood",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm gonna chill at home tonight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so down for a movie night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good, I'll just stay in",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna take a night off",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm just gonna veg out tonight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna have a lazy night",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm gonna stay on the couch",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "I'm going to [options] tonight",
+        "options": [
+          "stay home",
+          "watch a movie",
+          "take it easy"
+        ],
+        "meaning": "declining plans"
+      },
+      {
+        "template": "I'm [options] tonight, maybe some other time",
+        "options": [
+          "tired",
+          "not feeling up to it",
+          "just wanna chill"
+        ],
+        "meaning": "canceling plans"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "canceling plans with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I'm gonna stay on the couch tonight"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Aww, okay. Maybe some other time?"
+          }
+        ]
+      },
+      {
+        "description": "explaining the reason for canceling plans",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I'm not feeling up to going out tonight"
+          },
+          {
+            "speaker": "Friend",
+            "text": "No worries, get some rest"
+          }
+        ]
+      }
+    ]
+  }
+}

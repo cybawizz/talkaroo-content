@@ -1,0 +1,173 @@
+{
+  "title": "Giving commands to a dog (quick)",
+  "context": "Use standard short commands to instruct a dog to sit or stay.",
+  "content": {
+    "bestLine": "Sit, stay",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Sit down",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay close",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Be still",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wait here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Sit quietly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Stay put",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": " Remain seated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hold still",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Sit buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chill out",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay tight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hang loose",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sit tight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay cool",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Easy does it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take it easy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please sit",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Remain in position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Stay in place",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Sit and stay",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Maintain your position",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hold your position",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Sit [options]",
+        "options": [
+          "down",
+          "still",
+          "quietly"
+        ],
+        "meaning": "command to sit"
+      },
+      {
+        "template": "Stay [options]",
+        "options": [
+          "close",
+          "here",
+          "put"
+        ],
+        "meaning": "command to stay"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Owner giving commands to a dog",
+        "lines": [
+          {
+            "speaker": "Owner",
+            "text": "Sit, stay"
+          },
+          {
+            "speaker": "Owner",
+            "text": "Good boy, remain in position"
+          }
+        ]
+      },
+      {
+        "description": "Trainer giving commands to a dog",
+        "lines": [
+          {
+            "speaker": "Trainer",
+            "text": "Please sit"
+          },
+          {
+            "speaker": "Trainer",
+            "text": "Now, stay in place"
+          }
+        ]
+      }
+    ]
+  }
+}

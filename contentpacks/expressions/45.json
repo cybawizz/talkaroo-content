@@ -1,0 +1,160 @@
+{
+  "title": "Offering to let someone enter in front of you",
+  "context": "Kindly invite someone else to walk through the door first.",
+  "content": {
+    "bestLine": "Please, go ahead of me",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You can go first",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please, go ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "After you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go right ahead",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're welcome to go first",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Please proceed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Go ahead, please",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Go for it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You go first, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll let you go",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go ahead, buddy",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You can go, I'm good",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take the lead",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Go on, I'll follow",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Please, proceed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You may enter first",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I invite you to go ahead",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please, go right ahead",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You have precedence",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Please, [go ahead/enter/proceed]",
+        "options": [
+          "go ahead",
+          "enter",
+          "proceed"
+        ],
+        "meaning": "allowing someone to pass first"
+      },
+      {
+        "template": "[You/You're] [welcome/free] to [go/enter/proceed]",
+        "options": [
+          "You",
+          "You're",
+          "go",
+          "enter",
+          "proceed"
+        ],
+        "meaning": "offering permission to pass first"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two people approaching a door",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Please, go ahead of me"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, that's very kind"
+          }
+        ]
+      },
+      {
+        "description": "Someone holding the door for another person",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You can go first"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks for holding the door"
+          }
+        ]
+      }
+    ]
+  }
+}

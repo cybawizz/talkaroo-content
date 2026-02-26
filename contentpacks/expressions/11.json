@@ -1,0 +1,158 @@
+{
+  "title": "Simple greetings",
+  "context": "Say a very short and basic hello.",
+  "content": {
+    "bestLine": "Hello",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Hi",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hey",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello there",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hi again",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Hello again",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey buddy",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's up",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi friend",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hey there",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Yo",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Hey man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hi dude",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Good morning",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good afternoon",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Good evening",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Hello sir/ma'am",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Greetings",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Hello [options]",
+        "options": [
+          "world",
+          "friend",
+          "there"
+        ],
+        "meaning": "a basic greeting"
+      },
+      {
+        "template": "Hi [options]",
+        "options": [
+          "buddy",
+          "man",
+          "dude"
+        ],
+        "meaning": "an informal greeting"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends meeting",
+        "lines": [
+          {
+            "speaker": "John",
+            "text": "Hey"
+          },
+          {
+            "speaker": "Jane",
+            "text": "Hi"
+          }
+        ]
+      },
+      {
+        "description": "Coworkers greeting each other",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Good morning"
+          },
+          {
+            "speaker": "Employee",
+            "text": "Good morning"
+          }
+        ]
+      }
+    ]
+  }
+}

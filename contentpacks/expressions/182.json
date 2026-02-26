@@ -1,0 +1,130 @@
+{
+  "title": "Questioning a college professor",
+  "context": "Politely ask a university instructor a question during a lecture.",
+  "content": {
+    "bestLine": "Excuse me, Professor, could you clarify that point?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Can you explain that further?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I didn't understand that part.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Could you give an example?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How does that relate to the topic?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the significance of that concept?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you repeat that, please?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure I follow.",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [],
+      "formal": [
+        {
+          "text": "Professor, may I inquire about the rationale behind that statement?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide additional context for that point?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could elaborate on that concept.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Is it possible to explore that idea further?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request clarification on that topic?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you offer an explanation for that phenomenon?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ],
+      "slang": [],
+      "sarcastic": [],
+      "rude": []
+    },
+    "patterns": [
+      {
+        "template": "Excuse me, Professor, could you [options]?",
+        "options": [
+          "explain that further",
+          "give an example",
+          "repeat that"
+        ],
+        "meaning": "Polite question"
+      },
+      {
+        "template": "I'm having trouble understanding [options].",
+        "options": [
+          "the concept",
+          "the idea",
+          "the topic"
+        ],
+        "meaning": "Request for clarification"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Student asks professor for clarification during a lecture",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Excuse me, Professor, could you explain that further?"
+          },
+          {
+            "speaker": "Professor",
+            "text": "Of course, let me provide an example to illustrate the concept."
+          }
+        ]
+      },
+      {
+        "description": "Student requests additional information from professor",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Professor, may I inquire about the rationale behind that statement?"
+          },
+          {
+            "speaker": "Professor",
+            "text": "That's a great question. The reasoning behind it is based on recent research in the field."
+          }
+        ]
+      }
+    ]
+  }
+}

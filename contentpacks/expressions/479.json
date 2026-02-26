@@ -1,0 +1,141 @@
+{
+  "title": "Asking someone to chop vegetables",
+  "context": "Tell your partner to wash and cut the onions while you cook the meat.",
+  "content": {
+    "bestLine": "Can you chop the onions while I cook the meat?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Please chop the onions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you chop the vegetables?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I need help with the onions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Chop the onions for me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Wash and chop the onions",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you prepare the onions?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll cook if you chop",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Chop the onions now",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, can you chop those onions?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chop the onions, okay?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Need a hand with the veggies",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you do the onion chopping?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Onion duty is yours",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Chop those onions for me, thanks",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're on onion duty",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Help me out with the onions",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": []
+    },
+    "patterns": [
+      {
+        "template": "Can you [action] the [vegetable]?",
+        "options": [
+          "chop",
+          "wash",
+          "cut"
+        ],
+        "meaning": "Requesting help with a specific task"
+      },
+      {
+        "template": "I'll [cook] if you [action] the [vegetable]",
+        "options": [
+          "cook the meat",
+          "prepare the salad"
+        ],
+        "meaning": "Offering a trade of tasks"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Partner asking for help in the kitchen",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Can you chop the onions while I cook the meat?"
+          },
+          {
+            "speaker": "Partner",
+            "text": "Sure, I'll get started on that"
+          }
+        ]
+      },
+      {
+        "description": "Asking for help with meal preparation",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Need a hand with the veggies?"
+          },
+          {
+            "speaker": "Partner",
+            "text": "Yeah, I'll chop the onions and you cook the meat"
+          }
+        ]
+      }
+    ]
+  }
+}

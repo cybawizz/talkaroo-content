@@ -1,0 +1,121 @@
+{
+  "title": "Questions asked by a ticket agent",
+  "context": "Ask a customer how many tickets they want to buy.",
+  "content": {
+    "bestLine": "How many tickets would you like to purchase?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How many tickets do you need?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the number of tickets you'd like?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get a ticket count from you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How many are in your party?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your ticket quantity?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you know how many tickets you want?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you tell me the number of tickets?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "May I inquire about the number of tickets you wish to purchase?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you please provide the number of tickets you require?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I need to know the exact number of tickets you'd like to buy.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "To complete the transaction, I require the ticket quantity.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please inform me of the number of tickets you intend to purchase.",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "How many tickets for [event]?",
+        "options": [
+          "the concert",
+          "the play",
+          "the game"
+        ],
+        "meaning": "Asking about ticket quantity for a specific event"
+      },
+      {
+        "template": "Can I get [number] tickets for you?",
+        "options": [
+          "one",
+          "two",
+          "three"
+        ],
+        "meaning": "Confirming ticket quantity with the customer"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Ticket Agent and Customer Interaction",
+        "lines": [
+          {
+            "speaker": "Ticket Agent",
+            "text": "Welcome to our ticket counter. How many tickets would you like to purchase?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'd like two tickets, please."
+          }
+        ]
+      },
+      {
+        "description": "Another Ticket Agent and Customer Interaction",
+        "lines": [
+          {
+            "speaker": "Ticket Agent",
+            "text": "Hi, can I help you with tickets for the upcoming event?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, I need four tickets."
+          }
+        ]
+      }
+    ]
+  }
+}

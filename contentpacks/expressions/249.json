@@ -1,0 +1,173 @@
+{
+  "title": "Giving specific instructions on how to get somewhere",
+  "context": "Give someone exact turn-by-turn directions to a location.",
+  "content": {
+    "bestLine": "Head down Main Street and turn left at the traffic light",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Go straight for three blocks",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Turn right at the corner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Walk for about 10 minutes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Take a left at the stop sign",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Continue on this road for a mile",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You'll see it on your right",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Cross the street at the crosswalk",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Keep walking until you reach the park",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Just head down this way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Take a right up ahead",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's like a 10-minute walk",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Hang a left at the light",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just keep going straight",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You can't miss it",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Walk until you hit the water",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's just a block away",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Proceed down the street for three blocks",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Make a right turn at the intersection",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The destination is approximately a 10-minute walk",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please turn left at the traffic signal",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Continue on this road for one mile",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The location will be on your right-hand side",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Head [options] and turn [options] at the [options]",
+        "options": [
+          "down Main Street",
+          "left",
+          "traffic light"
+        ],
+        "meaning": "giving turn-by-turn directions"
+      },
+      {
+        "template": "Walk for [options] and take a [options] at the [options]",
+        "options": [
+          "10 minutes",
+          "left",
+          "stop sign"
+        ],
+        "meaning": "providing walking directions"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Giving directions to a friend",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, how do I get to the park?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Just head down this way and turn left at the traffic light"
+          }
+        ]
+      },
+      {
+        "description": "Asking for clarification on directions",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "I'm not sure which way to go"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Okay, let me start again. Go straight for three blocks and then turn right"
+          }
+        ]
+      }
+    ]
+  }
+}

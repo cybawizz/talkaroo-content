@@ -1,0 +1,181 @@
+{
+  "title": "Explaining a breakup to friends",
+  "context": "Admit to your group that you and your partner have completely separated.",
+  "content": {
+    "bestLine": "We've decided to go our separate ways",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're not together anymore",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's over between us",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've separated",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're no longer a couple",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It didn't work out",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We've broken up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're not in a relationship",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "We're done",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's over",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We've split",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're through",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It didn't work out, dude",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "We're not together, man",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all over",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "We're ghosting each other",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a wrap",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We're donezo",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "It's caput",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "We're finito",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "It's over and out",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "We've [options] our relationship",
+        "options": [
+          "ended",
+          "terminated",
+          "separated",
+          "split"
+        ],
+        "meaning": "The relationship has come to an end"
+      },
+      {
+        "template": "It's [options] between us",
+        "options": [
+          "over",
+          "done",
+          "finished",
+          "through"
+        ],
+        "meaning": "The relationship has ended"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining the breakup to a close friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, I need to tell you something"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What's up?"
+          },
+          {
+            "speaker": "You",
+            "text": "We've decided to go our separate ways"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh, I'm so sorry to hear that"
+          }
+        ]
+      },
+      {
+        "description": "Explaining the breakup to a group of friends",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Guys, I need to tell you something"
+          },
+          {
+            "speaker": "Friend 1",
+            "text": "What's going on?"
+          },
+          {
+            "speaker": "You",
+            "text": "We've broken up"
+          },
+          {
+            "speaker": "Friend 2",
+            "text": "Sorry to hear that, dude"
+          }
+        ]
+      }
+    ]
+  }
+}

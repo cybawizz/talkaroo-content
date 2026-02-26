@@ -1,0 +1,163 @@
+{
+  "title": "Praising a teammate in a multiplayer game",
+  "context": "Tell a player they made an incredible move or saved the match.",
+  "content": {
+    "bestLine": "You just saved the match with that incredible move!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Great job on that play",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You made a fantastic move",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was a really good call",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You played that perfectly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Nice work on that objective",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're on fire today",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That was an amazing save",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Dude, that was sick!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're a beast!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was so clutch",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You just won us the game",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Nice one, teammate!",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You're on a roll",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "That was pure awesomeness",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "Yaaas, you crushed it!",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That was straight fire",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're a total boss",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That play was lit",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "You're killing it out there",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "That was a sick play",
+          "register": "slang",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You [options] the game with that move!",
+        "options": [
+          "just won",
+          "saved",
+          "turned around"
+        ],
+        "meaning": "expressing admiration for a teammate's play"
+      },
+      {
+        "template": "That was [options]!",
+        "options": [
+          "amazing",
+          "incredible",
+          "awesome"
+        ],
+        "meaning": "expressing excitement and praise for a teammate's action"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Teammate makes a great play",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "You just saved the match with that incredible move!"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Thanks, I was just trying to get it done"
+          }
+        ]
+      },
+      {
+        "description": "Team wins the game",
+        "lines": [
+          {
+            "speaker": "Player 1",
+            "text": "We did it, team! You guys were amazing!"
+          },
+          {
+            "speaker": "Player 2",
+            "text": "Yeah, that was a great team effort. Nice job, everyone!"
+          }
+        ]
+      }
+    ]
+  }
+}

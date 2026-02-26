@@ -1,0 +1,173 @@
+{
+  "title": "Explaining why you will not do something",
+  "context": "Firmly refuse a ridiculous workplace request and explain why.",
+  "content": {
+    "bestLine": "I'm afraid that's not feasible with our current resources.",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I don't think that's a good idea",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something I can do",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not sure that's possible",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have the bandwidth for that",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a priority for me right now",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not comfortable with that request",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't think it's a good use of my time",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm going to have to decline that request",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "That's just not gonna work",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not gonna be able to do that",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not really my thing",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not feeling that request",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's not something I'm comfortable with",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm gonna have to pass on that one",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That's just not a good fit for me",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm not gonna be able to make that happen",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I regret to inform you that's not possible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That request is not aligned with our goals",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm afraid we don't have the resources for that",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not a viable option at this time",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I must decline that request due to [reason]",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "That's not something we can accommodate",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'm afraid [option] is not possible",
+        "options": [
+          "that",
+          "this",
+          "it"
+        ],
+        "meaning": "refusing a request"
+      },
+      {
+        "template": "I'm going to have to [option] that request",
+        "options": [
+          "decline",
+          "deny",
+          "refuse"
+        ],
+        "meaning": "refusing a request"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Refusing a request from a coworker",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Can you do this task for me?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm afraid that's not feasible with our current resources."
+          }
+        ]
+      },
+      {
+        "description": "Refusing a request from a manager",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "I need you to take on this additional project."
+          },
+          {
+            "speaker": "You",
+            "text": "I regret to inform you that's not possible given my current workload."
+          }
+        ]
+      }
+    ]
+  }
+}

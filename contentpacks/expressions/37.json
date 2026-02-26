@@ -1,0 +1,148 @@
+{
+  "title": "Complimenting formal clothes",
+  "context": "Praise someone for dressing up beautifully for a special occasion.",
+  "content": {
+    "bestLine": "You look stunning in that outfit!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "You're dressed up nicely",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I like your formal attire",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look great tonight",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Your outfit is very elegant",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're looking sharp",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I love your dress",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You look amazing",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Wow, you clean up nice!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're rocking that suit!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm loving the fancy look",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You look like a million bucks",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "That dress is everything!",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're looking fire tonight",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "You appear to be dressed impeccably",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your attire is very becoming",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You look exceptionally well-dressed",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your formal wear is impressive",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You look [options] in that outfit!",
+        "options": [
+          "amazing",
+          "stunning",
+          "great"
+        ],
+        "meaning": "Compliment someone's appearance"
+      },
+      {
+        "template": "I love your [options]",
+        "options": [
+          "dress",
+          "suit",
+          "tie"
+        ],
+        "meaning": "Express admiration for someone's clothing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Complimenting a friend at a party",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You look stunning in that outfit!"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thanks, I just got it yesterday"
+          }
+        ]
+      },
+      {
+        "description": "Complimenting a colleague at a formal event",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "You appear to be dressed impeccably"
+          },
+          {
+            "speaker": "Person B",
+            "text": "Thank you, I tried to dress up for the occasion"
+          }
+        ]
+      }
+    ]
+  }
+}

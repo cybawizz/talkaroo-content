@@ -1,0 +1,159 @@
+{
+  "title": "Making sure you are understood",
+  "context": "Ask the other person if they understood what you just said.",
+  "content": {
+    "bestLine": "Did you understand what I just said?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "Got it?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Clear?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Understood?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Okay with you?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Make sense?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Follow me?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Alright?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "You good with that?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Cool?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Sound good to you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "You follow?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "All set?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Works for you?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Right?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Is that clear?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Do you understand?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are we on the same page?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Does that make sense?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are you with me?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "Did [options] understand?",
+        "options": [
+          "you",
+          "he",
+          "she",
+          "they"
+        ],
+        "meaning": "Checking understanding"
+      },
+      {
+        "template": "Is [options] clear?",
+        "options": [
+          "that",
+          "it",
+          "this"
+        ],
+        "meaning": "Ensuring clarity"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Simple confirmation",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "So, we need to finish this by tomorrow."
+          },
+          {
+            "speaker": "B",
+            "text": "Got it?"
+          }
+        ]
+      },
+      {
+        "description": "Formal setting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "The project deadline is next Friday."
+          },
+          {
+            "speaker": "Employee",
+            "text": "Is that clear?"
+          }
+        ]
+      }
+    ]
+  }
+}

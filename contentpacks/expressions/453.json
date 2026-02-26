@@ -1,0 +1,237 @@
+{
+  "title": "Expressing indifference (quick)",
+  "context": "Tell someone that you completely do not care about a topic.",
+  "content": {
+    "bestLine": "I don't care either way",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's not my concern",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not invested",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It doesn't affect me",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm indifferent",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's not my problem",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I don't have a stake",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's none of my business",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not bothered",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Meh, whatever",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm good either way",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Not my thing",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I don't really care",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's all the same to me",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm not fussed",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Whatever floats your boat",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm easy",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "slang": [
+        {
+          "text": "IDGAF",
+          "register": "slang",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm totes fine with either",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "It's all gucci",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm low-key indifferent",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "It's not my jam",
+          "register": "slang",
+          "risk": "low"
+        },
+        {
+          "text": "I'm ghosting this convo",
+          "register": "slang",
+          "risk": "medium"
+        }
+      ],
+      "sarcastic": [
+        {
+          "text": "Oh, wow, I'm so invested",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Please, by all means, tell me more",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm literally on the edge of my seat",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "This is the most exciting thing I've ever heard",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "I'm so glad you asked me",
+          "register": "sarcastic",
+          "risk": "high"
+        },
+        {
+          "text": "Can't you just feel my enthusiasm?",
+          "register": "sarcastic",
+          "risk": "high"
+        }
+      ],
+      "rude": [
+        {
+          "text": "Honestly, I don't care at all",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Not my problem, dude",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "I don't give a damn",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Whatever, I'm outta here",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Don't care, didn't ask",
+          "register": "rude",
+          "risk": "high"
+        },
+        {
+          "text": "Not my circus, not my monkeys",
+          "register": "rude",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] about it",
+        "options": [
+          "don't care",
+          "couldn't care less",
+          "am indifferent"
+        ],
+        "meaning": "expressing indifference"
+      },
+      {
+        "template": "It's [options] to me",
+        "options": [
+          "all the same",
+          "none of my business",
+          "not my concern"
+        ],
+        "meaning": "expressing indifference"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Friend asking for opinion",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "What do you think about the new movie?"
+          },
+          {
+            "speaker": "You",
+            "text": "Meh, whatever. I don't really care"
+          }
+        ]
+      },
+      {
+        "description": "Coworker asking for input",
+        "lines": [
+          {
+            "speaker": "Coworker",
+            "text": "Do you have any thoughts on the new project?"
+          },
+          {
+            "speaker": "You",
+            "text": "Honestly, I don't care at all. It's not my department"
+          }
+        ]
+      }
+    ]
+  }
+}

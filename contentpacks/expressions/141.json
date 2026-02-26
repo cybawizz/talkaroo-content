@@ -1,0 +1,191 @@
+{
+  "title": "Stating the time is exactly on the hour",
+  "context": "Tell someone that it is exactly the top of the hour.",
+  "content": {
+    "bestLine": "It's exactly 3 o'clock",
+    "groups": {
+      "neutral": [
+        {
+          "text": "It's 5 o'clock sharp",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is exactly 12",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's precisely 9 AM",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The clock says 7 o'clock",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's exactly on the hour",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is 4 o'clock exactly",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's 10 o'clock sharp",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "The time is precisely 2 PM",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's 6 o'clock on the dot",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Time's up, it's 8 o'clock",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's high noon exactly",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock strikes 3",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's 11 o'clock sharp, dude",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Time to go, it's 5 o'clock",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "It's 9 o'clock, let's roll",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is 1 o'clock, exactly",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "It is precisely 4 o'clock",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is exactly 10 AM",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is 3 o'clock sharp",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The clock indicates 6 o'clock exactly",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "It is 9 o'clock precisely",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "The time is 2 o'clock sharp",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's [options] o'clock exactly",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "meaning": "stating the time is on the hour"
+      },
+      {
+        "template": "The time is precisely [options] o'clock",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "meaning": "stating the time is on the hour"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Two friends meeting up",
+        "lines": [
+          {
+            "speaker": "Person A",
+            "text": "Hey, what time is it?"
+          },
+          {
+            "speaker": "Person B",
+            "text": "It's exactly 5 o'clock"
+          }
+        ]
+      },
+      {
+        "description": "A manager and employee discussing a meeting",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "What time is the meeting?"
+          },
+          {
+            "speaker": "Employee",
+            "text": "It's precisely 2 o'clock, sir"
+          }
+        ]
+      }
+    ]
+  }
+}

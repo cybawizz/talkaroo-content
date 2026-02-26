@@ -1,0 +1,166 @@
+{
+  "title": "Talking to a hospital patient",
+  "context": "Comfort a friend or family member who is lying in a hospital bed.",
+  "content": {
+    "bestLine": "You're going to be okay, I'm here for you",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How are you feeling today?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm here to support you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're in good hands here",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll stay with you for a while",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you need anything?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "You're doing great, keep it up",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm so glad I could visit you",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, buddy, how's it going?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I've got your back, don't worry",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're gonna get through this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm here to hang out and keep you company",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What can I get for you?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You're strong and capable, you got this",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so happy to see you smiling",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I hope you're receiving the best care possible",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Please let me know if there's anything I can do for you",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "You're in a wonderful hospital with great staff",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'll be happy to assist you in any way I can",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Your health and well-being are my top priority",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "You're [options] and I'm here for you",
+        "options": [
+          "going to be okay",
+          "strong",
+          "capable"
+        ],
+        "meaning": "offering comfort and support"
+      },
+      {
+        "template": "I'm [options] you're receiving the best care",
+        "options": [
+          "happy",
+          "glad",
+          "relieved"
+        ],
+        "meaning": "expressing positive sentiments about the patient's care"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "A friend visiting a patient in the hospital",
+        "lines": [
+          {
+            "speaker": "Friend",
+            "text": "Hey, how are you feeling today?"
+          },
+          {
+            "speaker": "Patient",
+            "text": "I'm feeling a bit tired, but okay"
+          },
+          {
+            "speaker": "Friend",
+            "text": "You're going to be okay, I'm here for you"
+          }
+        ]
+      },
+      {
+        "description": "A family member comforting a loved one in the hospital",
+        "lines": [
+          {
+            "speaker": "Family Member",
+            "text": "I'm so glad I could visit you today"
+          },
+          {
+            "speaker": "Patient",
+            "text": "Me too, it means a lot to me"
+          },
+          {
+            "speaker": "Family Member",
+            "text": "You're strong and capable, you got this"
+          }
+        ]
+      }
+    ]
+  }
+}

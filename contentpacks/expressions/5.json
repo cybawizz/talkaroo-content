@@ -1,0 +1,157 @@
+{
+  "title": "Signing up for a gym membership",
+  "context": "Ask the front desk for prices and tour the workout facility.",
+  "content": {
+    "bestLine": "Can I get a tour and pricing information?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How much is membership?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'd like to join the gym.",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What are the membership options?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I see the facilities?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you offer any discounts?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do I sign up?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's included in the membership?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "Hey, how much to join?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can I get a gym tour?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the deal with membership?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I wanna check out the gym.",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "How much is it per month?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Can you show me around?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What kind of equipment do you have?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I would like to inquire about membership.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with pricing information?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am interested in joining the gym.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I request a tour of the facilities?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What amenities are included with membership?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I'd like to [options] the gym.",
+        "options": [
+          "join",
+          "tour"
+        ],
+        "meaning": "expressing interest in the gym"
+      },
+      {
+        "template": "Can you tell me about [options]?",
+        "options": [
+          "membership",
+          "prices",
+          "facilities"
+        ],
+        "meaning": "requesting information"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Signing up for a gym membership",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm interested in joining the gym."
+          },
+          {
+            "speaker": "Staff",
+            "text": "Great! Let me show you our membership options and give you a tour of the facilities."
+          }
+        ]
+      },
+      {
+        "description": "Asking about pricing",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "How much is membership?"
+          },
+          {
+            "speaker": "Staff",
+            "text": "Our prices start at $50 per month. Would you like to see the facilities?"
+          }
+        ]
+      }
+    ]
+  }
+}

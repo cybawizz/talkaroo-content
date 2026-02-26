@@ -1,0 +1,189 @@
+{
+  "title": "Announcing an engagement online",
+  "context": "Tell your friends and family that your partner finally proposed.",
+  "content": {
+    "bestLine": "I'm engaged!",
+    "groups": {
+      "neutral": [
+        {
+          "text": "We're getting married",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I said yes",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're tying the knot",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm getting hitched",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're engaged",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "He proposed",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'm marrying my partner",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "We're making it official",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "I'm freaking out, we're engaged",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He finally popped the question",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm so down to be married",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're getting hitched, yo",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I said yes, duh",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "We're low-key getting married",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'm high-key excited",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "He put a ring on it",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "I am delighted to announce my engagement",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are pleased to share our engagement news",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I have accepted a proposal of marriage",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are thrilled to be getting married",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I am engaged to be married",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "We are excited to start this new chapter",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "I [options] said yes",
+        "options": [
+          "am thrilled to",
+          "am excited to",
+          "am happy to"
+        ],
+        "meaning": "accepting a proposal"
+      },
+      {
+        "template": "We [options] getting married",
+        "options": [
+          "are excited about",
+          "are looking forward to",
+          "are thrilled about"
+        ],
+        "meaning": "announcing an engagement"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Sharing the news with a friend",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Guess what?"
+          },
+          {
+            "speaker": "Friend",
+            "text": "What's up?"
+          },
+          {
+            "speaker": "You",
+            "text": "I'm engaged!"
+          },
+          {
+            "speaker": "Friend",
+            "text": "Oh my god, congratulations!"
+          }
+        ]
+      },
+      {
+        "description": "Announcing the engagement on social media",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "I said yes!"
+          },
+          {
+            "speaker": "Follower",
+            "text": "Ahhh congratulations!"
+          },
+          {
+            "speaker": "You",
+            "text": "Thanks, we're so excited!"
+          },
+          {
+            "speaker": "Follower",
+            "text": "You two are meant to be"
+          }
+        ]
+      }
+    ]
+  }
+}

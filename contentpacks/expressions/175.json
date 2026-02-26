@@ -1,0 +1,173 @@
+{
+  "title": "Asking another freelancer for rates",
+  "context": "Ask someone in your industry how much they charge per hour.",
+  "content": {
+    "bestLine": "What's your hourly rate for this type of project?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "How much do you charge per hour?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's your standard hourly rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you share your rate for similar projects?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What do you typically charge for freelance work?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How do you determine your hourly rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the going rate for freelancers in our industry?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can you give me a ballpark figure for your rate?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "How much do you charge for a project like this?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "How much do you get paid per hour?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's your rate, buddy?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much do you charge, roughly?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What do you think is a fair hourly rate?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Can you tell me what you charge for a gig like this?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "How much are you making per hour on this project?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "What's the hourly rate you're aiming for?",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "Do you mind sharing your rate with me?",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you please disclose your hourly rate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is your standard billing rate?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would appreciate it if you could share your rate.",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the compensation structure for this type of project?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Could you provide me with your rate card?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What is the going rate for freelance services in our industry?",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's your [rate/price] for [project/type of work]?",
+        "options": [
+          "hourly",
+          "daily",
+          "project-based"
+        ],
+        "meaning": "Asking for the freelancer's rate"
+      },
+      {
+        "template": "How much do you [charge/bill] for [service/task]?",
+        "options": [
+          "design",
+          "writing",
+          "consulting"
+        ],
+        "meaning": "Inquiring about the freelancer's pricing"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Asking a fellow freelancer about their rate",
+        "lines": [
+          {
+            "speaker": "You",
+            "text": "Hey, what's your hourly rate for freelance work?"
+          },
+          {
+            "speaker": "Freelancer",
+            "text": "I usually charge between $50 to $100 per hour, depending on the project."
+          }
+        ]
+      },
+      {
+        "description": "Discussing rates with a potential client",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "What's your rate for this type of project?"
+          },
+          {
+            "speaker": "You",
+            "text": "My standard rate is $75 per hour, but I can offer a discount for long-term projects."
+          }
+        ]
+      }
+    ]
+  }
+}

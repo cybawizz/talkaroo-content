@@ -1,0 +1,173 @@
+{
+  "title": "Asking the cashier what is fresh",
+  "context": "Ask the late-night donut shop worker which items were just baked.",
+  "content": {
+    "bestLine": "What's just come out of the oven?",
+    "groups": {
+      "neutral": [
+        {
+          "text": "What's fresh?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's just been baked?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Do you have any freshly baked items?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's new out of the oven?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Can I get something that's just been made?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What's the freshest option you have?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any recent batches?",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "What came out of the oven last?",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "What's hot out the oven?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got anything fresh?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Just baked anything?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's the newest stuff?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Give me something fresh, please",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "What's just come out?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Any fresh donuts?",
+          "register": "informal",
+          "risk": "low"
+        },
+        {
+          "text": "Got a fresh batch?",
+          "register": "informal",
+          "risk": "low"
+        }
+      ],
+      "formal": [
+        {
+          "text": "Could you tell me what's been freshly baked?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I'm interested in your most recent baked goods",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "What items have been baked today?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "May I inquire about your freshest options?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "Are there any baked goods that have been prepared recently?",
+          "register": "formal",
+          "risk": "low"
+        },
+        {
+          "text": "I would like to know what you have that's fresh",
+          "register": "formal",
+          "risk": "low"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "What's [options]?",
+        "options": [
+          "just been baked",
+          "fresh",
+          "new"
+        ],
+        "meaning": "Asking about recently prepared items"
+      },
+      {
+        "template": "Do you have [options]?",
+        "options": [
+          "anything fresh",
+          "any recent batches",
+          "something just baked"
+        ],
+        "meaning": "Inquiring about the availability of fresh items"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Customer asking about fresh donuts",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "What's just come out of the oven?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "We've got a fresh batch of glazed donuts"
+          }
+        ]
+      },
+      {
+        "description": "Customer inquiring about recent baked goods",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Do you have anything that's been baked recently?"
+          },
+          {
+            "speaker": "Cashier",
+            "text": "Yes, our chocolate cake was baked about an hour ago"
+          }
+        ]
+      }
+    ]
+  }
+}

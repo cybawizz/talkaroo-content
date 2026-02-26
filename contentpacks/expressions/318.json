@@ -1,0 +1,168 @@
+{
+  "title": "Explaining viral memes",
+  "context": "Try to explain a completely weird internet joke to someone older.",
+  "content": {
+    "bestLine": "It's like a joke that spreads really fast online",
+    "groups": {
+      "neutral": [
+        {
+          "text": "I'll break it down for you",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a type of online humor",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "Let me explain it simply",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a popular internet trend",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll try to make it clear",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's a funny image or video",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "It's something that goes viral",
+          "register": "neutral",
+          "risk": "low"
+        },
+        {
+          "text": "I'll do my best to explain",
+          "register": "neutral",
+          "risk": "low"
+        }
+      ],
+      "informal": [
+        {
+          "text": "It's super weird, but I'll try",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "You gotta see it to understand",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's like a joke that's all over",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll give you the lowdown",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's pretty funny once you get it",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's all about the humor",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "I'll try to make you laugh",
+          "register": "informal",
+          "risk": "medium"
+        },
+        {
+          "text": "It's a thing that's really popular",
+          "register": "informal",
+          "risk": "medium"
+        }
+      ],
+      "slang": [
+        {
+          "text": "It's lit, but also kinda weird",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "You gotta be online to get it",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's a whole thing, bro",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "I'll give you the tea",
+          "register": "slang",
+          "risk": "high"
+        },
+        {
+          "text": "It's lowkey funny, highkey weird",
+          "register": "slang",
+          "risk": "high"
+        }
+      ]
+    },
+    "patterns": [
+      {
+        "template": "It's like [options] but online",
+        "options": [
+          "a joke",
+          "a meme",
+          "a funny image"
+        ],
+        "meaning": "explaining a viral meme"
+      },
+      {
+        "template": "You gotta [options] to understand",
+        "options": [
+          "see it",
+          "get it",
+          "be online"
+        ],
+        "meaning": "explaining a viral meme"
+      }
+    ],
+    "dialogs": [
+      {
+        "description": "Explaining a viral meme to an older adult",
+        "lines": [
+          {
+            "speaker": "Younger person",
+            "text": "It's like a joke that spreads really fast online"
+          },
+          {
+            "speaker": "Older adult",
+            "text": "I don't get it, can you explain?"
+          }
+        ]
+      },
+      {
+        "description": "Using slang to explain a viral meme",
+        "lines": [
+          {
+            "speaker": "Younger person",
+            "text": "It's lit, but also kinda weird"
+          },
+          {
+            "speaker": "Older adult",
+            "text": "What does that even mean?"
+          }
+        ]
+      }
+    ]
+  }
+}
