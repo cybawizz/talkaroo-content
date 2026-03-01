@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j1_hotel_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_hotel_greeting",
+  "prompt": "Listen for the room.",
+  "script": "Actually, my room is five zero four. My name is Smith.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Providing a correction or specific detail",
+      "Asking for a new room",
+      "Saying goodbye",
+      "Complaining about the room"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to provide a specific, helpful detail when giving their room number."
+}

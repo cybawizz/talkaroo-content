@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_info_L2_street",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_street_directions",
+  "mode": "light",
+  "prompt": "Say it better (polite + clear).",
+  "items": [
+    {
+      "bad": "Where library?",
+      "better": "Excuse me, where is the library?",
+      "note": "Add 'Excuse me' + 'is'."
+    },
+    {
+      "bad": "Left bank?",
+      "better": "So I turn left at the bank, right?",
+      "note": "Use a full confirmation question."
+    }
+  ]
+}

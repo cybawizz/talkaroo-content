@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_deadline_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Identify the risk.",
+  "script": "I completely understand the massive pressure coming from the marketing department to launch the new app update by Friday. They already promised the new features in last week's press release. However, if we rush this final integration phase, the critical risk is that we release with massive bugs and absolutely no time left for regression testing. That could fundamentally destroy our entire brand reputation overnight. I honestly believe it's infinitely safer to push the official launch back a few days.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "There is absolutely zero risk, and the launch will definitely be a massive success.",
+      "Skipping the testing phase highly increases the chance that terrible software bugs will ship.",
+      "The engineering team is actively about to immediately hire dozens of new people.",
+      "The entire software release is being permanently canceled by the marketing team."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the developer use a conditional phrase to highlight a severe professional danger?"
+  },
+  "explanation": "The speaker uses conditional logic ('if we rush... the risk is') to vividly outline the disastrous consequences of a specific action."
+}

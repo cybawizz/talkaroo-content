@@ -1,0 +1,12 @@
+{
+  "transferId": "transfer_L4_net_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "Transfer: same skill, new context (no prep phrases shown).",
+  "newContext": "You meet someone at a workshop. Start small talk, pivot to a topic, and exchange a follow-up plan naturally.",
+  "constraints": {
+    "noVisibleIntel": true,
+    "shortTurns": true
+  }
+}

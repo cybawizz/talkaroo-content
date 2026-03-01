@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_neighborhood_compare_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_neighborhood_compare_b2",
+  "prompt": "Identify the comparison.",
+  "script": "I genuinely always enjoy spending time walking around the suburbs out here. Compared to the bustling city center, this specific neighborhood is dramatically quieter and infinitely greener. There are practically no loud traffic noises, and the local parks are always incredibly well-maintained. To be completely honest, it has fundamentally changed my perspective on where I want to live long-term. I seriously don't think I could manage living right downtown anymore.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To explicitly contrast two locations in order to vividly highlight the superior qualities of one.",
+      "To aggressively complain that the city center is much too quiet and boring.",
+      "To boast about how much money they make to afford living in the suburbs.",
+      "To demand that their friends start visiting them in the neighborhood more often."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start their description with 'Compared to the bustling city center'?"
+  },
+  "explanation": "The speaker explicitly sets up a direct comparison to emphasize the specific positive qualities (quieter and greener) of the neighborhood they are profiling."
+}

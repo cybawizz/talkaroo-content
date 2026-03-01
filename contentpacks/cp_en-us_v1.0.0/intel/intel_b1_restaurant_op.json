@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_restaurant_op",
+  "skinId": "skin_choose_restaurant",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "In my opinion, ...",
+      "usage": "Use this phrase to introduce your personal perspective or viewpoint in a professional manner.",
+      "example": "In my opinion, we should choose this restaurant because it offers a wide variety of healthy options."
+    },
+    {
+      "text": "I prefer ... because ...",
+      "usage": "Use this to express a specific choice while providing a logical reason for your preference.",
+      "example": "I prefer the seafood place because they use fresh ingredients and the service is always excellent."
+    },
+    {
+      "text": "On the other hand, ...",
+      "usage": "Use this to introduce a contrasting fact or an alternative perspective to the current discussion.",
+      "example": "On the other hand, the bistro is much closer to our office, so we would save a lot of travel time."
+    },
+    {
+      "text": "That's a good point, but...",
+      "usage": "Use this to acknowledge another person's argument before presenting a conflicting idea or concern.",
+      "example": "That's a good point, but I am concerned about the noise level since we need to discuss our project."
+    },
+    {
+      "text": "What do you think about ...?",
+      "usage": "Use this question to invite others to share their thoughts or feelings about a specific suggestion.",
+      "example": "What do you think about the steakhouse, considering that most of our colleagues enjoy grilled food?"
+    },
+    {
+      "text": "Let's agree on ...",
+      "usage": "Use this to propose a final decision and reach a formal consensus with the group.",
+      "example": "Let's agree on the Mediterranean cafe so we can satisfy everyone's dietary requirements."
+    },
+    {
+      "text": "I'm okay with that.",
+      "usage": "Use this to signal your formal acceptance of a proposal or a decision made by others.",
+      "example": "I'm okay with that choice because the menu looks diverse and the location is very convenient."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Cuisine",
+      "definition": "A specific style of cooking or a type of food associated with a particular culture."
+    },
+    {
+      "term": "Atmosphere",
+      "definition": "The general mood or feeling of a place, often created by its decor and environment."
+    },
+    {
+      "term": "Preference",
+      "definition": "A greater liking for one alternative over another based on personal taste."
+    },
+    {
+      "term": "Recommendation",
+      "definition": "A suggestion that something is good or suitable for a particular purpose."
+    },
+    {
+      "term": "Consensus",
+      "definition": "A general agreement reached by a group of people after a discussion."
+    }
+  ]
+}

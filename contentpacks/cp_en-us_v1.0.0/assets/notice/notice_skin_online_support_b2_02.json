@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_online_support_b2_02",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_online_support_b2",
+  "prompt": "Identify the clarification.",
+  "script": "Okay, I think I've mapped out a couple of different troubleshooting options to get your software running again. Before I finally send these instructions over to you, let me just make perfectly sure I understand what you're actually looking for today. Just to confirm, you definitely want the absolute quickest fix available, not the more permanent system reinstall—right? I just want to be absolutely certain before you start clicking things. The fastest way involves a quick patch, but it might not permanently solve the underlying glitch.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly verify a crucial piece of information before taking a final action on a user's computer.",
+      "To angrily accuse the user of constantly breaking their complicated software.",
+      "To boast about how quickly they can type commands into the terminal.",
+      "To aggressively suggest that the user buy a brand new computer instead."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the tech support agent ask 'Just to confirm...right?'"
+  },
+  "explanation": "The speaker uses 'Just to confirm...right?' as a polite, professional verification strategy to ensure they correctly understand the user's specific priorities."
+}

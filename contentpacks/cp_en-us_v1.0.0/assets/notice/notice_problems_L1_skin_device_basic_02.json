@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_device_basic_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_device_basic",
+  "prompt": "What is broken?",
+  "script": "I think, the screen is broken. I cannot see anything.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Expressing a soft opinion or guess",
+      "Stating an absolute fact",
+      "Changing the topic",
+      "Disagreeing with a friend"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'I think'?"
+  },
+  "explanation": "The speaker uses 'I think' to present their guess softly rather than stating it as a hard fact."
+}

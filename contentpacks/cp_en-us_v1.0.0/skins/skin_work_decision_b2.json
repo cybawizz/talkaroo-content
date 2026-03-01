@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_work_decision_b2",
+  "name": "Work Decision Discussion",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Colleague"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "State your opinion on a plan, weigh pros/cons, and propose a compromise.",
+    "aiGoal": "Disagree lightly and ask for a concrete example."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "agree_disagree",
+    "clarify_position",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "decision",
+    "compromise"
+  ]
+}

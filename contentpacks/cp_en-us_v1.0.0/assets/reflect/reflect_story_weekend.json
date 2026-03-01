@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_story_weekend",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_recent_weekend",
+  "mode": "light",
+  "prompt": "Say it better (past + time).",
+  "items": [
+    {
+      "bad": "I meet friend Saturday.",
+      "better": "Last Saturday, I met a friend.",
+      "note": "Use past 'met' + 'Last'."
+    },
+    {
+      "bad": "Finish ten.",
+      "better": "I finished at ten.",
+      "note": "Add 'I' + 'at'."
+    }
+  ]
+}

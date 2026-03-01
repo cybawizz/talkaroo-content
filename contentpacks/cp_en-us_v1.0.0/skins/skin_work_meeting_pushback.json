@@ -1,0 +1,42 @@
+{
+  "skinId": "skin_work_meeting_pushback",
+  "name": "Work Meeting: Pushback on a Proposal",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Team Member"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Open the discussion, defend a proposal with reasons, handle pushback, and agree next steps.",
+    "aiGoal": "Question feasibility, ask for evidence, and propose an alternative."
+  },
+  "allowedIntents": [
+    "greet",
+    "open_topic",
+    "express_opinion",
+    "give_reason",
+    "respond_to_opinion",
+    "clarify_position",
+    "agree_disagree",
+    "negotiate",
+    "summarize",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "proposal",
+    "pushback",
+    "negotiation"
+  ]
+}

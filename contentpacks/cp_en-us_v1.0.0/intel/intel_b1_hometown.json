@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_hometown",
+  "skinId": "skin_hometown_description",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "My hometown is known for...",
+      "usage": "Use this phrase to introduce a specific characteristic or specialty of your city to someone who is unfamiliar with it.",
+      "example": "My hometown is known for its textile industry because many local factories produce high-quality fabrics for international markets."
+    },
+    {
+      "text": "It's located in...",
+      "usage": "Provide the geographic position of your hometown so that the listener can visualize its location on a map.",
+      "example": "It's located in the northern region, so the climate remains relatively cool throughout the summer months."
+    },
+    {
+      "text": "I recommend visiting...",
+      "usage": "Offer a specific suggestion to a visitor when you want to highlight a must-see landmark or attraction.",
+      "example": "I recommend visiting the historical museum because it offers a comprehensive overview of our local heritage."
+    },
+    {
+      "text": "The reason is...",
+      "usage": "Explain the logic or motivation behind your recommendation to make your suggestion more persuasive.",
+      "example": "The reason is that the architecture displays unique features from the colonial era, so it is quite educational."
+    },
+    {
+      "text": "The best time to visit is...",
+      "usage": "Advise a traveler on the most suitable season or month to experience your hometown at its peak.",
+      "example": "The best time to visit is during the spring festival because the streets are decorated and the weather is pleasant."
+    },
+    {
+      "text": "It’s famous for...",
+      "usage": "Mention a widely recognized reputation or product that distinguishes your hometown from other locations.",
+      "example": "It’s famous for its traditional cuisine, so you should definitely try the local spicy dishes."
+    },
+    {
+      "text": "It's a great place to...",
+      "usage": "Describe the potential activities or experiences available to visitors to encourage them to explore further.",
+      "example": "It's a great place to explore natural trails because the landscape features diverse flora and fauna."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Landmark",
+      "definition": "A recognizable feature or building that is easily seen from a distance."
+    },
+    {
+      "term": "Heritage",
+      "definition": "Valued objects and qualities such as cultural traditions and historical buildings passed down from previous generations."
+    },
+    {
+      "term": "Commute",
+      "definition": "To travel regularly between one's home and place of work or study."
+    },
+    {
+      "term": "Residential",
+      "definition": "An area designed for people to live in rather than for commercial or industrial use."
+    },
+    {
+      "term": "Urban",
+      "definition": "Relating to, or characteristic of, a town or city environment."
+    }
+  ]
+}

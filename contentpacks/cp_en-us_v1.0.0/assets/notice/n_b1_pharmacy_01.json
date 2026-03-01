@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_pharmacy_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_pharmacy_help",
+  "prompt": "Identify the follow-up.",
+  "script": "Okay, I have your prescription ready to go right here. Before I finally ring you up, I just need to ask one quick question for our records. Do you happen to have any allergies to certain types of medicine? It's just a standard safety precaution we take with everyone.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To make a serious medical question sound less intimidating to the customer.",
+      "To apologize for forgetting to ask a question earlier.",
+      "To angrily demand that the customer sign medical paperwork.",
+      "To joke about how dangerous the medicine is."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'Do you happen to have...'?"
+  },
+  "explanation": "The speaker uses 'Do you happen to have' to soften a necessary personal question so it feels more casual and less interrogating."
+}

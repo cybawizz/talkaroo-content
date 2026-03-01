@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_hotel_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_hotel_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Actually, the shower is broken. I am in room ten.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Giving some bad news about a problem",
+      "Saying everything is perfect",
+      "Asking for a new room",
+      "Inviting someone in"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to gently introduce a problem they found."
+}

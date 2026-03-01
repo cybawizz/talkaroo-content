@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_bus_station_L2",
+  "skinId": "skin_bus_station_help",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Which bus goes to ...?",
+      "usage": "Use this when you need to find the correct route for your destination.",
+      "example": "Which bus goes to the large city center now?"
+    },
+    {
+      "text": "What platform is it on?",
+      "usage": "Ask this to find the specific area where your bus waits.",
+      "example": "What platform is it on for the blue bus?"
+    },
+    {
+      "text": "It leaves at ...",
+      "usage": "Use this phrase to tell someone the scheduled departure time.",
+      "example": "It leaves at exactly ten in the busy morning."
+    },
+    {
+      "text": "It stops at ...",
+      "usage": "Use this to list the locations where the bus will stop.",
+      "example": "It stops at the small park near the library."
+    },
+    {
+      "text": "You can pay on the bus.",
+      "usage": "Tell a passenger that they can buy a ticket from the driver.",
+      "example": "You can pay on the bus with your credit card."
+    },
+    {
+      "text": "It’s over there.",
+      "usage": "Point to a location to help someone find their platform.",
+      "example": "It is over there near the tall glass building."
+    },
+    {
+      "text": "Is this the right bus?",
+      "usage": "Confirm with the driver that you are getting on correctly.",
+      "example": "Is this the right bus for the quiet downtown?"
+    },
+    {
+      "text": "So, platform {number}?",
+      "usage": "Repeat the platform number to make sure you understood correctly.",
+      "example": "So, platform four is the correct place to wait?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Central",
+      "definition": "Being in the middle part of a city or town."
+    },
+    {
+      "term": "Busy",
+      "definition": "A place full of many people or much activity."
+    },
+    {
+      "term": "Direct",
+      "definition": "Going from one place to another without stopping anywhere."
+    },
+    {
+      "term": "Public",
+      "definition": "Something that is for everyone in a community to use."
+    },
+    {
+      "term": "Late",
+      "definition": "Arriving after the time that you expected or planned."
+    }
+  ]
+}

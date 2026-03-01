@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_trip_recap_b2_B2",
+  "skinId": "skin_trip_recap_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To give you some context…",
+      "usage": "Use this discourse marker to provide necessary background information that helps the listener understand the nuances of the situation you are about to describe.",
+      "example": "To give you some context, we had spent months meticulously planning this excursion, so the last-minute change in the itinerary was quite a shock."
+    },
+    {
+      "text": "At first,…",
+      "usage": "Use this to establish an initial perspective or expectation, which is typically contrasted later in the story with a more complex reality.",
+      "example": "At first, the weather appeared rather ominous, casting a shadow of doubt over our hiking plans, though it eventually cleared up beautifully."
+    },
+    {
+      "text": "All of a sudden,…",
+      "usage": "This phrase introduces a sudden, dramatic shift in the narrative, effectively creating a sense of urgency or surprise within the story.",
+      "example": "All of a sudden, we stumbled upon a hidden waterfall that wasn't marked on any of the local maps, which turned out to be a delightful surprise."
+    },
+    {
+      "text": "What happened was…",
+      "usage": "This acts as a narrative bridge to explain a specific complication or an unexpected turn of events in a more detailed and structured manner.",
+      "example": "What happened was that the local festival had completely blocked off the main thoroughfare, forcing us to take a scenic but unexpectedly long detour."
+    },
+    {
+      "text": "In the end,…",
+      "usage": "Use this to summarize the final outcome or the ultimate conclusion of an experience after various complications have been navigated.",
+      "example": "In the end, despite the minor logistical hiccups we encountered, the sense of accomplishment we felt at the summit was absolutely unparalleled."
+    },
+    {
+      "text": "The best part was…",
+      "usage": "This highlights the most rewarding or memorable aspect of the trip, focusing the listener’s attention on a specific positive peak of the experience.",
+      "example": "The best part was the spontaneous conversation we had with a local artisan who shared fascinating insights into the region's cultural heritage."
+    },
+    {
+      "text": "Honestly, I didn’t expect…",
+      "usage": "A common hedging phrase used to express vulnerability or surprise, signaling that the speaker's prior assumptions were challenged by the reality.",
+      "example": "Honestly, I didn't expect the architectural preservation in such a remote village to be so incredibly well-maintained and historically significant."
+    },
+    {
+      "text": "Looking back,…",
+      "usage": "A retrospective marker used to offer a reflective viewpoint or a more mature assessment of the events after they have occurred.",
+      "example": "Looking back, the minor delays we encountered actually allowed us to appreciate the rural landscape with a much deeper level of detail than planned."
+    },
+    {
+      "text": "If I’m honest,…",
+      "usage": "This is a conversational hedge used to soften a subjective opinion or to introduce a realization that might otherwise seem slightly critical or surprising.",
+      "example": "If I'm honest, the initial hike was significantly more strenuous than the guidebook suggested, making the final view feel even more rewarding."
+    },
+    {
+      "text": "The main takeaway was…",
+      "usage": "Use this to articulate the primary lesson learned or the most significant abstract impression left by the overall experience.",
+      "example": "The main takeaway was that sometimes the most memorable moments are those that occur when you finally decide to deviate from the original plan."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Itinerary",
+      "definition": "A detailed plan or route for a journey, often including specific timings and locations."
+    },
+    {
+      "term": "Spontaneous",
+      "definition": "Occurring as a result of a sudden inner impulse or inclination and without premeditation."
+    },
+    {
+      "term": "Unforeseen",
+      "definition": "Not anticipated or predicted; describing an event that was not expected to happen."
+    },
+    {
+      "term": "Retrospective",
+      "definition": "Looking back on or dealing with past events or situations with the benefit of hindsight."
+    },
+    {
+      "term": "Logistical",
+      "definition": "Relating to the detailed coordination of a complex operation involving many people, facilities, or supplies."
+    }
+  ]
+}

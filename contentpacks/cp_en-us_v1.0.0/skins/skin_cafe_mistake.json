@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_cafe_mistake",
+  "name": "Café Order Problem",
+  "category": "food_service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Barista"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say your drink is cold/wrong, answer one follow-up (sugar/milk), and confirm replacement.",
+    "aiGoal": "Apologize, ask follow-up, and replace."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "cafe",
+    "order"
+  ]
+}

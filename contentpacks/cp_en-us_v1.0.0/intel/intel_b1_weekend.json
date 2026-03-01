@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_weekend",
+  "skinId": "skin_weekend_story",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Last weekend, I...",
+      "usage": "Use this phrase to establish the timeframe and introduce the primary subject of your narrative.",
+      "example": "Last weekend, I attended a professional seminar because I wanted to improve my leadership skills."
+    },
+    {
+      "text": "First..., then..., after that...",
+      "usage": "Use these sequential connectors to provide a clear chronological structure to your story.",
+      "example": "First I registered for the event, then I attended the keynote speech, and after that I participated in a group discussion."
+    },
+    {
+      "text": "In the end, ...",
+      "usage": "Use this phrase to signal the conclusion of your experience or the final result of your actions.",
+      "example": "In the end, I received a certificate of completion so I felt very proud of my progress."
+    },
+    {
+      "text": "I felt...",
+      "usage": "Use this expression to describe your emotional state or internal reaction to the events.",
+      "example": "I felt motivated because the speakers provided very practical advice for my career."
+    },
+    {
+      "text": "It was fun because...",
+      "usage": "Use this structure to offer a logical explanation for why an activity was enjoyable.",
+      "example": "It was fun because I met many interesting colleagues, so we exchanged many creative ideas."
+    },
+    {
+      "text": "What happened next was...",
+      "usage": "Use this transitional phrase to describe a subsequent event and maintain the flow of the story.",
+      "example": "What happened next was an informal networking session where we discussed future collaborations."
+    },
+    {
+      "text": "Around {time}",
+      "usage": "Use this to specify the approximate time an event occurred within your schedule.",
+      "example": "Around 4 p.m., the main session concluded so we transitioned to the closing ceremony."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Productive",
+      "definition": "Achieving or producing a significant amount or result."
+    },
+    {
+      "term": "Coordinate",
+      "definition": "To organize different elements or people so they work together effectively."
+    },
+    {
+      "term": "Accomplished",
+      "definition": "Feeling a sense of completion or success after finishing a task."
+    },
+    {
+      "term": "Leisure",
+      "definition": "Time available for ease and relaxation rather than work."
+    },
+    {
+      "term": "Collaborate",
+      "definition": "To work together with others to achieve a common goal."
+    }
+  ]
+}

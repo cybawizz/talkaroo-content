@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_day_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_day_basic",
+  "prompt": "How does he travel?",
+  "script": "By the way, I don't drive. I take the bus to work. It takes thirty minutes.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To add a new piece of information",
+      "To disagree with an idea",
+      "To show they are angry",
+      "To promise to do something"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'By the way'?"
+  },
+  "explanation": "The speaker uses 'By the way' to casually add an extra detail about their commute."
+}

@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_prob_hotel_L2",
+  "skinId": "skin_hotel_problem",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Excuse me, I have a problem.",
+      "usage": "Use this to politely let the staff know about trouble.",
+      "example": "Excuse me, I have a small problem in my room."
+    },
+    {
+      "text": "The air conditioning is not working.",
+      "usage": "Say this to explain that the cooling machine is broken.",
+      "example": "The air conditioning is not working and it is hot."
+    },
+    {
+      "text": "It does not turn on.",
+      "usage": "Use this when a machine does not start at all.",
+      "example": "I press the button but it does not turn on."
+    },
+    {
+      "text": "My room number is ...",
+      "usage": "Tell the staff which room you are staying in now.",
+      "example": "My room number is five zero four in this hotel."
+    },
+    {
+      "text": "Can you send someone?",
+      "usage": "Ask the staff to bring a worker to help you.",
+      "example": "Can you send someone to fix the broken air conditioning?"
+    },
+    {
+      "text": "A technician will come.",
+      "usage": "The staff tells you that a worker is coming soon.",
+      "example": "A technician will come to your room in five minutes."
+    },
+    {
+      "text": "It will take ... minutes.",
+      "usage": "The staff explains how long you must wait for help.",
+      "example": "It will take ten minutes for the man to arrive."
+    },
+    {
+      "text": "So they will come now, right?",
+      "usage": "Check that the help is coming to your room immediately.",
+      "example": "So they will come now to fix the unit, right?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Hot",
+      "definition": "Feeling a high temperature that is not very nice."
+    },
+    {
+      "term": "Cold",
+      "definition": "Feeling a low temperature that is not very nice."
+    },
+    {
+      "term": "Broken",
+      "definition": "Not working because something is wrong with the machine."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Not making any loud sounds so you can sleep."
+    },
+    {
+      "term": "Dirty",
+      "definition": "Not clean and needing the staff to clean it."
+    }
+  ]
+}

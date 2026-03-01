@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_food_preferences_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_food_preferences_b2",
+  "prompt": "Identify the balance.",
+  "script": "I completely understand that a strict plant-based diet isn't appealing to absolutely everyone in our friend group. It definitely requires a lot of extra planning and preparation when eating out. That said, I can genuinely see why some people prefer the other option for significant health reasons. It's undeniably much better for the environment in the long run, too. We just need to find a restaurant tonight that actually caters to both preferences.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To politely concede a valid point that contrasts with their own personal preference.",
+      "To aggressively argue that eating meat is a terrible personal choice.",
+      "To boast about how much money they save by cooking at home.",
+      "To excitedly announce that they are opening a vegan restaurant."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the transition 'That said'?"
+  },
+  "explanation": "The speaker uses 'That said' to smoothly pivot from acknowledging one valid viewpoint to introducing a contrasting, but equally valid, perspective."
+}

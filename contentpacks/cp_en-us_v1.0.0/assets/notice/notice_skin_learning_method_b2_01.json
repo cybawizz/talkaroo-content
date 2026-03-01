@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_learning_method_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_learning_method_b2",
+  "prompt": "Identify the balance.",
+  "script": "I completely understand that taking intensive language classes in person isn't appealing to absolutely everyone. It definitely requires a lot of extra time and financial commitment. That said, I can genuinely see why some people strongly prefer the traditional classroom option. It's undeniably much better for immediate speaking practice and real-time feedback. I personally just need an online learning method that easily fits around my unpredictable work schedule.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To politely concede a valid point that contrasts with their own personal preference.",
+      "To aggressively argue that online classes are a terrible choice for everyone.",
+      "To boast about how much money they save by studying alone at home.",
+      "To excitedly announce that they are opening their own language school."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the transition 'That said'?"
+  },
+  "explanation": "The speaker uses 'That said' to smoothly pivot from acknowledging one valid viewpoint to introducing a contrasting, but equally valid, perspective."
+}

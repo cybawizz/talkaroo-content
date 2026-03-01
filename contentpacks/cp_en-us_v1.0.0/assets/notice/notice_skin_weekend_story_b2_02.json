@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_weekend_story_b2_02",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_weekend_story_b2",
+  "prompt": "Identify the emphasis.",
+  "script": "I was absolutely shocked when we finally walked into the farmers' market on Sunday morning. Honestly, I really didn't expect the place to be that incredibly busy so early in the day. There were literally dozens of people lining up outside just waiting for the popular bakery stand to open up. I mean, who gets out of bed at six in the morning just to buy sourdough bread? It completely threw off our entire relaxing weekend plan.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly emphasize genuine shock and disbelief at an unexpected situation.",
+      "To aggressively complain to the market organizers about the massive crowds.",
+      "To confidently boast about predicting exactly how crowded the venue would be.",
+      "To politely ask the baker what time they usually sell out of bread."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start their sentence with the adverb 'Honestly'?"
+  },
+  "explanation": "The speaker uses 'Honestly' as an emphatic pragmatical marker to underscore the sincerity of their complete surprise."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_workstyle_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_workstyle_b2",
+  "prompt": "Identify the comparison.",
+  "script": "I genuinely always enjoy working closely with the European marketing team on complex projects. Compared to our local domestic branch, that specific group is dramatically more organized and infinitely more proactive. There are practically no missed deadlines, and their professional communication protocols are always incredibly well-maintained. To be completely honest, it has fundamentally changed my perspective on how distributed teams should actually function. I seriously don't think I could manage working with a disorganized team anymore.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To explicitly contrast two corporate groups in order to vividly highlight the superior workstyle of one.",
+      "To aggressively complain that the domestic branch is too quiet and boring.",
+      "To boast about how much money they make working with the European team.",
+      "To demand that their colleagues start visiting the European office more often."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the professional start their description with 'Compared to our local domestic branch'?"
+  },
+  "explanation": "The speaker explicitly sets up a direct comparison to emphasize the specific positive qualities (organized and proactive) of the team they are profiling."
+}

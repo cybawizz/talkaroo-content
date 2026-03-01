@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_friend_profile_b2",
+  "name": "Describing a Friend in Detail",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a friend clearly: appearance, personality, and what they do.",
+    "aiGoal": "Ask follow-ups and challenge vague descriptions."
+  },
+  "allowedIntents": [
+    "describe_person",
+    "respond_follow_up",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "people",
+    "personality",
+    "detail"
+  ]
+}

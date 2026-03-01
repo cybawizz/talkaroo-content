@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_mall_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the change.",
+  "script": "Hi, welcome to the mall's information desk. I understand you're looking for the electronics store. It actually moved to the third floor last week for renovations. You'll need to take the elevator up to find it.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To gently correct the shopper's outdated information about the store's location.",
+      "To complain about the mall's constant renovations.",
+      "To apologize for the store being permanently closed.",
+      "To angrily demand that the shopper read the map."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'It actually moved...?'"
+  },
+  "explanation": "The speaker uses 'actually' to politely correct a misconception while giving helpful, updated information."
+}

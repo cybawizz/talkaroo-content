@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j1_neigh_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Listen for the name.",
+  "script": "Well, hi, I am Alex. I live next door. Nice to meet you.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Showing a little shyness or hesitation",
+      "Stating a firm command",
+      "Demanding to know to someone's name",
+      "Telling someone to wait outside"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Well' here?"
+  },
+  "explanation": "The speaker uses 'Well' to show a slight hesitation, often used when feeling shy while introducing themselves."
+}

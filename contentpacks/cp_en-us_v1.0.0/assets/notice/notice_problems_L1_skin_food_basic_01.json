@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_food_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_food_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Excuse me, but this soup is cold. I cannot eat it.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Politely getting attention to state a problem",
+      "Asking for the bill",
+      "Telling a joke",
+      "Ordering more food"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of saying 'Excuse me, but'?"
+  },
+  "explanation": "The speaker says 'Excuse me, but' to politely get the waiter's attention before complaining."
+}

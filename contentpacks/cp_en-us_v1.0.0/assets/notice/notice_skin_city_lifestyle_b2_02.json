@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_city_lifestyle_b2_02",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_city_lifestyle_b2",
+  "prompt": "Identify the compromise move.",
+  "script": "I completely understand that you're quite hesitant about committing to this new neighborhood right away. It's obviously a huge decision, and we really shouldn't rush into signing a long-term lease blindly. However, at the exact same time, we do need to find a place to stay fairly soon. Could we perhaps just meet in the middle and try staying at a rental here for a week? That way, we can test out the area thoroughly before making anything completely permanent.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively propose a temporary compromise to alleviate someone's hesitation.",
+      "To aggressively demand the person sign the lease immediately.",
+      "To complain about how difficult it is to find an apartment.",
+      "To happily announce they have bought a house in the suburbs."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Could we perhaps just meet in the middle...?'"
+  },
+  "explanation": "The speaker uses the idiom 'meet in the middle' alongside 'perhaps' to gently suggest a fair, low-risk compromise between two conflicting viewpoints."
+}

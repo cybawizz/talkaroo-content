@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_weekend_story_b2_B2",
+  "skinId": "skin_weekend_story_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To give you some context…",
+      "usage": "Use this phrase to establish the background or narrative setting, helping the listener understand the circumstances before the main action begins.",
+      "example": "To give you some context, we had been meticulously planning this weekend getaway for months, anticipating a much-needed break from the city."
+    },
+    {
+      "text": "At first,…",
+      "usage": "This serves to describe an initial perception or state of affairs, often implying that a change or revelation is forthcoming.",
+      "example": "At first, the small coastal village seemed remarkably quiet, almost as if the entire population had vanished into thin air."
+    },
+    {
+      "text": "All of a sudden,…",
+      "usage": "A narrative transition used to introduce a sudden, impactful event that shifts the direction or energy of the story.",
+      "example": "All of a sudden, the tranquil afternoon was punctuated by a thunderous roar echoing from the mountainside."
+    },
+    {
+      "text": "What happened was…",
+      "usage": "Provides a direct lead-in to an explanation of a specific incident, often used to clarify a confusing or unexpected situation.",
+      "example": "What happened was that our local guide had inadvertently taken a shortcut that led us directly into a restricted ecological zone."
+    },
+    {
+      "text": "In the end,…",
+      "usage": "Summarizes the final outcome or the resolution of the narrative, signaling the conclusion of the events described.",
+      "example": "In the end, we managed to navigate back to the main trail just as the sun began to dip below the horizon."
+    },
+    {
+      "text": "The best part was…",
+      "usage": "Used to highlight the most positive or significant aspect of an experience, adding personal enthusiasm to the retelling.",
+      "example": "The best part was the unexpected hospitality of a local family who invited us to share a traditional meal under the stars."
+    },
+    {
+      "text": "Honestly, I didn’t expect…",
+      "usage": "A nuanced way to express surprise while hedging your tone, making the narrative feel more candid and authentic.",
+      "example": "Honestly, I didn’t expect the rustic accommodations to be quite so charming, nor the scenery so utterly breathtaking."
+    },
+    {
+      "text": "Looking back,…",
+      "usage": "Signals a retrospective viewpoint, allowing the speaker to offer an analytical or wiser perspective on the events that occurred.",
+      "example": "Looking back, that brief moment of uncertainty was actually the catalyst for the most memorable part of the entire weekend."
+    },
+    {
+      "text": "If I’m honest,…",
+      "usage": "A pragmatic marker used to introduce a potentially vulnerable or subjective opinion, softening the delivery of a frank statement.",
+      "example": "If I’m honest, I was initially skeptical about the itinerary, but the cultural depth of the experience quickly won me over."
+    },
+    {
+      "text": "The main takeaway was…",
+      "usage": "Summarizes the ultimate lesson or insight gained from the experience, providing a thoughtful conclusion to the story.",
+      "example": "The main takeaway was that disconnecting from technology for forty-eight hours can be a profoundly rejuvenating experience."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Serendipity",
+      "definition": "The occurrence of events by chance in a happy or beneficial way."
+    },
+    {
+      "term": "Retrospective",
+      "definition": "An assessment of past events or a look back at a period of time."
+    },
+    {
+      "term": "Spontaneity",
+      "definition": "Behavior that is natural and not planned or forced."
+    },
+    {
+      "term": "Ambience",
+      "definition": "The character and atmosphere of a place."
+    },
+    {
+      "term": "Profound",
+      "definition": "Very great or intense; having or showing great knowledge or insight."
+    }
+  ]
+}

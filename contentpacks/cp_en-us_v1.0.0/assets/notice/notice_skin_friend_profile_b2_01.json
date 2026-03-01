@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_friend_profile_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_friend_profile_b2",
+  "prompt": "Identify the comparison.",
+  "script": "I genuinely always enjoy spending quality time with my older sister. Compared to my younger brother, she is dramatically more thoughtful and infinitely more patient. She practically never loses her temper, and her life advice is always incredibly grounded. To be completely honest, she has fundamentally changed how I handle highly stressful situations myself. I seriously don't think I could manage my hectic career without her constant guidance.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To explicitly contrast two people in order to vividly highlight the superior qualities of one.",
+      "To aggressively complain that their younger brother is too loud and impatient.",
+      "To boast about how much money they make in their hectic new career.",
+      "To demand that their friends start acting more like their older sister."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start their description with 'Compared to my younger brother'?"
+  },
+  "explanation": "The speaker explicitly sets up a direct comparison to emphasize the specific positive personality traits (thoughtful and patient) of the person they are profiling."
+}

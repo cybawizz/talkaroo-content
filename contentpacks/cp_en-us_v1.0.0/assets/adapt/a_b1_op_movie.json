@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_op_movie",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_movie_choice",
+  "prompt": "Use soft disagreement and propose a compromise genre.",
+  "setup": "You share your movie preference, but your friend insists on horror.",
+  "aiMove": "I'm really in the mood for a good horror movie tonight. Let's watch that new one!",
+  "successCriteria": [
+    "Use soft disagreement",
+    "Propose compromise genre"
+  ]
+}

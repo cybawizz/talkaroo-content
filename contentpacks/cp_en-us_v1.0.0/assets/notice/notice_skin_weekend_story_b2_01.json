@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_weekend_story_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_weekend_story_b2",
+  "prompt": "Identify the sequence marker.",
+  "script": "The entire situation with finding that new hiking trail on Saturday was a complete disaster. At first, we actually got completely lost for about forty-five minutes because the online map sent us to the wrong side of the national park. We were driving in circles around a huge, empty campground in the freezing cold. Eventually, after asking three different park rangers for directions, we finally found the actual hidden trail entrance around the back of the visitor center. By the time we started walking, it was practically getting dark.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They easily found the hiking trail on their very first try.",
+      "They got severely lost before eventually locating the correct entrance.",
+      "They never actually found the trail and drove back home.",
+      "They are currently lost in a dark national park right now."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker structure the events in their weekend story using transition markers?"
+  },
+  "explanation": "The speaker uses strong sequence markers ('At first', 'Eventually', 'finally') to clearly structure a chaotic narrative for the listener."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_neighbor_park",
+  "prompt": "Identify the comparison.",
+  "script": "I honestly love bringing my kids to this neighborhood playground. Compared to the massive city park downtown, this one is so much quieter and feels significantly safer. You don't have to constantly worry about them running into traffic or getting lost in a huge crowd. It's just a much more relaxing environment overall.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To clearly explain why they prefer the local playground over a larger, busier option.",
+      "To complain that the city park is too expensive.",
+      "To brag about living in a very safe neighborhood.",
+      "To angrily demand safer playgrounds in the city."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the phrase 'Compared to the massive city park downtown'?"
+  },
+  "explanation": "The speaker explicitly compares the two locations to highlight the specific benefits (quietness and safety) of the local playground."
+}

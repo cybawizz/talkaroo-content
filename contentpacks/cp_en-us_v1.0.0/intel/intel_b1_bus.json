@@ -1,0 +1,60 @@
+{
+  "intelId": "intel_b1_bus",
+  "skinId": "skin_bus_station_info",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Which bus goes to ...?",
+      "usage": "Use this when you need to identify the specific transport service for a destination because multiple routes operate from the station.",
+      "example": "Which bus goes to the airport because I must catch my flight on time?"
+    },
+    {
+      "text": "Which platform is it?",
+      "usage": "Request this information to locate the specific boarding area so you can wait in the correct position.",
+      "example": "Which platform is it for the express service so I can find the correct boarding gate?"
+    },
+    {
+      "text": "When is the next one?",
+      "usage": "Inquire about the immediate departure schedule to determine if you have enough time to prepare.",
+      "example": "When is the next one because I would like to purchase a bottle of water first?"
+    },
+    {
+      "text": "Is it usually on time?",
+      "usage": "Ask this to assess the reliability of the schedule so you can plan your arrival accordingly.",
+      "example": "Is it usually on time in the morning because I have a strict appointment to attend?"
+    },
+    {
+      "text": "How long is the ride?",
+      "usage": "Determine the duration of the journey to calculate your total travel time.",
+      "example": "How long is the ride to the airport so I can notify my colleague of my arrival time?"
+    },
+    {
+      "text": "Just to confirm, it’s bus ... from platform ...?",
+      "usage": "Verify the information provided by the attendant to ensure you do not miss your departure.",
+      "example": "Just to confirm, it’s bus 7 from platform 3 so I can be sure I am in the right place?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Platform",
+      "definition": "A designated area where passengers wait to board a specific bus or train."
+    },
+    {
+      "term": "Departure",
+      "definition": "The action of leaving a place or the scheduled time when a vehicle starts its journey."
+    },
+    {
+      "term": "Destination",
+      "definition": "The final place to which a person or vehicle is traveling."
+    },
+    {
+      "term": "Schedule",
+      "definition": "A formal plan that lists the times when arrivals and departures are supposed to happen."
+    },
+    {
+      "term": "Route",
+      "definition": "A specific path or direction between places that a vehicle follows regularly."
+    }
+  ]
+}

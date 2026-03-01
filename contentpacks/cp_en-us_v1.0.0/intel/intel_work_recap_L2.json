@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_work_recap_L2",
+  "skinId": "skin_workday_recap",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "This morning, I ...",
+      "usage": "Use this to start telling someone about your morning tasks.",
+      "example": "This morning, I arrived at the office very early today."
+    },
+    {
+      "text": "I finished the ...",
+      "usage": "Say this when you want to report a completed task.",
+      "example": "I finished the long report before my first coffee break."
+    },
+    {
+      "text": "I sent an email.",
+      "usage": "Use this to mention digital communication you handled earlier today.",
+      "example": "I sent an email to my manager about the project."
+    },
+    {
+      "text": "I worked in the ...",
+      "usage": "Mention the specific location where you spent your work time.",
+      "example": "I worked in the quiet library for a few hours."
+    },
+    {
+      "text": "At {time}, I ...",
+      "usage": "Use this to give a specific time for an activity.",
+      "example": "At ten, I had a short meeting with my team."
+    },
+    {
+      "text": "Then I ...",
+      "usage": "Use this word to show the next step in sequence.",
+      "example": "Then I organized some important documents on my wooden desk."
+    },
+    {
+      "text": "It was busy.",
+      "usage": "Describe the atmosphere or workload of your morning work session.",
+      "example": "It was busy because many customers called the office today."
+    },
+    {
+      "text": "After that, I ...",
+      "usage": "Use this to move to the next event in order.",
+      "example": "After that, I ate a quick lunch in the cafeteria."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Busy",
+      "definition": "Having a lot of work or things to do."
+    },
+    {
+      "term": "Productive",
+      "definition": "Doing a lot of useful work during the day."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Having little noise or not many people around."
+    },
+    {
+      "term": "Important",
+      "definition": "Something that matters a lot or needs focus."
+    },
+    {
+      "term": "Helpful",
+      "definition": "Useful or making a situation better for someone."
+    }
+  ]
+}

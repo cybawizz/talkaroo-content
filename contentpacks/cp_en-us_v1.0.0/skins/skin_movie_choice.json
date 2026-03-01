@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_movie_choice",
+  "name": "Movie Night Opinion",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say what type of movie you like and why, and respond to a different opinion.",
+    "aiGoal": "Disagree lightly and suggest a different genre."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "respond_to_opinion",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "casual",
+    "register": "informal"
+  },
+  "tags": [
+    "movies",
+    "opinion"
+  ]
+}

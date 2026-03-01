@@ -1,0 +1,24 @@
+{
+  "reflectId": "reflect_skin_neighborhood_compare_b2_01",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_neighborhood_compare_b2",
+  "prompt": "Say it in a more structured way.",
+  "snippets": [
+    {
+      "original": "It's nice.",
+      "better": "On the plus side, it’s quiet and there are lots of trees.",
+      "focus": "specificity"
+    },
+    {
+      "original": "He is good.",
+      "better": "What stands out most is that he’s reliable and easy to talk to.",
+      "focus": "vivid language"
+    },
+    {
+      "original": "I do many things.",
+      "better": "A typical morning looks like breakfast at 7, then study until 9.",
+      "focus": "sequencing"
+    }
+  ]
+}

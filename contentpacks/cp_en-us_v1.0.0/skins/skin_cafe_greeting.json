@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_cafe_greeting",
+  "name": "The Local Café",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Barista"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Greet the barista, add one personal detail (work/study), answer one follow-up, and close politely.",
+    "aiGoal": "Greet the customer, ask one simple follow-up, and close politely."
+  },
+  "allowedIntents": [
+    "greet",
+    "introduce_self",
+    "add_detail",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "service",
+    "routine",
+    "small_talk"
+  ]
+}

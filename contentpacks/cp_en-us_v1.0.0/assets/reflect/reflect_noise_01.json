@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_noise_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Say it better (polite + clear).",
+  "items": [
+    {
+      "bad": "You are too loud. Stop it.",
+      "better": "I get your point, but it’s too loud after 11, and I can’t sleep.",
+      "note": "polite contrast"
+    },
+    {
+      "bad": "No, that’s not okay.",
+      "better": "I understand, but that doesn’t work for me on weekdays.",
+      "note": "polite refusal"
+    }
+  ]
+}

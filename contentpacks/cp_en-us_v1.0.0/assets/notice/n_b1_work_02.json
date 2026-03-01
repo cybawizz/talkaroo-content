@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_work_02",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_work_update",
+  "prompt": "Pick the intent.",
+  "script": "So, we've reviewed all the main concerns with the new software update. It seems like the biggest issue is still the slow loading speeds. Given all this information, what will you do next? Moving forward, we probably need a clear action plan.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To prompt the listener to make a decision or propose a solution based on facts.",
+      "To angrily complain that the software is useless.",
+      "To excitedly suggest they take a lunch break.",
+      "To aggressively threaten to tell the manager about the slow speeds."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Given all this information, what will you do next?'"
+  },
+  "explanation": "The speaker uses 'Given all this information' to frame their question as a logical next step in solving a problem."
+}

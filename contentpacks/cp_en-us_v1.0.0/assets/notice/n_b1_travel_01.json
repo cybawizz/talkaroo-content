@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_travel_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_travel_mishap",
+  "prompt": "Identify the problem.",
+  "script": "My trip to the airport was a total disaster this morning. I accidentally missed the last direct train, so I was panicking. In the end, I just had to take an incredibly expensive taxi. The worst part is that my flight was delayed anyway.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To summarize the final, dramatic outcome of a stressful situation.",
+      "To explicitly boast about having enough money for a taxi.",
+      "To complain to the train company about their schedule.",
+      "To apologize for missing a meeting at the airport."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'In the end'?"
+  },
+  "explanation": "The speaker uses 'In the end' to dramatically summarize the final result of a series of unfortunate events."
+}

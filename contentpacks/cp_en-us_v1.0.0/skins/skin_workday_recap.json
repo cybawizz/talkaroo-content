@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_workday_recap",
+  "name": "Recapping the Workday",
+  "category": "work",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Employee"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Share two simple work events from this morning and answer one follow-up.",
+    "aiGoal": "Ask where you did the task."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "recap"
+  ]
+}

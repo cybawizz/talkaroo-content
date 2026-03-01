@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_prob_cafe_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 3,
+  "skinId": "skin_cafe_order_b1",
+  "prompt": "Identify the preference.",
+  "script": "Hi there, I just noticed that my tea is incredibly sweet. I actually ordered it with no sugar at all. Would you mind making me a fresh cup? I literally can't drink anything this sweet without getting a headache.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely request that the barista fix an error with their order.",
+      "To aggressively demand that the barista be fired for their mistake.",
+      "To offer to make the tea themselves.",
+      "To ask the barista if they like sweet tea."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Would you mind making me a fresh cup?'"
+  },
+  "explanation": "The speaker uses 'Would you mind...' to form a polite, indirect request rather than a direct, demanding command."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_net_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "What is the function of the question?",
+  "script": "That's a really fascinating approach to managing a remote engineering team. To be honest, I haven't heard many companies implementing that specific workflow before. Could you actually elaborate a little more on how you measure success in that environment? I'm particularly curious about how you track individual performance without micromanaging. It seems like a very difficult balance to strike.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely request deeper details on a specific topic while showing genuine interest.",
+      "To aggressively challenge the other person's management style.",
+      "To boast about their own remote engineering team.",
+      "To quickly excuse themselves from the networking event."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Could you actually elaborate a little more...?'"
+  },
+  "explanation": "The speaker uses 'Could you elaborate' as a polite, professional way to dig deeper into an interesting topic during small talk."
+}

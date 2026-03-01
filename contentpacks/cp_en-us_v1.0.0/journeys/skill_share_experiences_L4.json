@@ -1,0 +1,106 @@
+{
+  "journeyId": "skill_share_experiences_L4",
+  "skill": {
+    "cefrBand": "B2",
+    "level": 4
+  },
+  "skins": [
+    "skin_weekend_story_b2",
+    "skin_trip_recap_b2",
+    "skin_work_incident_b2",
+    "skin_funny_misunderstanding_b2"
+  ],
+  "intelPacks": [
+    "intel_skin_weekend_story_b2_B2",
+    "intel_skin_trip_recap_b2_B2",
+    "intel_skin_work_incident_b2_B2",
+    "intel_skin_funny_misunderstanding_b2_B2"
+  ],
+  "noticeAssets": [
+    "notice_skin_weekend_story_b2_01",
+    "notice_skin_weekend_story_b2_02",
+    "notice_skin_trip_recap_b2_01",
+    "notice_skin_trip_recap_b2_02",
+    "notice_skin_work_incident_b2_01",
+    "notice_skin_work_incident_b2_02",
+    "notice_skin_funny_misunderstanding_b2_01",
+    "notice_skin_funny_misunderstanding_b2_02"
+  ],
+  "adaptAssets": [
+    "adapt_skin_weekend_story_b2_01",
+    "adapt_skin_trip_recap_b2_01",
+    "adapt_skin_work_incident_b2_01",
+    "adapt_skin_funny_misunderstanding_b2_01"
+  ],
+  "reflectAssets": [
+    "reflect_skin_weekend_story_b2_01",
+    "reflect_skin_trip_recap_b2_01",
+    "reflect_skin_work_incident_b2_01",
+    "reflect_skin_funny_misunderstanding_b2_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b2_stories",
+    "skillId": "skill_share_experiences",
+    "level": 4,
+    "frames": [
+      {
+        "frameId": "f_b2_context",
+        "pattern": "To give you some context, {context}.",
+        "slots": [
+          "context"
+        ],
+        "notes": "Set context."
+      },
+      {
+        "frameId": "f_b2_sequence",
+        "pattern": "At first, {event1}. Then, {event2}.",
+        "slots": [
+          "event1",
+          "event2"
+        ],
+        "notes": "Sequencing."
+      },
+      {
+        "frameId": "f_b2_surprise",
+        "pattern": "Honestly, I didn’t expect {surprise}.",
+        "slots": [
+          "surprise"
+        ],
+        "notes": "Emphasis."
+      },
+      {
+        "frameId": "f_b2_resolution",
+        "pattern": "In the end, {resolution}.",
+        "slots": [
+          "resolution"
+        ],
+        "notes": "Wrap-up."
+      },
+      {
+        "frameId": "f_b2_takeaway",
+        "pattern": "The main takeaway was {lesson}.",
+        "slots": [
+          "lesson"
+        ],
+        "notes": "Reflective ending."
+      },
+      {
+        "frameId": "f_b2_close_story",
+        "pattern": "Anyway, that was my day.",
+        "slots": [],
+        "notes": "Natural close."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Let me think…",
+        "notes": "Stall while recalling details"
+      },
+      {
+        "text": "How do you say…",
+        "notes": "Vocabulary gap"
+      }
+    ]
+  }
+}

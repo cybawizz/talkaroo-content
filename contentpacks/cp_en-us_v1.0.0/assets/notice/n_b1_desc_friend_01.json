@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_friend_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_friend_profile",
+  "prompt": "Pick the meaning.",
+  "script": "I've known Mark for almost ten years now. He might appear a bit quiet when you first meet him. In fact, he is incredibly friendly and very outgoing once he gets comfortable. He usually ends up being the life of the party.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To contradict the initial impression with the reality of his personality.",
+      "To provide a boring detail about how long they have been friends.",
+      "To warn the listener that Mark is dangerous.",
+      "To complain about Mark talking too much."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'In fact'?"
+  },
+  "explanation": "The speaker uses 'In fact' to highlight a surprising truth that contradicts someone's possible first impression."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_home_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_hometown_description",
+  "prompt": "Pick the follow-up intent.",
+  "script": "Thinking about the weather, summer gets incredibly hot and humid there. Winter is beautiful, but the heavy snow can make traveling difficult. Therefore, I was wondering, when is truly the best time of year to visit? I'd love to go when it's comfortable.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To logically transition from listing problems to asking for a specific recommendation.",
+      "To angrily demand a refund for a ruined vacation.",
+      "To express doubt about whether they should travel at all.",
+      "To show they already know the answer to their own question."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Therefore, I was wondering'?"
+  },
+  "explanation": "The speaker uses 'Therefore, I was wondering' to politely ask an investigative question after explaining their reasoning."
+}

@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_work_op",
+  "skinId": "skin_work_policy_opinion",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I think ... is helpful.",
+      "usage": "Use this phrase to introduce a positive assessment of a work policy during a formal meeting.",
+      "example": "I think the flexible hours policy is helpful because it allows staff to manage their time better."
+    },
+    {
+      "text": "That's because ...",
+      "usage": "Use this to provide a logical justification for your opinion or to clarify your reasoning.",
+      "example": "That's because commuting during peak hours is stressful, so I prefer working from home."
+    },
+    {
+      "text": "I'm not sure about that.",
+      "usage": "Use this to express professional hesitation or polite disagreement regarding a specific proposal.",
+      "example": "I'm not sure about that change, so I would like to review the data before we decide."
+    },
+    {
+      "text": "Could you explain your view?",
+      "usage": "Use this to request more detailed information from a colleague to better understand their perspective.",
+      "example": "Could you explain your view on the new budget, because I want to understand the priorities?"
+    },
+    {
+      "text": "My concern is ...",
+      "usage": "Use this to highlight a specific risk or problem you have identified with a current or new policy.",
+      "example": "My concern is the lack of training, so we should implement a new workshop soon."
+    },
+    {
+      "text": "Maybe we could ...",
+      "usage": "Use this to suggest a potential alternative or a compromise in a collaborative way.",
+      "example": "Maybe we could implement a pilot program, because it helps us identify potential issues early."
+    },
+    {
+      "text": "Let's see how it goes.",
+      "usage": "Use this to agree to a trial period for a policy before making a final evaluation of its success.",
+      "example": "Let's see how it goes for a month, so we can gather feedback from the entire team."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Implement",
+      "definition": "To put a decision, plan, or policy into effect."
+    },
+    {
+      "term": "Perspective",
+      "definition": "A particular way of considering or regarding something; a point of view."
+    },
+    {
+      "term": "Justify",
+      "definition": "To show or prove that a decision or action is right or reasonable."
+    },
+    {
+      "term": "Evaluate",
+      "definition": "To judge or determine the significance, worth, or quality of a policy."
+    },
+    {
+      "term": "Collaborate",
+      "definition": "To work jointly on an activity or project to achieve a common goal."
+    }
+  ]
+}

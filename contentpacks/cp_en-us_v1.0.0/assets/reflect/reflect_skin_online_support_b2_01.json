@@ -1,0 +1,24 @@
+{
+  "reflectId": "reflect_skin_online_support_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_online_support_b2",
+  "prompt": "Say it more clearly and politely.",
+  "snippets": [
+    {
+      "original": "Where is it?",
+      "better": "Could you tell me where it is, please?",
+      "focus": "politeness"
+    },
+    {
+      "original": "I don't get it.",
+      "better": "I'm not sure I understood the second step—could you explain it again?",
+      "focus": "clarification"
+    },
+    {
+      "original": "So left?",
+      "better": "Just to confirm, I turn left after the bank, right?",
+      "focus": "confirmation"
+    }
+  ]
+}

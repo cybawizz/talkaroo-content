@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_story_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_weekend_story",
+  "prompt": "Identify the sequence.",
+  "script": "My weekend was definitely busy but a lot of fun. First, we ate at an amazing new seafood restaurant right by the harbor. Then we walked along the pier for a while, and after that, we watched a late movie. We finally got back home around two in the morning.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To clearly organize a sequence of events to make a story easier to follow.",
+      "To brag about how much money they spent on their weekend.",
+      "To complain about how tiring it is to walk after eating.",
+      "To excitedly recommend the seafood restaurant to the listener."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the words 'First', 'Then', and 'after that'?"
+  },
+  "explanation": "The speaker uses transition words like 'First' and 'Then' to structure their narrative chronologically."
+}

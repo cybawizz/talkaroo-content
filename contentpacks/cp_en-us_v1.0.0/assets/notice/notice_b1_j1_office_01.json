@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_office_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_office_break",
+  "prompt": "Identify the opinion and the reason.",
+  "script": "I know some people are frustrated by the constant changes to our schedule. Personally, I think the new mandatory break policy actually helps us quite a bit. Because we're stepping away from our screens regularly, people seem to focus so much better afterward. It definitely prevents that mid-afternoon crash.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce a subjective, positive opinion that contrasts with the complaints of others.",
+      "To aggressively argue that everyone should take more breaks.",
+      "To boast about how focused they always are.",
+      "To apologize for spending too much time away from their desk."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Personally'?"
+  },
+  "explanation": "The speaker uses 'Personally' to frame their statement as an individual viewpoint, especially when discussing a controversial policy."
+}

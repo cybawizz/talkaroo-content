@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_device_basic_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_device_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Actually, my phone does not work. It is broken. I dropped it yesterday.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Giving some bad news",
+      "Asking to buy a new phone",
+      "Saying the phone is great",
+      "Asking for the time"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to gently break the bad news about their phone."
+}

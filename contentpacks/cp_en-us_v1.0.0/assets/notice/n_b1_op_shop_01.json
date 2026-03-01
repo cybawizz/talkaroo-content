@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_shop_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_shopping_choice",
+  "prompt": "Identify priority.",
+  "script": "I've been looking at these two entirely different winter jackets for about an hour now. The red one is certainly much cheaper. At the end of the day, quality matters to me more than anything else. I'd rather spend extra money so it actually lasts a few years.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To summarize their ultimate priority when making a difficult choice.",
+      "To complain that they have been shopping for too long.",
+      "To excitedly point out that it is getting late outside.",
+      "To angrily refuse to buy either of the jackets."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'At the end of the day'?"
+  },
+  "explanation": "The speaker uses 'At the end of the day' to signal their final, most important deciding factor."
+}

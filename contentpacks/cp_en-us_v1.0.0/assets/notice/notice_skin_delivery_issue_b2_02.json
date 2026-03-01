@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_delivery_issue_b2_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_delivery_issue_b2",
+  "prompt": "Identify the negotiation move.",
+  "script": "I completely understand that your delivery drivers are fully booked for the rest of the afternoon. It sounds like resolving this mistake right this minute is basically out of the question. However, if that’s simply not possible today, could we perhaps schedule the replacement delivery for tomorrow morning instead? I absolutely need these specific headphones before my long flight on Wednesday. I will make perfectly sure someone is home to strictly sign for the package.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively offer a reasonable alternative when the initial request is denied.",
+      "To aggressively demand a full refund and cancel the order.",
+      "To angrily complain about the incompetent delivery drivers.",
+      "To happily announce that they don't need the headphones anymore."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the conditional phrase 'If that's simply not possible today...?'"
+  },
+  "explanation": "The speaker uses conditional framing ('If... then...') to gracefully pivot from a blocked path to a workable compromise."
+}

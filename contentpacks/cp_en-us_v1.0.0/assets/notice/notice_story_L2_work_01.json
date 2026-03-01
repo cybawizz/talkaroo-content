@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_work_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_workday_recap",
+  "prompt": "Identify the task.",
+  "script": "My day at the office was very productive. Let me think. Well, this morning, I finished the report.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Pausing to organize their thoughts before giving an update",
+      "Refusing to do any more work",
+      "Complaining about their strict boss",
+      "Quitting their job in anger"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why start the sentence with 'Well'?"
+  },
+  "explanation": "The speaker uses 'Well' because they are taking a brief mental pause to organize their thoughts before giving a status update."
+}

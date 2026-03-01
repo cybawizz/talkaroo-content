@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_update_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Identify the mitigation.",
+  "script": "I completely agree that the unpredictable third-party API is currently our absolute biggest vulnerability. We undeniably need a solid contingency plan in case their servers unexpectedly crash during our massive product launch. Specifically to powerfully mitigate this massive risk, perhaps we can heavily prepare a secure fallback payment flow and initially just run a significantly smaller beta rollout completely first? That cautious strategic approach completely protects our core user experience while actively letting us strictly monitor the live vendor integration. It honestly seems like the absolutely only responsible technical path forward.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To aggressively complain to the CEO about their overwhelmingly exhausting workload.",
+      "To proactively suggest an incredibly detailed, technical mitigation plan.",
+      "To abruptly end the incredibly boring team meeting early.",
+      "To casually ask the project manager for a massive summer vacation."
+    ],
+    "answerIndex": 1,
+    "prompt": "Why does the speaker use phrases like 'contingency plan' and 'mitigate this risk'?"
+  },
+  "explanation": "The speaker actively combines formal corporate strategy vocabulary ('mitigate', 'contingency') to present a highly professional, proactive solution to a technical problem."
+}

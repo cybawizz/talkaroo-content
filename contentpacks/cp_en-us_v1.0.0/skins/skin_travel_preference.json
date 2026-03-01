@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_travel_preference",
+  "name": "Travel Style Preference",
+  "category": "travel",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Travel Buddy"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your travel preference (budget vs comfort) and compromise on a plan.",
+    "aiGoal": "Offer a different preference and push for a compromise."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "negotiate",
+    "agree_disagree",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "planning",
+    "compromise"
+  ]
+}

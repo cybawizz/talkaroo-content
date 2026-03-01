@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_delivery_issue_b2_B2",
+  "skinId": "skin_delivery_issue_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m afraid there’s an issue with…",
+      "usage": "Use this phrase to introduce a problem or complaint politely. The addition of 'I’m afraid' acts as a linguistic hedge, softening the impact of the bad news.",
+      "example": "I’m afraid there’s an issue with the consignment of components that was scheduled for delivery last Tuesday."
+    },
+    {
+      "text": "Could we look at a couple of options?",
+      "usage": "This is a collaborative way to invite the other party to suggest solutions or compensation without appearing confrontational or demanding.",
+      "example": "Given the significant delay in the arrival of the stock, could we look at a couple of options to rectify this situation?"
+    },
+    {
+      "text": "What would you be able to do on your side?",
+      "usage": "This shifts the responsibility to the provider, prompting them to offer a remedy based on their internal resources or authority.",
+      "example": "Considering the inconvenience caused to our clients, what would you be able to do on your side to expedite the replacement process?"
+    },
+    {
+      "text": "To be clear, I’m asking for…",
+      "usage": "Use this when you need to remove ambiguity and state your specific requirements for compensation or resolution clearly.",
+      "example": "To be clear, I’m asking for a partial refund to offset the additional costs we incurred while waiting for the shipment."
+    },
+    {
+      "text": "That doesn’t quite solve the problem because…",
+      "usage": "A nuanced way to reject an unsatisfactory proposal by focusing on the logic of the situation rather than expressing personal frustration.",
+      "example": "That doesn’t quite solve the problem because our production line cannot operate effectively without the specific hardware included in the original order."
+    },
+    {
+      "text": "Is there any flexibility on the timeline?",
+      "usage": "This asks if the schedule can be changed or improved, using the abstract term 'flexibility' to maintain a professional and non-aggressive tone.",
+      "example": "I understand the current backlog in your warehouse, but is there any flexibility on the timeline for this priority dispatch?"
+    },
+    {
+      "text": "Could you confirm what happens next?",
+      "usage": "This is used to verify the subsequent steps of an agreement, ensuring both parties have a shared understanding of the path forward.",
+      "example": "Now that we have agreed on the credit note, could you confirm what happens next regarding the official documentation?"
+    },
+    {
+      "text": "I’d appreciate it if we could…",
+      "usage": "A formal conditional structure used to frame a request as a preference, which is common in professional B2-level negotiations.",
+      "example": "I’d appreciate it if we could establish a more robust notification system to prevent these delivery oversights from recurring."
+    },
+    {
+      "text": "If that’s not possible, the next best thing is…",
+      "usage": "This phrase is used to introduce a fallback option or a secondary compromise when your primary request cannot be met.",
+      "example": "If that’s not possible, the next best thing is to upgrade our shipping method for the remainder of the quarter at no extra cost."
+    },
+    {
+      "text": "Thanks for sorting this out.",
+      "usage": "A professional way to conclude a difficult conversation once a resolution has been reached, acknowledging the effort involved.",
+      "example": "I realize this was a complex logistical error, so thanks for sorting this out and communicating so clearly throughout the process."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Compensation",
+      "definition": "Something, typically money, awarded to someone as a recompense for loss, injury, or suffering."
+    },
+    {
+      "term": "Mitigate",
+      "definition": "To make something less severe, serious, or painful through specific actions or solutions."
+    },
+    {
+      "term": "Logistical",
+      "definition": "Relating to the detailed organization and implementation of a complex operation involving many people and facilities."
+    },
+    {
+      "term": "Reimbursement",
+      "definition": "The act of paying someone back for money they have already spent or lost due to a service failure."
+    },
+    {
+      "term": "Expedite",
+      "definition": "To make an action or process happen sooner or be accomplished more quickly than the standard procedure."
+    }
+  ]
+}

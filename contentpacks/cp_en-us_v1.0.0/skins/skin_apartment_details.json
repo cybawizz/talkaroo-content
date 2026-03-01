@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_apartment_details",
+  "name": "Apartment Details",
+  "category": "home",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Tenant"
+    },
+    {
+      "roleId": "ai",
+      "label": "New Roommate"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your apartment layout and location, then confirm one detail about the room.",
+    "aiGoal": "Ask which room is quieter and what is included."
+  },
+  "allowedIntents": [
+    "describe_place",
+    "confirm_information",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "practical",
+    "register": "neutral"
+  },
+  "tags": [
+    "home",
+    "layout",
+    "location"
+  ]
+}

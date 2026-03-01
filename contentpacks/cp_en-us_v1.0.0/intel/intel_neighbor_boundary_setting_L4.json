@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_neighbor_boundary_setting_L4",
+  "skinId": "skin_neighbor_boundary_setting",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I don’t want to make a big deal out of this, but ...",
+      "usage": "Used as a soft opener or hedge to minimize the perceived intensity of a complaint before stating it.",
+      "example": "I don’t want to make a big deal out of this, but the late-night gatherings in the courtyard have been making it quite difficult for me to maintain a consistent sleep schedule."
+    },
+    {
+      "text": "Would you mind ...?",
+      "usage": "A polite and indirect way to request a change in behavior without sounding authoritative or demanding.",
+      "example": "Would you mind keeping the communal hallway clear of personal items, as it has become a bit of a tripping hazard for the elderly residents?"
+    },
+    {
+      "text": "I completely understand, however ...",
+      "usage": "A balanced transition used to acknowledge the neighbor's perspective while firmly introducing your own conflicting needs.",
+      "example": "I completely understand that your band needs to practice for upcoming shows, however, the vibrations from the drums are actually rattling the fixtures in my living room."
+    },
+    {
+      "text": "Maybe we can find a middle ground.",
+      "usage": "Suggested when you want to move the conversation from a conflict toward a collaborative solution or compromise.",
+      "example": "Since we both use the shared driveway at similar times, maybe we can find a middle ground that ensures neither of us is ever blocked in during the morning rush."
+    },
+    {
+      "text": "What I’m asking is ...",
+      "usage": "Used to clarify a specific request and avoid ambiguity if the conversation has become too vague or emotional.",
+      "example": "What I’m asking is not for you to stop gardening altogether, but rather to refrain from using the leaf blower before nine o'clock on weekend mornings."
+    },
+    {
+      "text": "I appreciate you hearing me out.",
+      "usage": "A closing phrase intended to reinforce rapport by thanking the other person for listening to a potentially sensitive issue.",
+      "example": "I know it's not always easy to discuss these types of domestic frictions, so I truly appreciate you hearing me out and taking my concerns seriously."
+    },
+    {
+      "text": "I’m not accusing you of anything.",
+      "usage": "A clarifying statement used to preemptively defuse defensiveness by focusing on the situation rather than personal blame.",
+      "example": "I’m not accusing you of anything intentional; I simply wanted to mention the leak because I thought you might be unaware of the damage it's causing to the ceiling below."
+    },
+    {
+      "text": "Could we agree on ...?",
+      "usage": "A collaborative prompt used to establish a verbal contract or mutual set of expectations moving forward.",
+      "example": "Could we agree on a set of quiet hours during the work week so that we can both focus on our professional responsibilities without unnecessary distractions?"
+    },
+    {
+      "text": "If that’s difficult, we could ...",
+      "usage": "Used to demonstrate flexibility and offer an alternative solution if your initial proposal seems too restrictive for the neighbor.",
+      "example": "If that’s difficult to manage given your current schedule, we could perhaps look into installing some sound-dampening curtains as a temporary alternative."
+    },
+    {
+      "text": "Thanks, I really value good neighbor relations.",
+      "usage": "A concluding remark that emphasizes the long-term importance of a positive relationship over the specific grievance discussed.",
+      "example": "Thanks for being so receptive to my feedback; I really value good neighbor relations and want to ensure we keep our living environment pleasant for everyone involved."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Boundary",
+      "definition": "A psychological or physical limit established to protect one's personal space, time, or well-being."
+    },
+    {
+      "term": "Compromise",
+      "definition": "An agreement reached by each side making concessions to find a mutually acceptable solution."
+    },
+    {
+      "term": "Rapport",
+      "definition": "A close and harmonious relationship in which the people concerned understand each other's feelings or ideas."
+    },
+    {
+      "term": "Hedging",
+      "definition": "The use of cautious or vague language to reduce the directness or impact of a statement, often to maintain politeness."
+    },
+    {
+      "term": "Nuisance",
+      "definition": "A person, thing, or circumstance causing inconvenience or annoyance, often used in a legal or formal residential context."
+    }
+  ]
+}

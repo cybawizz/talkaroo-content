@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_prob_shop",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_shop_return",
+  "mode": "light",
+  "prompt": "Say it better (refund/exchange).",
+  "items": [
+    {
+      "bad": "It broken.",
+      "better": "It is broken. It does not work.",
+      "note": "Use 'is' + 'does not'."
+    },
+    {
+      "bad": "Refund?",
+      "better": "Can I get a refund, please?",
+      "note": "Add 'Can I get...'."
+    }
+  ]
+}

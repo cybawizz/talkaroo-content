@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_family_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_family_member",
+  "prompt": "Understand the routine.",
+  "script": "To be honest, she never takes the bus. Every day, she walks to work. It takes her about thirty minutes.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Admitting a surprising or hidden fact",
+      "Complaining about walking",
+      "Giving street directions",
+      "Saying they want a car"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'To be honest'?"
+  },
+  "explanation": "The speaker uses 'To be honest' to confess a surprising fact about their family member's routine."
+}

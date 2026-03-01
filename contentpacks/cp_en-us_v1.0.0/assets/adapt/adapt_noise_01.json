@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_noise_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Pressure change: the other roommate says they have guests visiting this week.",
+  "setup": "Pressure change: the other roommate says they have guests visiting this week.",
+  "aiMove": "Look, I know we agreed on the quiet hours, but my cousin is staying over this week, so it might get a bit loud.",
+  "successCriteria": [
+    "Acknowledge the situation",
+    "Restate your boundary politely",
+    "Negotiate a short-term exception with a clear limit"
+  ]
+}

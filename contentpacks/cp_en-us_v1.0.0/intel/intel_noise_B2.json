@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_noise_B2",
+  "skinId": "skin_roommate_noise",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I get your point, but…",
+      "usage": "Used to acknowledge the roommate's perspective before introducing a contrasting concern to soften the impact of the disagreement.",
+      "example": "I get your point about needing to unwind after work, but the volume of the music makes it nearly impossible for me to focus on my reading."
+    },
+    {
+      "text": "From my perspective…",
+      "usage": "A hedging device used to frame a statement as a subjective opinion rather than an objective fact, reducing potential defensiveness.",
+      "example": "From my perspective, the current arrangement regarding late-night guests is somewhat imbalanced and could benefit from some clearer boundaries."
+    },
+    {
+      "text": "Could we meet halfway?",
+      "usage": "A diplomatic way to suggest a compromise where both parties make concessions to reach a mutually acceptable agreement.",
+      "example": "Could we meet halfway and designate specific nights for social gatherings versus dedicated quiet hours for rest?"
+    },
+    {
+      "text": "What I’m asking for is…",
+      "usage": "Used to clarify and specify a particular need or request when a discussion feels vague or unproductive.",
+      "example": "What I’m asking for is not total silence, but rather a commitment to keeping the common areas relatively quiet after eleven p.m."
+    },
+    {
+      "text": "That works for me if…",
+      "usage": "Introduces a conditional agreement, allowing you to accept a proposal only if your specific requirements are also satisfied.",
+      "example": "That works for me if we can also agree to communicate in advance when you expect to have more than two people over in the evening."
+    },
+    {
+      "text": "Let’s agree on…",
+      "usage": "Used to finalize a consensus and establish a clear, shared expectation for future behavior or household rules.",
+      "example": "Let’s agree on a policy where we both use headphones for video calls and entertainment during the work week."
+    },
+    {
+      "text": "To be fair…",
+      "usage": "Used to introduce a balanced perspective or acknowledge a valid point the other person has made, maintaining a nuanced tone.",
+      "example": "To be fair, I know you have been trying to keep the noise down, but the acoustics in this apartment mean that even moderate sounds carry easily."
+    },
+    {
+      "text": "I’d appreciate it if…",
+      "usage": "A polite and indirect way to state a preference or request, often used to avoid sounding overly demanding or aggressive.",
+      "example": "I’d appreciate it if you could give me a quick heads-up before you plan to host a late dinner so I can adjust my schedule accordingly."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Reciprocity",
+      "definition": "The practice of exchanging things with others for mutual benefit, especially in a social or living arrangement."
+    },
+    {
+      "term": "Concession",
+      "definition": "A thing that is granted or yielded, especially in response to a demand or during a negotiation."
+    },
+    {
+      "term": "Disturbance",
+      "definition": "An interruption of a settled or peaceful condition, often referring to unwanted noise or activity."
+    },
+    {
+      "term": "Compromise",
+      "definition": "An agreement reached by each side making concessions to settle a dispute or conflicting needs."
+    },
+    {
+      "term": "Amicable",
+      "definition": "Characterized by friendliness and absence of discord, typically used to describe a cooperative relationship or resolution."
+    }
+  ]
+}

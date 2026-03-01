@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the constraint.",
+  "script": "If you're heading downtown, you really shouldn't take the main road right now. It's completely closed today because of the parade. Instead, I would strongly suggest taking the side street past the library. It's a bit longer, but it will save you a huge headache.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To warn the listener about a problem and immediately offer a better alternative.",
+      "To complain about how annoying parades are.",
+      "To boast that they know the city streets better than the map.",
+      "To aggressively demand the driver turn the car around."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Instead' after explaining the road closure?"
+  },
+  "explanation": "The speaker uses 'Instead' to pivot from delivering a negative warning to providing a helpful, actionable solution."
+}

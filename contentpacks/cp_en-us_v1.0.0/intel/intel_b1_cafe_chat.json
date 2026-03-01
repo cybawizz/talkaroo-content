@@ -1,0 +1,75 @@
+{
+  "intelId": "intel_b1_cafe_chat",
+  "skinId": "skin_b1_cafe_chat",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "What do you think about...?",
+      "usage": "Used to initiate a discussion and solicit a specific opinion regarding a choice or topic.",
+      "example": "What do you think about the specialty lattes because I am having trouble deciding?"
+    },
+    {
+      "text": "In my opinion, ...",
+      "usage": "Used to introduce a personal viewpoint or a subjective assessment in a professional manner.",
+      "example": "In my opinion, the seasonal blend is superior because it contains more complex flavors."
+    },
+    {
+      "text": "I think ... because ...",
+      "usage": "Used to express a belief while providing a logical justification for that stance.",
+      "example": "I think the atmosphere is perfect for studying because the noise level remains quite low."
+    },
+    {
+      "text": "The reason is ...",
+      "usage": "Used to clarify the underlying cause or motivation behind a previously stated claim.",
+      "example": "The reason is that they use high-quality beans, so the taste is much smoother than average."
+    },
+    {
+      "text": "I see your point, but ...",
+      "usage": "Used to acknowledge an opposing argument before introducing a different perspective or counter-argument.",
+      "example": "I see your point, but I prefer the outdoor seating because the fresh air is very refreshing."
+    },
+    {
+      "text": "That makes sense.",
+      "usage": "Used to indicate agreement or logical understanding of an explanation provided by another person.",
+      "example": "That makes sense, so we should probably order the larger size to share between us."
+    },
+    {
+      "text": "Honestly, ...",
+      "usage": "Used to introduce a sincere or critical observation while maintaining a direct tone.",
+      "example": "Honestly, the service is a bit slow today, so we might wait longer for our refreshments."
+    },
+    {
+      "text": "Maybe, but ...",
+      "usage": "Used to concede a possibility while emphasizing a contrasting priority or fact.",
+      "example": "Maybe, but the premium price is justified because all the ingredients are locally sourced."
+    },
+    {
+      "text": "Anyway, ...",
+      "usage": "Used to transition back to the primary topic or conclude a secondary point of discussion.",
+      "example": "Anyway, let's find a table near the window because the natural lighting is better there."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Specialty",
+      "definition": "A product or service that a business is particularly known for or excels at providing."
+    },
+    {
+      "term": "Atmosphere",
+      "definition": "The general mood or feeling of a place, often created by its decoration and lighting."
+    },
+    {
+      "term": "Recommend",
+      "definition": "To suggest something as being good or suitable for a specific purpose or person."
+    },
+    {
+      "term": "Justify",
+      "definition": "To provide a good reason or explanation for an opinion, cost, or action."
+    },
+    {
+      "term": "Superior",
+      "definition": "Something that is higher in quality or better than another similar option."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_prob_cafe",
+  "skillId": "skill_deal_with_problems",
+  "level": 3,
+  "skinId": "skin_cafe_order_b1",
+  "prompt": "Respond politely and state what you prefer.",
+  "setup": "You report the wrong drink, but the barista offers a refund, not a remake.",
+  "aiMove": "Oh, my apologies! Since we're so busy, would you like a full refund instead of waiting for a new one?",
+  "successCriteria": [
+    "Respond politely",
+    "State your preference"
+  ]
+}

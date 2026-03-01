@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_restaurant_issue_b2_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_restaurant_issue_b2",
+  "prompt": "Identify the negotiation move.",
+  "script": "I completely understand that the kitchen is currently fully backed up because of the massive dinner rush. It clearly sounds like getting exactly what I ordered remade tonight is basically impossible. However, if that's simply not possible today, could we perhaps just take this mistaken appetizer off the final bill instead? I genuinely can't wait another forty-five minutes for a replacement meal. I'll gladly just eat my main course when it finally arrives.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively offer a reasonable, alternative compensation when the initial request is firmly denied.",
+      "To aggressively demand a full refund for the entire ruined dining experience.",
+      "To angrily complain about the terrible waitstaff to the general manager.",
+      "To happily announce that they enjoy eating the wrong appetizers."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the conditional phrase 'if that's simply not possible today...?'"
+  },
+  "explanation": "The speaker uses conditional framing ('If... then...') to gracefully pivot from a blocked path (remaking the food) to a workable, negotiated compromise."
+}

@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_prob_device_L2",
+  "skinId": "skin_device_issue",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My screen is broken.",
+      "usage": "Use this phrase to tell the repair person about physical damage.",
+      "example": "I am very sad because my screen is broken now."
+    },
+    {
+      "text": "It is black.",
+      "usage": "Say this to describe a display that shows no light.",
+      "example": "I press the power button but it is black."
+    },
+    {
+      "text": "It is not turning on.",
+      "usage": "Use this when the device does not respond to power.",
+      "example": "My phone is cold and it is not turning on."
+    },
+    {
+      "text": "The battery is low.",
+      "usage": "Tell the staff about the power status of your device.",
+      "example": "I need a charger because the battery is low."
+    },
+    {
+      "text": "Can you fix it today?",
+      "usage": "Ask this to find out if the repair is fast.",
+      "example": "This phone is important so can you fix it today?"
+    },
+    {
+      "text": "It will take two days.",
+      "usage": "The repair staff says this to explain the waiting time.",
+      "example": "The repair is difficult so it will take two days."
+    },
+    {
+      "text": "Please leave it here.",
+      "usage": "The staff says this when they need your device overnight.",
+      "example": "You can go home now but please leave it here."
+    },
+    {
+      "text": "So it will be ready on {day}, right?",
+      "usage": "Use this to confirm the day you can pick it up.",
+      "example": "So it will be ready on Friday afternoon, right?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "screen",
+      "definition": "The glass part of a phone that shows images."
+    },
+    {
+      "term": "broken",
+      "definition": "Something that is damaged and does not work well."
+    },
+    {
+      "term": "battery",
+      "definition": "The part inside a device that gives it power."
+    },
+    {
+      "term": "repair",
+      "definition": "To fix something that is old or not working."
+    },
+    {
+      "term": "ready",
+      "definition": "When something is finished and you can take it."
+    }
+  ]
+}

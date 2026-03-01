@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_weekend_story_b2",
+  "name": "A Weekend Story",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Tell a short story about last weekend with a clear beginning, middle, and end.",
+    "aiGoal": "Ask what happened next and prompt for details."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "describe_time",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "story",
+    "weekend",
+    "sequence"
+  ]
+}

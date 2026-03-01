@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_pharmacy_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_pharmacy_help",
+  "prompt": "Understand the instruction.",
+  "script": "Here is your prescription for the antibiotics. It's very important that you take one tablet with food every six hours. Ideally, you should try to spread the doses out evenly throughout the day. If you take them on an empty stomach, you might feel a bit nauseous.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To suggest the best possible way to follow the instructions for maximum benefit.",
+      "To aggressively demand that the patient wake up in the middle of the night.",
+      "To apologize for giving them a medicine that causes nausea.",
+      "To boast about how quickly the medicine works."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Ideally'?"
+  },
+  "explanation": "The speaker uses 'Ideally' to describe the absolute best-case scenario for taking the medication."
+}

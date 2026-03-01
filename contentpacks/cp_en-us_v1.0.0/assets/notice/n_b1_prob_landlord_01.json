@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_prob_landlord_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 3,
+  "skinId": "skin_landlord_maintenance_b1",
+  "prompt": "Identify the issue.",
+  "script": "Hi, this is the tenant from apartment 4B. I know you prefer that we only call for major emergencies. However, the water heater completely stopped working this morning. I've already checked the breaker box, so it definitely needs a professional repair.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To justify breaking a general rule because of an exceptional circumstance.",
+      "To complain that the landlord never fixes anything on time.",
+      "To apologize for calling the wrong phone number.",
+      "To boast that they know more about plumbing than the landlord."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'However, the water heater...?'"
+  },
+  "explanation": "The speaker uses 'However' to contrast the landlord's usual preference (no calls) with the reality of their urgent situation."
+}

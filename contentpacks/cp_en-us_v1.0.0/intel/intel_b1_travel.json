@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_travel",
+  "skinId": "skin_travel_mishap",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I missed the bus/train.",
+      "usage": "Use this phrase to state the core problem of your travel mishap clearly to others.",
+      "example": "I missed the train because the station was overcrowded, so I had to find an alternative route."
+    },
+    {
+      "text": "At first, I...",
+      "usage": "Use this to describe your initial reaction or the first action you took after the problem occurred.",
+      "example": "At first, I contacted the customer service desk to inquire about the next available departure."
+    },
+    {
+      "text": "So I decided to...",
+      "usage": "Use this to explain the reasoning behind your choice of solution during a difficult situation.",
+      "example": "So I decided to reschedule my appointment because the delay was expected to last several hours."
+    },
+    {
+      "text": "Luckily, ...",
+      "usage": "Use this to introduce a positive turn of events or a factor that helped resolve the mishap.",
+      "example": "Luckily, the airline representative provided a voucher, so I could purchase a meal during the long wait."
+    },
+    {
+      "text": "Next time, I will...",
+      "usage": "Use this to discuss the lesson learned and how you plan to prevent future travel complications.",
+      "example": "Next time, I will confirm the schedule in advance to ensure that I arrive at the gate on time."
+    },
+    {
+      "text": "It took about...",
+      "usage": "Use this to provide specific details regarding the duration of time required to solve the issue.",
+      "example": "It took about forty-five minutes to resolve the technical issue with my digital boarding pass."
+    },
+    {
+      "text": "In the end, ...",
+      "usage": "Use this to summarize the final result of the situation and provide a conclusion to your story.",
+      "example": "In the end, I reached my destination safely, although the entire journey was quite exhausting."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Alternative",
+      "definition": "An available possibility or choice that is different from the original plan."
+    },
+    {
+      "term": "Inquire",
+      "definition": "To ask for information about a specific service, schedule, or situation."
+    },
+    {
+      "term": "Reschedule",
+      "definition": "To change the time or date of a planned event, flight, or meeting."
+    },
+    {
+      "term": "Complication",
+      "definition": "A difficult factor or circumstance that makes a situation more complex."
+    },
+    {
+      "term": "Voucher",
+      "definition": "A document that can be exchanged for a specific service or item, often given as compensation."
+    }
+  ]
+}

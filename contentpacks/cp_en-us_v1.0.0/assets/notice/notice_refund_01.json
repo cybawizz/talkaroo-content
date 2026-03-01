@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_refund_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Identify the request.",
+  "script": "I completely understand that your standard store policy strictly prohibits returns on open electronics after fourteen days. It plainly says exactly that on my printed receipt. However, this specific laptop charger is clearly defective straight out of the physical box, and it absolutely isn't just a case of me changing my mind. Considering I only bought it exactly fifteen days ago, could you perhaps make a rare managerial exception this one time? I honestly wouldn't be asking you this if breaking the charger was actually my own fault.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely request a specific managerial exception to a rigid, established store policy.",
+      "To casually order some food from the store's small electronic cafe.",
+      "To aggressively demand to briefly borrow the manager's personal laptop charger.",
+      "To angrily give the cashier terrible directions on how to run their own business."
+    ],
+    "answerIndex": 0,
+    "prompt": "How does the customer pragmatically balance acknowledging the rules with asking for help?"
+  },
+  "explanation": "The customer politely validates the rule ('I completely understand that... policy') before pivoting with 'However' to justify breaking it."
+}

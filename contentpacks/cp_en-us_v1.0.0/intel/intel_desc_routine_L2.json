@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_desc_routine_L2",
+  "skinId": "skin_morning_routine",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "I usually ... at ...",
+      "usage": "Use this to share your general daily schedule with others.",
+      "example": "I usually wake up at seven in the morning."
+    },
+    {
+      "text": "Then I ...",
+      "usage": "Use this to explain the next step in your routine.",
+      "example": "Then I drink a cup of hot black coffee."
+    },
+    {
+      "text": "After that, I ...",
+      "usage": "Use this to move to a different morning activity smoothly.",
+      "example": "After that, I eat a very healthy breakfast bowl."
+    },
+    {
+      "text": "I leave home at ...",
+      "usage": "Use this to tell someone your specific departure time clearly.",
+      "example": "I leave home at eight to catch the fast train."
+    },
+    {
+      "text": "I go to {place} by ...",
+      "usage": "Use this to describe your preferred mode of transport daily.",
+      "example": "I go to the office by a crowded blue bus."
+    },
+    {
+      "text": "It takes ... minutes.",
+      "usage": "Use this to state the duration of your morning commute.",
+      "example": "It takes twenty minutes to reach the big city center."
+    },
+    {
+      "text": "I start at ...",
+      "usage": "Use this to mention when your work or classes begin.",
+      "example": "I start at eight thirty every busy Monday morning."
+    },
+    {
+      "text": "Before work/school, I ...",
+      "usage": "Use this to mention a final task before leaving home.",
+      "example": "Before school, I check my heavy bag for my books."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Early",
+      "definition": "Happening or done before the usual or expected time."
+    },
+    {
+      "term": "Busy",
+      "definition": "Having a lot of things to do every day."
+    },
+    {
+      "term": "Quick",
+      "definition": "Moving fast or doing something in a short time."
+    },
+    {
+      "term": "Tired",
+      "definition": "Needing rest or sleep after a long morning routine."
+    },
+    {
+      "term": "Ready",
+      "definition": "Prepared and able to leave for work or school."
+    }
+  ]
+}

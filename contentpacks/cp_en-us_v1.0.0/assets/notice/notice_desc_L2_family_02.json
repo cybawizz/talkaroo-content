@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_family_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_family_member",
+  "prompt": "Identify the time.",
+  "script": "Actually, his schedule is very strict. He gets up at six every morning. Then, he goes to bed at ten.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Correcting a wrong assumption about a schedule",
+      "Asking what time it is",
+      "Complaining about being tired",
+      "Promising to sleep more"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Actually'?"
+  },
+  "explanation": "The speaker uses 'Actually' to softly correct someone's assumption and provide the real facts."
+}

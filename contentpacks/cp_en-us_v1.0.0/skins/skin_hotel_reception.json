@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_hotel_reception",
+  "name": "Hotel Front Desk",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Hotel Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Receptionist"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask about restaurant hours; if it's full, ask for a nearby option and how to get there.",
+    "aiGoal": "Explain the restaurant is fully booked tonight and recommend a nearby place."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "formal"
+  },
+  "tags": [
+    "hotel",
+    "service",
+    "tourism"
+  ]
+}

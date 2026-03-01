@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_device_prob",
+  "skinId": "skin_device_repair_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "The screen keeps flickering.",
+      "usage": "Explain a persistent visual defect where the display flashes or blinks unexpectedly.",
+      "example": "The screen keeps flickering because there is a loose connection inside, so I cannot complete my work."
+    },
+    {
+      "text": "It started yesterday.",
+      "usage": "Provide a specific timeline for when the technical malfunction first occurred.",
+      "example": "It started yesterday after the system update, so I suspect the software is currently incompatible."
+    },
+    {
+      "text": "The battery drains quickly.",
+      "usage": "Describe a situation where the device loses power at an abnormal rate during use.",
+      "example": "The battery drains quickly because the internal cells are degraded, so I need to replace it as soon as possible."
+    },
+    {
+      "text": "It turns on, but...",
+      "usage": "Indicate that the device has power while transitioning to explain a primary functional failure.",
+      "example": "It turns on, but the display remains black because the graphics card is malfunctioning."
+    },
+    {
+      "text": "Can you estimate the cost?",
+      "usage": "Request a preliminary calculation of the total expenses for parts and labor.",
+      "example": "Can you estimate the cost of the maintenance because I need to approve the budget before you begin?"
+    },
+    {
+      "text": "How long will the repair take?",
+      "usage": "Inquire about the duration required to finish the technical service.",
+      "example": "How long will the repair take because I am traveling next week and require my device for the trip?"
+    },
+    {
+      "text": "So I can pick it up on...",
+      "usage": "Confirm the scheduled date for collection once the repair plan is finalized.",
+      "example": "So I can pick it up on Thursday afternoon because I will be leaving the office early that day."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Malfunction",
+      "definition": "A failure to function in a normal or satisfactory manner."
+    },
+    {
+      "term": "Estimate",
+      "definition": "A preliminary calculation of the likely cost or duration of a service."
+    },
+    {
+      "term": "Warranty",
+      "definition": "A formal guarantee from a manufacturer to repair a faulty product within a set period."
+    },
+    {
+      "term": "Component",
+      "definition": "An individual part or element that makes up a larger electronic system."
+    },
+    {
+      "term": "Replacement",
+      "definition": "The act of providing a new part or device to take the place of one that is damaged."
+    }
+  ]
+}

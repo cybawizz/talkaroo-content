@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Identify the extra detail.",
+  "script": "I come to this cafe often. Actually, I work in an office nearby. It is very convenient.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Introducing a personal connection to the area",
+      "Complaining about their office job",
+      "Asking the barista for a job",
+      "Saying they are lost"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Actually'?"
+  },
+  "explanation": "The speaker uses 'Actually' to gently introduce a personal connection to the café's neighborhood."
+}

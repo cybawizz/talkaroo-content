@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_manage_conv_L2_bus_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_bus_stop_smalltalk",
+  "prompt": "Say it better (question + close).",
+  "items": [
+    {
+      "bad": "This bus town?",
+      "better": "Hi, is this the bus to town?",
+      "note": "Add greeting + full question."
+    },
+    {
+      "bad": "Ok bye.",
+      "better": "Thanks for your help. Have a good day.",
+      "note": "Polite closing."
+    }
+  ]
+}

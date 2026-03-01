@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_work_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_workday_recap",
+  "prompt": "Identify the place.",
+  "script": "The company has two buildings now. As you know, I worked in the main office. My team is there.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Confirming a shared piece of background information",
+      "Telling the listener a secret",
+      "Complaining about the office size",
+      "Asking for a promotion"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'As you know'?"
+  },
+  "explanation": "The speaker uses 'As you know' to confirm a shared piece of background context before continuing the work recap."
+}

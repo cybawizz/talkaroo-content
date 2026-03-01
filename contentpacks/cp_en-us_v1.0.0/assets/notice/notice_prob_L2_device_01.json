@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_device_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_device_issue",
+  "prompt": "Identify the device problem.",
+  "script": "I really need some help. To be honest, my screen is broken. It is completely black and won't turn on.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Admitting a frustrating problem they are facing",
+      "Telling a lie to the repair shop",
+      "Complaining about the price",
+      "Explaining how they broke it"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'To be honest' suggest here?"
+  },
+  "explanation": "The speaker uses 'To be honest' to admit a frustrating and somewhat embarrassing problem they are facing."
+}

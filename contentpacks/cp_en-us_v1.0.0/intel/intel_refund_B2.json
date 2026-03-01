@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_refund_B2",
+  "skinId": "skin_store_refund_policy",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I understand the policy, however…",
+      "usage": "This phrase serves as a polite hedge, acknowledging the company's rules before introducing a nuanced counter-argument to advocate for your specific case.",
+      "example": "I understand the policy regarding final sales; however, the structural integrity of the product was clearly compromised prior to delivery."
+    },
+    {
+      "text": "Is there any flexibility?",
+      "usage": "A diplomatic inquiry used to probe for potential deviations from standard protocol without appearing overly demanding or confrontational.",
+      "example": "Given my long-standing history with your brand, is there any flexibility regarding the expiration of this promotional credit?"
+    },
+    {
+      "text": "What are my options?",
+      "usage": "A strategic shift toward collaborative problem-solving, typically employed when a direct refund request has been initially rebuffed.",
+      "example": "Since you are unable to process a direct refund to my credit card, what are my options for securing an alternative form of compensation?"
+    },
+    {
+      "text": "Could you make an exception?",
+      "usage": "Used to request a discretionary override of standard rules, often by highlighting extenuating or unusual circumstances.",
+      "example": "I realize the warranty period lapsed last week, but considering the item was a gift that was only just opened, could you make an exception?"
+    },
+    {
+      "text": "I’d be satisfied with…",
+      "usage": "A negotiation technique used to state a minimum acceptable compromise, signaling a willingness to settle the dispute amicably.",
+      "example": "While I was hoping for a replacement, I’d be satisfied with a store credit that reflects the current market value of the device."
+    },
+    {
+      "text": "That seems reasonable.",
+      "usage": "An expression used to signal agreement and de-escalate tension once a fair middle ground or alternative has been proposed by the other party.",
+      "example": "Offering to waive the restocking fee in exchange for a partial refund seems reasonable under these specific circumstances."
+    },
+    {
+      "text": "I’d like to escalate this.",
+      "usage": "A formal and assertive request to move the discussion to a higher level of authority when a resolution cannot be reached with the current representative.",
+      "example": "If you lack the authorization to approve this particular request, I’d like to escalate this to a supervisor who might have more discretion."
+    },
+    {
+      "text": "Just to confirm…",
+      "usage": "A clarifying statement used to ensure mutual understanding of the negotiated terms and to prevent further ambiguity.",
+      "example": "Just to confirm, you are stating that the return shipping costs will be fully reimbursed once the warehouse receives the item?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Discretion",
+      "definition": "The freedom or power for an employee to decide what should be done in a particular situation, often outside of rigid rules."
+    },
+    {
+      "term": "Extenuating",
+      "definition": "Factors or circumstances that lessen the severity of a situation or provide a valid excuse for a rule to be broken."
+    },
+    {
+      "term": "Recourse",
+      "definition": "A source of help or a legal right to demand a solution when one has been treated unfairly."
+    },
+    {
+      "term": "Amicable",
+      "definition": "Describing a spirit of friendliness and good will, particularly useful when trying to resolve a dispute without conflict."
+    },
+    {
+      "term": "Protocol",
+      "definition": "The official system of rules and procedures that a company follows during a transaction or dispute."
+    }
+  ]
+}

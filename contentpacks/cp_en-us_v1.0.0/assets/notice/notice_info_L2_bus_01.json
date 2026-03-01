@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_bus_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_bus_station_help",
+  "prompt": "Understand the platform.",
+  "script": "Listen to me, please. The bus is on platform four. It is right over there by the blue sign.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Trying to get someone to pay close attention",
+      "Asking for their ticket back",
+      "Refusing to help a stranger",
+      "Saying the bus is too loud"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'Listen'?"
+  },
+  "explanation": "The speaker uses 'Listen' to grab the listener's focus so they don't miss the important information."
+}

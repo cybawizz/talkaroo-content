@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_routine",
+  "skinId": "skin_daily_routine_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "First, I...",
+      "usage": "Use this to introduce the initial step of your morning schedule in a chronological sequence.",
+      "example": "First, I wake up at 6:00 AM because I prefer starting my day early to prepare efficiently."
+    },
+    {
+      "text": "Then I...",
+      "usage": "Use this to indicate the subsequent action in a list of daily activities.",
+      "example": "Then I prepare a healthy breakfast so I have enough energy for my morning meetings."
+    },
+    {
+      "text": "After that, I...",
+      "usage": "Use this as a transition to move from one task to the next logical step in your routine.",
+      "example": "After that, I organize my workspace because a tidy environment improves my concentration."
+    },
+    {
+      "text": "I usually...",
+      "usage": "Use this to describe your standard habits or frequent activities that occur on a regular basis.",
+      "example": "I usually review my schedule at 8:15 AM so I can prioritize my most important tasks."
+    },
+    {
+      "text": "I take the bus/train.",
+      "usage": "Use this to specify your mode of public transportation for your daily commute.",
+      "example": "I take the train to the office because it allows me to read professional articles during the journey."
+    },
+    {
+      "text": "If I'm late, I...",
+      "usage": "Use this to explain your contingency plan or protocol for time management issues.",
+      "example": "If I'm late, I notify my supervisor immediately so they can adjust the meeting schedule."
+    },
+    {
+      "text": "I do this because...",
+      "usage": "Use this to provide a logical reason or professional justification for a specific habit.",
+      "example": "I do this because maintaining a consistent routine reduces my stress levels significantly."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Commute",
+      "definition": "The regular journey between one's home and place of work or study."
+    },
+    {
+      "term": "Prioritize",
+      "definition": "To arrange tasks in order of importance so the most critical ones are completed first."
+    },
+    {
+      "term": "Productive",
+      "definition": "Achieving or producing a significant amount of work or high-quality results."
+    },
+    {
+      "term": "Efficient",
+      "definition": "Performing a task in an organized way without wasting time, effort, or resources."
+    },
+    {
+      "term": "Sequence",
+      "definition": "The specific order in which a series of events or actions follow one another."
+    }
+  ]
+}

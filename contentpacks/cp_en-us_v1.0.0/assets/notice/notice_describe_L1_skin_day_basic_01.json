@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_day_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_day_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Actually, I am usually very busy. I eat lunch at twelve. Then, I go back to work.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Giving a real or surprising fact",
+      "Saying goodbye to someone",
+      "Asking for directions",
+      "Ordering some food"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to share a true detail about their busy schedule."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_cafe_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_cafe_mistake",
+  "prompt": "Identify the issue.",
+  "script": "Excuse me, but I have a problem. This coffee is cold. Can you please warm it up?",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Softening a complaint before delivering it",
+      "Asking for directions to the cafe",
+      "Apologizing for spilling the coffee",
+      "Saying goodbye to the waiter"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Excuse me, but'?"
+  },
+  "explanation": "The speaker uses 'Excuse me, but' to politely soften their complaint before delivering the bad news."
+}

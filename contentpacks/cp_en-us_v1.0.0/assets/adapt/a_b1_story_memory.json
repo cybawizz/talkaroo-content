@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_story_memory",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_childhood_memory",
+  "prompt": "Rephrase the idea using simpler words.",
+  "setup": "You share a memory, but the listener doesn't understand one word.",
+  "aiMove": "I'm sorry, what exactly does 'nostalgic' mean in this situation?",
+  "successCriteria": [
+    "Rephrase the idea",
+    "Check understanding"
+  ]
+}

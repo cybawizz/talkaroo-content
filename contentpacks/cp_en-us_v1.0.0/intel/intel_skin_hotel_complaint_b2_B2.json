@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_hotel_complaint_b2_B2",
+  "skinId": "skin_hotel_complaint_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m afraid there’s an issue with…",
+      "usage": "Use this phrase as a polite hedge to soften the impact of a complaint and maintain a professional rapport with staff.",
+      "example": "I'm afraid there's an issue with the climate control system in my suite, as it seems to be emitting a persistent, high-pitched noise."
+    },
+    {
+      "text": "Could we look at a couple of options?",
+      "usage": "Employs a collaborative tone to suggest problem-solving rather than making a direct, potentially aggressive demand.",
+      "example": "Given the circumstances, could we look at a couple of options regarding a room upgrade or perhaps a temporary relocation to a quieter floor?"
+    },
+    {
+      "text": "What would you be able to do on your side?",
+      "usage": "A subtle way to shift responsibility to the service provider while allowing them the autonomy to offer a fair solution.",
+      "example": "Considering the inconvenience caused by the leak, what would you be able to do on your side to compensate for the lost time?"
+    },
+    {
+      "text": "To be clear, I’m asking for…",
+      "usage": "Used for precision and clarity after a discussion to ensure there is no ambiguity regarding your specific expectations.",
+      "example": "To be clear, I'm asking for a complete waiver of the late checkout fees due to the maintenance delays we experienced this morning."
+    },
+    {
+      "text": "That doesn’t quite solve the problem because…",
+      "usage": "A polite but firm way to reject an insufficient proposal while justifying your stance with specific reasoning.",
+      "example": "That doesn't quite solve the problem because a simple repair won't address the water damage that has already affected my luggage."
+    },
+    {
+      "text": "Is there any flexibility on the timeline?",
+      "usage": "Used to inquire about speedier resolutions or alternative deadlines without appearing overly demanding or impatient.",
+      "example": "Since I have a business conference starting at noon, is there any flexibility on the timeline for when the technician can arrive?"
+    },
+    {
+      "text": "Could you confirm what happens next?",
+      "usage": "Seeking a formal commitment and a clear sequence of events to ensure accountability from the hotel management.",
+      "example": "Now that we've documented the incident, could you confirm what happens next in terms of the internal investigation and follow-up?"
+    },
+    {
+      "text": "I’d appreciate it if we could…",
+      "usage": "A nuanced way to express a preference or desired outcome while maintaining a high level of formal politeness.",
+      "example": "I'd appreciate it if we could finalize the billing adjustments now to avoid any further complications during my departure tomorrow."
+    },
+    {
+      "text": "If that’s not possible, the next best thing is…",
+      "usage": "Used to present a fallback position or a compromise, demonstrating a willingness to be reasonable yet persistent.",
+      "example": "If that's not possible due to high occupancy, the next best thing is a credit toward future services or a partial refund."
+    },
+    {
+      "text": "Thanks for sorting this out.",
+      "usage": "A concluding phrase used to acknowledge the resolution of a conflict and restore a positive, professional relationship.",
+      "example": "I genuinely appreciate your prompt attention to the matter; thanks for sorting this out so efficiently before my guests arrived."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Redress",
+      "definition": "Compensation or satisfaction for a wrong or injury experienced during a service encounter."
+    },
+    {
+      "term": "Recourse",
+      "definition": "A source of help or a formal option available to someone in a difficult or unsatisfactory situation."
+    },
+    {
+      "term": "Inconvenience",
+      "definition": "A state or specific instance of trouble or difficulty that disrupts one's comfort or original plans."
+    },
+    {
+      "term": "Discrepancy",
+      "definition": "An illogical or surprising lack of compatibility between two facts, such as a final bill and a verbal quote."
+    },
+    {
+      "term": "Resolution",
+      "definition": "The action of solving a problem, dispute, or contentious matter to the satisfaction of both parties."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_cafe_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "What is the implied goal?",
+  "script": "Look, I really don't think we're going to agree on this vendor issue right now. We've been going back and forth for the last twenty minutes. Can we just park this specific topic for now and actually enjoy our drinks? As a matter of fact, I haven't even taken a single sip of my coffee yet. Let's just talk about it again on Monday.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely suggest pausing a tense discussion and shifting focus to the present moment.",
+      "To aggressively demand the other person leave the café immediately.",
+      "To complain that the coffee is cold because they talked too much.",
+      "To brag about how well they handle stressful arguments."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Can we just park this specific topic for now...'?"
+  },
+  "explanation": "The speaker uses the idiom 'park this' to gently suggest pausing a difficult conversation without completely dismissing the issue."
+}

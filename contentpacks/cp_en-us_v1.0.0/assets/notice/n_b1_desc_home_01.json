@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_home_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_hometown_description",
+  "prompt": "Identify the recommendation.",
+  "script": "There are quite a few places to see around my hometown. If you only have one afternoon, you should definitely skip the crowded museum. Personally, I highly recommend visiting the old fort instead. The view from up there is simply magnificent at sunset.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To offer a strong, subjective recommendation based on their own experience.",
+      "To complain that the old fort is too crowded with tourists.",
+      "To warn the listener that the fort is dangerous at night.",
+      "To explain a historical fact about the town's museum."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Personally'?"
+  },
+  "explanation": "The speaker uses 'Personally' to frame their advice as a subjective but highly confident personal endorsement."
+}

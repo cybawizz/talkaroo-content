@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_work_incident_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_work_incident_b2",
+  "prompt": "Identify the sequence marker.",
+  "script": "The entire situation with finding the off-site meeting location on Monday was a complete disaster. At first, we actually got completely lost for about forty-five minutes because the calendar invite sent us to the wrong corporate campus. We were driving in frantic circles around a huge, empty business park in the pouring rain. Eventually, after asking three different security guards for directions, we finally found the actual hidden conference room around the back of building C. By the time we sat down, the CEO's entire presentation was practically over.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They easily found the important off-site meeting on their very first try without any issues.",
+      "They got severely lost before eventually locating the correct conference room.",
+      "They never actually found the meeting location and decided to just drive back home.",
+      "They are currently lost in a dark corporate business park right now."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker clearly structure the sequence of events in their work incident story?"
+  },
+  "explanation": "The speaker uses strong sequence markers ('At first', 'Eventually', 'finally') to clearly structure a chaotic professional narrative for the listener."
+}

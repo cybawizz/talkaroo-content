@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_transit_info_b2",
+  "name": "Public Transport Help Desk",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Commuter"
+    },
+    {
+      "roleId": "ai",
+      "label": "Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask about the last train, discuss a delay, and confirm the best option.",
+    "aiGoal": "Explain the schedule, mention a delay, and ask the user to confirm their plan."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "transport",
+    "time",
+    "planning"
+  ]
+}

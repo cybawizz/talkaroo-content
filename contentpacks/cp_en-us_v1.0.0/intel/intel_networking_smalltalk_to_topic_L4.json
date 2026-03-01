@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_networking_smalltalk_to_topic_L4",
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What brings you here today?",
+      "usage": "Used as a sophisticated opening question to gauge the other person's professional motivation for attending the event.",
+      "example": "What brings you here today—are you looking to explore the keynote themes or primarily focused on expanding your local network?"
+    },
+    {
+      "text": "I’m currently focused on ...",
+      "usage": "Used to pivot the conversation toward your specific professional priorities or a niche area of expertise with nuance.",
+      "example": "I’m currently focused on the intersection of automated logistics and sustainable supply chains, which has been quite a demanding shift."
+    },
+    {
+      "text": "The main challenge is ...",
+      "usage": "Used to identify a specific obstacle or pain point, inviting a deeper, more substantive professional exchange.",
+      "example": "The main challenge is navigating the regulatory ambiguity while simultaneously trying to scale our core infrastructure."
+    },
+    {
+      "text": "How does that compare to your experience?",
+      "usage": "Used to elicit a comparative perspective, signaling that you value the other person's professional insights and abstract reasoning.",
+      "example": "We've found that decentralized teams thrive under this model; how does that compare to your experience with more traditional hierarchies?"
+    },
+    {
+      "text": "If I’m understanding you correctly, ...",
+      "usage": "Used as a hedging device to clarify complex information while demonstrating active listening and intellectual humility.",
+      "example": "If I’m understanding you correctly, your strategy hinges on long-term user retention rather than aggressive market acquisition in the first quarter."
+    },
+    {
+      "text": "That resonates with me.",
+      "usage": "Used to build rapport by acknowledging a shared professional sentiment, struggle, or philosophical approach.",
+      "example": "That resonates with me deeply; we've often struggled to maintain a cohesive culture during periods of rapid international expansion."
+    },
+    {
+      "text": "Could you elaborate on ...?",
+      "usage": "Used to probe deeper into a specific concept, demonstrating genuine interest in the abstract or technical details of their work.",
+      "example": "Could you elaborate on how your team manages to balance fiscal responsibility with such a high appetite for innovation?"
+    },
+    {
+      "text": "I’d love to stay in touch.",
+      "usage": "Used to signal the transition from immediate conversation to a potential long-term professional relationship.",
+      "example": "I’d love to stay in touch, especially as your project nears the pilot stage, as there are some clear synergies between our departments."
+    },
+    {
+      "text": "What’s the best way to reach you?",
+      "usage": "Used to request contact information in a polite, open-ended manner that respects the other person's communication preferences.",
+      "example": "What’s the best way to reach you? I'd prefer to send over that documentation once it has been finalized by our legal team."
+    },
+    {
+      "text": "Before we wrap up, ...",
+      "usage": "Used to introduce a final important point or question before concluding the interaction, ensuring no loose ends remain.",
+      "example": "Before we wrap up, I was wondering if you might have any recommendations for industry-specific forums where these discussions continue?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Synergy",
+      "definition": "The interaction or cooperation of two or more organizations or agents to produce a combined effect greater than the sum of their separate effects."
+    },
+    {
+      "term": "Nuance",
+      "definition": "A subtle difference in or shade of meaning, expression, or sound that requires careful interpretation."
+    },
+    {
+      "term": "Ambiguity",
+      "definition": "The quality of being open to more than one interpretation; a lack of decisiveness or commitment."
+    },
+    {
+      "term": "Resonance",
+      "definition": "The quality of evoking shared feelings, memories, or professional alignment in another person."
+    },
+    {
+      "term": "Scalability",
+      "definition": "The capacity for a system, network, or process to handle a growing amount of work or its potential to be enlarged."
+    }
+  ]
+}

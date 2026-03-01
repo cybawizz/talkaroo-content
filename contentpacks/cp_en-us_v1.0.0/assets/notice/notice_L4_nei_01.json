@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_nei_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "What is the speaker doing?",
+  "script": "Hey, I really hate to bring this up, especially since you just moved in last week. I certainly don't want to make a big deal out of nothing. However, the music from your apartment has been quite loud past midnight recently. To be completely honest, the continuous noise is really starting to affect my sleep schedule. Would you mind turning it down just a bit after eleven?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To approach a potentially sensitive conflict very carefully and politely.",
+      "To excitedly welcome the new neighbor to the building.",
+      "To aggressively threaten to call the police about the noise.",
+      "To brag about how well they can sleep through loud music."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker begin by saying 'I certainly don't want to make a big deal out of nothing'?"
+  },
+  "explanation": "The speaker uses this phrase as a politeness strategy to soften the impact of the complaint that immediately follows."
+}

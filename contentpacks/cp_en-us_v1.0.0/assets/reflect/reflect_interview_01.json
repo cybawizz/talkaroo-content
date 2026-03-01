@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_interview_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Say it better (structured interview answer).",
+  "items": [
+    {
+      "bad": "I like clarity.",
+      "better": "I tend to prioritize clarity. In practice, that means short updates and clear owners.",
+      "note": "values"
+    },
+    {
+      "bad": "It depends.",
+      "better": "It depends on the context—deadlines and risk matter. In a crisis, speed can come first.",
+      "note": "nuance"
+    }
+  ]
+}

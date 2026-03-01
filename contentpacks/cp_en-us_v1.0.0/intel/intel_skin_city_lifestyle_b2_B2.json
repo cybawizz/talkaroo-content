@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_city_lifestyle_b2_B2",
+  "skinId": "skin_city_lifestyle_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "If you ask me,…",
+      "usage": "Use this to introduce a personal stance in a nuanced way, signaling that the opinion is subjective rather than an absolute fact.",
+      "example": "If you ask me, the urban sprawl of most modern metropolises is actually quite isolating despite the high population density."
+    },
+    {
+      "text": "What I like about it is…",
+      "usage": "Used to emphasize a specific positive attribute while evaluating the complexities of a particular lifestyle.",
+      "example": "What I like about it is the sheer proximity to cultural hubs and intellectual diversity that you simply cannot find in rural areas."
+    },
+    {
+      "text": "That said,…",
+      "usage": "A transition used to introduce a contrasting point or a concession, essential for maintaining a balanced and objective tone.",
+      "example": "Living in the heart of the city is undeniably convenient; that said, the constant sensory overload can take a toll on your mental well-being."
+    },
+    {
+      "text": "On balance, I’d choose…",
+      "usage": "Use this phrase to state a final preference after having carefully weighed the various pros and cons of both options.",
+      "example": "On balance, I'd choose the suburbs because the stability of a quiet environment outweighs the fleeting excitement of a busy downtown."
+    },
+    {
+      "text": "From my perspective,…",
+      "usage": "Used to present an individual viewpoint as one of several valid interpretations within a sophisticated discussion.",
+      "example": "From my perspective, the infrastructural challenges of city living are a small price to pay for the professional networking opportunities available."
+    },
+    {
+      "text": "I get your point, but…",
+      "usage": "A polite way to acknowledge the validity of an opposing argument before introducing a counter-argument to maintain discourse flow.",
+      "example": "I get your point about the affordability of the outskirts, but the long-term cost of commuting often negates those initial savings."
+    },
+    {
+      "text": "The main advantage is…",
+      "usage": "Used to identify and prioritize the most significant benefit of a lifestyle choice over secondary advantages.",
+      "example": "The main advantage is the sheer efficiency of public transit, which effectively liberates residents from the logistical burden of car ownership."
+    },
+    {
+      "text": "The downside is…",
+      "usage": "Used to critically highlight a significant disadvantage or trade-off associated with a specific living situation.",
+      "example": "The downside is the pervasive sense of anonymity that can occasionally lead to a lack of genuine community spirit in larger apartment complexes."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "usage": "A diplomatic phrase used to propose a compromise or a synthesis between two diverging viewpoints.",
+      "example": "Could we meet in the middle and consider a residential area that offers both green spaces and easy access to the central business district?"
+    },
+    {
+      "text": "So we agree to…",
+      "usage": "Used to synthesize a consensus and confirm mutual understanding after a complex comparison of different lifestyles.",
+      "example": "So we agree to prioritize long-term work-life balance by looking for a neighborhood that avoids the frantic pace of the inner city?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Gentrification",
+      "definition": "The process of transforming an urban neighborhood to suit more affluent residents, often displacing original communities."
+    },
+    {
+      "term": "Urban Sprawl",
+      "definition": "The uncontrolled expansion of urban areas into the surrounding countryside, often leading to increased traffic and infrastructure needs."
+    },
+    {
+      "term": "Amenities",
+      "definition": "Desirable or useful features of a building or place, such as parks, gyms, or diverse dining options that enhance quality of life."
+    },
+    {
+      "term": "Commute",
+      "definition": "The regular journey between one's place of residence and place of work, often a central factor in choosing a location."
+    },
+    {
+      "term": "Sustainability",
+      "definition": "The ability to maintain an urban lifestyle without depleting natural resources or causing long-term environmental damage."
+    }
+  ]
+}

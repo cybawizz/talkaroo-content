@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_story_recent",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_recent_event",
+  "prompt": "Make it clear.",
+  "items": [
+    {
+      "bad": "Thing happened, so went home.",
+      "better": "Something happened, so I went home early. In the end, everything was fine.",
+      "note": "Use 'so' + closing."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_weekend_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_recent_weekend",
+  "prompt": "Identify the follow-up.",
+  "script": "It sounds like you had a busy weekend. I bet you are very tired. By the way, what time did you finish?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Tacking on a curious follow-up question casually",
+      "Saying goodbye to an angry friend",
+      "Refusing to listen to the rest of the story",
+      "Asking the waiter for the check"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'By the way'?"
+  },
+  "explanation": "The speaker uses 'By the way' to casually tack on a curious follow-up question before changing topics."
+}

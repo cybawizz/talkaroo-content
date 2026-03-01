@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_manage_conv_L2_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Say it better (short + clear).",
+  "items": [
+    {
+      "bad": "I work office.",
+      "better": "I work in an office nearby.",
+      "note": "Use 'work in' + 'an office'."
+    },
+    {
+      "bad": "Bye. Thanks.",
+      "better": "Thanks. Have a nice day. Bye!",
+      "note": "Polite closing."
+    }
+  ]
+}

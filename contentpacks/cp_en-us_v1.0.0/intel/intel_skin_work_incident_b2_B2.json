@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_work_incident_b2_B2",
+  "skinId": "skin_work_incident_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To give you some context…",
+      "usage": "Use this to establish a background narrative, framing the scene before detailing a specific incident.",
+      "example": "To give you some context, the engineering department had been under immense pressure due to the impending quarterly deadline."
+    },
+    {
+      "text": "At first,…",
+      "usage": "Sets a baseline of expectations, often used to contrast the initial calm with the ensuing complication.",
+      "example": "At first, the system alerts were dismissed as minor anomalies rather than symptoms of a systemic hardware failure."
+    },
+    {
+      "text": "All of a sudden,…",
+      "usage": "Introduces a sudden disruption in the flow of events to highlight a critical turning point.",
+      "example": "All of a sudden, the production server became unresponsive, effectively halting all client-facing operations."
+    },
+    {
+      "text": "What happened was…",
+      "usage": "Acts as a pivot to move from the context into the direct explanation of the core problem or cause.",
+      "example": "What happened was a significant oversight in the automated script which accidentally deleted temporary configuration files."
+    },
+    {
+      "text": "In the end,…",
+      "usage": "Concludes the narrative by summarizing the final resolution or the status of the situation.",
+      "example": "In the end, we were able to restore the database from a backup, though we lost approximately three hours of data."
+    },
+    {
+      "text": "The best part was…",
+      "usage": "Identifies a positive outcome or a surprising silver lining despite the stressful nature of the incident.",
+      "example": "The best part was seeing the cross-functional collaboration between departments that rarely interact under normal circumstances."
+    },
+    {
+      "text": "Honestly, I didn’t expect…",
+      "usage": "A form of hedging that reveals professional vulnerability or a candid assessment of a surprising result.",
+      "example": "Honestly, I didn't expect the client to be so understanding given the potential impact on their bottom line."
+    },
+    {
+      "text": "Looking back,…",
+      "usage": "Provides an analytical perspective from the benefit of hindsight, often used for post-mortem reflections.",
+      "example": "Looking back, it's evident that our communication protocols were insufficient for a crisis of this magnitude."
+    },
+    {
+      "text": "If I’m honest,…",
+      "usage": "A nuanced hedge used to introduce a potentially critical or sensitive personal opinion about the incident.",
+      "example": "If I'm honest, the lack of a clear chain of command during the first hour exacerbated the initial confusion."
+    },
+    {
+      "text": "The main takeaway was…",
+      "usage": "Summarizes the professional lesson learned or the abstract concept derived from the experience.",
+      "example": "The main takeaway was that redundancy in our cloud infrastructure is not optional, but a vital necessity for business continuity."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Mitigation",
+      "definition": "The action of reducing the severity or seriousness of a problem or harmful event."
+    },
+    {
+      "term": "Contingency",
+      "definition": "A provision for an unforeseen event or circumstance that may occur in the future."
+    },
+    {
+      "term": "Discrepancy",
+      "definition": "A lack of compatibility or similarity between two or more facts that should match."
+    },
+    {
+      "term": "Oversight",
+      "definition": "An unintentional failure to notice or do something, often leading to an error."
+    },
+    {
+      "term": "Accountability",
+      "definition": "The obligation of an individual or organization to account for its activities and accept responsibility."
+    }
+  ]
+}

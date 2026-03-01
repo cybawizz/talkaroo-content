@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_weekend_story",
+  "name": "Weekend Story",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Tell what you did last weekend in 3 steps and say how you felt.",
+    "aiGoal": "Ask one follow-up about what happened next."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "describe_time",
+    "express_feeling",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "weekend",
+    "story",
+    "feelings"
+  ]
+}

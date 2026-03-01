@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_workstyle_b2_B2",
+  "skinId": "skin_workstyle_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What stands out most is…",
+      "usage": "Use this to emphasize a primary characteristic or a specific priority within your work routine.",
+      "example": "What stands out most is my preference for deep work sessions during the early hours of the morning when distractions are minimal."
+    },
+    {
+      "text": "He tends to…",
+      "usage": "Use this to describe a recurring pattern or a subtle inclination in a colleague's professional behavior.",
+      "example": "He tends to over-analyze the data before committing to a final decision, which usually ensures a higher degree of accuracy."
+    },
+    {
+      "text": "If I had to sum it up…",
+      "usage": "Use this to provide a concise synthesis or a nuanced conclusion regarding a complex working methodology.",
+      "example": "If I had to sum it up, my approach is centered on iterative progress rather than seeking immediate, flawless perfection."
+    },
+    {
+      "text": "Compared to…, it feels…",
+      "usage": "Use this to evaluate a current working environment or strategy by contrasting it with a previous experience.",
+      "example": "Compared to my previous open-office setup, this remote arrangement feels significantly more conducive to sustained cognitive focus."
+    },
+    {
+      "text": "It’s located right by…",
+      "usage": "Use this to specify the physical proximity of a workspace to essential amenities or potential distractions.",
+      "example": "It's located right by a bustling café, which provides just the right amount of ambient noise for my creative brainstorming sessions."
+    },
+    {
+      "text": "From what I’ve noticed…",
+      "usage": "Use this to share an empirical observation about your own productivity patterns or office dynamics using a hedged tone.",
+      "example": "From what I've noticed, my efficiency tends to diminish if I don't incorporate brief, scheduled breaks throughout the afternoon."
+    },
+    {
+      "text": "A typical day looks like…",
+      "usage": "Use this to outline the standard sequence of activities and the general flow of your professional daily routine.",
+      "example": "A typical day looks like a series of brief stand-up meetings followed by several hours of uninterrupted, high-priority development work."
+    },
+    {
+      "text": "The biggest drawback is…",
+      "usage": "Use this to identify and discuss the primary disadvantage or challenge within a specific work arrangement.",
+      "example": "The biggest drawback is the occasional sense of professional isolation that can arise when working entirely from a home office."
+    },
+    {
+      "text": "On the plus side…",
+      "usage": "Use this to introduce a positive aspect or benefit of a work habit, often to balance a previously mentioned critique.",
+      "example": "On the plus side, the flexible schedule allows me to manage my energy levels more effectively than a rigid nine-to-five routine."
+    },
+    {
+      "text": "In general, I’d say…",
+      "usage": "Use this to offer a broad, slightly hedged generalization about your professional preferences or overall performance.",
+      "example": "In general, I’d say I thrive in collaborative environments where spontaneous brainstorming is encouraged rather than restricted."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Deep Work",
+      "definition": "A state of peak concentration that allows for the processing of cognitively demanding tasks."
+    },
+    {
+      "term": "Conducive",
+      "definition": "Providing the right conditions for something, such as productivity or focus, to happen or exist."
+    },
+    {
+      "term": "Iterative",
+      "definition": "Relating to a process of repeating a sequence of steps to improve a result or product over time."
+    },
+    {
+      "term": "Cognitive Load",
+      "definition": "The total amount of mental effort being used in the working memory during a task."
+    },
+    {
+      "term": "Ambient",
+      "definition": "Relating to the immediate surroundings, often used to describe background noise or lighting conditions."
+    }
+  ]
+}

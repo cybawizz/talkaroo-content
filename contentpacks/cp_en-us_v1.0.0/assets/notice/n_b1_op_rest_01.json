@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_rest_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_choose_restaurant",
+  "prompt": "Identify the opinion.",
+  "script": "We have quite a few options for dinner tonight, but we should probably decide soon. I know some people really want to try that new sushi place. From my perspective, Italian food is a much safer choice for a large group. Almost everyone enjoys a good pizza or pasta.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To clearly frame their suggestion as a personal viewpoint rather than an absolute fact.",
+      "To prove they are an expert on Italian cuisine.",
+      "To angrily refuse to eat sushi with the group.",
+      "To boast that they always pick the best restaurants."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'From my perspective'?"
+  },
+  "explanation": "The speaker uses 'From my perspective' to respectfully offer their own opinion while acknowledging that others might disagree."
+}

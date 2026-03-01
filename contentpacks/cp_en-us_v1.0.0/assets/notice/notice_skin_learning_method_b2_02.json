@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_learning_method_b2_02",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_learning_method_b2",
+  "prompt": "Identify the compromise move.",
+  "script": "I know you're really hesitant about completely switching our study group to an entirely online format. It's obviously a massive change to make when we're so used to meeting up at the library. Since the weather is supposed to be terrible, could we perhaps just meet in the middle and try virtual sessions for a single week? If we absolutely hate how it feels after two meetings, we can easily go back to in-person. At the very least, we'd know we honestly tried it.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively propose a temporary, low-risk compromise to alleviate someone's hesitation.",
+      "To aggressively demand the group never meet in person at the library ever again.",
+      "To complain about how difficult it is to set up online video calls.",
+      "To happily announce they have discovered a perfect new studying location."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'could we perhaps just meet in the middle...?'"
+  },
+  "explanation": "The speaker explicitly uses the idiom 'meet in the middle' alongside 'perhaps' to gently suggest a fair experiment rather than forcing a permanent change."
+}

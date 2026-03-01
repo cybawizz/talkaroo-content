@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_neigh_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_neighborhood_tour",
+  "prompt": "Identify the comparison.",
+  "script": "I'm so glad I moved out to the suburbs last year. The pace of life here is noticeably more relaxed and pleasant. Compared to downtown, it's just so much quieter at night. I can finally sleep without hearing sirens every five minutes.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To emphasize the peacefulness of their new area by contrasting it with their old one.",
+      "To complain that the suburbs are too boring and lonely.",
+      "To argue that downtown is actually a better place to live.",
+      "To apologize for living so far away from their friends."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Compared to downtown'?"
+  },
+  "explanation": "The speaker uses 'Compared to downtown' to establish a stark contrast that highlights the positive traits of their current location."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_bus_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_bus_station_help",
+  "prompt": "Identify the intent.",
+  "script": "Excuse me, I need some help. Which bus goes to the city center? I am looking for the museum.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Politely getting someone's attention to ask a question",
+      "Apologizing for stepping on someone's foot",
+      "Telling someone to move out of the way",
+      "Asking for the price of a ticket"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'Excuse me'?"
+  },
+  "explanation": "The speaker uses 'Excuse me' to politely interrupt a bus station worker and ask for help."
+}

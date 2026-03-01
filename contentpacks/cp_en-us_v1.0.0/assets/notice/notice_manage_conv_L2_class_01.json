@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_class_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_classroom_intro",
+  "prompt": "Identify the reason.",
+  "script": "This class is quite difficult for me. To be honest, I study English for my job. I need it for travel.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Confessing their true motivation for taking the class",
+      "Telling a lie to the teacher",
+      "Complaining about English grammar",
+      "Asking for help with homework"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'To be honest'?"
+  },
+  "explanation": "The speaker uses 'To be honest' to confess their real, true motivation for taking the class."
+}

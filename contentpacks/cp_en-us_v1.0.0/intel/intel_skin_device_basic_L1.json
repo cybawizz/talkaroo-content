@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_device_basic_L1",
+  "skinId": "skin_device_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "It does not work.",
+      "usage": "Use this when a machine is broken.",
+      "example": "My phone does not work."
+    },
+    {
+      "text": "Can you help?",
+      "usage": "Ask someone for assistance now.",
+      "example": "Please, can you help me?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Phone",
+      "definition": "A small tool for calls."
+    },
+    {
+      "term": "Laptop",
+      "definition": "A computer you carry."
+    },
+    {
+      "term": "Button",
+      "definition": "Press this to start it."
+    },
+    {
+      "term": "Battery",
+      "definition": "It gives power to things."
+    },
+    {
+      "term": "Broken",
+      "definition": "It does not work now."
+    }
+  ]
+}

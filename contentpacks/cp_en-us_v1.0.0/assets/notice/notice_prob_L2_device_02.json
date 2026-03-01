@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_device_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_device_issue",
+  "prompt": "Identify the time info.",
+  "script": "Let me check the repair schedule. Unfortunately, it will take two days. We have to order the parts first.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Delivering bad news smoothly",
+      "Celebrating good news",
+      "Telling the customer to leave",
+      "Asking for more money"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Unfortunately'?"
+  },
+  "explanation": "The speaker uses 'Unfortunately' to smoothly and gently deliver bad news that the customer will not like."
+}

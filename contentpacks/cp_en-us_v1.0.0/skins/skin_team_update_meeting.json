@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_team_update_meeting",
+  "name": "Project Update Meeting",
+  "category": "professional",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Presenter"
+    },
+    {
+      "roleId": "ai",
+      "label": "Stakeholder"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Give a structured update, explain a risk, and propose a mitigation plan.",
+    "aiGoal": "Ask for clarification, challenge one assumption, and confirm the next steps."
+  },
+  "allowedIntents": [
+    "present_update",
+    "explain_risk",
+    "justify_choice",
+    "respond_to_challenge",
+    "confirm_next_steps",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "confident",
+    "register": "formal"
+  },
+  "tags": [
+    "work",
+    "update",
+    "stakeholders"
+  ]
+}

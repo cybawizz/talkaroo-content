@@ -1,0 +1,73 @@
+{
+  "journeyId": "skill_manage_conversations_L1",
+  "skill": {
+    "cefrBand": "A1",
+    "level": 1
+  },
+  "skins": [
+    "skin_cafe_greeting",
+    "skin_neighbor_intro",
+    "skin_hotel_greeting"
+  ],
+  "intelPacks": [
+    "intel_skin_cafe_greeting_L1",
+    "intel_skin_neighbor_intro_L1",
+    "intel_skin_hotel_greeting_L1"
+  ],
+  "noticeAssets": [
+    "n_a1_j1_cafe_01",
+    "n_a1_j1_cafe_02",
+    "n_a1_j1_neigh_01",
+    "n_a1_j1_neigh_02",
+    "n_a1_j1_hotel_01",
+    "n_a1_j1_hotel_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_manage_conversations_L1",
+    "skillId": "skill_manage_conversations",
+    "level": 1,
+    "frames": [
+      {
+        "frameId": "frame_greet_simple",
+        "pattern": "Hello!",
+        "slots": [],
+        "notes": "Simple greeting."
+      },
+      {
+        "frameId": "frame_greet_time",
+        "pattern": "Good {time}!",
+        "slots": [
+          "time"
+        ],
+        "notes": "Greeting with time word (morning/afternoon)."
+      },
+      {
+        "frameId": "frame_excuse",
+        "pattern": "Excuse me.",
+        "slots": [],
+        "notes": "Polite attention getter."
+      },
+      {
+        "frameId": "frame_thanks",
+        "pattern": "Thank you!",
+        "slots": [],
+        "notes": "Express gratitude."
+      },
+      {
+        "frameId": "frame_goodbye",
+        "pattern": "Goodbye.",
+        "slots": [],
+        "notes": "End the talk."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry?",
+        "notes": "Simple repair."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_hotel_concierge_b2_02",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_hotel_concierge_b2",
+  "prompt": "Identify the clarification.",
+  "script": "Okay, I think I've mapped out a couple of different transportation options to get you to the museum. Before I finally print this map out for you, let me just make perfectly sure I understand what you're actually looking for today. Just to confirm, you definitely want the absolute quickest route available, not the more scenic walking path—right? I just want to be absolutely certain before you leave the main lobby. The fastest way involves a quick subway ride, but you won't see much of our beautiful historical architecture.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly verify a crucial piece of information before taking a final action on behalf of a guest.",
+      "To angrily accuse the hotel guest of constantly changing their complicated itinerary.",
+      "To boast about how quickly they can use the computerized maps application.",
+      "To aggressively suggest that the scenic walking route is actually much better."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the concierge ask 'Just to confirm...right?'"
+  },
+  "explanation": "The speaker uses 'Just to confirm...right?' as a polite, professional verification strategy to ensure they correctly understand the guest's specific priorities."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_food_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_food_story",
+  "prompt": "Identify what was ordered.",
+  "script": "The restaurant was very famous. I looked at the menu for a long time. So, I ordered fried rice.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Moving the story forward to the main action",
+      "Ending the conversation cleanly",
+      "Refusing to eat the food",
+      "Asking the waiter for the menu"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'So' suggest in this story?"
+  },
+  "explanation": "The speaker uses 'So' to transition the story forward and introduce the main action they took at the restaurant."
+}

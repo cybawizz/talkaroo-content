@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_home_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_new_home",
+  "prompt": "Identify the floor.",
+  "script": "The apartment is very convenient. Also, it is on the third floor. You can find it right next to the elevator.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Adding another helpful detail to the description",
+      "Pointing physically to the elevator",
+      "Leaving the building entirely",
+      "Saying they forgot the floor number"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'Also'?"
+  },
+  "explanation": "The speaker uses 'Also' to stack another helpful detail onto their description of the location."
+}

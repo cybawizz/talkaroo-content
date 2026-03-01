@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_city_lifestyle_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_city_lifestyle_b2",
+  "prompt": "Identify the balance.",
+  "script": "Look, I personally absolutely love the vibrant energy and convenience of living right here in the city center. It's incredibly nice having practically everything you need within walking distance. That said, I can certainly see why some people might actually prefer the other option. The suburbs are undeniably quieter and offer significantly more space for growing families. It really just comes down to what specific stage of life you're currently in.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To politely concede a valid point that contrasts with their own personal preference.",
+      "To aggressively argue that the suburbs are a terrible place to live.",
+      "To boast about how much money they save living in the city center.",
+      "To excitedly announce that they are moving to the suburbs next week."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the transition 'That said'?"
+  },
+  "explanation": "The speaker uses 'That said' to smoothly pivot from stating their own strong opinion to acknowledging the validity of an opposing viewpoint."
+}

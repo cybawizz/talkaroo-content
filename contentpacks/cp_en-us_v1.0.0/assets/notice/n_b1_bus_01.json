@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_bus_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_bus_station_info",
+  "prompt": "Identify the bus.",
+  "script": "If you're trying to get to the airport, you're actually at the wrong stop right now. You'll need to walk around to the other side of the building. Once you're there, take bus 7 from platform 3. Just be careful, because bus 8 also stops there but goes in the opposite direction.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To correct a misunderstanding and provide detailed, actionable directions.",
+      "To angrily tell the traveler to go away.",
+      "To brag about knowing all the bus routes in the city.",
+      "To apologize for giving the wrong directions earlier."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'you're actually at the wrong stop right now'?"
+  },
+  "explanation": "The speaker uses 'actually' to politely correct the listener's assumption before giving them the correct information."
+}

@@ -1,0 +1,135 @@
+{
+  "journeyId": "skill_describe_basic_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_friend_profile",
+    "skin_neighborhood_tour",
+    "skin_hometown_description",
+    "skin_daily_routine_b1",
+    "skin_apartment_details"
+  ],
+  "intelPacks": [
+    "intel_b1_friend",
+    "intel_b1_neighborhood",
+    "intel_b1_hometown",
+    "intel_b1_routine",
+    "intel_b1_apartment"
+  ],
+  "noticeAssets": [
+    "n_b1_desc_friend_01",
+    "n_b1_desc_friend_02",
+    "n_b1_desc_neigh_01",
+    "n_b1_desc_neigh_02",
+    "n_b1_desc_home_01",
+    "n_b1_desc_home_02",
+    "n_b1_desc_routine_01",
+    "n_b1_desc_routine_02",
+    "n_b1_desc_apt_01",
+    "n_b1_desc_apt_02"
+  ],
+  "adaptAssets": [
+    "a_b1_desc_friend_01",
+    "a_b1_desc_neigh_01",
+    "a_b1_desc_home_01",
+    "a_b1_desc_routine_01",
+    "a_b1_desc_apt_01"
+  ],
+  "reflectAssets": [
+    "r_b1_desc_friend_01",
+    "r_b1_desc_neigh_01",
+    "r_b1_desc_home_01",
+    "r_b1_desc_routine_01",
+    "r_b1_desc_apt_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b1_describe",
+    "skillId": "skill_describe_basic",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "f_desc_person",
+        "pattern": "My friend is {adj} and has {feature}.",
+        "slots": [
+          "adj",
+          "feature"
+        ],
+        "notes": "Describe person with adjective + feature."
+      },
+      {
+        "frameId": "f_desc_personality",
+        "pattern": "What I like most is {trait}.",
+        "slots": [
+          "trait"
+        ],
+        "notes": "Describe personality/trait."
+      },
+      {
+        "frameId": "f_job_detail",
+        "pattern": "He/She works as a {job} and usually {habit}.",
+        "slots": [
+          "job",
+          "habit"
+        ],
+        "notes": "Job + routine habit."
+      },
+      {
+        "frameId": "f_desc_place",
+        "pattern": "It's a {adj} area, and it's close to {place}.",
+        "slots": [
+          "adj",
+          "place"
+        ],
+        "notes": "Neighborhood description."
+      },
+      {
+        "frameId": "f_compare",
+        "pattern": "Compared to {other}, it's {comparison}.",
+        "slots": [
+          "other",
+          "comparison"
+        ],
+        "notes": "Simple comparison."
+      },
+      {
+        "frameId": "f_routine_seq",
+        "pattern": "First I {a1}, then I {a2}, and after that I {a3}.",
+        "slots": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "notes": "Sequenced routine."
+      },
+      {
+        "frameId": "f_reason",
+        "pattern": "I do this because {reason}.",
+        "slots": [
+          "reason"
+        ],
+        "notes": "Reason giving."
+      },
+      {
+        "frameId": "f_confirm",
+        "pattern": "Just to confirm, {detail}, right?",
+        "slots": [
+          "detail"
+        ],
+        "notes": "Confirmation."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Could you repeat the question, please?",
+        "notes": "Repair phrase."
+      },
+      {
+        "text": "Let me think for a second.",
+        "notes": "Time to plan."
+      }
+    ]
+  }
+}

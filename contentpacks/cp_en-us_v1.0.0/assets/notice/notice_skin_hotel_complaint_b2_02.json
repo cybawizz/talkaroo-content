@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_hotel_complaint_b2_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_hotel_complaint_b2",
+  "prompt": "Identify the negotiation move.",
+  "script": "I completely understand that the hotel is currently fully booked because of the massive convention in town. It clearly sounds like moving me to a different, quieter room tonight is basically impossible. However, if that's simply not possible today, could we perhaps schedule a guaranteed room change for early tomorrow morning instead? I genuinely can't spend my entire five-day stay right next to that loud elevator. I'll gladly pack my bags tonight so I'm completely ready to move before breakfast.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively offer a reasonable, delayed alternative when the initial request is firmly denied.",
+      "To aggressively demand a full refund for the entire ruined vacation.",
+      "To angrily complain about the front desk staff to the general manager.",
+      "To happily announce that they enjoy sleeping next to noisy elevators."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the conditional phrase 'if that's simply not possible today...?'"
+  },
+  "explanation": "The speaker uses conditional framing ('If... then...') to gracefully pivot from a blocked path to a workable, negotiated compromise."
+}

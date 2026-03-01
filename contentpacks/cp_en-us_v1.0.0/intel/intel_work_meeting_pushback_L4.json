@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_work_meeting_pushback_L4",
+  "skinId": "skin_work_meeting_pushback",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "From my perspective, ...",
+      "usage": "Use this phrase to introduce a subjective viewpoint politely, signaling that you recognize other interpretations may exist while asserting your own.",
+      "example": "From my perspective, focusing on long-term scalability will yield significantly higher returns than chasing immediate, albeit volatile, quarterly gains."
+    },
+    {
+      "text": "The evidence suggests ...",
+      "usage": "This is a sophisticated way to ground your argument in data rather than personal opinion, which helps to minimize defensive reactions from others.",
+      "example": "The evidence suggests that our current methodology is inadvertently stifling innovation by prioritizing rigid compliance over creative problem-solving."
+    },
+    {
+      "text": "I’m open to alternatives, but ...",
+      "usage": "A classic hedging technique used to demonstrate a collaborative spirit while firmly establishing a non-negotiable constraint or priority.",
+      "example": "I’m open to alternatives regarding the implementation strategy, but we must ensure that the core security protocols remain entirely uncompromised."
+    },
+    {
+      "text": "What’s your main concern?",
+      "usage": "Use this to isolate specific objections, allowing you to address them individually rather than getting bogged down in a vague or broad disagreement.",
+      "example": "What’s your main concern regarding the proposed restructuring—is it the potential for temporary productivity loss or the impact on team morale?"
+    },
+    {
+      "text": "Let’s separate the issues.",
+      "usage": "A clarifying move used when a colleague conflates two different problems, helping to simplify the path toward a resolution for each.",
+      "example": "Let’s separate the issues of immediate resource allocation from the broader strategic objective to ensure we are not making short-term decisions under pressure."
+    },
+    {
+      "text": "If we don’t do this, ...",
+      "usage": "This highlights the 'cost of inaction,' framing your proposal as a necessary mitigation against future risks or losses.",
+      "example": "If we don’t do this, we run the significant risk of market obsolescence as our primary competitors have already pivoted toward automated supply chains."
+    },
+    {
+      "text": "A reasonable compromise would be ...",
+      "usage": "Introduce this during the negotiation phase to signal that you are moving toward a consensus and are willing to meet halfway.",
+      "example": "A reasonable compromise would be to launch a phased rollout, allowing us to gather empirical data before committing the entirety of the annual budget."
+    },
+    {
+      "text": "Can we align on next steps?",
+      "usage": "This functions as a call to action at the end of a discussion, ensuring that verbal agreement translates into concrete accountability.",
+      "example": "Can we align on next steps to ensure that the cross-functional team has a clear mandate before the upcoming steering committee review?"
+    },
+    {
+      "text": "To summarize, ...",
+      "usage": "Use this to synthesize the main points of the agreement, preventing any ambiguity about what was decided during the pushback.",
+      "example": "To summarize, we have agreed to adjust the project scope slightly to accommodate the engineering feedback while maintaining our original delivery date."
+    },
+    {
+      "text": "I may be mistaken, but ...",
+      "usage": "This is a high-level softening technique used to point out an error or a contradiction in a colleague's argument without sounding confrontational.",
+      "example": "I may be mistaken, but I believe the initial market research indicated a much higher price elasticity than what is currently being projected in this model."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Conflate",
+      "definition": "The act of combining two or more separate ideas or issues into one, often leading to confusion."
+    },
+    {
+      "term": "Hedging",
+      "definition": "Using cautious or vague language to soften the force of a statement or to express uncertainty."
+    },
+    {
+      "term": "Feasibility",
+      "definition": "The degree to which a proposed plan or project is likely to be successful and practical within given constraints."
+    },
+    {
+      "term": "Mitigation",
+      "definition": "The action of reducing the severity, seriousness, or painfulness of a potential risk or problem."
+    },
+    {
+      "term": "Mandate",
+      "definition": "An official order or commission to do something, often giving a team the authority to proceed."
+    }
+  ]
+}

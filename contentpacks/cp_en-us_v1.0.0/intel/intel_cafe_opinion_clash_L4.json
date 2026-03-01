@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_cafe_opinion_clash_L4",
+  "skinId": "skin_cafe_opinion_clash",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To be fair, ...",
+      "usage": "Used as a conversational hedge to introduce a concession or to acknowledge a valid point from the other side before offering a critique.",
+      "example": "To be fair, the venue is quite charming, even if the acoustics aren't exactly ideal for a deep conversation."
+    },
+    {
+      "text": "I’m not entirely convinced that ...",
+      "usage": "A sophisticated way to express skepticism or disagreement without sounding overly assertive or dismissive.",
+      "example": "I’m not entirely convinced that the proposed changes will address the underlying issues we've been seeing lately."
+    },
+    {
+      "text": "What I mean is ...",
+      "usage": "A clarification phrase used to refine a complex opinion or to ensure the listener hasn't misinterpreted a subtle point.",
+      "example": "What I mean is, while the design is aesthetically pleasing, it lacks the functional efficiency we actually need."
+    },
+    {
+      "text": "I get your point, but ...",
+      "usage": "A polite transition that demonstrates active listening before pivoting to a contrasting perspective or counter-argument.",
+      "example": "I get your point, but I wonder if we are overlooking the potential long-term consequences of such a rapid expansion."
+    },
+    {
+      "text": "That said, ...",
+      "usage": "Used to introduce a contrasting fact or perspective that balances a previous statement, adding depth to the discussion.",
+      "example": "The initial cost is significantly higher than we planned; that said, the durability of the materials might save us money eventually."
+    },
+    {
+      "text": "We might be talking past each other.",
+      "usage": "A diplomatic phrase used to de-escalate tension when a disagreement seems to stem from a misunderstanding of each other's premises.",
+      "example": "I feel like we might be talking past each other—let's take a step back and define what we mean by 'success' in this context."
+    },
+    {
+      "text": "Let’s agree to disagree.",
+      "usage": "A polite way to conclude a debate that has reached a stalemate, ensuring the social bond remains intact despite the difference in opinion.",
+      "example": "We clearly have very different philosophies on this, so perhaps we should just agree to disagree for the time being."
+    },
+    {
+      "text": "Can we park this for now?",
+      "usage": "Used to suggest postponing a difficult or circular discussion to maintain the positive atmosphere of a social gathering.",
+      "example": "This is a fascinating debate, but can we park this for now and focus on enjoying this catch-up?"
+    },
+    {
+      "text": "Just to clarify, ...",
+      "usage": "A preemptive phrase used to ensure a nuance isn't lost or to prevent the other person from taking a critical comment personally.",
+      "example": "Just to clarify, I'm not questioning your expertise, I'm simply curious about the data behind that specific conclusion."
+    },
+    {
+      "text": "I appreciate your perspective.",
+      "usage": "A respectful way to acknowledge someone's viewpoint, often used to soften the blow of a disagreement or to end a discussion warmly.",
+      "example": "I appreciate your perspective on the cultural shift, even though my own experiences have led me to a different conclusion."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Subjective",
+      "definition": "Based on or influenced by personal feelings, tastes, or opinions rather than objective facts."
+    },
+    {
+      "term": "Nuance",
+      "definition": "A subtle difference in or shade of meaning, expression, or sound."
+    },
+    {
+      "term": "Concession",
+      "definition": "A point yielded in an argument, often used to show fairness and facilitate a smoother dialogue."
+    },
+    {
+      "term": "Diplomatic",
+      "definition": "Dealing with people in a sensitive and effective way to avoid offense or conflict."
+    },
+    {
+      "term": "Perspective",
+      "definition": "A particular attitude toward or way of regarding something; a point of view."
+    }
+  ]
+}

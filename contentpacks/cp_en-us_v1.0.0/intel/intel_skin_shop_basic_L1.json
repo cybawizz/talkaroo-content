@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_skin_shop_basic_L1",
+  "skinId": "skin_shop_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "How much is this?",
+      "usage": "Ask for the price of an item.",
+      "example": "How much is this postcard?"
+    },
+    {
+      "text": "It is {price}",
+      "usage": "State a price.",
+      "example": "It is five dollars."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Price",
+      "definition": "How much something costs."
+    },
+    {
+      "term": "Dollars",
+      "definition": "A common currency."
+    },
+    {
+      "term": "Receipt",
+      "definition": "A paper showing you paid."
+    }
+  ]
+}

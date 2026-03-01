@@ -1,0 +1,75 @@
+{
+  "intelId": "intel_b1_queue_smalltalk",
+  "skinId": "skin_b1_queue_smalltalk",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "This line is moving slowly.",
+      "usage": "Use this to initiate a conversation by making a professional observation about the current situation.",
+      "example": "This line is moving slowly because there are only two staff members available at the moment."
+    },
+    {
+      "text": "I think they should ...",
+      "usage": "This phrase allows you to suggest a specific improvement or solution to the service problem.",
+      "example": "I think they should open another register so the customers do not have to wait so long."
+    },
+    {
+      "text": "Probably because ...",
+      "usage": "Use this to offer a logical explanation for the delay or service issue discussed.",
+      "example": "The service is delayed probably because this is the busiest time of the workday."
+    },
+    {
+      "text": "I get what you mean, but ...",
+      "usage": "Use this to acknowledge the other person's opinion before presenting a professional disagreement.",
+      "example": "I get what you mean, but the staff must follow the safety protocols strictly."
+    },
+    {
+      "text": "To be honest, ...",
+      "usage": "This is used to introduce a sincere personal opinion or a different perspective on the wait time.",
+      "example": "To be honest, I prefer a slower service if it means the quality remains high."
+    },
+    {
+      "text": "That’s a good point.",
+      "usage": "Use this to validate the logic in the other person's argument during a polite discussion.",
+      "example": "That’s a good point, so I understand why you feel frustrated with the situation."
+    },
+    {
+      "text": "What do you recommend?",
+      "usage": "Ask this to shift the topic toward a positive recommendation or to seek advice.",
+      "example": "What do you recommend from the menu since you come here frequently?"
+    },
+    {
+      "text": "I guess you’re right.",
+      "usage": "Use this phrase to agree with the other person's reasoning and conclude a mild disagreement.",
+      "example": "I guess you’re right, so it is better to stay positive while we wait."
+    },
+    {
+      "text": "Anyway, have a nice day.",
+      "usage": "A professional way to end the small talk once you reach the front of the queue.",
+      "example": "It was a pleasure talking to you; anyway, have a nice day."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Queue",
+      "definition": "A line of people or vehicles waiting for something."
+    },
+    {
+      "term": "Efficiency",
+      "definition": "The quality of performing a task well without wasting time or energy."
+    },
+    {
+      "term": "Service",
+      "definition": "The action of helping or doing work for someone."
+    },
+    {
+      "term": "Peak hours",
+      "definition": "The specific times during the day when a business is most busy."
+    },
+    {
+      "term": "Perspective",
+      "definition": "A particular way of considering or regarding a situation."
+    }
+  ]
+}

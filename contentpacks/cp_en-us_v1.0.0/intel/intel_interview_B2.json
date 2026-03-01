@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_interview_B2",
+  "skinId": "skin_job_interview_values",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I tend to prioritize…",
+      "usage": "Use this to hedge your preferences, suggesting a general inclination rather than a rigid rule, which makes your stance seem more flexible and nuanced.",
+      "example": "I tend to prioritize long-term team cohesion over short-term performance spikes because sustainable growth requires a stable foundation."
+    },
+    {
+      "text": "In practice, that means…",
+      "usage": "Use this to bridge the gap between abstract values and tangible actions, demonstrating that you understand how theory applies to real-world operations.",
+      "example": "In practice, that means I implement weekly check-ins to ensure that every team member feels supported and aligned with our primary objectives."
+    },
+    {
+      "text": "A concrete example is…",
+      "usage": "Use this to provide evidence for your claims, grounding your professional experience in reality and making your narrative more persuasive.",
+      "example": "A concrete example is when I managed a cross-departmental project where I had to balance the technical requirements of the developers with the aesthetic demands of the design team."
+    },
+    {
+      "text": "One challenge was…",
+      "usage": "Use this to introduce a specific obstacle, allowing you to showcase your problem-solving abilities and your capacity to handle professional adversity.",
+      "example": "One challenge was maintaining morale during a period of significant structural reorganization within the company, which required constant and transparent communication."
+    },
+    {
+      "text": "Looking back, I would…",
+      "usage": "Use this to demonstrate self-reflection and a growth mindset by identifying how you would improve your past strategies based on current knowledge.",
+      "example": "Looking back, I would have integrated stakeholder feedback much earlier in the development lifecycle to mitigate the risk of late-stage revisions."
+    },
+    {
+      "text": "It depends on the context.",
+      "usage": "Use this sophisticated hedge to show that you analyze variables and circumstances before making a decision, rather than relying on a one-size-fits-all approach.",
+      "example": "It depends on the context—if we are facing a critical deadline, I might favor efficiency, whereas during a creative phase, I would prioritize exploration and ideation."
+    },
+    {
+      "text": "My reasoning is…",
+      "usage": "Use this to articulate the logic behind your choices, providing a glimpse into your analytical thinking and professional philosophy.",
+      "example": "My reasoning is that fosterings a culture of psychological safety leads to higher levels of innovation and collective problem-solving."
+    },
+    {
+      "text": "If I had to choose, I would…",
+      "usage": "Use this hypothetical structure to address difficult trade-offs, showing that you can make decisive choices even when both options have significant merit.",
+      "example": "If I had to choose, I would prioritize data integrity over speed, as repairing the consequences of inaccurate information is far more costly than a slight delay."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Trade-off",
+      "definition": "A situation where you must choose between two things that cannot both be had; a strategic compromise."
+    },
+    {
+      "term": "Nuance",
+      "definition": "A very slight difference in appearance, meaning, or sound that requires careful attention to detail."
+    },
+    {
+      "term": "Sustainability",
+      "definition": "The ability to maintain a process or level of output consistently over a long period without depleting resources."
+    },
+    {
+      "term": "Stakeholder",
+      "definition": "Any individual or group that has a vested interest in the outcome of a project or business decision."
+    },
+    {
+      "term": "Ambiguity",
+      "definition": "A state of being unclear or open to multiple interpretations, often requiring careful navigation in leadership."
+    }
+  ]
+}

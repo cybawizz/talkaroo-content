@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_classroom_intro",
+  "name": "The New Classroom",
+  "category": "learning",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Student"
+    },
+    {
+      "roleId": "ai",
+      "label": "Teacher"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Introduce yourself, say why you study English, answer one follow-up, and close politely.",
+    "aiGoal": "Greet the student, ask one follow-up, and close politely."
+  },
+  "allowedIntents": [
+    "greet",
+    "introduce_self",
+    "add_detail",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "education",
+    "goals",
+    "polite"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_desc_home_L2",
+  "skinId": "skin_new_home",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My apartment is ...",
+      "usage": "Use this to tell someone the general size or condition.",
+      "example": "My new apartment is very small but also very cozy."
+    },
+    {
+      "text": "It is on the ... floor.",
+      "usage": "Use this to give your specific level in the building.",
+      "example": "It is on the second floor near the main stairs."
+    },
+    {
+      "text": "It is near ...",
+      "usage": "Use this to describe your building's location in the city.",
+      "example": "It is near a busy supermarket and a quiet park."
+    },
+    {
+      "text": "It is next to ...",
+      "usage": "Use this to show exactly where your home is situated.",
+      "example": "It is next to a large library and a bank."
+    },
+    {
+      "text": "The {room} is quite ...",
+      "usage": "Use this to describe a specific part of your home.",
+      "example": "The living room is quite large and has big windows."
+    },
+    {
+      "text": "There is a ...",
+      "usage": "Use this to mention a feature your apartment has.",
+      "example": "There is a small balcony with many beautiful green plants."
+    },
+    {
+      "text": "It’s behind ...",
+      "usage": "Use this to help people find your apartment building's position.",
+      "example": "It’s behind the old school in the center of town."
+    },
+    {
+      "text": "So it’s on the ... floor, right?",
+      "usage": "Use this to confirm which level a person lives on.",
+      "example": "So it’s on the fourth floor, right above the shop?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "cozy",
+      "definition": "Warm and comfortable in a nice way."
+    },
+    {
+      "term": "bright",
+      "definition": "Having a lot of light from the sun."
+    },
+    {
+      "term": "spacious",
+      "definition": "Large and having a lot of room for things."
+    },
+    {
+      "term": "quiet",
+      "definition": "Not noisy and very peaceful for the residents."
+    },
+    {
+      "term": "modern",
+      "definition": "New and looks like it was made recently."
+    }
+  ]
+}

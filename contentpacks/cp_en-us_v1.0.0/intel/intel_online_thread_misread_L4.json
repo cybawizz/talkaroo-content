@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_online_thread_misread_L4",
+  "skinId": "skin_online_thread_misread",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I think my message came across the wrong way.",
+      "usage": "Use this to soften the impact of a misunderstanding by employing 'I think' as a hedging device to avoid sounding overly defensive.",
+      "example": "I think my message came across the wrong way; I was aiming for brevity, but I realize now it might have seemed dismissive."
+    },
+    {
+      "text": "That wasn’t my intention.",
+      "usage": "This phrase serves to distance your actual purpose from a negative interpretation, allowing for a pivot toward a more constructive tone.",
+      "example": "That wasn’t my intention at all; I truly value your contribution to this project and did not mean to overlook your input."
+    },
+    {
+      "text": "Let me rephrase that.",
+      "usage": "A proactive way to take ownership of linguistic ambiguity and provide a more precise, professional alternative.",
+      "example": "Let me rephrase that to be more specific: while the current strategy is solid, the logistical hurdles require further scrutiny."
+    },
+    {
+      "text": "I’m reacting to the idea, not the person.",
+      "usage": "Use this to depersonalize a disagreement, shifting the focus from individual character to abstract concepts or objective data.",
+      "example": "I’m reacting to the idea, not the person, as I believe the underlying logic of this proposal warrants a more thorough analysis."
+    },
+    {
+      "text": "I can see why you’d read it that way.",
+      "usage": "This validates the other person's perspective through empathy without necessarily admitting fault, which helps de-escalate tension.",
+      "example": "I can see why you’d read it that way given the lack of context in my initial post, and I appreciate you bringing it to my attention."
+    },
+    {
+      "text": "To clarify my point, ...",
+      "usage": "Introduces a detailed explanation to eliminate confusion and ensure your original message is understood within its intended context.",
+      "example": "To clarify my point, I am not suggesting we abandon the initiative, but rather that we postpone the launch to ensure quality."
+    },
+    {
+      "text": "Can we reset for a second?",
+      "usage": "A metaphorical request to pause a heated or confused exchange and realign the conversation toward a collaborative goal.",
+      "example": "Can we reset for a second and look at this from a fresh perspective to ensure our objectives are still fundamentally aligned?"
+    },
+    {
+      "text": "I respect your view.",
+      "usage": "Maintains professional decorum and signals an openness to diverse opinions, even when there is a fundamental disagreement.",
+      "example": "I respect your view on the matter, though I still harbor some reservations regarding how this will affect our long-term scalability."
+    },
+    {
+      "text": "What would you suggest instead?",
+      "usage": "Transitions the conversation from a critique of the past to a collaborative, solution-oriented discussion about the future.",
+      "example": "What would you suggest instead to ensure that we hit our targets without compromising the integrity of the design process?"
+    },
+    {
+      "text": "Thanks for calling that out.",
+      "usage": "Acknowledge constructive criticism or a pointed observation with grace, demonstrating a commitment to clear communication.",
+      "example": "Thanks for calling that out; I realize my wording was somewhat opaque, and I will strive for greater transparency in the future."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Hedging",
+      "definition": "The use of cautious or vague language to reduce the force of an utterance or to avoid being overly direct."
+    },
+    {
+      "term": "Ambiguity",
+      "definition": "The quality of being open to more than one interpretation, which often leads to misunderstandings in text-based communication."
+    },
+    {
+      "term": "De-escalation",
+      "definition": "The process of reducing the intensity of a conflict or tension through empathetic and calm communication."
+    },
+    {
+      "term": "Nuance",
+      "definition": "A subtle difference in meaning, expression, or tone that requires careful attention to fully understand."
+    },
+    {
+      "term": "Rapport",
+      "definition": "A harmonious relationship where the parties involved understand each other's feelings and communicate effectively."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "journeyId": "skill_share_experiences_L2",
+  "skill": {
+    "cefrBand": "A2",
+    "level": 2
+  },
+  "skins": [
+    "skin_recent_weekend",
+    "skin_city_trip",
+    "skin_food_story",
+    "skin_workday_recap"
+  ],
+  "intelPacks": [
+    "intel_weekend_L2",
+    "intel_city_trip_L2",
+    "intel_food_story_L2",
+    "intel_work_recap_L2"
+  ],
+  "noticeAssets": [
+    "notice_story_L2_weekend_01",
+    "notice_story_L2_weekend_02",
+    "notice_story_L2_city_01",
+    "notice_story_L2_city_02",
+    "notice_story_L2_food_01",
+    "notice_story_L2_food_02",
+    "notice_story_L2_work_01",
+    "notice_story_L2_work_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [
+    "reflect_story_weekend",
+    "reflect_story_city",
+    "reflect_story_food",
+    "reflect_story_work"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_share_experiences_L2",
+    "skillId": "skill_share_experiences",
+    "level": 2,
+    "frames": [
+      {
+        "frameId": "f_past_day",
+        "pattern": "Last {day}, I {action}.",
+        "slots": [
+          "day",
+          "action"
+        ],
+        "notes": "Past day starter."
+      },
+      {
+        "frameId": "f_time",
+        "pattern": "I {verb} at {time}.",
+        "slots": [
+          "verb",
+          "time"
+        ],
+        "notes": "Add time."
+      },
+      {
+        "frameId": "f_sequence",
+        "pattern": "Then I {action}.",
+        "slots": [
+          "action"
+        ],
+        "notes": "Simple sequence."
+      },
+      {
+        "frameId": "f_place",
+        "pattern": "I went to the {place}.",
+        "slots": [
+          "place"
+        ],
+        "notes": "Place detail."
+      },
+      {
+        "frameId": "f_return",
+        "pattern": "I came back at {time}.",
+        "slots": [
+          "time"
+        ],
+        "notes": "Return time."
+      },
+      {
+        "frameId": "f_feeling",
+        "pattern": "It was {adj}.",
+        "slots": [
+          "adj"
+        ],
+        "notes": "Simple reaction."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "I don't remember the time.",
+        "notes": "Memory gap."
+      },
+      {
+        "text": "Can you say that again?",
+        "notes": "Repetition."
+      }
+    ]
+  }
+}

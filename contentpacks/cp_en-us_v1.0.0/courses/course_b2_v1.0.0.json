@@ -1,0 +1,87 @@
+{
+    "courseId": "course_b2_v1.0.0",
+    "cefrLevel": "B2",
+    "status": "locked",
+    "locale": "en-US",
+    "contentPackVersion": "cp_en-us_v1.0.0",
+    "engineVersion": "engine_b2_v1.0.0",
+    "b2RulesFrozen": true,
+    "features": {
+        "enableTransferNodes": false
+    },
+    "rules": {
+        "nodeOrder": [
+            "VOCAB",
+            "NOTICE",
+            "BUILD",
+            "FLOW",
+            "ADAPT",
+            "REFLECT",
+            "TRANSFER"
+        ],
+        "maxFollowUps": 3,
+        "allowOpinions": true,
+        "allowResistance": true,
+        "allowReasonsBecauseSo": true,
+        "maxNoticeWords": 24,
+        "reflectMode": "full"
+    },
+    "journeys": [
+        {
+            "journeyId": "skill_manage_conversations_L4",
+            "journeyName": "Starting & Managing Conversations",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_manage_conversations_L4.json"
+        },
+        {
+            "journeyId": "skill_ask_information_help_L4",
+            "journeyName": "Asking for Information & Help",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_ask_information_help_L4.json"
+        },
+        {
+            "journeyId": "skill_describe_basic_L4",
+            "journeyName": "Describing People, Places & Daily Life",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_describe_basic_L4.json"
+        },
+        {
+            "journeyId": "skill_share_experiences_L4",
+            "journeyName": "Sharing Experiences & Stories",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_share_experiences_L4.json"
+        },
+        {
+            "journeyId": "skill_deal_with_problems_L4",
+            "journeyName": "Dealing with Problems & Services",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_deal_with_problems_L4.json"
+        },
+        {
+            "journeyId": "skill_express_opinions_L4",
+            "journeyName": "Expressing Opinions & Preferences",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_express_opinions_L4.json"
+        },
+        {
+            "journeyId": "skill_disagreement_negotiation_L4",
+            "journeyName": "Handling Disagreement & Negotiation",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_disagreement_negotiation_L4.json"
+        },
+        {
+            "journeyId": "skill_abstract_professional_L4",
+            "journeyName": "Abstract & Professional Communication",
+            "level": 4,
+            "status": "active",
+            "sourceFile": "skill_abstract_professional_L4.json"
+        }
+    ]
+}

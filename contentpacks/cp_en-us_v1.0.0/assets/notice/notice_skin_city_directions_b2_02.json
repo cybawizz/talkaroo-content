@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_city_directions_b2_02",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_city_directions_b2",
+  "prompt": "Identify the clarification.",
+  "script": "Okay, I think I've found a couple of different layout options for you. Before I finish mapping this all out, let me just make sure I clearly understand what you're actually looking for. Just to confirm, you definitely want the absolute quickest route available, not the scenic one—right? I just want to be absolutely certain before I send these directions over to your phone. The fastest way involves a lot of highway driving, so it won't be very pretty.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly verify a crucial piece of information before taking a final action.",
+      "To angrily accuse the listener of constantly changing their mind.",
+      "To boast about how quickly they can use a maps application.",
+      "To suggest that the scenic route is actually much better."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Just to confirm...right?'"
+  },
+  "explanation": "The speaker uses 'Just to confirm...right?' as a polite verification strategy to ensure they correctly understand the other person's priorities."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_friend_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_friend_description",
+  "prompt": "Identify the job info.",
+  "script": "By the way, he has a new job. He works as a teacher in a high school. He really likes his students.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Casually tossing in an extra piece of related information",
+      "Saying goodbye quickly to leave",
+      "Changing the topic completely",
+      "Asking someone for a job"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why start with 'By the way'?"
+  },
+  "explanation": "The speaker uses 'By the way' to casually add another interesting, related detail about their friend."
+}

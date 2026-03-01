@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_daily_routine_b2_B2",
+  "skinId": "skin_daily_routine_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What stands out most is…",
+      "usage": "Used to emphasize a primary feature or the most significant aspect of a situation or routine.",
+      "example": "What stands out most is how prioritizing high-value tasks early in the morning fundamentally alters my productivity for the rest of the day."
+    },
+    {
+      "text": "He tends to…",
+      "usage": "Used for hedging when describing habitual behavior or general tendencies without being overly definitive.",
+      "example": "My manager tends to favor asynchronous communication, which allows the team more autonomy during their peak focus hours."
+    },
+    {
+      "text": "If I had to sum it up…",
+      "usage": "A transition used to provide a concise synthesis or conclusion regarding a complex series of events.",
+      "example": "If I had to sum it up, the new workflow is far more demanding yet yields significantly more consistent results."
+    },
+    {
+      "text": "Compared to…, it feels…",
+      "usage": "Used to contrast a current state with a previous one to highlight a change in quality or atmosphere.",
+      "example": "Compared to my old office-bound routine, working remotely feels much more conducive to deep, uninterrupted thought."
+    },
+    {
+      "text": "It’s located right by…",
+      "usage": "Describes physical or metaphorical proximity, often used to explain why a certain routine is convenient.",
+      "example": "The gym is located right by my home office, which eliminates any friction when transitioning from work to physical exercise."
+    },
+    {
+      "text": "From what I’ve noticed…",
+      "usage": "A hedging phrase used to introduce an observation while acknowledging that it is based on personal perception.",
+      "example": "From what I’ve noticed, front-loading the most cognitively demanding tasks leads to a much more manageable afternoon."
+    },
+    {
+      "text": "A typical day looks like…",
+      "usage": "Introduces a generalized overview of a schedule or a standard sequence of events.",
+      "example": "A typical day looks like a series of focused ninety-minute sprints punctuated by short, restorative breaks."
+    },
+    {
+      "text": "The biggest drawback is…",
+      "usage": "Used to introduce the primary negative aspect or challenge of a particular routine or habit.",
+      "example": "The biggest drawback is the occasional sense of isolation that comes with a strictly solo work-from-home schedule."
+    },
+    {
+      "text": "On the plus side…",
+      "usage": "Introduces a positive factor or an advantage that balances out a previous negative point.",
+      "example": "On the plus side, the lack of a commute grants me an extra hour each morning to dedicate to professional development."
+    },
+    {
+      "text": "In general, I’d say…",
+      "usage": "Used to offer a softened, non-absolute opinion or a broad generalization about a situation.",
+      "example": "In general, I’d say that a structured routine provides the necessary framework for creative spontaneity to flourish."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Cognitive Load",
+      "definition": "The total amount of mental effort being used in the working memory."
+    },
+    {
+      "term": "Deep Work",
+      "definition": "Tasks performed in a state of distraction-free concentration that push cognitive capabilities to their limit."
+    },
+    {
+      "term": "Asynchronous",
+      "definition": "Communication or tasks that do not happen at the same time, allowing participants to respond at their convenience."
+    },
+    {
+      "term": "Conducive",
+      "definition": "Making a certain situation or outcome likely or possible."
+    },
+    {
+      "term": "Friction",
+      "definition": "In a productivity context, any resistance or obstacle that makes a task harder to start or complete."
+    }
+  ]
+}

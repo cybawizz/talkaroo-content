@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_shop_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_shop_return",
+  "prompt": "Identify the follow-up.",
+  "script": "I can help you with that. Well, do you have the receipt? I need to scan the barcode.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Hesitating slightly because they must ask for a required item",
+      "Refusing to give a refund immediately",
+      "Demanding the item back first",
+      "Stalling for time while checking the cash register"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why start the question with 'Well'?"
+  },
+  "explanation": "The speaker uses 'Well' to show slight hesitation, knowing they must ask the customer for a required item before helping."
+}

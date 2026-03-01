@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_trip_recap_b2",
+  "name": "Recapping a Day Trip",
+  "category": "travel",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Local"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Recap a day trip and highlight one surprising moment.",
+    "aiGoal": "Ask for the highlight and how the user felt."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "give_reason",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "recap",
+    "details"
+  ]
+}

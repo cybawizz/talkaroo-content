@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_refund_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Say it better (service negotiation).",
+  "items": [
+    {
+      "bad": "Your policy is stupid.",
+      "better": "I understand the policy, however this item is defective. Is there any flexibility?",
+      "note": "policy check"
+    },
+    {
+      "bad": "I want my money back now.",
+      "better": "If a refund isn’t possible, I’d be satisfied with store credit or an exchange.",
+      "note": "alternative accepting"
+    }
+  ]
+}

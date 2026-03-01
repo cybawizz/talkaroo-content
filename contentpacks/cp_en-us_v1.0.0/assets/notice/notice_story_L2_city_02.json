@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_city_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_city_trip",
+  "prompt": "Identify the return time.",
+  "script": "I had a great time exploring. The train ride was very fast. In the end, I came back at six.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Summarizing the final outcome of their trip",
+      "Complaining about being late",
+      "Refusing to say what time it is",
+      "Starting a brand new story"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'In the end'?"
+  },
+  "explanation": "The speaker uses 'In the end' to gracefully summarize the final outcome or the last event of their city trip."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_hotel_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_hotel_problem",
+  "prompt": "Identify the follow-up.",
+  "script": "Okay, I am sorry about that. Let me send a repair person. What is your room number please?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Acknowledging the problem and transitioning to a solution",
+      "Refusing to believe the guest",
+      "Saying the room is already clean",
+      "Changing the subject completely"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'Okay' here?"
+  },
+  "explanation": "The speaker uses 'Okay' to verbally acknowledge the guest's problem and smoothly transition to finding a solution."
+}

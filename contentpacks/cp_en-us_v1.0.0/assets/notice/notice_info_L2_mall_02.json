@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_mall_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the confirmation.",
+  "script": "Okay, I understand now. So, the bank is on the top level. It is near the stairs, right?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Summarizing and confirming the directions",
+      "Asking an entirely new question",
+      "Disagreeing with the shopkeeper",
+      "Refusing to walk upstairs"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'So' here?"
+  },
+  "explanation": "The speaker uses 'So' to summarize the directions and confirm they understood correctly."
+}

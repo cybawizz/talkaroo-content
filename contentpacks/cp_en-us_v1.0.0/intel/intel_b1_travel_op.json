@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_travel_op",
+  "skinId": "skin_travel_preference",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I prefer to ...",
+      "usage": "Use this phrase to state a primary travel preference clearly during a professional discussion.",
+      "example": "I prefer to prioritize comfort because I need to rest properly after a long international flight."
+    },
+    {
+      "text": "The main reason is ...",
+      "usage": "Use this phrase to introduce a logical justification for your specific choice or requirement.",
+      "example": "The main reason is that budget hostels often lack reliable internet, so it is difficult to maintain productivity."
+    },
+    {
+      "text": "I would rather ...",
+      "usage": "Use this phrase to express a specific alternative choice over another available option.",
+      "example": "I would rather invest in a central location so that we can minimize travel time within the city."
+    },
+    {
+      "text": "On the other hand, ...",
+      "usage": "Use this phrase to present a contrasting perspective or to discuss potential disadvantages of a plan.",
+      "example": "On the other hand, booking luxury suites might exceed our budget, so we must consider the total cost."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "usage": "Use this phrase to propose a fair compromise that satisfies both budget and comfort needs.",
+      "example": "Could we meet in the middle and select a boutique hotel, because it offers both value and quality?"
+    },
+    {
+      "text": "I'm flexible if ...",
+      "usage": "Use this phrase to indicate a willingness to change your mind if certain conditions are met.",
+      "example": "I'm flexible if we select a quieter neighborhood so that we can ensure a productive environment."
+    },
+    {
+      "text": "So we’ll choose ..., right?",
+      "usage": "Use this phrase to confirm the final agreement and ensure both parties are satisfied with the decision.",
+      "example": "So we’ll choose the mid-range option with breakfast included, right?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Compromise",
+      "definition": "An agreement reached by each side making concessions to find a middle ground."
+    },
+    {
+      "term": "Accommodation",
+      "definition": "A place where someone may stay or live, typically referring to hotels or hostels in travel."
+    },
+    {
+      "term": "Allocate",
+      "definition": "To designate or set aside a specific amount of money or resources for a purpose."
+    },
+    {
+      "term": "Feasible",
+      "definition": "Something that is possible to achieve or do easily and conveniently."
+    },
+    {
+      "term": "Prioritize",
+      "definition": "To treat something as more important than other things when making a decision."
+    }
+  ]
+}

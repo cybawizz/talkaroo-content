@@ -1,0 +1,24 @@
+{
+  "reflectId": "reflect_skin_device_repair_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_device_repair_b2",
+  "prompt": "Make it more constructive.",
+  "snippets": [
+    {
+      "original": "This is bad. Fix it.",
+      "better": "I’m afraid there’s an issue with this—could you help me fix it, please?",
+      "focus": "politeness"
+    },
+    {
+      "original": "No, I want it now.",
+      "better": "Is there any flexibility on the timeline, or an alternative we can do today?",
+      "focus": "negotiation"
+    },
+    {
+      "original": "Okay.",
+      "better": "Thanks. Just to confirm, the technician will come at 4 p.m., right?",
+      "focus": "confirmation"
+    }
+  ]
+}

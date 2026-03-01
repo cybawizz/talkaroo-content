@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_neighbor_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Identify the intent.",
+  "script": "I have to go unpack my boxes now. Well, it's nice to meet you. I will see you around.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Signaling they are ready to wrap up the chat",
+      "Complaining about the neighborhood",
+      "Refusing to talk anymore",
+      "Asking for their name again"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Well'?"
+  },
+  "explanation": "The speaker uses 'Well' to subtly signal they are ready to wrap up the chat and walk away politely."
+}

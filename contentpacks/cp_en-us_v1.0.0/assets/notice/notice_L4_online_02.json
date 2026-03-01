@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_online_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "What is the implied meaning?",
+  "script": "Look, I completely understand that the feedback on the proposal sounded a bit harsh in the comments. However, it's absolutely crucial to remember that I'm reacting to the idea itself, not the person who suggested it. We all share the exact same goal of making this project as successful as possible. It's just that this particular technical approach has some serious flaws we need to address. Let's try to keep the discussion strictly focused on the data.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly separate a critical evaluation of a proposal from a personal attack.",
+      "To aggressively insult the intelligence of the person who wrote the proposal.",
+      "To apologize profusely for being so mean in the chat.",
+      "To boast about being the most logical person in the entire company."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker emphasize that they are 'reacting to the idea itself, not the person'?"
+  },
+  "explanation": "The speaker explicitly separates the idea from the person to prevent defensive reactions and maintain a professional, objective tone during a critique."
+}

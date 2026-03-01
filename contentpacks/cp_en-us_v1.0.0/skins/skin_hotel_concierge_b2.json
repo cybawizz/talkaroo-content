@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_hotel_concierge_b2",
+  "name": "Hotel Concierge Recommendations",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Concierge"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for a restaurant recommendation, state preferences, and confirm booking steps.",
+    "aiGoal": "Recommend options, mention a constraint (fully booked), and ask the user to decide."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "formal"
+  },
+  "tags": [
+    "hotel",
+    "recommendations",
+    "booking"
+  ]
+}

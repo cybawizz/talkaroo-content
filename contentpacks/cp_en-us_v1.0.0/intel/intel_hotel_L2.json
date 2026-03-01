@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_hotel_L2",
+  "skinId": "skin_hotel_reception",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "What time does the pool open?",
+      "usage": "Ask the receptionist this to find out the start time.",
+      "example": "What time does the pool open for hotel guests today?"
+    },
+    {
+      "text": "What time does it close?",
+      "usage": "Use this to check when the hotel restaurant stops serving.",
+      "example": "What time does it close for dinner service on Sunday?"
+    },
+    {
+      "text": "It’s open until ...",
+      "usage": "The staff will use this to tell you the hours.",
+      "example": "It’s open until eleven tonight for the late night menu."
+    },
+    {
+      "text": "It opens at ...",
+      "usage": "This explains the time a specific hotel area is ready.",
+      "example": "It opens at six in the morning for early breakfast."
+    },
+    {
+      "text": "Do you have towels?",
+      "usage": "Ask this if you need extra items for your room.",
+      "example": "Do you have towels for us to use at the gym?"
+    },
+    {
+      "text": "You can get them at the desk.",
+      "usage": "The staff uses this to guide you to the supplies.",
+      "example": "You can get them at the desk in the lobby."
+    },
+    {
+      "text": "Is breakfast included?",
+      "usage": "Ask this to see if the morning meal is free.",
+      "example": "Is breakfast included with our standard room booking for tomorrow?"
+    },
+    {
+      "text": "So it closes at {time}, right?",
+      "usage": "Confirm the schedule so you do not miss your meal.",
+      "example": "So it closes at ten, right? I want to eat."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Nearby",
+      "definition": "Located a short distance away from your current place."
+    },
+    {
+      "term": "Crowded",
+      "definition": "A place that is full of too many people."
+    },
+    {
+      "term": "Local",
+      "definition": "Something that is from the area where you are."
+    },
+    {
+      "term": "Delicious",
+      "definition": "Food that has a very good and pleasant taste."
+    },
+    {
+      "term": "Helpful",
+      "definition": "Useful or providing the assistance that you really need."
+    }
+  ]
+}

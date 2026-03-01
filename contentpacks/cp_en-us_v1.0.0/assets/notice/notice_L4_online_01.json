@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_online_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "What is the speaker doing?",
+  "script": "Wait, reading back over the thread, I think my last message came across the wrong way. I certainly didn't mean to imply that the design team was moving too slowly on this project. Let me rephrase that to be a bit clearer so there are no misunderstandings. I was actually just trying to highlight how complex the new user interface requirements are. My sincere apologies for any confusion there.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To immediately correct a misunderstanding and repair a professional relationship.",
+      "To aggressively accuse the team of misreading a perfectly clear email.",
+      "To boast about having the best vocabulary on the team.",
+      "To abruptly end the project because of poor communication."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'Let me rephrase that'?"
+  },
+  "explanation": "The speaker uses 'Let me rephrase that' as a professional repair strategy, acknowledging poor phrasing and offering a clearer alternative."
+}

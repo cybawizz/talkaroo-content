@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_interview_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Identify the follow-up request.",
+  "script": "Your core philosophy regarding completely transparent team communication sounds absolutely excellent in theory. It's obviously something we also value very highly here at this specific software company. However, to help me fully visualize how you actually put those management ideas into practice on a daily basis, could you perhaps give a highly concrete example from your very last role? I'm particularly interested in hearing about a time when that intense transparency actually prevented a major project failure. It would genuinely help me understand your specific leadership style much better.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To directly prompt the candidate to provide a specific, real-world example to back up their theoretical claim.",
+      "To excitedly offer the candidate a high-paying executive job immediately.",
+      "To rudely abruptly end the job interview right then and there because they are bored.",
+      "To casually ask for complex driving directions to the candidate's previous office building."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the interviewer specifically ask for a 'concrete example'?"
+  },
+  "explanation": "The speaker challenges the interviewee to move beyond theoretical buzzwords by explicitly demanding a 'concrete' narrative demonstrating their past behavior."
+}

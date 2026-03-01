@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_delivery_problem_b1",
+  "name": "Delivery Problem",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Support Agent"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Report a missing item, ask for replacement, and confirm the next step.",
+    "aiGoal": "Ask for order number and offer options."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "ask_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "delivery",
+    "support"
+  ]
+}

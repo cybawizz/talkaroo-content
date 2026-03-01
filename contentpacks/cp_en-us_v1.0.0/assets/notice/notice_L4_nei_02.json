@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_nei_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "What solution is suggested?",
+  "script": "I completely understand that you need to practice your instrument for your upcoming audition. At the same time, I work from home and really need quiet during the late afternoon. Maybe we can find a middle ground that actually works for both of our schedules. For instance, what if you only practiced between five and seven? That way, we both get exactly what we need without any conflict.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To propose a fair compromise that respects both people's conflicting needs.",
+      "To aggressively demand the neighbor stop playing music entirely.",
+      "To complain about how annoying the instrument sounds.",
+      "To enthusiastically ask for music lessons in the evening."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker suggest finding a 'middle ground'?"
+  },
+  "explanation": "The speaker uses the idiom 'middle ground' to explicitly shift the conversation from a conflict to a collaborative compromise."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_friend_profile_b2_02",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_friend_profile_b2",
+  "prompt": "Identify the follow-up focus.",
+  "script": "I genuinely hear what you're saying about how much you absolutely love working closely with Sarah right now. But when you say she's so incredibly resourceful, what do you mean exactly? Are you primarily talking about her technical skills, her deep networking connections, or something else entirely? I'm simply trying to get a much better sense of what makes her so valuable to your specific team. My current department is really lacking in that kind of strong leadership.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To kindly push for specific details to fully understand a vague personality description.",
+      "To aggressively interrogate someone about why they hired Sarah in the first place.",
+      "To boast about knowing more about the company's network than the other person.",
+      "To completely ignore the praise for Sarah and immediately change the subject."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'what do you mean exactly—technical skills, networking...?'"
+  },
+  "explanation": "The speaker actively guides the conversation by providing concrete examples (technical, networking) to help the other person clarify their vague praise."
+}

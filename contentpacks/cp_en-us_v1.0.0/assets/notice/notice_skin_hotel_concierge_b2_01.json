@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_hotel_concierge_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_hotel_concierge_b2",
+  "prompt": "Identify the constraint.",
+  "script": "If you're planning to take a taxi to the airport this afternoon, I wouldn't recommend taking the standard main route. As a matter of fact, the primary highway is completely blocked off right now due to some unexpected emergency roadworks. Because of that major delay, you'll definitely need to ask your driver to take a slight detour through the back streets. I'd actually highly suggest leaving the hotel about thirty minutes earlier than originally planned. It might be a minor inconvenience, but it will absolutely ensure you don't miss your flight.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To provide an undeniable, factual warning that explains why a certain action is highly inadvisable.",
+      "To aggressively complain that the city never finishes its roadworks on schedule.",
+      "To boast about knowing a secret shortcut that no other concierge knows.",
+      "To excitedly invite the hotel guest to watch the ongoing road construction."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the concierge use the phrase 'As a matter of fact'?"
+  },
+  "explanation": "The speaker uses 'As a matter of fact' to firmly introduce a concrete, undeniable piece of reality that significantly impacts the guest's plans."
+}

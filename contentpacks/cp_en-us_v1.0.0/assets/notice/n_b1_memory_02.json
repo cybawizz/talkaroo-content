@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_memory_02",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_childhood_memory",
+  "prompt": "Identify the contrast.",
+  "script": "I remember the summer my family drove across the entire country. Back then, we obviously didn't have smartphones to keep us entertained in the car. We mostly played card games and listened to the radio. It forced us to actually talk to each other for hours.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To clearly establish the time period of the memory, contrasting it with the present day.",
+      "To apologize for not owning a nice phone when they were younger.",
+      "To complain that road trips are terrible without the internet.",
+      "To excitedly plan a new road trip for next summer."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Back then'?"
+  },
+  "explanation": "The speaker uses 'Back then' to draw a clear line between the past era of the memory and the reality of today."
+}

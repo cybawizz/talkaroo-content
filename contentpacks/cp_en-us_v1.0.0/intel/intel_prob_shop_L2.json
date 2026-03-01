@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_prob_shop_L2",
+  "skinId": "skin_shop_return",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, I need help with this.",
+      "usage": "Say this politely to get a shop assistant's attention.",
+      "example": "Hi, I need help with this small blue radio."
+    },
+    {
+      "text": "It is broken.",
+      "usage": "Use this to explain that the item has damage.",
+      "example": "I bought this, but it is broken and unusable."
+    },
+    {
+      "text": "It does not work.",
+      "usage": "Say this when an electronic item will not start.",
+      "example": "I tried the battery, but it does not work."
+    },
+    {
+      "text": "Can I change it?",
+      "usage": "Ask this if you want a new, working item.",
+      "example": "This lamp is cracked. Can I change it for another?"
+    },
+    {
+      "text": "Can I get a refund?",
+      "usage": "Ask this if you want your money back instead.",
+      "example": "I am unhappy. Can I get a full refund now?"
+    },
+    {
+      "text": "Do you have the receipt?",
+      "usage": "The shop assistant asks this for proof of purchase.",
+      "example": "That is fine. Do you have the paper receipt today?"
+    },
+    {
+      "text": "Here is the receipt.",
+      "usage": "Say this while giving the paper proof of purchase.",
+      "example": "I found it! Here is the receipt for the shirt."
+    },
+    {
+      "text": "So I can exchange it, right?",
+      "usage": "Use this to confirm you will get a replacement.",
+      "example": "So I can exchange it for a new one, right?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Broken",
+      "definition": "Something that is in pieces or does not function."
+    },
+    {
+      "term": "Damaged",
+      "definition": "When something is hurt or has a bad mark."
+    },
+    {
+      "term": "Faulty",
+      "definition": "Something that was made wrong and has a problem."
+    },
+    {
+      "term": "Receipt",
+      "definition": "A small piece of paper that shows you paid."
+    },
+    {
+      "term": "Exchange",
+      "definition": "Giving one item back to get a different one."
+    }
+  ]
+}

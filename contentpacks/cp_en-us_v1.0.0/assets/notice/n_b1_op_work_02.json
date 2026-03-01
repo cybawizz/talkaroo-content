@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_work_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_work_policy_opinion",
+  "prompt": "Identify the request.",
+  "script": "I see that we're moving the weekly team meeting from Monday morning to Friday afternoon. That's definitely going to change how we plan our projects. Could you clarify your reasoning behind this specific change? I want to make sure I understand the benefits.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely request further explanation about a decision without immediately criticizing it.",
+      "To aggressively demand that the meeting be moved back to Monday.",
+      "To joke about how Friday meetings are always a waste of time.",
+      "To agree that Friday afternoons are the best time to work."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Could you clarify your reasoning...'?"
+  },
+  "explanation": "The speaker uses 'Could you clarify your reasoning' to politely gather more information before openly agreeing or disagreeing with a change."
+}

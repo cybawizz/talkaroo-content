@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_restaurant_issue_b2",
+  "name": "Restaurant Order Issue",
+  "category": "food_service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain the issue calmly, ask for a replacement, and confirm it’s correct.",
+    "aiGoal": "Apologize, clarify, and resolve quickly."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "describe_problem",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "food",
+    "service",
+    "replacement"
+  ]
+}

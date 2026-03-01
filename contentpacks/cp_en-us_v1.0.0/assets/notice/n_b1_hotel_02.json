@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_hotel_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Identify the suggestion.",
+  "script": "Since our dining room is completely full tonight, I can offer you a few other great options. If you're looking for something quick and casual, there is a small bistro just around the corner. It's only a three-minute walk from here. Alternatively, I can call a taxi if you'd prefer to head downtown.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To offer a helpful solution to a guest after a disappointment.",
+      "To complain that the guest is asking too many questions.",
+      "To forcefully demand that the guest leave the hotel.",
+      "To advertise a restaurant that the hotel secretly owns."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'If you're looking for something quick...?'"
+  },
+  "explanation": "The speaker uses 'If you're looking for...' to frame their suggestion as a helpful response rather than an aggressive command."
+}

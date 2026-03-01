@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the direction.",
+  "script": "Well, let me think. You need to go straight ahead first. Then, turn left at the large bank.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Pausing for a second to think of the route",
+      "Being rude to a lost tourist",
+      "Refusing to answer the question",
+      "Trying to remember someone's name"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why start with 'Well'?"
+  },
+  "explanation": "The speaker uses 'Well' because they need a brief pause to mentally picture the street layout."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_cafe_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_cafe_mistake",
+  "prompt": "Identify the solution.",
+  "script": "I'm so sorry for the mistake. I will take this cup back. I'll bring a new one right away.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Quickly apologizing for making a mistake",
+      "Refusing to help the customer",
+      "Complaining about their stressful job",
+      "Asking for a tip"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'I'm so sorry'?"
+  },
+  "explanation": "The speaker uses 'I'm so sorry' to quickly and politely apologize for making a mistake with the order."
+}

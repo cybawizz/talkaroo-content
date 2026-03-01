@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_prob_delivery_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 3,
+  "skinId": "skin_delivery_problem_b1",
+  "prompt": "Identify the problem.",
+  "script": "Hi, I'm calling about an order I received about ten minutes ago. Everything seemed fine at first, but it looks like we're missing an item. I ordered two side salads, but only one is in the bag. Could someone please send the second salad over as soon as possible?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To softly transition into describing the problem with their delivery.",
+      "To complain that the food took way too long to arrive.",
+      "To boast that they ordered enough food for two people.",
+      "To apologize for calling the restaurant during a busy time."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Every seemed fine at first, but...'?"
+  },
+  "explanation": "The speaker contrasts 'Everything seemed fine' with 'but' to gently pivot from a positive opening into a statement of the problem."
+}

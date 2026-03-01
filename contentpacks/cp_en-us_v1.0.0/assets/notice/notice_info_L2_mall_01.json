@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_mall_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the location.",
+  "script": "Actually, you are going the wrong way. The bank is on the top level. It is right next to the stairs.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Correcting someone about the location",
+      "Asking for directions repeatedly",
+      "Complaining about the stairs",
+      "Saying goodbye to a friend"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to politely correct a misunderstanding about where the bank is located."
+}

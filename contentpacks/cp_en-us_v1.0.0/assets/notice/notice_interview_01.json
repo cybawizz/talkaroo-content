@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_interview_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "prompt": "Identify the structure.",
+  "script": "When it comes to my core management philosophy, I consistently prioritize absolute clarity over rigid adherence to traditional corporate hierarchy. In daily practice, that specific approach means requiring aggressively short meeting updates and assigning highly clear, singular owners for every single project task. It completely eliminates the confusing ambiguity that so frequently derails large, cross-functional engineering teams. To be completely honest, I've found that people genuinely thrive when they know exactly what's expected of them. That's exactly how I successfully led my previous department.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To explicitly state a broad professional preference and then immediately back it up with a tangible, practical example.",
+      "To loudly complain about their previous boss while trying to be funny with a sarcastic joke.",
+      "To politely but firmly refuse to actually answer the specific interview question.",
+      "To aggressively demand significantly more money before agreeing to lead any new engineering teams."
+    ],
+    "answerIndex": 0,
+    "prompt": "How does the speaker link their abstract philosophical statement to real-world corporate action?"
+  },
+  "explanation": "The speaker explicitly shifts from abstract concept ('prioritize clarity') to concrete application ('In daily practice, that means...') to prove their capability."
+}

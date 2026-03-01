@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_device_repair_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_device_repair_b2",
+  "prompt": "Identify the tone.",
+  "script": "Hi, I really hate to be a bother, but I think there's still a significant problem with my laptop. When I picked it up from the repair shop yesterday, it seemed completely fine at first glance. However, I'm afraid there's an issue with the screen flickering whenever I open several programs at once. Could you possibly take another look at it for me, please? I really need this machine working perfectly for my presentation on Friday.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "A formally polite complaint aimed at getting a lingering issue resolved cooperatively.",
+      "A furious, extremely rude attack on the repair shop.",
+      "A sarcastic joke about how terrible the original repair was.",
+      "A casual conversation meant to make friends with the technician."
+    ],
+    "answerIndex": 0,
+    "prompt": "What tone is established by phrases like 'I really hate to be a bother' and 'I'm afraid'?"
+  },
+  "explanation": "The speaker heavily uses polite softeners ('hate to be a bother', 'I'm afraid') to respectfully address an incomplete repair without being confrontational."
+}

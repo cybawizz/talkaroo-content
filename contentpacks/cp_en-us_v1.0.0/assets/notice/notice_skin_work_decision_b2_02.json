@@ -1,0 +1,20 @@
+{
+    "noticeId": "notice_skin_work_decision_b2_02",
+    "skillId": "skill_express_opinions",
+    "level": 4,
+    "skinId": "skin_work_decision_b2",
+    "prompt": "Identify the conclusion.",
+    "script": "We've spent a lot of time weighing the pros and cons of both software vendors. To be perfectly honest, neither option is completely flawless for our specific needs here. However, the first vendor offers much better customer support, which is critical for our team. Ultimately, I think we really have to go with them to avoid long-term headaches. Let's draft the contract and just get this finalized by Friday.",
+    "question": {
+        "type": "intent_pick",
+        "options": [
+            "To transition from discussing options to stating a final, decisive conclusion.",
+            "To aggressively demand that the team stop arguing about the software.",
+            "To complain about how long the decision-making process took.",
+            "To apologize for choosing the wrong vendor earlier in the year."
+        ],
+        "answerIndex": 0,
+        "prompt": "Why does the speaker use the word 'Ultimately'?"
+    },
+    "explanation": "The speaker uses the transition word 'Ultimately' to signal the final, most important point that drives their decision."
+}

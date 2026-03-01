@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_neighbor_02",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_neighbor_park",
+  "prompt": "Identify the comparison.",
+  "script": "As you might expect, this park is usually very empty during the weekday mornings. Our neighborhood is quite small, so not many people come here. On the other hand, the main city park is always packed with tourists. That's exactly why I prefer walking my dog right here.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce a direct contrast between the local park and the city park.",
+      "To physically point to another park across the street.",
+      "To complain about tourists visiting their neighborhood.",
+      "To offer the listener a chance to walk the dog instead."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'On the other hand'?"
+  },
+  "explanation": "The speaker uses 'On the other hand' to clearly contrast the busy city park with their quiet local park."
+}

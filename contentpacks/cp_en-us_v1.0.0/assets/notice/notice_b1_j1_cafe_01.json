@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_cafe_chat",
+  "prompt": "Identify the stance and the reason.",
+  "script": "I know a lot of people here really love the coffee. Personally, I usually go with the green tea instead. I just think the tea is better because it’s much lighter and not too sweet. It gives me energy without making me feel jittery.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce a subjective personal preference that contrasts with a general opinion.",
+      "To aggressively argue that coffee is terrible for you.",
+      "To boast about knowing more about tea than anyone else.",
+      "To complain that the café doesn't put enough sugar in the tea."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start their sentence with 'Personally'?"
+  },
+  "explanation": "The speaker uses 'Personally' to clearly mark their statement as an individual opinion rather than an objective fact."
+}

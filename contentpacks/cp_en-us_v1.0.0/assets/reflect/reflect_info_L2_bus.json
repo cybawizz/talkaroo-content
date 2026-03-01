@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_info_L2_bus",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_bus_station_help",
+  "mode": "light",
+  "prompt": "Say it better (confirm details).",
+  "items": [
+    {
+      "bad": "Which bus city center?",
+      "better": "Which bus goes to the city center?",
+      "note": "Use 'goes to'."
+    },
+    {
+      "bad": "Platform four?",
+      "better": "So, platform four, right?",
+      "note": "Confirm with 'right?'."
+    }
+  ]
+}

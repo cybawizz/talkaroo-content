@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_rest_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_choose_restaurant",
+  "prompt": "Identify the contrast.",
+  "script": "You make a very valid argument about the steakhouse having an amazing atmosphere. I agree it would be perfect for a special celebration. That's a good point, but I still prefer the pasta place for tonight. It's just a lot more casual and relaxed.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To validate the listener's idea before politely introducing a contrasting preference.",
+      "To aggressively argue that the steakhouse is a terrible restaurant.",
+      "To apologize for not wanting to celebrate.",
+      "To abruptly change the subject away from food."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'That's a good point, but...'?"
+  },
+  "explanation": "The speaker uses 'That's a good point, but...' to soften their disagreement by first acknowledging the merit of the other person's idea."
+}

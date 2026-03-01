@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_daily_routine_b2",
+  "name": "A Productive Weekday",
+  "category": "routine",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Student"
+    },
+    {
+      "roleId": "ai",
+      "label": "Tutor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your routine with sequencing and time markers.",
+    "aiGoal": "Ask for details and consistency checks."
+  },
+  "allowedIntents": [
+    "describe_routine",
+    "describe_time",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "supportive",
+    "register": "neutral"
+  },
+  "tags": [
+    "routine",
+    "time",
+    "sequence"
+  ]
+}

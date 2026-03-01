@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_shop_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_shop_return",
+  "prompt": "Identify the request.",
+  "script": "I bought this shirt yesterday. It is too small for me. Actually, can I get a refund instead?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Introducing an unexpected or difficult request",
+      "Correcting the cashier's math",
+      "Complaining about the store",
+      "Asking where the exit is"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'Actually' do in this sentence?"
+  },
+  "explanation": "The speaker uses 'Actually' to soften and intentionally introduce a request that might be slightly difficult or unexpected."
+}

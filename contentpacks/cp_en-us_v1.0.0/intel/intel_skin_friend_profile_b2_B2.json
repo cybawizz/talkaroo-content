@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_friend_profile_b2_B2",
+  "skinId": "skin_friend_profile_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What stands out most is…",
+      "usage": "Use this phrase to emphasize a primary or most striking characteristic of a person's personality or appearance.",
+      "example": "What stands out most is her uncanny ability to remain composed even when the rest of the team is panicking."
+    },
+    {
+      "text": "He tends to…",
+      "usage": "Used for hedging when describing habitual behavior, making the observation sound more objective and less like a definitive judgment.",
+      "example": "He tends to overthink social interactions, which sometimes makes him appear more reserved than he actually is."
+    },
+    {
+      "text": "If I had to sum it up…",
+      "usage": "A useful expression for providing a concluding synthesis of someone's complex character in a few words.",
+      "example": "If I had to sum it up, his personality is a fascinating blend of intellectual curiosity and extreme pragmatism."
+    },
+    {
+      "text": "Compared to…, it feels…",
+      "usage": "Used to provide a nuanced description by contrasting a person's current vibe or behavior against a different context or group.",
+      "example": "Compared to his more boisterous siblings, his quiet demeanor feels quite grounded and sophisticated."
+    },
+    {
+      "text": "It’s located right by…",
+      "usage": "In the context of describing a friend's lifestyle, use this to specify where they live or work to add circumstantial detail.",
+      "example": "Her creative studio is located right by the old harbor, which significantly influences the aesthetic of her artwork."
+    },
+    {
+      "text": "From what I’ve noticed…",
+      "usage": "A hedging device used to frame a personal observation as subjective rather than an absolute fact.",
+      "example": "From what I’ve noticed, he is most energized when he's collaborating on projects that have a clear social impact."
+    },
+    {
+      "text": "A typical day looks like…",
+      "usage": "Use this to describe someone's routine or professional life to give a sense of their character through their actions.",
+      "example": "A typical day for her looks like a rigorous morning routine followed by back-to-back strategy meetings at the agency."
+    },
+    {
+      "text": "The biggest drawback is…",
+      "usage": "Used to introduce a flaw or negative trait in a balanced way, often within a broader, more positive description.",
+      "example": "The biggest drawback is his occasional stubbornness, especially when he is convinced that his method is the most efficient."
+    },
+    {
+      "text": "On the plus side…",
+      "usage": "Used to transition to a positive trait, especially after discussing a person's challenges or quirks.",
+      "example": "On the plus side, her infectious optimism usually manages to lift the spirits of everyone around her."
+    },
+    {
+      "text": "In general, I’d say…",
+      "usage": "Used to provide a broad, balanced summary of a person's overall nature or impact on others.",
+      "example": "In general, I’d say he is a visionary who occasionally loses sight of the smaller, practical details."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Pragmatic",
+      "definition": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations."
+    },
+    {
+      "term": "Reserved",
+      "definition": "Slow to reveal emotions or opinions; often characterized by a quiet or self-contained nature."
+    },
+    {
+      "term": "Reliable",
+      "definition": "Consistently good in quality or performance; able to be trusted to do what is expected."
+    },
+    {
+      "term": "Sophisticated",
+      "definition": "Having a great deal of worldly experience and knowledge of fashion and culture."
+    },
+    {
+      "term": "Visionary",
+      "definition": "Thinking about or planning the future with imagination or wisdom."
+    }
+  ]
+}

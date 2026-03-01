@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_trip_recap_b2_02",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_trip_recap_b2",
+  "prompt": "Identify the emphasis.",
+  "script": "I was absolutely shocked when we finally walked into the main museum exhibit on Tuesday. Honestly, I really didn't expect the place to be that incredibly busy on a random weekday afternoon. There were literally hundreds of tourists lining up outside just waiting for an audio guide to become available. I mean, who goes to an ancient history museum right in the middle of a beautiful beach day? It completely threw off our entire sightseeing itinerary for the afternoon.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly emphasize genuine shock and disbelief at an unexpected travel situation.",
+      "To aggressively complain to the tour guide about the long wait time.",
+      "To confidently boast about predicting exactly how crowded the venue would be.",
+      "To politely ask the museum guard what time the exhibit usually closes."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start their sentence with the adverb 'Honestly'?"
+  },
+  "explanation": "The speaker uses 'Honestly' as an emphatic pragmatical marker to underscore the sincerity of their complete surprise while traveling."
+}

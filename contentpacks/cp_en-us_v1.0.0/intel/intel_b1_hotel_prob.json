@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_hotel_prob",
+  "skinId": "skin_hotel_issue_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I'm having a problem with...",
+      "usage": "Use this phrase to professionally introduce the specific issue you are experiencing with hotel facilities.",
+      "example": "I'm having a problem with the heating system because the room remains quite cold despite the settings."
+    },
+    {
+      "text": "It doesn't seem to work.",
+      "usage": "Use this statement to describe a device or service that is currently non-functional so the staff can prioritize it.",
+      "example": "It doesn't seem to work at all, so I cannot access my emails for the scheduled conference call."
+    },
+    {
+      "text": "Could you send someone to check it?",
+      "usage": "This is a formal way to request a technical inspection or a maintenance visit to your room.",
+      "example": "Could you send someone to check it soon because I am worried about the water leaking on the floor?"
+    },
+    {
+      "text": "My room number is...",
+      "usage": "Provide this information to ensure the staff can correctly identify your location within the hotel.",
+      "example": "My room number is 412, so please instruct the technician to come to the fourth floor."
+    },
+    {
+      "text": "How long will it take?",
+      "usage": "Ask this question to manage your expectations regarding the duration of the repair or the arrival of help.",
+      "example": "How long will it take for the repair to be completed, so I can plan my afternoon accordingly?"
+    },
+    {
+      "text": "Just to confirm, they'll come at...",
+      "usage": "Use this phrase to verify the exact time of the appointment and avoid any potential scheduling errors.",
+      "example": "Just to confirm, they'll come at 4:00 PM because I need to leave for a business meeting shortly after."
+    },
+    {
+      "text": "Thank you, I appreciate it.",
+      "usage": "Conclude the conversation with this professional expression of gratitude to maintain a polite tone.",
+      "example": "Thank you, I appreciate it because it is important that the lighting is fixed before this evening."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Maintenance",
+      "definition": "The department responsible for repairing and preserving the hotel building and its equipment."
+    },
+    {
+      "term": "Malfunction",
+      "definition": "A failure to function normally or a specific technical fault in an appliance or system."
+    },
+    {
+      "term": "Amenity",
+      "definition": "A useful feature or facility provided for the convenience of the guests, such as Wi-Fi or a mini-bar."
+    },
+    {
+      "term": "Technician",
+      "definition": "A skilled worker who is trained to repair specific technical equipment or systems."
+    },
+    {
+      "term": "Rectify",
+      "definition": "A formal verb meaning to correct a situation or fix a problem that has been reported."
+    }
+  ]
+}

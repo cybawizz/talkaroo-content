@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_food_basic",
+  "name": "Food Problem",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Server"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say food is wrong.",
+    "aiGoal": "Apologize."
+  },
+  "allowedIntents": [
+    "report",
+    "ask",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "food",
+    "problem"
+  ]
+}

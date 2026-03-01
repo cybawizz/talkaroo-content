@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_travel_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Identify preference.",
+  "script": "We definitely need to start planning our summer vacation soon. I know you were looking at those luxury resorts along the coast. Generally speaking, I prefer to travel on a budget so we can take more trips. Let's see if we can find a nice Airbnb instead.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To gently introduce a broad personal preference that conflicts with the listener's idea.",
+      "To complain about how expensive luxury resorts are.",
+      "To brag about how much money they save on vacations.",
+      "To firmly refuse to ever stay in a hotel."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Generally speaking'?"
+  },
+  "explanation": "The speaker uses 'Generally speaking' to soften their counter-proposal by framing it as a typical personal habit."
+}

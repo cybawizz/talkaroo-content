@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_movie_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_movie_choice",
+  "prompt": "Identify the suggestion.",
+  "script": "I know you were really hoping to see that new historical drama tonight. I'm just a bit worried it might be too slow and depressing. So, instead of that, how about we watch an action movie? It might be much more entertaining for both of us.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To gently pivot away from the original plan and offer a different suggestion.",
+      "To refuse to go to the movie theater entirely.",
+      "To forcefully demand that they only watch action movies from now on.",
+      "To complain that the historical drama sold out of tickets."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'So, instead of that, how about...'?"
+  },
+  "explanation": "The speaker uses 'So, instead of that, how about...' to politely suggest an alternative without directly rejecting the first idea."
+}

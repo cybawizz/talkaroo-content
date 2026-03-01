@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_L4_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "Pressure twist: your friend gets slightly defensive.",
+  "setup": "Pressure twist: your friend gets slightly defensive.",
+  "aiMove": "So you’re basically saying my taste is bad?",
+  "successCriteria": [
+    "User repairs tone",
+    "User separates idea from person",
+    "User keeps rapport while restating point"
+  ]
+}

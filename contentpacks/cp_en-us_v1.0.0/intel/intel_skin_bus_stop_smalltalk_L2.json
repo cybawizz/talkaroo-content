@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_skin_bus_stop_smalltalk_L2",
+  "skinId": "skin_bus_stop_smalltalk",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, is this the bus to...?",
+      "usage": "Use this helpful question to check with a stranger if the bus travels to your destination.",
+      "example": "Hi, is this the bus to the central park?"
+    },
+    {
+      "text": "I think so.",
+      "usage": "Use this socially helpful response when you believe the information is correct but are not certain.",
+      "example": "Yes, I think so. The sign says city center."
+    },
+    {
+      "text": "I go to work.",
+      "usage": "Use this phrase to explain your daily routine and destination during a polite morning conversation.",
+      "example": "I go to work at the big blue office."
+    },
+    {
+      "text": "I go to school.",
+      "usage": "Use this to tell a fellow passenger where you are heading if you are a student today.",
+      "example": "I go to school to study new modern languages."
+    },
+    {
+      "text": "It usually comes at...",
+      "usage": "Use this to share helpful information about the bus schedule based on your typical daily experience.",
+      "example": "It usually comes at eight o'clock in the morning."
+    },
+    {
+      "text": "It's late today.",
+      "usage": "Use this to start small talk about the current situation when the transport is behind schedule.",
+      "example": "It's late today because the busy traffic is very slow."
+    },
+    {
+      "text": "Where are you going?",
+      "usage": "Use this friendly follow-up question to learn more about the person you are chatting with.",
+      "example": "Where are you going on this very cold rainy day?"
+    },
+    {
+      "text": "Have a good day.",
+      "usage": "Use this kind and polite closing phrase to finish your conversation before you get off.",
+      "example": "Have a good day and enjoy the bright warm sun."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Crowded",
+      "definition": "When there are too many people in one small place."
+    },
+    {
+      "term": "Reliable",
+      "definition": "Something that is good and always works or arrives on time."
+    },
+    {
+      "term": "Frequent",
+      "definition": "Happening or starting many times in a short period."
+    },
+    {
+      "term": "Delayed",
+      "definition": "Happening later than the time that was first planned."
+    },
+    {
+      "term": "Pleasant",
+      "definition": "Something that is nice, enjoyable, or very friendly."
+    }
+  ]
+}

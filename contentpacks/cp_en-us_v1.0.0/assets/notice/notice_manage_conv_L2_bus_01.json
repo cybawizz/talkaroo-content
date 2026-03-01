@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_bus_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_bus_stop_smalltalk",
+  "prompt": "Identify the question.",
+  "script": "Excuse me, I need some information. Is this the bus to town? I don't see a sign.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Politely interrupting a stranger to ask a question",
+      "Saying sorry for bumping into someone",
+      "Demanding to get on the bus",
+      "Ending the conversation"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Excuse me'?"
+  },
+  "explanation": "The speaker uses 'Excuse me' to safely and politely get a stranger's attention at the bus stop."
+}

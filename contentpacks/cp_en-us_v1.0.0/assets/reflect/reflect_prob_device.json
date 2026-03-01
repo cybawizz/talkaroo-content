@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_prob_device",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_device_issue",
+  "mode": "light",
+  "prompt": "Say it better (repair time).",
+  "items": [
+    {
+      "bad": "Screen broken black.",
+      "better": "My screen is broken and it is black.",
+      "note": "Connect with 'and'."
+    },
+    {
+      "bad": "Two days?",
+      "better": "So it will take two days, right?",
+      "note": "Confirm the time."
+    }
+  ]
+}

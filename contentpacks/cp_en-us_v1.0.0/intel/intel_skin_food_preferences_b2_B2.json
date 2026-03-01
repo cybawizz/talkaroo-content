@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_food_preferences_b2_B2",
+  "skinId": "skin_food_preferences_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "If you ask me,…",
+      "usage": "Used to introduce a personal opinion with a degree of subjectivity, often when a decision is pending between several options.",
+      "example": "If you ask me, the bistro's commitment to locally sourced ingredients far outweighs the slightly higher price point."
+    },
+    {
+      "text": "What I like about it is…",
+      "usage": "A focusing structure used to emphasize a specific positive attribute of a choice, making the speaker's preference clear.",
+      "example": "What I like about it is the fusion of traditional techniques with modern presentation, which creates a truly unique dining experience."
+    },
+    {
+      "text": "That said,…",
+      "usage": "A cohesive device used to introduce a contrasting point or a concession, effectively hedging a previous statement to show balanced thinking.",
+      "example": "That said, the ambiance can become rather boisterous during peak hours, which might hinder our ability to have a serious conversation."
+    },
+    {
+      "text": "On balance, I’d choose…",
+      "usage": "Used to signal that after weighing both the pros and cons of a situation, a final preference or decision has been reached.",
+      "example": "On balance, I’d choose the rooftop terrace because the panoramic views more than compensate for the limited menu options."
+    },
+    {
+      "text": "From my perspective,…",
+      "usage": "A formal way to frame an opinion as being based on one's own viewpoint, allowing space for others to hold differing opinions.",
+      "example": "From my perspective, prioritizing the quality of the service is essential if we want this celebratory dinner to feel truly special."
+    },
+    {
+      "text": "I get your point, but…",
+      "usage": "A diplomatic phrase used to acknowledge someone else's argument before presenting a nuanced counter-argument.",
+      "example": "I get your point regarding the convenience of a chain restaurant, but I suspect the authenticity of a family-run trattoria would be more memorable."
+    },
+    {
+      "text": "The main advantage is…",
+      "usage": "Used to highlight the most significant benefit of a specific option, focusing the discussion on a primary logical reason.",
+      "example": "The main advantage is the flexibility of their seating arrangements, which can easily accommodate our group's unpredictable numbers."
+    },
+    {
+      "text": "The downside is…",
+      "usage": "Used to introduce a significant disadvantage or flaw in a proposal, often used to temper enthusiasm with a realistic concern.",
+      "example": "The downside is the lack of vegetarian variety, which might leave a significant portion of our party feeling somewhat overlooked."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "usage": "A collaborative expression used to suggest a compromise when two parties have conflicting preferences or goals.",
+      "example": "Could we meet in the middle and opt for a restaurant that offers both a sophisticated menu and a reasonably central location?"
+    },
+    {
+      "text": "So we agree to…",
+      "usage": "Used to summarize a consensus and confirm that a final decision has been reached by all parties involved.",
+      "example": "So we agree to make a reservation for the early seating to ensure we avoid the excessive noise of the late-night crowd?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Ambiance",
+      "definition": "The character and atmosphere of a place, especially as it is perceived by those in it."
+    },
+    {
+      "term": "Authenticity",
+      "definition": "The quality of being genuine or true to a specific culture, tradition, or set of values."
+    },
+    {
+      "term": "Compromise",
+      "definition": "An agreement reached by each side making concessions to find a middle ground."
+    },
+    {
+      "term": "Viability",
+      "definition": "The ability of a choice or plan to work successfully or be sustainable under specific conditions."
+    },
+    {
+      "term": "Aesthetic",
+      "definition": "A set of principles concerned with nature and the appreciation of beauty or visual style."
+    }
+  ]
+}

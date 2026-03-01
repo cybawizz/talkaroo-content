@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_recent",
+  "skinId": "skin_recent_event",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Recently, I...",
+      "usage": "Use this phrase to introduce the primary event or specific activity that occurred in the near past.",
+      "example": "Recently, I attended a professional seminar because I wanted to improve my leadership skills."
+    },
+    {
+      "text": "Because of that, ...",
+      "usage": "Use this connector to explain the direct result or logical consequence of a previously mentioned action.",
+      "example": "Because of that, I decided to implement a new workflow so my team could work more efficiently."
+    },
+    {
+      "text": "So I...",
+      "usage": "Use this phrase to describe a specific decision or step taken in response to the situation.",
+      "example": "I noticed a recurring mistake in the report, so I contacted the manager immediately to resolve the issue."
+    },
+    {
+      "text": "In the end, ...",
+      "usage": "Use this to summarize the final resolution or the ultimate outcome of the event described.",
+      "example": "In the end, we reached our target because everyone contributed their technical expertise to the project."
+    },
+    {
+      "text": "I was surprised because...",
+      "usage": "Use this to explain an unexpected reaction or an unforeseen detail regarding the event.",
+      "example": "I was surprised because the client accepted the proposal quickly, so we started the project earlier than expected."
+    },
+    {
+      "text": "What would you do?",
+      "usage": "Use this question to invite the listener to evaluate the situation and provide an alternative perspective.",
+      "example": "Given the complexity of the sudden budget cuts, what would you do to maintain office productivity?"
+    },
+    {
+      "text": "Honestly, ...",
+      "usage": "Use this to share a sincere professional reflection or a personal assessment of the outcome.",
+      "example": "Honestly, I felt relieved after the presentation because the feedback from the board was very constructive."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Implement",
+      "definition": "To start using a plan, system, or process within a professional context."
+    },
+    {
+      "term": "Coordinate",
+      "definition": "To organize different parts of an activity so they work together efficiently."
+    },
+    {
+      "term": "Resolve",
+      "definition": "To find a successful solution to a problem or a difficult situation."
+    },
+    {
+      "term": "Accomplish",
+      "definition": "To succeed in doing something, especially after significant effort or planning."
+    },
+    {
+      "term": "Observe",
+      "definition": "To watch something carefully in order to learn or understand specific details."
+    }
+  ]
+}

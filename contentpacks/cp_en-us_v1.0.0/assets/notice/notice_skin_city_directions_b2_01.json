@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_city_directions_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_city_directions_b2",
+  "prompt": "Identify the constraint.",
+  "script": "If you're heading downtown, I wouldn't take the main route today. As a matter of fact, the entire road is completely blocked off right now due to some major roadworks. Because of that, you'll definitely need to find a detour around the construction zone. I'd highly recommend taking the highway instead. It might add a few miles, but it will save you a huge headache in the long run.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To provide an undeniable fact that explains why a certain action is impossible.",
+      "To complain that the city never finishes roadworks on time.",
+      "To brag about knowing a secret detour that no one else knows.",
+      "To excitedly invite the listener to watch the road construction."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the phrase 'As a matter of fact'?"
+  },
+  "explanation": "The speaker uses 'As a matter of fact' to firmly introduce a concrete, undeniable piece of reality that significantly impacts the situation."
+}

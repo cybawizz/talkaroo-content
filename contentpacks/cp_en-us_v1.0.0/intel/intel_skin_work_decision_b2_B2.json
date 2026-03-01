@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_work_decision_b2_B2",
+  "skinId": "skin_work_decision_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "If you ask me,…",
+      "usage": "Use this to preface a personal opinion when you want to appear both direct and open to further discussion.",
+      "example": "If you ask me, the proposed restructuring might be premature given our current budgetary constraints."
+    },
+    {
+      "text": "What I like about it is…",
+      "usage": "A constructive way to highlight a specific strength of a proposal before offering more critical feedback.",
+      "example": "What I like about it is the inherent scalability, although the initial implementation phase seems rather aggressive."
+    },
+    {
+      "text": "That said,…",
+      "usage": "A common hedging transition used to introduce a contrasting point or a limitation after acknowledging a benefit.",
+      "example": "The new software could streamline our workflow; that said, the learning curve for the staff shouldn't be overlooked."
+    },
+    {
+      "text": "On balance, I’d choose…",
+      "usage": "Used to state a final preference after having weighed various pros and cons of different options.",
+      "example": "Having considered both the financial implications and the long-term growth, on balance, I’d choose the second alternative."
+    },
+    {
+      "text": "From my perspective,…",
+      "usage": "Used to frame your input as a subjective viewpoint, which helps soften a firm stance in professional settings.",
+      "example": "From my perspective, focusing on employee retention is just as vital as achieving our quarterly sales targets."
+    },
+    {
+      "text": "I get your point, but…",
+      "usage": "A polite method of validating a colleague's argument before pivoting to your own counter-argument.",
+      "example": "I get your point regarding the immediate savings, but we must also consider the potential impact on brand reputation."
+    },
+    {
+      "text": "The main advantage is…",
+      "usage": "Used to isolate and emphasize the primary benefit of a specific course of action.",
+      "example": "The main advantage is that it leverages our existing infrastructure, which minimizes the need for external consultants."
+    },
+    {
+      "text": "The downside is…",
+      "usage": "Used to identify a specific drawback or risk associated with a plan in a professional and clear manner.",
+      "example": "The downside is that this strategy requires a significant reallocation of resources from other critical departments."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "usage": "A collaborative phrase used to propose a compromise when two parties have conflicting requirements.",
+      "example": "Since we disagree on the project timeline, could we meet in the middle and aim for a soft launch in early October?"
+    },
+    {
+      "text": "So we agree to…",
+      "usage": "Used to summarize the conclusion of a negotiation and confirm that all stakeholders are in alignment.",
+      "example": "So we agree to implement the pilot program for three months before committing to a full-scale rollout, correct?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Feasibility",
+      "definition": "The degree to which a plan or method is practical and likely to be successful."
+    },
+    {
+      "term": "Trade-off",
+      "definition": "A balance achieved between two desirable but incompatible features; a compromise."
+    },
+    {
+      "term": "Consensus",
+      "definition": "A general agreement reached by a group of people involved in a discussion."
+    },
+    {
+      "term": "Implications",
+      "definition": "The possible future effects or results of a decision or action."
+    },
+    {
+      "term": "Mitigation",
+      "definition": "The action of reducing the severity or seriousness of a potential risk."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "journeyId": "skill_express_opinions_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_choose_restaurant",
+    "skin_movie_choice",
+    "skin_work_policy_opinion",
+    "skin_travel_preference",
+    "skin_shopping_choice"
+  ],
+  "intelPacks": [
+    "intel_b1_restaurant_op",
+    "intel_b1_movie_op",
+    "intel_b1_work_op",
+    "intel_b1_travel_op",
+    "intel_b1_shop_op"
+  ],
+  "noticeAssets": [
+    "n_b1_op_rest_01",
+    "n_b1_op_rest_02",
+    "n_b1_op_movie_01",
+    "n_b1_op_movie_02",
+    "n_b1_op_work_01",
+    "n_b1_op_work_02",
+    "n_b1_op_travel_01",
+    "n_b1_op_travel_02",
+    "n_b1_op_shop_01",
+    "n_b1_op_shop_02"
+  ],
+  "adaptAssets": [
+    "a_b1_op_rest",
+    "a_b1_op_movie",
+    "a_b1_op_work",
+    "a_b1_op_travel",
+    "a_b1_op_shop"
+  ],
+  "reflectAssets": [
+    "r_b1_op_rest",
+    "r_b1_movie_op",
+    "r_b1_op_work",
+    "r_b1_op_travel",
+    "r_b1_op_shop"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b1_opinions",
+    "skillId": "skill_express_opinions",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "f_opinion",
+        "pattern": "In my opinion, {topic} is {adj}.",
+        "slots": [
+          "topic",
+          "adj"
+        ],
+        "notes": "Opinion."
+      },
+      {
+        "frameId": "f_prefer",
+        "pattern": "I prefer {option} because {reason}.",
+        "slots": [
+          "option",
+          "reason"
+        ],
+        "notes": "Preference + reason."
+      },
+      {
+        "frameId": "f_contrast",
+        "pattern": "I see what you mean, but {counter}.",
+        "slots": [
+          "counter"
+        ],
+        "notes": "Soft disagreement."
+      },
+      {
+        "frameId": "f_compare",
+        "pattern": "Compared to {a}, {b} is {comparison}.",
+        "slots": [
+          "a",
+          "b",
+          "comparison"
+        ],
+        "notes": "Comparison."
+      },
+      {
+        "frameId": "f_compromise",
+        "pattern": "Could we compromise and {plan}?",
+        "slots": [
+          "plan"
+        ],
+        "notes": "Compromise."
+      },
+      {
+        "frameId": "f_confirm",
+        "pattern": "So we’ll choose {choice}, right?",
+        "slots": [
+          "choice"
+        ],
+        "notes": "Confirm decision."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Let me explain what I mean.",
+        "notes": "Clarify."
+      },
+      {
+        "text": "I'm not sure how to say it, but I prefer the other one.",
+        "notes": "Fallback."
+      }
+    ]
+  }
+}

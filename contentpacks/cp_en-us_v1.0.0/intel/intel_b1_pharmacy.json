@@ -1,0 +1,60 @@
+{
+  "intelId": "intel_b1_pharmacy",
+  "skinId": "skin_pharmacy_help",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you recommend something for ...?",
+      "usage": "Use this phrase to formally request a professional suggestion from the pharmacist when you are experiencing specific symptoms.",
+      "example": "Could you recommend something for a persistent headache because I am struggling to concentrate on my work?"
+    },
+    {
+      "text": "How often should I take it?",
+      "usage": "Use this question to determine the correct frequency of the medication so that you maintain the proper dosage in your system.",
+      "example": "How often should I take it so that I can manage the symptoms effectively without exceeding the limit?"
+    },
+    {
+      "text": "Should I take it with food?",
+      "usage": "Use this to clarify if the medication requires ingestion alongside a meal to prevent stomach irritation or improve absorption.",
+      "example": "Should I take it with food because I am worried about experiencing nausea on an empty stomach?"
+    },
+    {
+      "text": "Is it okay if I’m allergic to ...?",
+      "usage": "Use this to inform the pharmacist about specific medical sensitivities so they can verify if the product is safe for you.",
+      "example": "Is it okay if I’m allergic to penicillin because I must avoid certain compounds to prevent a reaction?"
+    },
+    {
+      "text": "Are there any side effects?",
+      "usage": "Use this to inquire about potential secondary reactions of the drug so you are fully informed before starting the treatment.",
+      "example": "Are there any side effects because I need to remain alert for my driving test later today?"
+    },
+    {
+      "text": "So I take one now and one later, right?",
+      "usage": "Use this checking question to confirm your understanding of the instructions so you can follow the prescribed schedule accurately.",
+      "example": "So I take one now and one later, right, because I must strictly adhere to the professional advice provided?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Dosage",
+      "definition": "The specific amount of medicine that you are advised to take at one time."
+    },
+    {
+      "term": "Prescription",
+      "definition": "A formal document from a doctor that authorizes a patient to receive specific medicine."
+    },
+    {
+      "term": "Counter-indication",
+      "definition": "A medical reason why a particular treatment or medication should not be used."
+    },
+    {
+      "term": "Adverse",
+      "definition": "Describing a result that is harmful, unfavorable, or unintended."
+    },
+    {
+      "term": "Administer",
+      "definition": "The act of giving or applying a dose of medication to oneself or another person."
+    }
+  ]
+}

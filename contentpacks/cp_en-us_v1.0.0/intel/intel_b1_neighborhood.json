@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_neighborhood",
+  "skinId": "skin_neighborhood_tour",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "It's a quiet area.",
+      "usage": "Use this to describe the noise level and general atmosphere of your residential surroundings.",
+      "example": "It's a quiet area because there is limited traffic, so it is perfect for studying at home."
+    },
+    {
+      "text": "It's close to ...",
+      "usage": "Use this to indicate the proximity of your home to essential services or landmarks.",
+      "example": "It's close to the city library, so I can access academic resources without needing a car."
+    },
+    {
+      "text": "The best thing is...",
+      "usage": "Use this to introduce the primary advantage or most positive feature of your neighborhood.",
+      "example": "The best thing is the efficient public transport because it allows me to commute quickly to work."
+    },
+    {
+      "text": "One downside is...",
+      "usage": "Use this to professionally mention a specific disadvantage or negative aspect of where you live.",
+      "example": "One downside is the lack of green spaces, so I have to travel further to visit a park."
+    },
+    {
+      "text": "Compared to ..., it's...",
+      "usage": "Use this to contrast your current neighborhood with another location to provide a better perspective.",
+      "example": "Compared to the city center, it's significantly more affordable, so I can save more money each month."
+    },
+    {
+      "text": "You can easily...",
+      "usage": "Use this to describe the convenience or accessibility of certain activities in your area.",
+      "example": "You can easily access the main highway, so traveling to neighboring cities is very convenient."
+    },
+    {
+      "text": "There are plenty of...",
+      "usage": "Use this to highlight the abundance of specific facilities or amenities in your vicinity.",
+      "example": "There are plenty of local businesses nearby, so the neighborhood supports a vibrant local economy."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Amenity",
+      "definition": "A desirable or useful feature of a building or place."
+    },
+    {
+      "term": "Residential",
+      "definition": "Designed for people to live in rather than for commercial or industrial use."
+    },
+    {
+      "term": "Commute",
+      "definition": "To travel some distance between one's home and place of work on a regular basis."
+    },
+    {
+      "term": "Infrastructure",
+      "definition": "The basic physical and organizational structures needed for the operation of a society."
+    },
+    {
+      "term": "Proximity",
+      "definition": "Nearness in space, time, or relationship."
+    }
+  ]
+}

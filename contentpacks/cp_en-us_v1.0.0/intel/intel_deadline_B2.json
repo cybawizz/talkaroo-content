@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_deadline_B2",
+  "skinId": "skin_work_deadline",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m concerned this timeline is tight.",
+      "usage": "Use this phrase as a polite hedge to express doubt about a deadline without appearing uncooperative or blunt.",
+      "example": "While I appreciate the team's enthusiasm for the launch, I’m concerned this timeline is tight given our current resource constraints."
+    },
+    {
+      "text": "The risk is that…",
+      "usage": "Utilize this to frame your disagreement objectively by focusing on potential negative outcomes rather than personal feelings.",
+      "example": "The risk is that if we prioritize speed over quality, we may encounter significant technical debt that will be more costly to fix later."
+    },
+    {
+      "text": "If we prioritize X, we can deliver Y.",
+      "usage": "Use this conditional structure to negotiate the scope of work, suggesting a trade-off that maintains high standards for key deliverables.",
+      "example": "If we prioritize the core API integration, we can deliver a stable version of the application by the original deadline."
+    },
+    {
+      "text": "Could we extend it by…?",
+      "usage": "This is a direct but nuanced way to propose a specific adjustment to the schedule while maintaining a collaborative tone.",
+      "example": "To ensure we have sufficient time for thorough user acceptance testing, could we extend the deadline by two business days?"
+    },
+    {
+      "text": "As a compromise…",
+      "usage": "Use this phrase to signal your willingness to find a middle ground, which is essential for professional conflict resolution.",
+      "example": "As a compromise, we could release the essential features next week and schedule a follow-up patch for the secondary requirements."
+    },
+    {
+      "text": "What would success look like?",
+      "usage": "Use this strategic question to clarify the stakeholder's true priorities and identify which parts of the project are non-negotiable.",
+      "example": "Before we finalize the revised schedule, what would success look like for this specific milestone from a business perspective?"
+    },
+    {
+      "text": "I can commit to…",
+      "usage": "Use this to set firm and realistic expectations, demonstrating accountability while enforcing your previously negotiated boundaries.",
+      "example": "I can commit to delivering the initial design mockups by Wednesday, provided that the requirements do not change in the interim."
+    },
+    {
+      "text": "Let’s align on next steps.",
+      "usage": "This phrase serves to summarize the negotiation and ensure mutual understanding before ending the discussion.",
+      "example": "Now that we have agreed on the revised project scope, let’s align on next steps to ensure the development team is fully briefed."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Feasibility",
+      "definition": "The degree to which a plan or project is likely to be successful or possible to achieve within specific constraints."
+    },
+    {
+      "term": "Trade-off",
+      "definition": "A balancing act where one quality or advantage is lost in return for gaining another quality or advantage."
+    },
+    {
+      "term": "Contingency",
+      "definition": "A provision for an unforeseen event or circumstance that might occur in the future."
+    },
+    {
+      "term": "Mitigate",
+      "definition": "To make something less severe, serious, or painful, often used in the context of reducing business risks."
+    },
+    {
+      "term": "Stakeholder",
+      "definition": "A person or group that has an interest or concern in an organization or a specific project outcome."
+    }
+  ]
+}

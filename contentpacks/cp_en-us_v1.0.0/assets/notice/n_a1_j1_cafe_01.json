@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j1_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Listen for the greeting.",
+  "script": "Excuse me, good morning. Can I get a coffee? Just a small one.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Getting someone's attention",
+      "Stating a firm fact",
+      "Saying goodbye to a friend",
+      "Complaining about the weather"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Excuse me, good morning'?"
+  },
+  "explanation": "The speaker uses 'Excuse me' to politely get the barista's attention before placing an order."
+}

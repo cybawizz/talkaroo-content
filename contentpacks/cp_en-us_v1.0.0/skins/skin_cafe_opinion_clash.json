@@ -1,0 +1,41 @@
+{
+  "skinId": "skin_cafe_opinion_clash",
+  "name": "Café Catch-Up With a Disagreement",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Friend"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Start warmly, share a nuanced opinion, disagree politely, and end on good terms.",
+    "aiGoal": "Challenge one point and push for clarification before agreeing to move on."
+  },
+  "allowedIntents": [
+    "greet",
+    "open_topic",
+    "express_opinion",
+    "hedge",
+    "give_reason",
+    "agree_disagree",
+    "clarify_position",
+    "repair_misunderstanding",
+    "summarize",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "informal"
+  },
+  "tags": [
+    "cafe",
+    "friendship",
+    "disagreement",
+    "rapport"
+  ]
+}

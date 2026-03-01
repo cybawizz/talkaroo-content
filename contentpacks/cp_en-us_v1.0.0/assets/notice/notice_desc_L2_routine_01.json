@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_routine_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_morning_routine",
+  "prompt": "Identify the sequence.",
+  "script": "My mornings are usually the same. I wake up at seven o'clock. Then, I have breakfast in the kitchen. Finally, I leave for work.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Showing the next step in their routine",
+      "Refusing to eat breakfast",
+      "Disagreeing with someone's question",
+      "Saying goodbye for the day"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Then'?"
+  },
+  "explanation": "The speaker uses 'Then' to clearly sequence the next step in their daily routine."
+}

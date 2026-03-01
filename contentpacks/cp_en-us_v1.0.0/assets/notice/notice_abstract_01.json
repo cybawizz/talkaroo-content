@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_abstract_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "prompt": "Identify the balanced view.",
+  "script": "This proposed city infrastructure policy is incredibly complex and guaranteed to be controversial among local residents. On the one hand, it undeniably creates significantly faster transit access for the entire downtown commercial district. However, on the other hand, it realistically might create severe economic inequality for neighborhoods located outside the primary service zone. We really need to look at the long-term data before making any irreversible final decisions. As a matter of fact, ignoring the suburban impact could be politically disastrous.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To enthusiastically focus purely on the massive positive effects of the new city proposal.",
+      "To aggressively focus solely on the terrible negative consequences of the new transit policy.",
+      "To deliberately set up a carefully balanced view by formally contrasting two opposing perspectives.",
+      "To happily announce that they simply don't care about the new infrastructure policy at all."
+    ],
+    "answerIndex": 2,
+    "prompt": "How does the speaker use transition phrases to structure their complex opinion?"
+  },
+  "explanation": "The speaker explicitly uses the formal contrasting frame 'On the one hand... on the other hand' to deliberately present a balanced, multi-faceted argument."
+}

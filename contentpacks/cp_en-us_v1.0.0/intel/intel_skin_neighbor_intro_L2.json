@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_skin_neighbor_intro_L2",
+  "skinId": "skin_neighbor_intro",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, I'm your new neighbor.",
+      "usage": "Use this friendly greeting when you meet someone nearby.",
+      "example": "Hi, I'm your new neighbor in the blue house."
+    },
+    {
+      "text": "I moved here last week.",
+      "usage": "Say this to explain that you are new here.",
+      "example": "I moved here last week and I like it."
+    },
+    {
+      "text": "I'm from... originally.",
+      "usage": "Use this to share where you lived before moving.",
+      "example": "I'm from Spain originally, but now I live here."
+    },
+    {
+      "text": "I live in apartment...",
+      "usage": "Tell your neighbor exactly which home is yours now.",
+      "example": "I live in apartment 4C on the second floor."
+    },
+    {
+      "text": "It's nice to meet you.",
+      "usage": "This is a polite way to end your first conversation.",
+      "example": "It's nice to meet you, have a wonderful afternoon."
+    },
+    {
+      "text": "Do you like it here?",
+      "usage": "Ask this to hear your neighbor's opinion about the area.",
+      "example": "Do you like it here in this busy city?"
+    },
+    {
+      "text": "It's quiet and nice.",
+      "usage": "Use this to describe your positive feeling about the street.",
+      "example": "It's quiet and nice here during the sunny weekend."
+    },
+    {
+      "text": "See you around.",
+      "usage": "A casual way to say goodbye to a local neighbor.",
+      "example": "See you around the building later this busy week."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Neighbor",
+      "definition": "A person who lives very close to your home."
+    },
+    {
+      "term": "Quiet",
+      "definition": "A place with very little noise or busy sound."
+    },
+    {
+      "term": "Friendly",
+      "definition": "Being kind and nice to the people you meet."
+    },
+    {
+      "term": "Local",
+      "definition": "Found in the area near where you live now."
+    },
+    {
+      "term": "Modern",
+      "definition": "Having a new and very fresh style or design."
+    }
+  ]
+}

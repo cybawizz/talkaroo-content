@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_mall_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_mall_info",
+  "prompt": "Identify the location.",
+  "script": "The bathroom you're looking for is a bit tricky to find from here. You'll need to go all the way down this particular hallway first. Once you pass the shoe store, it is right next to the food court. Just look for the escalators, and you can't miss it.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To reassure the listener that the destination will be obvious once they get close.",
+      "To threaten the listener with getting lost if they aren't careful.",
+      "To brag about how well they know the entire mall layout.",
+      "To complain that the bathrooms are too hidden."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'you can't miss it'?"
+  },
+  "explanation": "The speaker uses 'you can't miss it' to reassure the listener that their directions lead to an obvious, impossible-to-miss landmark."
+}

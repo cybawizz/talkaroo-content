@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_update_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Say it better (clear + concise).",
+  "items": [
+    {
+      "bad": "We are fine but maybe not.",
+      "better": "To summarize, we’re on track, but the main risk is vendor integration delays.",
+      "note": "summary"
+    },
+    {
+      "bad": "We’ll try something else.",
+      "better": "To mitigate this, we can prepare a fallback flow and run a smaller rollout.",
+      "note": "mitigation"
+    }
+  ]
+}

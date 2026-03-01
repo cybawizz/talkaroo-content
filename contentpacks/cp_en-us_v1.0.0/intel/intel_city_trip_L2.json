@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_city_trip_L2",
+  "skinId": "skin_city_trip",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Last week, I went to ...",
+      "usage": "Use this phrase to begin your story about a trip.",
+      "example": "Last week, I went to the beautiful city of London."
+    },
+    {
+      "text": "I visited the ...",
+      "usage": "Use this to mention a specific place you saw there.",
+      "example": "I visited the local museum because it was very famous."
+    },
+    {
+      "text": "Then I walked to ...",
+      "usage": "Use this to explain how you moved to your next stop.",
+      "example": "Then I walked to the central park to see flowers."
+    },
+    {
+      "text": "I took the bus.",
+      "usage": "Use this to tell others which transport you used today.",
+      "example": "I took the bus because the weather was very rainy."
+    },
+    {
+      "text": "I came back at ...",
+      "usage": "Use this to state what time you returned to home.",
+      "example": "I came back at seven o'clock after a long day."
+    },
+    {
+      "text": "I ate lunch at ...",
+      "usage": "Use this to explain your midday meal time or location.",
+      "example": "I ate lunch at a small cafe with my friends."
+    },
+    {
+      "text": "It was crowded.",
+      "usage": "Use this to describe a place with too many people.",
+      "example": "It was crowded so we did not stay very long."
+    },
+    {
+      "text": "After that, I ...",
+      "usage": "Use this to describe the next activity in your schedule.",
+      "example": "After that, I bought some tasty food for my dinner."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Exciting",
+      "definition": "Making you feel very happy and full of energy."
+    },
+    {
+      "term": "Tired",
+      "definition": "Needing to rest because you have no more energy."
+    },
+    {
+      "term": "Lovely",
+      "definition": "Very nice, beautiful, or pleasant for a person to experience."
+    },
+    {
+      "term": "Boring",
+      "definition": "Not interesting at all and making you feel tired."
+    },
+    {
+      "term": "Busy",
+      "definition": "Full of people or having many things happening at once."
+    }
+  ]
+}

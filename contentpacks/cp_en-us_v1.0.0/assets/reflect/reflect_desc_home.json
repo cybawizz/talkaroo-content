@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_desc_home",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_new_home",
+  "mode": "light",
+  "prompt": "Say it better (place details).",
+  "items": [
+    {
+      "bad": "Apartment small near station.",
+      "better": "My apartment is small and near the station.",
+      "note": "Use full sentence."
+    },
+    {
+      "bad": "Third floor.",
+      "better": "It is on the third floor.",
+      "note": "Add 'It is on'."
+    }
+  ]
+}

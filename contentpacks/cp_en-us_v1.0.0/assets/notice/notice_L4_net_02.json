@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_net_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_networking_smalltalk_to_topic",
+  "prompt": "What does the speaker signal?",
+  "script": "I have to say, that specific challenge really resonates with me. As a matter of fact, we've seen the exact same issue crop up on our own engineering team over the last few months. It's surprisingly difficult to maintain team cohesion when everyone is working from different time zones. How did your management team finally decide to address it? I'd honestly love to hear your solution.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To build rapport by actively validating the other person's experience as a shared challenge.",
+      "To aggressively complain about how terrible their own company is.",
+      "To boast about having already completely solved the problem they are discussing.",
+      "To change the subject because they are bored with the conversation."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the phrase 'that specific challenge really resonates with me'?"
+  },
+  "explanation": "The speaker uses 'resonates with me' to explicitly show empathy and establish a connection based on a shared professional struggle."
+}

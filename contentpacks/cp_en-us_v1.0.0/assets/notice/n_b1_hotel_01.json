@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Understand the issue.",
+  "script": "Welcome to the Grand Hotel. I see you're asking about dinner reservations for this evening. Unfortunately, our main restaurant is fully booked for the rest of the night, I'm afraid. However, I would be happy to recommend some excellent places nearby if you'd like.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To politely apologize while delivering disappointing news to a guest.",
+      "To scold the guest for not making a reservation earlier.",
+      "To excitedly announce that the restaurant is very popular.",
+      "To boast about how busy the hotel currently is."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'I'm afraid' at the end of their sentence?"
+  },
+  "explanation": "The speaker uses 'I'm afraid' as a polite phrase to soften the impact of saying no or giving bad news."
+}

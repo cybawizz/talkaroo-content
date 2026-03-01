@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_travel_mishap",
+  "name": "Travel Mishap",
+  "category": "travel",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Traveler"
+    },
+    {
+      "roleId": "ai",
+      "label": "Local Acquaintance"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a small travel problem and how you solved it.",
+    "aiGoal": "Ask for details and suggest what to do next time."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_problem",
+    "describe_solution",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "travel",
+    "problem",
+    "solution"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_street_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Pick the next step.",
+  "script": "Okay, so finding the post office from here is pretty simple. First, you just need to go straight for about two blocks. After that, make a sharp left turn right at the bank on the corner. It'll be the second big brick building on your right.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce a sequence of instructions by marking the very first step.",
+      "To angrily complain that the person is lost.",
+      "To boast about how quickly they can walk to the post office.",
+      "To excitedly tell a story about going to the bank."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker begin the instructions with 'First'?"
+  },
+  "explanation": "The speaker uses 'First' to clearly organize their directions into an easy-to-follow chronological sequence."
+}

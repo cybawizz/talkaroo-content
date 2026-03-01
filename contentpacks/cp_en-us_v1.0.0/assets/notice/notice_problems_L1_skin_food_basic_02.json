@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_food_basic_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_food_basic",
+  "prompt": "What did the waiter say?",
+  "script": "So, I am sorry. A new one, please. This is very bad.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Transitioning to a request or solution",
+      "Refusing to pay the bill",
+      "Saying they like the food",
+      "Asking for the manager"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start with 'So'?"
+  },
+  "explanation": "The speaker uses 'So' to transition from pointing out the problem to asking for a solution."
+}

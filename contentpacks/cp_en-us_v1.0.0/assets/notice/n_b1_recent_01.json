@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_recent_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_recent_event",
+  "prompt": "Identify the cause.",
+  "script": "I went to that new networking event downtown last night. To be honest, it was incredibly crowded and really loud. I couldn't even hear the people standing right next to me. Because of that, I ended up just going home early.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To cleanly explicitly link a result back to the specific cause they just described.",
+      "To apologize for leaving the party without saying goodbye.",
+      "To complain that the food at the event was terrible.",
+      "To boast about how many people they met."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Because of that'?"
+  },
+  "explanation": "The speaker uses 'Because of that' to show a direct cause-and-effect relationship between the noisy room and their decision to leave."
+}

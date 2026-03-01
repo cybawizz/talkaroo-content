@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_movie_op",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_movie_choice",
+  "prompt": "Add soft disagreement.",
+  "items": [
+    {
+      "bad": "No horror. I want comedy.",
+      "better": "I see what you mean, but I prefer comedies because they help me relax.",
+      "note": "Acknowledge first."
+    }
+  ]
+}

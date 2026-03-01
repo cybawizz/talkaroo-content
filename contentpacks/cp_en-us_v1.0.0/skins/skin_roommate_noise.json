@@ -1,0 +1,37 @@
+{
+  "skinId": "skin_roommate_noise",
+  "name": "Roommate Noise Discussion",
+  "category": "home_social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Roommate A"
+    },
+    {
+      "roleId": "ai",
+      "label": "Roommate B"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your concern, disagree politely, and propose a compromise.",
+    "aiGoal": "Defend your view a little, then negotiate and agree on a clear plan."
+  },
+  "allowedIntents": [
+    "express_concern",
+    "disagree",
+    "give_reason",
+    "propose_solution",
+    "negotiate",
+    "confirm_agreement",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "calm",
+    "register": "informal"
+  },
+  "tags": [
+    "home",
+    "noise",
+    "compromise"
+  ]
+}

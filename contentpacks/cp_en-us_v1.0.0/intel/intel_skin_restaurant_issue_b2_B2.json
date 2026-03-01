@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_restaurant_issue_b2_B2",
+  "skinId": "skin_restaurant_issue_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m afraid there’s an issue with…",
+      "usage": "Employs a hedging strategy to soften the delivery of a complaint, making it sound more professional and less confrontational.",
+      "example": "I’m afraid there’s an issue with the internal temperature of the steak; it seems to be prepared medium-well rather than rare as requested."
+    },
+    {
+      "text": "Could we look at a couple of options?",
+      "usage": "Used to foster a collaborative atmosphere by inviting the staff to suggest various solutions rather than demanding a single specific outcome.",
+      "example": "Since the kitchen is no longer serving the appetizer I ordered, could we look at a couple of options to substitute it for something else?"
+    },
+    {
+      "text": "What would you be able to do on your side?",
+      "usage": "A sophisticated way to prompt the service provider to offer a remedy or compensation without the customer having to name one first.",
+      "example": "Given the significant delay in our seating despite our reservation, what would you be able to do on your side to rectify the situation?"
+    },
+    {
+      "text": "To be clear, I’m asking for…",
+      "usage": "A clarificatory phrase used to avoid ambiguity and ensure the specific desired resolution is understood by both parties.",
+      "example": "To be clear, I’m asking for a complete replacement of the dish rather than just having it reheated, as I'm concerned about the quality."
+    },
+    {
+      "text": "That doesn’t quite solve the problem because…",
+      "usage": "Politely rejects a proposed solution by providing a logical justification, maintaining a calm and objective tone.",
+      "example": "That doesn’t quite solve the problem because I have a severe dairy allergy and cannot simply have the cheese removed from the existing salad."
+    },
+    {
+      "text": "Is there any flexibility on the timeline?",
+      "usage": "Inquires about the possibility of expediting a process or service in a nuanced manner, showing awareness of the staff's constraints.",
+      "example": "We are actually on our way to a show that starts in thirty minutes, so is there any flexibility on the timeline for bringing out our mains?"
+    },
+    {
+      "text": "Could you confirm what happens next?",
+      "usage": "Ensures that both the customer and the staff have a mutual understanding of the agreed-upon action plan to resolve the issue.",
+      "example": "Before you head back to the kitchen to check with the manager, could you confirm what happens next regarding the bill adjustment?"
+    },
+    {
+      "text": "I’d appreciate it if we could…",
+      "usage": "A formal and respectful way to state a preference or request a specific change in service or environment.",
+      "example": "I’d appreciate it if we could be relocated to a table further away from the drafty entrance to make our dining experience more comfortable."
+    },
+    {
+      "text": "If that’s not possible, the next best thing is…",
+      "usage": "Demonstrates communicative competence by offering a secondary compromise if the primary request cannot be accommodated.",
+      "example": "If that’s not possible, the next best thing is for us to cancel the order entirely and just settle the tab for the beverages we've had."
+    },
+    {
+      "text": "Thanks for sorting this out.",
+      "usage": "A polite closing used to acknowledge the effort made by the staff to resolve a conflict, ensuring a positive final impression.",
+      "example": "I really value how professionally you handled the mix-up with our reservation; thanks for sorting this out so efficiently for us."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Rectify",
+      "definition": "To put right or correct a situation that is unsatisfactory or wrong."
+    },
+    {
+      "term": "Discrepancy",
+      "definition": "A lack of compatibility or a surprising difference between two sets of information, such as a bill and a menu."
+    },
+    {
+      "term": "Compromise",
+      "definition": "An agreement reached by each side making concessions to find a middle ground."
+    },
+    {
+      "term": "Inconvenience",
+      "definition": "Trouble or difficulty caused to one's personal comfort or plans."
+    },
+    {
+      "term": "Accountability",
+      "definition": "The fact or condition of being responsible for a particular action or outcome."
+    }
+  ]
+}

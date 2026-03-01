@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_queue_02",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_queue_smalltalk",
+  "prompt": "Identify the polite disagreement.",
+  "script": "I completely understand why you're frustrated about the long wait. It definitely feels like we've been standing in this line forever. However, I noticed that there are only two cashiers working right now. They're probably doing the best they can under the circumstances.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To gently introduce a reason that might explain the slow service.",
+      "To aggressively complain about the slow cashiers.",
+      "To demand that the listener stop talking to them.",
+      "To boast about how observant they are in stores."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'However, I noticed'?"
+  },
+  "explanation": "The speaker uses 'However, I noticed' to politely pivot from agreeing with the complaint to offering a mitigating factor."
+}

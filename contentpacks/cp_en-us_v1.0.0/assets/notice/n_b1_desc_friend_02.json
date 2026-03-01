@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_friend_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_friend_profile",
+  "prompt": "Identify the job.",
+  "script": "Sarah is always incredibly busy these days. I hardly ever get to see her on the weekends anymore. As you might expect, she often works late shifts as a nurse at the hospital. Her schedule is just completely unpredictable.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To point out that her demanding job logically explains her lack of free time.",
+      "To complain that Sarah is lying about her job.",
+      "To ask the listener to guess what Sarah does for a living.",
+      "To boast about Sarah's high salary."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'As you might expect'?"
+  },
+  "explanation": "The speaker uses 'As you might expect' to show that a situation is the logical consequence of a known fact."
+}

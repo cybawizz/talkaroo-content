@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_noise_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Identify the compromise.",
+  "script": "I completely understand that you desperately need to get your daily practice hours in for your upcoming music recital. It clearly sounds like stopping completely at eight o'clock just isn't a viable option for your strict schedule. How about we agree that you strictly use your electronic headphones on the weekdays, and then we can be entirely more flexible about open volume on the weekends? That seems like a highly reasonable middle ground that lets both of us successfully survive the busy semester. I honestly think that specific arrangement could work out perfectly.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To totally aggressively refuse to change their noisy habits under any circumstances.",
+      "To proactively offer a balanced, negotiated compromise regarding a difficult roommate conflict.",
+      "To abruptly angrily end the conversation because they hate electronic headphones.",
+      "To casually ask the roommate for driving directions to the upcoming music recital."
+    ],
+    "answerIndex": 1,
+    "prompt": "Why does the speaker use the phrase 'How about' to introduce their idea?"
+  },
+  "explanation": "The speaker formally uses the phrase 'How about' as an established conversational strategy to collaboratively propose a negotiated compromise to a known problem."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_update_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_team_update_meeting",
+  "prompt": "Identify the risk.",
+  "script": "Overall, the entire engineering department is progressing incredibly well with the initial frontend build phase. We practically finished the user dashboard three full days ahead of our scheduled timeline. However, honestly speaking, the main critical risk right now is the strict third-party vendor integration. That extremely complex API connection could potentially delay our massive QA testing phase by at least a week. We really need to actively monitor that specific software dependency going forward.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The entire software project is being immediately and permanently cancelled.",
+      "The difficult third-party vendor integration may significantly delay the upcoming testing phase.",
+      "The lazy engineering team currently has absolutely no professional work to do.",
+      "The massive QA testing phase is incredibly already completely finished."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker frame the potential danger to the project timeline?"
+  },
+  "explanation": "The speaker clearly uses the formal phrase 'the main critical risk right now' to explicitly alert the team to a major timeline danger."
+}

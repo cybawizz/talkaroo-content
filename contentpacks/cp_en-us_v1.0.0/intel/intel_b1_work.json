@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_work",
+  "skinId": "skin_work_update",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "This morning, I...",
+      "usage": "Introduce the first primary task or activity of the workday.",
+      "example": "This morning, I finalized the project proposal because the deadline is approaching fast."
+    },
+    {
+      "text": "After that, I...",
+      "usage": "Describe the subsequent task in a chronological sequence of events.",
+      "example": "After that, I organized the client feedback so we could improve the current draft."
+    },
+    {
+      "text": "The result was...",
+      "usage": "Explain the specific outcome or impact of the actions taken.",
+      "example": "The result was an increase in efficiency because we automated the manual entry process."
+    },
+    {
+      "text": "I had to...",
+      "usage": "Mention a mandatory responsibility or requirement addressed during the day.",
+      "example": "I had to verify the financial data because accuracy is essential for our reports."
+    },
+    {
+      "text": "Now I need to...",
+      "usage": "State the current priority or the next step in the professional workflow.",
+      "example": "Now I need to contact the supplier so we can confirm the delivery schedule."
+    },
+    {
+      "text": "It went well because...",
+      "usage": "Analyze the reasons for success in a particular professional situation.",
+      "example": "It went well because the team collaborated effectively during the crisis."
+    },
+    {
+      "text": "By {time}, ...",
+      "usage": "Indicate a specific time when a task was successfully completed.",
+      "example": "By 4 PM, I submitted the analysis so the director could prepare for the presentation."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "finalize",
+      "definition": "To complete the last part of a plan, agreement, or document."
+    },
+    {
+      "term": "coordinate",
+      "definition": "To organize people or activities so that they work together efficiently."
+    },
+    {
+      "term": "implement",
+      "definition": "To start using a plan or a system."
+    },
+    {
+      "term": "collaborate",
+      "definition": "To work with another person or group to achieve something."
+    },
+    {
+      "term": "evaluate",
+      "definition": "To judge or calculate the quality, importance, or value of something."
+    }
+  ]
+}

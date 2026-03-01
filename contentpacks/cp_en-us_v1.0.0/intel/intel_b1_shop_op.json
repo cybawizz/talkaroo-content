@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_shop_op",
+  "skinId": "skin_shopping_choice",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I prefer something cheaper.",
+      "usage": "Use this to indicate a preference for a more affordable option when considering your budget.",
+      "example": "I prefer something cheaper because I want to stay within my monthly budget."
+    },
+    {
+      "text": "Quality matters to me.",
+      "usage": "Use this to emphasize that the durability or standard of a product is a priority for you.",
+      "example": "Quality matters to me so I am willing to invest in a premium brand."
+    },
+    {
+      "text": "I think this one is better because...",
+      "usage": "Use this to provide a logical justification for choosing one product over another.",
+      "example": "I think this one is better because it offers more features for a similar price."
+    },
+    {
+      "text": "What matters most is ...",
+      "usage": "Use this to identify the primary factor influencing your purchasing decision.",
+      "example": "What matters most is reliability because I need this equipment for daily professional tasks."
+    },
+    {
+      "text": "Compared to this one, ...",
+      "usage": "Use this to contrast specific features or benefits between two different items.",
+      "example": "Compared to this one, the other model consumes less energy so it is more efficient."
+    },
+    {
+      "text": "Could you show me another option?",
+      "usage": "Use this to request an alternative choice if the current selection does not meet your requirements.",
+      "example": "Could you show me another option because this style does not match my office decor?"
+    },
+    {
+      "text": "Okay, I'll take this one.",
+      "usage": "Use this to confirm your final decision and proceed with the purchase.",
+      "example": "Okay, I'll take this one because it satisfies all my technical requirements."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Budget",
+      "definition": "A plan for how much money will be spent."
+    },
+    {
+      "term": "Durable",
+      "definition": "Able to last a long time without breaking."
+    },
+    {
+      "term": "Feature",
+      "definition": "A distinct attribute or aspect of a product."
+    },
+    {
+      "term": "Efficiency",
+      "definition": "The ability to function well without wasting energy or time."
+    },
+    {
+      "term": "Requirement",
+      "definition": "Something that is needed or must be done."
+    }
+  ]
+}

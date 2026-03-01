@@ -1,0 +1,129 @@
+{
+  "journeyId": "skill_manage_conversations_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_b1_cafe_chat",
+    "skin_b1_office_break",
+    "skin_b1_neighbor_park",
+    "skin_b1_queue_smalltalk"
+  ],
+  "intelPacks": [
+    "intel_b1_cafe_chat",
+    "intel_b1_office_break",
+    "intel_b1_neighbor_park",
+    "intel_b1_queue_smalltalk"
+  ],
+  "noticeAssets": [
+    "notice_b1_j1_cafe_01",
+	"notice_b1_j1_cafe_02",
+    "notice_b1_j1_office_01",
+	"notice_b1_j1_office_02",
+    "notice_b1_j1_neighbor_01",
+	"notice_b1_j1_neighbor_02",
+    "notice_b1_j1_queue_01",
+	"notice_b1_j1_queue_02"
+  ],
+  "adaptAssets": [
+    "adapt_b1_j1_cafe_01",
+    "adapt_b1_j1_office_01",
+    "adapt_b1_j1_neighbor_01",
+    "adapt_b1_j1_queue_01"
+  ],
+  "reflectAssets": [
+    "reflect_b1_j1_cafe_01",
+    "reflect_b1_j1_office_01",
+    "reflect_b1_j1_neighbor_01",
+    "reflect_b1_j1_queue_01"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_manage_conversations_L3",
+    "skillId": "skill_manage_conversations",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "b1_f_greet_natural",
+        "pattern": "Hey {name}, how’s it going?",
+        "slots": [
+          "name"
+        ],
+        "notes": "Natural greeting for friends/peers."
+      },
+      {
+        "frameId": "b1_f_opinion",
+        "pattern": "In my opinion, {topic} is {adj}.",
+        "slots": [
+          "topic",
+          "adj"
+        ],
+        "notes": "Simple opinion frame."
+      },
+      {
+        "frameId": "b1_f_reason_because",
+        "pattern": "I think that because {reason}.",
+        "slots": [
+          "reason"
+        ],
+        "notes": "Reason with because."
+      },
+      {
+        "frameId": "b1_f_reason_the_reason_is",
+        "pattern": "The reason is {reason}.",
+        "slots": [
+          "reason"
+        ],
+        "notes": "More structured reason."
+      },
+      {
+        "frameId": "b1_f_soft_disagree",
+        "pattern": "I see your point, but {my_view}.",
+        "slots": [
+          "my_view"
+        ],
+        "notes": "Polite contrast."
+      },
+      {
+        "frameId": "b1_f_clarify",
+        "pattern": "Could you explain what you mean by {thing}?",
+        "slots": [
+          "thing"
+        ],
+        "notes": "Clarify the other person’s point."
+      },
+      {
+        "frameId": "b1_f_compare",
+        "pattern": "Compared to {place}, this is {adj}.",
+        "slots": [
+          "place",
+          "adj"
+        ],
+        "notes": "Comparison frame."
+      },
+      {
+        "frameId": "b1_f_turn_back",
+        "pattern": "What about you—what do you think?",
+        "slots": [],
+        "notes": "Hands the turn back naturally."
+      },
+      {
+        "frameId": "b1_f_close",
+        "pattern": "Anyway, I should go. See you later!",
+        "slots": [],
+        "notes": "Friendly close."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Sorry, I didn’t catch that. Can you say it again?",
+        "notes": "Polite repetition request."
+      },
+      {
+        "text": "I know what I mean, but I can’t find the word.",
+        "notes": "Vocabulary gap escape."
+      }
+    ]
+  }
+}

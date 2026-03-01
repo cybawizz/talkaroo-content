@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_place_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_place_basic",
+  "prompt": "Where is the home?",
+  "script": "So, it is near the station. That makes it easy to travel. I can walk there.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Showing a logical conclusion",
+      "Disagreeing with someone",
+      "Asking a question",
+      "Apologizing for a mistake"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'So' suggest here?"
+  },
+  "explanation": "The speaker uses 'So' to draw a conclusion about the convenient location."
+}

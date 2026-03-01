@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_travel_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_travel_preference",
+  "prompt": "Identify compromise.",
+  "script": "I know you really want to stay at that luxury resort on the beach. However, I just can't afford to spend that much money on accommodation right now. Could we meet in the middle and book a simple hotel somewhere nearby instead? That way, we still get to enjoy the ocean without totally blowing our budget.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To propose a fair compromise that addresses both people's needs.",
+      "To aggressively demand they cancel the entire vacation.",
+      "To brag about how much money they have saved up.",
+      "To complain that the beach is too crowded anyway."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Could we meet in the middle...?'"
+  },
+  "explanation": "The speaker uses the idiom 'meet in the middle' to gently suggest a compromise between two conflicting ideas."
+}

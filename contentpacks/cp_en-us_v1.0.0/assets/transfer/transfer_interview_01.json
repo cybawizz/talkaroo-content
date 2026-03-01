@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_interview_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_job_interview_values",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Apply the same reasoning in a new domain (volunteering).",
+  "newContext": "Volunteer coordinator interview — trade-offs and values.",
+  "transferSkin": {
+    "skinId": "skin_interview_transfer",
+    "name": "Volunteer Interview",
+    "category": "professional",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Candidate"
+      },
+      {
+        "roleId": "ai",
+        "label": "Staff"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Explain values.",
+      "aiGoal": "Evaluate fit."
+    },
+    "allowedIntents": [
+      "state_preference",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "professional",
+      "register": "formal"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

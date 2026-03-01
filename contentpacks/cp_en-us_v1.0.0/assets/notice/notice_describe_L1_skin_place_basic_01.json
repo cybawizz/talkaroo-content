@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_place_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_place_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Actually, my home is very big. We have five rooms. It is a nice house.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Correcting a wrong idea",
+      "Asking a question",
+      "Saying goodbye",
+      "Showing anger"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to share a surprising fact or correct an assumption."
+}

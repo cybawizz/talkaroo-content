@@ -1,0 +1,60 @@
+{
+  "intelId": "intel_b1_mall",
+  "skinId": "skin_mall_info",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me where ... is?",
+      "usage": "Use this to initiate a formal inquiry about a specific location because it is more polite than a direct question.",
+      "example": "Could you tell me where the electronics store is located because I am unable to find it on the digital map?"
+    },
+    {
+      "text": "Has it moved recently?",
+      "usage": "Ask this to confirm if a store has relocated so that you can verify if your information is currently accurate.",
+      "example": "Has it moved recently? I ask because the previous directory indicated it was in a different section."
+    },
+    {
+      "text": "Which floor is it on now?",
+      "usage": "Inquire about the current level of the establishment so that you can navigate the building effectively.",
+      "example": "Which floor is it on now so that I can decide which elevator is most convenient to use?"
+    },
+    {
+      "text": "What's the easiest way to get there?",
+      "usage": "Request the most efficient route to your destination because large malls can be complex to navigate.",
+      "example": "What's the easiest way to get there from this desk because I want to avoid the crowded corridors?"
+    },
+    {
+      "text": "Do you mean next to the food court?",
+      "usage": "Use this to clarify specific landmarks near the store so you can confirm the directions provided by the staff.",
+      "example": "Do you mean it is positioned next to the food court so that I should look for the dining area first?"
+    },
+    {
+      "text": "Okay, thanks. I’ll head there now.",
+      "usage": "Conclude the conversation politely to indicate you have understood the directions and are departing for your destination.",
+      "example": "Okay, thanks for the assistance. I’ll head there now because I have limited time for my shopping."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Relocate",
+      "definition": "To move a business or shop to a different position or location within the building."
+    },
+    {
+      "term": "Navigate",
+      "definition": "To plan and follow a specific route or course through a complex environment."
+    },
+    {
+      "term": "Directory",
+      "definition": "A board or digital screen that lists the locations of all stores and services."
+    },
+    {
+      "term": "Convenient",
+      "definition": "Fitting in well with a person's plans or needs without causing extra effort."
+    },
+    {
+      "term": "Landmark",
+      "definition": "An easily recognizable feature or shop used to help someone find their way."
+    }
+  ]
+}

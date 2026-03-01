@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_bus_stop_smalltalk",
+  "name": "Bus Stop Small Talk",
+  "category": "public_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Commuter"
+    },
+    {
+      "roleId": "ai",
+      "label": "Other Commuter"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Start small talk, add one detail (where you go/when), answer one follow-up, and close politely.",
+    "aiGoal": "Respond warmly, ask one follow-up, and close politely."
+  },
+  "allowedIntents": [
+    "greet",
+    "add_detail",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "public",
+    "commute",
+    "small_talk"
+  ]
+}

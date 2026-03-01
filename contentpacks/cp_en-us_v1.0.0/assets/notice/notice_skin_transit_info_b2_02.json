@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_transit_info_b2_02",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_transit_info_b2",
+  "prompt": "Identify the clarification.",
+  "script": "Okay, I think I've mapped out a couple of different transportation options to get you to the university campus. Before I print this subway schedule out for you, let me just make perfectly sure I understand what you're actually looking for today. Just to confirm, you definitely want the absolute quickest commuter route available, not the more scenic bus ride—right? I just want to be absolutely certain before you buy your expensive transit pass. The fastest way involves three quick train transfers, but you probably won't get a seat.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To explicitly verify a crucial piece of information before offering final advice.",
+      "To angrily accuse the passenger of constantly changing their complicated itinerary.",
+      "To boast about how quickly they can memorize the subway schedule.",
+      "To aggressively suggest that the scenic bus route is actually much better."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'Just to confirm...right?'"
+  },
+  "explanation": "The speaker uses 'Just to confirm...right?' as a polite, verification strategy to ensure they correctly understand the commuter's specific travel priorities."
+}

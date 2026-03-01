@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_street_basic",
+  "prompt": "Listen for the direction.",
+  "script": "Well, turn left at the next corner. You will see it there.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Taking a moment to think before answering",
+      "Being angry at a question",
+      "Refusing to give directions",
+      "Thanking someone"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Well' suggest here?"
+  },
+  "explanation": "The speaker uses 'Well' because they pause for a split-second to think about the directions."
+}

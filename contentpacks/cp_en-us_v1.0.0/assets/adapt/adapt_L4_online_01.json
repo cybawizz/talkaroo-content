@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_L4_online_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_online_thread_misread",
+  "prompt": "Pressure twist: tone escalation.",
+  "setup": "Pressure twist: tone escalation.",
+  "aiMove": "Wow. That was pretty rude. Why are you attacking me?",
+  "successCriteria": [
+    "User apologizes for tone",
+    "User rephrases calmly",
+    "User invites constructive next step"
+  ]
+}

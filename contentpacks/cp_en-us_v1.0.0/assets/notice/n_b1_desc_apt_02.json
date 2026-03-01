@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_apt_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_apartment_details",
+  "prompt": "Identify the location.",
+  "script": "To be honest, I really like the layout of the place. The living room is spacious and gets plenty of morning light. However, my biggest concern is that the unit is right next to the elevator. I'm afraid it might be quite noisy during rush hour.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To soften the introduction of a negative concern about the apartment's location.",
+      "To prove that they are not lying about the size of the unit.",
+      "To express excitement about being close to the stairs.",
+      "To demand a cheaper rent price from the landlord."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'To be honest'?"
+  },
+  "explanation": "The speaker uses 'To be honest' to gently transition from a positive statement into a potential complaint or concern."
+}

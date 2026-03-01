@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_movie_op",
+  "skinId": "skin_movie_choice",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "I really enjoy ...",
+      "usage": "Use this phrase to express a strong preference for a specific movie genre during a discussion.",
+      "example": "I really enjoy psychological thrillers because they challenge the viewer, so I find them very stimulating."
+    },
+    {
+      "text": "The reason is...",
+      "usage": "Use this to introduce a logical explanation for your preference or opinion.",
+      "example": "The reason is that the cinematography is stunning, so it enhances the overall viewing experience."
+    },
+    {
+      "text": "I'm not a big fan of ...",
+      "usage": "Use this professional expression to indicate a lack of interest in a particular category or style.",
+      "example": "I'm not a big fan of slapstick comedy because I prefer witty dialogue, so I usually avoid those films."
+    },
+    {
+      "text": "I see what you mean, but...",
+      "usage": "Use this to acknowledge another person's viewpoint before presenting a contrasting academic opinion.",
+      "example": "I see what you mean, but the narrative is quite predictable, so I would like to explore other options."
+    },
+    {
+      "text": "How about ... instead?",
+      "usage": "Use this to propose an alternative movie choice when you disagree with the current suggestion.",
+      "example": "How about we watch a biography instead? It illustrates a real person's life, so it is more educational."
+    },
+    {
+      "text": "We could compromise.",
+      "usage": "Use this when you want to suggest a middle ground that satisfies the interests of all participants.",
+      "example": "We could compromise by watching an animated feature because it is visually impressive, so we both might like it."
+    },
+    {
+      "text": "That works for me.",
+      "usage": "Use this to indicate your formal agreement with a proposed plan or movie selection.",
+      "example": "That works for me because the director is highly acclaimed, so I am certain the quality will be excellent."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "genre",
+      "definition": "A specific category of artistic composition, such as a movie, characterized by similarities in style or subject matter."
+    },
+    {
+      "term": "narrative",
+      "definition": "The sequence of connected events that form a story within a film."
+    },
+    {
+      "term": "cinematography",
+      "definition": "The art and technique of motion-picture photography, including lighting and camera choice."
+    },
+    {
+      "term": "perspective",
+      "definition": "A particular attitude toward or way of regarding something; a point of view."
+    },
+    {
+      "term": "consensus",
+      "definition": "A general agreement reached by a group of people during a discussion."
+    }
+  ]
+}

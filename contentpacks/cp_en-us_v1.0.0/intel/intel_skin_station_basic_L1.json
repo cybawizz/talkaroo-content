@@ -1,0 +1,32 @@
+{
+  "intelId": "intel_skin_station_basic_L1",
+  "skinId": "skin_station_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Which platform?",
+      "usage": "Ask where the train stops.",
+      "example": "Excuse me, which platform for London?"
+    },
+    {
+      "text": "Platform {number}",
+      "usage": "State a platform number.",
+      "example": "Platform four."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Platform",
+      "definition": "Where you wait for the train."
+    },
+    {
+      "term": "Ticket",
+      "definition": "The card that lets you travel."
+    },
+    {
+      "term": "Train",
+      "definition": "Transport on tracks."
+    }
+  ]
+}

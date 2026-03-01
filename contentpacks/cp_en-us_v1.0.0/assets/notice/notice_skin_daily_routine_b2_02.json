@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_daily_routine_b2_02",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_daily_routine_b2",
+  "prompt": "Identify the follow-up focus.",
+  "script": "I genuinely hear what you're saying about how much you absolutely love living in that area right now. But when you say it's so incredibly convenient, what do you mean exactly? Are you primarily talking about the public transport links, the local shops, or something else entirely? I'm just trying to get a much better sense of what makes it so appealing to you on a daily basis. My current neighborhood is really lacking in basic amenities.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To kindly push for specific details to fully understand a vague statement.",
+      "To aggressively interrogate someone about their poor life choices.",
+      "To boast about knowing more about the neighborhood than the other person.",
+      "To completely ignore what the person said and change the subject."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'what do you mean exactly—transport, shops, or something else?'"
+  },
+  "explanation": "The speaker actively guides the conversation by providing concrete examples (transport, shops) to help the other person clarify their vague statement."
+}

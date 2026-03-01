@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_hotel_01",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Understand the hours.",
+  "script": "Well, let me check the schedule. It opens at seven in the morning. Then, it's open until midnight.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Taking a brief moment to recall the exact hours",
+      "Saying the hotel is very nice",
+      "Demanding the guest to leave",
+      "Asking a question about the time"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Well' suggest here?"
+  },
+  "explanation": "The speaker uses 'Well' because they are taking a split-second to remember the exact opening hours."
+}

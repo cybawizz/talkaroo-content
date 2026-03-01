@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_mall_L2",
+  "skinId": "skin_mall_info",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Where is the bank?",
+      "usage": "Use this when you need to find the specific location of the money service.",
+      "example": "I am looking for money, so where is the bank?"
+    },
+    {
+      "text": "Which floor is it on?",
+      "usage": "Ask this to confirm the correct level of the shopping mall building.",
+      "example": "Tell me please, which floor is it on right now?"
+    },
+    {
+      "text": "It’s on the top level.",
+      "usage": "Use this to explain that a shop is on the highest floor.",
+      "example": "Look for the shop because it’s on the top level."
+    },
+    {
+      "text": "Next to the stairs.",
+      "usage": "Use this to describe a store that is beside the walking steps.",
+      "example": "The bright electronics shop is right next to the stairs."
+    },
+    {
+      "text": "Near the entrance.",
+      "usage": "Say this to describe a location close to the main mall doors.",
+      "example": "You can find the big map very near the entrance."
+    },
+    {
+      "text": "Behind the café.",
+      "usage": "Use this when a store is located at the back of a coffee shop.",
+      "example": "The modern mobile store is located directly behind the café."
+    },
+    {
+      "text": "Could you show me?",
+      "usage": "Ask this when you want the person to point to the store map.",
+      "example": "I am very lost here, so could you show me?"
+    },
+    {
+      "text": "So, top level near the stairs?",
+      "usage": "Use this to confirm the directions before you walk to the shop.",
+      "example": "Let me check, so, top level near the stairs today?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Modern",
+      "definition": "Something that is new and has a very fresh style."
+    },
+    {
+      "term": "Large",
+      "definition": "A word used to describe a very big store area."
+    },
+    {
+      "term": "Busy",
+      "definition": "When there are many people in the mall right now."
+    },
+    {
+      "term": "Useful",
+      "definition": "Something that helps you do a task or find something."
+    },
+    {
+      "term": "Nearby",
+      "definition": "A place that is very close to where you are."
+    }
+  ]
+}

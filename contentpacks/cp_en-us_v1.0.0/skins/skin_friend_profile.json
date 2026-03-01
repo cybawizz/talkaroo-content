@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_friend_profile",
+  "name": "A Close Friend",
+  "category": "social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a friend’s appearance and personality, then explain what they do for work.",
+    "aiGoal": "Ask one follow-up about the friend’s job and daily routine."
+  },
+  "allowedIntents": [
+    "describe_person",
+    "respond_follow_up",
+    "compare",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "friends",
+    "appearance",
+    "personality"
+  ]
+}

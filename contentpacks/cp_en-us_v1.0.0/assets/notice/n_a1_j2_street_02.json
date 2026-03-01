@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_street_02",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_street_basic",
+  "prompt": "Where is the place?",
+  "script": "So, it is straight ahead, near the park. Walk for five minutes.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Summarizing the final direction clearly",
+      "Saying they don't know the answer",
+      "Complaining about the walk",
+      "Asking for money"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'So' here?"
+  },
+  "explanation": "The speaker uses 'So' to wrap up their explanation and summarize the final location."
+}

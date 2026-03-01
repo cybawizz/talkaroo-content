@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_skin_cafe_greeting_L2",
+  "skinId": "skin_cafe_greeting",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hi, how are you?",
+      "usage": "Use this common greeting when you see the barista.",
+      "example": "Hi, how are you? I need a hot coffee today."
+    },
+    {
+      "text": "I'm good, thanks.",
+      "usage": "Say this to answer the barista's question politely.",
+      "example": "I'm good, thanks. It is a very beautiful morning today."
+    },
+    {
+      "text": "I work in...",
+      "usage": "Use this to share a personal detail about your job.",
+      "example": "I work in a busy office just down the street."
+    },
+    {
+      "text": "I study...",
+      "usage": "Use this to share a personal detail about your education.",
+      "example": "I study history at the large university near the park."
+    },
+    {
+      "text": "It's my first time here.",
+      "usage": "Tell the barista this if you are a new customer.",
+      "example": "It's my first time here. Your cafe looks very friendly."
+    },
+    {
+      "text": "See you later.",
+      "usage": "Say this when you leave to show you will return.",
+      "example": "See you later. Thank you for the delicious hot latte."
+    },
+    {
+      "text": "Have a nice day.",
+      "usage": "A polite way to end the conversation and leave.",
+      "example": "Have a nice day. I hope you have a busy afternoon."
+    },
+    {
+      "text": "How about you?",
+      "usage": "Ask this to keep the conversation going with the barista.",
+      "example": "I am doing well. How about you? Are you busy?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Friendly",
+      "definition": "Being kind and pleasant towards other people."
+    },
+    {
+      "term": "Busy",
+      "definition": "A place full of people and activity."
+    },
+    {
+      "term": "Fresh",
+      "definition": "Food or drink that is newly made."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Making very little noise or having few people."
+    },
+    {
+      "term": "Sweet",
+      "definition": "Having a taste like sugar or honey."
+    }
+  ]
+}

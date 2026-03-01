@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j1_neigh_02",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Where does he live?",
+  "script": "By the way, I live in apartment four B. See you later.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Adding a small, related detail",
+      "Ending the conversation completely",
+      "Complaining about the neighbors",
+      "Correcting someone's name"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'By the way' suggest here?"
+  },
+  "explanation": "The speaker uses 'By the way' to casually add an extra, helpful piece of information."
+}

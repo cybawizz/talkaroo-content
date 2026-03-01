@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_weekend_L2",
+  "skinId": "skin_recent_weekend",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Last Saturday, I ...",
+      "usage": "Use this to start your story about the weekend.",
+      "example": "Last Saturday, I visited my very friendly cousin for lunch."
+    },
+    {
+      "text": "Yesterday, I ...",
+      "usage": "Say this to talk about things you did on Sunday.",
+      "example": "Yesterday, I stayed at home and read a busy book."
+    },
+    {
+      "text": "I went to the ...",
+      "usage": "Use this to tell someone about a specific place.",
+      "example": "I went to the large park with my happy dog."
+    },
+    {
+      "text": "I watched a movie.",
+      "usage": "Use this to describe a relaxing activity you did.",
+      "example": "I watched a movie at night with my best friend."
+    },
+    {
+      "text": "I met a friend.",
+      "usage": "Tell others about your social plans with another person.",
+      "example": "I met a friend for lunch at a quiet cafe."
+    },
+    {
+      "text": "It was fun.",
+      "usage": "Explain how you felt about your activity or event.",
+      "example": "It was fun because the weather was sunny and warm."
+    },
+    {
+      "text": "I finished at ...",
+      "usage": "Use this to tell someone the time you stopped.",
+      "example": "I finished at ten and felt very tired and sleepy."
+    },
+    {
+      "text": "Then I ...",
+      "usage": "Use this to talk about the next thing you did.",
+      "example": "Then I went home and ate a tasty, healthy dinner."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Busy",
+      "definition": "Having a lot of things to do."
+    },
+    {
+      "term": "Quiet",
+      "definition": "Not making much noise or having many people."
+    },
+    {
+      "term": "Friendly",
+      "definition": "Being kind and pleasant to other people."
+    },
+    {
+      "term": "Tired",
+      "definition": "Needing to rest or go to sleep soon."
+    },
+    {
+      "term": "Exciting",
+      "definition": "Making you feel very happy and interested."
+    }
+  ]
+}

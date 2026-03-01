@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_city_directions_b2_B2",
+  "skinId": "skin_city_directions_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "Could you walk me through the best option?",
+      "usage": "Use this phrase when you are presented with multiple routes or methods and need a detailed, step-by-step explanation to make an informed decision.",
+      "example": "Given the unexpected roadwork on the main thoroughfare, could you walk me through the best option for reaching the museum before the final admission?"
+    },
+    {
+      "text": "Just to clarify, you mean…",
+      "usage": "This is a polite hedging technique used to verify specific details in a complex set of directions, ensuring there are no misunderstandings.",
+      "example": "Just to clarify, you mean I should steer clear of the underground station entirely because of the ongoing technical faults on the North Line?"
+    },
+    {
+      "text": "If that's the case, what would you recommend?",
+      "usage": "Use this to pivot your strategy after learning about a disruption, such as a gallery closure or a delayed bus, and seeking professional advice.",
+      "example": "If that's the case regarding the temporary closure of the East Wing, what would you recommend as a comparable cultural site to visit this afternoon?"
+    },
+    {
+      "text": "Is there a quicker alternative?",
+      "usage": "A direct but formal way to ask for a more efficient route when time is a critical factor due to external delays.",
+      "example": "While the walking tour sounds fascinating, is there a quicker alternative that might mitigate the time lost during the transit delay?"
+    },
+    {
+      "text": "Roughly how long should I allow?",
+      "usage": "Used to ask for an estimated duration while acknowledging that the time might vary depending on the severity of the city disruption.",
+      "example": "Considering the current pedestrian congestion near the plaza, roughly how long should I allow for the detour to the gallery entrance?"
+    },
+    {
+      "text": "What are the key steps I should follow?",
+      "usage": "Ideal for breaking down a complex navigational response into manageable, chronological milestones.",
+      "example": "Since the primary entrance is blocked by the marathon, what are the key steps I should follow to access the building from the rear courtyard?"
+    },
+    {
+      "text": "Could you point out a landmark I can’t miss?",
+      "usage": "A strategic request for a visual anchor to ensure you remain on the correct path despite the unfamiliar urban layout.",
+      "example": "If I take the side streets to circumvent the crowd, could you point out a landmark I can’t miss so I know I haven't overshot the museum?"
+    },
+    {
+      "text": "Does that route avoid the crowded area?",
+      "usage": "Used to confirm that a suggested path successfully bypasses sections of the city experiencing high traffic or public demonstrations.",
+      "example": "If I opt for the residential backstreets as you suggested, does that route effectively avoid the crowded area where the construction is taking place?"
+    },
+    {
+      "text": "So the next step is to…",
+      "usage": "Use this to summarize and confirm the immediate action required in a sequence of instructions before you depart.",
+      "example": "So the next step is to proceed past the historical cathedral and then locate the temporary shuttle stop on the far corner, correct?"
+    },
+    {
+      "text": "Thanks—I'll do that now.",
+      "usage": "A decisive and polite way to conclude the interaction once you have a clear plan of action to handle the disruption.",
+      "example": "That insight regarding the shortcut through the park is incredibly helpful for staying on schedule; thanks—I'll do that now."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Thoroughfare",
+      "definition": "A main road or public highway that serves as a primary route through a city or district."
+    },
+    {
+      "term": "Detour",
+      "definition": "A roundabout or alternative path taken to avoid a blockage, construction, or other disruption."
+    },
+    {
+      "term": "Congestion",
+      "definition": "A state of being overcrowded or blocked, typically used in the context of heavy traffic or large groups of people."
+    },
+    {
+      "term": "Mitigate",
+      "definition": "To make a situation less severe or to reduce the negative impact of a disruption or delay."
+    },
+    {
+      "term": "Circumvent",
+      "definition": "The act of finding a way around an obstacle or avoiding a problematic area entirely."
+    }
+  ]
+}

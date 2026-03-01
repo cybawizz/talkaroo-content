@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_noise_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Apply the same negotiation skill in a new setting (gym etiquette).",
+  "newContext": "Gym front desk — negotiating a refund for a membership fee.",
+  "transferSkin": {
+    "skinId": "skin_noise_transfer",
+    "name": "Gym Refund Talk",
+    "category": "service_conflict",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Member"
+      },
+      {
+        "roleId": "ai",
+        "label": "Staff"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Negotiate a partial refund.",
+      "aiGoal": "Uphold policy but be helpful."
+    },
+    "allowedIntents": [
+      "negotiate",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "neutral",
+      "register": "neutral"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

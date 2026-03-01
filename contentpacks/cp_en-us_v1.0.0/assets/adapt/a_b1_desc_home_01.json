@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_desc_home_01",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_hometown_description",
+  "prompt": "Reassure them with one extra reason and one detail.",
+  "setup": "You recommend a place, but the listener worries it might be boring.",
+  "aiMove": "I don't know, the old fort sounds like it might be a bit boring for a whole afternoon.",
+  "successCriteria": [
+    "Reassure listener",
+    "Add extra detail"
+  ]
+}

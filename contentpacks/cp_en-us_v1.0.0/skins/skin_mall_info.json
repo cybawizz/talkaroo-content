@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_mall_info",
+  "name": "Mall Information Desk",
+  "category": "indoor_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Shopper"
+    },
+    {
+      "roleId": "ai",
+      "label": "Information Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask where the electronics store is; if it moved, confirm the floor and the best way to reach it.",
+    "aiGoal": "Explain the store moved to the 3rd floor and give clear directions."
+  },
+  "allowedIntents": [
+    "ask_for_information",
+    "ask_for_help",
+    "ask_follow_up",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "shopping",
+    "mall",
+    "utility"
+  ]
+}

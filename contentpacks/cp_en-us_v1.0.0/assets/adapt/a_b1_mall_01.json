@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_mall_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_mall_info",
+  "prompt": "Ask for a stair/escalator route and confirm the exact floor.",
+  "setup": "You are told the store moved, but the elevator is out of service.",
+  "aiMove": "The electronics store is actually on the third floor now, but I'm afraid the main elevators are broken today.",
+  "successCriteria": [
+    "Ask for alternative route",
+    "Confirm floor"
+  ]
+}

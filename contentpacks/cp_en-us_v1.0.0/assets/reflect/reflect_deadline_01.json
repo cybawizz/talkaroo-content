@@ -1,0 +1,19 @@
+{
+  "reflectId": "reflect_deadline_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Say it better (professional negotiation).",
+  "items": [
+    {
+      "bad": "This deadline is impossible.",
+      "better": "I’m concerned this timeline is tight, especially for testing.",
+      "note": "constructive worry"
+    },
+    {
+      "bad": "Then we can’t do it.",
+      "better": "If the date is fixed, we should reduce scope or ship in stages.",
+      "note": "solution offering"
+    }
+  ]
+}

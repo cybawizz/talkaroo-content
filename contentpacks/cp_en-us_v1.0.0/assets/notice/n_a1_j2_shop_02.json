@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_shop_02",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_shop_basic",
+  "prompt": "What did the customer ask?",
+  "script": "Excuse me, but how much is this postcard? I want to buy it.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Getting someone's attention to ask a question",
+      "Saying they do not want to buy it",
+      "Asking someone to move out of the way",
+      "Apologizing for breaking something"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Excuse me, but'?"
+  },
+  "explanation": "The speaker uses 'Excuse me, but' to politely interrupt the shopkeeper and ask their question."
+}

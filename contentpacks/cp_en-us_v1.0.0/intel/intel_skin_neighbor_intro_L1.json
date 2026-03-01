@@ -1,0 +1,50 @@
+{
+  "intelId": "intel_skin_neighbor_intro_L1",
+  "skinId": "skin_neighbor_intro",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Hi, I'm {name}",
+      "usage": "Start a talk with your neighbor.",
+      "example": "Hi, I am Alex."
+    },
+    {
+      "text": "Nice to meet you",
+      "usage": "Say this when you meet someone.",
+      "example": "Nice to meet you too."
+    },
+    {
+      "text": "I'm new here",
+      "usage": "Explain that you are a new resident.",
+      "example": "Hello, I am new here."
+    },
+    {
+      "text": "Have a nice day",
+      "usage": "End the talk in a friendly way.",
+      "example": "Bye. Have a nice day."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Neighbor",
+      "definition": "A person living near you."
+    },
+    {
+      "term": "Street",
+      "definition": "The road by your home."
+    },
+    {
+      "term": "Building",
+      "definition": "A place where people live."
+    },
+    {
+      "term": "Floor",
+      "definition": "The level of the building."
+    },
+    {
+      "term": "Name",
+      "definition": "What people call you."
+    }
+  ]
+}

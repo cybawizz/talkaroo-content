@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_queue_01",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_queue_smalltalk",
+  "prompt": "Identify the polite disagreement.",
+  "script": "It's definitely annoying that this line is barely moving at all. I completely get what you mean about the lack of cashiers upfront. However, they might honestly just be short-staffed today because of the holiday weekend. I heard the manager mentioning earlier that several people called in sick.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To validate the listener's frustration before offering a more forgiving explanation.",
+      "To aggressively defend the store management from criticism.",
+      "To boast about knowing insider information about the staff.",
+      "To forcefully demand the listener stop complaining in line."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'I completely get what you mean'?"
+  },
+  "explanation": "The speaker uses 'I completely get what you mean' to politely empathize with a complaint before presenting a different, more understanding perspective."
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_cafe_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "Identify the intent.",
+  "script": "I really enjoy working in the city. So, how about you? Do you work around here too?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Passing the conversation smoothly to the listener",
+      "Ending the conversation entirely",
+      "Asking for a coffee refill",
+      "Refusing to answer a question"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'So' do here?"
+  },
+  "explanation": "The speaker uses 'So' to smoothly pass the conversation turn over to the other person."
+}

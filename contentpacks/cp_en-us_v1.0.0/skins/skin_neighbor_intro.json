@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_neighbor_intro",
+  "name": "Meeting a Neighbor",
+  "category": "casual_social",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "New Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say hello, add one detail (moved here/where from), answer one follow-up, and close politely.",
+    "aiGoal": "Welcome the user, ask one follow-up, and close politely."
+  },
+  "allowedIntents": [
+    "greet",
+    "introduce_self",
+    "add_detail",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "informal"
+  },
+  "tags": [
+    "home",
+    "neighborhood",
+    "social"
+  ]
+}

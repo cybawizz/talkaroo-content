@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_class_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_classroom_intro",
+  "prompt": "Identify the intent.",
+  "script": "I hope we can talk more later. Anyway, nice to meet you. Good luck with the class!",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Wrapping up the introduction politely",
+      "Starting a long debate",
+      "Asking the teacher for a grade",
+      "Refusing to shake hands"
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the purpose of 'Anyway'?"
+  },
+  "explanation": "The speaker uses 'Anyway' to wrap up their introduction and formally greet their new classmate."
+}

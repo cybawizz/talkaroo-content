@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_refund_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "prompt": "Identify the alternative.",
+  "script": "I completely hear what you're saying about the defective laptop charger, and I genuinely wish I could process a full cash return for you today. Unfortunately, because it's technically past the fourteen-day window, the computer system physically won't let me authorize a standard refund. As a matter of policy, we simply can't do a direct refund, but I can certainly offer you a direct product exchange or equivalent store credit instead. Would you prefer to just grab a brand new charger off the shelf right now? That is realistically the absolute best I can directly do under these strict corporate rules.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The extremely rude cashier is loudly insisting that absolutely no retail options are available.",
+      "A direct refund is firmly blocked, but a product exchange or store credit is carefully offered.",
+      "The entire electronics store is permanently closed for massive repairs.",
+      "The incredibly angry customer must illegally pay much more money to officially get a working charger."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the cashier use conjunctions to offer a firm 'no' followed by a 'yes'?"
+  },
+  "explanation": "The speaker prominently uses the structure 'We can't... but we can...' to gracefully deny a request while immediately offering an acceptable alternative."
+}

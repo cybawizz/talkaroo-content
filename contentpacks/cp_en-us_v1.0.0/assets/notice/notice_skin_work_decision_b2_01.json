@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_work_decision_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_work_decision_b2",
+  "prompt": "Identify the balance.",
+  "script": "I completely understand that taking the massive promotion in the overseas office isn't appealing to absolutely everyone on the team. It definitely requires a lot of extra travel time and an incredibly significant personal commitment. That said, I can genuinely see why some ambitious people would strongly prefer the international option for rapid career growth. It's undeniably much better for building a global professional network in the long run, too. I personally just need a local role that easily fits around my young family.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To politely concede a valid professional point that contrasts with their own personal career priorities.",
+      "To aggressively argue that moving overseas is a terrible choice for anyone with a family.",
+      "To boast about how much money they make by staying at the local domestic branch.",
+      "To excitedly announce that they are immediately quitting their job to travel the world."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the professional use the transition phrase 'That said'?"
+  },
+  "explanation": "The speaker uses 'That said' to smoothly pivot from acknowledging one valid viewpoint (staying local) to introducing a contrasting, but equally valid, perspective (moving abroad)."
+}

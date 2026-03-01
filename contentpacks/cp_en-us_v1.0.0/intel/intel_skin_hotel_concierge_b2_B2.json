@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_hotel_concierge_b2_B2",
+  "skinId": "skin_hotel_concierge_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "Could you walk me through the best option?",
+      "usage": "Used to request a comprehensive breakdown of choices to ensure the decision aligns with specific preferences or constraints.",
+      "example": "Given my preference for local cuisine over tourist traps, could you walk me through the best option for a quiet dinner tonight?"
+    },
+    {
+      "text": "Just to clarify, you mean…",
+      "usage": "A hedging technique used to confirm details without implying the speaker wasn't listening, maintaining a polite and professional tone.",
+      "example": "Just to clarify, you mean that the seafood bistro only accepts reservations via their online portal rather than by phone?"
+    },
+    {
+      "text": "If that's the case, what would you recommend?",
+      "usage": "Used to adapt a request based on logistical constraints or new information mentioned by the concierge.",
+      "example": "If that's the case regarding the early closing times, what would you recommend as a more reliable transportation method to the theater?"
+    },
+    {
+      "text": "Is there a quicker alternative?",
+      "usage": "A diplomatic way to prioritize efficiency and time-management over other factors like scenery or tradition.",
+      "example": "While the scenic route sounds lovely, is there a quicker alternative that would ensure I do not miss my curtain time?"
+    },
+    {
+      "text": "Roughly how long should I allow?",
+      "usage": "Inquiring about an estimate for travel or preparation while acknowledging that specific timings may be unpredictable.",
+      "example": "Roughly how long should I allow for the walk, considering I will likely want to stop for photos along the waterfront?"
+    },
+    {
+      "text": "What are the key steps I should follow?",
+      "usage": "Requesting a logical and structured sequence of actions to mitigate the risk of a booking error or navigational mistake.",
+      "example": "To ensure the reservation is confirmed properly, what are the key steps I should follow once I arrive at the host stand?"
+    },
+    {
+      "text": "Could you point out a landmark I can’t miss?",
+      "usage": "Seeking a high-visibility, distinctive reference point to navigate effectively through an unfamiliar urban environment.",
+      "example": "Since I have a tendency to get turned around in new cities, could you point out a landmark I can’t miss near the restaurant entrance?"
+    },
+    {
+      "text": "Does that route avoid the crowded area?",
+      "usage": "Expressing a subtle, nuanced preference for tranquility or exclusivity by circumventing high-traffic tourist zones.",
+      "example": "Since I am hoping for a more intimate evening with my spouse, does that route avoid the crowded area near the main square?"
+    },
+    {
+      "text": "So the next step is to…",
+      "usage": "A verbal check to synchronize understanding of the immediate procedure before concluding the interaction.",
+      "example": "So the next step is to wait for your confirmation email before I head out to meet the driver, correct?"
+    },
+    {
+      "text": "Thanks—I'll do that now.",
+      "usage": "A concise, proactive closing that signals the user's readiness to immediately execute the provided advice or booking step.",
+      "example": "That sounds like a perfectly streamlined plan for the evening; thanks—I'll do that now and let you know how it goes."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Ambiance",
+      "definition": "The specific character and atmosphere of a location or establishment."
+    },
+    {
+      "term": "Logistics",
+      "definition": "The detailed coordination of a complex operation involving time and movement."
+    },
+    {
+      "term": "Exclusivity",
+      "definition": "The quality of being restricted to a particular group, often implying high status."
+    },
+    {
+      "term": "Proximity",
+      "definition": "Nearness in space, time, or relationship."
+    },
+    {
+      "term": "Curated",
+      "definition": "Selected, organized, and presented using professional or expert knowledge."
+    }
+  ]
+}

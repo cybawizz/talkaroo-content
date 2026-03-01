@@ -1,0 +1,37 @@
+{
+  "skinId": "skin_hotel_complaint_b2",
+  "name": "Hotel Service Complaint",
+  "category": "service_problem",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Receptionist"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain a room issue, request a solution, and confirm the timeline.",
+    "aiGoal": "Apologize, ask for details, and offer options with constraints."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "ask_for_help",
+    "describe_problem",
+    "respond_follow_up",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "formal"
+  },
+  "tags": [
+    "hotel",
+    "complaint",
+    "service"
+  ]
+}

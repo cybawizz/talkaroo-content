@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_info_L2_hotel",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_hotel_reception",
+  "mode": "light",
+  "prompt": "Say it better (service question).",
+  "items": [
+    {
+      "bad": "Pool close time?",
+      "better": "What time does the pool close?",
+      "note": "Use 'What time does...'."
+    },
+    {
+      "bad": "Towels there?",
+      "better": "Do you have towels at the pool?",
+      "note": "Add 'Do you have...'."
+    }
+  ]
+}

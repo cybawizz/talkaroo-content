@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_neighbor_01",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_neighbor_intro",
+  "prompt": "Identify the time detail.",
+  "script": "I really like this neighborhood. You know what, I moved here last week. Everyone is very friendly so far.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Casually dropping a piece of personal news",
+      "Asking the neighbor to help them move",
+      "Complaining about the heavy boxes",
+      "Saying they lost their house keys"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'You know what'?"
+  },
+  "explanation": "The speaker uses 'You know what' to casually drop a fresh piece of personal news to their neighbor."
+}

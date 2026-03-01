@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_work_02",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "What is the tone?",
+  "script": "I completely understand that the current software migration strategy isn't exactly ideal for everyone involved. For the record, I'm genuinely open to hearing any alternative approaches you might have in mind. But regardless of which path we eventually choose, we absolutely must establish a clear timeline today. We simply cannot afford to delay this critical launch any further than we already have. So, what exactly is your proposed schedule?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To show flexibility on the method while remaining strictly unyielding on the deadline.",
+      "To angrily refuse any suggestions from the rest of the team.",
+      "To apologize for creating such a terrible software migration plan.",
+      "To happily announce that the deadline has been extended by a month."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'I'm genuinely open to hearing any alternative approaches... But realistically...'?"
+  },
+  "explanation": "The speaker contrasts their flexibility on the process ('open to alternatives') with a firm boundary on the outcome ('must establish a clear timeline')."
+}

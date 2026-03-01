@@ -1,0 +1,35 @@
+{
+  "skinId": "skin_shopping_choice",
+  "name": "Shopping Preference",
+  "category": "shopping",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Shopper"
+    },
+    {
+      "roleId": "ai",
+      "label": "Shop Assistant"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say what you prefer (brand/price), explain why, and confirm a choice.",
+    "aiGoal": "Suggest an alternative and ask what matters most."
+  },
+  "allowedIntents": [
+    "express_opinion",
+    "give_reason",
+    "compare",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "shopping",
+    "preference",
+    "value"
+  ]
+}

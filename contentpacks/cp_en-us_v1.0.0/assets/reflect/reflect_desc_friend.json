@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_desc_friend",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_friend_description",
+  "mode": "light",
+  "prompt": "Say it better (add 2 details).",
+  "items": [
+    {
+      "bad": "My friend good.",
+      "better": "My friend is very kind and friendly.",
+      "note": "Use 'is' + two adjectives."
+    },
+    {
+      "bad": "She long hair.",
+      "better": "She has long hair.",
+      "note": "Use 'has'."
+    }
+  ]
+}

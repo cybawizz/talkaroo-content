@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_station_basic",
+  "name": "The Train Station",
+  "category": "public_transport",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Passenger"
+    },
+    {
+      "roleId": "ai",
+      "label": "Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Ask for the platform number.",
+    "aiGoal": "Give the number."
+  },
+  "allowedIntents": [
+    "ask",
+    "confirm",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "helpful",
+    "register": "neutral"
+  },
+  "tags": [
+    "transport",
+    "platform"
+  ]
+}

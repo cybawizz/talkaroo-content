@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_transit_info_b2_B2",
+  "skinId": "skin_transit_info_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "Could you walk me through the best option?",
+      "usage": "Use this when you want a detailed, step-by-step explanation of the most efficient route, especially when multiple choices are available.",
+      "example": "Given the current signal failure on the Piccadilly Line, could you walk me through the best option to reach Heathrow by 6 PM?"
+    },
+    {
+      "text": "Just to clarify, you mean…",
+      "usage": "This serves as a polite hedging technique to verify information and prevent potential misunderstandings during a complex explanation.",
+      "example": "Just to clarify, you mean that the replacement bus service departs from the rear of the station rather than the main concourse?"
+    },
+    {
+      "text": "If that's the case, what would you recommend?",
+      "usage": "Use this to pivot your strategy once a specific condition—such as a delay or cancellation—has been confirmed by the staff.",
+      "example": "If that's the case regarding the total suspension of services, what would you recommend as a viable alternative for getting across town?"
+    },
+    {
+      "text": "Is there a quicker alternative?",
+      "usage": "An advanced way to probe for efficiency, often implying that the standard route may be too slow for your specific needs.",
+      "example": "While the subway is the most direct route, is there a quicker alternative considering the heavy congestion reported at the interchange?"
+    },
+    {
+      "text": "Roughly how long should I allow?",
+      "usage": "This acknowledges that travel times are estimates; it asks for a realistic time frame including potential buffers for transit.",
+      "example": "If I need to navigate through security after I arrive, roughly how long should I allow for the entire journey from this desk to the gate?"
+    },
+    {
+      "text": "What are the key steps I should follow?",
+      "usage": "Use this to request a logical sequence of actions, which helps in managing complex transit procedures or multi-leg journeys.",
+      "example": "To ensure I don't miss the final connection of the evening, what are the key steps I should follow once I reach the junction?"
+    },
+    {
+      "text": "Could you point out a landmark I can’t miss?",
+      "usage": "This is a request for a 'failsafe' visual reference point to ensure you don't overshoot a stop or get lost in an unfamiliar area.",
+      "example": "Since I'm unfamiliar with the district, could you point out a landmark I can’t miss so I know exactly where to disembark from the bus?"
+    },
+    {
+      "text": "Does that route avoid the crowded area?",
+      "usage": "A nuanced inquiry regarding passenger density, used when seeking a more comfortable or less stressful travel experience.",
+      "example": "I'm traveling with a large suitcase and would prefer more space; does that route avoid the crowded area during the peak rush hour?"
+    },
+    {
+      "text": "So the next step is to…",
+      "usage": "A summarizing technique used to confirm you have correctly synthesized the instructions provided by the help desk.",
+      "example": "So the next step is to validate my ticket at the yellow kiosk before heading down to platform nine, is that correct?"
+    },
+    {
+      "text": "Thanks—I'll do that now.",
+      "usage": "A professional and decisive way to conclude the interaction once you have obtained the necessary information and are ready to proceed.",
+      "example": "I appreciate the insight regarding the service disruptions; thanks—I'll do that now to ensure I catch the next available departure."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Contingency",
+      "definition": "A provision for an unforeseen event or circumstance, such as a backup travel plan in case of delays."
+    },
+    {
+      "term": "Interchange",
+      "definition": "A major station where several different transport lines or modes meet, allowing passengers to switch between them."
+    },
+    {
+      "term": "Disruption",
+      "definition": "A disturbance that interrupts the normal operation of a service, often leading to delays or cancellations."
+    },
+    {
+      "term": "Congestion",
+      "definition": "The state of being overcrowded or obstructed, typically used to describe heavy traffic or crowded platforms."
+    },
+    {
+      "term": "Viable",
+      "definition": "Something that is capable of working successfully; a practical or realistic option under the current circumstances."
+    }
+  ]
+}

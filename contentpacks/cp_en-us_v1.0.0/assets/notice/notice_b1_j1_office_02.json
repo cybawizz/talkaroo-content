@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_b1_j1_office_02",
+  "skillId": "skill_manage_conversations",
+  "level": 3,
+  "skinId": "skin_b1_office_break",
+  "prompt": "Identify the opinion and the reason.",
+  "script": "As a matter of fact, I'm finding the new schedule quite helpful. At first, I was worried we wouldn't have enough time for lunch. It turns out that taking shorter, more frequent breaks keeps my energy up. Consequently, I feel much more productive in the afternoon.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce the logical benefit they experience from the new schedule.",
+      "To complain that they are working too hard in the afternoon.",
+      "To demand even longer breaks from their manager.",
+      "To apologize for being unproductive at work."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Consequently'?"
+  },
+  "explanation": "The speaker uses 'Consequently' to show the positive result that comes directly from their new break routine."
+}

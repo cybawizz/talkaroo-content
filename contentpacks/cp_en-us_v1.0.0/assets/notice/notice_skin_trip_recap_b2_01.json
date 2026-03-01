@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_trip_recap_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_trip_recap_b2",
+  "prompt": "Identify the sequence marker.",
+  "script": "The entire situation with finding our rental house on the first night was a complete disaster. At first, we actually got completely lost for about forty-five minutes because the navigation app sent us to the wrong side of the island. We were driving in circles around a huge, empty resort complex in the pitch dark. Eventually, after asking three different security guards for directions, we finally found the actual hidden entrance around the back. By the time we unlocked the door, we were practically exhausted.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They easily found their rental house on their very first try.",
+      "They got severely lost before eventually locating the correct entrance.",
+      "They never actually found the house and slept in their rental car.",
+      "They are currently lost on an island right now."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker structure the events in their travel story using transition markers?"
+  },
+  "explanation": "The speaker uses strong sequence markers ('At first', 'Eventually', 'finally') to clearly structure a chaotic travel narrative for the listener."
+}

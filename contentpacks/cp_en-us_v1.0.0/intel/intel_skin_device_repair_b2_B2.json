@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_device_repair_b2_B2",
+  "skinId": "skin_device_repair_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "I’m afraid there’s an issue with…",
+      "usage": "Use this to soften the delivery of bad news or a complaint by employing hedging, which makes the tone more polite and less accusatory.",
+      "example": "I’m afraid there’s an issue with the logic board, as the system consistently fails to boot after the recent firmware update."
+    },
+    {
+      "text": "Could we look at a couple of options?",
+      "usage": "This phrase is used to signal a desire for a collaborative negotiation, suggesting that the initial solution offered might not be the only way forward.",
+      "example": "Since the cost of the original manufacturer's parts is quite high, could we look at a couple of options involving certified third-party components?"
+    },
+    {
+      "text": "What would you be able to do on your side?",
+      "usage": "A subtle way to invite the other party to offer a concession or a discount without making a direct or aggressive demand for one.",
+      "example": "Given that I have been a loyal customer for five years, what would you be able to do on your side to reduce the total labor costs for this repair?"
+    },
+    {
+      "text": "To be clear, I’m asking for…",
+      "usage": "Use this for assertive clarification to ensure there is no ambiguity regarding your expectations or the specific outcome you require.",
+      "example": "To be clear, I’m asking for a comprehensive diagnostic report and a written guarantee before any hardware modifications are made."
+    },
+    {
+      "text": "That doesn’t quite solve the problem because…",
+      "usage": "A nuanced way to reject a proposed solution by focusing on the logic of the situation rather than being confrontational.",
+      "example": "That doesn’t quite solve the problem because the display flickering persists even when I use a different power adapter, suggesting an internal fault."
+    },
+    {
+      "text": "Is there any flexibility on the timeline?",
+      "usage": "A professional way to negotiate a deadline or turnaround time, implying that the current schedule is inconvenient without being demanding.",
+      "example": "Because I have a major presentation on Monday, is there any flexibility on the timeline to expedite the screen replacement process?"
+    },
+    {
+      "text": "Could you confirm what happens next?",
+      "usage": "Use this to establish a clear procedural plan and ensure accountability by asking for a step-by-step breakdown of the post-negotiation process.",
+      "example": "Now that we have agreed on the price, could you confirm what happens next regarding the tracking of my device through the repair cycle?"
+    },
+    {
+      "text": "I’d appreciate it if we could…",
+      "usage": "A formal conditional structure used to propose a preferred action while maintaining a respectful and advanced tone.",
+      "example": "I’d appreciate it if we could prioritize the data recovery phase before you attempt to format the internal drive."
+    },
+    {
+      "text": "If that’s not possible, the next best thing is…",
+      "usage": "A classic negotiation tactic used to present a secondary alternative or 'fallback position' if your primary request cannot be met.",
+      "example": "If that’s not possible due to your current inventory levels, the next best thing is a temporary loaner device so I can continue my work."
+    },
+    {
+      "text": "Thanks for sorting this out.",
+      "usage": "A polite closing phrase used to acknowledge the resolution of a complex situation and leave the interaction on a positive note.",
+      "example": "I really value the transparency you've shown regarding the hidden fees; thanks for sorting this out so professionally."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Intermittent",
+      "definition": "Occurring at irregular intervals; not continuous or steady, often used to describe hardware glitches."
+    },
+    {
+      "term": "Concession",
+      "definition": "Something that is granted or given up in a negotiation to reach an agreement."
+    },
+    {
+      "term": "Turnaround time",
+      "definition": "The total amount of time it takes to complete a specific task or repair from start to finish."
+    },
+    {
+      "term": "Diagnostic",
+      "definition": "A formal investigation or test performed to identify the root cause of a technical failure."
+    },
+    {
+      "term": "Expedite",
+      "definition": "To make a process happen more quickly than the standard speed."
+    }
+  ]
+}

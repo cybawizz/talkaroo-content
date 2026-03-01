@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_friend_01",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_friend_description",
+  "prompt": "Identify the appearance.",
+  "script": "Let me see, she is quite tall. She has long dark hair. Also, she wears glasses when she reads.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Taking a moment to picture someone in their head",
+      "Asking someone to bring them glasses",
+      "Demanding to look at a photograph",
+      "Refusing to describe a real person"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'Let me see' suggest here?"
+  },
+  "explanation": "The speaker uses 'Let me see' to show they are taking a brief pause to picture their friend before describing them."
+}

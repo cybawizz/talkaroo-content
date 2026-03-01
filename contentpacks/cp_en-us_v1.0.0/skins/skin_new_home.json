@@ -1,0 +1,32 @@
+{
+  "skinId": "skin_new_home",
+  "name": "My New Apartment",
+  "category": "indoor_place",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "New Resident"
+    },
+    {
+      "roleId": "ai",
+      "label": "Neighbor"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe your apartment (size + location) and answer one follow-up about the floor.",
+    "aiGoal": "Ask about size and floor."
+  },
+  "allowedIntents": [
+    "describe_place",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "neutral"
+  },
+  "tags": [
+    "home",
+    "location"
+  ]
+}

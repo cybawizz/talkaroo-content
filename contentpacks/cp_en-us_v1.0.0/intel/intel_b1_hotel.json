@@ -1,0 +1,60 @@
+{
+  "intelId": "intel_b1_hotel",
+  "skinId": "skin_hotel_reception",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me the opening hours?",
+      "usage": "Use this polite request to gather timing information so that you can plan your schedule effectively.",
+      "example": "Could you tell me the opening hours because I want to ensure we arrive before the kitchen closes."
+    },
+    {
+      "text": "Do you mean it's fully booked?",
+      "usage": "This question seeks formal clarification when the staff indicates a lack of availability so you can confirm the current status.",
+      "example": "Do you mean it's fully booked, so we should consider looking for a different venue immediately?"
+    },
+    {
+      "text": "Is there another way to get a table?",
+      "usage": "This inquiry explores alternative methods of securing a seat because you wish to investigate every possible option.",
+      "example": "Is there another way to get a table because we are willing to wait in the lobby if a spot becomes available."
+    },
+    {
+      "text": "Could you recommend somewhere nearby?",
+      "usage": "Use this when the primary option is unavailable so that the concierge can suggest a comparable local establishment.",
+      "example": "Could you recommend somewhere nearby because we prefer to dine at a place within walking distance of the hotel."
+    },
+    {
+      "text": "How do I get there from here?",
+      "usage": "This request asks for specific navigational instructions so you can reach the destination without any difficulty.",
+      "example": "How do I get there from here so that we can find the main entrance to the building easily?"
+    },
+    {
+      "text": "That sounds good. I'll do that.",
+      "usage": "This phrase signals formal agreement with a suggestion so that the interaction can be successfully concluded.",
+      "example": "That sounds good. I'll do that because your recommendation seems to be the most convenient choice for us."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Inquire",
+      "definition": "To ask for information from someone in a professional or formal manner."
+    },
+    {
+      "term": "Clarify",
+      "definition": "To make a statement or situation less confused and more comprehensible."
+    },
+    {
+      "term": "Establishment",
+      "definition": "A business organization, such as a restaurant or hotel, or a public institution."
+    },
+    {
+      "term": "Navigate",
+      "definition": "To plan and direct the route or course of a journey to a specific location."
+    },
+    {
+      "term": "Availability",
+      "definition": "The state of being able to be used, purchased, or obtained at a particular time."
+    }
+  ]
+}

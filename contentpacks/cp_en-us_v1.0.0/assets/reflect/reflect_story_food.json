@@ -1,0 +1,20 @@
+{
+  "reflectId": "reflect_story_food",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_food_story",
+  "mode": "light",
+  "prompt": "Say it better (order + price).",
+  "items": [
+    {
+      "bad": "I order fried rice yesterday.",
+      "better": "Yesterday, I ordered fried rice.",
+      "note": "Use past 'ordered'."
+    },
+    {
+      "bad": "Not expensive.",
+      "better": "It was not expensive.",
+      "note": "Add 'It was'."
+    }
+  ]
+}

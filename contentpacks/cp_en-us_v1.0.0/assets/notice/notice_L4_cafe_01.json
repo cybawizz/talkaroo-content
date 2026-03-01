@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "What is the speaker doing?",
+  "script": "I honestly get what you're saying about the premium beans they use here. However, to be perfectly frank, I'm just not entirely convinced it's actually worth that high of a price. For almost eight dollars a cup, I would expect something significantly better than what we usually make at home. At the end of the day, it's really just coffee.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To kindly acknowledge the other person's perspective before immediately introducing an opposing view.",
+      "To aggressively demand a refund for the terrible coffee.",
+      "To boast about how much money they save by brewing cheap coffee at home.",
+      "To apologize profusely for misunderstanding the coffee menu."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker begin by saying 'I honestly get what you're saying...'?"
+  },
+  "explanation": "The speaker uses the phrase 'I honestly get what you're saying' as a polite concession, deliberately softening the impact of the disagreement that follows."
+}

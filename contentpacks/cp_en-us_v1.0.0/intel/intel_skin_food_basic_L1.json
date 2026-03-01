@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_food_basic_L1",
+  "skinId": "skin_food_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "This is cold.",
+      "usage": "Use when food is not hot.",
+      "example": "This pizza is cold."
+    },
+    {
+      "text": "Wrong order.",
+      "usage": "Use when the food is wrong.",
+      "example": "Sorry, this is a wrong order."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Food",
+      "definition": "Things we eat."
+    },
+    {
+      "term": "Wrong",
+      "definition": "Not correct."
+    },
+    {
+      "term": "Hot",
+      "definition": "High temperature."
+    },
+    {
+      "term": "Waiter",
+      "definition": "Person who brings food."
+    },
+    {
+      "term": "Problem",
+      "definition": "Something is not right."
+    }
+  ]
+}

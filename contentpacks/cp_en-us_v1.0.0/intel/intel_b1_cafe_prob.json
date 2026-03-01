@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_cafe_prob",
+  "skinId": "skin_cafe_order_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Excuse me, I think this is wrong.",
+      "usage": "Used to politely attract the barista's attention and signal that there is a discrepancy with the order.",
+      "example": "Excuse me, I think this is wrong because I specifically requested an oat milk latte instead of dairy."
+    },
+    {
+      "text": "I ordered ..., but I got ...",
+      "usage": "Used to clearly compare the intended order with the actual item received to identify the mistake.",
+      "example": "I ordered a decaf cappuccino, but I got a regular one instead, so I cannot drink it."
+    },
+    {
+      "text": "It's cold / too sweet.",
+      "usage": "Used to specify a quality issue with the beverage's temperature or flavor profile.",
+      "example": "It's too sweet, so I would prefer it with less syrup next time if possible."
+    },
+    {
+      "text": "Could you remake it, please?",
+      "usage": "A formal request to have the drink prepared again correctly to resolve the initial error.",
+      "example": "Could you remake it, please, because the milk has been overheated?"
+    },
+    {
+      "text": "No sugar, please.",
+      "usage": "Used to confirm or reiterate a specific dietary requirement during the correction process.",
+      "example": "No sugar, please, because I am monitoring my sugar intake for health reasons."
+    },
+    {
+      "text": "Can I get it to go?",
+      "usage": "Used to specify that the corrected beverage should be placed in a portable container for off-site consumption.",
+      "example": "Can I get it to go, please, so I can arrive at my next appointment on time?"
+    },
+    {
+      "text": "Thanks for fixing it.",
+      "usage": "A polite closing remark to acknowledge the staff's effort in correcting the mistake.",
+      "example": "Thanks for fixing it so quickly, as I really appreciate the excellent customer service."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Discrepancy",
+      "definition": "A lack of compatibility or similarity between the order placed and the order received."
+    },
+    {
+      "term": "Remake",
+      "definition": "To prepare a beverage again to correct a previous error."
+    },
+    {
+      "term": "Preference",
+      "definition": "A specific choice or liking for one thing over another, such as milk type."
+    },
+    {
+      "term": "Rectify",
+      "definition": "To correct a mistake or make a situation right for the customer."
+    },
+    {
+      "term": "Requirement",
+      "definition": "A specific instruction that must be followed, such as a dietary restriction."
+    }
+  ]
+}

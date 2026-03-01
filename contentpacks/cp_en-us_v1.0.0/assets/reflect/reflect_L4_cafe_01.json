@@ -1,0 +1,17 @@
+{
+  "reflectId": "reflect_L4_cafe_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_cafe_opinion_clash",
+  "prompt": "Say it better (keep it warm and respectful).",
+  "items": [
+    {
+      "bad": "You’re wrong. This place is overrated.",
+      "better": "I get why you like it, but for me it feels a bit overrated."
+    },
+    {
+      "bad": "Stop arguing. Whatever.",
+      "better": "Let’s agree to disagree and move on—no hard feelings."
+    }
+  ]
+}

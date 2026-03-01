@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_food_story_L2",
+  "skinId": "skin_food_story",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Yesterday, I ate at ...",
+      "usage": "Use this to start your story about your recent meal.",
+      "example": "Yesterday, I ate at a busy Italian restaurant nearby."
+    },
+    {
+      "text": "I ordered ...",
+      "usage": "Use this to talk about the food you chose.",
+      "example": "I ordered a large cheese pizza and cold orange juice."
+    },
+    {
+      "text": "It tasted good.",
+      "usage": "Use this to describe how you liked the meal flavor.",
+      "example": "It tasted good because the ingredients were very fresh today."
+    },
+    {
+      "text": "The service was fast.",
+      "usage": "Use this when the staff brought your food quickly.",
+      "example": "The service was fast so we finished our meal quickly."
+    },
+    {
+      "text": "It was not expensive.",
+      "usage": "Use this to say the price was quite low.",
+      "example": "It was not expensive at all for such delicious food."
+    },
+    {
+      "text": "It cost {amount}.",
+      "usage": "Use this to give the exact price of the meal.",
+      "example": "It cost twenty dollars for the entire lunch and drinks."
+    },
+    {
+      "text": "I went with ...",
+      "usage": "Use this to mention the people who were with you.",
+      "example": "I went with my best friend from my English class."
+    },
+    {
+      "text": "Then we ...",
+      "usage": "Use this to say what happened after eating there.",
+      "example": "Then we walked to the park for some fresh air."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Delicious",
+      "definition": "Having a very pleasant and good taste."
+    },
+    {
+      "term": "Expensive",
+      "definition": "Costing a lot of money to buy or use."
+    },
+    {
+      "term": "Fast",
+      "definition": "Moving or happening at a very high speed."
+    },
+    {
+      "term": "Cheap",
+      "definition": "Low in price and not costing much money."
+    },
+    {
+      "term": "Friendly",
+      "definition": "Being kind and helpful to other people around you."
+    }
+  ]
+}

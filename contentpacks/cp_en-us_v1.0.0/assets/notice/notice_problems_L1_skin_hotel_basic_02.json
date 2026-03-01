@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_problems_L1_skin_hotel_basic_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 1,
+  "skinId": "skin_hotel_basic",
+  "prompt": "What is the problem?",
+  "script": "Also, there is no hot water in my room. Please fix it.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Adding another problem to the list",
+      "Saying thank you",
+      "Asking for a towel",
+      "Saying the room is nice"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Also' here?"
+  },
+  "explanation": "The speaker uses 'Also' to add a second problem to the one they already mentioned."
+}

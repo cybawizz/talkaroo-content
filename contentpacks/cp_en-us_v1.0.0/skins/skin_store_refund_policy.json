@@ -1,0 +1,37 @@
+{
+  "skinId": "skin_store_refund_policy",
+  "name": "Refund Policy Conversation",
+  "category": "service_conflict",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Store Manager"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your request, respond to refusal, and negotiate an acceptable outcome.",
+    "aiGoal": "State the policy, offer limited alternatives, and reach a final decision."
+  },
+  "allowedIntents": [
+    "make_request",
+    "respond_to_refusal",
+    "clarify_policy",
+    "negotiate",
+    "accept_alternative",
+    "confirm_agreement",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "neutral"
+  },
+  "tags": [
+    "service",
+    "refund",
+    "policy"
+  ]
+}

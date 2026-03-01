@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_hotel_basic_L1",
+  "skinId": "skin_hotel_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "It is broken.",
+      "usage": "Use this to report a problem.",
+      "example": "My TV is broken."
+    },
+    {
+      "text": "No hot water.",
+      "usage": "Say this when water is cold.",
+      "example": "Help, there is no hot water."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Problem",
+      "definition": "Something is wrong."
+    },
+    {
+      "term": "Room",
+      "definition": "Where you sleep."
+    },
+    {
+      "term": "Light",
+      "definition": "It helps you see."
+    },
+    {
+      "term": "Key",
+      "definition": "It opens the door."
+    },
+    {
+      "term": "Cold",
+      "definition": "Not hot."
+    }
+  ]
+}

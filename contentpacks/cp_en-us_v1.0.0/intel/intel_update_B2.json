@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_update_B2",
+  "skinId": "skin_team_update_meeting",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To summarize the current status…",
+      "usage": "Use this as a formal transition to provide a high-level overview before diving into granular technical details.",
+      "example": "To summarize the current status, we have successfully finalized the architectural design, though the implementation phase remains slightly behind schedule."
+    },
+    {
+      "text": "The main risk is…",
+      "usage": "This introduces a primary concern while allowing for a nuanced discussion of potential obstacles in a professional manner.",
+      "example": "The main risk is a potential bottleneck in the testing environment which could hinder our ability to meet the Friday deadline."
+    },
+    {
+      "text": "To mitigate this, we can…",
+      "usage": "Employ this phrase to propose proactive solutions that reduce the impact of identified project threats.",
+      "example": "To mitigate this, we can reallocate resources from the secondary module to ensure the primary deliverables are rigorously vetted."
+    },
+    {
+      "text": "Our assumption is that…",
+      "usage": "A hedging technique used to qualify your statements by identifying the underlying conditions your plan relies on.",
+      "example": "Our assumption is that the third-party API will remain backward compatible throughout the duration of the migration process."
+    },
+    {
+      "text": "If that changes, we will…",
+      "usage": "This conditional structure demonstrates foresight and contingency planning in the face of uncertainty.",
+      "example": "If that changes, we will immediately pivot to our secondary vendor to avoid any significant disruptions to the user experience."
+    },
+    {
+      "text": "The trade-off is…",
+      "usage": "Use this to explain the balance between two competing priorities, acknowledging that every decision has a cost.",
+      "example": "The trade-off is achieving a faster time-to-market at the expense of comprehensive cross-browser optimization in the initial release."
+    },
+    {
+      "text": "Could you clarify what you mean by…?",
+      "usage": "A professional way to seek precision when a colleague uses ambiguous or overly broad terminology.",
+      "example": "Could you clarify what you mean by 'operational readiness' so we can align our success metrics with stakeholder expectations?"
+    },
+    {
+      "text": "Next steps are…",
+      "usage": "This provides a structured conclusion to an update, outlining immediate actions to maintain momentum.",
+      "example": "Next steps are to conduct a thorough code review followed by a limited pilot rollout to gather initial user feedback."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Bottleneck",
+      "definition": "A point of congestion in a system that slows down or stops progress."
+    },
+    {
+      "term": "Contingency",
+      "definition": "A provision or plan for a possible future event or circumstance that cannot be predicted with certainty."
+    },
+    {
+      "term": "Stakeholder",
+      "definition": "An individual or group that has an interest or concern in the outcome of a project."
+    },
+    {
+      "term": "Deliverable",
+      "definition": "A tangible or intangible product produced as a result of the project work."
+    },
+    {
+      "term": "Pivot",
+      "definition": "To shift a strategy or direction significantly in response to new information or obstacles."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_bus_02",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_bus_station_info",
+  "prompt": "Understand the delay.",
+  "script": "I was just checking the live schedule on my phone for our route. Apparently, there was an accident on the main bridge about an hour ago. So, the bus is going to be at least ten minutes late. It's probably best if we just wait inside where it gets a little warmer.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To introduce a piece of information they heard or read somewhere else.",
+      "To angrily complain about the terrible bus drivers.",
+      "To brag about having a very fast smartphone.",
+      "To apologize for causing the traffic accident."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Apparently'?"
+  },
+  "explanation": "The speaker uses 'Apparently' to pass along secondhand information that explains the current delay."
+}

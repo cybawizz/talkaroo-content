@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_L4_work_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "What is the speaker trying to do?",
+  "script": "We're starting to go in circles a bit with this discussion, to be honest. To make sure we're actually being productive, let's separate the distinct issues here: the expanding project scope versus the current lack of staffing. If we try to solve both of those massive problems simultaneously, we simply aren't going to get anywhere today. Let's tackle the timeline first, and then we can look at the budget. Does that sound like a reasonable plan to everyone?",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To organize a chaotic discussion by breaking a large problem into smaller, manageable parts.",
+      "To complain that the meeting is incredibly boring and everyone should leave.",
+      "To aggressively blame the staff for causing all the project delays.",
+      "To demand that the manager cancel the entire project immediately."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker suggest they should 'separate the distinct issues here'?"
+  },
+  "explanation": "The speaker attempts to restructure a disorganized meeting by actively suggesting they address separate topics one at a time."
+}

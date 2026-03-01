@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_refund_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_store_refund_policy",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Apply the same skill in a new setting (online support).",
+  "newContext": "Live chat support — negotiating a subscription cancellation.",
+  "transferSkin": {
+    "skinId": "skin_refund_transfer",
+    "name": "Online Cancellation",
+    "category": "digital",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Customer"
+      },
+      {
+        "roleId": "ai",
+        "label": "Support"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Cancel and get credit back.",
+      "aiGoal": "Retain customer."
+    },
+    "allowedIntents": [
+      "negotiate",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "professional",
+      "register": "neutral"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

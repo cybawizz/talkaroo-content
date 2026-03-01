@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_shop_01",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_shop_basic",
+  "prompt": "Listen for the price.",
+  "script": "Let me see, that is ten dollars, please. You can pay here.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Checking something before answering",
+      "Refusing to sell an item",
+      "Saying hello to a customer",
+      "Complaining about the price"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker start with 'Let me see'?"
+  },
+  "explanation": "The speaker uses 'Let me see' to show they are checking the price before giving the answer."
+}

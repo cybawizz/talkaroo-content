@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_neighborhood_compare_b2_B2",
+  "skinId": "skin_neighborhood_compare_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "What stands out most is…",
+      "usage": "Use this phrase to emphasize a defining feature or the most significant characteristic that distinguishes one area from another.",
+      "example": "What stands out most is the striking contrast between the futuristic glass skyscrapers and the narrow, cobblestone alleys of the historic district."
+    },
+    {
+      "text": "He tends to…",
+      "usage": "A hedging expression used to describe the typical behavior of a specific individual, like a neighbor, without making an absolute claim.",
+      "example": "The local shopkeeper is incredibly knowledgeable, though he tends to be a bit overly talkative when there is a long queue of customers."
+    },
+    {
+      "text": "If I had to sum it up…",
+      "usage": "Use this to provide a concise synthesis or a concluding overview of your complex impressions regarding a neighborhood's atmosphere.",
+      "example": "If I had to sum it up, the area is a paradoxical blend of high-end luxury boutiques and gritty, underground art galleries."
+    },
+    {
+      "text": "Compared to…, it feels…",
+      "usage": "This structure is ideal for contrasting the subjective atmosphere or 'vibe' of two different locations using nuanced adjectives.",
+      "example": "Compared to the relentless pace of the downtown core, this riverside suburb feels significantly more laid-back and community-oriented."
+    },
+    {
+      "text": "It’s located right by…",
+      "usage": "Used to establish geographical context by referencing proximity to a major landmark, facility, or transit hub.",
+      "example": "It’s located right by the newly developed technology corridor, making it an ideal residential spot for professionals in the software industry."
+    },
+    {
+      "text": "From what I’ve noticed…",
+      "usage": "A subtle way to introduce a personal observation or trend while acknowledging that your perspective may be limited or subjective.",
+      "example": "From what I’ve noticed, the local demographic is shifting as younger families move in to take advantage of the expanded green spaces."
+    },
+    {
+      "text": "A typical day looks like…",
+      "usage": "Use this to paint a picture of the routine rhythm and lifestyle patterns one might experience in a specific urban or suburban setting.",
+      "example": "A typical day looks like a quiet morning at the local cafes followed by a surge of activity in the communal parks during the late afternoon."
+    },
+    {
+      "text": "The biggest drawback is…",
+      "usage": "A polite and structured way to introduce a significant disadvantage or criticism of an area while maintaining an objective tone.",
+      "example": "The biggest drawback is undoubtedly the lack of reliable public transport, which necessitates a long and often frustrating daily commute."
+    },
+    {
+      "text": "On the plus side…",
+      "usage": "Used to transition from a negative point to a positive one, ensuring a balanced and fair comparison of two locations.",
+      "example": "On the plus side, the neighborhood's cultural diversity has led to an explosion of authentic international dining options that are quite affordable."
+    },
+    {
+      "text": "In general, I’d say…",
+      "usage": "A common hedging phrase used to make a generalized statement about an area while allowing for potential exceptions.",
+      "example": "In general, I’d say the district is perfectly suited for those who prioritize a vibrant nightlife over the tranquility of a traditional suburb."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Gentrification",
+      "definition": "The process of urban renewal that often leads to rising property values and the displacement of lower-income residents."
+    },
+    {
+      "term": "Amenities",
+      "definition": "Desirable or useful features of a place, such as parks, gyms, or shopping centers, that increase its attractiveness."
+    },
+    {
+      "term": "Infrastructure",
+      "definition": "The basic physical and organizational structures, such as roads and power supplies, needed for the operation of a society."
+    },
+    {
+      "term": "Commuter Belt",
+      "definition": "An area surrounding a city where many people live and travel from to work in the city center."
+    },
+    {
+      "term": "Vibrancy",
+      "definition": "The state of being full of energy and life, often used to describe the atmosphere of a bustling neighborhood."
+    }
+  ]
+}

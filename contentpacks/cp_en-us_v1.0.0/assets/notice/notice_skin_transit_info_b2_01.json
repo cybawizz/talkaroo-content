@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_transit_info_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_transit_info_b2",
+  "prompt": "Identify the constraint.",
+  "script": "If you're planning to take the blue line express train downtown this afternoon, I wouldn't recommend standing on this platform. As a matter of fact, the primary outbound track is completely blocked off right now due to some unexpected emergency maintenance. Because of that major system delay, you'll definitely need to take a slight detour using the local green line instead. I'd actually highly suggest leaving the station and just catching a bus if you're in a hurry. It might be a minor inconvenience, but it will absolutely ensure you aren't stuck underground forever.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To provide an undeniable, factual warning that explains why a certain route is highly inadvisable.",
+      "To aggressively complain that the transit authority never finishes its maintenance on schedule.",
+      "To boast about knowing a secret tunnel that no other commuter knows.",
+      "To excitedly invite the fellow passenger to watch the ongoing track repairs."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the phrase 'As a matter of fact'?"
+  },
+  "explanation": "The speaker uses 'As a matter of fact' to firmly introduce a concrete, undeniable piece of reality that significantly impacts the commuter's travel plans."
+}

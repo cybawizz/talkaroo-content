@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_desc_L2_routine_02",
+  "skillId": "skill_describe_basic",
+  "level": 2,
+  "skinId": "skin_morning_routine",
+  "prompt": "Identify the transport.",
+  "script": "You know what, I don't drive anymore. I go to school by bus now. It is much easier for me.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Introducing a personal fact casually",
+      "Asking a direct question",
+      "Demanding someone's attention",
+      "Saying they lost their bus pass"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'You know what'?"
+  },
+  "explanation": "The speaker uses 'You know what' to casually introduce a personal fact about how they travel."
+}

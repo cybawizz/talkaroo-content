@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_hotel_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_hotel_reception",
+  "prompt": "Identify the follow-up.",
+  "script": "Thank you for the key. By the way, do you have towels at the pool? I forgot to pack mine.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Tacking on an extra question they just remembered",
+      "Complaining about the dirty pool",
+      "Asking for a refund",
+      "Saying goodbye to the receptionist"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'By the way'?"
+  },
+  "explanation": "The speaker uses 'By the way' to formally tack on an extra, unrelated question they just remembered to ask."
+}

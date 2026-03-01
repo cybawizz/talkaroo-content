@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_abstract_B2",
+  "skinId": "skin_public_opinion_topic",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "On the one hand… on the other hand…",
+      "usage": "Use this to present a balanced view of a complex situation by juxtaposing two conflicting perspectives or sets of facts.",
+      "example": "On the one hand, implementing these automation tools significantly enhances efficiency; on the other hand, it raises valid concerns regarding job security."
+    },
+    {
+      "text": "I partly agree, but…",
+      "usage": "A hedging technique used to acknowledge the validity of a point while introducing a significant caveat or contradiction.",
+      "example": "I partly agree with your assessment of the economic benefits, but I believe the environmental repercussions have been overlooked in the current proposal."
+    },
+    {
+      "text": "A key point is…",
+      "usage": "Used to emphasize a central argument or fundamental aspect of a discussion to ensure it remains the focal point of the debate.",
+      "example": "A key point is whether the long-term societal advantages truly outweigh the immediate financial burden placed on local taxpayers."
+    },
+    {
+      "text": "That said…",
+      "usage": "A transitional device used to introduce a contrasting thought or qualification immediately after making a positive or neutral statement.",
+      "example": "The initial results are certainly promising for the research team; that said, we must remain cautious until the peer-review process is complete."
+    },
+    {
+      "text": "It’s not that simple.",
+      "usage": "Used to challenge an oversimplified conclusion and suggest that the topic involves intricate nuances requiring further scrutiny.",
+      "example": "While the data suggests a direct correlation, it's not that simple because several external variables might be influencing the outcome simultaneously."
+    },
+    {
+      "text": "In my view, the best approach is…",
+      "usage": "Used to offer a refined, personal recommendation after weighing various aspects of a complex problem.",
+      "example": "In my view, the best approach is to adopt a multifaceted strategy that addresses both the immediate crisis and the underlying structural issues."
+    },
+    {
+      "text": "What evidence supports that?",
+      "usage": "A critical inquiry used to demand empirical backing for an assertion, shifting the focus from speculation to verifiable facts.",
+      "example": "Your claim regarding the shift in consumer behavior is intriguing, but what evidence supports that beyond anecdotal observations?"
+    },
+    {
+      "text": "So my conclusion is…",
+      "usage": "Used to summarize a multifaceted argument and state a final, informed position based on a synthesis of ideas.",
+      "example": "So my conclusion is that while the policy is well-intentioned, its implementation requires more robust oversight to prevent potential misuse."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Nuance",
+      "definition": "A very slight difference in appearance, meaning, or sound."
+    },
+    {
+      "term": "Perspective",
+      "definition": "A particular way of considering something or a specific point of view."
+    },
+    {
+      "term": "Implication",
+      "definition": "The effect that an action or decision will have on something else in the future."
+    },
+    {
+      "term": "Mitigation",
+      "definition": "The act of reducing the harmful effects of something."
+    },
+    {
+      "term": "Consensus",
+      "definition": "A general agreement that is reached by a group of people."
+    }
+  ]
+}

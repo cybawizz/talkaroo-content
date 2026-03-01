@@ -1,0 +1,75 @@
+{
+  "intelId": "intel_b1_neighbor_park",
+  "skinId": "skin_b1_neighbor_park",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Have you been to...?",
+      "usage": "Use this inquiry to begin a discussion about a specific location and determine if your neighbor is familiar with it.",
+      "example": "Have you been to the recently renovated community garden because I am interested in your perspective on the new layout?"
+    },
+    {
+      "text": "I believe ...",
+      "usage": "Utilize this phrase to state a formal opinion or provide a reasoned assessment regarding the local environment.",
+      "example": "I believe the local council should allocate more funds to the park because the seating areas require urgent maintenance."
+    },
+    {
+      "text": "The main reason is ...",
+      "usage": "This expression introduces a logical explanation or evidence to support a previously stated viewpoint.",
+      "example": "The main reason is that the new playground provides superior safety features, so it is much more suitable for young children."
+    },
+    {
+      "text": "Compared to ..., ...",
+      "usage": "Use this comparative structure to evaluate the differences between two places based on specific qualities or benefits.",
+      "example": "Compared to the downtown plaza, our local park offers significantly more biodiversity, so it feels more relaxing."
+    },
+    {
+      "text": "I totally agree.",
+      "usage": "Use this phrase to indicate professional concurrence with a neighbor's observation or suggestion.",
+      "example": "I totally agree because increasing the number of trash bins will definitely help maintain the cleanliness of the walking paths."
+    },
+    {
+      "text": "Actually, I’m not sure.",
+      "usage": "Apply this polite expression when you lack certain information or wish to express a professional level of doubt.",
+      "example": "Actually, I’m not sure if the park stays open after sunset, so we should consult the official city schedule."
+    },
+    {
+      "text": "It depends.",
+      "usage": "Use this phrase to explain that a situation is influenced by various factors or specific conditions.",
+      "example": "It depends on the season because the park becomes much more crowded during the summer months, so I prefer visiting in the autumn."
+    },
+    {
+      "text": "What about you?",
+      "usage": "This question is used to invite the other person to contribute their insights or share their personal preferences.",
+      "example": "I find the new bike lanes very efficient; what about you, have you noticed any improvement in your daily commute?"
+    },
+    {
+      "text": "Good to know.",
+      "usage": "Use this acknowledgement to indicate that information provided is useful and will be considered for future reference.",
+      "example": "Good to know—I will visit the park on a Tuesday instead because you mentioned it is much quieter during the week."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Amenities",
+      "definition": "Useful features or facilities that enhance the comfort and convenience of a public location."
+    },
+    {
+      "term": "Maintenance",
+      "definition": "The routine process of preserving a place or object in good condition through regular repairs."
+    },
+    {
+      "term": "Biodiversity",
+      "definition": "The variety of different types of plant and animal life within a particular habitat or environment."
+    },
+    {
+      "term": "Renovated",
+      "definition": "The state of a building or area that has been repaired and improved to a modern standard."
+    },
+    {
+      "term": "Proximity",
+      "definition": "The state of being near in space or distance to a specific landmark or destination."
+    }
+  ]
+}

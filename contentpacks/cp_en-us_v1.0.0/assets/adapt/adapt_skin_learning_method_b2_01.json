@@ -1,0 +1,14 @@
+{
+  "adaptId": "adapt_skin_learning_method_b2_01",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_learning_method_b2",
+  "prompt": "Handle a stronger counterargument.",
+  "twist": "The other person challenges your opinion with a specific example. You must acknowledge it, adjust your stance slightly, and restate your preference.",
+  "aiMove": "I disagree. I went there last week and the service was really slow. Why do you still like it?",
+  "successCriteria": [
+    "Acknowledge the point",
+    "Adjust stance slightly",
+    "State final preference clearly"
+  ]
+}

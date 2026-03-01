@@ -1,0 +1,37 @@
+{
+  "intelId": "intel_skin_hotel_greeting_L1",
+  "skinId": "skin_hotel_greeting",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Good evening",
+      "usage": "Greeting used after 6 PM.",
+      "example": "Good evening, I have a reservation."
+    },
+    {
+      "text": "My room is {number}",
+      "usage": "State your room identification.",
+      "example": "My room is 302."
+    },
+    {
+      "text": "Key, please",
+      "usage": "Ask for your access card/key.",
+      "example": "Can I have my key, please?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Lobby",
+      "definition": "The entrance area of a hotel."
+    },
+    {
+      "term": "Reception",
+      "definition": "The place where guests check in."
+    },
+    {
+      "term": "Room",
+      "definition": "Your private space in the hotel."
+    }
+  ]
+}

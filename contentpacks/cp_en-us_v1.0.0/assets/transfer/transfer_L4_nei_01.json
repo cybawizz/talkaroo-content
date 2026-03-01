@@ -1,0 +1,12 @@
+{
+  "transferId": "transfer_L4_nei_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_neighbor_boundary_setting",
+  "prompt": "Transfer: same skill, new context (no prep phrases shown).",
+  "newContext": "You need to ask a roommate to change a habit. Be polite, explain impact, and preserve rapport.",
+  "constraints": {
+    "noVisibleIntel": true,
+    "shortTurns": true
+  }
+}

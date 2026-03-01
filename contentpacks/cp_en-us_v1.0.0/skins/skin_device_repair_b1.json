@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_device_repair_b1",
+  "name": "Device Repair Desk",
+  "category": "technical_help",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Repair Staff"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe the device issue, answer questions, and agree on a repair plan.",
+    "aiGoal": "Ask troubleshooting questions and propose a repair timeline."
+  },
+  "allowedIntents": [
+    "report_problem",
+    "describe_problem",
+    "respond_follow_up",
+    "confirm_information",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "factual",
+    "register": "neutral"
+  },
+  "tags": [
+    "technology",
+    "repair"
+  ]
+}

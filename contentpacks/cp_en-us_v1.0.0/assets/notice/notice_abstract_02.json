@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_abstract_02",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "prompt": "Identify the challenge.",
+  "script": "I completely hear what you're saying about the theoretical economic benefits of this new universal basic income proposal. But frankly, I'm struggling to understand your underlying logic when it comes to the actual municipal funding structure. Specifically, exactly what concrete, historical evidence actually supports that highly optimistic financial conclusion? To be completely honest, it sounds deeply flawed based on our current budgetary constraints. We realistically need hard, actionable data before formally presenting this to the city council.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To politely but firmly demand concrete evidence to support an otherwise unproven conclusion.",
+      "To enthusiastically and completely agree with the speaker's deeply optimistic financial predictions.",
+      "To rudely abruptly change the complex topic because they are incredibly bored by economics.",
+      "To warmly say goodbye and abruptly end the ongoing public policy debate."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker follow up with 'what concrete, historical evidence actually supports that...?'"
+  },
+  "explanation": "The speaker challenges an unsupported claim by directly demanding specific proof ('concrete... evidence') to back up the conclusion."
+}

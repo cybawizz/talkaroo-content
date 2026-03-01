@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_food_preferences_b2_02",
+  "skillId": "skill_express_opinions",
+  "level": 4,
+  "skinId": "skin_food_preferences_b2",
+  "prompt": "Identify the compromise move.",
+  "script": "I know you're really hesitant about completely cutting out dairy from your diet right away. It's obviously a massive lifestyle change to make overnight, and it won't be easy. Since your doctor strongly recommended it, could we perhaps just meet in the middle and try it out for a single week? If you absolutely hate how you feel after seven days, we can easily reevaluate the situation. At the very least, we'd know we honestly tried our best.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively propose a temporary, low-risk compromise to alleviate someone's hesitation.",
+      "To aggressively demand the person throw away all their cheese immediately.",
+      "To complain about how difficult it is to find good dairy-free milk.",
+      "To happily announce they have discovered a new vegan recipe online."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'could we perhaps just meet in the middle...?'"
+  },
+  "explanation": "The speaker explicitly uses the idiom 'meet in the middle' alongside 'perhaps' to gently suggest a fair experiment rather than forcing a permanent change."
+}

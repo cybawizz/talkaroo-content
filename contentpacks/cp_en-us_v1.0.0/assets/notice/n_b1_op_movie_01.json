@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_movie_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_movie_choice",
+  "prompt": "Identify the reason.",
+  "script": "When it comes to picking something to watch, I usually lean toward comedies. After a long, stressful day at work, I don't really want to think too hard. Therefore, they are the perfect way for me to just relax and unwind. I'd definitely prefer a lighthearted movie tonight.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To conclude their reasoning with the logical benefit they get from comedies.",
+      "To angrily complain about being too stressed to go to the theater.",
+      "To complain that all other types of movies are boring.",
+      "To boast about how little they have to think at work."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Therefore, they are the perfect way'?"
+  },
+  "explanation": "The speaker uses 'Therefore' to present their preference as a logical conclusion based on their need to relax."
+}

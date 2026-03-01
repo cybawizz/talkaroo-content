@@ -1,0 +1,60 @@
+{
+  "intelId": "intel_b1_street",
+  "skinId": "skin_street_directions",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Could you tell me how long it takes?",
+      "usage": "Use this to inquire about the duration of a journey to ensure your schedule remains accurate.",
+      "example": "Could you tell me how long it takes because I need to estimate my arrival time at the museum?"
+    },
+    {
+      "text": "Do you mean past the bank?",
+      "usage": "Use this to clarify a specific landmark mentioned in the directions so you can avoid navigating the wrong way.",
+      "example": "Do you mean past the bank, so I should proceed toward the main square instead of turning early?"
+    },
+    {
+      "text": "Is there another option?",
+      "usage": "Use this to request an alternative route if the primary path is obstructed or inconvenient.",
+      "example": "Is there another option because the current street is blocked and I need to find a different way?"
+    },
+    {
+      "text": "I'm not sure I understood the turn.",
+      "usage": "Use this to politely indicate confusion regarding a specific instruction so the speaker can clarify the details.",
+      "example": "I'm not sure I understood the turn, so could you please repeat the instructions for the intersection?"
+    },
+    {
+      "text": "What if I take the bus instead?",
+      "usage": "Use this to suggest a different mode of transport because it might be more efficient than walking.",
+      "example": "What if I take the bus instead because it will save time and allow me to reach my destination faster?"
+    },
+    {
+      "text": "Just to confirm, ... right?",
+      "usage": "Use this to verify the information provided so you can proceed with confidence.",
+      "example": "Just to confirm, I should turn left at the corner, right? Because I want to verify the path before I leave."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Navigate",
+      "definition": "To plan and direct the course of a journey or route."
+    },
+    {
+      "term": "Intersection",
+      "definition": "A point where two or more roads meet or cross each other."
+    },
+    {
+      "term": "Alternative",
+      "definition": "A different choice or possibility that can be used instead of the original one."
+    },
+    {
+      "term": "Destination",
+      "definition": "The final place where someone is going or intends to arrive."
+    },
+    {
+      "term": "Approximate",
+      "definition": "To estimate a value or time that is nearly correct but not exact."
+    }
+  ]
+}

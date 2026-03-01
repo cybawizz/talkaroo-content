@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_city_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_city_trip",
+  "prompt": "Identify the sequence.",
+  "script": "My trip to the city was fun. First, I visited the museum. After that, I walked to the station.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Clearly sequencing the events of their day",
+      "Telling a confusing story",
+      "Saying they hated the museum",
+      "Asking where the station is"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'After that'?"
+  },
+  "explanation": "The speaker uses 'After that' to logically sequence the events of their city trip for the listener."
+}

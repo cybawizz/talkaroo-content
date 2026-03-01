@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_learning_method_b2_B2",
+  "skinId": "skin_learning_method_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "If you ask me,…",
+      "usage": "Used to introduce a personal opinion in a way that sounds slightly more authoritative yet remains conversational.",
+      "example": "If you ask me, a blended approach combining asynchronous study with live discourse is the most effective way to foster critical thinking."
+    },
+    {
+      "text": "What I like about it is…",
+      "usage": "Used to emphasize a specific positive attribute of a concept to make a persuasive point or highlight a preference.",
+      "example": "What I like about it is the autonomy it affords the learner, allowing for deep dives into specific niche interests without rigid constraints."
+    },
+    {
+      "text": "That said,…",
+      "usage": "A transition used to introduce a contrasting point or to hedge a previous statement by acknowledging a limitation.",
+      "example": "That said, self-directed learning requires a high degree of intrinsic motivation that not every student possesses at the outset of their journey."
+    },
+    {
+      "text": "On balance, I’d choose…",
+      "usage": "Used to state a final preference after having weighed several conflicting factors or different viewpoints.",
+      "example": "On balance, I’d choose the immersive method because the long-term cognitive benefits of total exposure outweigh the initial frustration of the learner."
+    },
+    {
+      "text": "From my perspective,…",
+      "usage": "Used to frame an argument as an individual viewpoint, which helps soften a strong assertion and invites further discussion.",
+      "example": "From my perspective, standardized testing often fails to capture the nuanced progress made through inquiry-based learning models."
+    },
+    {
+      "text": "I get your point, but…",
+      "usage": "A polite way to acknowledge the validity of an opponent's argument before presenting a conflicting counterpoint.",
+      "example": "I get your point regarding the efficiency of traditional lectures, but they rarely provide the same level of engagement as collaborative workshops."
+    },
+    {
+      "text": "The main advantage is…",
+      "usage": "Used to highlight the primary benefit of a specific method to anchor your argument in a debate.",
+      "example": "The main advantage is the immediate feedback loop created when peers critique each other's work in a real-time environment."
+    },
+    {
+      "text": "The downside is…",
+      "usage": "Used to identify a significant drawback or disadvantage during a critical analysis of a proposal.",
+      "example": "The downside is the potential for cognitive overload if the curriculum is not structured with sufficient instructional scaffolding."
+    },
+    {
+      "text": "Could we meet in the middle?",
+      "usage": "A diplomatic phrase used to propose a compromise or a hybrid solution to resolve a disagreement.",
+      "example": "Could we meet in the middle by adopting a flipped classroom model that incorporates both independent study and interactive group work?"
+    },
+    {
+      "text": "So we agree to…",
+      "usage": "Used to summarize a consensus or confirm a mutual understanding after a complex debate or negotiation.",
+      "example": "So we agree to implement a trial period for this new pedagogical framework before assessing its long-term viability for the department?"
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Pedagogy",
+      "definition": "The method and practice of teaching, especially as an academic subject or theoretical concept."
+    },
+    {
+      "term": "Cognitive",
+      "definition": "Relating to the mental processes of perception, memory, judgment, and reasoning."
+    },
+    {
+      "term": "Autonomy",
+      "definition": "The capacity to make an informed, uncoerced decision and take responsibility for one's own learning path."
+    },
+    {
+      "term": "Intrinsic",
+      "definition": "Belonging naturally to something; essential rather than coming from outside influences."
+    },
+    {
+      "term": "Scaffolding",
+      "definition": "Instructional techniques used to move students toward stronger understanding and ultimately greater independence."
+    }
+  ]
+}

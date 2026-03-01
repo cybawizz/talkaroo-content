@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_funny_misunderstanding_b2_01",
+  "skillId": "skill_share_experiences",
+  "level": 4,
+  "skinId": "skin_funny_misunderstanding_b2",
+  "prompt": "Identify the sequence marker.",
+  "script": "The entire situation with the restaurant reservation was a complete disaster last night. At first, we actually got completely lost for about forty-five minutes because the navigation app sent us to the wrong address. We were literally driving in dark circles around a huge, empty parking lot. Eventually, after asking three different strangers for directions, we finally found the actual hidden entrance around the back. By the time we sat down, we were practically starving.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "They easily found the restaurant on their very first try.",
+      "They got severely lost before eventually locating the correct entrance.",
+      "They never actually found the restaurant and went home hungry.",
+      "They are currently lost in a dark parking lot right now."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker structure the events in their story using transition markers?"
+  },
+  "explanation": "The speaker uses strong sequence markers ('At first', 'Eventually', 'finally') to clearly structure a chaotic narrative for the listener."
+}

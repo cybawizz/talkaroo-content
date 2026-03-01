@@ -1,0 +1,36 @@
+{
+  "skinId": "skin_online_support_b2",
+  "name": "Online Support Chat",
+  "category": "online",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Support Agent"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Explain your issue clearly, ask for next steps, and confirm what will happen now.",
+    "aiGoal": "Ask clarifying questions, offer a workaround, and confirm what the user wants to do."
+  },
+  "allowedIntents": [
+    "ask_for_help",
+    "ask_follow_up",
+    "clarify_request",
+    "confirm_information",
+    "agree_disagree",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "support",
+    "problem-solving",
+    "clarity"
+  ]
+}

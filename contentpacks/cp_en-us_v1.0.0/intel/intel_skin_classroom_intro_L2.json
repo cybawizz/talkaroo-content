@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_skin_classroom_intro_L2",
+  "skinId": "skin_classroom_intro",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Hello, I'm {name}.",
+      "usage": "Use this simple greeting to tell people your name when you first meet.",
+      "example": "Hello, I'm Maya and I am a very friendly student."
+    },
+    {
+      "text": "Nice to meet you.",
+      "usage": "Say this politely after someone tells you their name for the first time.",
+      "example": "It is nice to meet you in this busy class."
+    },
+    {
+      "text": "I am studying English.",
+      "usage": "Use this to explain your current activity or goal in the language school.",
+      "example": "I am studying English to get a very good job."
+    },
+    {
+      "text": "I want to speak better.",
+      "usage": "Explain your specific motivation for taking this class to your new classmates.",
+      "example": "I want to speak better to have easy daily conversations."
+    },
+    {
+      "text": "For my job.",
+      "usage": "A short way to explain that English is necessary for your professional life.",
+      "example": "I need to learn English for my new exciting job."
+    },
+    {
+      "text": "I learned English at school.",
+      "usage": "Tell others about your previous experience with the language in a different setting.",
+      "example": "I learned English at school as a very young student."
+    },
+    {
+      "text": "I like this class.",
+      "usage": "Express your positive feelings about the current learning environment or the lessons.",
+      "example": "I like this class because the other students are kind."
+    },
+    {
+      "text": "Thank you, teacher.",
+      "usage": "A polite way to show appreciation to your instructor at the end.",
+      "example": "Thank you, teacher, for helping me learn these difficult words."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Friendly",
+      "definition": "Kind and pleasant towards other people in the room."
+    },
+    {
+      "term": "Helpful",
+      "definition": "Willing to help other students with their classroom work."
+    },
+    {
+      "term": "Nervous",
+      "definition": "Feeling a little worried about speaking in a new language."
+    },
+    {
+      "term": "Excited",
+      "definition": "Feeling very happy and enthusiastic about starting a new course."
+    },
+    {
+      "term": "Bright",
+      "definition": "A room or space with a lot of natural light."
+    }
+  ]
+}

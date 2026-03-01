@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_prob_L2_hotel_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 2,
+  "skinId": "skin_hotel_problem",
+  "prompt": "Identify the problem.",
+  "script": "Excuse me, the air conditioning is not working. It does not turn on at all. My room is very hot right now.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Politely getting the receptionist's attention to report an issue",
+      "Apologizing for breaking the AC",
+      "Asking where the bathroom is",
+      "Demanding a new room immediately"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the guest use 'Excuse me'?"
+  },
+  "explanation": "The speaker uses 'Excuse me' to safely get the receptionist's attention before reporting a problem."
+}

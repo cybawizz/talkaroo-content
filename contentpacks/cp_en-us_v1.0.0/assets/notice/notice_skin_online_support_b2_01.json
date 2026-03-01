@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_online_support_b2_01",
+  "skillId": "skill_ask_information_help",
+  "level": 4,
+  "skinId": "skin_online_support_b2",
+  "prompt": "Identify the constraint.",
+  "script": "If you're planning to process that massive data export this afternoon, I really wouldn't recommend using the standard server route. As a matter of fact, the primary database is completely blocked off right now due to some unexpected emergency maintenance. Because of that major system delay, you'll definitely need to use a slight detour through our backup servers. I'd actually highly suggest waiting to run the report until tomorrow morning if possible. It might be a minor inconvenience, but it will absolutely ensure your data doesn't get corrupted.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To provide an undeniable, factual warning that explains why a certain action is highly inadvisable.",
+      "To aggressively complain that the IT department never finishes maintenance on schedule.",
+      "To boast about knowing a secret server command that no other support agent knows.",
+      "To excitedly invite the user to watch the system updates happen in real time."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the support agent use the phrase 'As a matter of fact'?"
+  },
+  "explanation": "The speaker uses 'As a matter of fact' to firmly introduce a concrete, undeniable piece of reality that significantly impacts the user's workflow."
+}

@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_delivery_prob",
+  "skinId": "skin_delivery_problem_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "My order arrived, but...",
+      "usage": "Use this phrase to acknowledge the receipt of the delivery while immediately introducing the specific issue encountered.",
+      "example": "My order arrived, but the package was incomplete because two items were missing from the box."
+    },
+    {
+      "text": "The order number is...",
+      "usage": "Use this phrase to provide the customer service agent with the unique identification code for your purchase.",
+      "example": "The order number is A12345, so you can easily locate my transaction details in your system."
+    },
+    {
+      "text": "Could you send a replacement?",
+      "usage": "Use this phrase to formally request that the company sends a new item to replace the missing or damaged one.",
+      "example": "The product I received is defective, so could you send a replacement to my home address?"
+    },
+    {
+      "text": "Is a refund possible?",
+      "usage": "Use this phrase to inquire about receiving your money back if you no longer want the replacement item.",
+      "example": "I have already purchased the item elsewhere, so is a refund possible instead of a new shipment?"
+    },
+    {
+      "text": "When will it arrive?",
+      "usage": "Use this phrase to ask for a specific delivery date or timeline for the resolution of your issue.",
+      "example": "You have processed the new request, so when will it arrive at my location?"
+    },
+    {
+      "text": "What do you need from me?",
+      "usage": "Use this phrase to ask what documentation or information is required to move forward with your claim.",
+      "example": "I want to ensure all details are correct, so what do you need from me to finalize the return?"
+    },
+    {
+      "text": "Just to confirm, the next step is...",
+      "usage": "Use this phrase to verify the agreed-upon action plan and ensure there is no misunderstanding.",
+      "example": "Just to confirm, the next step is that you will contact the courier because they lost the original package."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Replacement",
+      "definition": "A new item provided to take the place of one that is missing, lost, or damaged."
+    },
+    {
+      "term": "Refund",
+      "definition": "A sum of money that is paid back to a customer who is not satisfied with a product."
+    },
+    {
+      "term": "Transaction",
+      "definition": "The instance of buying or selling something; a business deal."
+    },
+    {
+      "term": "Inventory",
+      "definition": "A complete list of items such as property, goods in stock, or the contents of a building."
+    },
+    {
+      "term": "Resolution",
+      "definition": "The action of solving a problem or finding a satisfactory way to deal with a disagreement."
+    }
+  ]
+}

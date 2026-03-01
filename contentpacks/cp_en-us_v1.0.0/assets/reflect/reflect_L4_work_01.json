@@ -1,0 +1,17 @@
+{
+  "reflectId": "reflect_L4_work_01",
+  "skillId": "skill_manage_conversations",
+  "level": 4,
+  "skinId": "skin_work_meeting_pushback",
+  "prompt": "Say it with structure and next steps.",
+  "items": [
+    {
+      "bad": "This is better. Trust me.",
+      "better": "The evidence suggests this saves time; we can validate with a two-week pilot."
+    },
+    {
+      "bad": "You don’t get it.",
+      "better": "I may not have explained it well—my point is about reducing repeated work."
+    }
+  ]
+}

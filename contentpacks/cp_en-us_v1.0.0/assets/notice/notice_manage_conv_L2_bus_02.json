@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_manage_conv_L2_bus_02",
+  "skillId": "skill_manage_conversations",
+  "level": 2,
+  "skinId": "skin_bus_stop_smalltalk",
+  "prompt": "Identify the meaning.",
+  "script": "Actually, that bus already left. It usually comes at eight in the morning. You missed it.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Sharing a specific fact that corrects an assumption",
+      "Asking for the current time",
+      "Complaining that the bus is late",
+      "Telling someone to sit down"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' do?"
+  },
+  "explanation": "The speaker uses 'Actually' to correct an assumption or share a soft but firm fact about the schedule."
+}

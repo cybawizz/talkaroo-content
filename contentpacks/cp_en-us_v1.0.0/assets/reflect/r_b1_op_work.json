@@ -1,0 +1,14 @@
+{
+  "reflectId": "r_b1_op_work",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_work_policy_opinion",
+  "prompt": "Add a reason.",
+  "items": [
+    {
+      "bad": "Schedule helpful.",
+      "better": "I think the new schedule is helpful. That's because meetings are shorter.",
+      "note": "Opinion + reason."
+    }
+  ]
+}

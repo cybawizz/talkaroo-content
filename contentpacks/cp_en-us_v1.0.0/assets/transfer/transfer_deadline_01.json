@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_deadline_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Apply the same skill in a new setting (volunteer planning).",
+  "newContext": "Community event planning — negotiating roles and timelines.",
+  "transferSkin": {
+    "skinId": "skin_deadline_transfer",
+    "name": "Volunteer Planning",
+    "category": "workplace",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Volunteer"
+      },
+      {
+        "roleId": "ai",
+        "label": "Coordinator"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Negotiate task load.",
+      "aiGoal": "Ensure event success."
+    },
+    "allowedIntents": [
+      "negotiate",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "friendly",
+      "register": "neutral"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

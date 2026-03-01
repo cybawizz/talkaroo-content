@@ -1,0 +1,40 @@
+{
+  "intelId": "intel_skin_day_basic_L1",
+  "skinId": "skin_day_basic",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "I wake up at seven.",
+      "usage": "Use to start your morning routine.",
+      "example": "I wake up at seven."
+    },
+    {
+      "text": "I go to work.",
+      "usage": "Use to talk about leaving home.",
+      "example": "I go to work early."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Morning",
+      "definition": "Early part of the day."
+    },
+    {
+      "term": "Breakfast",
+      "definition": "Your first meal of day."
+    },
+    {
+      "term": "Job",
+      "definition": "The work you do."
+    },
+    {
+      "term": "Night",
+      "definition": "Time when you sleep."
+    },
+    {
+      "term": "Eat",
+      "definition": "To have a meal."
+    }
+  ]
+}

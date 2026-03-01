@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_info_L2_street_02",
+  "skillId": "skill_ask_information_help",
+  "level": 2,
+  "skinId": "skin_street_directions",
+  "prompt": "Identify the follow-up.",
+  "script": "Thank you for the directions. By the way, is it near here? I do not want to walk too far.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "Tacking on an extra question casually",
+      "Apologizing for a mistake",
+      "Saying they are completely lost",
+      "Demanding someone's attention"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'By the way' add to the conversation?"
+  },
+  "explanation": "The speaker uses 'By the way' to comfortably tack on one more related question about the distance."
+}

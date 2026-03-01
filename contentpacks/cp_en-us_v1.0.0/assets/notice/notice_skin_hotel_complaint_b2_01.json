@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_hotel_complaint_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_hotel_complaint_b2",
+  "prompt": "Identify the tone.",
+  "script": "Hi there, I really hate to be a bother, especially since you look quite busy at the front desk. I'm afraid there's a significant issue with the room I was just assigned on the fourth floor. I specifically booked a quiet suite facing the courtyard, but this current room is right next to the noisy elevator shaft. Could you possibly help me get this sorted out, please? I desperately need a solid night of sleep before my important conference tomorrow.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "A formal, exceptionally polite complaint aimed at getting cooperation from hotel staff.",
+      "A furious, extremely rude attack on the incompetent hotel management.",
+      "A sarcastic joke about how loud the hotel elevators always are.",
+      "A casual, friendly conversation meant to make friends with the receptionist."
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the overall tone established by phrases like 'I really hate to be a bother' and 'I'm afraid'?"
+  },
+  "explanation": "The speaker heavily utilizes polite softening phrases ('hate to be a bother', 'I'm afraid') to respectfully lodge a formal complaint without creating immediate conflict."
+}

@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_online_support_b2_B2",
+  "skinId": "skin_online_support_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "Could you walk me through the best option?",
+      "usage": "Use this to request a detailed, step-by-step explanation when presented with multiple potential solutions to a technical issue.",
+      "example": "Given the complexity of the billing error, could you walk me through the best option to ensure my service isn't interrupted?"
+    },
+    {
+      "text": "Just to clarify, you mean…",
+      "usage": "A hedging technique used to verify specific technical details or instructions without appearing to doubt the agent's expertise.",
+      "example": "Just to clarify, you mean I should uninstall the entire suite rather than just clearing the cache?"
+    },
+    {
+      "text": "If that's the case, what would you recommend?",
+      "usage": "Used to seek professional advice after a specific limitation or constraint has been identified in the troubleshooting process.",
+      "example": "If that's the case and the hardware is no longer under warranty, what would you recommend as a cost-effective alternative?"
+    },
+    {
+      "text": "Is there a quicker alternative?",
+      "usage": "An advanced way to inquire about expedited procedures or bypasses when standard protocols are too time-consuming for your needs.",
+      "example": "The standard verification process takes 48 hours; is there a quicker alternative for urgent account recovery?"
+    },
+    {
+      "text": "Roughly how long should I allow?",
+      "usage": "Used to ask for a realistic time estimate while acknowledging that the timeframe may be subject to various external factors.",
+      "example": "Since the server is undergoing maintenance, roughly how long should I allow before I try to re-establish the connection?"
+    },
+    {
+      "text": "What are the key steps I should follow?",
+      "usage": "Requests a summarized sequence of actions to ensure you have a clear roadmap for resolving the issue at hand.",
+      "example": "To avoid any further configuration errors, what are the key steps I should follow when I restart the installation?"
+    },
+    {
+      "text": "Could you point out a landmark I can’t miss?",
+      "usage": "In a software context, use this to ask for a prominent visual element or menu item that helps you navigate a complex user interface.",
+      "example": "I'm struggling to find the settings menu; could you point out a landmark I can’t miss on the primary dashboard?"
+    },
+    {
+      "text": "Does that route avoid the crowded area?",
+      "usage": "Metaphorically used to ask if a proposed solution avoids known technical bottlenecks or common errors associated with a specific process.",
+      "example": "If we reset the permissions now, does that route avoid the crowded area of the database where conflicts usually occur?"
+    },
+    {
+      "text": "So the next step is to…",
+      "usage": "Used to summarize the resolution plan and confirm that both parties are in agreement regarding the subsequent actions.",
+      "example": "So the next step is to upload the diagnostic logs and wait for a confirmation email from the engineering department?"
+    },
+    {
+      "text": "Thanks—I'll do that now.",
+      "usage": "A professional and decisive way to conclude a chat once a clear instruction has been provided and understood.",
+      "example": "That explanation cleared up my confusion regarding the security settings; thanks—I'll do that now."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Escalation",
+      "definition": "The process of transferring a support ticket to a higher-level department when a solution cannot be found initially."
+    },
+    {
+      "term": "Troubleshooting",
+      "definition": "The systematic identification and resolution of malfunctions or problems within a system or piece of equipment."
+    },
+    {
+      "term": "Workaround",
+      "definition": "An alternative method used to achieve a goal when the standard procedure is blocked by a technical issue."
+    },
+    {
+      "term": "Incompatibility",
+      "definition": "A situation where two software or hardware components are unable to operate together without causing errors."
+    },
+    {
+      "term": "Verification",
+      "definition": "The process of establishing the truth, accuracy, or validity of a user's identity or a specific set of data."
+    }
+  ]
+}

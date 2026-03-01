@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_station_01",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_station_basic",
+  "prompt": "Listen for the platform.",
+  "script": "Actually, the train is on platform two. It is very close.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Politely correcting someone's idea",
+      "Saying they missed the train",
+      "Asking for the time",
+      "Stating a rule"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Actually' suggest here?"
+  },
+  "explanation": "The speaker uses 'Actually' to politely correct someone who might have gone to the wrong platform."
+}

@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_street_01",
+  "skillId": "skill_ask_information_help",
+  "level": 3,
+  "skinId": "skin_street_directions",
+  "prompt": "Ask them to repeat the second turn and confirm the landmark.",
+  "setup": "You get directions, but the local speaks quickly.",
+  "aiMove": "Oh, sure! So, like I said, go straight for two blocks, then turn left at the old bank building.",
+  "successCriteria": [
+    "Ask to repeat",
+    "Confirm landmark"
+  ]
+}

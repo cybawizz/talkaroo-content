@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_shop_02",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_shopping_choice",
+  "prompt": "Identify decision.",
+  "script": "Both options have some really great features that I like. The first one is more affordable, but the second one seems much more durable. After weighing all the pros and cons, I'll take this one. It's definitely the smartest long-term investment.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To announce a final decision after considering multiple factors.",
+      "To forcefully demand a refund for a broken item.",
+      "To complain that neither option is good enough.",
+      "To ask the salesperson to choose for them."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'After weighing all the pros and cons'?"
+  },
+  "explanation": "The speaker uses 'After weighing all the pros and cons' to show that their final choice was carefully calculated."
+}

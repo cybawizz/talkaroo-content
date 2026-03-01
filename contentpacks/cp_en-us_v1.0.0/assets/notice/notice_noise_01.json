@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_noise_01",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_roommate_noise",
+  "prompt": "Identify the speaker’s concern.",
+  "script": "Listen, I absolutely don't mind you playing your acoustic guitar in the living room during the afternoon. I'm genuinely fine with hearing your music while I'm making dinner or studying. However, it's getting way too loud after eleven o'clock at night, and I honestly can't sleep with that much noise traveling through the thin walls. Would it be somewhat possible for you to practice earlier in the evening instead? I really need a solid eight hours of sleep before my early morning neurobiology classes.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "The speaker absolutely hates all music and demands total silence in the apartment at all times.",
+      "The speaker actually can’t sleep because the roommate's music is excessively loud super late at night.",
+      "The speaker wants to immediately move out of the apartment because the walls are too thin.",
+      "The speaker is aggressively asking the roommate for money to buy expensive earplugs."
+    ],
+    "answerIndex": 1,
+    "prompt": "How does the speaker soften their complaint before explicitly stating the problem?"
+  },
+  "explanation": "The speaker explicitly uses concession ('I absolutely don't mind...', 'I'm fine with...') to carefully soften the blow before delivering their core late-night complaint."
+}

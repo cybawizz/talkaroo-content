@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_memory_01",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_childhood_memory",
+  "prompt": "Identify the time.",
+  "script": "I grew up in a really small town surrounded by woods. When I was a child, I played outside every single day until the sun went down. Looking back now, it feels like a completely different world. Kids today just don't have that same kind of freedom.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To reflect on the past with a sense of nostalgia from a current perspective.",
+      "To complain that small towns are too boring for kids.",
+      "To boast that they are much older than the listener.",
+      "To apologize for spending too much time outside."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'Looking back now'?"
+  },
+  "explanation": "The speaker uses 'Looking back now' to shift their perspective from the past memory to their present-day feelings about it."
+}

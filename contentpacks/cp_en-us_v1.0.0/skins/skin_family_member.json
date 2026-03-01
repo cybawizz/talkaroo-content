@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_family_member",
+  "name": "Describing Family",
+  "category": "family",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Family Member"
+    },
+    {
+      "roleId": "ai",
+      "label": "Relative"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a family member and their routine and answer one follow-up.",
+    "aiGoal": "Ask for one more detail."
+  },
+  "allowedIntents": [
+    "describe_person",
+    "describe_routine",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "warm",
+    "register": "neutral"
+  },
+  "tags": [
+    "family",
+    "routine"
+  ]
+}

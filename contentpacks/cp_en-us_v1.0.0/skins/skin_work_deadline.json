@@ -1,0 +1,37 @@
+{
+  "skinId": "skin_work_deadline",
+  "name": "Work Deadline Negotiation",
+  "category": "workplace",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Team Member"
+    },
+    {
+      "roleId": "ai",
+      "label": "Project Lead"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Disagree with the deadline, provide reasons, and negotiate a realistic timeline.",
+    "aiGoal": "Push back slightly, ask for a proposal, and confirm the next steps."
+  },
+  "allowedIntents": [
+    "state_position",
+    "disagree",
+    "give_reason",
+    "offer_tradeoff",
+    "negotiate",
+    "confirm_agreement",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "deadline",
+    "planning"
+  ]
+}

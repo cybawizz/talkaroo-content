@@ -1,0 +1,51 @@
+{
+  "intelId": "intel_skin_cafe_greeting_L1",
+  "skinId": "skin_cafe_greeting",
+  "level": 1,
+  "cefrBand": "A1",
+  "phrases": [
+    {
+      "text": "Hello",
+      "usage": "Use this to start a talk.",
+      "example": "Hello. I study here."
+    },
+    {
+      "text": "Good morning",
+      "usage": "Use this in the morning.",
+      "example": "Good morning. I work nearby."
+    },
+    {
+      "text": "Excuse me",
+      "usage": "Use this to get attention.",
+      "example": "Excuse me. I like coffee."
+    },
+    {
+      "text": "Thank you",
+      "usage": "Use this to be polite.",
+      "example": "Thank you. Yes, please."
+    },
+    {
+      "text": "Goodbye",
+      "usage": "Use this when you leave.",
+      "example": "Goodbye. Have a nice day."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Coffee",
+      "definition": "A hot dark drink."
+    },
+    {
+      "term": "Work",
+      "definition": "A job you do."
+    },
+    {
+      "term": "Study",
+      "definition": "To learn at a school."
+    },
+    {
+      "term": "Milk",
+      "definition": "A white drink from cows."
+    }
+  ]
+}

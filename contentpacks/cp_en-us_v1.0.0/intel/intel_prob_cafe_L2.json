@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_prob_cafe_L2",
+  "skinId": "skin_cafe_mistake",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "Excuse me, this is cold.",
+      "usage": "Use this polite expression to tell the waiter your hot drink is not warm enough.",
+      "example": "Excuse me, this hot latte is very cold and old."
+    },
+    {
+      "text": "This is the wrong order.",
+      "usage": "Say this phrase when the server brings a different drink than the one you bought.",
+      "example": "This is the wrong order because I asked for tea."
+    },
+    {
+      "text": "Can you fix it, please?",
+      "usage": "Use this to ask the staff to change or correct a mistake with your drink.",
+      "example": "The drink is not sweet, can you fix it, please?"
+    },
+    {
+      "text": "Can I have a new one?",
+      "usage": "Request a fresh replacement if your current drink is not good to drink.",
+      "example": "My coffee is bitter, can I have a new one?"
+    },
+    {
+      "text": "With milk/sugar, please.",
+      "usage": "Tell the server that you want both milk and sugar in your next drink.",
+      "example": "I would like a small latte with milk and sugar."
+    },
+    {
+      "text": "No sugar, please.",
+      "usage": "Use this to confirm you do not want any sugar in your new coffee.",
+      "example": "I want a fresh black coffee with no sugar, please."
+    },
+    {
+      "text": "I’m sorry about that.",
+      "usage": "A polite way for staff to apologize when a mistake happens at the cafe.",
+      "example": "I am sorry about that, I will help you now."
+    },
+    {
+      "text": "I’ll bring a new one.",
+      "usage": "Use this to tell the customer that a fresh drink is coming very soon.",
+      "example": "Please wait a moment, I will bring a new one."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Bitter",
+      "definition": "A sharp and strong taste that is not sweet."
+    },
+    {
+      "term": "Fresh",
+      "definition": "Something that is newly made and good to consume."
+    },
+    {
+      "term": "Correct",
+      "definition": "Something that is right or exactly what you wanted."
+    },
+    {
+      "term": "Polite",
+      "definition": "Being kind and showing good manners to other people."
+    },
+    {
+      "term": "Sweet",
+      "definition": "Having a pleasant taste like sugar or honey."
+    }
+  ]
+}

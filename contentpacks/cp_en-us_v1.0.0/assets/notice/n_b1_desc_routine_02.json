@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_desc_routine_02",
+  "skillId": "skill_describe_basic",
+  "level": 3,
+  "skinId": "skin_daily_routine_b1",
+  "prompt": "Identify the reason.",
+  "script": "I always make sure to turn off my phone completely for an hour every afternoon. Some people think it's a bit extreme to disconnect like that. However, I do this because it genuinely helps me focus on my writing. It's the only way I can get any deep work done.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To defend a personal habit against potential criticism or misunderstanding.",
+      "To apologize for ignoring someone's phone calls.",
+      "To admit that they have a bad addiction to their smartphone.",
+      "To brag about being better at writing than other people."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker say 'However, I do this because...'?"
+  },
+  "explanation": "The speaker uses 'However, I do this because' to justify an unusual habit by explaining its necessary benefit."
+}

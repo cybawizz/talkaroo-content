@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_landlord_prob",
+  "skinId": "skin_landlord_maintenance_b1",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "There's an issue with...",
+      "usage": "Use this phrase to introduce the specific problem to the landlord or maintenance team in a direct and professional manner.",
+      "example": "There's an issue with the heating system, so the apartment is becoming quite cold."
+    },
+    {
+      "text": "It stopped working this morning.",
+      "usage": "Use this to provide a specific timeline for when the malfunction occurred so the technician can diagnose the cause.",
+      "example": "It stopped working this morning, because of which I could not take a hot shower."
+    },
+    {
+      "text": "Could you arrange a repair?",
+      "usage": "Use this formal request to ask the property manager to coordinate a professional service person to fix the problem.",
+      "example": "Could you arrange a repair because the leak in the bathroom is getting worse?"
+    },
+    {
+      "text": "I'm available after...",
+      "usage": "Use this to state your specific availability for a maintenance visit, ensuring you are present to grant access.",
+      "example": "I'm available after 4:00 p.m. since I have to attend meetings throughout the day."
+    },
+    {
+      "text": "Could we schedule a visit?",
+      "usage": "Use this to formally propose an appointment time for the maintenance staff to enter your residence.",
+      "example": "Could we schedule a visit for tomorrow morning so we can resolve the electrical problem quickly?"
+    },
+    {
+      "text": "Who covers the cost?",
+      "usage": "Use this to clarify financial liability and determine if the tenant or the landlord is responsible for payment.",
+      "example": "Who covers the cost if the damage happened because the equipment is very old?"
+    },
+    {
+      "text": "Okay, that works for me.",
+      "usage": "Use this to confirm that a proposed time or solution is acceptable to you.",
+      "example": "Okay, that works for me because I will be working from home on that day."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Maintenance",
+      "definition": "The work of keeping a building or equipment in good condition through regular repairs."
+    },
+    {
+      "term": "Responsibility",
+      "definition": "The state of being the person who must deal with a task or pay for a service."
+    },
+    {
+      "term": "Malfunction",
+      "definition": "A failure to operate or function in the correct or normal way."
+    },
+    {
+      "term": "Technician",
+      "definition": "A person with special skills or training in a practical subject, such as plumbing or electricity."
+    },
+    {
+      "term": "Landlord",
+      "definition": "A person or organization that owns a building and rents it to others for payment."
+    }
+  ]
+}

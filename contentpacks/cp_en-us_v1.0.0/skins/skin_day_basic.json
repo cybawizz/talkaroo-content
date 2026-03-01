@@ -1,0 +1,30 @@
+{
+  "skinId": "skin_day_basic",
+  "name": "My Day",
+  "category": "routine",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Speaker"
+    },
+    {
+      "roleId": "ai",
+      "label": "Listener"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Describe a daily activity.",
+    "aiGoal": "Acknowledge."
+  },
+  "allowedIntents": [
+    "describe",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "routine"
+  ]
+}

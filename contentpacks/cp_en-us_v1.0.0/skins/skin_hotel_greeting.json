@@ -1,0 +1,31 @@
+{
+  "skinId": "skin_hotel_greeting",
+  "name": "The Hotel Lobby",
+  "category": "service",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Guest"
+    },
+    {
+      "roleId": "ai",
+      "label": "Receptionist"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Greet the receptionist and confirm your room number.",
+    "aiGoal": "Welcome the guest and confirm."
+  },
+  "allowedIntents": [
+    "greet",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "polite",
+    "register": "formal"
+  },
+  "tags": [
+    "travel",
+    "greeting"
+  ]
+}

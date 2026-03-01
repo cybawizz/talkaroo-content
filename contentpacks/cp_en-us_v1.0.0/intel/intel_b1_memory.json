@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_memory",
+  "skinId": "skin_childhood_memory",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "When I was a child, ...",
+      "usage": "Use this phrase to establish the time period and introduce a specific past event or habit.",
+      "example": "When I was a child, I spent my summers in the countryside because my grandparents owned a small farm there."
+    },
+    {
+      "text": "I remember it because...",
+      "usage": "Use this to explain the specific reason why a particular memory remains significant or vivid in your mind.",
+      "example": "I remember it because the experience taught me the importance of patience, so I value that lesson today."
+    },
+    {
+      "text": "Back then, ...",
+      "usage": "Use this to describe the specific circumstances or limitations of the past compared to the present.",
+      "example": "Back then, we did not possess smartphones, so we interacted with each other more frequently in person."
+    },
+    {
+      "text": "These days, ...",
+      "usage": "Use this to contrast modern habits or current technology with how things functioned during your childhood.",
+      "example": "These days, technology dominates our daily routines, whereas my childhood involved more physical activities."
+    },
+    {
+      "text": "It makes me feel...",
+      "usage": "Use this to describe the emotional response or reflection that the memory triggers in your current life.",
+      "example": "It makes me feel accomplished because I managed to overcome a difficult challenge at a very young age."
+    },
+    {
+      "text": "One thing I learned was...",
+      "usage": "Use this to articulate the moral lesson or practical skill you acquired from a past experience.",
+      "example": "One thing I learned was how to collaborate with others effectively because we had to build a treehouse together."
+    },
+    {
+      "text": "It happened in...",
+      "usage": "Use this to provide geographical or environmental context for the event you are describing.",
+      "example": "It happened in a small coastal village, so the sound of the ocean always triggers that specific memory."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Nostalgia",
+      "definition": "A sentimental longing or wistful affection for a period in the past."
+    },
+    {
+      "term": "Recollect",
+      "definition": "The act of remembering or calling to mind a specific event or piece of information."
+    },
+    {
+      "term": "Vivid",
+      "definition": "Producing powerful feelings or strong, clear images in the mind."
+    },
+    {
+      "term": "Significant",
+      "definition": "Sufficiently great or important to be worthy of attention or notice."
+    },
+    {
+      "term": "Influence",
+      "definition": "The capacity to have an effect on the character, development, or behavior of someone."
+    }
+  ]
+}

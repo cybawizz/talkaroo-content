@@ -1,0 +1,70 @@
+{
+  "intelId": "intel_desc_friend_L2",
+  "skinId": "skin_friend_description",
+  "level": 2,
+  "cefrBand": "A2",
+  "phrases": [
+    {
+      "text": "My friend is ...",
+      "usage": "Use this phrase to describe your friend's personality or general character.",
+      "example": "My friend is very kind and helpful to everyone."
+    },
+    {
+      "text": "He/She has ... hair.",
+      "usage": "Use this to give a physical description of your friend's hair.",
+      "example": "She has long brown hair and a very nice smile."
+    },
+    {
+      "text": "He/She wears glasses.",
+      "usage": "Use this when you want to describe a specific facial feature.",
+      "example": "He wears glasses when he reads books at the library."
+    },
+    {
+      "text": "He/She is tall/short.",
+      "usage": "Use this to describe your friend's height to another person.",
+      "example": "She is tall and she likes to play basketball often."
+    },
+    {
+      "text": "He/She works as a ...",
+      "usage": "Use this to answer a question about your friend's specific job.",
+      "example": "He works as a teacher at the local primary school."
+    },
+    {
+      "text": "He/She works in ...",
+      "usage": "Use this to explain the general place or industry of work.",
+      "example": "She works in a large office in the city center."
+    },
+    {
+      "text": "He/She lives nearby.",
+      "usage": "Use this to mention that your friend lives close to you.",
+      "example": "He lives nearby so we see each other every weekend."
+    },
+    {
+      "text": "He/She likes ...",
+      "usage": "Use this to talk about your friend's favorite hobbies or interests.",
+      "example": "She likes listening to pop music in her free time."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Kind",
+      "definition": "Being very nice and helpful to other people."
+    },
+    {
+      "term": "Friendly",
+      "definition": "Being pleasant and easy to talk to other people."
+    },
+    {
+      "term": "Creative",
+      "definition": "Having many new and interesting ideas to share."
+    },
+    {
+      "term": "Busy",
+      "definition": "Having a lot of work or things to do."
+    },
+    {
+      "term": "Helpful",
+      "definition": "Ready to give help to those who need it."
+    }
+  ]
+}

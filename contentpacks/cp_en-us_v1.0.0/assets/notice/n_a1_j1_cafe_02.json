@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j1_cafe_02",
+  "skillId": "skill_manage_conversations",
+  "level": 1,
+  "skinId": "skin_cafe_greeting",
+  "prompt": "How does the speaker feel?",
+  "script": "So, I will have a latte, please. No sugar for me.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Moving the conversation forward to an order",
+      "Refusing to buy anything",
+      "Saying they are angry",
+      "Asking for directions"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'So' here?"
+  },
+  "explanation": "The speaker uses 'So' to transition the conversation from a greeting to placing their order."
+}

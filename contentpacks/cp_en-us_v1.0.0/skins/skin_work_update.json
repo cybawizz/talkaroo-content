@@ -1,0 +1,34 @@
+{
+  "skinId": "skin_work_update",
+  "name": "Work Update",
+  "category": "work",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Employee"
+    },
+    {
+      "roleId": "ai",
+      "label": "Colleague"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Share two work events from today and the result.",
+    "aiGoal": "Ask what you will do next."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "describe_outcome",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "professional",
+    "register": "neutral"
+  },
+  "tags": [
+    "work",
+    "recap"
+  ]
+}

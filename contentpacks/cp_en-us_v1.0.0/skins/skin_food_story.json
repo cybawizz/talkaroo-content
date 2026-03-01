@@ -1,0 +1,33 @@
+{
+  "skinId": "skin_food_story",
+  "name": "Eating Out Yesterday",
+  "category": "food",
+  "roles": [
+    {
+      "roleId": "user",
+      "label": "Customer"
+    },
+    {
+      "roleId": "ai",
+      "label": "Friend"
+    }
+  ],
+  "defaultGoal": {
+    "userGoal": "Say where you ate yesterday and what you ordered, then answer one follow-up about price.",
+    "aiGoal": "Ask if it was expensive."
+  },
+  "allowedIntents": [
+    "share_experience",
+    "describe_event",
+    "respond_follow_up",
+    "close"
+  ],
+  "constraints": {
+    "toneDefault": "friendly",
+    "register": "neutral"
+  },
+  "tags": [
+    "food",
+    "yesterday"
+  ]
+}

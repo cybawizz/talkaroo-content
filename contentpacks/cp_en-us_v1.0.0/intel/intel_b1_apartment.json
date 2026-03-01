@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_apartment",
+  "skinId": "skin_apartment_details",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "It's on the ... floor.",
+      "usage": "Use this expression to specify the vertical position of the apartment within the building structure.",
+      "example": "It's on the fourth floor, so it offers a panoramic view of the city skyline."
+    },
+    {
+      "text": "The living room is...",
+      "usage": "This phrase describes the physical state or atmosphere of the primary living space.",
+      "example": "The living room is exceptionally bright because the windows face the south side of the building."
+    },
+    {
+      "text": "It's next to...",
+      "usage": "Identify the proximity of the apartment to specific building facilities or local landmarks.",
+      "example": "It's next to a large park, so residents can easily access outdoor recreational areas."
+    },
+    {
+      "text": "It's about ... minutes from...",
+      "usage": "Explain the duration of travel to a significant destination to emphasize location convenience.",
+      "example": "It's about ten minutes from the office, because the apartment is situated near the central business district."
+    },
+    {
+      "text": "The room is larger/smaller.",
+      "usage": "Compare the dimensions of a particular room to expectations or other available properties.",
+      "example": "The room is smaller than I anticipated, so I might need to request additional storage space."
+    },
+    {
+      "text": "It's included in the rent.",
+      "usage": "Clarify whether specific utilities or maintenance services are covered by the base monthly payment.",
+      "example": "Water usage is included in the rent, because the management strives to simplify the payment process for tenants."
+    },
+    {
+      "text": "Just to confirm, ... right?",
+      "usage": "Verify a specific detail or condition of the lease to ensure professional clarity and avoid misunderstandings.",
+      "example": "Just to confirm, the building has a 24-hour concierge, right? because I often receive deliveries during the evening."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Lease",
+      "definition": "To grant or occupy a property under the terms of a formal legal contract for a specific period."
+    },
+    {
+      "term": "Renovate",
+      "definition": "To restore a building or room to a better state of repair or a more modern appearance."
+    },
+    {
+      "term": "Commute",
+      "definition": "To travel regularly between one's place of residence and their place of work or study."
+    },
+    {
+      "term": "Maintain",
+      "definition": "To perform regular upkeep and repairs to ensure a property remains in good condition."
+    },
+    {
+      "term": "Occupy",
+      "definition": "To reside in or use a particular space, such as an apartment or office building."
+    }
+  ]
+}

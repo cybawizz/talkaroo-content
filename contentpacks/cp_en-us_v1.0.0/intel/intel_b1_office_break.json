@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_b1_office_break",
+  "skinId": "skin_b1_office_break",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "Did you hear about...?",
+      "usage": "Use this phrase to initiate a conversation or introduce a specific piece of news or a recent update.",
+      "example": "Did you hear about the new policy regarding office hours because management wants to increase flexibility?"
+    },
+    {
+      "text": "Personally, I think ...",
+      "usage": "Use this to express your individual opinion in a professional and respectful manner.",
+      "example": "Personally, I think the change is positive because it allows us to manage our time better."
+    },
+    {
+      "text": "That’s because ...",
+      "usage": "Use this to provide a logical reason or evidence for a statement you have just made.",
+      "example": "That’s because frequent breaks improve focus, so we can maintain high productivity throughout the day."
+    },
+    {
+      "text": "I’m not sure I agree.",
+      "usage": "Use this as a polite way to signal disagreement before explaining your own reasoning.",
+      "example": "I’m not sure I agree, because some departments might struggle to coordinate their schedules."
+    },
+    {
+      "text": "Could you explain what you mean?",
+      "usage": "Use this to ask for clarification when a colleague's point is unclear or needs more detail.",
+      "example": "Could you explain what you mean by 'core hours' so that I can understand the requirement?"
+    },
+    {
+      "text": "On the other hand, ...",
+      "usage": "Use this to introduce a contrasting point or to show the other side of an argument.",
+      "example": "On the other hand, we must ensure the office remains staffed, so we need a fair rotation."
+    },
+    {
+      "text": "From my experience, ...",
+      "usage": "Use this to support your opinion by referring to professional observations you have made in the past.",
+      "example": "From my experience, clear policies prevent confusion among team members."
+    },
+    {
+      "text": "Let’s be realistic, ...",
+      "usage": "Use this to bring the conversation back to practical facts or unavoidable constraints.",
+      "example": "Let’s be realistic, we have deadlines to meet, so we cannot extend the breaks indefinitely."
+    },
+    {
+      "text": "Fair point.",
+      "usage": "Use this to acknowledge that another person's argument is valid, even if you do not fully agree.",
+      "example": "Fair point, but we should monitor the results for a month because data will help us decide."
+    },
+    {
+      "text": "Sounds good.",
+      "usage": "Use this to indicate agreement or to accept a suggestion at the end of a discussion.",
+      "example": "Sounds good, so let’s discuss this further during the next staff meeting."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Policy",
+      "definition": "An official rule or set of guidelines established by an organization."
+    },
+    {
+      "term": "Productivity",
+      "definition": "The efficiency of a person or team in completing tasks and achieving goals."
+    },
+    {
+      "term": "Implement",
+      "definition": "To put a decision, plan, or agreement into official effect."
+    },
+    {
+      "term": "Flexible",
+      "definition": "Able to be modified or adapted to suit different circumstances or needs."
+    },
+    {
+      "term": "Perspective",
+      "definition": "A particular attitude or way of considering a specific matter."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_workstyle_b2_02",
+  "skillId": "skill_describe_basic",
+  "level": 4,
+  "skinId": "skin_workstyle_b2",
+  "prompt": "Identify the follow-up focus.",
+  "script": "I genuinely hear what you're saying about how much you absolutely love working with the new project management software right now. But when you say it's so incredibly intuitive, what do you mean exactly? Are you primarily talking about the daily task tracking, the team communication features, or something else entirely? I'm simply trying to get a much better sense of what makes it so appealing to you on a daily basis. Our current legacy systems are really lacking in basic, user-friendly functionality.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To kindly push for specific details to fully understand a vague professional evaluation.",
+      "To aggressively interrogate a colleague about why they wasted money on new software.",
+      "To boast about knowing more about the company's IT infrastructure than the other person.",
+      "To completely ignore the praise for the software and complain about their computer."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker ask 'what do you mean exactly—task tracking, communication...?'"
+  },
+  "explanation": "The speaker actively guides the conversation by providing concrete examples (task tracking) to help their colleague clarify vague praise."
+}

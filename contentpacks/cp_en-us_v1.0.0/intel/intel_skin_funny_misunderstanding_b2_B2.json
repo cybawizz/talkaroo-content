@@ -1,0 +1,80 @@
+{
+  "intelId": "intel_skin_funny_misunderstanding_b2_B2",
+  "skinId": "skin_funny_misunderstanding_b2",
+  "level": 4,
+  "cefrBand": "B2",
+  "phrases": [
+    {
+      "text": "To give you some context…",
+      "usage": "Used to provide the necessary background information or circumstances surrounding a situation before diving into the core of the story.",
+      "example": "To give you some context, we had been traveling for nearly twenty hours and were significantly deprived of sleep when the incident occurred."
+    },
+    {
+      "text": "At first,…",
+      "usage": "Ideal for establishing the initial, often incorrect, perception of a situation before a misunderstanding is revealed.",
+      "example": "At first, I assumed the clerk was being incredibly hospitable, but I soon realized I had walked into a private residence by mistake."
+    },
+    {
+      "text": "All of a sudden,…",
+      "usage": "Used to introduce a sudden shift or a surprising climax in the narrative to heighten the dramatic or comedic effect.",
+      "example": "All of a sudden, the entire room went silent as they realized I was addressing the wrong person with a rather intimate nickname."
+    },
+    {
+      "text": "What happened was…",
+      "usage": "A common way to transition from the setup to the explanation of the actual event or the specific error made.",
+      "example": "What happened was that I had misinterpreted the idiomatic expression, leading everyone to believe I was resigning from my position."
+    },
+    {
+      "text": "In the end,…",
+      "usage": "Used to wrap up the narrative by describing the final resolution or the state of affairs once the confusion cleared.",
+      "example": "In the end, the misunderstanding served as a perfect icebreaker, and we spent the rest of the evening laughing about the absurdity of it."
+    },
+    {
+      "text": "The best part was…",
+      "usage": "Used to highlight the most humorous or memorable element of the story, often the point of highest irony.",
+      "example": "The best part was realizing that while I was apologizing profusely in broken French, the other person was actually an Australian tourist."
+    },
+    {
+      "text": "Honestly, I didn’t expect…",
+      "usage": "A hedging device used to express genuine surprise or to soften the admission of a mistake.",
+      "example": "Honestly, I didn’t expect my attempt at a local custom to be interpreted as a formal marriage proposal, but the reaction was unmistakable."
+    },
+    {
+      "text": "Looking back,…",
+      "usage": "Used to provide a reflective perspective, showing that the speaker has gained insight since the event took place.",
+      "example": "Looking back, the signs of confusion were quite evident, yet I was too focused on my own delivery to notice the awkward silence."
+    },
+    {
+      "text": "If I’m honest,…",
+      "usage": "A subtle way to add a layer of vulnerability or sincerity when admitting one's own role in a funny blunder.",
+      "example": "If I’m honest, I was slightly overconfident in my linguistic abilities, which is precisely what led to the comical mix-up at the bakery."
+    },
+    {
+      "text": "The main takeaway was…",
+      "usage": "Used to conclude the story by stating the abstract lesson or insight learned from the experience.",
+      "example": "The main takeaway was that a little bit of cultural humility goes a long way, especially when you are navigating unfamiliar social norms."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Ambiguity",
+      "definition": "The quality of being open to more than one interpretation; inexactness."
+    },
+    {
+      "term": "Mortified",
+      "definition": "Feeling extremely embarrassed, ashamed, or humiliated."
+    },
+    {
+      "term": "Inadvertently",
+      "definition": "Without intention; accidentally or by mistake."
+    },
+    {
+      "term": "Nuance",
+      "definition": "A subtle difference in or shade of meaning, expression, or sound."
+    },
+    {
+      "term": "Blunder",
+      "definition": "A stupid or careless mistake, often resulting from a lack of understanding."
+    }
+  ]
+}

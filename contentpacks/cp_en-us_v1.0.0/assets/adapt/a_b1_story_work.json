@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_story_work",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_work_update",
+  "prompt": "Explain how you will adjust your plan.",
+  "setup": "You recap your morning, but a new urgent task appears.",
+  "aiMove": "I hear you, but the boss just sent an email—we have a new urgent deadline for tomorrow morning.",
+  "successCriteria": [
+    "Acknowledge new task",
+    "Adjust plan"
+  ]
+}

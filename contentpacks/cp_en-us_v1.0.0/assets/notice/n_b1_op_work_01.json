@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_op_work_01",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_work_policy_opinion",
+  "prompt": "Identify the concern.",
+  "script": "I understand that we need to increase our output to meet the new company goals. However, we're already putting in a lot of unpaid overtime every week. Ultimately, my main concern is work-life balance for the team. If we push people too hard, they are just going to quit.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To summarize the core issue they are worried about after providing context.",
+      "To angrily refuse to do any more work for the company.",
+      "To boast about how much free time they have after work.",
+      "To complain about their salary being too low."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Ultimately, my main concern is...'?"
+  },
+  "explanation": "The speaker uses 'Ultimately, my main concern is...' to focus the conversation on their primary, fundamental issue."
+}

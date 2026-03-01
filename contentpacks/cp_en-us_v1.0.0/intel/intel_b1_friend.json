@@ -1,0 +1,65 @@
+{
+  "intelId": "intel_b1_friend",
+  "skinId": "skin_friend_profile",
+  "level": 3,
+  "cefrBand": "B1",
+  "phrases": [
+    {
+      "text": "He's/She's kind and outgoing.",
+      "usage": "Use this structure to provide a concise summary of a person's primary character traits during an introduction.",
+      "example": "She's kind and outgoing, so she makes friends easily because she enjoys attending social events."
+    },
+    {
+      "text": "He/She has ... hair.",
+      "usage": "Use this phrase to specify a person's physical appearance, particularly when describing hair color or texture.",
+      "example": "He has short curly hair, which makes him look quite youthful because of the style's texture."
+    },
+    {
+      "text": "He/She wears glasses.",
+      "usage": "Use this expression to mention a consistent physical accessory that defines a person's daily appearance.",
+      "example": "She wears glasses at work because she spends many hours analyzing complex data on her computer screen."
+    },
+    {
+      "text": "He/She works as a ...",
+      "usage": "Use this specific verb construction to identify a person's professional occupation or job title within a formal context.",
+      "example": "He works as a graphic designer, so he spends his day creating visual content because he is highly imaginative."
+    },
+    {
+      "text": "Most of the time, he/she...",
+      "usage": "Use this frequency adverbial to explain a regular habit or a typical professional routine the person follows.",
+      "example": "Most of the time, she works from home because her employer offers a flexible remote schedule."
+    },
+    {
+      "text": "What I like most is...",
+      "usage": "Use this emphatic structure to highlight and explain a specific quality you appreciate about your friend's character.",
+      "example": "What I like most is his sense of humor because it helps everyone feel relaxed so the environment stays positive."
+    },
+    {
+      "text": "Compared to me, ...",
+      "usage": "Use this comparative phrase to analyze the differences in personality or habits between yourself and another person.",
+      "example": "Compared to me, she is more organized, so she manages her time efficiently because she uses a digital planner."
+    }
+  ],
+  "keyVocabulary": [
+    {
+      "term": "Outgoing",
+      "definition": "A character trait describing a person who is friendly and enjoys social interaction."
+    },
+    {
+      "term": "Organized",
+      "definition": "The ability to plan activities and handle tasks in an efficient and orderly way."
+    },
+    {
+      "term": "Graphic designer",
+      "definition": "A professional who utilizes software and creativity to produce visual concepts and layouts."
+    },
+    {
+      "term": "Sense of humor",
+      "definition": "The capacity to perceive, enjoy, or express what is amusing or comical."
+    },
+    {
+      "term": "Analyze",
+      "definition": "To examine something in detail in order to understand its nature or determine its features."
+    }
+  ]
+}

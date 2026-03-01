@@ -1,0 +1,13 @@
+{
+  "adaptId": "a_b1_op_shop",
+  "skillId": "skill_express_opinions",
+  "level": 3,
+  "skinId": "skin_shopping_choice",
+  "prompt": "Explain your priorities and pick an alternative.",
+  "setup": "You choose a product, but the item you want is out of stock.",
+  "aiMove": "I'm sorry, but that specific model is actually out of stock right now. I have a similar one here, though.",
+  "successCriteria": [
+    "Explain priorities",
+    "Pick an alternative"
+  ]
+}

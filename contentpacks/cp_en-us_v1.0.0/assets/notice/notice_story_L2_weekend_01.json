@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_weekend_01",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_recent_weekend",
+  "prompt": "Identify the time.",
+  "script": "I did not stay home this weekend. Actually, last Saturday, I met a friend at two. We went to the park.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Correcting a casual assumption about their weekend",
+      "Bragging about having many friends",
+      "Demanding to know the current time",
+      "Saying they slept all day"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does 'Actually' do here?"
+  },
+  "explanation": "The speaker uses 'Actually' to gently correct an assumption about what they did over the weekend."
+}

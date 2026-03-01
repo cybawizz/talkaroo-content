@@ -1,0 +1,39 @@
+{
+  "transferId": "transfer_abstract_01",
+  "skillId": "skill_abstract_professional",
+  "level": 4,
+  "skinId": "skin_public_opinion_topic",
+  "gatedBy": "transferEnabled",
+  "prompt": "Transfer: Discuss the same topic in a new setting (panel discussion).",
+  "newContext": "Community panel — structured argument with Q&A.",
+  "transferSkin": {
+    "skinId": "skin_abstract_transfer",
+    "name": "Panel Discussion",
+    "category": "abstract_social",
+    "roles": [
+      {
+        "roleId": "user",
+        "label": "Speaker"
+      },
+      {
+        "roleId": "ai",
+        "label": "Moderator"
+      }
+    ],
+    "defaultGoal": {
+      "userGoal": "Present a view.",
+      "aiGoal": "Challenge for depth."
+    },
+    "allowedIntents": [
+      "express_opinion",
+      "close"
+    ],
+    "constraints": {
+      "toneDefault": "thoughtful",
+      "register": "neutral"
+    },
+    "tags": [
+      "transfer"
+    ]
+  }
+}

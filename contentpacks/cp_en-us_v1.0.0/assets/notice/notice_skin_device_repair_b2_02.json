@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_device_repair_b2_02",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_device_repair_b2",
+  "prompt": "Identify the negotiation move.",
+  "script": "I completely understand that your top technicians are fully booked right now with other appointments. However, I genuinely can't really afford to leave my laptop here for another entire week waiting for diagnostic tests. If looking at the screen issue isn't possible today, could we perhaps schedule a dedicated repair slot for tomorrow morning instead? I practically beg you, as I really need this machine working perfectly for my presentation. I can drop it off right when the shop opens at eight.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To proactively propose a mutually acceptable alternative when the initial request is denied.",
+      "To aggressively demand a massive refund for the entire repair bill.",
+      "To angrily complain about the incompetent technicians.",
+      "To happily announce that they will just buy a brand new computer instead."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use the conditional phrase 'If looking at the screen issue isn't possible today...?'"
+  },
+  "explanation": "The speaker utilizes a conditional structure ('If... then...') to gracefully pivot from a blocked path to a workable, negotiated compromise."
+}

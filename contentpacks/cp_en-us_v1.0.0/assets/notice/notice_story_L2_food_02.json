@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_story_L2_food_02",
+  "skillId": "skill_share_experiences",
+  "level": 2,
+  "skinId": "skin_food_story",
+  "prompt": "Identify the price idea.",
+  "script": "The food was completely delicious. I was worried about the bill. Luckily, it was not expensive.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Expressing relief about a positive surprise",
+      "Complaining about the high cost of food",
+      "Asking someone for a discount",
+      "Refusing to pay the bill"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Luckily'?"
+  },
+  "explanation": "The speaker uses 'Luckily' to express relief and highlight a positive surprise at the end of their meal."
+}

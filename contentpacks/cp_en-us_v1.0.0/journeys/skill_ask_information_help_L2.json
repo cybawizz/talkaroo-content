@@ -1,0 +1,97 @@
+{
+  "journeyId": "skill_ask_information_help_L2",
+  "skill": {
+    "cefrBand": "A2",
+    "level": 2
+  },
+  "skins": [
+    "skin_street_directions",
+    "skin_bus_station_help",
+    "skin_hotel_reception",
+    "skin_mall_info"
+  ],
+  "intelPacks": [
+    "intel_street_L2",
+    "intel_bus_station_L2",
+    "intel_hotel_L2",
+    "intel_mall_L2"
+  ],
+  "noticeAssets": [
+    "notice_info_L2_street_01",
+    "notice_info_L2_street_02",
+    "notice_info_L2_bus_01",
+    "notice_info_L2_bus_02",
+    "notice_info_L2_hotel_01",
+    "notice_info_L2_hotel_02",
+    "notice_info_L2_mall_01",
+    "notice_info_L2_mall_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [
+    "reflect_info_L2_street",
+    "reflect_info_L2_bus",
+    "reflect_info_L2_hotel",
+    "reflect_info_L2_mall"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_ask_information_help_L2",
+    "skillId": "skill_ask_information_help",
+    "level": 2,
+    "frames": [
+      {
+        "frameId": "f_polite_open",
+        "pattern": "Excuse me, could you help me?",
+        "slots": [],
+        "notes": "Polite opener."
+      },
+      {
+        "frameId": "f_ask_where",
+        "pattern": "Where is the {place}?",
+        "slots": [
+          "place"
+        ],
+        "notes": "Asking location."
+      },
+      {
+        "frameId": "f_follow_up_dist",
+        "pattern": "Is it near here?",
+        "slots": [],
+        "notes": "Distance follow-up."
+      },
+      {
+        "frameId": "f_direction",
+        "pattern": "Do I turn {dir} at the {landmark}?",
+        "slots": [
+          "dir",
+          "landmark"
+        ],
+        "notes": "Confirming a direction detail."
+      },
+      {
+        "frameId": "f_floor",
+        "pattern": "Which floor is it on?",
+        "slots": [],
+        "notes": "Asking floor."
+      },
+      {
+        "frameId": "f_confirm",
+        "pattern": "So, {detail}, right?",
+        "slots": [
+          "detail"
+        ],
+        "notes": "Simple confirmation."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Could you repeat that slowly?",
+        "notes": "Request repetition."
+      },
+      {
+        "text": "Sorry, I’m a bit lost.",
+        "notes": "Explain difficulty."
+      }
+    ]
+  }
+}

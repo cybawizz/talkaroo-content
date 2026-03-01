@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_b1_story_02",
+  "skillId": "skill_share_experiences",
+  "level": 3,
+  "skinId": "skin_weekend_story",
+  "prompt": "Identify the feeling.",
+  "script": "The hiking trip up the mountain was incredibly exhausting, but the views were worth it. We barely had any cell service out there in the woods. Ultimately, I felt so much more relaxed and grounded after the trip. It was exactly what I needed to disconnect from work.",
+  "question": {
+    "type": "intent_pick",
+    "options": [
+      "To summarize the final, overarching consequence of an experience.",
+      "To complain about the terrible cell phone service on the mountain.",
+      "To forcefully argue that everyone needs to go hiking.",
+      "To apologize for ignoring emails from their boss."
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Ultimately'?"
+  },
+  "explanation": "The speaker uses 'Ultimately' to distill a complex experience down to its final, most significant outcome."
+}

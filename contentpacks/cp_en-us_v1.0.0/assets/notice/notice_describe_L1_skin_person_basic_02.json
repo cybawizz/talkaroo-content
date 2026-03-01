@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_person_basic_02",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_person_basic",
+  "prompt": "What does he do?",
+  "script": "Then, I quickly get ready. I go to work at eight. My office is near here.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Showing the next thing that happens",
+      "Disagreeing completely",
+      "Finishing a conversation",
+      "Asking for someone's help"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Then'?"
+  },
+  "explanation": "The speaker uses 'Then' to signal the next step in their daily routine."
+}

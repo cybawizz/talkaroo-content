@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_describe_L1_skin_person_basic_01",
+  "skillId": "skill_describe_basic",
+  "level": 1,
+  "skinId": "skin_person_basic",
+  "prompt": "Choose the correct meaning.",
+  "script": "Well, I don't sleep much. I wake up at seven. I drink some coffee.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Hesitating before sharing a fact",
+      "Asking a question",
+      "Saying a polite hello",
+      "Giving an order"
+    ],
+    "answerIndex": 0,
+    "prompt": "What does the word 'Well' suggest here?"
+  },
+  "explanation": "The speaker uses 'Well' to show a slight hesitation before giving a personal detail."
+}

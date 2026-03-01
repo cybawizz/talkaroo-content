@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_deadline_02",
+  "skillId": "skill_disagreement_negotiation",
+  "level": 4,
+  "skinId": "skin_work_deadline",
+  "prompt": "Identify the proposal.",
+  "script": "It clearly sounds like the engineering team needs two full weeks of testing, but the marketing team absolutely insists on a launch announcement by Tuesday. We are fundamentally stuck between a rock and a hard place right now. As a reasonable compromise, perhaps we can ship an exclusive closed beta next week, and then deploy the full public version the week after? That strategy completely satisfies marketing's timeline while actively giving engineering the safety buffer they so desperately need. It honestly seems like the absolutely only workable solution.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "To aggressively suggest they totally cancel the project and ship absolutely nothing at all.",
+      "To proactively propose breaking the massive software launch into two totally separate, manageable stages.",
+      "To stubbornly insist that they delay the entire app release until sometime much later this year.",
+      "To angrily suggest that they only ship the UI design files instead of the actual functional code."
+    ],
+    "answerIndex": 1,
+    "prompt": "Why does the manager introduce their idea with the phrase 'As a reasonable compromise'?"
+  },
+  "explanation": "The speaker uses 'As a compromise' to explicitly frame their multi-stage shipping plan as a fair, negotiated middle-ground between two conflicting departments."
+}

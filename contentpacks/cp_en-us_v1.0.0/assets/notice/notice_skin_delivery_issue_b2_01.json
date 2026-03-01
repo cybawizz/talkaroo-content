@@ -1,0 +1,20 @@
+{
+  "noticeId": "notice_skin_delivery_issue_b2_01",
+  "skillId": "skill_deal_with_problems",
+  "level": 4,
+  "skinId": "skin_delivery_issue_b2",
+  "prompt": "Identify the tone.",
+  "script": "Hi, I really hate to be a bother, but I think there's been a slight mistake with my recent delivery. I'm afraid there's an issue with the specific items included in my order this afternoon. I ordered the premium noise-cancelling headphones, but I unfortunately received a standard pair instead. Could you possibly help me get this sorted out, please? I have the detailed email receipt right here if you need to verify my order number.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "A formal, exceptionally polite complaint aimed at getting cooperation.",
+      "A furious, extremely rude attack on the delivery company.",
+      "A sarcastic joke about how bad the delivery service is.",
+      "A casual conversation meant to make friends with the customer service agent."
+    ],
+    "answerIndex": 0,
+    "prompt": "What is the overall tone established by phrases like 'I really hate to be a bother' and 'I'm afraid'?"
+  },
+  "explanation": "The speaker heavily utilizes polite softening phrases ('hate to be a bother', 'I'm afraid') to respectfully lodge a complaint without creating immediate conflict."
+}

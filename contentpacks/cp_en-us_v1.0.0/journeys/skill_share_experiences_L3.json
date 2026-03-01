@@ -1,0 +1,117 @@
+{
+  "journeyId": "skill_share_experiences_L3",
+  "skill": {
+    "cefrBand": "B1",
+    "level": 3
+  },
+  "skins": [
+    "skin_weekend_story",
+    "skin_travel_mishap",
+    "skin_work_update",
+    "skin_childhood_memory",
+    "skin_recent_event"
+  ],
+  "intelPacks": [
+    "intel_b1_weekend",
+    "intel_b1_travel",
+    "intel_b1_work",
+    "intel_b1_memory",
+    "intel_b1_recent"
+  ],
+  "noticeAssets": [
+    "n_b1_story_01",
+    "n_b1_story_02",
+    "n_b1_travel_01",
+    "n_b1_travel_02",
+    "n_b1_work_01",
+    "n_b1_work_02",
+    "n_b1_memory_01",
+    "n_b1_memory_02",
+    "n_b1_recent_01",
+    "n_b1_recent_02"
+  ],
+  "adaptAssets": [
+    "a_b1_story_weekend",
+    "a_b1_story_travel",
+    "a_b1_story_work",
+    "a_b1_story_memory",
+    "a_b1_story_recent"
+  ],
+  "reflectAssets": [
+    "r_b1_story_weekend",
+    "r_b1_story_travel",
+    "r_b1_story_work",
+    "r_b1_story_memory",
+    "r_b1_story_recent"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_b1_stories",
+    "skillId": "skill_share_experiences",
+    "level": 3,
+    "frames": [
+      {
+        "frameId": "f_seq3",
+        "pattern": "First {a1}. Then {a2}. After that {a3}.",
+        "slots": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "notes": "3-step sequence."
+      },
+      {
+        "frameId": "f_time",
+        "pattern": "It happened around {time}.",
+        "slots": [
+          "time"
+        ],
+        "notes": "Time marker."
+      },
+      {
+        "frameId": "f_feel",
+        "pattern": "I felt {feeling} because {reason}.",
+        "slots": [
+          "feeling",
+          "reason"
+        ],
+        "notes": "Feeling + reason."
+      },
+      {
+        "frameId": "f_problem_solution",
+        "pattern": "I {problem}, so I decided to {solution}.",
+        "slots": [
+          "problem",
+          "solution"
+        ],
+        "notes": "Problem -> solution."
+      },
+      {
+        "frameId": "f_outcome",
+        "pattern": "In the end, {outcome}.",
+        "slots": [
+          "outcome"
+        ],
+        "notes": "Outcome."
+      },
+      {
+        "frameId": "f_followup_answer",
+        "pattern": "After that, I {next}.",
+        "slots": [
+          "next"
+        ],
+        "notes": "Answer follow-up."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Let me start again from the beginning.",
+        "notes": "Reset the story."
+      },
+      {
+        "text": "I don't remember the exact time, but it was in the afternoon.",
+        "notes": "Time fallback."
+      }
+    ]
+  }
+}

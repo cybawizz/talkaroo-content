@@ -1,0 +1,98 @@
+{
+  "journeyId": "skill_deal_with_problems_L2",
+  "skill": {
+    "cefrBand": "A2",
+    "level": 2
+  },
+  "skins": [
+    "skin_hotel_problem",
+    "skin_cafe_mistake",
+    "skin_shop_return",
+    "skin_device_issue"
+  ],
+  "intelPacks": [
+    "intel_prob_hotel_L2",
+    "intel_prob_cafe_L2",
+    "intel_prob_shop_L2",
+    "intel_prob_device_L2"
+  ],
+  "noticeAssets": [
+    "notice_prob_L2_hotel_01",
+    "notice_prob_L2_hotel_02",
+    "notice_prob_L2_cafe_01",
+    "notice_prob_L2_cafe_02",
+    "notice_prob_L2_shop_01",
+    "notice_prob_L2_shop_02",
+    "notice_prob_L2_device_01",
+    "notice_prob_L2_device_02"
+  ],
+  "adaptAssets": [],
+  "reflectAssets": [
+    "reflect_prob_hotel",
+    "reflect_prob_cafe",
+    "reflect_prob_shop",
+    "reflect_prob_device"
+  ],
+  "transferAssets": [],
+  "buildFrameSet": {
+    "frameSetId": "frames_skill_deal_with_problems_L2",
+    "skillId": "skill_deal_with_problems",
+    "level": 2,
+    "frames": [
+      {
+        "frameId": "f_report",
+        "pattern": "Excuse me, I have a problem. The {item} is not working.",
+        "slots": [
+          "item"
+        ],
+        "notes": "Report a problem."
+      },
+      {
+        "frameId": "f_ask_help",
+        "pattern": "Can you help me, please?",
+        "slots": [],
+        "notes": "Ask for help."
+      },
+      {
+        "frameId": "f_room",
+        "pattern": "My room number is {number}.",
+        "slots": [
+          "number"
+        ],
+        "notes": "Give room number."
+      },
+      {
+        "frameId": "f_replace",
+        "pattern": "Can I have a new {item}, please?",
+        "slots": [
+          "item"
+        ],
+        "notes": "Request replacement."
+      },
+      {
+        "frameId": "f_refund",
+        "pattern": "Can I get a refund, please?",
+        "slots": [],
+        "notes": "Refund request."
+      },
+      {
+        "frameId": "f_confirm",
+        "pattern": "So, {plan}, right?",
+        "slots": [
+          "plan"
+        ],
+        "notes": "Confirm plan."
+      }
+    ],
+    "escapePhrases": [
+      {
+        "text": "Can you repeat the solution?",
+        "notes": "Clarify fix."
+      },
+      {
+        "text": "I am not sure what you mean.",
+        "notes": "Confusion."
+      }
+    ]
+  }
+}

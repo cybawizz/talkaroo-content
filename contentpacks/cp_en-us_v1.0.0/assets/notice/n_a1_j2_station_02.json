@@ -1,0 +1,20 @@
+{
+  "noticeId": "n_a1_j2_station_02",
+  "skillId": "skill_ask_information_help",
+  "level": 1,
+  "skinId": "skin_station_basic",
+  "prompt": "Is the train coming?",
+  "script": "Look, the train is arriving now. We need to hurry.",
+  "question": {
+    "type": "meaning_pick",
+    "options": [
+      "Getting someone to look at something important",
+      "Saying they disagree with a fact",
+      "Asking a question about the time",
+      "Ending the conversation"
+    ],
+    "answerIndex": 0,
+    "prompt": "Why does the speaker use 'Look'?"
+  },
+  "explanation": "The speaker uses 'Look' to draw the listener's immediate attention to the arriving train."
+}
